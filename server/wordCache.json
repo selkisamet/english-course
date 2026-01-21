@@ -28,5 +28,35 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-01-21T06:53:43.334Z"
+  },
+  "john": {
+    "word": "john",
+    "nlp": {
+      "word": "john",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "john"
+    },
+    "translation": "John",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:10:06.892Z"
+  },
+  "have": {
+    "word": "have",
+    "nlp": {
+      "word": "have",
+      "pos": "Verb",
+      "tense": "Base form",
+      "isModal": false,
+      "isAuxiliary": true,
+      "root": "have"
+    },
+    "translation": "var",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:10:10.164Z"
   }
 }
