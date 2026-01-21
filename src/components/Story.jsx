@@ -5,6 +5,7 @@ import './Story.css'
 function Story({ story }) {
   const [selectedWord, setSelectedWord] = useState(null)
   const [selectedWordIndex, setSelectedWordIndex] = useState(null)
+  const [speakingWordIndex, setSpeakingWordIndex] = useState(null)
 
   const handleWordClick = (event, word, index) => {
     event.preventDefault()
@@ -27,11 +28,47 @@ function Story({ story }) {
     if ('speechSynthesis' in window) {
       // Önceki konuşmayı durdur
       window.speechSynthesis.cancel()
+      setSpeakingWordIndex(null)
 
+      const words = story.text.split(' ')
       const utterance = new SpeechSynthesisUtterance(story.text)
       utterance.lang = 'en-US'
-      utterance.rate = 0.9 // Biraz daha yavaş konuşma
+      utterance.rate = 0.9
       utterance.pitch = 1
+
+      // Her kelime için ortalama süre (ms) - rate 0.9 için yaklaşık
+      const avgWordDuration = 350
+
+      let currentWordIndex = 0
+      let interval = null
+
+      // Okuma başladığında
+      utterance.onstart = () => {
+        setSpeakingWordIndex(0)
+        currentWordIndex = 0
+
+        // Her kelime için zamanlayıcı
+        interval = setInterval(() => {
+          currentWordIndex++
+          if (currentWordIndex < words.length) {
+            setSpeakingWordIndex(currentWordIndex)
+          } else {
+            if (interval) clearInterval(interval)
+          }
+        }, avgWordDuration)
+      }
+
+      // Okuma bittiğinde temizle
+      utterance.onend = () => {
+        if (interval) clearInterval(interval)
+        setSpeakingWordIndex(null)
+      }
+
+      utterance.onerror = () => {
+        if (interval) clearInterval(interval)
+        setSpeakingWordIndex(null)
+      }
+
       window.speechSynthesis.speak(utterance)
     } else {
       alert('Tarayıcınız sesli okuma özelliğini desteklemiyor.')
@@ -41,6 +78,7 @@ function Story({ story }) {
   const stopSpeaking = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel()
+      setSpeakingWordIndex(null)
     }
   }
 
@@ -65,7 +103,7 @@ function Story({ story }) {
         {words.map((word, index) => (
           <span
             key={index}
-            className={`word ${selectedWordIndex === index ? 'selected' : ''}`}
+            className={`word ${selectedWordIndex === index ? 'selected' : ''} ${speakingWordIndex === index ? 'speaking' : ''}`}
             onClick={(e) => handleWordClick(e, word, index)}
           >
             {word}{' '}

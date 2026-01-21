@@ -84,6 +84,24 @@
   font-weight: 600;
 }
 
+.word.speaking {
+  background: #11998e;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(17, 153, 142, 0.6);
+  font-weight: 600;
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .story-header {
