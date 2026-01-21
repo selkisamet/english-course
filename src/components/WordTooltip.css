@@ -1,0 +1,341 @@
+.tooltip-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: overlayFadeIn 0.2s ease;
+}
+
+.tooltip {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  animation: tooltipFadeIn 0.2s ease;
+}
+
+.tooltip-arrow {
+  display: none;
+}
+
+.tooltip-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  min-width: 250px;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.tooltip-word {
+  font-size: 1.3rem;
+  color: #667eea;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tooltip-close {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.tooltip-close:hover {
+  background: #f8f9fa;
+  color: #333;
+}
+
+.tooltip-translation {
+  margin-bottom: 15px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.tooltip-translation .loading {
+  color: #999;
+  font-style: italic;
+}
+
+/* Translation Section */
+.translation-section {
+  margin-bottom: 16px;
+  padding: 14px;
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #333;
+  border: 2px solid #667eea40;
+}
+
+.translation-section strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+/* Context Section */
+.context-section {
+  margin-bottom: 16px;
+  padding: 14px;
+  background: linear-gradient(135deg, #38ef7d15 0%, #11998e15 100%);
+  border-radius: 8px;
+  border: 2px solid #11998e40;
+}
+
+.context-sentence {
+  margin-bottom: 12px;
+}
+
+.context-sentence strong {
+  color: #11998e;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.sentence-text {
+  margin: 0;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.context-translation {
+  margin-top: 8px;
+}
+
+.context-translation strong {
+  color: #11998e;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.translation-text {
+  margin: 0;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* NLP Info Section */
+.nlp-info {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-left: 3px solid #667eea;
+  border-radius: 6px;
+}
+
+.info-row {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.info-row:last-child {
+  margin-bottom: 0;
+}
+
+.info-row strong {
+  color: #667eea;
+  margin-right: 6px;
+}
+
+.verb-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.verb-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border-left: 3px solid #667eea;
+}
+
+.verb-label {
+  color: #667eea !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  margin-bottom: 4px !important;
+}
+
+.verb-forms span {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* LLM Info Section */
+.llm-info {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.llm-loading {
+  padding: 12px;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  font-size: 0.9rem;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-section {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.info-section:last-child {
+  margin-bottom: 0;
+}
+
+.info-section strong {
+  color: #764ba2;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.info-section ul {
+  margin: 6px 0 0 0;
+  padding-left: 20px;
+}
+
+.info-section li {
+  margin-bottom: 4px;
+  color: #555;
+  font-size: 0.85rem;
+}
+
+.loading {
+  color: #999;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+}
+
+.error {
+  color: #dc3545;
+  padding: 12px;
+  background: #f8d7da;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.tooltip-speak-button {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.tooltip-speak-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+}
+
+.tooltip-speak-button:active {
+  transform: translateY(0);
+}
+
+@keyframes overlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tooltip-content {
+    min-width: 280px;
+    max-width: 90vw;
+  }
+
+  .tooltip-word {
+    font-size: 1.2rem;
+  }
+
+  .tooltip-speak-button {
+    padding: 14px;
+  }
+}

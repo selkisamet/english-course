@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(del serverclaudeAnalyzer.js)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout /t 3 /nobreak)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(node server/index.js:*)",
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(test:*)",
+      "Bash(npm:*)",
+      "Bash(node --version:*)",
+      "Bash(taskkill /PID 16804 /F)",
+      "Bash(cmd //c \"taskkill /PID 16804 /F\")",
+      "Bash(taskkill /F /PID 16920)",
+      "Bash(powershell \"Stop-Process -Id 16920 -Force\")",
+      "Bash(dir:*)",
+      "Bash(powershell \"cd ''c:\\\\Users\\\\Samet\\\\Desktop\\\\Apps\\\\english-course''; npm install wink-nlp wink-eng-lite-web-model\")"
+    ]
+  }
+}
