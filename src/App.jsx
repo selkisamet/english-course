@@ -1,19 +1,74 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Story from './components/Story'
 import './App.css'
 
-// Örnek hikaye
-const sampleStory = {
-  title: "The Little Garden",
-  text: "This is Ali. He is 25 years old and he lives in Turkey. He works in an office and he works five days a week. Every morning, he takes the bus to go to work. One day, Ali is very tired because he wakes up early and feels sleepy. He goes to a coffee shop and orders one coffee. The coffee is hot. Ali sits near the window and looks outside. People walk fast on the street. Ali drinks his coffee, feels better, and smiles. After coffee, he goes to work and has a good day."
-}
-
 function App() {
+  const [stories, setStories] = useState([])
+  const [selectedStory, setSelectedStory] = useState(null)
+  const [isLoadingStories, setIsLoadingStories] = useState(true)
   const [showTranslation, setShowTranslation] = useState(false)
   const [fullTranslation, setFullTranslation] = useState('')
   const [isTranslating, setIsTranslating] = useState(false)
 
+  useEffect(() => {
+    fetchStories()
+  }, [])
+
+  const fetchStories = async () => {
+    try {
+      const response = await fetch('http://localhost:3001/api/stories')
+      if (!response.ok) {
+        throw new Error('Failed to fetch stories')
+      }
+      const data = await response.json()
+      setStories(data)
+
+      if (data.length > 0) {
+        // localStorage'dan seçili hikayeyi kontrol et
+        const savedStoryId = localStorage.getItem('selectedStoryId')
+        const savedStory = savedStoryId ? data.find(s => s.id === savedStoryId) : null
+
+        // Eğer kaydedilmiş hikaye varsa onu seç, yoksa ilk hikayeyi seç
+        const storyToSelect = savedStory || data[0]
+        setSelectedStory(storyToSelect)
+
+        // localStorage'a kaydet (ilk kez yükleniyorsa)
+        if (storyToSelect) {
+          localStorage.setItem('selectedStoryId', storyToSelect.id)
+        }
+      }
+    } catch (error) {
+      console.error('Error fetching stories:', error)
+    } finally {
+      setIsLoadingStories(false)
+    }
+  }
+
+  const handleStoryChange = (e) => {
+    const storyId = e.target.value
+    const story = stories.find(s => s.id === storyId)
+    setSelectedStory(story)
+    setShowTranslation(false)
+    setFullTranslation('')
+
+    // Seçili hikayeyi localStorage'a kaydet
+    if (story) {
+      localStorage.setItem('selectedStoryId', story.id)
+    }
+  }
+
+  const groupedStories = stories.reduce((acc, story) => {
+    if (!acc[story.level]) {
+      acc[story.level] = []
+    }
+    acc[story.level].push(story)
+    return acc
+  }, {})
+
   const handleTranslateAll = async () => {
+    if (!selectedStory) return
+
     setIsTranslating(true)
     try {
       const response = await fetch('http://localhost:3001/api/translate', {
@@ -22,7 +77,7 @@ function App() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          text: sampleStory.text,
+          text: selectedStory.text,
           source: 'en',
           target: 'tr'
         })
@@ -43,15 +98,57 @@ function App() {
     }
   }
 
+  if (isLoadingStories) {
+    return (
+      <div className="app">
+        <div className="loading">Hikayeler yükleniyor...</div>
+      </div>
+    )
+  }
+
   return (
     <div className="app">
       <header className="app-header">
-        <h1>📚 İngilizce Öğrenme Uygulaması</h1>
-        <p>Kelimelere tıklayarak anlamlarını öğrenin ve dinleyin</p>
+        <div className="header-content">
+          <div>
+            <h1>📚 İngilizce Öğrenme Uygulaması</h1>
+            <p>Kelimelere tıklayarak anlamlarını öğrenin ve dinleyin</p>
+          </div>
+          <Link to="/admin" className="admin-link">Yönetim Paneli</Link>
+        </div>
       </header>
 
       <main className="app-main">
-        <Story story={sampleStory} />
+        {stories.length === 0 ? (
+          <div className="no-stories">
+            <p>Henüz hikaye bulunmuyor.</p>
+            <Link to="/admin">Yönetim panelinden hikaye ekleyin</Link>
+          </div>
+        ) : (
+          <>
+            <div className="story-selector">
+              <label htmlFor="story-select">Hikaye Seçin:</label>
+              <select
+                id="story-select"
+                value={selectedStory?.id || ''}
+                onChange={handleStoryChange}
+                className="story-dropdown"
+              >
+                {Object.keys(groupedStories).sort().map(level => (
+                  <optgroup key={level} label={`Seviye ${level}`}>
+                    {groupedStories[level].map(story => (
+                      <option key={story.id} value={story.id}>
+                        {story.title}
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
+              </select>
+            </div>
+
+            {selectedStory && <Story story={selectedStory} />}
+          </>
+        )}
 
         <div className="translate-section">
           <button

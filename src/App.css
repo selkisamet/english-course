@@ -12,6 +12,30 @@
   text-align: center;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-link {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.admin-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
 .app-header h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -88,6 +112,57 @@
   border-top: 1px solid #e9ecef;
 }
 
+.story-selector {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.story-selector label {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.story-dropdown {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #667eea;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.story-dropdown:focus {
+  outline: none;
+  border-color: #764ba2;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.loading,
+.no-stories {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.no-stories a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.no-stories a:hover {
+  text-decoration: underline;
+}
+
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -101,6 +176,16 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .admin-link {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
   .app-header h1 {
     font-size: 1.8rem;
   }
@@ -115,6 +200,16 @@
 
   .app-header {
     padding: 30px 20px;
+  }
+
+  .story-selector {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .story-selector label {
+    font-size: 1rem;
   }
 
   .translate-button {
