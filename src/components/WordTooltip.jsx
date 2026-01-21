@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './WordTooltip.css'
 
-function WordTooltip({ word, fullText, onClose }) {
+function WordTooltip({ word, sentence, onClose }) {
   const [data, setData] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
 
@@ -16,8 +16,7 @@ function WordTooltip({ word, fullText, onClose }) {
           },
           body: JSON.stringify({
             word,
-            context: '',
-            fullText: fullText || ''
+            sentence: sentence || ''
           })
         })
 
@@ -37,7 +36,7 @@ function WordTooltip({ word, fullText, onClose }) {
     }
 
     fetchWordAnalysis()
-  }, [word, fullText])
+  }, [word, sentence])
 
   const speakWord = () => {
     if ('speechSynthesis' in window) {
@@ -128,7 +127,7 @@ function WordTooltip({ word, fullText, onClose }) {
             )}
             {(nlp.isModal || nlp.isAuxiliary) && (
               <div className="info-row">
-                <strong>Tip:</strong> {nlp.isModal ? 'Modal Fiil' : 'Yardımcı Fiil'}
+                <strong>Özellik:</strong> {nlp.isModal ? 'Modal Fiil' : 'Yardımcı Fiil'}
               </div>
             )}
           </div>

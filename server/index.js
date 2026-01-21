@@ -81,7 +81,7 @@ app.post('/api/translate', async (req, res) => {
 // Word analysis endpoint (Hybrid: NLP + DeepL with cache)
 app.post('/api/analyze-word', async (req, res) => {
   try {
-    const { word, context = '', fullText = '' } = req.body
+    const { word, sentence: providedSentence = '' } = req.body
 
     if (!word) {
       return res.status(400).json({ error: 'Word is required' })
@@ -89,8 +89,8 @@ app.post('/api/analyze-word', async (req, res) => {
 
     const cleanWord = word.toLowerCase().trim()
 
-    // Her zaman güncel cümleyi hesapla
-    const sentence = context || extractSentence(cleanWord, fullText)
+    // Frontend'den gelen cümleyi kullan
+    const sentence = providedSentence.trim()
 
     // 1. Cache'e bak (sadece kelime çevirisi ve NLP için)
     const cached = getCachedWord(cleanWord)
