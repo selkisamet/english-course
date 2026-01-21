@@ -17,17 +17,9 @@ export function analyzeWord(word) {
         word,
         pos: 'Unknown',
         tense: null,
-        verbForms: null,
-        number: null,
         isModal: false,
         isAuxiliary: false,
-        root: word,
-        isNegative: false,
-        isPast: false,
-        isPresent: false,
-        isFuture: false,
-        isGerund: false,
-        isParticiple: false
+        root: word
       }
     }
 
@@ -37,10 +29,6 @@ export function analyzeWord(word) {
     // Verb bilgileri
     const isVerb = pos === 'Verb'
     const tense = isVerb ? getTense(token) : null
-    const verbForms = isVerb ? getVerbForms(word) : null
-
-    // Number (Singular/Plural)
-    const number = getNumber(token, pos)
 
     // Root form
     const root = getRoot(token, word)
@@ -49,17 +37,9 @@ export function analyzeWord(word) {
       word,
       pos,
       tense,
-      verbForms,
-      number,
       isModal: isModal(word),
       isAuxiliary: isAuxiliary(word),
-      root,
-      isNegative: word.includes('not') || word.includes("n't"),
-      isPast: tense === 'Past',
-      isPresent: tense === 'Present',
-      isFuture: tense === 'Future',
-      isGerund: tense === 'Gerund (-ing)',
-      isParticiple: tense === 'Participle'
+      root
     }
 
     return analysis
@@ -135,111 +115,6 @@ function getTense(token) {
   }
 
   return 'Present'
-}
-
-function getVerbForms(word) {
-  // Temel verb formları için basit kurallar
-  const lowerWord = word.toLowerCase()
-
-  // Düzensiz fiiller sözlüğü
-  const irregularVerbs = {
-    'go': { infinitive: 'go', pastTense: 'went', presentTense: 'goes', gerund: 'going', future: 'will go', presentContinuous: 'is going', pastContinuous: 'was going', presentPerfect: 'has gone', pastPerfect: 'had gone' },
-    'went': { infinitive: 'go', pastTense: 'went', presentTense: 'goes', gerund: 'going', future: 'will go', presentContinuous: 'is going', pastContinuous: 'was going', presentPerfect: 'has gone', pastPerfect: 'had gone' },
-    'goes': { infinitive: 'go', pastTense: 'went', presentTense: 'goes', gerund: 'going', future: 'will go', presentContinuous: 'is going', pastContinuous: 'was going', presentPerfect: 'has gone', pastPerfect: 'had gone' },
-    'going': { infinitive: 'go', pastTense: 'went', presentTense: 'goes', gerund: 'going', future: 'will go', presentContinuous: 'is going', pastContinuous: 'was going', presentPerfect: 'has gone', pastPerfect: 'had gone' },
-    'take': { infinitive: 'take', pastTense: 'took', presentTense: 'takes', gerund: 'taking', future: 'will take', presentContinuous: 'is taking', pastContinuous: 'was taking', presentPerfect: 'has taken', pastPerfect: 'had taken' },
-    'takes': { infinitive: 'take', pastTense: 'took', presentTense: 'takes', gerund: 'taking', future: 'will take', presentContinuous: 'is taking', pastContinuous: 'was taking', presentPerfect: 'has taken', pastPerfect: 'had taken' },
-    'took': { infinitive: 'take', pastTense: 'took', presentTense: 'takes', gerund: 'taking', future: 'will take', presentContinuous: 'is taking', pastContinuous: 'was taking', presentPerfect: 'has taken', pastPerfect: 'had taken' },
-    'taking': { infinitive: 'take', pastTense: 'took', presentTense: 'takes', gerund: 'taking', future: 'will take', presentContinuous: 'is taking', pastContinuous: 'was taking', presentPerfect: 'has taken', pastPerfect: 'had taken' },
-    'feel': { infinitive: 'feel', pastTense: 'felt', presentTense: 'feels', gerund: 'feeling', future: 'will feel', presentContinuous: 'is feeling', pastContinuous: 'was feeling', presentPerfect: 'has felt', pastPerfect: 'had felt' },
-    'feels': { infinitive: 'feel', pastTense: 'felt', presentTense: 'feels', gerund: 'feeling', future: 'will feel', presentContinuous: 'is feeling', pastContinuous: 'was feeling', presentPerfect: 'has felt', pastPerfect: 'had felt' },
-    'felt': { infinitive: 'feel', pastTense: 'felt', presentTense: 'feels', gerund: 'feeling', future: 'will feel', presentContinuous: 'is feeling', pastContinuous: 'was feeling', presentPerfect: 'has felt', pastPerfect: 'had felt' },
-    'feeling': { infinitive: 'feel', pastTense: 'felt', presentTense: 'feels', gerund: 'feeling', future: 'will feel', presentContinuous: 'is feeling', pastContinuous: 'was feeling', presentPerfect: 'has felt', pastPerfect: 'had felt' },
-    'live': { infinitive: 'live', pastTense: 'lived', presentTense: 'lives', gerund: 'living', future: 'will live', presentContinuous: 'is living', pastContinuous: 'was living', presentPerfect: 'has lived', pastPerfect: 'had lived' },
-    'lives': { infinitive: 'live', pastTense: 'lived', presentTense: 'lives', gerund: 'living', future: 'will live', presentContinuous: 'is living', pastContinuous: 'was living', presentPerfect: 'has lived', pastPerfect: 'had lived' },
-    'lived': { infinitive: 'live', pastTense: 'lived', presentTense: 'lives', gerund: 'living', future: 'will live', presentContinuous: 'is living', pastContinuous: 'was living', presentPerfect: 'has lived', pastPerfect: 'had lived' },
-    'living': { infinitive: 'live', pastTense: 'lived', presentTense: 'lives', gerund: 'living', future: 'will live', presentContinuous: 'is living', pastContinuous: 'was living', presentPerfect: 'has lived', pastPerfect: 'had lived' }
-  }
-
-  // Düzensiz fiil kontrolü
-  if (irregularVerbs[lowerWord]) {
-    return irregularVerbs[lowerWord]
-  }
-
-  // Düzenli fiiller için kurallar
-  let infinitive = lowerWord
-  let pastTense = lowerWord
-  let presentTense = lowerWord
-  let gerund = lowerWord
-
-  // -ing formundan infinitive'i bul
-  if (lowerWord.endsWith('ing')) {
-    infinitive = lowerWord.slice(0, -3)
-    // Çift ünsüz kontrolü (running -> run)
-    if (infinitive.length > 1 && infinitive[infinitive.length - 1] === infinitive[infinitive.length - 2]) {
-      infinitive = infinitive.slice(0, -1)
-    }
-    gerund = lowerWord
-    pastTense = infinitive + 'ed'
-    presentTense = infinitive + 's'
-  }
-  // -ed formundan infinitive'i bul
-  else if (lowerWord.endsWith('ed')) {
-    infinitive = lowerWord.slice(0, -2)
-    if (infinitive.endsWith('i')) {
-      infinitive = infinitive.slice(0, -1) + 'y'
-    }
-    pastTense = lowerWord
-    gerund = infinitive + 'ing'
-    presentTense = infinitive + 's'
-  }
-  // -s/-es formundan infinitive'i bul
-  else if (lowerWord.endsWith('es')) {
-    infinitive = lowerWord.slice(0, -2)
-    presentTense = lowerWord
-    pastTense = infinitive + 'ed'
-    gerund = infinitive + 'ing'
-  }
-  else if (lowerWord.endsWith('s') && !lowerWord.endsWith('ss')) {
-    infinitive = lowerWord.slice(0, -1)
-    presentTense = lowerWord
-    pastTense = infinitive + 'ed'
-    gerund = infinitive + 'ing'
-  }
-  // Temel form
-  else {
-    infinitive = lowerWord
-    pastTense = lowerWord + 'ed'
-    presentTense = lowerWord + 's'
-    gerund = lowerWord + 'ing'
-  }
-
-  return {
-    infinitive,
-    pastTense,
-    presentTense,
-    gerund,
-    // Ek formlar
-    future: 'will ' + infinitive,
-    presentContinuous: 'is ' + gerund,
-    pastContinuous: 'was ' + gerund,
-    presentPerfect: 'has ' + pastTense,
-    pastPerfect: 'had ' + pastTense
-  }
-}
-
-function getNumber(token, pos) {
-  if (pos !== 'Noun') return null
-
-  const word = token.out()
-  const lemma = token.out(nlp.its.lemma)
-
-  // Eğer kelime lemma'dan farklıysa ve -s ile bitiyorsa genellikle çoğuldur
-  if (word !== lemma && word.endsWith('s')) {
-    return 'Plural'
-  }
-
-  return 'Singular'
 }
 
 function getRoot(token, word) {
