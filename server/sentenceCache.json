@@ -8,5 +8,25 @@
     "sentence": "My name is John.",
     "translation": "Benim adım John.",
     "timestamp": "2026-01-21T06:53:43.467Z"
+  },
+  "bcef489530176a659086df9547d5f6b6": {
+    "sentence": "My father is a doctor.",
+    "translation": "Babam bir doktor.",
+    "timestamp": "2026-01-21T07:13:40.843Z"
+  },
+  "f5b6cbfdaf327daf8dfa3904e5a43dd2": {
+    "sentence": "I live in a small house in Chicago.",
+    "translation": "Chicago'da küçük bir evde yaşıyorum.",
+    "timestamp": "2026-01-21T07:28:05.408Z"
+  },
+  "6cba51c4e844316a8553fef7e1c7a59d": {
+    "sentence": "He works at a big hospital.",
+    "translation": "Büyük bir hastanede çalışıyor.",
+    "timestamp": "2026-01-21T13:36:38.561Z"
+  },
+  "14f317a695108793b301257e0026ec64": {
+    "sentence": "In the grand theater of existence, silence is a palpable entity.",
+    "translation": "Varoluşun büyük tiyatrosunda sessizlik hissedilebilir bir varlıktır.",
+    "timestamp": "2026-01-21T13:36:57.535Z"
   }
 }

@@ -58,5 +58,260 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-01-21T07:10:10.164Z"
+  },
+  "a": {
+    "word": "a",
+    "nlp": {
+      "word": "a",
+      "pos": "Determiner",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "a"
+    },
+    "translation": "a",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:13:26.399Z"
+  },
+  "big": {
+    "word": "big",
+    "nlp": {
+      "word": "big",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "big"
+    },
+    "translation": "büyük",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:13:28.282Z"
+  },
+  "my": {
+    "word": "my",
+    "nlp": {
+      "word": "my",
+      "pos": "Pronoun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "my"
+    },
+    "translation": "benim",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:13:38.468Z"
+  },
+  "father": {
+    "word": "father",
+    "nlp": {
+      "word": "father",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "father"
+    },
+    "translation": "Baba",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:13:40.715Z"
+  },
+  "is": {
+    "word": "is",
+    "nlp": {
+      "word": "is",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": true,
+      "root": "be"
+    },
+    "translation": "o",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:13:43.673Z"
+  },
+  "am": {
+    "word": "am",
+    "nlp": {
+      "word": "am",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": true,
+      "root": "be"
+    },
+    "translation": "am",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:27:17.743Z"
+  },
+  "house": {
+    "word": "house",
+    "nlp": {
+      "word": "house",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "house"
+    },
+    "translation": "ev",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T07:28:05.254Z"
+  },
+  "chicago": {
+    "word": "chicago",
+    "nlp": {
+      "word": "chicago",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "chicago"
+    },
+    "translation": "ŞİKAGO",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:10.030Z"
+  },
+  "i": {
+    "word": "i",
+    "nlp": {
+      "word": "i",
+      "pos": "Pronoun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "i"
+    },
+    "translation": "i",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:14.131Z"
+  },
+  "doctor": {
+    "word": "doctor",
+    "nlp": {
+      "word": "doctor",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "doctor"
+    },
+    "translation": "doktor",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:31.161Z"
+  },
+  "he": {
+    "word": "he",
+    "nlp": {
+      "word": "he",
+      "pos": "Pronoun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "he"
+    },
+    "translation": "o",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:38.406Z"
+  },
+  "works": {
+    "word": "works",
+    "nlp": {
+      "word": "works",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "work"
+    },
+    "translation": "işler",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:39.623Z"
+  },
+  "at": {
+    "word": "at",
+    "nlp": {
+      "word": "at",
+      "pos": "Preposition",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "at"
+    },
+    "translation": "at",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:40.923Z"
+  },
+  "theater": {
+    "word": "theater",
+    "nlp": {
+      "word": "theater",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "theater"
+    },
+    "translation": "TİYATRO",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:36:57.294Z"
+  },
+  "existence": {
+    "word": "existence",
+    "nlp": {
+      "word": "existence",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "existence"
+    },
+    "translation": "varoluş",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:37:26.449Z"
+  },
+  "silence": {
+    "word": "silence",
+    "nlp": {
+      "word": "silence",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "silence"
+    },
+    "translation": "Sessizlik",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:37:36.500Z"
+  },
+  "palpable": {
+    "word": "palpable",
+    "nlp": {
+      "word": "palpable",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "palpable"
+    },
+    "translation": "hissedilebilir",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T13:37:47.497Z"
   }
 }
