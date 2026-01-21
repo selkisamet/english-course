@@ -144,7 +144,9 @@ function WordTooltip({ word, sentence, onClose }) {
         <div className="tooltip-content">
           <div className="tooltip-header">
             <h3 className="tooltip-word">
-              {!isLoading && data?.translation ? data.translation : word}
+              {!isLoading && data?.translation
+                ? `${data.translation.charAt(0).toUpperCase() + data.translation.slice(1)} (${word.charAt(0).toUpperCase() + word.slice(1)})`
+                : word.charAt(0).toUpperCase() + word.slice(1)}
             </h3>
             <button className="tooltip-close" onClick={onClose}>×</button>
           </div>
