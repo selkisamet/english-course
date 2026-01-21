@@ -131,31 +131,6 @@ function WordTooltip({ word, fullText, onClose }) {
                 <strong>Tip:</strong> {nlp.isModal ? 'Modal Fiil' : 'Yardımcı Fiil'}
               </div>
             )}
-            {nlp.verbForms && (
-              <div className="info-row">
-                <strong>Fiil Formları:</strong>
-                <div className="verb-forms">
-                  <div className="verb-group">
-                    <span className="verb-label">Temel Formlar:</span>
-                    <span>• Mastar: {nlp.verbForms.infinitive}</span>
-                    <span>• Geçmiş: {nlp.verbForms.pastTense}</span>
-                    <span>• Şimdiki (3.tekil): {nlp.verbForms.presentTense}</span>
-                    <span>• -ing hali: {nlp.verbForms.gerund}</span>
-                  </div>
-                  <div className="verb-group">
-                    <span className="verb-label">Zaman Formları:</span>
-                    <span>• Gelecek: {nlp.verbForms.future}</span>
-                    <span>• Şimdiki Devam: {nlp.verbForms.presentContinuous}</span>
-                    <span>• Geçmiş Devam: {nlp.verbForms.pastContinuous}</span>
-                  </div>
-                  <div className="verb-group">
-                    <span className="verb-label">Perfect Formlar:</span>
-                    <span>• Present Perfect: {nlp.verbForms.presentPerfect}</span>
-                    <span>• Past Perfect: {nlp.verbForms.pastPerfect}</span>
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         )}
       </>
