@@ -17,6 +17,7 @@
     "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.3",
     "wink-eng-lite-web-model": "^1.8.1",
     "wink-nlp": "^1.14.3"
   },
