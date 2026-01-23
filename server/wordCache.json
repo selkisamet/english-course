@@ -313,5 +313,65 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-01-21T13:37:47.497Z"
+  },
+  "advancement": {
+    "word": "advancement",
+    "nlp": {
+      "word": "advancement",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "advancement"
+    },
+    "translation": "İLERLEME",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T14:20:40.540Z"
+  },
+  "artificial": {
+    "word": "artificial",
+    "nlp": {
+      "word": "artificial",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "artificial"
+    },
+    "translation": "yapay",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T14:20:44.936Z"
+  },
+  "rapid": {
+    "word": "rapid",
+    "nlp": {
+      "word": "rapid",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "rapid"
+    },
+    "translation": "hızlı",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T14:20:55.567Z"
+  },
+  "sparked": {
+    "word": "sparked",
+    "nlp": {
+      "word": "sparked",
+      "pos": "Verb",
+      "tense": "Past",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "spark"
+    },
+    "translation": "kıvılcımlandı",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-21T14:21:14.219Z"
   }
 }
