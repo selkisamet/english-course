@@ -1,0 +1,501 @@
+.flashcard-study {
+  background: linear-gradient(to bottom, #ffffff, #f8f9ff);
+  border-radius: 20px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.study-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.study-header h2 {
+  flex: 1;
+  margin: 0;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.back-button {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, #f5f5f5, #e8e8e8);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #555;
+}
+
+.back-button:hover {
+  background: linear-gradient(135deg, #e8e8e8, #d8d8d8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress Bar */
+.study-progress {
+  margin-bottom: 2.8rem;
+}
+
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 12px;
+  background: linear-gradient(to right, #f0f0f0, #e8e8f0);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+  border-radius: 12px;
+}
+
+/* Flashcard Container */
+.flashcard-container {
+  perspective: 1000px;
+  min-height: 600px;
+  margin-bottom: 2rem;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+}
+
+.flashcard-front {
+  padding: 2.5rem 3rem 2rem 3rem;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  padding: 2.5rem 3rem 2rem 3rem;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.flashcard-word {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.word-translation-inline {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.95;
+}
+
+.flashcard-word-back {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.word-translation-inline-back {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.95;
+}
+
+.flashcard-pos {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.flashcard-definition {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.flashcard-example {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 92%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.example-english {
+  color: white;
+  margin: 0 0 0.6rem 0;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.example-turkish {
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.flip-button {
+  padding: 1.3rem 3rem;
+  background: white;
+  color: #667eea;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.flip-button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.speak-button {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 0.85rem 1.8rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  font-size: 1rem;
+}
+
+.speak-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Difficulty Rating */
+.difficulty-rating {
+  width: 100%;
+  max-width: 95%;
+  margin-bottom: 0.5rem;
+}
+
+.rating-prompt {
+  color: white;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.difficulty-buttons {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.difficulty-button {
+  flex: 1;
+  padding: 1rem 0.8rem;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  backdrop-filter: blur(10px);
+  font-size: 0.95rem;
+}
+
+.difficulty-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px);
+  border-color: white;
+}
+
+.difficulty-button.hard:hover {
+  border-color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.3);
+  box-shadow: 0 5px 20px rgba(255, 107, 107, 0.3);
+}
+
+.difficulty-button.medium:hover {
+  border-color: #ffd93d;
+  background: rgba(255, 217, 61, 0.3);
+  box-shadow: 0 5px 20px rgba(255, 217, 61, 0.3);
+}
+
+.difficulty-button.easy:hover {
+  border-color: #6bcf7f;
+  background: rgba(107, 207, 127, 0.3);
+  box-shadow: 0 5px 20px rgba(107, 207, 127, 0.3);
+}
+
+.difficulty-button small {
+  font-size: 0.88rem;
+  opacity: 0.92;
+  font-weight: 500;
+}
+
+/* Session Stats */
+.session-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  padding: 1.2rem 1.8rem;
+  background: linear-gradient(135deg, #f8f9ff, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 1.3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  min-width: 80px;
+  justify-content: center;
+}
+
+.stat-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+  font-size: 1.6rem;
+}
+
+.stat-count {
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.keyboard-hint {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.2rem;
+  background: linear-gradient(135deg, #f8f9ff, #ffffff);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.keyboard-hint small {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.card-loading {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.no-words {
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(135deg, #f8f9ff, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.primary-button {
+  padding: 1.2rem 2.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+}
+
+.primary-button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .flashcard-study {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .study-progress {
+    margin-bottom: 2rem;
+  }
+
+  .progress-bar {
+    height: 10px;
+  }
+
+  .study-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .flashcard-container {
+    min-height: 480px;
+  }
+
+  .flashcard {
+    height: 480px;
+  }
+
+  .flashcard-word {
+    font-size: 2.5rem;
+  }
+
+  .word-translation-inline {
+    font-size: 1.2rem;
+  }
+
+  .flashcard-word-back {
+    font-size: 1.8rem;
+  }
+
+  .word-translation-inline-back {
+    font-size: 1rem;
+  }
+
+  .flashcard-definition {
+    font-size: 1.05rem;
+  }
+
+  .difficulty-buttons {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .difficulty-button {
+    padding: 1rem 1.5rem;
+  }
+
+  .flashcard-front {
+    padding: 2rem 1.5rem 1.8rem 1.5rem;
+  }
+
+  .flashcard-back {
+    padding: 1.8rem 1.5rem;
+  }
+
+  .card-content {
+    padding: 0.3rem 0;
+  }
+
+  .flip-button {
+    padding: 1.1rem 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  .session-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    width: 100%;
+    justify-content: center;
+  }
+}

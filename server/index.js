@@ -6,6 +6,16 @@ import { getCachedWord, setCachedWord } from './cacheManager.js'
 import { getCachedSentence, setCachedSentence } from './sentenceCache.js'
 import { getAllStories, getStoryById, createStory, updateStory, deleteStory } from './storyManager.js'
 import { authMiddleware, verifyPassword } from './authMiddleware.js'
+import {
+  getAllWords,
+  getWordById,
+  getWordByText,
+  getStats,
+  getEnrichedWord,
+  setEnrichedWord,
+  getAvailableLevels,
+  getAvailableCategories
+} from './vocabularyManager.js'
 
 // .env.local dosyasını yükle
 dotenv.config({ path: '.env.local' })
@@ -304,6 +314,277 @@ app.delete('/api/stories/:id', authMiddleware, (req, res) => {
   }
 })
 
+// ===== Vocabulary Endpoints =====
+
+// Get all words (with filters and pagination)
+app.get('/api/vocabulary/words', (req, res) => {
+  try {
+    const { level, category, search, page, limit } = req.query
+
+    const result = getAllWords({
+      level,
+      category,
+      search,
+      page,
+      limit
+    })
+
+    res.json(result)
+  } catch (error) {
+    console.error('Get words error:', error)
+    res.status(500).json({
+      error: 'Failed to get words',
+      message: error.message
+    })
+  }
+})
+
+// Get word by ID
+app.get('/api/vocabulary/words/:id', (req, res) => {
+  try {
+    const { id } = req.params
+    const word = getWordById(id)
+
+    if (!word) {
+      return res.status(404).json({ error: 'Word not found' })
+    }
+
+    res.json(word)
+  } catch (error) {
+    console.error('Get word error:', error)
+    res.status(500).json({
+      error: 'Failed to get word',
+      message: error.message
+    })
+  }
+})
+
+// Enrich word with Oxford API + DeepL
+app.post('/api/vocabulary/enrich/:word', async (req, res) => {
+  try {
+    const { word } = req.params
+    const cleanWord = word.toLowerCase().trim()
+
+    // 1. Check enrichment cache
+    const cached = getEnrichedWord(cleanWord)
+    if (cached && cached.turkish !== undefined) {
+      console.log(`✅ Enrichment cache hit: ${cleanWord}`)
+      return res.json(cached)
+    }
+
+    if (cached && !cached.turkish) {
+      console.log(`🔄 Re-enriching word (missing turkish field): ${cleanWord}`)
+    }
+
+    console.log(`🔍 Enriching word: ${cleanWord}`)
+
+    // 2. Get word from database (includes basicTranslation)
+    const wordFromDb = getWordByText(cleanWord)
+
+    // 3. Fetch from Oxford API
+    const oxfordData = await fetchOxfordData(cleanWord)
+
+    if (!oxfordData) {
+      return res.status(404).json({ error: 'Word not found in Oxford API' })
+    }
+
+    // 3. Translate examples to Turkish with DeepL
+    const translatedExamples = []
+    if (oxfordData.examples && oxfordData.examples.length > 0) {
+      for (const example of oxfordData.examples.slice(0, 5)) {
+        try {
+          const apiKey = process.env.DEEPL_API_KEY
+          if (apiKey) {
+            const translateResponse = await fetch('https://api-free.deepl.com/v2/translate', {
+              method: 'POST',
+              headers: {
+                'Authorization': `DeepL-Auth-Key ${apiKey}`,
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({
+                text: [example],
+                target_lang: 'TR',
+                source_lang: 'EN'
+              })
+            })
+
+            if (translateResponse.ok) {
+              const translateData = await translateResponse.json()
+              translatedExamples.push({
+                english: example,
+                turkish: translateData.translations[0].text
+              })
+            }
+          }
+        } catch (error) {
+          console.error('DeepL translation error:', error)
+          translatedExamples.push({
+            english: example,
+            turkish: ''
+          })
+        }
+      }
+    }
+
+    // 3.5. Translate the word itself to Turkish
+    let turkishTranslation = ''
+    try {
+      const apiKey = process.env.DEEPL_API_KEY
+      if (apiKey) {
+        const translateResponse = await fetch('https://api-free.deepl.com/v2/translate', {
+          method: 'POST',
+          headers: {
+            'Authorization': `DeepL-Auth-Key ${apiKey}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            text: [cleanWord],
+            target_lang: 'TR',
+            source_lang: 'EN'
+          })
+        })
+
+        if (translateResponse.ok) {
+          const translateData = await translateResponse.json()
+          turkishTranslation = translateData.translations[0].text
+        }
+      }
+    } catch (error) {
+      console.error('Word translation error:', error)
+    }
+
+    // 4. Build enriched data
+    const enrichedData = {
+      word: cleanWord,
+      turkish: turkishTranslation,
+      basicTranslation: wordFromDb?.basicTranslation || turkishTranslation,
+      definitions: oxfordData.definitions || [],
+      exampleSentences: translatedExamples,
+      collocations: oxfordData.collocations || [],
+      synonyms: oxfordData.synonyms || [],
+      phonetic: oxfordData.phonetic || '',
+      partOfSpeech: oxfordData.partOfSpeech || ''
+    }
+
+    // 5. Save to cache
+    setEnrichedWord(cleanWord, enrichedData)
+
+    res.json(enrichedData)
+  } catch (error) {
+    console.error('Enrich word error:', error)
+    res.status(500).json({
+      error: 'Failed to enrich word',
+      message: error.message
+    })
+  }
+})
+
+// Get vocabulary statistics
+app.get('/api/vocabulary/stats', (req, res) => {
+  try {
+    const stats = getStats()
+    res.json(stats)
+  } catch (error) {
+    console.error('Get stats error:', error)
+    res.status(500).json({
+      error: 'Failed to get stats',
+      message: error.message
+    })
+  }
+})
+
+// Get available levels
+app.get('/api/vocabulary/levels', (req, res) => {
+  try {
+    const levels = getAvailableLevels()
+    res.json(levels)
+  } catch (error) {
+    console.error('Get levels error:', error)
+    res.status(500).json({
+      error: 'Failed to get levels',
+      message: error.message
+    })
+  }
+})
+
+// Get available categories
+app.get('/api/vocabulary/categories', (req, res) => {
+  try {
+    const categories = getAvailableCategories()
+    res.json(categories)
+  } catch (error) {
+    console.error('Get categories error:', error)
+    res.status(500).json({
+      error: 'Failed to get categories',
+      message: error.message
+    })
+  }
+})
+
+// Helper function to fetch from Oxford API
+async function fetchOxfordData(word) {
+  try {
+    const baseUrl = process.env.OXFORD_BASE_URL
+    const appId = process.env.OXFORD_APP_ID
+    const appKey = process.env.OXFORD_APP_KEY
+
+    if (!baseUrl || !appId || !appKey) {
+      console.error('Oxford API credentials not configured')
+      return null
+    }
+
+    const url = `${baseUrl}/entries/en-gb/${word}`
+    const response = await fetch(url, {
+      headers: {
+        'app_id': appId,
+        'app_key': appKey
+      }
+    })
+
+    if (!response.ok) {
+      console.error(`Oxford API error: ${response.status}`)
+      return null
+    }
+
+    const data = await response.json()
+    const result = data.results[0]
+    const lexicalEntry = result.lexicalEntries[0]
+    const entry = lexicalEntry.entries[0]
+
+    // Extract data
+    const definitions = entry.senses
+      .filter(sense => sense.definitions)
+      .map(sense => sense.definitions[0])
+      .slice(0, 3)
+
+    const examples = entry.senses
+      .filter(sense => sense.examples)
+      .flatMap(sense => sense.examples.map(ex => ex.text))
+      .slice(0, 5)
+
+    const synonyms = entry.senses
+      .filter(sense => sense.synonyms)
+      .flatMap(sense => sense.synonyms.map(syn => syn.text))
+      .slice(0, 5)
+
+    const phonetic = result.lexicalEntries[0].pronunciations
+      ? result.lexicalEntries[0].pronunciations[0].phoneticSpelling
+      : ''
+
+    return {
+      definitions,
+      examples,
+      synonyms,
+      collocations: [], // Oxford API might not provide collocations in sandbox
+      phonetic,
+      partOfSpeech: lexicalEntry.lexicalCategory.text
+    }
+  } catch (error) {
+    console.error('Fetch Oxford data error:', error)
+    return null
+  }
+}
+
 // Admin password verification
 app.post('/api/admin/verify', (req, res) => {
   try {
@@ -342,5 +623,12 @@ app.listen(PORT, () => {
   console.log(`   - POST http://localhost:${PORT}/api/stories (Auth required)`)
   console.log(`   - PUT  http://localhost:${PORT}/api/stories/:id (Auth required)`)
   console.log(`   - DELETE http://localhost:${PORT}/api/stories/:id (Auth required)`)
+  console.log(`   📚 Vocabulary endpoints:`)
+  console.log(`   - GET  http://localhost:${PORT}/api/vocabulary/words`)
+  console.log(`   - GET  http://localhost:${PORT}/api/vocabulary/words/:id`)
+  console.log(`   - POST http://localhost:${PORT}/api/vocabulary/enrich/:word`)
+  console.log(`   - GET  http://localhost:${PORT}/api/vocabulary/stats`)
+  console.log(`   - GET  http://localhost:${PORT}/api/vocabulary/levels`)
+  console.log(`   - GET  http://localhost:${PORT}/api/vocabulary/categories`)
   console.log(`   - POST http://localhost:${PORT}/api/admin/verify`)
 })

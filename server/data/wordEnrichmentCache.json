@@ -1,0 +1,68 @@
+{
+  "able": {
+    "word": "able",
+    "turkish": "mümkün",
+    "definitions": [
+      "having the power, skill, means, or opportunity to do something",
+      "having considerable skill, proficiency, or intelligence"
+    ],
+    "exampleSentences": [
+      {
+        "english": "he was able to read Greek at the age of eight",
+        "turkish": "sekiz yaşındayken Yunanca okuyabiliyordu"
+      },
+      {
+        "english": "they would never be able to afford such a big house",
+        "turkish": "bu kadar büyük bir evi asla karşılayamazlar."
+      },
+      {
+        "english": "the dancers were technically very able",
+        "turkish": "dansçılar teknik olarak çok yetenekliydi"
+      }
+    ],
+    "collocations": [],
+    "synonyms": [
+      "allowed to",
+      "free to",
+      "in a position to",
+      "intelligent",
+      "clever"
+    ],
+    "phonetic": "",
+    "partOfSpeech": "Adjective",
+    "timestamp": "2026-01-23T21:36:31.968Z"
+  },
+  "ability": {
+    "word": "ability",
+    "turkish": "yetenek",
+    "definitions": [
+      "possession of the means or skill to do something",
+      "talent, skill, or proficiency in a particular area"
+    ],
+    "exampleSentences": [
+      {
+        "english": "the manager had lost his ability to motivate the players",
+        "turkish": "teknik direktör oyuncuları motive etme yeteneğini kaybetmişti"
+      },
+      {
+        "english": "a man of exceptional ability",
+        "turkish": "olağanüstü yetenekli bir adam"
+      },
+      {
+        "english": "pupils of all abilities",
+        "turkish": "tüm yeteneklere sahip öğrenciler"
+      }
+    ],
+    "collocations": [],
+    "synonyms": [
+      "capacity",
+      "capability",
+      "potential",
+      "potentiality",
+      "power"
+    ],
+    "phonetic": "",
+    "partOfSpeech": "Noun",
+    "timestamp": "2026-01-23T22:37:57.246Z"
+  }
+}
