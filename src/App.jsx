@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Story from './components/Story'
 import './App.css'
+import trFlag from './assets/images/tr.png'
 
 function App() {
   const [stories, setStories] = useState([])
@@ -111,10 +112,20 @@ function App() {
       <header className="app-header">
         <div className="header-content">
           <div>
-            <h1>📚 İngilizce Öğrenme Uygulaması</h1>
-            <p>Kelimelere tıklayarak anlamlarını öğrenin ve dinleyin</p>
+            <h1>
+              <span style={{ fontSize: '3rem' }}>📚</span>
+              İngilizce Öğrenme Uygulaması
+            </h1>
+            <p>✨ Kelimelere tıklayarak anlamlarını öğrenin ve dinleyin</p>
           </div>
-          <Link to="/admin" className="admin-link">Yönetim Paneli</Link>
+          <div className="header-links">
+            <Link to="/vocabulary" className="vocabulary-link">
+              📖 Kelime Çalış
+            </Link>
+            <Link to="/admin" className="admin-link">
+              ⚙️ Yönetim Paneli
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -161,7 +172,10 @@ function App() {
 
           {showTranslation && (
             <div className="full-translation">
-              <h3>Türkçe Çeviri:</h3>
+              <h3>
+                <img src={trFlag} alt="TR" style={{width: '24px', height: '18px', marginRight: '10px', verticalAlign: 'middle'}} />
+                Türkçe Çeviri:
+              </h3>
               <p>{fullTranslation}</p>
             </div>
           )}
