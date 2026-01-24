@@ -10,6 +10,7 @@ import './VocabularyModule.css'
 
 function VocabularyModule() {
   const [currentView, setCurrentView] = useState('dashboard')
+  const [previousView, setPreviousView] = useState('dashboard')
   const [selectedWord, setSelectedWord] = useState(null)
   const [studyQueue, setStudyQueue] = useState([])
 
@@ -24,6 +25,7 @@ function VocabularyModule() {
   }
 
   const handleStartFlashcards = (words = []) => {
+    setPreviousView(currentView)
     setStudyQueue(words)
     setCurrentView('flashcards')
   }
@@ -37,6 +39,15 @@ function VocabularyModule() {
   const handleBackToWordList = () => {
     setCurrentView('wordlist')
     setSelectedWord(null)
+  }
+
+  const handleBackFromFlashcards = () => {
+    if (previousView === 'wordlist') {
+      setCurrentView('wordlist')
+    } else {
+      handleBackToDashboard()
+    }
+    setStudyQueue([])
   }
 
   const renderView = () => {
@@ -62,8 +73,8 @@ function VocabularyModule() {
         return (
           <FlashcardStudy
             initialQueue={studyQueue}
-            onFinish={handleBackToDashboard}
-            onBack={handleBackToDashboard}
+            onFinish={handleBackFromFlashcards}
+            onBack={handleBackFromFlashcards}
           />
         )
 
