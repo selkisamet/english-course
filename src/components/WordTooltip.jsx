@@ -38,11 +38,11 @@ function WordTooltip({ word, sentence, onClose }) {
     fetchWordAnalysis()
   }, [word, sentence])
 
-  const speakWord = () => {
+  const speak = (text) => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel()
 
-      const utterance = new SpeechSynthesisUtterance(word)
+      const utterance = new SpeechSynthesisUtterance(text)
       utterance.lang = 'en-US'
       utterance.rate = 0.8
       utterance.pitch = 1
@@ -100,7 +100,17 @@ function WordTooltip({ word, sentence, onClose }) {
           <div className="context-section">
             <div className="context-sentence">
               <strong>Cümlede:</strong>
-              <p className="sentence-text">"{sentence}"</p>
+              <div className="sentence-row">
+                <p className="sentence-text">"{sentence}"</p>
+                <button
+                  className="sentence-speak-button"
+                  onClick={() => speak(sentence)}
+                  aria-label="Cümleyi dinle"
+                  title="Cümleyi dinle"
+                >
+                  🔊
+                </button>
+              </div>
             </div>
             <div className="context-translation">
               <strong>Anlamı:</strong>
@@ -159,7 +169,7 @@ function WordTooltip({ word, sentence, onClose }) {
             renderContent()
           )}
 
-          <button className="tooltip-speak-button" onClick={speakWord}>
+          <button className="tooltip-speak-button" onClick={() => speak(word)}>
             🔊 Telaffuz Et
           </button>
         </div>

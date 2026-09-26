@@ -129,7 +129,14 @@
   font-weight: 600;
 }
 
+.sentence-row {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+
 .sentence-text {
+  flex: 1;
   margin: 0;
   padding: 10px;
   background: white;
@@ -138,6 +145,26 @@
   color: #555;
   font-style: italic;
   line-height: 1.5;
+}
+
+.sentence-speak-button {
+  flex-shrink: 0;
+  width: 42px;
+  background: white;
+  border: 2px solid #11998e40;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sentence-speak-button:hover {
+  background: #11998e15;
+  border-color: #11998e;
+}
+
+.sentence-speak-button:active {
+  transform: scale(0.95);
 }
 
 .context-translation {
