@@ -9,7 +9,7 @@ function WordTooltip({ word, sentence, onClose }) {
     const fetchWordAnalysis = async () => {
       setIsLoading(true)
       try {
-        const response = await fetch('http://localhost:3001/api/analyze-word', {
+        const response = await fetch('/api/analyze-word', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

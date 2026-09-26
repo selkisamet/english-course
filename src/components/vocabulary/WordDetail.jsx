@@ -71,7 +71,7 @@ function WordDetail({ word, onBack, onStartFlashcard }) {
 
     try {
       const response = await fetch(
-        `http://localhost:3001/api/vocabulary/enrich/${word.word}`,
+        `/api/vocabulary/enrich/${word.word}`,
         { method: 'POST' }
       )
 

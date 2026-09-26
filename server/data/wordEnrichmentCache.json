@@ -64,5 +64,75 @@
     "phonetic": "",
     "partOfSpeech": "Noun",
     "timestamp": "2026-01-23T22:37:57.246Z"
+  },
+  "achieve": {
+    "word": "achieve",
+    "turkish": "ulaşmak",
+    "basicTranslation": "çaba, beceri veya cesaretle (istenen bir hedefi veya sonucu) başarıyla gerçekleştirmek veya ulaşmak",
+    "definitions": [
+      "successfully bring about or reach (a desired objective or result) by effort, skill, or courage"
+    ],
+    "exampleSentences": [
+      {
+        "english": "he achieved his ambition to become a press photographer",
+        "turkish": "basın fotoğrafçısı olma tutkusuna ulaştı"
+      },
+      {
+        "english": "the killings achieved nothing",
+        "turkish": "cinayetler hiçbir işe yaramadı"
+      },
+      {
+        "english": "people striving to achieve",
+        "turkish": "başarmak için çabalayan insanlar"
+      }
+    ],
+    "collocations": [],
+    "synonyms": [
+      "attain",
+      "reach",
+      "arrive at"
+    ],
+    "phonetic": "",
+    "partOfSpeech": "Verb",
+    "timestamp": "2026-01-24T11:07:55.470Z"
+  },
+  "abandon": {
+    "word": "abandon",
+    "turkish": "terk etmek",
+    "basicTranslation": "(birini) desteklemeyi veya bakmayı bırakmak; terk etmek",
+    "definitions": [
+      "cease to support or look after (someone); desert",
+      "give up completely (a practice or a course of action)",
+      "allow oneself to indulge in (a desire or impulse)"
+    ],
+    "exampleSentences": [
+      {
+        "english": "her natural mother had abandoned her at an early age",
+        "turkish": "öz annesi onu küçük yaşta terk etmişti"
+      },
+      {
+        "english": "he had clearly abandoned all pretence of trying to succeed",
+        "turkish": "Başarılı olmaya çalışıyormuş gibi yapmayı açıkça bırakmıştı."
+      },
+      {
+        "english": "negotiations were abandoned and fighting intensified",
+        "turkish": "müzakereler terk edildi ve çatışmalar yoğunlaştı"
+      },
+      {
+        "english": "they abandoned themselves to despair",
+        "turkish": "kendilerini umutsuzluğa terk ettiler"
+      }
+    ],
+    "collocations": [],
+    "synonyms": [
+      "desert",
+      "leave",
+      "leave high and dry",
+      "turn one's back on",
+      "cast aside"
+    ],
+    "phonetic": "",
+    "partOfSpeech": "Verb",
+    "timestamp": "2026-01-27T18:17:11.954Z"
   }
 }

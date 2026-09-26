@@ -1,6 +1,9 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import path from 'path'
+import fs from 'fs'
+import { fileURLToPath } from 'url'
 import { analyzeWord, extractSentence } from './nlpAnalyzer.js'
 import { getCachedWord, setCachedWord } from './cacheManager.js'
 import { getCachedSentence, setCachedSentence } from './sentenceCache.js'
@@ -612,6 +615,17 @@ app.post('/api/admin/verify', (req, res) => {
     })
   }
 })
+
+// Production: derlenmiş frontend'i (dist) sun
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const DIST_DIR = path.join(__dirname, '..', 'dist')
+if (fs.existsSync(DIST_DIR)) {
+  app.use(express.static(DIST_DIR))
+  // React Router için: /api dışındaki tüm istekler index.html'e
+  app.get(/^\/(?!api).*/, (req, res) => {
+    res.sendFile(path.join(DIST_DIR, 'index.html'))
+  })
+}
 
 app.listen(PORT, () => {
   console.log(`🚀 Translation server running on http://localhost:${PORT}`)

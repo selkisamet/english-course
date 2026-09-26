@@ -18,7 +18,7 @@ function App() {
 
   const fetchStories = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/stories')
+      const response = await fetch('/api/stories')
       if (!response.ok) {
         throw new Error('Failed to fetch stories')
       }
@@ -72,7 +72,7 @@ function App() {
 
     setIsTranslating(true)
     try {
-      const response = await fetch('http://localhost:3001/api/translate', {
+      const response = await fetch('/api/translate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

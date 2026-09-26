@@ -373,5 +373,65 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-01-21T14:21:14.219Z"
+  },
+  "mark": {
+    "word": "mark",
+    "nlp": {
+      "word": "mark",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "mark"
+    },
+    "translation": "işaretle",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-27T18:15:47.532Z"
+  },
+  "short": {
+    "word": "short",
+    "nlp": {
+      "word": "short",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "short"
+    },
+    "translation": "kısa",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-27T18:16:13.003Z"
+  },
+  "trip": {
+    "word": "trip",
+    "nlp": {
+      "word": "trip",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "trip"
+    },
+    "translation": "yolculuk",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-27T18:16:51.474Z"
+  },
+  "to": {
+    "word": "to",
+    "nlp": {
+      "word": "to",
+      "pos": "Particle",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "to"
+    },
+    "translation": "için",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-01-27T18:16:52.267Z"
   }
 }

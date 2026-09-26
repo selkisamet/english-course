@@ -56,7 +56,7 @@ function FlashcardStudy({ initialQueue = [], onFinish, onBack }) {
     if (!wordDetails[currentWord.word]) {
       try {
         const response = await fetch(
-          `http://localhost:3001/api/vocabulary/enrich/${currentWord.word}`,
+          `/api/vocabulary/enrich/${currentWord.word}`,
           { method: 'POST' }
         )
 

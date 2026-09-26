@@ -38,8 +38,8 @@ function WordList({ onSelectWord, onStartFlashcards, onBack }) {
   const loadLevelsAndCategories = async () => {
     try {
       const [levelsRes, categoriesRes] = await Promise.all([
-        fetch('http://localhost:3001/api/vocabulary/levels'),
-        fetch('http://localhost:3001/api/vocabulary/categories')
+        fetch('/api/vocabulary/levels'),
+        fetch('/api/vocabulary/categories')
       ])
 
       if (levelsRes.ok) {
@@ -74,7 +74,7 @@ function WordList({ onSelectWord, onStartFlashcards, onBack }) {
         ...(searchQuery && { search: searchQuery })
       })
 
-      const response = await fetch(`http://localhost:3001/api/vocabulary/words?${params}`)
+      const response = await fetch(`/api/vocabulary/words?${params}`)
 
       if (!response.ok) {
         throw new Error('Failed to load words')

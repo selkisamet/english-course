@@ -45,7 +45,7 @@ function AdminPanel() {
     setLoginError('')
 
     try {
-      const response = await fetch('http://localhost:3001/api/admin/verify', {
+      const response = await fetch('/api/admin/verify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -78,7 +78,7 @@ function AdminPanel() {
   const fetchStories = async (authToken) => {
     setIsLoading(true)
     try {
-      const response = await fetch('http://localhost:3001/api/stories')
+      const response = await fetch('/api/stories')
       if (!response.ok) {
         throw new Error('Failed to fetch stories')
       }
@@ -113,7 +113,7 @@ function AdminPanel() {
     }
 
     try {
-      const response = await fetch(`http://localhost:3001/api/stories/${storyId}`, {
+      const response = await fetch(`/api/stories/${storyId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -141,8 +141,8 @@ function AdminPanel() {
 
     try {
       const url = editingStory
-        ? `http://localhost:3001/api/stories/${editingStory.id}`
-        : 'http://localhost:3001/api/stories'
+        ? `/api/stories/${editingStory.id}`
+        : '/api/stories'
 
       const method = editingStory ? 'PUT' : 'POST'
 
