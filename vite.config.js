@@ -18,6 +18,14 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
+            // Kelime işaretlemeleri: yeni hazırlanmış ya da düzeltilmiş olanı hemen göster,
+            // çevrimdışıyken önbellekteki kullanılır
+            urlPattern: ({ url, request }) =>
+              request.method === 'GET' && /^\/api\/stories\/[^/]+\/annotations$/.test(url.pathname),
+            handler: 'NetworkFirst',
+            options: { cacheName: 'annotations', networkTimeoutSeconds: 4 }
+          },
+          {
             // Hikayeler: önbellekten hemen göster, arka planda güncelle
             urlPattern: ({ url, request }) => request.method === 'GET' && url.pathname.startsWith('/api/stories'),
             handler: 'StaleWhileRevalidate',

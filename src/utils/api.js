@@ -20,18 +20,19 @@ export function fetchStories() {
 }
 
 // Hikayedeki her kelimenin temel ve bağlamsal anlamı. İşaretlemesi olmayan hikayede null.
+// Yalnızca bulunan işaretleme saklanır: yeni eklenen hikayenin işaretlemesi arka planda
+// hazırlanırken açılırsa, hikaye bir sonraki açılışta yeniden sorgulanır.
 const annotationCache = new Map()
 export function fetchAnnotations(storyId) {
   if (!annotationCache.has(storyId)) {
-    annotationCache.set(
-      storyId,
-      fetch(`/api/stories/${encodeURIComponent(storyId)}/annotations`)
-        .then((r) => (r.ok ? r.json() : null))
-        .catch(() => {
-          annotationCache.delete(storyId)
-          return null
-        })
-    )
+    const promise = fetch(`/api/stories/${encodeURIComponent(storyId)}/annotations`)
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((annotation) => {
+        if (!annotation) annotationCache.delete(storyId)
+        return annotation
+      })
+    annotationCache.set(storyId, promise)
   }
   return annotationCache.get(storyId)
 }
