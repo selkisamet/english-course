@@ -1,6 +1,7 @@
 // localStorage manager for vocabulary progress
 
 import { slugify } from './format'
+import { notifyChange } from './changes'
 
 const STORAGE_KEY = 'vocabularyProgress'
 const STORAGE_VERSION = '2.0'
@@ -99,13 +100,15 @@ export function updateWordProgress(wordId, word, updates) {
 
   progress.words[wordId] = {
     ...progress.words[wordId],
-    ...updates
+    ...updates,
+    updatedAt: Date.now()
   }
 
   // Update global stats
   updateGlobalStats(progress)
 
   saveProgress(progress)
+  notifyChange('word', { wordId })
   return progress.words[wordId]
 }
 
@@ -120,8 +123,9 @@ export function findWordByText(text) {
 export function setWordContext(wordId, context) {
   const progress = getProgress()
   if (!progress.words[wordId]) return
-  progress.words[wordId] = { ...progress.words[wordId], ...context }
+  progress.words[wordId] = { ...progress.words[wordId], ...context, updatedAt: Date.now() }
   saveProgress(progress)
+  notifyChange('word', { wordId })
 }
 
 // Update global statistics
@@ -234,7 +238,10 @@ export function importProgress(file) {
         const data = JSON.parse(e.target.result)
 
         if (data.version === STORAGE_VERSION) {
+          const now = Date.now()
+          Object.values(data.words || {}).forEach((w) => (w.updatedAt = now))
           saveProgress(data)
+          notifyChange('words-reset')
           resolve(data)
         } else {
           reject(new Error('Incompatible progress file version'))
@@ -255,13 +262,16 @@ export function removeWordProgress(wordId) {
   if (!progress.words[wordId]) return
   delete progress.words[wordId]
   saveProgress(progress)
+  notifyChange('word-removed', { wordId })
 }
 
 // Reset all progress (with confirmation)
 export function resetProgress() {
   if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
     localStorage.removeItem(STORAGE_KEY)
-    return initializeProgress()
+    const fresh = initializeProgress()
+    notifyChange('words-reset')
+    return fresh
   }
   return getProgress()
 }
@@ -296,6 +306,21 @@ function migrateProgress(oldProgress) {
 
   saveProgress(migrated)
   return migrated
+}
+
+// ---------- Hesap senkronizasyonu (sync.js) ----------
+
+/** Hesaptan gelen kelimeleri yerele yazar; bildirim üretmez (döngüye girmesin). */
+export function applyRemoteWords(entries, stats) {
+  const progress = getProgress()
+  for (const entry of entries) progress.words[entry.wordId] = entry
+  if (stats) progress.stats = { ...progress.stats, ...stats }
+  saveProgress(progress)
+}
+
+/** Çıkışta: bu cihazdaki kelime ilerlemesini siler */
+export function clearLocalProgress() {
+  localStorage.removeItem(STORAGE_KEY)
 }
 
 // Debug: Get storage size

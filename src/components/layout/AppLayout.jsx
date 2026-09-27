@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { BookOpen, ChartNoAxesColumn, Download, Layers } from 'lucide-react'
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
+import { BookOpen, ChartNoAxesColumn, Download, Layers, UserRound } from 'lucide-react'
+import { useAuth } from '../../auth/AuthProvider'
 import PwaStatus from '../PwaStatus'
 import { useInstallPrompt } from '../../utils/pwa'
 import styles from './AppLayout.module.css'
@@ -8,7 +9,8 @@ import styles from './AppLayout.module.css'
 const NAV = [
   { to: '/', label: 'Hikayeler', icon: BookOpen, end: true },
   { to: '/vocabulary', label: 'Kelimeler', icon: Layers },
-  { to: '/progress', label: 'İlerleme', icon: ChartNoAxesColumn }
+  { to: '/progress', label: 'İlerleme', icon: ChartNoAxesColumn },
+  { to: '/hesap', label: 'Hesabım', icon: UserRound }
 ]
 
 // Okuma ve kart çalışması ekranları odak modunda açılır: menü gizlenir
@@ -18,6 +20,8 @@ function AppLayout() {
   const { pathname } = useLocation()
   const isFocus = FOCUS_ROUTES.some((re) => re.test(pathname))
   const { canInstall, install } = useInstallPrompt()
+  const { hasAccess, isTrial, daysLeft } = useAuth()
+  const trialEnding = hasAccess && isTrial && daysLeft <= 2
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -55,6 +59,12 @@ function AppLayout() {
             )}
           </div>
         </header>
+      )}
+
+      {trialEnding && !isFocus && (
+        <Link to="/hesap" className={styles.trialBanner}>
+          Deneme süren {daysLeft} gün içinde bitiyor · Hesabım
+        </Link>
       )}
 
       <main className={isFocus ? undefined : styles.main}>

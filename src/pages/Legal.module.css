@@ -1,0 +1,31 @@
+.legal {
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+.legal section {
+  margin-top: 24px;
+}
+
+.legal h2 {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.legal ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 20px;
+  color: var(--text-muted);
+}
+
+.legal > p {
+  margin-top: 32px;
+}
+
+.legal a {
+  text-decoration: underline;
+}

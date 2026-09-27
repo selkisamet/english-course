@@ -18,6 +18,7 @@ import { deleteAnnotation, getAnnotationForClient, readAnnotation, writeAnnotati
 import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './storyAnnotator.js'
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
+import { deleteAccount, requireAccess, requireUser } from './userAuth.js'
 import { getAllWords, getWordById, getStats, getAvailableLevels } from './vocabularyManager.js'
 
 // .env.local dosyasını yükle
@@ -29,6 +30,22 @@ const PORT = process.env.PORT || 3001
 // Middleware
 app.use(cors())
 app.use(express.json())
+
+// İçerik yalnızca girişli ve erişim süresi dolmamış kullanıcılara (ya da yönetim paneline) açık.
+// Hikaye ekleme/düzenleme gibi yönetici işlemleri ayrıca authMiddleware ile korunur.
+app.use(['/api/translate', '/api/analyze-word', '/api/vocabulary'], requireAccess)
+app.use('/api/stories', (req, res, next) => (req.method === 'GET' ? requireAccess(req, res, next) : next()))
+
+// Hesabı ve bütün verilerini sil
+app.delete('/api/account', requireUser, async (req, res) => {
+  try {
+    await deleteAccount(req.userId)
+    res.json({ message: 'Hesap silindi' })
+  } catch (error) {
+    console.error('Delete account error:', error)
+    res.status(500).json({ error: 'Hesap silinemedi' })
+  }
+})
 
 // DeepL ile EN → TR çeviri. `context` verilirse çeviriyi etkiler ama kendisi çevrilmez
 async function translateWithContext(text, context) {

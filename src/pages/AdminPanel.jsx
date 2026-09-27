@@ -145,7 +145,11 @@ function AdminPanel() {
   const fetchStories = async (authToken) => {
     setIsLoading(true)
     try {
-      const response = await fetch('/api/stories')
+      const response = await fetch('/api/stories', {
+        headers: { Authorization: `Bearer ${authToken}` }
+      })
+      // Kayıtlı şifre artık geçerli değilse giriş ekranına dön
+      if (response.status === 401) return handleLogout()
       if (!response.ok) {
         throw new Error('Failed to fetch stories')
       }

@@ -1,8 +1,21 @@
 import { getProgress } from './vocabularyStorage'
 import { slugify, VOCAB_LEVELS } from './format'
+import { getAccessToken } from './supabase'
+
+/** Oturum belirteciyle istek. Erişim süresi dolduysa uygulamaya haber verir (kilit ekranı). */
+export async function apiFetch(url, options = {}) {
+  const token = await getAccessToken()
+  const headers = { ...options.headers, ...(token ? { Authorization: `Bearer ${token}` } : {}) }
+  const response = await fetch(url, { ...options, headers })
+  if (response.status === 403) {
+    const body = await response.clone().json().catch(() => null)
+    if (body?.code === 'access_expired') window.dispatchEvent(new Event('access-expired'))
+  }
+  return response
+}
 
 async function request(url, options) {
-  const response = await fetch(url, options)
+  const response = await apiFetch(url, options)
   if (!response.ok) throw new Error(`${response.status} ${url}`)
   return response.json()
 }
@@ -25,7 +38,7 @@ export function fetchStories() {
 const annotationCache = new Map()
 export function fetchAnnotations(storyId) {
   if (!annotationCache.has(storyId)) {
-    const promise = fetch(`/api/stories/${encodeURIComponent(storyId)}/annotations`)
+    const promise = apiFetch(`/api/stories/${encodeURIComponent(storyId)}/annotations`)
       .then((r) => (r.ok ? r.json() : null))
       .catch(() => null)
       .then((annotation) => {
@@ -35,6 +48,12 @@ export function fetchAnnotations(storyId) {
     annotationCache.set(storyId, promise)
   }
   return annotationCache.get(storyId)
+}
+
+/** Çıkışta: bellekteki içerik önbelleklerini boşalt */
+export function clearApiCaches() {
+  storiesPromise = null
+  annotationCache.clear()
 }
 
 export const translateText = (text) =>
