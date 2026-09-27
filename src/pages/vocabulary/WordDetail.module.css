@@ -1,0 +1,177 @@
+.hero {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.status {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.status[data-status='new'] {
+  color: var(--info);
+}
+
+.status[data-status='learning'] {
+  color: var(--warning);
+}
+
+.status[data-status='reviewing'] {
+  color: var(--violet);
+}
+
+.status[data-status='mastered'] {
+  color: var(--primary);
+}
+
+.wordRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.word {
+  font-family: var(--font-read);
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.translation {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Bölümler ---------- */
+
+.sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.senses {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.sense {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.senseHead {
+  display: flex;
+  gap: 6px;
+}
+
+.senseTr {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.senseDef {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.example {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 10px 4px 10px 14px;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.exEn {
+  font-family: var(--font-read);
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.exTr {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.progress {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.progress div {
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.progress dt {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.progress dd {
+  margin-top: 2px;
+  font-weight: 700;
+}
+
+/* ---------- Eylem ---------- */
+
+.cta {
+  position: sticky;
+  bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+  margin: 24px calc(var(--gutter) * -1) 0;
+  padding: 12px var(--gutter);
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+}
+
+@media (min-width: 768px) {
+  .word {
+    font-size: 3.2rem;
+  }
+
+  .cta {
+    position: static;
+    margin: 28px 0 0;
+    padding: 0;
+    background: none;
+  }
+
+  .cta :global(.btn) {
+    width: auto;
+  }
+}

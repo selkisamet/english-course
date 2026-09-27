@@ -1,7 +1,9 @@
 // localStorage manager for vocabulary progress
 
+import { slugify } from './format'
+
 const STORAGE_KEY = 'vocabularyProgress'
-const STORAGE_VERSION = '1.0'
+const STORAGE_VERSION = '2.0'
 
 // Initialize progress structure
 export function initializeProgress() {
@@ -105,6 +107,21 @@ export function updateWordProgress(wordId, word, updates) {
 
   saveProgress(progress)
   return progress.words[wordId]
+}
+
+// Find a saved word by its text (case-insensitive)
+export function findWordByText(text) {
+  const target = text.toLowerCase()
+  return Object.values(getProgress().words).find((w) => w.word?.toLowerCase() === target) || null
+}
+
+// Update only the story context of a saved word (translation, sentence…),
+// without touching review stats or the study streak
+export function setWordContext(wordId, context) {
+  const progress = getProgress()
+  if (!progress.words[wordId]) return
+  progress.words[wordId] = { ...progress.words[wordId], ...context }
+  saveProgress(progress)
 }
 
 // Update global statistics
@@ -232,6 +249,14 @@ export function importProgress(file) {
   })
 }
 
+// Remove a single word (e.g. a word that is no longer in the vocabulary list)
+export function removeWordProgress(wordId) {
+  const progress = getProgress()
+  if (!progress.words[wordId]) return
+  delete progress.words[wordId]
+  saveProgress(progress)
+}
+
 // Reset all progress (with confirmation)
 export function resetProgress() {
   if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
@@ -243,11 +268,29 @@ export function resetProgress() {
 
 // Migrate progress from old version (future-proofing)
 function migrateProgress(oldProgress) {
-  console.log('Migrating progress data...')
+  // 1.0 → 2.0: kelime listesi resmi Oxford 3000'den yeniden kuruldu.
+  // Eski "word-0001" kimlikleri kelimenin kendisinden türetilen kimliğe ("about") taşınır.
+  // Eski veritabanından kopyalanan (hatalı olabilen) çeviriler silinir; hikayeden
+  // bağlamıyla kaydedilen kelimelerin çevirisi korunur.
+  const words = {}
+  for (const [key, entry] of Object.entries(oldProgress.words || {})) {
+    if (!/^word-\d+$/.test(key)) {
+      words[key] = entry
+      continue
+    }
+    const id = slugify(entry.word || '')
+    if (!id) continue
+    const migratedEntry = { ...entry, wordId: id }
+    if (!migratedEntry.sentence) delete migratedEntry.translation
+    // Aynı kelimeye düşen iki kayıt varsa daha çok çalışılanı tut
+    if (!words[id] || (words[id].reviewCount || 0) < (migratedEntry.reviewCount || 0)) {
+      words[id] = migratedEntry
+    }
+  }
 
-  // For now, just update version
   const migrated = {
     ...oldProgress,
+    words,
     version: STORAGE_VERSION
   }
 

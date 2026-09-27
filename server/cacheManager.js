@@ -50,3 +50,17 @@ export function setCachedWord(word, nlpData, translation = null, contextTranslat
   saveCache(cache)
   return cache[key]
 }
+
+// Kelimenin belirli bir cümledeki çevirisi: { "word": { contexts: { "cümle": "çeviri" } } }
+export function getCachedContextTranslation(word, sentence) {
+  return loadCache()[word.toLowerCase()]?.contexts?.[sentence] || null
+}
+
+export function setCachedContextTranslation(word, sentence, translation) {
+  const cache = loadCache()
+  const key = word.toLowerCase()
+  if (!cache[key]) return
+
+  cache[key].contexts = { ...cache[key].contexts, [sentence]: translation }
+  saveCache(cache)
+}

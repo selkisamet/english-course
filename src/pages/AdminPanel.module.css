@@ -1,0 +1,210 @@
+/* ---------- Giriş ---------- */
+
+.loginPage {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: var(--gutter);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 380px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow-md);
+}
+
+.login h1 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-family: var(--font-read);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.error {
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
+/* ---------- Form alanı ---------- */
+
+.field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field > span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.field small {
+  align-self: flex-end;
+  color: var(--text-subtle);
+  font-size: 0.8rem;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.field textarea {
+  resize: vertical;
+  font-family: var(--font-read);
+  line-height: 1.7;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+/* ---------- Panel ---------- */
+
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 12px var(--gutter) 48px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 20px -10px;
+}
+
+.header h1 {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.list {
+  list-style: none;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 8px 8px 16px;
+}
+
+.row + .row {
+  border-top: 1px solid var(--border);
+}
+
+.rowMain {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.rowMain strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rowMain small {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.delete:hover {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.empty {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 22px;
+}
+
+.form h2 {
+  font-size: 1.2rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding-top: 32px;
+  }
+
+  .toolbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .toolbar :global(.chip-row) {
+    margin: 0;
+    padding: 0;
+  }
+
+  .formRow {
+    flex-direction: row;
+  }
+
+  .formRow .field:last-child {
+    flex: 0 0 140px;
+  }
+}

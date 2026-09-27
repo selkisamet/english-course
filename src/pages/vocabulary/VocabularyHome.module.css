@@ -1,0 +1,231 @@
+.grid {
+  display: grid;
+  gap: 14px;
+}
+
+/* ---------- Tekrar ---------- */
+
+.due {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 22px;
+  border-radius: var(--radius-lg);
+  background: var(--primary);
+  color: var(--on-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.dueIcon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--on-primary) 18%, transparent);
+}
+
+.dueText h2 {
+  font-size: 1.35rem;
+}
+
+.dueText p {
+  margin-top: 4px;
+  opacity: 0.85;
+}
+
+.due :global(.btn-primary) {
+  background: var(--on-primary);
+  color: var(--primary);
+}
+
+/* ---------- Yeni kelime ---------- */
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 22px;
+}
+
+.learnHead {
+  display: flex;
+  gap: 14px;
+}
+
+.learnHead h2 {
+  font-size: 1.15rem;
+}
+
+.learnHead p {
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+
+.learnIcon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  background: var(--highlight-soft);
+  color: var(--warning);
+}
+
+.levels {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 10px 6px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  transition: all 0.15s ease;
+}
+
+.level strong {
+  font-size: 1rem;
+}
+
+.level small {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.level:hover {
+  border-color: var(--text-subtle);
+}
+
+.level[aria-pressed='true'] {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.level[aria-pressed='true'] small {
+  color: var(--primary);
+}
+
+.start {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.start:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.error {
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
+/* ---------- İstatistik ---------- */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.stat strong {
+  margin-top: 6px;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.stat span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.flame {
+  color: var(--warning);
+}
+
+.check {
+  color: var(--primary);
+}
+
+.layers {
+  color: var(--info);
+}
+
+/* ---------- Liste bağlantısı ---------- */
+
+.browse {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+  padding: 16px 18px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  transition: border-color 0.15s ease;
+}
+
+.browse:hover {
+  border-color: var(--text-subtle);
+}
+
+.browse > span {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.browse strong {
+  color: var(--text);
+}
+
+.browse small {
+  font-size: 0.85rem;
+}
+
+@media (min-width: 900px) {
+  .grid:has(.due) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .due {
+    justify-content: space-between;
+    padding: 28px;
+  }
+
+  .due :global(.btn) {
+    align-self: flex-start;
+  }
+
+  .learn {
+    padding: 28px;
+  }
+
+  .levels {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid:has(.due) .levels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

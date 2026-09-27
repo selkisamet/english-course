@@ -1,0 +1,239 @@
+/* ---------- Özet göstergeler ---------- */
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.kpi {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 14px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.kpi strong {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.kpi strong small {
+  font-size: 0.9rem;
+  color: var(--text-subtle);
+}
+
+.kpi span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.flame {
+  color: var(--warning);
+}
+
+.book {
+  color: var(--primary);
+}
+
+.layers {
+  color: var(--info);
+}
+
+/* ---------- Kelime dağılımı ---------- */
+
+.words {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 14px;
+  padding: 20px;
+}
+
+.ringWrap {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+}
+
+.ring {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ringBg,
+.ringFill {
+  fill: none;
+  stroke-width: 10;
+}
+
+.ringBg {
+  stroke: var(--surface-2);
+}
+
+.ringFill {
+  stroke: var(--primary);
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.8s var(--ease);
+}
+
+.ringValue {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.breakdown {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.stack {
+  display: flex;
+  gap: 3px;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  background: var(--surface-2);
+}
+
+.stack span {
+  flex-basis: 0;
+  min-width: 6px;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  gap: 4px 16px;
+  list-style: none;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+.legend strong {
+  color: var(--text);
+}
+
+.stack [data-status],
+.legend [data-status] {
+  --dot: var(--info);
+}
+
+.stack [data-status='mastered'],
+.legend [data-status='mastered'] {
+  --dot: var(--primary);
+}
+
+.stack [data-status='reviewing'],
+.legend [data-status='reviewing'] {
+  --dot: var(--violet);
+}
+
+.stack [data-status='learning'],
+.legend [data-status='learning'] {
+  --dot: var(--warning);
+}
+
+.stack span {
+  background: var(--dot);
+}
+
+/* ---------- Zor kelimeler ---------- */
+
+.weak {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.weak li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+
+.weak li + li {
+  border-top: 1px solid var(--border);
+}
+
+.weakWord {
+  font-weight: 700;
+}
+
+.weakStat {
+  color: var(--danger);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 380px) {
+  .words {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ringWrap {
+    align-self: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .kpis {
+    gap: 14px;
+  }
+
+  .kpi {
+    padding: 20px;
+  }
+
+  .kpi strong {
+    font-size: 2rem;
+  }
+
+  .words {
+    gap: 32px;
+    padding: 28px;
+  }
+
+  .ringWrap {
+    width: 128px;
+    height: 128px;
+  }
+
+  .legend {
+    grid-template-columns: repeat(4, auto);
+  }
+}
