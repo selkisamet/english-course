@@ -1,0 +1,955 @@
+{
+ "storyId": "story-a2-001",
+ "textHash": "84558b40a9fa",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen yaz ailemle İspanya'ya seyahat ettik."
+  },
+  {
+   "tr": "Uçakla gittik."
+  },
+  {
+   "tr": "İlk kez uçağa biniyordum, bu yüzden biraz gergindim."
+  },
+  {
+   "tr": "Ama yolculuk sorunsuz geçti."
+  },
+  {
+   "tr": "Sahilin yakınında güzel bir otelde kaldık."
+  },
+  {
+   "tr": "Hava her gün harikaydı."
+  },
+  {
+   "tr": "Okyanusta yüzdük ve yöresel yemekler yedik."
+  },
+  {
+   "tr": "Bir gece geleneksel bir dans gösterisi izledik."
+  },
+  {
+   "tr": "Hayatımın en güzel tatiliydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* zaman ifadelerinde \"geçen\" demektir ve önüne *the* ya da *in* almaz: *last summer* → geçen yaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ailemle ben)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "İngilizcede kendinizi başkalarıyla birlikte sayarken sona koyarsınız: *my family and I* → ailem ve ben (ailemle).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "seyahat ettik",
+   "note": null,
+   "form": "travel + -ed (geçmiş zaman; Amerikan yazımı, İngilizcesi *travelled*)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (İspanya'ya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "Spain",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İspanya",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittik",
+   "note": "*go* düzensiz bir fiildir; geçmiş hali *went*'tir.",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "went by plane",
+    "meaning": "uçakla gittik (by + araç: … ile)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (uçakla)",
+   "note": "Ulaşım aracını anlatırken *by* + araç kullanılır ve araçtan önce *a/the* gelmez: *by plane, by car, by bus*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "went by plane",
+    "meaning": "uçakla gittik (by + araç: … ile)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "plane",
+   "pos": "noun",
+   "wordId": "plane",
+   "sense": 0,
+   "context": "uçak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "went by plane",
+    "meaning": "uçakla gittik (by + araç: … ile)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (idi)",
+   "note": null,
+   "form": "be fiilinin 1. ve 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* \"zaman\" demektir; sayılarla birlikte \"kez, sefer\" anlamına gelir: *first time* → ilk kez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(uçakta, uçağa binmiş)",
+   "note": "Uçak, otobüs ve tren gibi toplu taşıma araçlarında *on* kullanılır: *on a plane, on the bus*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "plane",
+   "pos": "noun",
+   "wordId": "plane",
+   "sense": 0,
+   "context": "uçak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissettim (-dim)",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir: *I felt nervous* → Gergindim / Gergin hissettim.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a bit: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "a bit",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "bit",
+   "pos": "noun",
+   "wordId": "bit",
+   "sense": 0,
+   "context": "biraz (a bit)",
+   "note": "*a bit* \"biraz\" demektir ve sıfatlardan önce kullanılır: *a bit nervous* → biraz gergin.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "a bit",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "journey",
+   "pos": "noun",
+   "wordId": "journey",
+   "sense": 0,
+   "context": "yolculuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (geçti)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "smooth",
+   "pos": "adjective",
+   "wordId": "smooth",
+   "sense": 0,
+   "context": "sorunsuz",
+   "note": "*smooth*'un temel anlamı \"pürüzsüz, düz\"dür; yolculuk için \"sorunsuz, rahat\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kaldık",
+   "note": null,
+   "form": "stay + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (otelde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "lovely",
+   "pos": "adjective",
+   "wordId": "lovely",
+   "sense": 0,
+   "context": "güzel, hoş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "coast",
+   "pos": "noun",
+   "wordId": "coast",
+   "sense": 0,
+   "context": "sahil, kıyı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (harikaydı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "fantastic",
+   "pos": "adjective",
+   "wordId": "fantastic",
+   "sense": 0,
+   "context": "harika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzdük",
+   "note": null,
+   "form": "swim fiilinin geçmiş zaman hali (swam, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (okyanusta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "ocean",
+   "pos": "noun",
+   "wordId": "ocean",
+   "sense": 0,
+   "context": "okyanus",
+   "note": "*ocean* \"okyanus\" demektir; Amerikan İngilizcesinde genel olarak \"deniz\" yerine de kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yedik",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yöresel, yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek(ler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "One night",
+    "meaning": "bir gece"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "One night",
+    "meaning": "bir gece"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izledik",
+   "note": null,
+   "form": "watch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "traditional",
+   "pos": "adjective",
+   "wordId": "traditional",
+   "sense": 0,
+   "context": "geleneksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "dance",
+   "pos": "noun",
+   "wordId": "dance",
+   "sense": 0,
+   "context": "dans",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "show",
+   "pos": "noun",
+   "wordId": "show",
+   "sense": 1,
+   "context": "gösteri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (tatiliydi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the best* → en iyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "en güzel (en iyi)",
+   "note": "*best*, *good* sıfatının en üstünlük halidir (good → better → best).",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "tatil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hayatımın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

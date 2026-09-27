@@ -14,6 +14,10 @@ import {
 import { getCachedSentence, setCachedSentence } from './sentenceCache.js'
 import { getAllStories, getStoryById, createStory, updateStory, deleteStory } from './storyManager.js'
 import { authMiddleware, verifyPassword } from './authMiddleware.js'
+import { deleteAnnotation, getAnnotationForClient, readAnnotation, writeAnnotation } from './annotationStore.js'
+import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './storyAnnotator.js'
+import { analyzeStory, textHash } from './storyText.js'
+import { validateAnnotation } from './scripts/validateAnnotations.js'
 import { getAllWords, getWordById, getStats, getAvailableLevels } from './vocabularyManager.js'
 
 // .env.local dosyasını yükle
@@ -290,6 +294,25 @@ app.get('/api/stories/:id', (req, res) => {
   }
 })
 
+// Hikayedeki her kelimenin temel ve bağlamsal anlamı (işaretleme)
+app.get('/api/stories/:id/annotations', (req, res) => {
+  try {
+    const story = getStoryById(req.params.id)
+    if (!story) return res.status(404).json({ error: 'Story not found' })
+
+    const annotation = getAnnotationForClient(story)
+    if (!annotation) return res.status(404).json({ error: 'Annotation not found' })
+
+    res.json(annotation)
+  } catch (error) {
+    console.error('Get annotation error:', error)
+    res.status(500).json({
+      error: 'Failed to get story',
+      message: error.message
+    })
+  }
+})
+
 // Create new story (requires auth)
 app.post('/api/stories', authMiddleware, (req, res) => {
   try {
@@ -300,7 +323,9 @@ app.post('/api/stories', authMiddleware, (req, res) => {
     }
 
     const newStory = createStory({ title, level, text })
-    res.status(201).json(newStory)
+    // Kelime işaretlemesi arka planda hazırlanır; hikaye hemen yayındadır
+    queueAnnotation(newStory)
+    res.status(201).json({ ...newStory, annotation: getAnnotationStatus(newStory) })
   } catch (error) {
     console.error('Create story error:', error)
     res.status(500).json({
@@ -326,7 +351,9 @@ app.put('/api/stories/:id', authMiddleware, (req, res) => {
       return res.status(404).json({ error: 'Story not found' })
     }
 
-    res.json(updatedStory)
+    // Metin değiştiyse eski işaretleme geçersizdir, yeniden hazırlanır
+    if (getAnnotationStatus(updatedStory).status === 'none') queueAnnotation(updatedStory)
+    res.json({ ...updatedStory, annotation: getAnnotationStatus(updatedStory) })
   } catch (error) {
     console.error('Update story error:', error)
     res.status(500).json({
@@ -346,6 +373,8 @@ app.delete('/api/stories/:id', authMiddleware, (req, res) => {
       return res.status(404).json({ error: 'Story not found' })
     }
 
+    deleteAnnotation(id)
+    forgetAnnotationJob(id)
     res.json({ message: 'Story deleted successfully' })
   } catch (error) {
     console.error('Delete story error:', error)
@@ -354,6 +383,51 @@ app.delete('/api/stories/:id', authMiddleware, (req, res) => {
       message: error.message
     })
   }
+})
+
+// ===== İşaretleme yönetimi (yönetim paneli) =====
+
+// Bütün hikayelerin işaretleme durumu: ready | pending | failed | none
+app.get('/api/admin/annotations', authMiddleware, (req, res) => {
+  const statuses = Object.fromEntries(getAllStories().map((s) => [s.id, getAnnotationStatus(s)]))
+  res.json(statuses)
+})
+
+// Claude ile yeniden işaretle
+app.post('/api/stories/:id/annotate', authMiddleware, (req, res) => {
+  const story = getStoryById(req.params.id)
+  if (!story) return res.status(404).json({ error: 'Story not found' })
+  queueAnnotation(story)
+  res.status(202).json(getAnnotationStatus(story))
+})
+
+// İnceleme ekranı için: kelimeler, cümleler ve mevcut işaretleme
+app.get('/api/admin/stories/:id/annotation', authMiddleware, (req, res) => {
+  const story = getStoryById(req.params.id)
+  if (!story) return res.status(404).json({ error: 'Story not found' })
+  const { tokens, sentences, sentenceOfToken } = analyzeStory(story.text)
+  const saved = readAnnotation(story.id)
+  const annotation = saved?.textHash === textHash(story.text) ? saved : null
+  // İncelemede temel anlamı göstermek için bağlı kelimelerin Oxford anlamları
+  const senses = {}
+  for (const t of annotation?.tokens || []) {
+    const word = t.wordId && getWordById(t.wordId)
+    if (word) senses[t.wordId] = word.senses.map(({ pos, translation }) => ({ pos, translation }))
+  }
+  res.json({ story, tokens, sentences, sentenceOfToken, annotation, senses, status: getAnnotationStatus(story) })
+})
+
+// Elle düzeltilmiş işaretlemeyi doğrulayıp kaydet
+app.put('/api/admin/stories/:id/annotation', authMiddleware, (req, res) => {
+  const story = getStoryById(req.params.id)
+  if (!story) return res.status(404).json({ error: 'Story not found' })
+  const { sentences, tokens } = req.body || {}
+  const annotation = { storyId: story.id, textHash: textHash(story.text), source: 'manual', sentences, tokens }
+  const { errors, warnings } = validateAnnotation(story, annotation)
+  if (errors.length) return res.status(400).json({ error: 'Doğrulama hatası', errors, warnings })
+  writeAnnotation(annotation)
+  forgetAnnotationJob(story.id)
+  res.json({ warnings, status: getAnnotationStatus(story) })
 })
 
 // ===== Vocabulary Endpoints =====

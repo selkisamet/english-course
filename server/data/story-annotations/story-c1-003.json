@@ -1,0 +1,802 @@
+{
+ "storyId": "story-c1-003",
+ "textHash": "2082c08ca129",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yapay zekânın hızlı ilerlemesi, etik ve istihdam konusunda hararetli bir tartışma başlattı."
+  },
+  {
+   "tr": "Bazıları onu yeni bir verimlilik çağının başlangıcı olarak selamlarken, diğerleri iş gücünün yerinden edilmesinden korkuyor."
+  },
+  {
+   "tr": "Sağlam düzenlemeler oluşturmamız çok önemli."
+  },
+  {
+   "tr": "Bu kaygıları önceden ele almazsak toplumsal uçurum genişleyebilir ve öngörülemeyen sonuçlara yol açabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "rapid",
+   "pos": "adjective",
+   "wordId": "rapid",
+   "sense": 0,
+   "context": "hızlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "advancement",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ilerleme",
+   "note": null,
+   "form": null,
+   "base": "ilerleme, gelişme",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (zekânın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "artificial",
+   "pos": "adjective",
+   "wordId": "artificial",
+   "sense": 0,
+   "context": "yapay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "artificial intelligence",
+    "meaning": "yapay zekâ"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "intelligence",
+   "pos": "noun",
+   "wordId": "intelligence",
+   "sense": 0,
+   "context": "zekâ",
+   "note": "*artificial intelligence* (AI) \"yapay zekâ\" demektir; *intelligence* ayrıca \"istihbarat\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "artificial intelligence",
+    "meaning": "yapay zekâ"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) sonucu şimdi de süren eylemi anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "spark",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "başlattı (alevlendirdi)",
+   "note": "*spark*'ın isim anlamı \"kıvılcım\"dır; fiil olarak *spark a debate* \"bir tartışmayı başlatmak, alevlendirmek\" demektir.",
+   "form": "spark fiilinin 3. hali (sparked, -ed)",
+   "base": "kıvılcım; (fiil) başlatmak, tetiklemek",
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "has sparked a heated debate",
+    "meaning": "hararetli bir tartışma başlattı (spark a debate)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "has sparked a heated debate",
+    "meaning": "hararetli bir tartışma başlattı (spark a debate)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "heated",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hararetli",
+   "note": "*heated*'ın temel anlamı \"ısıtılmış\"tır; tartışma için \"hararetli, ateşli\" demektir.",
+   "form": null,
+   "base": "ısıtılmış; hararetli, ateşli",
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "has sparked a heated debate",
+    "meaning": "hararetli bir tartışma başlattı (spark a debate)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "debate",
+   "pos": "noun",
+   "wordId": "debate",
+   "sense": 0,
+   "context": "tartışma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "has sparked a heated debate",
+    "meaning": "hararetli bir tartışma başlattı (spark a debate)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "regarding",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "konusunda",
+   "note": "*regarding* \"… hakkında, … konusunda\" demektir; *about*'tan daha resmîdir.",
+   "form": null,
+   "base": "hakkında, ile ilgili",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "ethics",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "etik",
+   "note": null,
+   "form": null,
+   "base": "etik, ahlak ilkeleri",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "employment",
+   "pos": "noun",
+   "wordId": "employment",
+   "sense": 0,
+   "context": "istihdam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* iki zıt görüşü karşılaştırırken \"… -ken, … -se de\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some … others …* \"bazıları … diğerleri ise …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "hail",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "selamlamak (övmek)",
+   "note": "*hail something as…* bir şeyi \"… olarak coşkuyla karşılamak, övmek\" demektir.",
+   "form": null,
+   "base": "coşkuyla karşılamak, övmek",
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "hail it as",
+    "meaning": "onu … olarak selamlamak (övmek)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (yapay zekâyı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "hail it as",
+    "meaning": "onu … olarak selamlamak (övmek)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "hail it as",
+    "meaning": "onu … olarak selamlamak (övmek)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "beginning",
+   "pos": "noun",
+   "wordId": "beginning",
+   "sense": 0,
+   "context": "başlangıç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (çağının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "era",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çağ",
+   "note": null,
+   "form": null,
+   "base": "çağ, dönem",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… çağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "productivity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "verimlilik",
+   "note": null,
+   "form": null,
+   "base": "verimlilik",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "diğerleri",
+   "note": "*others* \"diğerleri, başkaları\" demektir; isim olmadan tek başına kullanılır.",
+   "form": "other'ın çoğulu (zamir olarak)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korkuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "displacement",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yerinden edilme",
+   "note": null,
+   "form": null,
+   "base": "yerinden edilme, yer değiştirme",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (gücünün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "workforce",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iş gücü",
+   "note": null,
+   "form": null,
+   "base": "iş gücü",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is essential that…* yapısında *it* sonraki cümlenin yerini tutar; Türkçede karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "It is essential that",
+    "meaning": "… -mesi çok önemli"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "It is essential that",
+    "meaning": "… -mesi çok önemli"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "essential",
+   "pos": "adjective",
+   "wordId": "essential",
+   "sense": 0,
+   "context": "çok önemli (şart)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "It is essential that",
+    "meaning": "… -mesi çok önemli"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-mesi (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "It is essential that",
+    "meaning": "… -mesi çok önemli"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "establish",
+   "pos": "verb",
+   "wordId": "establish",
+   "sense": 0,
+   "context": "oluşturmak (kurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "robust",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sağlam",
+   "note": null,
+   "form": null,
+   "base": "sağlam, güçlü, dayanıklı",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "regulation",
+   "pos": "noun",
+   "wordId": "regulation",
+   "sense": 0,
+   "context": "düzenlemeler",
+   "note": null,
+   "form": "regulation'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "unless",
+   "pos": "conjunction",
+   "wordId": "unless",
+   "sense": 0,
+   "context": "-mezsek",
+   "note": "*unless* \"… -medikçe, … -mezse\" demektir ve *if … not* anlamı taşır: *Unless we address…* = *If we don't address…*",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "address",
+   "pos": "verb",
+   "wordId": "address",
+   "sense": 1,
+   "context": "ele almak",
+   "note": "*address*'in isim anlamı \"adres\"tir; fiil olarak bir sorunu \"ele almak, çözmeye çalışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "these",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": "*these*, *this*'in çoğuludur: *this concern* → *these concerns*.",
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "concern",
+   "pos": "noun",
+   "wordId": "concern",
+   "sense": 0,
+   "context": "kaygılar",
+   "note": null,
+   "form": "concern'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "proactively",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "önceden (proaktif olarak)",
+   "note": "*proactively*, sorun çıkmadan önce harekete geçmeyi anlatır; *reactively* (sorun çıktıktan sonra) zıddıdır.",
+   "form": null,
+   "base": "önceden davranarak, proaktif olarak",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "societal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "toplumsal",
+   "note": null,
+   "form": null,
+   "base": "toplumsal",
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "societal gap",
+    "meaning": "toplumsal uçurum"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "gap",
+   "pos": "noun",
+   "wordId": "gap",
+   "sense": 0,
+   "context": "uçurum (boşluk)",
+   "note": "*gap*'in temel anlamı \"boşluk, açıklık\"tır; gruplar arasındaki \"uçurum, fark\" için de kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "societal gap",
+    "meaning": "toplumsal uçurum"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": "*could* burada geçmiş değil, gelecekteki bir olasılığı anlatır: *could widen* → genişleyebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "widen",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "genişlemek",
+   "note": "*-en* eki sıfattan fiil yapar: *wide* (geniş) → *widen* (genişlemek).",
+   "form": null,
+   "base": "genişlemek, genişletmek",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "lead",
+   "pos": "verb",
+   "wordId": "lead",
+   "sense": 0,
+   "context": "yol açarak",
+   "note": "*lead*'in temel anlamı \"yol göstermek, önderlik etmek\"tir; *lead to something* \"bir şeye yol açmak\" demektir.",
+   "form": "lead + -ing",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "leading to",
+    "meaning": "yol açarak (lead to: -e yol açmak)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (sonuçlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "leading to",
+    "meaning": "yol açarak (lead to: -e yol açmak)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "unforeseen",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "öngörülemeyen",
+   "note": null,
+   "form": null,
+   "base": "öngörülemeyen, beklenmedik",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "consequence",
+   "pos": "noun",
+   "wordId": "consequence",
+   "sense": 0,
+   "context": "sonuçlar",
+   "note": null,
+   "form": "consequence'ın çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,936 @@
+{
+ "storyId": "story-b1-001",
+ "textHash": "fbf18248adc5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Julia üç yıldır grafik tasarımcı olarak çalışıyor."
+  },
+  {
+   "tr": "Kısa süre önce ünlü bir teknoloji şirketindeki bir pozisyona başvurdu."
+  },
+  {
+   "tr": "Mülakat dündü."
+  },
+  {
+   "tr": "Gergindi ama soruları kendinden emin bir şekilde yanıtladı."
+  },
+  {
+   "tr": "Önceki görevinde sorunları nasıl çözdüğünü anlattı."
+  },
+  {
+   "tr": "Sonunda müdür gülümsedi."
+  },
+  {
+   "tr": "Julia şimdi rahatlamış hissediyor."
+  },
+  {
+   "tr": "İşi alabilir de almayabilir de ama elinden gelenin en iyisini yaptı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Julia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor; -dır)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) + *for* süresi, geçmişte başlayıp hâlâ devam eden durumu anlatır: *has worked for three years* → üç yıldır çalışıyor. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "has worked",
+    "meaning": "çalışıyor (present perfect: geçmişte başlayıp hâlâ süren)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work fiilinin 3. hali (worked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "has worked",
+    "meaning": "çalışıyor (present perfect: geçmişte başlayıp hâlâ süren)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": "Meslek ya da görev anlatırken *as* \"olarak\" demektir: *as a designer* → tasarımcı olarak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "graphic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "grafik",
+   "note": null,
+   "form": null,
+   "base": "grafik (ile ilgili)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "designer",
+   "pos": "noun",
+   "wordId": "designer",
+   "sense": 0,
+   "context": "tasarımcı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (üç yıldır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" (… yıldır) ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "for three years",
+    "meaning": "üç yıldır"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "for three years",
+    "meaning": "üç yıldır"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "for three years",
+    "meaning": "üç yıldır"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "recently",
+   "pos": "adverb",
+   "wordId": "recently",
+   "sense": 0,
+   "context": "kısa süre önce, yakın zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "apply",
+   "pos": "verb",
+   "wordId": "apply",
+   "sense": 0,
+   "context": "başvurdu",
+   "note": "*apply for* \"(iş, burs vb.) için başvurmak\" demektir.",
+   "form": "apply + -ed (geçmiş zaman; y → i: applied)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "applied for",
+    "meaning": "başvurdu (apply for: -e başvurmak)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(apply for: -e başvurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "applied for",
+    "meaning": "başvurdu (apply for: -e başvurmak)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "position",
+   "pos": "noun",
+   "wordId": "position",
+   "sense": 0,
+   "context": "pozisyon (iş)",
+   "note": "*position*'ın temel anlamı \"konum\"dur; iş bağlamında \"pozisyon, kadro\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (şirketteki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "famous",
+   "pos": "adjective",
+   "wordId": "famous",
+   "sense": 0,
+   "context": "ünlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "technology",
+   "pos": "noun",
+   "wordId": "technology",
+   "sense": 0,
+   "context": "teknoloji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "yesterday",
+   "pos": "noun",
+   "wordId": "yesterday",
+   "sense": 1,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dü (idi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "interview",
+   "pos": "noun",
+   "wordId": "interview",
+   "sense": 0,
+   "context": "mülakat, iş görüşmesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti (-di)",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "answer",
+   "pos": "verb",
+   "wordId": "answer",
+   "sense": 1,
+   "context": "yanıtladı",
+   "note": null,
+   "form": "answer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "confidently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kendinden emin bir şekilde",
+   "note": "*confidently*, *confident* (kendinden emin) sıfatına *-ly* eklenerek yapılmış bir zarftır; eylemin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": "kendinden emin bir şekilde, güvenle",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "anlattı (açıkladı)",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir olaydan daha önce olan eylemi anlatır: *had solved* → çözmüştü.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "had solved",
+    "meaning": "çözmüştü (past perfect)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "solve",
+   "pos": "verb",
+   "wordId": "solve",
+   "sense": 0,
+   "context": "çözmüştü (çözdüğünü)",
+   "note": null,
+   "form": "solve fiilinin 3. hali (solved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "had solved",
+    "meaning": "çözmüştü (past perfect)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorunlar",
+   "note": null,
+   "form": "problem'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (görevinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "previous",
+   "pos": "adjective",
+   "wordId": "previous",
+   "sense": 0,
+   "context": "önceki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "role",
+   "pos": "noun",
+   "wordId": "role",
+   "sense": 0,
+   "context": "görev (rol)",
+   "note": "*role*'ün temel anlamı \"rol\"dür; iş bağlamında \"görev, pozisyon\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (sonunda)",
+   "note": "*at the end* \"sonunda, bitiminde\" demektir; *in the end* ise \"en sonunda, nihayetinde\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "At the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "At the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "At the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "müdür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "smile",
+   "pos": "verb",
+   "wordId": "smile",
+   "sense": 0,
+   "context": "gülümsedi",
+   "note": null,
+   "form": "smile + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "Julia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "relieved",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "rahatlamış",
+   "note": "*relieved* bir endişe geçtikten sonra \"rahatlamış, içi rahat etmiş\" olmayı anlatır.",
+   "form": null,
+   "base": "rahatlamış, içi rahatlamış",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": "*might* + fiil, emin olunmayan bir olasılığı anlatır: *She might get the job* → İşi alabilir (belki). *might not* → -meyebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "almak (elde etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir (-meyebilir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (almayabilir)",
+   "note": "*might not* sonrasındaki fiil (*get the job*) tekrar edilmez, anlaşılır: *she might not* → almayabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yaptı",
+   "note": "*do your best* \"elinden gelenin en iyisini yapmak\" demektir.",
+   "form": "do fiilinin geçmiş zaman hali (did, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "did her best",
+    "meaning": "elinden gelenin en iyisini yaptı (do your best)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (elinden gelen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "did her best",
+    "meaning": "elinden gelenin en iyisini yaptı (do your best)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "best",
+   "pos": "noun",
+   "wordId": "best",
+   "sense": 2,
+   "context": "en iyisi (elinden gelenin en iyisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "did her best",
+    "meaning": "elinden gelenin en iyisini yaptı (do your best)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,853 @@
+{
+ "storyId": "story-b2-002",
+ "textHash": "18f1d34cbdd5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir yazılım mühendisi olan James, akıllı telefonuna bağımlı olduğunu fark etti."
+  },
+  {
+   "tr": "Kendini bitkin ve tükenmiş hissediyordu."
+  },
+  {
+   "tr": "Sonuç olarak bir haftalığına dijital detoks denemeye karar verdi."
+  },
+  {
+   "tr": "İlk birkaç gün zorluydu ama dördüncü güne gelindiğinde çevresindeki dünyanın güzelliğini takdir etmeye başladı."
+  },
+  {
+   "tr": "Kitap okudu ve resim yaptı."
+  },
+  {
+   "tr": "Teknolojinin hayatını kontrol etmemesi gerektiğini anladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "James",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "James",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "İsimden sonra virgüller arasında gelen açıklama (*James, a software engineer,*) o kişiyi tanıtır; Türkçede \"… olan James\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "software",
+   "pos": "noun",
+   "wordId": "software",
+   "sense": 0,
+   "context": "yazılım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "software engineer",
+    "meaning": "yazılım mühendisi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "engineer",
+   "pos": "noun",
+   "wordId": "engineer",
+   "sense": 0,
+   "context": "mühendis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "software engineer",
+    "meaning": "yazılım mühendisi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "realize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığını (olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "addicted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bağımlı",
+   "note": "*be addicted to something* \"bir şeye bağımlı olmak\" demektir.",
+   "form": null,
+   "base": "bağımlı",
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "addicted to",
+    "meaning": "-e bağımlı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (telefonuna)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "addicted to",
+    "meaning": "-e bağımlı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "smartphone",
+   "pos": "noun",
+   "wordId": "smartphone",
+   "sense": 0,
+   "context": "akıllı telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyordu",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "exhausted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bitkin",
+   "note": "*exhausted* \"çok yorgun, bitkin\" demektir; *tired*'dan (yorgun) daha güçlüdür.",
+   "form": null,
+   "base": "bitkin, çok yorgun",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "burn",
+   "pos": "verb",
+   "wordId": "burn",
+   "sense": 0,
+   "context": "tükenmiş (burned out)",
+   "note": "*burn*'ün temel anlamı \"yanmak\"tır; *burned out* ise uzun süreli iş yükünden \"tükenmiş\" olmayı anlatır (tükenmişlik: *burnout*).",
+   "form": "burn fiilinin 3. hali (burned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "burned out",
+    "meaning": "tükenmiş (burn out: aşırı yorgunluktan tükenmek)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(burn out: tükenmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "burned out",
+    "meaning": "tükenmiş (burn out: aşırı yorgunluktan tükenmek)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "consequently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sonuç olarak",
+   "note": null,
+   "form": null,
+   "base": "sonuç olarak, bu nedenle",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (denemeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "attempt",
+   "pos": "verb",
+   "wordId": "attempt",
+   "sense": 1,
+   "context": "denemek",
+   "note": "*attempt* \"denemek, girişmek\" demektir; *try*'dan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "digital",
+   "pos": "adjective",
+   "wordId": "digital",
+   "sense": 0,
+   "context": "dijital",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "digital detox",
+    "meaning": "dijital detoks (bir süre teknolojiden uzak durmak)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "detox",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "detoks",
+   "note": null,
+   "form": null,
+   "base": "detoks, arınma",
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "digital detox",
+    "meaning": "dijital detoks (bir süre teknolojiden uzak durmak)"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-lığına (süre)",
+   "note": "Süre bildirirken *for* kullanılır: *for a week* → bir haftalığına.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "first few",
+    "meaning": "ilk birkaç"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç",
+   "note": "*the first few days* \"ilk birkaç gün\" demektir. *few* (az) olumsuz, *a few* (birkaç) olumlu bir anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "first few",
+    "meaning": "ilk birkaç"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "günler",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "challenging",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "zorlu",
+   "note": "*challenging* \"zor ama çaba gerektiren, zorlayıcı\" demektir; *challenge* (zorluk) kelimesinden türemiştir.",
+   "form": null,
+   "base": "zorlu, zorlayıcı",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e gelindiğinde (-e kadar)",
+   "note": "Zaman ifadelerinde *by* \"en geç …, … geldiğinde\" demektir: *by the fourth day* → dördüncü güne gelindiğinde.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "by the fourth day",
+    "meaning": "dördüncü güne gelindiğinde"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Sıra sayılarından önce *the* gelir: *the fourth day*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "by the fourth day",
+    "meaning": "dördüncü güne gelindiğinde"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "fourth",
+   "pos": "number",
+   "wordId": "fourth",
+   "sense": 0,
+   "context": "dördüncü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "by the fourth day",
+    "meaning": "dördüncü güne gelindiğinde"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "by the fourth day",
+    "meaning": "dördüncü güne gelindiğinde"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start to + fiil* ya da *start + -ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (takdir etmeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "appreciate",
+   "pos": "verb",
+   "wordId": "appreciate",
+   "sense": 0,
+   "context": "takdir etmek (değerini anlamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "beauty",
+   "pos": "noun",
+   "wordId": "beauty",
+   "sense": 0,
+   "context": "güzellik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (dünyanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "world",
+   "pos": "noun",
+   "wordId": "world",
+   "sense": 0,
+   "context": "dünya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "around",
+   "pos": "preposition",
+   "wordId": "around",
+   "sense": 0,
+   "context": "çevresinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onun (kendi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": "*read* fiilinin geçmiş hali de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin geçmiş zaman hali (read, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resim yaptı",
+   "note": "*paint* \"boyamak\" ve \"(boya ile) resim yapmak\" demektir; burada \"resim yapmak\"tır.",
+   "form": "paint + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "recognize",
+   "pos": "verb",
+   "wordId": "recognize",
+   "sense": 0,
+   "context": "anladı (kabul etti)",
+   "note": "*recognize*'ın temel anlamı \"tanımak\"tır; bir gerçek için \"kabul etmek, anlamak\" demektir.",
+   "form": "recognize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": "*that* bağlaç olarak düşünülen ya da anlaşılan şeyi bağlar: *recognized that…* → … -dığını anladı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "technology",
+   "pos": "noun",
+   "wordId": "technology",
+   "sense": 0,
+   "context": "teknoloji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-memeli",
+   "note": "*shouldn't*, *should not*'ın kısaltmasıdır ve \"yapmamalı\" demektir.",
+   "form": "should + not kısaltması (shouldn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "control",
+   "pos": "verb",
+   "wordId": "control",
+   "sense": 1,
+   "context": "kontrol etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

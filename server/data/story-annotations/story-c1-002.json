@@ -1,0 +1,848 @@
+{
+ "storyId": "story-c1-002",
+ "textHash": "1c61a7df2608",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Julian titiz bir planlamacıydı ve çalıştığı hukuk bürosunda ortak olmaya hazırlanıyordu."
+  },
+  {
+   "tr": "Ancak Leo adında sıra dışı bir sanatçıyla asansörde mahsur kalmak her şeyi değiştirdi."
+  },
+  {
+   "tr": "Sohbetleri derin bir terapi seansına dönüştü."
+  },
+  {
+   "tr": "Julian kendisine uymayan bir kariyerin peşinden gittiğini fark etti."
+  },
+  {
+   "tr": "Mutfak sanatlarıyla uğraşmak için işinden ayrıldı; bu karar ruhunu özgür bıraktı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Julian",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julian",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "careful",
+   "pos": "adjective",
+   "wordId": "careful",
+   "sense": 0,
+   "context": "titiz (dikkatli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "planner",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "planlamacı",
+   "note": "*-er* eki fiilden \"işi yapan kişi\" anlamında isim yapar: *plan* (planlamak) → *planner* (plan yapan kişi).",
+   "form": null,
+   "base": "planlamacı, plan yapan kişi",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "poised",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hazırlanan (… üzere)",
+   "note": "*be poised to + fiil* \"… -mek üzere olmak, … -meye hazır olmak\" demektir.",
+   "form": null,
+   "base": "hazır, … üzere",
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "poised to become",
+    "meaning": "olmaya hazırlanıyordu (be poised to: … üzere olmak)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (olmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "poised to become",
+    "meaning": "olmaya hazırlanıyordu (be poised to: … üzere olmak)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "poised to become",
+    "meaning": "olmaya hazırlanıyordu (be poised to: … üzere olmak)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "partner",
+   "pos": "noun",
+   "wordId": "partner",
+   "sense": 0,
+   "context": "ortak",
+   "note": "*partner* \"eş, sevgili\" ve \"iş ortağı\" demektir; burada şirketteki \"ortak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (bürosunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "law",
+   "pos": "noun",
+   "wordId": "law",
+   "sense": 0,
+   "context": "hukuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "law firm",
+    "meaning": "hukuk bürosu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "firm",
+   "pos": "noun",
+   "wordId": "firm",
+   "sense": 0,
+   "context": "büro (firma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "law firm",
+    "meaning": "hukuk bürosu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak, yine de",
+   "note": "*yet* bağlaç olarak \"ancak, yine de\" demektir; zarf olarak olumsuz cümlelerde \"henüz\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "kalmak (get stuck)",
+   "note": "*get* + sıfat \"… olmak, … hâline gelmek\" demektir: *get stuck* → sıkışıp kalmak. Cümle başındaki *-ing*'li yapı (*getting stuck…*) cümlenin öznesidir.",
+   "form": "get + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "getting stuck",
+    "meaning": "mahsur kalmak (get stuck)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "stick",
+   "pos": "verb",
+   "wordId": "stick",
+   "sense": 0,
+   "context": "sıkışmış (mahsur)",
+   "note": "*stuck*, *stick* (yapıştırmak; saplamak) fiilinin 3. halidir; *be/get stuck* \"sıkışmak, mahsur kalmak\" demektir.",
+   "form": "stick fiilinin 3. hali (stuck, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "getting stuck",
+    "meaning": "mahsur kalmak (get stuck)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (asansörde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an elevator, an eccentric artist*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "elevator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "asansör",
+   "note": "*elevator* Amerikan İngilizcesidir; İngiliz İngilizcesinde *lift* denir.",
+   "form": null,
+   "base": "asansör",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (sanatçıyla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "eccentric",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sıra dışı (eksantrik)",
+   "note": null,
+   "form": null,
+   "base": "tuhaf, sıra dışı, eksantrik",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "artist",
+   "pos": "noun",
+   "wordId": "artist",
+   "sense": 0,
+   "context": "sanatçı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adında",
+   "note": "*named* \"… adında\" demektir: *an artist named Leo* → Leo adında bir sanatçı.",
+   "form": "name fiilinin geçmiş ortacı (-d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "Leo",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Leo",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirdi",
+   "note": null,
+   "form": "change + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "evolve",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dönüştü (evrildi)",
+   "note": "*evolve into something* \"zamanla … -e dönüşmek, evrilmek\" demektir.",
+   "form": "evolve + -d (geçmiş zaman)",
+   "base": "gelişmek, evrilmek",
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "evolved into",
+    "meaning": "-e dönüştü"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (seansına)",
+   "note": "Değişim anlatan fiillerden sonra *into* \"-e (dönüşmek)\" demektir: *turn into, evolve into*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "evolved into",
+    "meaning": "-e dönüştü"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "profound",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": "derin, köklü, çok etkili",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "therapy",
+   "pos": "noun",
+   "wordId": "therapy",
+   "sense": 0,
+   "context": "terapi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "therapy session",
+    "meaning": "terapi seansı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "session",
+   "pos": "noun",
+   "wordId": "session",
+   "sense": 0,
+   "context": "seans",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "therapy session",
+    "meaning": "terapi seansı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "Julian",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julian",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "realize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (kendisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were + -ing* geçmişte bir süre devam eden eylemi anlatır.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "pursue",
+   "pos": "verb",
+   "wordId": "pursue",
+   "sense": 0,
+   "context": "peşinden gidiyordu",
+   "note": "*pursue a career* \"bir kariyerin peşinden gitmek, bir mesleği sürdürmek\" demektir.",
+   "form": "pursue + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "career",
+   "pos": "noun",
+   "wordId": "career",
+   "sense": 0,
+   "context": "kariyer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-meyen (uymayan)",
+   "note": "*that* burada ilgi zamiridir ve önceki ismi niteler: *a career that did not suit him* → ona uymayan bir kariyer.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "*did not* + fiilin yalın hali geçmiş zamanda olumsuz cümle kurar.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "did not suit",
+    "meaning": "uymadı, uygun değildi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "did not suit",
+    "meaning": "uymadı, uygun değildi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "suit",
+   "pos": "verb",
+   "wordId": "suit",
+   "sense": 1,
+   "context": "uymak (uygun olmak)",
+   "note": "*suit* isim olarak \"takım elbise\", fiil olarak \"yakışmak, uygun olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "did not suit",
+    "meaning": "uymadı, uygun değildi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "quit",
+   "pos": "verb",
+   "wordId": "quit",
+   "sense": 0,
+   "context": "ayrıldı (bıraktı)",
+   "note": "*quit* düzensiz bir fiildir; geçmiş hali de *quit*'tir. *quit a job* \"işten ayrılmak, istifa etmek\" demektir.",
+   "form": "quit fiilinin geçmiş zaman hali (quit, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (işinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (amaç)",
+   "note": "*to + fiil* burada amaç bildirir ve \"… -mek için\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "pursue",
+   "pos": "verb",
+   "wordId": "pursue",
+   "sense": 0,
+   "context": "uğraşmak (peşinden gitmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "culinary",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mutfak",
+   "note": null,
+   "form": null,
+   "base": "mutfakla ilgili, aşçılıkla ilgili",
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "culinary arts",
+    "meaning": "mutfak sanatları"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "art",
+   "pos": "noun",
+   "wordId": "art",
+   "sense": 0,
+   "context": "sanatlar",
+   "note": null,
+   "form": "art'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "culinary arts",
+    "meaning": "mutfak sanatları"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir (bu)",
+   "note": "Virgülden sonra gelen *a decision that…* önceki eylemi açıklar: \"… ; bu, … bir karardı\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-en (bırakan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "liberate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "özgür bıraktı",
+   "note": null,
+   "form": "liberate + -d (geçmiş zaman)",
+   "base": "özgürleştirmek, serbest bırakmak",
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "spirit",
+   "pos": "noun",
+   "wordId": "spirit",
+   "sense": 0,
+   "context": "ruh",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

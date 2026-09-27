@@ -1,0 +1,837 @@
+{
+ "storyId": "story-c2-003",
+ "textHash": "2f2760f5fbe8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İnsan zihnini keşfetmek, çıkışı olmayan bir labirentte yol bulmaya çalışmaktır."
+  },
+  {
+   "tr": "Filozof hayatını öz farkındalığın doğası üzerine düşünerek geçirdi."
+  },
+  {
+   "tr": "Bilincin tek bir varlık değil, hafızanın kırılgan ipliğiyle bir arada tutulan algılardan oluşan bir bütün olduğunu öne sürdü."
+  },
+  {
+   "tr": "Önemli çalışması, Batı düşüncesine yüzyıllardır hâkim olan ikiliğe meydan okudu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (keşfetmek)",
+   "note": "Cümle başındaki *to + fiil* özne olarak kullanılabilir: *To explore the mind is to navigate…* → Zihni keşfetmek, … yol bulmaktır. Bu kullanım resmî ve edebîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "To explore",
+    "meaning": "keşfetmek (özne olarak mastar)"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "explore",
+   "pos": "verb",
+   "wordId": "explore",
+   "sense": 0,
+   "context": "keşfetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "To explore",
+    "meaning": "keşfetmek (özne olarak mastar)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "human mind",
+    "meaning": "insan zihni"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "human mind",
+    "meaning": "insan zihni"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yol bulmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "navigate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yol bulmak",
+   "note": "*navigate*'in temel anlamı \"yön bulmak, (gemi, uçak) yönlendirmek\"tir; mecazi olarak zor bir durumda \"yolunu bulmak\" demektir.",
+   "form": null,
+   "base": "yön bulmak, yolunu bulmak",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "maze",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "labirent",
+   "note": null,
+   "form": null,
+   "base": "labirent",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (… olan)",
+   "note": "*with no* \"… olmayan, -sız\" demektir: *a maze with no exit* → çıkışı olmayan bir labirent.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "with no exit",
+    "meaning": "çıkışı olmayan"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç (olmayan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "with no exit",
+    "meaning": "çıkışı olmayan"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "exit",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çıkış",
+   "note": null,
+   "form": null,
+   "base": "çıkış",
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "with no exit",
+    "meaning": "çıkışı olmayan"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "philosopher",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "filozof",
+   "note": null,
+   "form": null,
+   "base": "filozof",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdi",
+   "note": "*spend time/life + -ing* \"zamanını/hayatını … -erek geçirmek\" demektir.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "spent his life contemplating",
+    "meaning": "hayatını düşünerek geçirdi (spend time + -ing)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "spent his life contemplating",
+    "meaning": "hayatını düşünerek geçirdi (spend time + -ing)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "spent his life contemplating",
+    "meaning": "hayatını düşünerek geçirdi (spend time + -ing)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "contemplate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "düşünerek (üzerine kafa yorarak)",
+   "note": null,
+   "form": "contemplate + -ing (son e düşer)",
+   "base": "derin derin düşünmek, üzerine kafa yormak",
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "spent his life contemplating",
+    "meaning": "hayatını düşünerek geçirdi (spend time + -ing)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "nature",
+   "pos": "noun",
+   "wordId": "nature",
+   "sense": 0,
+   "context": "doğa (öz nitelik)",
+   "note": "*nature*'ın temel anlamı \"doğa, tabiat\"tır; *the nature of something* \"bir şeyin doğası, özü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (farkındalığın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "self-awareness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "öz farkındalık",
+   "note": null,
+   "form": null,
+   "base": "öz farkındalık, kendini tanıma",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "propose",
+   "pos": "verb",
+   "wordId": "propose",
+   "sense": 0,
+   "context": "öne sürdü",
+   "note": "*propose*'un temel anlamı \"önermek\"tir; bir fikir için \"öne sürmek\" demektir.",
+   "form": "propose + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "consciousness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bilinç",
+   "note": null,
+   "form": null,
+   "base": "bilinç",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "single",
+   "pos": "adjective",
+   "wordId": "single",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "entity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varlık",
+   "note": null,
+   "form": null,
+   "base": "varlık, birim",
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), …",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "collection",
+   "pos": "noun",
+   "wordId": "collection",
+   "sense": 0,
+   "context": "bütün (topluluk)",
+   "note": "*collection*'ın temel anlamı \"koleksiyon\"dur; *a collection of* \"bir araya gelmiş …, … topluluğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "not a single entity but a collection",
+    "meaning": "tek bir varlık değil, bir bütün (not A but B)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (oluşan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "perception",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "algılar",
+   "note": null,
+   "form": "perception'ın çoğulu",
+   "base": "algı",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "tutulan",
+   "note": "*hold together* \"bir arada tutmak\" demektir; burada edilgen anlamdadır: *held together by…* → … ile bir arada tutulan.",
+   "form": "hold fiilinin 3. hali (held, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "held together",
+    "meaning": "bir arada tutulan"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "bir arada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "held together",
+    "meaning": "bir arada tutulan"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (tarafından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "fragile",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kırılgan",
+   "note": null,
+   "form": null,
+   "base": "kırılgan, narin",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "thread",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iplik",
+   "note": null,
+   "form": null,
+   "base": "iplik",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hafızanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "hafıza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "significant",
+   "pos": "adjective",
+   "wordId": "significant",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "çalışma (eser)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "challenge",
+   "pos": "verb",
+   "wordId": "challenge",
+   "sense": 1,
+   "context": "meydan okudu",
+   "note": null,
+   "form": "challenge + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "dualism",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ikilik (düalizm)",
+   "note": "Felsefede *dualism*, zihin ve bedeni birbirinden ayrı iki varlık olarak gören görüştür.",
+   "form": null,
+   "base": "ikicilik, düalizm",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-an (hâkim olan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir andan önce başlamış ve o ana kadar sürmüş durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "dominate",
+   "pos": "verb",
+   "wordId": "dominate",
+   "sense": 0,
+   "context": "hâkim olmuştu",
+   "note": null,
+   "form": "dominate fiilinin 3. hali (dominated, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "western",
+   "pos": "adjective",
+   "wordId": "western",
+   "sense": 0,
+   "context": "Batı",
+   "note": "*Western* \"Batı dünyasına ait\" anlamında büyük harfle yazılır: *Western thought* → Batı düşüncesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "Western thought",
+    "meaning": "Batı düşüncesi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "thought",
+   "pos": "noun",
+   "wordId": "thought",
+   "sense": 0,
+   "context": "düşünce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "Western thought",
+    "meaning": "Batı düşüncesi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (yüzyıllardır)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "for centuries",
+    "meaning": "yüzyıllardır"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıllar",
+   "note": null,
+   "form": "century'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "for centuries",
+    "meaning": "yüzyıllardır"
+   }
+  }
+ ]
+}

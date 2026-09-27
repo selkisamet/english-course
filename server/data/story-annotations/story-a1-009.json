@@ -1,0 +1,905 @@
+{
+ "storyId": "story-a1-009",
+ "textHash": "db51b78c17e7",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ofisimin yakınında küçük bir kafe var."
+  },
+  {
+   "tr": "Adı \"The Bean\"."
+  },
+  {
+   "tr": "Her sabah oraya giderim."
+  },
+  {
+   "tr": "Mekân taze kahve kokar."
+  },
+  {
+   "tr": "Beş masa ve rahat sandalyeler var."
+  },
+  {
+   "tr": "Sahibi Bay Brown adında yaşlı bir adam."
+  },
+  {
+   "tr": "Adımı biliyor."
+  },
+  {
+   "tr": "Her zaman bir kapuçino isterim."
+  },
+  {
+   "tr": "Pencerenin yanına oturup dışarıdaki insanlara bakarım."
+  },
+  {
+   "tr": "Sessiz ve güzel bir yer."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there is: var)",
+   "note": "*there is / there are* bir şeyin var olduğunu söyler; Türkçede \"var\" demektir: *There is a café* → Bir kafe var.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "There is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there is)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "There is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": "*café* Fransızcadan gelir; *cafe* olarak da yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (ofisim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (adı)",
+   "note": "*its* eşyalar ve hayvanlar için iyelik bildirir; *it's* (= it is) ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "ad",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(ismin parçası)",
+   "note": "Burada *The*, kafenin adının bir parçasıdır: *The Bean*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "bean",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bean",
+   "note": "*bean* \"fasulye; kahve çekirdeği\" demektir; burada kafenin adıdır.",
+   "form": null,
+   "base": "(kafenin adı; bean: çekirdek)",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "giderim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "oraya",
+   "note": "*there* \"orada, oraya\" demektir; önüne *to* almaz: *go there* (✗ go to there).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "mekân, yer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "smell",
+   "pos": "verb",
+   "wordId": "smell",
+   "sense": 0,
+   "context": "kokar",
+   "note": null,
+   "form": "smell + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "smells like",
+    "meaning": "gibi kokar (smell like: … gibi kokmak)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": "*like* burada fiil değil edattır ve \"gibi\" anlamına gelir: *smells like coffee* → kahve gibi kokar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "smells like",
+    "meaning": "gibi kokar (smell like: … gibi kokmak)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "fresh",
+   "pos": "adjective",
+   "wordId": "fresh",
+   "sense": 0,
+   "context": "taze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there are: var)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "There are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there are)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "There are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "table",
+   "pos": "noun",
+   "wordId": "table",
+   "sense": 0,
+   "context": "masa",
+   "note": null,
+   "form": "table'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "soft",
+   "pos": "adjective",
+   "wordId": "soft",
+   "sense": 0,
+   "context": "yumuşak, rahat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "chair",
+   "pos": "noun",
+   "wordId": "chair",
+   "sense": 0,
+   "context": "sandalyeler",
+   "note": null,
+   "form": "chair'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "owner",
+   "pos": "noun",
+   "wordId": "owner",
+   "sense": 0,
+   "context": "sahibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old man*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adında",
+   "note": "*named* burada \"… adında\" anlamındadır: *a man named Mr. Brown* → Bay Brown adında bir adam.",
+   "form": "name fiilinin geçmiş ortacı (-ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "Mr.",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr.* erkeklerin soyadından önce kullanılan unvandır; kadınlar için *Mrs.* (evli) ya da *Ms.* kullanılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "Brown",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Brown",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "biliyor",
+   "note": null,
+   "form": "know + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (adımı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "ad",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "isterim (ask for)",
+   "note": "*ask*'in temel anlamı \"sormak\"tır; *ask for* ise \"bir şey istemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "ask for",
+    "meaning": "istemek (ask for: bir şey istemek)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "ask for",
+    "meaning": "istemek (ask for: bir şey istemek)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "cappuccino",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kapuçino",
+   "note": null,
+   "form": null,
+   "base": "kapuçino (köpüklü sütlü kahve)",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "otururum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yanında, yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ip)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakarım",
+   "note": "*look at* \"-e bakmak\" demektir; *at* bakılan şeyi gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "look at",
+    "meaning": "-e bakmak"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (insanlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "look at",
+    "meaning": "-e bakmak"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "outside",
+   "pos": "adverb",
+   "wordId": "outside",
+   "sense": 0,
+   "context": "dışarıdaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (orası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "nice",
+   "pos": "adjective",
+   "wordId": "nice",
+   "sense": 0,
+   "context": "güzel, hoş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

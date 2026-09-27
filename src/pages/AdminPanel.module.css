@@ -142,6 +142,34 @@
   font-size: 0.8rem;
 }
 
+.annBadge {
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.annBadge[data-tone='ready'] {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.annBadge[data-tone='pending'] {
+  background: var(--info-soft);
+  color: var(--info);
+}
+
+.annBadge[data-tone='failed'] {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.annBadge[data-tone='none'] {
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
 .delete:hover {
   background: var(--danger-soft);
   color: var(--danger);

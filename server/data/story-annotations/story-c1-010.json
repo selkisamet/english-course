@@ -1,0 +1,829 @@
+{
+ "storyId": "story-c1-010",
+ "textHash": "8d709b2e59d9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "On yıl önce kabul edilemez sayılan şey artık sıradan hâle geldi; bu da toplumsal normların ne kadar akışkan olduğunu gösteriyor."
+  },
+  {
+   "tr": "Bu değişimin arkasında büyük ölçüde genç kuşağın mevcut durumu kabul etmeyi reddetmesi yatıyor."
+  },
+  {
+   "tr": "Geleneksel yapılara meydan okuyor ve kapsayıcılık talep ediyorlar."
+  },
+  {
+   "tr": "Bu hızlı değişim bazılarını tedirgin etse de ilerlemenin motorudur ve toplumu daha adil bir geleceğe doğru itmektedir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "-en şey (… olan şey)",
+   "note": "*what* burada soru sormaz; \"… olan şey\" anlamında isim cümlesi kurar: *What was considered unacceptable* → Kabul edilemez sayılan şey.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*was/were + fiilin 3. hali* geçmiş zamanda edilgen yapı kurar: *was considered* → sayılıyordu.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "was considered",
+    "meaning": "sayılırdı, kabul edilirdi (edilgen)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "sayılan (kabul edilen)",
+   "note": "*consider*'ın temel anlamı \"düşünmek, göz önünde bulundurmak\"tır; *be considered + sıfat* \"… sayılmak, … kabul edilmek\" demektir.",
+   "form": "consider fiilinin 3. hali (considered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "was considered",
+    "meaning": "sayılırdı, kabul edilirdi (edilgen)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "unacceptable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kabul edilemez",
+   "note": "*un-* ön eki olumsuzluk katar: *acceptable* (kabul edilebilir) → *unacceptable* (kabul edilemez).",
+   "form": null,
+   "base": "kabul edilemez",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir (on yıl)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "a decade ago",
+    "meaning": "on yıl önce"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıl",
+   "note": "*decade* \"on yıllık dönem\" demektir; *a decade ago* → on yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "a decade ago",
+    "meaning": "on yıl önce"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "a decade ago",
+    "meaning": "on yıl önce"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "commonplace",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sıradan",
+   "note": null,
+   "form": null,
+   "base": "sıradan, yaygın, olağan",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "illustrate",
+   "pos": "verb",
+   "wordId": "illustrate",
+   "sense": 0,
+   "context": "gösteriyor (örnekliyor)",
+   "note": "*illustrate*'in temel anlamı \"örneklemek; resimlemek\"tir; burada bir durumu \"gözler önüne sermek, göstermek\" demektir.",
+   "form": "illustrate + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "fluidity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "akışkanlık",
+   "note": null,
+   "form": null,
+   "base": "akışkanlık, değişkenlik",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (normların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "social",
+   "pos": "adjective",
+   "wordId": "social",
+   "sense": 0,
+   "context": "toplumsal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "norm",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "normlar",
+   "note": null,
+   "form": "norm'un çoğulu",
+   "base": "norm, kural, ölçü",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "shift",
+   "pos": "noun",
+   "wordId": "shift",
+   "sense": 0,
+   "context": "değişim (kayma)",
+   "note": "*shift* \"vardiya\" ve \"değişiklik, kayma\" demektir; burada \"değişim\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "is largely driven by",
+    "meaning": "büyük ölçüde … tarafından yönlendiriliyor"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "largely",
+   "pos": "adverb",
+   "wordId": "largely",
+   "sense": 0,
+   "context": "büyük ölçüde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "is largely driven by",
+    "meaning": "büyük ölçüde … tarafından yönlendiriliyor"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "drive",
+   "pos": "verb",
+   "wordId": "drive",
+   "sense": 0,
+   "context": "yönlendiriliyor (itiliyor)",
+   "note": "*drive*'ın temel anlamı \"(araba) sürmek\"tir; *be driven by* mecazi olarak \"… tarafından yönlendirilmek, … ile ilerlemek\" demektir.",
+   "form": "drive fiilinin 3. hali (driven, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "is largely driven by",
+    "meaning": "büyük ölçüde … tarafından yönlendiriliyor"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "is largely driven by",
+    "meaning": "büyük ölçüde … tarafından yönlendiriliyor"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "daha genç (genç)",
+   "note": null,
+   "form": "young sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "generation",
+   "pos": "noun",
+   "wordId": "generation",
+   "sense": 0,
+   "context": "kuşağın",
+   "note": null,
+   "form": "generation + 's (aitlik eki)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "refusal",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "reddetme",
+   "note": "*refusal to + fiil* \"… -meyi reddetme\" demektir; *refuse* (reddetmek) fiilinden türer.",
+   "form": null,
+   "base": "ret, reddetme",
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "refusal to accept",
+    "meaning": "kabul etmeyi reddetme"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (kabul etmeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "refusal to accept",
+    "meaning": "kabul etmeyi reddetme"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "accept",
+   "pos": "verb",
+   "wordId": "accept",
+   "sense": 0,
+   "context": "kabul etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "refusal to accept",
+    "meaning": "kabul etmeyi reddetme"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "current",
+   "pos": "adjective",
+   "wordId": "current",
+   "sense": 0,
+   "context": "mevcut",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "state of affairs",
+    "meaning": "durum, gidişat"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "state",
+   "pos": "noun",
+   "wordId": "state",
+   "sense": 0,
+   "context": "durum",
+   "note": "*the current state of affairs* \"mevcut durum, bugünkü gidişat\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "state of affairs",
+    "meaning": "durum, gidişat"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(state of affairs)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "state of affairs",
+    "meaning": "durum, gidişat"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "affair",
+   "pos": "noun",
+   "wordId": "affair",
+   "sense": 0,
+   "context": "işler (durum)",
+   "note": "*affairs* çoğul olarak \"işler, meseleler\" demektir.",
+   "form": "affair'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "state of affairs",
+    "meaning": "durum, gidişat"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "challenge",
+   "pos": "verb",
+   "wordId": "challenge",
+   "sense": 1,
+   "context": "meydan okuyorlar (sorguluyorlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "traditional",
+   "pos": "adjective",
+   "wordId": "traditional",
+   "sense": 0,
+   "context": "geleneksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "structure",
+   "pos": "noun",
+   "wordId": "structure",
+   "sense": 0,
+   "context": "yapılar",
+   "note": null,
+   "form": "structure'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "demand",
+   "pos": "verb",
+   "wordId": "demand",
+   "sense": 1,
+   "context": "talep ediyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "inclusivity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kapsayıcılık",
+   "note": "*inclusivity* herkesin, özellikle dışlanan grupların, topluma dahil edilmesini anlatır.",
+   "form": null,
+   "base": "kapsayıcılık",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-se de",
+   "note": "*while* \"-ken\" demektir; zıt iki durumu karşılaştırırken \"… -se de\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "rapid",
+   "pos": "adjective",
+   "wordId": "rapid",
+   "sense": 0,
+   "context": "hızlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "change",
+   "pos": "noun",
+   "wordId": "change",
+   "sense": 1,
+   "context": "değişim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "unsettle",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "tedirgin ediyor",
+   "note": null,
+   "form": "unsettle + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "tedirgin etmek, huzursuz etmek",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları(nı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu değişim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "the engine of progress",
+    "meaning": "ilerlemenin motoru"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "engine",
+   "pos": "noun",
+   "wordId": "engine",
+   "sense": 0,
+   "context": "motor",
+   "note": "*the engine of progress* mecazi olarak \"ilerlemenin itici gücü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "the engine of progress",
+    "meaning": "ilerlemenin motoru"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ilerlemenin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "the engine of progress",
+    "meaning": "ilerlemenin motoru"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "progress",
+   "pos": "noun",
+   "wordId": "progress",
+   "sense": 0,
+   "context": "ilerleme",
+   "note": "*progress* sayılamayan bir isimdir; *a progress* ya da *progresses* denmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "the engine of progress",
+    "meaning": "ilerlemenin motoru"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "push",
+   "pos": "verb",
+   "wordId": "push",
+   "sense": 0,
+   "context": "iterek",
+   "note": null,
+   "form": "push + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "towards",
+   "pos": "preposition",
+   "wordId": "towards",
+   "sense": 0,
+   "context": "-e doğru",
+   "note": "*towards* İngiliz İngilizcesinde, *toward* Amerikan İngilizcesinde yaygındır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "*fair* kısa bir sıfat olduğu için karşılaştırması genellikle *fairer* olur; *more fair* da kullanılır ama daha az yaygındır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "fair",
+   "pos": "adjective",
+   "wordId": "fair",
+   "sense": 0,
+   "context": "adil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "future",
+   "pos": "noun",
+   "wordId": "future",
+   "sense": 0,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

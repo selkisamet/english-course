@@ -1,0 +1,850 @@
+{
+ "storyId": "story-b1-004",
+ "textHash": "680e987dcec8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sarah iki aydır direksiyon dersi alıyor."
+  },
+  {
+   "tr": "Şehirde araba kullanmak stresli çünkü trafik yoğun."
+  },
+  {
+   "tr": "Dün çok dar bir yere park etmesi gerekti."
+  },
+  {
+   "tr": "Üç kez denedi."
+  },
+  {
+   "tr": "Sonunda başardı."
+  },
+  {
+   "tr": "Eğitmeni ona daha sabırlı olması gerektiğini söyledi."
+  },
+  {
+   "tr": "Gelecek hafta ehliyet sınavına girecek."
+  },
+  {
+   "tr": "Geçeceğini umuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Sarah",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sarah",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır: *has been taking lessons for two months* → iki aydır ders alıyor.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been taking",
+    "meaning": "alıyor (present perfect continuous: geçmişte başlayıp hâlâ süren)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been taking",
+    "meaning": "alıyor (present perfect continuous: geçmişte başlayıp hâlâ süren)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "alıyor",
+   "note": "*take lessons* \"ders almak\" demektir.",
+   "form": "take + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been taking",
+    "meaning": "alıyor (present perfect continuous: geçmişte başlayıp hâlâ süren)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "driving",
+   "pos": "noun",
+   "wordId": "driving",
+   "sense": 0,
+   "context": "sürüş (direksiyon)",
+   "note": "*driving lessons* \"direksiyon dersleri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "driving lessons",
+    "meaning": "direksiyon dersleri"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "dersler",
+   "note": null,
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "driving lessons",
+    "meaning": "direksiyon dersleri"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (iki aydır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" (… aydır) ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "driving",
+   "pos": "noun",
+   "wordId": "driving",
+   "sense": 0,
+   "context": "araba kullanmak",
+   "note": "Cümlenin başındaki *-ing*'li fiil isim gibi kullanılır ve özne olur (gerund): *Driving in the city is stressful* → Şehirde araba kullanmak stresli.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "stressful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "stresli",
+   "note": "*-ful* eki isimden sıfat yapar: *stress* (stres) → *stressful* (stresli).",
+   "form": null,
+   "base": "stresli, stres verici",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there is: var)",
+   "note": "*there is / there are* bir şeyin var olduğunu söyler; Türkçede \"var\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "there is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there is)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "there is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "heavy",
+   "pos": "adjective",
+   "wordId": "heavy",
+   "sense": 0,
+   "context": "yoğun",
+   "note": "*heavy*'nin temel anlamı \"ağır\"dır; trafik ve yağmur için \"yoğun, şiddetli\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "heavy traffic",
+    "meaning": "yoğun trafik"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "traffic",
+   "pos": "noun",
+   "wordId": "traffic",
+   "sense": 0,
+   "context": "trafik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "heavy traffic",
+    "meaning": "yoğun trafik"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldı (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur. Geçmiş hali *had to*'dur.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "had to",
+    "meaning": "zorunda kaldı, -mesi gerekti (have to: -mek zorunda olmak)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(had to: -mek zorunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "had to",
+    "meaning": "zorunda kaldı, -mesi gerekti (have to: -mek zorunda olmak)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "park",
+   "pos": "verb",
+   "wordId": "park",
+   "sense": 1,
+   "context": "park etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (yere)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük (dar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "yer (boşluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denedi",
+   "note": null,
+   "form": "try + -ed (geçmiş zaman; y → i: tried)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* \"zaman\" demektir; sayılarla birlikte \"kez, sefer\" anlamına gelir: *three times* → üç kez.",
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "succeed",
+   "pos": "verb",
+   "wordId": "succeed",
+   "sense": 0,
+   "context": "başardı",
+   "note": null,
+   "form": "succeed + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (eğitmeni)",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "instructor",
+   "pos": "noun",
+   "wordId": "instructor",
+   "sense": 0,
+   "context": "eğitmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone (that)…* \"birine … söylemek\" demektir; *tell*'den sonra kişi gelir, *say*'den sonra gelmez.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (onun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli (olması gerektiğini)",
+   "note": "*should* + fiil tavsiye bildirir: *she should be more patient* → daha sabırlı olmalı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": "*patient* sıfat olarak \"sabırlı\", isim olarak \"hasta\" demektir; burada sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "*be going to + fiil* önceden karar verilmiş planları anlatır: *She is going to take the test* → Sınava girecek.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "is going to take",
+    "meaning": "girecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "Burada *going* \"gitmek\" anlamında değildir; *be going to* kalıbının parçasıdır.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "is going to take",
+    "meaning": "girecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "is going to take",
+    "meaning": "girecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "girmek (sınava)",
+   "note": "*take a test/an exam* \"sınava girmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "is going to take",
+    "meaning": "girecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "driving",
+   "pos": "noun",
+   "wordId": "driving",
+   "sense": 0,
+   "context": "sürüş (ehliyet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "driving test",
+    "meaning": "ehliyet sınavı (sürüş sınavı)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "test",
+   "pos": "noun",
+   "wordId": "test",
+   "sense": 0,
+   "context": "sınav",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "driving test",
+    "meaning": "ehliyet sınavı (sürüş sınavı)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next* zaman ifadelerinde \"gelecek\" demektir ve önüne *the* ya da *in* almaz: *next week* → gelecek hafta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "hope",
+   "pos": "verb",
+   "wordId": "hope",
+   "sense": 0,
+   "context": "umuyor",
+   "note": null,
+   "form": "hope + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "-ecek (geçeceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "pass",
+   "pos": "verb",
+   "wordId": "pass",
+   "sense": 0,
+   "context": "geçmek (sınavı)",
+   "note": "*pass*'in temel anlamı \"geçmek\"tir; sınav için \"sınavı geçmek, başarmak\" demektir. Kalmak ise *fail*'dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

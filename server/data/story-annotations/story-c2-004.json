@@ -1,0 +1,968 @@
+{
+ "storyId": "story-c2-004",
+ "textHash": "cc28b4008ac3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Piyasa çöküşü bir düzensizlik değil, görünmez ellerin yönettiği bir kaos senfonisiydi."
+  },
+  {
+   "tr": "Analistler, olayın öngörülemez doğasına bir hikâye giydirmek için telaşla uğraştı."
+  },
+  {
+   "tr": "Yine de finansal yıkımın ortasında garip bir güzellik ortaya çıktı: insan ruhunun dayanıklılığı."
+  },
+  {
+   "tr": "Bu, düzen yapılarımızın düzensizlik dalgasına karşı yalnızca geçici savunmalar olduğunu çarpıcı biçimde hatırlattı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "market",
+   "pos": "noun",
+   "wordId": "market",
+   "sense": 0,
+   "context": "piyasa",
+   "note": "*market* \"pazar, çarşı\" ve ekonomide \"piyasa\" demektir; burada \"piyasa\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "market crash",
+    "meaning": "piyasa çöküşü"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "crash",
+   "pos": "noun",
+   "wordId": "crash",
+   "sense": 0,
+   "context": "çöküş",
+   "note": "*crash* \"kaza, çarpışma\" ve ekonomide \"çöküş, krach\" demektir; burada \"çöküş\"tür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "market crash",
+    "meaning": "piyasa çöküşü"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an irregularity*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "irregularity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "düzensizlik",
+   "note": null,
+   "form": null,
+   "base": "düzensizlik, usulsüzlük",
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), …",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "symphony",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "senfoni",
+   "note": null,
+   "form": null,
+   "base": "senfoni",
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… senfonisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "chaos",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kaos",
+   "note": null,
+   "form": null,
+   "base": "kaos, karmaşa",
+   "phrase": {
+    "from": 4,
+    "to": 11,
+    "text": "not an irregularity but a symphony of chaos",
+    "meaning": "bir düzensizlik değil, bir kaos senfonisi (not A but B)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "conduct",
+   "pos": "verb",
+   "wordId": "conduct",
+   "sense": 0,
+   "context": "yönettiği",
+   "note": "*conduct* \"yürütmek, yapmak\" ve orkestra için \"yönetmek\" demektir; burada *symphony* ile birlikte mecazi olarak \"yönetmek\"tir.",
+   "form": "conduct fiilinin 3. hali (conducted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "conducted by invisible hands",
+    "meaning": "görünmez ellerin yönettiği"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "conducted by invisible hands",
+    "meaning": "görünmez ellerin yönettiği"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "invisible",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "görünmez",
+   "note": "*in-* ön eki olumsuzluk katar: *visible* (görünür) → *invisible* (görünmez).",
+   "form": null,
+   "base": "görünmez",
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "conducted by invisible hands",
+    "meaning": "görünmez ellerin yönettiği"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": "*invisible hands* ekonomide piyasayı yönlendiren görünmez güçleri anlatan bir göndermedir (Adam Smith).",
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "conducted by invisible hands",
+    "meaning": "görünmez ellerin yönettiği"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "analyst",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "analistler",
+   "note": null,
+   "form": "analyst'in çoğulu",
+   "base": "analist, çözümleyici",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "scramble",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "telaşla uğraştı",
+   "note": "*scramble to + fiil* \"… -mek için telaşla uğraşmak, çırpınmak\" demektir.",
+   "form": "scramble + -d (geçmiş zaman)",
+   "base": "telaşla uğraşmak, çırpınmak",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "impose",
+   "pos": "verb",
+   "wordId": "impose",
+   "sense": 0,
+   "context": "giydirmek (dayatmak)",
+   "note": "*impose something on/upon something* \"bir şeyi bir şeye dayatmak, zorla uygulamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "impose a story upon",
+    "meaning": "-e bir hikâye giydirmek (impose on/upon)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "impose a story upon",
+    "meaning": "-e bir hikâye giydirmek (impose on/upon)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikâye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "impose a story upon",
+    "meaning": "-e bir hikâye giydirmek (impose on/upon)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "upon",
+   "pos": "preposition",
+   "wordId": "upon",
+   "sense": 0,
+   "context": "-e (doğasına)",
+   "note": "*upon*, *on*'un daha resmî bir karşılığıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "impose a story upon",
+    "meaning": "-e bir hikâye giydirmek (impose on/upon)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "unpredictable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "öngörülemez",
+   "note": "*un-* ön eki olumsuzluk katar: *predictable* (öngörülebilir) → *unpredictable* (öngörülemez).",
+   "form": null,
+   "base": "öngörülemez, tahmin edilemez",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "nature",
+   "pos": "noun",
+   "wordId": "nature",
+   "sense": 0,
+   "context": "doğa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (olayın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "olay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "yine de",
+   "note": "*yet* bağlaç olarak \"ama, yine de\" demektir; zarf olarak olumsuz cümlelerde \"henüz\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ortasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "in the midst of",
+    "meaning": "-in ortasında"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "in the midst of",
+    "meaning": "-in ortasında"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "midst",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "orta",
+   "note": "*in the midst of* \"… -in ortasında\" demektir ve edebî bir kullanımdır.",
+   "form": null,
+   "base": "orta",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "in the midst of",
+    "meaning": "-in ortasında"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yıkımın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "in the midst of",
+    "meaning": "-in ortasında"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "financial",
+   "pos": "adjective",
+   "wordId": "financial",
+   "sense": 0,
+   "context": "finansal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "ruin",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yıkım",
+   "note": null,
+   "form": null,
+   "base": "yıkım, çöküş; harabe",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "strange",
+   "pos": "adjective",
+   "wordId": "strange",
+   "sense": 0,
+   "context": "garip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "beauty",
+   "pos": "noun",
+   "wordId": "beauty",
+   "sense": 0,
+   "context": "güzellik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "emerge",
+   "pos": "verb",
+   "wordId": "emerge",
+   "sense": 0,
+   "context": "ortaya çıktı",
+   "note": "Burada *emerged* ile *the* arasında boşluk yerine uzun tire (—) vardır; tire, ardından gelen açıklamayı (\"insan ruhunun dayanıklılığı\") vurgular.",
+   "form": "emerge + -d (geçmiş zaman); tireyle bitişik yazılmış \"the\"",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "resilience",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dayanıklılık",
+   "note": "*resilience* zorluklardan sonra \"toparlanabilme, yılmazlık\" gücünü anlatır.",
+   "form": null,
+   "base": "dayanıklılık, yılmazlık",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ruhunun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "spirit",
+   "pos": "noun",
+   "wordId": "spirit",
+   "sense": 0,
+   "context": "ruh",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "serve",
+   "pos": "verb",
+   "wordId": "serve",
+   "sense": 0,
+   "context": "oldu (işlev gördü)",
+   "note": "*serve*'ün temel anlamı \"hizmet etmek, sunmak\"tır; *serve as something* \"… işlevi görmek, … olmak\" demektir.",
+   "form": "serve + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "served as a stark reminder",
+    "meaning": "çarpıcı bir hatırlatma oldu (serve as)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "served as a stark reminder",
+    "meaning": "çarpıcı bir hatırlatma oldu (serve as)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "served as a stark reminder",
+    "meaning": "çarpıcı bir hatırlatma oldu (serve as)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "stark",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çarpıcı",
+   "note": "*a stark reminder* \"sert, çarpıcı bir hatırlatma\" demektir.",
+   "form": null,
+   "base": "sert, çarpıcı, açık seçik",
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "served as a stark reminder",
+    "meaning": "çarpıcı bir hatırlatma oldu (serve as)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "reminder",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hatırlatma",
+   "note": "*reminder*, *remind* (hatırlatmak) fiilinden türeyen bir isimdir.",
+   "form": null,
+   "base": "hatırlatma, hatırlatıcı",
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "served as a stark reminder",
+    "meaning": "çarpıcı bir hatırlatma oldu (serve as)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığı(nı) (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "structure",
+   "pos": "noun",
+   "wordId": "structure",
+   "sense": 0,
+   "context": "yapılar",
+   "note": null,
+   "form": "structure'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… yapıları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "düzen",
+   "note": "*order* \"sipariş\", \"sıra\", \"emir\" ve \"düzen\" demektir; burada \"düzen\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": "sadece, yalnızca",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "temporary",
+   "pos": "adjective",
+   "wordId": "temporary",
+   "sense": 0,
+   "context": "geçici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "defense",
+   "pos": "noun",
+   "wordId": "defence",
+   "sense": 0,
+   "context": "savunmalar",
+   "note": "*defense* Amerikan yazımıdır; İngiliz İngilizcesinde *defence* yazılır.",
+   "form": "defense'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "against",
+   "pos": "preposition",
+   "wordId": "against",
+   "sense": 0,
+   "context": "-e karşı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the tide of disorder",
+    "meaning": "düzensizlik dalgası"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "tide",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dalga (akıntı)",
+   "note": "*tide*'ın temel anlamı \"gelgit\"tir; mecazi olarak durdurulamayan bir \"akım, dalga\"yı anlatır.",
+   "form": null,
+   "base": "gelgit; akım, dalga",
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the tide of disorder",
+    "meaning": "düzensizlik dalgası"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… dalgası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the tide of disorder",
+    "meaning": "düzensizlik dalgası"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "disorder",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "düzensizlik",
+   "note": "*dis-* ön eki zıt anlam katar: *order* (düzen) → *disorder* (düzensizlik).",
+   "form": null,
+   "base": "düzensizlik, karışıklık; (tıp) bozukluk",
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the tide of disorder",
+    "meaning": "düzensizlik dalgası"
+   }
+  }
+ ]
+}

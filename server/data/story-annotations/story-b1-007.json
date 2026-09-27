@@ -1,0 +1,875 @@
+{
+ "storyId": "story-b1-007",
+ "textHash": "2dcb7e8e18d9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Liam geçen cumartesi yerel bir yemek yarışmasına katıldı."
+  },
+  {
+   "tr": "Büyükannesinin gizli çorba tarifini yapmaya karar verdi."
+  },
+  {
+   "tr": "Beş başka aşçıyla yarışıyordu."
+  },
+  {
+   "tr": "Yarışma sırasında elini hafifçe yaktı ama yemek yapmaya devam etti."
+  },
+  {
+   "tr": "Jüri üyeleri çorbasının tadına baktı ve ona bayıldı."
+  },
+  {
+   "tr": "Birincilik ödülünü kazanamasa da yaratıcılık dalında özel bir ödül aldı."
+  },
+  {
+   "tr": "Başarısıyla çok gurur duydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Liam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Liam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "enter",
+   "pos": "verb",
+   "wordId": "enter",
+   "sense": 0,
+   "context": "katıldı",
+   "note": "*enter*'ın temel anlamı \"girmek\"tir; yarışma ve sınav için \"katılmak, girmek\" demektir.",
+   "form": "enter + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek (pişirme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "cooking competition",
+    "meaning": "yemek yarışması"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "competition",
+   "pos": "noun",
+   "wordId": "competition",
+   "sense": 0,
+   "context": "yarışma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "cooking competition",
+    "meaning": "yemek yarışması"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* zaman ifadelerinde \"geçen\" demektir ve önüne *on* ya da *the* almaz: *last Saturday* → geçen cumartesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (yapmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükannesinin",
+   "note": "*'s* aitlik bildirir ve Türkçedeki \"-in\" ekine karşılık gelir: *his grandmother's recipe* → büyükannesi**nin** tarifi.",
+   "form": "grandmother + 's (aitlik eki)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "secret",
+   "pos": "adjective",
+   "wordId": "secret",
+   "sense": 0,
+   "context": "gizli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "soup",
+   "pos": "noun",
+   "wordId": "soup",
+   "sense": 0,
+   "context": "çorba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "recipe",
+   "pos": "noun",
+   "wordId": "recipe",
+   "sense": 0,
+   "context": "tarif",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were + -ing* geçmişte bir süre devam eden eylemi anlatır: *was competing* → yarışıyordu.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "was competing against",
+    "meaning": "-e karşı yarışıyordu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "compete",
+   "pos": "verb",
+   "wordId": "compete",
+   "sense": 0,
+   "context": "yarışıyordu",
+   "note": null,
+   "form": "compete + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "was competing against",
+    "meaning": "-e karşı yarışıyordu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "against",
+   "pos": "preposition",
+   "wordId": "against",
+   "sense": 0,
+   "context": "-e karşı (ile)",
+   "note": "*compete against someone* \"biriyle yarışmak, birine karşı yarışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "was competing against",
+    "meaning": "-e karşı yarışıyordu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka, diğer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "chef",
+   "pos": "noun",
+   "wordId": "chef",
+   "sense": 0,
+   "context": "aşçılar (şefler)",
+   "note": null,
+   "form": "chef'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında",
+   "note": "*during* + isim \"… sırasında\" demektir: *during the contest* → yarışma sırasında. Süre için *for* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "contest",
+   "pos": "noun",
+   "wordId": "contest",
+   "sense": 0,
+   "context": "yarışma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "burn",
+   "pos": "verb",
+   "wordId": "burn",
+   "sense": 0,
+   "context": "yaktı",
+   "note": null,
+   "form": "burn + -ed (geçmiş zaman; burnt da kullanılır)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (elini)",
+   "note": "İngilizcede vücut bölümlerinden önce iyelik sıfatı kullanılır: *burned his hand* → elini yaktı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "el",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "slightly",
+   "pos": "adverb",
+   "wordId": "slightly",
+   "sense": 0,
+   "context": "hafifçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "devam etti",
+   "note": "*continue* + *-ing*'li fiil ya da *to* + fiil \"… -meye devam etmek\" demektir.",
+   "form": "continue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "continued cooking",
+    "meaning": "yemek yapmaya devam etti"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek yapmak",
+   "note": null,
+   "form": "cook + -ing",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "continued cooking",
+    "meaning": "yemek yapmaya devam etti"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "judge",
+   "pos": "noun",
+   "wordId": "judge",
+   "sense": 0,
+   "context": "jüri üyeleri",
+   "note": "*judge*'ın temel anlamı \"yargıç, hâkim\"dir; yarışmalarda \"jüri üyesi, hakem\" demektir.",
+   "form": "judge'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "taste",
+   "pos": "verb",
+   "wordId": "taste",
+   "sense": 1,
+   "context": "tadına baktı",
+   "note": null,
+   "form": "taste + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (çorbasının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "soup",
+   "pos": "noun",
+   "wordId": "soup",
+   "sense": 0,
+   "context": "çorba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayıldı",
+   "note": "*love*'ın temel anlamı \"sevmek\"tir; bir şey için \"bayılmak, çok beğenmek\" demektir.",
+   "form": "love + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (çorbaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-e rağmen (-masa da)",
+   "note": "*although* \"-e rağmen, … -se de\" demektir: *Although he didn't win* → Kazanamasa da.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "*didn't*, *did not*'ın kısaltmasıdır; geçmiş zamanda olumsuz cümle kurar.",
+   "form": "did + not kısaltması (didn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "win",
+   "pos": "verb",
+   "wordId": "win",
+   "sense": 0,
+   "context": "kazanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "birinci(lik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "first prize",
+    "meaning": "birincilik ödülü"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "prize",
+   "pos": "noun",
+   "wordId": "prize",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "first prize",
+    "meaning": "birincilik ödülü"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "receive",
+   "pos": "verb",
+   "wordId": "receive",
+   "sense": 0,
+   "context": "aldı",
+   "note": null,
+   "form": "receive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "special",
+   "pos": "adjective",
+   "wordId": "special",
+   "sense": 0,
+   "context": "özel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "award",
+   "pos": "noun",
+   "wordId": "award",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (dalında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "creativity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yaratıcılık",
+   "note": "*creativity*, *creative* (yaratıcı) sıfatından türeyen bir isimdir.",
+   "form": null,
+   "base": "yaratıcılık",
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": "*be proud of something* \"bir şeyle gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "proud of",
+    "meaning": "-den gurur duyan"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "proud of",
+    "meaning": "-den gurur duyan"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "achievement",
+   "pos": "noun",
+   "wordId": "achievement",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

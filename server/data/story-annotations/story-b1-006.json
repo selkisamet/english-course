@@ -1,0 +1,861 @@
+{
+ "storyId": "story-b1-006",
+ "textHash": "e26fdf14f8bc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yeni daireme taşındığımda kimseyi tanımıyordum."
+  },
+  {
+   "tr": "Bir gün komşum Bayan Wilson kapımı çaldı."
+  },
+  {
+   "tr": "Bana ev yapımı bir elmalı turta getirdi."
+  },
+  {
+   "tr": "Konuşmaya başladık ve ikimizin de bahçe işlerini sevdiğini fark ettik."
+  },
+  {
+   "tr": "O zamandan beri iyi arkadaş olduk."
+  },
+  {
+   "tr": "Ben yokken bitkilerimi sulamama yardım ediyor."
+  },
+  {
+   "tr": "Güvenebileceğin komşuların olması çok güzel."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığımda",
+   "note": "*when* bağlaç olarak \"-ince, -dığında\" anlamına gelir: *when I moved* → taşındığımda.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşındım",
+   "note": "*move*'un temel anlamı \"hareket etmek\"tir; ev için \"taşınmak\" demektir.",
+   "form": "move + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (daireme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "apartment",
+   "pos": "noun",
+   "wordId": "apartment",
+   "sense": 0,
+   "context": "daire",
+   "note": "*apartment* \"daire\" demektir (Amerikan İngilizcesi); İngiliz İngilizcesinde *flat* denir. Türkçedeki \"apartman\" (bina) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mıyordum)",
+   "note": "*didn't*, *did not*'ın kısaltmasıdır; geçmiş zamanda olumsuz cümle kurar.",
+   "form": "did + not kısaltması (didn't)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "didn't know anybody",
+    "meaning": "kimseyi tanımıyordum"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "tanımak",
+   "note": "*know*'un temel anlamı \"bilmek\"tir; kişiler için \"tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "didn't know anybody",
+    "meaning": "kimseyi tanımıyordum"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "anybody",
+   "pos": "pronoun",
+   "wordId": "anybody",
+   "sense": 0,
+   "context": "kimse(yi)",
+   "note": "Olumsuz cümlede *anybody* \"kimse\" demektir: *I didn't know anybody* → Kimseyi tanımıyordum.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "didn't know anybody",
+    "meaning": "kimseyi tanımıyordum"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "One day",
+    "meaning": "bir gün"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "One day",
+    "meaning": "bir gün"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (komşum)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "neighbor",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşu",
+   "note": "*neighbor* Amerikan yazımıdır; İngiliz İngilizcesinde *neighbour* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "Mrs.",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": "*Mrs.* evli kadınların soyadından önce kullanılan unvandır; medeni hali belirtmeden *Ms.* kullanılır.",
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "Wilson",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Wilson",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "knock",
+   "pos": "verb",
+   "wordId": "knock",
+   "sense": 0,
+   "context": "çaldı (kapıyı)",
+   "note": "*knock on the door* \"kapıyı çalmak (vurmak)\" demektir; zil çalmak ise *ring the bell*'dir.",
+   "form": "knock + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "knocked on",
+    "meaning": "(kapıyı) çaldı (knock on the door)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(knock on: -e vurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "knocked on",
+    "meaning": "(kapıyı) çaldı (knock on the door)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (kapım)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdi",
+   "note": "*bring someone something* \"birine bir şey getirmek\" demektir.",
+   "form": "bring fiilinin geçmiş zaman hali (brought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "homemade",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ev yapımı",
+   "note": null,
+   "form": null,
+   "base": "ev yapımı",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "apple",
+   "pos": "noun",
+   "wordId": "apple",
+   "sense": 0,
+   "context": "elmalı",
+   "note": "Burada *apple* isim olmasına rağmen *pie*'ı niteler: *apple pie* → elmalı turta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "apple pie",
+    "meaning": "elmalı turta"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "pie",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "turta",
+   "note": null,
+   "form": null,
+   "base": "turta (içi dolu fırın tatlısı ya da böreği)",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "apple pie",
+    "meaning": "elmalı turta"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladık",
+   "note": "*start* + *-ing*'li fiil \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "started talking",
+    "meaning": "konuşmaya başladık"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": "talk + -ing",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "started talking",
+    "meaning": "konuşmaya başladık"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark ettik",
+   "note": null,
+   "form": "realize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "both",
+   "pos": "pronoun",
+   "wordId": "both",
+   "sense": 1,
+   "context": "ikimiz de",
+   "note": "*we both* \"ikimiz de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "severiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "gardening",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe işleri, bahçıvanlık",
+   "note": "*gardening*, *garden* (bahçe) kelimesinden türemiştir ve \"bahçeyle uğraşmak\" demektir.",
+   "form": "garden + -ing (etkinlik adı)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir ve present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-duk)",
+   "note": "*have + fiilin 3. hali* (present perfect) geçmişte başlayıp şu ana uzanan durumu anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "have become",
+    "meaning": "olduk (present perfect)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "olduk",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz; yalın haliyle aynı)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "have become",
+    "meaning": "olduk (present perfect)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım ediyor",
+   "note": "*help someone (to) do something* \"birinin bir şeyi yapmasına yardım etmek\" demektir; *to* atlanabilir.",
+   "form": "help + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "water",
+   "pos": "verb",
+   "wordId": "water",
+   "sense": 1,
+   "context": "sulamak",
+   "note": "*water* isim olarak \"su\", fiil olarak \"sulamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "plant",
+   "pos": "noun",
+   "wordId": "plant",
+   "sense": 0,
+   "context": "bitkiler",
+   "note": null,
+   "form": "plant'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (yokken)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ım)",
+   "note": null,
+   "form": "be fiilinin 1. tekil şahıs, geniş zaman hali (am)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "uzakta (evde değil)",
+   "note": "*be away* \"uzakta olmak, evde/şehirde olmamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is nice to…* yapısında *it* sonraki eylemin yerini tutar; Türkçede karşılığı yoktur: *It is nice to have…* → … olması güzel.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "nice",
+   "pos": "adjective",
+   "wordId": "nice",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mak (olması)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "-in olması (sahip olmak)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; Türkçede \"… -in olması\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "neighbor",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": null,
+   "form": "neighbor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "you",
+   "pos": "pronoun",
+   "wordId": "you",
+   "sense": 0,
+   "context": "sen (genel özne)",
+   "note": "*you* burada belirli bir kişiyi değil, genel olarak herkesi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilmek (güvenebileceğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "trust",
+   "pos": "verb",
+   "wordId": "trust",
+   "sense": 1,
+   "context": "güvenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

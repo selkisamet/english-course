@@ -1,8 +1,34 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, LogOut, Pencil, Plus, Trash2 } from 'lucide-react'
+import { ArrowLeft, ListChecks, LogOut, Pencil, Plus, Trash2 } from 'lucide-react'
 import { LEVELS, wordCount } from '../utils/format'
+import AnnotationEditor from './admin/AnnotationEditor'
 import styles from './AdminPanel.module.css'
+
+const ANNOTATION_BADGES = {
+  ready: { label: 'İşaretli', tone: 'ready' },
+  pending: { label: 'İşaretleniyor…', tone: 'pending' },
+  failed: { label: 'İşaretleme hatası', tone: 'failed' },
+  none: { label: 'İşaretlenmedi', tone: 'none' }
+}
+
+function AnnotationBadge({ status }) {
+  if (!status) return null
+  const badge = ANNOTATION_BADGES[status.status] || ANNOTATION_BADGES.none
+  const title =
+    status.status === 'failed'
+      ? status.error
+      : status.source === 'claude'
+        ? 'Claude ile işaretlendi'
+        : status.source === 'manual'
+          ? 'Elle işaretlendi'
+          : undefined
+  return (
+    <span className={styles.annBadge} data-tone={badge.tone} title={title}>
+      {badge.label}
+    </span>
+  )
+}
 
 function AdminPanel() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -22,6 +48,47 @@ function AdminPanel() {
     level: 'A1',
     text: ''
   })
+
+  const [annotationStatus, setAnnotationStatus] = useState({})
+  const [reviewingId, setReviewingId] = useState(null)
+
+  const fetchAnnotationStatus = useCallback(async (authToken) => {
+    try {
+      const response = await fetch('/api/admin/annotations', {
+        headers: { Authorization: `Bearer ${authToken}` }
+      })
+      if (response.ok) setAnnotationStatus(await response.json())
+    } catch (error) {
+      console.error('Error fetching annotation status:', error)
+    }
+  }, [])
+
+  // İşaretlenmekte olan hikaye varsa durumu birkaç saniyede bir yenile
+  const hasPending = Object.values(annotationStatus).some((s) => s.status === 'pending')
+  useEffect(() => {
+    if (!hasPending || !token) return
+    const timer = setInterval(() => fetchAnnotationStatus(token), 5000)
+    return () => clearInterval(timer)
+  }, [hasPending, token, fetchAnnotationStatus])
+
+  const handleReannotate = async (storyId) => {
+    if (!confirm('Bu hikaye Claude ile yeniden işaretlensin mi? Mevcut işaretleme, yenisi hazır olunca değiştirilir.')) {
+      return
+    }
+    try {
+      const response = await fetch(`/api/stories/${encodeURIComponent(storyId)}/annotate`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` }
+      })
+      if (!response.ok) throw new Error('Failed to queue annotation')
+      const status = await response.json()
+      setAnnotationStatus((prev) => ({ ...prev, [storyId]: status }))
+      setReviewingId(null)
+    } catch (error) {
+      console.error('Error queueing annotation:', error)
+      alert('İşaretleme başlatılamadı!')
+    }
+  }
 
   useEffect(() => {
     const savedToken = localStorage.getItem('adminToken')
@@ -84,6 +151,7 @@ function AdminPanel() {
       }
       const data = await response.json()
       setStories(data)
+      fetchAnnotationStatus(authToken)
     } catch (error) {
       console.error('Error fetching stories:', error)
     } finally {
@@ -211,7 +279,18 @@ function AdminPanel() {
         </button>
       </header>
 
-      {!showForm ? (
+      {reviewingId ? (
+        <AnnotationEditor
+          key={reviewingId}
+          storyId={reviewingId}
+          token={token}
+          onClose={() => {
+            setReviewingId(null)
+            fetchAnnotationStatus(token)
+          }}
+          onReannotate={handleReannotate}
+        />
+      ) : !showForm ? (
         <>
           <div className={styles.toolbar}>
             <div className="chip-row" role="group" aria-label="Seviye filtresi">
@@ -246,8 +325,19 @@ function AdminPanel() {
                   <span className={`badge badge-${story.level.toLowerCase()}`}>{story.level}</span>
                   <span className={styles.rowMain}>
                     <strong>{story.title}</strong>
-                    <small>{wordCount(story.text)} kelime</small>
+                    <small>
+                      {wordCount(story.text)} kelime
+                      <AnnotationBadge status={annotationStatus[story.id]} />
+                    </small>
                   </span>
+                  <button
+                    onClick={() => setReviewingId(story.id)}
+                    className="icon-btn"
+                    aria-label="Kelime işaretlemesini incele"
+                    title="Kelime işaretlemesini incele"
+                  >
+                    <ListChecks size={18} />
+                  </button>
                   <button onClick={() => handleEdit(story)} className="icon-btn" aria-label="Düzenle">
                     <Pencil size={18} />
                   </button>

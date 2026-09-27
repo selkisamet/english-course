@@ -1,0 +1,851 @@
+{
+ "storyId": "story-c1-009",
+ "textHash": "4764e4219e11",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dava, en deneyimli avukatları bile zorlayan karmaşık bir labirentti."
+  },
+  {
+   "tr": "Savunma, yasanın belirsiz olduğunu ve yoruma açık olduğunu savundu."
+  },
+  {
+   "tr": "Buna karşılık iddia makamı, önceki davalara sıkı sıkıya bağlı kalmaya dayandı."
+  },
+  {
+   "tr": "Yargıcın kararı gelecekteki davalar için bir standart belirleyecek ve yasanın toplumsal normlarla sürekli gelişen canlı bir varlık olduğunu gözler önüne serecekti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "legal",
+   "pos": "adjective",
+   "wordId": "legal",
+   "sense": 0,
+   "context": "hukuki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "legal case",
+    "meaning": "dava"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "dava",
+   "note": "*case* \"durum\", \"dava\" ve \"kutu, valiz\" demektir; hukukta \"dava\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "legal case",
+    "meaning": "dava"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "maze",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "labirent",
+   "note": "*maze*'in temel anlamı \"labirent\"tir; mecazi olarak \"içinden çıkılmaz karmaşa\" demektir.",
+   "form": null,
+   "base": "labirent",
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "maze of complexities",
+    "meaning": "karmaşıklıklar labirenti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… labirenti)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "maze of complexities",
+    "meaning": "karmaşıklıklar labirenti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "complexity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "karmaşıklıklar",
+   "note": null,
+   "form": "complexity'nin çoğulu (y → ies)",
+   "base": "karmaşıklık",
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "maze of complexities",
+    "meaning": "karmaşıklıklar labirenti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "challenge",
+   "pos": "verb",
+   "wordId": "challenge",
+   "sense": 1,
+   "context": "zorlayan",
+   "note": "*challenge*'ın temel anlamı \"meydan okumak\"tır; burada \"zorlamak, sınamak\" demektir. Cümle sonundaki *-ing*'li yapı önceki ismi açıklar.",
+   "form": "challenge + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "even the most experienced",
+    "meaning": "en deneyimli … bile"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük yapılarında *the most* + sıfat kullanılır: *the most experienced* → en deneyimli.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "even the most experienced",
+    "meaning": "en deneyimli … bile"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "even the most experienced",
+    "meaning": "en deneyimli … bile"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "experienced",
+   "pos": "adjective",
+   "wordId": "experienced",
+   "sense": 0,
+   "context": "deneyimli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "even the most experienced",
+    "meaning": "en deneyimli … bile"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "attorney",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "avukatlar",
+   "note": "*attorney* Amerikan İngilizcesinde \"avukat\" demektir; İngiliz İngilizcesinde *lawyer*, *solicitor* ya da *barrister* kullanılır.",
+   "form": "attorney'nin çoğulu",
+   "base": "avukat",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "defense",
+   "pos": "noun",
+   "wordId": "defence",
+   "sense": 0,
+   "context": "savunma",
+   "note": "*defense* Amerikan yazımıdır; İngiliz İngilizcesinde *defence* yazılır. Hukukta *the defense* \"savunma tarafı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savundu",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": "argue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "law",
+   "pos": "noun",
+   "wordId": "law",
+   "sense": 0,
+   "context": "yasa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığını (olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "unclear",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "belirsiz",
+   "note": "*un-* ön eki olumsuzluk katar: *clear* (açık, net) → *unclear* (belirsiz).",
+   "form": null,
+   "base": "belirsiz, net olmayan",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "open",
+   "pos": "adjective",
+   "wordId": "open",
+   "sense": 0,
+   "context": "açık",
+   "note": "*open to something* \"bir şeye açık\" demektir: *open to interpretation* → yoruma açık.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "open to interpretation",
+    "meaning": "yoruma açık"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (yoruma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "open to interpretation",
+    "meaning": "yoruma açık"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "interpretation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yorum",
+   "note": null,
+   "form": null,
+   "base": "yorum, yorumlama",
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "open to interpretation",
+    "meaning": "yoruma açık"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "prosecution",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iddia makamı",
+   "note": "*the prosecution* ceza davasında suçlayan tarafı, yani \"savcılık, iddia makamı\"nı anlatır.",
+   "form": null,
+   "base": "iddia makamı, savcılık",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "conversely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "buna karşılık",
+   "note": null,
+   "form": null,
+   "base": "tersine, buna karşılık",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "dayandı",
+   "note": "*rely on something* \"bir şeye dayanmak, güvenmek\" demektir.",
+   "form": "rely + -ed (geçmiş zaman; y → i: relied)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "relied on",
+    "meaning": "-e dayandı (rely on)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (rely on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "relied on",
+    "meaning": "-e dayandı (rely on)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "sıkı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "adherence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bağlılık (bağlı kalma)",
+   "note": "*adherence to* \"-e bağlı kalma, -e uyma\" demektir.",
+   "form": null,
+   "base": "bağlılık, uyma",
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "adherence to",
+    "meaning": "-e bağlılık"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (davalara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "adherence to",
+    "meaning": "-e bağlılık"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "previous",
+   "pos": "adjective",
+   "wordId": "previous",
+   "sense": 0,
+   "context": "önceki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "davalar",
+   "note": null,
+   "form": "case'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "judge",
+   "pos": "noun",
+   "wordId": "judge",
+   "sense": 0,
+   "context": "yargıcın",
+   "note": "*'s* aitlik bildirir ve Türkçedeki \"-in\" ekine karşılık gelir: *the judge's ruling* → yargıc**ın** kararı.",
+   "form": "judge + 's (aitlik eki)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "ruling",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "karar (hüküm)",
+   "note": "*ruling*, *rule* (hükmetmek) fiilinden türer ve bir mahkemenin resmî kararını anlatır.",
+   "form": null,
+   "base": "(mahkeme) karar(ı), hüküm",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-ecekti",
+   "note": "*would* burada geçmişten bakıldığında geleceği anlatır: *would set* → belirleyecekti.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "set",
+   "pos": "verb",
+   "wordId": "set",
+   "sense": 0,
+   "context": "belirlemek (koymak)",
+   "note": "*set*'in temel anlamı \"koymak, yerleştirmek\"tir; *set a standard* \"bir standart belirlemek, ölçüt koymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "set a standard",
+    "meaning": "bir standart belirlemek"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "set a standard",
+    "meaning": "bir standart belirlemek"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "standard",
+   "pos": "noun",
+   "wordId": "standard",
+   "sense": 0,
+   "context": "standart (ölçüt)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "set a standard",
+    "meaning": "bir standart belirlemek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "future",
+   "pos": "adjective",
+   "wordId": "future",
+   "sense": 1,
+   "context": "gelecekteki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "davalar",
+   "note": null,
+   "form": "case'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "highlight",
+   "pos": "verb",
+   "wordId": "highlight",
+   "sense": 0,
+   "context": "gözler önüne sererek (vurgulayarak)",
+   "note": null,
+   "form": "highlight + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl (… olduğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "law",
+   "pos": "noun",
+   "wordId": "law",
+   "sense": 0,
+   "context": "yasa (hukuk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a living entity",
+    "meaning": "canlı bir varlık"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "living",
+   "pos": "adjective",
+   "wordId": "living",
+   "sense": 0,
+   "context": "canlı (yaşayan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a living entity",
+    "meaning": "canlı bir varlık"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "entity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varlık",
+   "note": null,
+   "form": null,
+   "base": "varlık, birim",
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a living entity",
+    "meaning": "canlı bir varlık"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "constantly",
+   "pos": "adverb",
+   "wordId": "constantly",
+   "sense": 0,
+   "context": "sürekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "evolve",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "gelişen (evrilen)",
+   "note": null,
+   "form": "evolve + -ing (son e düşer)",
+   "base": "gelişmek, evrilmek",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (normlarla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "societal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "toplumsal",
+   "note": null,
+   "form": null,
+   "base": "toplumsal",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "norm",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "normlar",
+   "note": null,
+   "form": "norm'un çoğulu",
+   "base": "norm, kural, ölçü",
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,875 @@
+{
+ "storyId": "story-c2-005",
+ "textHash": "3043f48ad9b3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tarih, liderleri iktidarlarının sonsuz olduğuna inanan imparatorlukların kalıntılarıyla doludur."
+  },
+  {
+   "tr": "Diktatör lüks sarayında oturuyor, yakında devrime dönüşecek muhalefet fısıltılarından habersizdi."
+  },
+  {
+   "tr": "İktidarın geçici olduğunu anlayamadı; insan onu ne kadar sıkı kavrarsa, o kadar parmaklarının arasından kayar."
+  },
+  {
+   "tr": "Kaçınılmaz düşüşü, insanlığın aşırı kibrinin bir kanıtıydı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "dolu",
+   "note": "*be filled with* \"… ile dolu olmak\" demektir; *full of* ile aynı anlamdadır.",
+   "form": "fill fiilinin 3. hali (filled, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "remains",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kalıntılar",
+   "note": "*remains* her zaman çoğul kullanılan bir isimdir ve \"kalıntılar\"ı anlatır; *remain* (kalmak) fiilinden gelir.",
+   "form": null,
+   "base": "kalıntılar",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (imparatorlukların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "empire",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "imparatorluklar",
+   "note": null,
+   "form": "empire'ın çoğulu",
+   "base": "imparatorluk",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "whose",
+   "pos": "determiner",
+   "wordId": "whose",
+   "sense": 0,
+   "context": "-in (liderleri … olan)",
+   "note": "*whose* ilgi zamiri olarak iyelik bildirir: *empires whose leaders believed…* → liderleri … inanan imparatorluklar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "leader",
+   "pos": "noun",
+   "wordId": "leader",
+   "sense": 0,
+   "context": "liderler",
+   "note": null,
+   "form": "leader'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inanan",
+   "note": null,
+   "form": "believe + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "rule",
+   "pos": "noun",
+   "wordId": "rule",
+   "sense": 0,
+   "context": "iktidar (yönetim)",
+   "note": "*rule* isim olarak çoğunlukla \"kural\" demektir; bir yöneticinin \"hâkimiyeti, iktidarı\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığına (olduğuna)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "eternal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sonsuz",
+   "note": null,
+   "form": null,
+   "base": "sonsuz, ebedî",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "dictator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "diktatör",
+   "note": null,
+   "form": null,
+   "base": "diktatör",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturuyordu",
+   "note": null,
+   "form": "sit fiilinin geçmiş zaman hali (sat, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sarayında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "luxurious",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "lüks",
+   "note": "*luxurious*, *luxury* (lüks) isminden türeyen bir sıfattır.",
+   "form": null,
+   "base": "lüks, şatafatlı",
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "palace",
+   "pos": "noun",
+   "wordId": "palace",
+   "sense": 0,
+   "context": "saray",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "unaware",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "habersiz",
+   "note": "*be unaware of something* \"bir şeyden habersiz olmak\" demektir; *un-* ön eki *aware* (farkında) kelimesine olumsuzluk katar.",
+   "form": null,
+   "base": "habersiz, farkında olmayan",
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "unaware of",
+    "meaning": "-den habersiz"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (fısıltılarından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "unaware of",
+    "meaning": "-den habersiz"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "whisper",
+   "pos": "noun",
+   "wordId": "whisper",
+   "sense": 1,
+   "context": "fısıltılar",
+   "note": null,
+   "form": "whisper'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… fısıltıları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "opposition",
+   "pos": "noun",
+   "wordId": "opposition",
+   "sense": 0,
+   "context": "muhalefet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-ecek (dönüşecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-ecekti",
+   "note": "*would* burada geçmişten bakıldığında geleceği anlatır: *would soon grow into* → yakında … dönüşecekti.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "yakında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "dönüşmek (büyüyerek)",
+   "note": "*grow into something* \"büyüyerek … -e dönüşmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "grow into",
+    "meaning": "-e dönüşmek (büyüyerek)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (devrime)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "grow into",
+    "meaning": "-e dönüşmek (büyüyerek)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "revolution",
+   "pos": "noun",
+   "wordId": "revolution",
+   "sense": 0,
+   "context": "devrim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "power",
+   "pos": "noun",
+   "wordId": "power",
+   "sense": 0,
+   "context": "iktidar (güç)",
+   "note": "Burada *he failed to realize* araya girmiş bir ifadedir; cümlenin asıl yapısı: *Power is temporary.*",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "fail",
+   "pos": "verb",
+   "wordId": "fail",
+   "sense": 0,
+   "context": "-emedi (anlayamadı)",
+   "note": "*fail to + fiil* \"… -mekte başarısız olmak, … -emedi\" demektir: *failed to realize* → anlayamadı.",
+   "form": "fail + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "failed to realize",
+    "meaning": "anlayamadı (fail to: -emedi)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(fail to: -emedi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "failed to realize",
+    "meaning": "anlayamadı (fail to: -emedi)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "anlamak (fark etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "failed to realize",
+    "meaning": "anlayamadı (fail to: -emedi)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "temporary",
+   "pos": "adjective",
+   "wordId": "temporary",
+   "sense": 0,
+   "context": "geçici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "slip",
+   "pos": "verb",
+   "wordId": "slip",
+   "sense": 0,
+   "context": "kayarak",
+   "note": "*slip through someone's fingers* \"birinin elinden kayıp gitmek\" demektir.",
+   "form": "slip + -ing (son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "slipping through one's fingers",
+    "meaning": "parmaklarının arasından kayarak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "arasından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "slipping through one's fingers",
+    "meaning": "parmaklarının arasından kayarak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insanın (kişinin)",
+   "note": "*one* burada genel olarak \"insan\"ı anlatır; *one's* \"insanın, kişinin\" demektir.",
+   "form": "one + 's (aitlik eki)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "slipping through one's fingers",
+    "meaning": "parmaklarının arasından kayarak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "finger",
+   "pos": "noun",
+   "wordId": "finger",
+   "sense": 0,
+   "context": "parmaklar",
+   "note": null,
+   "form": "finger'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "slipping through one's fingers",
+    "meaning": "parmaklarının arasından kayarak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "ne kadar (the + -er)",
+   "note": "*the + karşılaştırma …, the + karşılaştırma …* yapısı \"ne kadar …-se, o kadar …\" demektir. Burada ilk kısım sonda gelmiştir: *slipping … the tighter one grasps it* → ne kadar sıkı kavrarsan o kadar kayar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "the tighter one grasps it",
+    "meaning": "onu ne kadar sıkı kavrarsa (the + -er …, the + -er …)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "tight",
+   "pos": "adjective",
+   "wordId": "tight",
+   "sense": 0,
+   "context": "daha sıkı",
+   "note": null,
+   "form": "tight sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "the tighter one grasps it",
+    "meaning": "onu ne kadar sıkı kavrarsa (the + -er …, the + -er …)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insan (kişi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "the tighter one grasps it",
+    "meaning": "onu ne kadar sıkı kavrarsa (the + -er …, the + -er …)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "grasp",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kavrar",
+   "note": null,
+   "form": "grasp + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "sıkıca tutmak, kavramak",
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "the tighter one grasps it",
+    "meaning": "onu ne kadar sıkı kavrarsa (the + -er …, the + -er …)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (iktidarı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "the tighter one grasps it",
+    "meaning": "onu ne kadar sıkı kavrarsa (the + -er …, the + -er …)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "inevitable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kaçınılmaz",
+   "note": null,
+   "form": null,
+   "base": "kaçınılmaz",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "fall",
+   "pos": "noun",
+   "wordId": "fall",
+   "sense": 1,
+   "context": "düşüş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a testament to",
+    "meaning": "-in kanıtı"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "testament",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kanıt",
+   "note": "*be a testament to something* \"bir şeyin açık kanıtı olmak\" demektir.",
+   "form": null,
+   "base": "kanıt, tanıklık; vasiyet",
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a testament to",
+    "meaning": "-in kanıtı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-in (kibrinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a testament to",
+    "meaning": "-in kanıtı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "excessive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "aşırı",
+   "note": null,
+   "form": null,
+   "base": "aşırı, fazla",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "pride",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kibir (gurur)",
+   "note": "*pride* olumlu anlamda \"gurur\", olumsuz anlamda \"kibir\" demektir; burada \"kibir\"dir.",
+   "form": null,
+   "base": "gurur; kibir",
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (insanlığın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "mankind",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "insanlık",
+   "note": null,
+   "form": null,
+   "base": "insanlık, insanoğlu",
+   "phrase": null
+  }
+ ]
+}

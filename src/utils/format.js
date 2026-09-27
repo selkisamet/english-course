@@ -25,6 +25,12 @@ const POS_TR = {
   exclamation: 'Ünlem',
   determiner: 'Belirteç',
   modal: 'Modal fiil',
+  'modal verb': 'Modal fiil',
+  'auxiliary verb': 'Yardımcı fiil',
+  'definite article': 'Belirli tanımlık',
+  'indefinite article': 'Belirsiz tanımlık',
+  'infinitive marker': 'Mastar eki',
+  'proper noun': 'Özel isim',
   number: 'Sayı',
   unknown: 'Bilinmiyor'
 }
@@ -66,8 +72,14 @@ export const readingMinutes = (text) =>
 
 export const wordCount = (text) => text.split(/\s+/).filter(Boolean).length
 
-export const splitSentences = (text) =>
-  text.match(/[^.!?]+[.!?]+["”’]?|[^.!?]+$/g)?.map((s) => s.trim()) || [text]
+// server/storyText.js ile aynı kural: hikaye işaretlemeleri bu bölmeye göre yapılır
+const ABBREVIATIONS = /\b(Mr|Mrs|Ms|Dr|St|Prof|Jr|Sr)\.(?=\s)/g
+
+export const splitSentences = (text) => {
+  const masked = text.replace(ABBREVIATIONS, (m) => m.replace('.', '\u0000'))
+  const parts = masked.match(/[^.!?]+[.!?]+["”’']?|[^.!?]+$/g) || [masked]
+  return parts.map((s) => s.replace(/\u0000/g, '.').trim()).filter(Boolean)
+}
 
 export const STATUS_LABELS = {
   new: 'Yeni',

@@ -12,6 +12,7 @@
     "start": "node server/index.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
     "compromise": "^14.14.5",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",

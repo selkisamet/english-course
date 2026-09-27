@@ -1,0 +1,880 @@
+{
+ "storyId": "story-c2-010",
+ "textHash": "a00757e7e7ef",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Antik kalıntıların arasında yürürken insan tarihin yankılarını neredeyse duyabilir: unutulmuş âşıkların fısıltılarını ve çoktan ölmüş askerlerin haykırışlarını."
+  },
+  {
+   "tr": "Bu alan, uygarlık katmanlarının üst üste yazıldığı bir kayıt işlevi görür."
+  },
+  {
+   "tr": "Gözlemciyi zamanın uçsuz bucaksız sürekliliği içindeki küçüklüğü üzerine düşünmeye zorlar ve derin bir hüzünle güzellik duygusu uyandırır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürürken",
+   "note": "Cümle başındaki *-ing*'li fiil, özneyle aynı anda yapılan eylemi anlatır: *Walking through the ruins, one can…* → Kalıntıların arasında yürürken insan … -ebilir.",
+   "form": "walk + -ing",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Walking through the ancient ruins",
+    "meaning": "antik kalıntıların arasında yürürken"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "arasında (içinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Walking through the ancient ruins",
+    "meaning": "antik kalıntıların arasında yürürken"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Walking through the ancient ruins",
+    "meaning": "antik kalıntıların arasında yürürken"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "ancient",
+   "pos": "adjective",
+   "wordId": "ancient",
+   "sense": 0,
+   "context": "antik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Walking through the ancient ruins",
+    "meaning": "antik kalıntıların arasında yürürken"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "ruins",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kalıntılar (harabeler)",
+   "note": "*ruins* çoğul olarak eski yapıların \"kalıntıları, harabeleri\" demektir.",
+   "form": null,
+   "base": "harabeler, kalıntılar",
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Walking through the ancient ruins",
+    "meaning": "antik kalıntıların arasında yürürken"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insan (kişi)",
+   "note": "*one* burada belirli bir kişiyi değil, genel olarak \"insan\"ı anlatır; resmî bir kullanımdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duymak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "the echoes of history",
+    "meaning": "tarihin yankıları"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "echo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yankılar",
+   "note": null,
+   "form": "echo'nun çoğulu (-es)",
+   "base": "yankı",
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "the echoes of history",
+    "meaning": "tarihin yankıları"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tarihin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "the echoes of history",
+    "meaning": "tarihin yankıları"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": "Burada *history* ile *the* arasında boşluk yerine uzun tire (—) vardır; tire, ardından gelen açıklamayı vurgular.",
+   "form": "history; tireyle bitişik yazılmış \"the\"",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "the echoes of history",
+    "meaning": "tarihin yankıları"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "whisper",
+   "pos": "noun",
+   "wordId": "whisper",
+   "sense": 1,
+   "context": "fısıltılar",
+   "note": null,
+   "form": "whisper'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (âşıkların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutulmuş",
+   "note": "*forgotten* burada sıfat gibi kullanılır ve edilgen anlam taşır: *forgotten lovers* → unutulmuş âşıklar.",
+   "form": "forget fiilinin 3. hali (forgotten, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "lover",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "âşıklar",
+   "note": null,
+   "form": "lover'ın çoğulu",
+   "base": "âşık, sevgili",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "shout",
+   "pos": "noun",
+   "wordId": "shout",
+   "sense": 1,
+   "context": "haykırışlar",
+   "note": null,
+   "form": "shout'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (askerlerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "long-dead",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çoktan ölmüş",
+   "note": "*long-dead* birleşik bir sıfattır: *long* (uzun süre) + *dead* (ölü) → uzun zaman önce ölmüş.",
+   "form": null,
+   "base": "çoktan ölmüş",
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "long-dead soldiers",
+    "meaning": "çoktan ölmüş askerler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "soldier",
+   "pos": "noun",
+   "wordId": "soldier",
+   "sense": 0,
+   "context": "askerler",
+   "note": null,
+   "form": "soldier'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "long-dead soldiers",
+    "meaning": "çoktan ölmüş askerler"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "site",
+   "pos": "noun",
+   "wordId": "site",
+   "sense": 0,
+   "context": "alan (ören yeri)",
+   "note": "*site* \"yer, alan\" ve \"web sitesi\" demektir; arkeolojide \"ören yeri, kazı alanı\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "serve",
+   "pos": "verb",
+   "wordId": "serve",
+   "sense": 0,
+   "context": "işlevi görür",
+   "note": "*serve as something* \"… işlevi görmek, … olarak hizmet etmek\" demektir.",
+   "form": "serve + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "serves as",
+    "meaning": "işlevi görür (serve as)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "serves as",
+    "meaning": "işlevi görür (serve as)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "record",
+   "pos": "noun",
+   "wordId": "record",
+   "sense": 0,
+   "context": "kayıt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "-dığı (yazıldığı)",
+   "note": "*where* burada ilgi zamiridir ve önceki ismi niteler: *a record where layers are written* → katmanların yazıldığı bir kayıt.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "layer",
+   "pos": "noun",
+   "wordId": "layer",
+   "sense": 0,
+   "context": "katmanlar",
+   "note": null,
+   "form": "layer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… katmanları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "civilization",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "uygarlık",
+   "note": null,
+   "form": null,
+   "base": "uygarlık, medeniyet",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*are + fiilin 3. hali* geniş zamanda edilgen yapı kurar: *are written* → yazılır.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazılmış",
+   "note": null,
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "written over one another",
+    "meaning": "üst üste yazılmış"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "üstüne",
+   "note": "*over one another* \"üst üste, birbirinin üzerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "written over one another",
+    "meaning": "üst üste yazılmış"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one another: birbiri)",
+   "note": "*one another* \"birbiri\" demektir ve *each other* ile aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "written over one another",
+    "meaning": "üst üste yazılmış"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "birbiri(nin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "written over one another",
+    "meaning": "üst üste yazılmış"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu alan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "compel",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "zorlar",
+   "note": "*compel someone to + fiil* \"birini … -meye zorlamak, mecbur bırakmak\" demektir.",
+   "form": "compel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "zorlamak, mecbur etmek",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "compels the observer to contemplate",
+    "meaning": "gözlemciyi düşünmeye zorlar (compel someone to)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "compels the observer to contemplate",
+    "meaning": "gözlemciyi düşünmeye zorlar (compel someone to)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "observer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gözlemci",
+   "note": null,
+   "form": null,
+   "base": "gözlemci",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "compels the observer to contemplate",
+    "meaning": "gözlemciyi düşünmeye zorlar (compel someone to)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (düşünmeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "compels the observer to contemplate",
+    "meaning": "gözlemciyi düşünmeye zorlar (compel someone to)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "contemplate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "düşünmek (üzerine kafa yormak)",
+   "note": null,
+   "form": null,
+   "base": "derin derin düşünmek, üzerine kafa yormak",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "compels the observer to contemplate",
+    "meaning": "gözlemciyi düşünmeye zorlar (compel someone to)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "kendi (onların)",
+   "note": "*their* burada tekil bir kişi (*the observer*) için kullanılmıştır; cinsiyet belirtmemek için tekil *they/their* yaygındır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "smallness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "küçüklük",
+   "note": "*-ness* eki sıfattan isim yapar: *small* (küçük) → *smallness* (küçüklük).",
+   "form": null,
+   "base": "küçüklük",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "vast",
+   "pos": "adjective",
+   "wordId": "vast",
+   "sense": 0,
+   "context": "uçsuz bucaksız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "continuum",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "süreklilik",
+   "note": null,
+   "form": null,
+   "base": "süreklilik, kesintisiz akış",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (zamanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "evoke",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "uyandırarak",
+   "note": "*evoke* bir duygu ya da anıyı \"uyandırmak, çağrıştırmak\" demektir.",
+   "form": "evoke + -ing (son e düşer)",
+   "base": "uyandırmak, çağrıştırmak",
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "evoking a sense of",
+    "meaning": "… duygusu uyandırarak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "evoking a sense of",
+    "meaning": "… duygusu uyandırarak"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu",
+   "note": "*a sense of …* \"bir … duygusu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "evoking a sense of",
+    "meaning": "… duygusu uyandırarak"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… duygusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "evoking a sense of",
+    "meaning": "… duygusu uyandırarak"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "deep",
+   "pos": "adjective",
+   "wordId": "deep",
+   "sense": 0,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "sadness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hüzün",
+   "note": "*-ness* eki sıfattan isim yapar: *sad* (üzgün) → *sadness* (üzüntü, hüzün).",
+   "form": null,
+   "base": "üzüntü, hüzün",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "beauty",
+   "pos": "noun",
+   "wordId": "beauty",
+   "sense": 0,
+   "context": "güzellik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

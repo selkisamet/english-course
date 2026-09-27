@@ -1,0 +1,895 @@
+{
+ "storyId": "story-a2-004",
+ "textHash": "579e618a28ee",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Gelecek ay New York'a taşınacağım."
+  },
+  {
+   "tr": "Orada mimar olarak yeni bir iş buldum."
+  },
+  {
+   "tr": "Çok heyecanlıyım ama arkadaşlarımdan ayrılacağım için biraz da üzgünüm."
+  },
+  {
+   "tr": "Brooklyn'de küçük bir daire kiralayacağım."
+  },
+  {
+   "tr": "Kutularımı toplamaya çoktan başladım."
+  },
+  {
+   "tr": "Arkadaşlarım bu hafta sonu bana yardım etmeyi teklif etti."
+  },
+  {
+   "tr": "Bu, hayatımda yeni bir başlangıç."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next* zaman ifadelerinde \"gelecek\" demektir ve önüne *the* ya da *in* almaz: *next month* → gelecek ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Next month",
+    "meaning": "gelecek ay"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Next month",
+    "meaning": "gelecek ay"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-acağım)",
+   "note": "*be going to + fiil* önceden karar verilmiş planları anlatır ve Türkçede \"-ecek/-acak\" ile çevrilir: *I am going to move* → Taşınacağım.",
+   "form": "be fiilinin 1. tekil şahıs hali (am)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "am going to move",
+    "meaning": "taşınacağım (be going to + fiil: gelecek zaman, plan)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "Burada *going* \"gitmek\" anlamında değildir; *be going to* kalıbının parçasıdır ve gelecek zaman bildirir.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "am going to move",
+    "meaning": "taşınacağım (be going to + fiil: gelecek zaman, plan)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "am going to move",
+    "meaning": "taşınacağım (be going to + fiil: gelecek zaman, plan)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşınmak",
+   "note": "*move*'un temel anlamı \"hareket etmek\"tir; ev ya da şehir için \"taşınmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "am going to move",
+    "meaning": "taşınacağım (be going to + fiil: gelecek zaman, plan)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (New York'a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "New",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "New",
+   "note": "*New York* bir şehir adıdır; *new* \"yeni\" demektir.",
+   "form": null,
+   "base": "(New York şehir adının parçası; new: yeni)",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "York",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "York",
+   "note": null,
+   "form": null,
+   "base": "(New York şehir adının parçası)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldum",
+   "note": "*found*, *find* fiilinin geçmiş halidir; ayrıca \"kurmak\" anlamında ayrı bir *found* fiili vardır.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": "Meslek ya da görev anlatırken *as* \"olarak\" demektir: *as an architect* → mimar olarak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an architect*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "architect",
+   "pos": "noun",
+   "wordId": "architect",
+   "sense": 0,
+   "context": "mimar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ım)",
+   "note": null,
+   "form": "be fiilinin 1. tekil şahıs, geniş zaman hali (am)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "excited",
+   "pos": "adjective",
+   "wordId": "excited",
+   "sense": 0,
+   "context": "heyecanlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de, aynı zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a bit: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "a bit",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "bit",
+   "pos": "noun",
+   "wordId": "bit",
+   "sense": 0,
+   "context": "biraz (a bit)",
+   "note": "*a bit* \"biraz\" demektir ve sıfatlardan önce kullanılır: *a bit sad* → biraz üzgün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "a bit",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "sad",
+   "pos": "adjective",
+   "wordId": "sad",
+   "sense": 0,
+   "context": "üzgün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-dığı için (ayrılacağım için)",
+   "note": "Duygu bildiren sıfatlardan sonra *to + fiil* duygunun nedenini anlatır: *sad to leave* → ayrılacağı için üzgün.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "ayrılmak (bırakmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-acağım)",
+   "note": null,
+   "form": "be fiilinin 1. tekil şahıs hali (am)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "am going to rent",
+    "meaning": "kiralayacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "am going to rent",
+    "meaning": "kiralayacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "am going to rent",
+    "meaning": "kiralayacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "rent",
+   "pos": "verb",
+   "wordId": "rent",
+   "sense": 1,
+   "context": "kiralamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "am going to rent",
+    "meaning": "kiralayacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "apartment",
+   "pos": "noun",
+   "wordId": "apartment",
+   "sense": 0,
+   "context": "daire",
+   "note": "*apartment* \"daire\" demektir (Amerikan İngilizcesi); İngiliz İngilizcesinde *flat* denir. Türkçedeki \"apartman\" (bina) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Brooklyn'de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "Brooklyn",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Brooklyn",
+   "note": null,
+   "form": null,
+   "base": "(New York'ta bir semt)",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dım)",
+   "note": "*have* + fiilin 3. hali (*started*) \"present perfect\" zamanını kurar; yeni tamamlanmış ya da etkisi süren eylemleri anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "have already started",
+    "meaning": "çoktan başladım (present perfect)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "already",
+   "pos": "adverb",
+   "wordId": "already",
+   "sense": 0,
+   "context": "çoktan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "have already started",
+    "meaning": "çoktan başladım (present perfect)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladım",
+   "note": null,
+   "form": "start fiilinin 3. hali (started, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "have already started",
+    "meaning": "çoktan başladım (present perfect)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "pack",
+   "pos": "verb",
+   "wordId": "pack",
+   "sense": 0,
+   "context": "toplamak (kutulara yerleştirmek)",
+   "note": "*start* + *-ing*'li fiil \"… -maya başlamak\" demektir: *started packing* → toplamaya başladım.",
+   "form": "pack + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "box",
+   "pos": "noun",
+   "wordId": "box",
+   "sense": 0,
+   "context": "kutular",
+   "note": null,
+   "form": "box'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif etti",
+   "note": "*offer to + fiil* \"… -meyi teklif etmek\" demektir.",
+   "form": "offer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (yardım etmeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "fresh",
+   "pos": "adjective",
+   "wordId": "fresh",
+   "sense": 0,
+   "context": "yeni",
+   "note": "*fresh*'in temel anlamı \"taze\"dir; *a fresh start* \"yeni, temiz bir başlangıç\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "fresh start",
+    "meaning": "yeni bir başlangıç, sıfırdan başlamak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "start",
+   "pos": "noun",
+   "wordId": "start",
+   "sense": 1,
+   "context": "başlangıç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "fresh start",
+    "meaning": "yeni bir başlangıç, sıfırdan başlamak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hayatımda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,888 @@
+{
+ "storyId": "story-a1-003",
+ "textHash": "4a3fae163d08",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sarah meşgul bir öğrencidir."
+  },
+  {
+   "tr": "Her sabah 6.30'da kalkar."
+  },
+  {
+   "tr": "İlk önce bir bardak taze su içer."
+  },
+  {
+   "tr": "Sonra dişlerini fırçalar."
+  },
+  {
+   "tr": "Okul kıyafetlerini giyer."
+  },
+  {
+   "tr": "Kahvaltıda peynirli ekmek yer ve sıcak çay içer."
+  },
+  {
+   "tr": "Sabah 7.30'da otobüs durağına yürür."
+  },
+  {
+   "tr": "Otobüs sarıdır."
+  },
+  {
+   "tr": "Okula sabah 8.00'de varır."
+  },
+  {
+   "tr": "Asla geç kalmaz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Sarah",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sarah",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "busy",
+   "pos": "adjective",
+   "wordId": "busy",
+   "sense": 0,
+   "context": "meşgul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "kalkar (get up)",
+   "note": "*get* çok anlamlı bir fiildir (almak, olmak, varmak); *get up* kalıbında \"yataktan kalkmak\" anlamına gelir.",
+   "form": "get + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "gets up",
+    "meaning": "kalkar (get up: yataktan kalkmak)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(get up: kalkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "gets up",
+    "meaning": "kalkar (get up: yataktan kalkmak)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (saat)",
+   "note": "Saat söylerken *at* kullanılır: *at 6:30* → saat 6.30'**da**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "6:30",
+   "pos": "number",
+   "wordId": null,
+   "sense": null,
+   "context": "altı otuz (6.30)",
+   "note": null,
+   "form": null,
+   "base": "saat altı buçuk",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "AM",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sabah (öğleden önce)",
+   "note": "*AM* gece yarısından öğlene kadarki saatleri, *PM* öğleden sonrasını gösterir.",
+   "form": null,
+   "base": "öğleden önce (saat için)",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "ilk önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içer",
+   "note": null,
+   "form": "drink + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a glass of",
+    "meaning": "bir bardak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "glass",
+   "pos": "noun",
+   "wordId": "glass",
+   "sense": 0,
+   "context": "bardak",
+   "note": "*glass* \"cam\" ve \"bardak\" demektir; *a glass of water* → bir bardak su.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a glass of",
+    "meaning": "bir bardak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(miktar)",
+   "note": "*of* burada miktar bildirir: *a glass of water* → bir bardak su. Türkçede karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a glass of",
+    "meaning": "bir bardak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "fresh",
+   "pos": "adjective",
+   "wordId": "fresh",
+   "sense": 0,
+   "context": "taze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "fırçalar (temizler)",
+   "note": "*clean* \"temizlemek\" demektir; *clean your teeth* Türkçede \"dişlerini fırçalamak\" olarak söylenir.",
+   "form": "clean + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (dişlerini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "tooth",
+   "pos": "noun",
+   "wordId": "tooth",
+   "sense": 0,
+   "context": "dişler",
+   "note": null,
+   "form": "tooth'un düzensiz çoğulu (teeth)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "giyer (put on)",
+   "note": "*put*'un temel anlamı \"koymak\"tır; *put on* kalıbında \"giymek\" anlamına gelir.",
+   "form": "put + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "puts on",
+    "meaning": "giyer (put on: giymek, üstüne geçirmek)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "(put on: giymek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "puts on",
+    "meaning": "giyer (put on: giymek, üstüne geçirmek)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kıyafetlerini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-de (kahvaltıda)",
+   "note": "*for breakfast* \"kahvaltı için, kahvaltıda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "breakfast",
+   "pos": "noun",
+   "wordId": "breakfast",
+   "sense": 0,
+   "context": "kahvaltı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yer",
+   "note": null,
+   "form": "eat + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "bread",
+   "pos": "noun",
+   "wordId": "bread",
+   "sense": 0,
+   "context": "ekmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (peynirli)",
+   "note": "*with* \"ile\" demektir; yiyeceklerde Türkçede \"-li\" ekiyle karşılanır: *bread with cheese* → peynir**li** ekmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "cheese",
+   "pos": "noun",
+   "wordId": "cheese",
+   "sense": 0,
+   "context": "peynir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içer",
+   "note": null,
+   "form": "drink + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "hot",
+   "pos": "adjective",
+   "wordId": "hot",
+   "sense": 0,
+   "context": "sıcak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "tea",
+   "pos": "noun",
+   "wordId": "tea",
+   "sense": 0,
+   "context": "çay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (saat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "7:30",
+   "pos": "number",
+   "wordId": null,
+   "sense": null,
+   "context": "yedi otuz (7.30)",
+   "note": null,
+   "form": null,
+   "base": "saat yedi buçuk",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "AM",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": "öğleden önce (saat için)",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürür",
+   "note": null,
+   "form": "walk + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (durağa)",
+   "note": "*to* bir yöne doğru gitmeyi bildirir; Türkçede \"-e/-a\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "bus station",
+    "meaning": "otobüs durağı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "station",
+   "pos": "noun",
+   "wordId": "station",
+   "sense": 0,
+   "context": "durak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "bus station",
+    "meaning": "otobüs durağı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "yellow",
+   "pos": "adjective",
+   "wordId": "yellow",
+   "sense": 0,
+   "context": "sarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "varır",
+   "note": null,
+   "form": "arrive + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (okula)",
+   "note": "*arrive at* bir yere \"varmak\" demektir; Türkçede \"-e\" ekiyle söylenir: *arrive at school* → okul**a** varmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (saat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "8:00",
+   "pos": "number",
+   "wordId": null,
+   "sense": null,
+   "context": "sekiz (8.00)",
+   "note": null,
+   "form": null,
+   "base": "saat sekiz",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "AM",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": "öğleden önce (saat için)",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmak: geç kalmak)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "asla",
+   "note": "*never* fiili olumsuz yapar; cümlede ayrıca *not* kullanılmaz: *She is never late* → Asla geç kalmaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "late",
+   "pos": "adjective",
+   "wordId": "late",
+   "sense": 0,
+   "context": "geç (kalmış)",
+   "note": "*be late* \"geç kalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

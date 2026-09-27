@@ -1,0 +1,903 @@
+{
+ "storyId": "story-c2-001",
+ "textHash": "2c574390f3a3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Varoluşun görkemli tiyatrosunda sessizlik güçlü bir varlıktır."
+  },
+  {
+   "tr": "Yok olmakta olan lehçeleri inceleyen bir dilbilimci olan Eleanor, kelimelerin yalnızca yüzeydeki bir katman olduğunu anlamıştı."
+  },
+  {
+   "tr": "Büyük şehre döndüğünde derin bir yerinden kopmuşluk hissetti."
+  },
+  {
+   "tr": "Eski kitapçılarda teselli buldu."
+  },
+  {
+   "tr": "Kuramı, gerçek anlayışın söylenenden değil söylenmeden bırakılandan doğduğunu savunuyor ve çağdaş dilbilim kuramına meydan okuyordu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (tiyatrosunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "grand",
+   "pos": "adjective",
+   "wordId": "grand",
+   "sense": 0,
+   "context": "görkemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "grand theater of existence",
+    "meaning": "varoluşun görkemli tiyatrosu"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "theater",
+   "pos": "noun",
+   "wordId": "theatre",
+   "sense": 0,
+   "context": "tiyatro",
+   "note": "*theater* Amerikan yazımıdır; İngiliz İngilizcesinde *theatre* yazılır. Burada mecazi anlamdadır: \"varoluş sahnesi\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "grand theater of existence",
+    "meaning": "varoluşun görkemli tiyatrosu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (varoluşun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "grand theater of existence",
+    "meaning": "varoluşun görkemli tiyatrosu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "existence",
+   "pos": "noun",
+   "wordId": "existence",
+   "sense": 0,
+   "context": "varoluş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "grand theater of existence",
+    "meaning": "varoluşun görkemli tiyatrosu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "powerful",
+   "pos": "adjective",
+   "wordId": "powerful",
+   "sense": 0,
+   "context": "güçlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "presence",
+   "pos": "noun",
+   "wordId": "presence",
+   "sense": 0,
+   "context": "varlık",
+   "note": "*presence* \"bir yerde bulunma, varlık\" demektir; bir kişinin ya da şeyin hissedilen etkisini de anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "Eleanor",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Eleanor",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "İsimden sonra virgüller arasında gelen açıklama (*Eleanor, a linguist…,*) o kişiyi tanıtır; Türkçede \"… olan Eleanor\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "linguist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dilbilimci",
+   "note": null,
+   "form": null,
+   "base": "dilbilimci",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "inceleyen",
+   "note": "*study*'nin temel anlamı \"ders çalışmak, okumak\"tır; bir konu için \"incelemek, araştırmak\" demektir. İsimden sonra gelen *-ing*'li fiil o ismi niteler: *a linguist studying…* → … inceleyen bir dilbilimci.",
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "studying dying dialects",
+    "meaning": "yok olmakta olan lehçeleri inceleyen"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "yok olmakta olan (ölmekte olan)",
+   "note": "*die*'ın temel anlamı \"ölmek\"tir; *dying languages/dialects* \"yok olmakta olan diller/lehçeler\" demektir.",
+   "form": "die + -ing (ie → y: dying)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "studying dying dialects",
+    "meaning": "yok olmakta olan lehçeleri inceleyen"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "dialect",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "lehçeler",
+   "note": null,
+   "form": "dialect'in çoğulu",
+   "base": "lehçe, ağız",
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "studying dying dialects",
+    "meaning": "yok olmakta olan lehçeleri inceleyen"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamıştı",
+   "note": null,
+   "form": "understand fiilinin geçmiş zaman hali (understood, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "kelimeler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*merely* \"sadece, yalnızca\" demektir; *only*'den daha resmîdir.",
+   "form": null,
+   "base": "sadece, yalnızca",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "surface",
+   "pos": "noun",
+   "wordId": "surface",
+   "sense": 0,
+   "context": "yüzey(deki)",
+   "note": "Burada *surface* isim olmasına rağmen *layer*'ı niteler: *surface layer* → yüzeydeki katman.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "surface layer",
+    "meaning": "yüzeydeki katman"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "layer",
+   "pos": "noun",
+   "wordId": "layer",
+   "sense": 0,
+   "context": "katman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "surface layer",
+    "meaning": "yüzeydeki katman"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "upon",
+   "pos": "preposition",
+   "wordId": "upon",
+   "sense": 0,
+   "context": "-ince (döner dönmez)",
+   "note": "*upon + -ing* \"… -ince, … -er -mez\" demektir ve resmî bir kullanımdır: *Upon returning* → Dönünce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "Upon returning",
+    "meaning": "döner dönmez, dönünce"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "dönmek",
+   "note": null,
+   "form": "return + -ing",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "Upon returning",
+    "meaning": "döner dönmez, dönünce"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (şehre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "metropolis",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "büyük şehir",
+   "note": null,
+   "form": null,
+   "base": "metropol, büyük şehir",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "acute",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "derin (yoğun)",
+   "note": "*acute* duygular için \"şiddetli, yoğun\", hastalıklar için \"akut\" demektir.",
+   "form": null,
+   "base": "şiddetli, yoğun; akut",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "dislocation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yerinden kopmuşluk",
+   "note": "*dislocation* tıpta \"çıkık\" demektir; mecazi olarak bir yere ait olamama, \"yerinden kopmuşluk\" hissini anlatır.",
+   "form": null,
+   "base": "yerinden olma; (tıp) çıkık",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*found*, *find* fiilinin geçmiş halidir; ayrıca \"kurmak\" anlamında ayrı bir *found* fiili vardır.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "found comfort",
+    "meaning": "teselli buldu"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "comfort",
+   "pos": "noun",
+   "wordId": "comfort",
+   "sense": 0,
+   "context": "teselli",
+   "note": "*comfort* \"konfor, rahatlık\" ve \"teselli\" demektir; *find comfort in* \"-de teselli bulmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "found comfort",
+    "meaning": "teselli buldu"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kitapçılarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "bookshop",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kitapçılar",
+   "note": "*bookshop* İngiliz İngilizcesidir; Amerikan İngilizcesinde *bookstore* denir.",
+   "form": "bookshop'un çoğulu",
+   "base": "kitapçı (dükkân)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "theory",
+   "pos": "noun",
+   "wordId": "theory",
+   "sense": 0,
+   "context": "kuram",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyordu",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": "argue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "true",
+   "pos": "adjective",
+   "wordId": "true",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "understanding",
+   "pos": "noun",
+   "wordId": "understanding",
+   "sense": 0,
+   "context": "anlayış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "arise",
+   "pos": "verb",
+   "wordId": "arise",
+   "sense": 0,
+   "context": "doğar (ortaya çıkar)",
+   "note": null,
+   "form": "arise + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not from A but from B* \"A'dan değil, B'den\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "… olan (şey)",
+   "note": "*what* burada soru sormaz; \"… olan şey\" anlamında isim cümlesi kurar: *what is spoken* → söylenen (şey).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*is + fiilin 3. hali* edilgen yapı kurar: *is spoken* → söylenir.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "söylenen (konuşulan)",
+   "note": null,
+   "form": "speak fiilinin 3. hali (spoken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), … -den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "… olan (şey)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakılan",
+   "note": "*leave*'in anlamlarından biri \"bırakmak\"tır; *leave something unsaid* \"bir şeyi söylemeden bırakmak\" demektir.",
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "unsaid",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "söylenmeden",
+   "note": "*un-* ön eki olumsuzluk katar: *said* (söylenmiş) → *unsaid* (söylenmemiş).",
+   "form": null,
+   "base": "söylenmemiş",
+   "phrase": {
+    "from": 46,
+    "to": 57,
+    "text": "arises not from what is spoken, but from what is left unsaid",
+    "meaning": "söylenenden değil, söylenmeden bırakılandan doğar (not from A but from B)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "challenge",
+   "pos": "verb",
+   "wordId": "challenge",
+   "sense": 1,
+   "context": "meydan okuyarak",
+   "note": "Cümle sonundaki *-ing*'li yapı önceki ifadenin sonucunu anlatır: *…, challenging contemporary theory* → … ve (böylece) çağdaş kurama meydan okuyordu.",
+   "form": "challenge + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "contemporary",
+   "pos": "adjective",
+   "wordId": "contemporary",
+   "sense": 0,
+   "context": "çağdaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "linguistic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dilbilim(sel)",
+   "note": null,
+   "form": null,
+   "base": "dilbilimsel, dille ilgili",
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "linguistic theory",
+    "meaning": "dilbilim kuramı"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "theory",
+   "pos": "noun",
+   "wordId": "theory",
+   "sense": 0,
+   "context": "kuram (teori)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "linguistic theory",
+    "meaning": "dilbilim kuramı"
+   }
+  }
+ ]
+}

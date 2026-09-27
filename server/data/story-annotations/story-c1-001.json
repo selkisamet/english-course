@@ -1,0 +1,910 @@
+{
+ "storyId": "story-c1-001",
+ "textHash": "184cac248ef5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Oakhaven köyü, önerilen bir hidroelektrik barajı nedeniyle büyük bir değişimin eşiğindeydi."
+  },
+  {
+   "tr": "Destekçiler, barajın temiz enerji ve istihdam yaratacağını savundu."
+  },
+  {
+   "tr": "Ancak çevreciler ekosistemle ilgili haklı kaygılar dile getirdi."
+  },
+  {
+   "tr": "Belediye başkanı \"Zor bir durum.\" diye kabul etti."
+  },
+  {
+   "tr": "Meclis sakinlere daha önce danışmış olsaydı, olumsuz tepki bu kadar sert olmayabilirdi."
+  },
+  {
+   "tr": "Köy kritik bir dönüm noktasındaydı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… köyü)",
+   "note": "*the village of Oakhaven* \"Oakhaven köyü\" demektir; *of* burada adı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Oakhaven",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Oakhaven",
+   "note": null,
+   "form": null,
+   "base": "(köy adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (eşiğindeydi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (eşiğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "on the verge of",
+    "meaning": "-in eşiğinde"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "on the verge of",
+    "meaning": "-in eşiğinde"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "verge",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "eşik",
+   "note": "*be on the verge of something* \"bir şeyin eşiğinde olmak, … üzere olmak\" demektir.",
+   "form": null,
+   "base": "eşik, kenar",
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "on the verge of",
+    "meaning": "-in eşiğinde"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (değişimin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "on the verge of",
+    "meaning": "-in eşiğinde"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "significant",
+   "pos": "adjective",
+   "wordId": "significant",
+   "sense": 0,
+   "context": "büyük (önemli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "change",
+   "pos": "noun",
+   "wordId": "change",
+   "sense": 1,
+   "context": "değişim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "due",
+   "pos": "adjective",
+   "wordId": "due",
+   "sense": 0,
+   "context": "nedeniyle (due to)",
+   "note": "*due*'nun temel anlamı \"beklenen, zamanı gelmiş\"tir; *due to* ise bir kalıptır ve \"yüzünden, nedeniyle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(due to: nedeniyle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "propose",
+   "pos": "verb",
+   "wordId": "propose",
+   "sense": 0,
+   "context": "önerilen",
+   "note": "*proposed* burada sıfat gibi kullanılır ve edilgen anlam taşır: *a proposed dam* → önerilen (planlanan) bir baraj.",
+   "form": "propose fiilinin 3. hali (proposed, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "hydroelectric",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hidroelektrik",
+   "note": null,
+   "form": null,
+   "base": "hidroelektrik (sudan elektrik üreten)",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "hydroelectric dam",
+    "meaning": "hidroelektrik barajı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "dam",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "baraj",
+   "note": null,
+   "form": null,
+   "base": "baraj",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "hydroelectric dam",
+    "meaning": "hidroelektrik barajı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "supporter",
+   "pos": "noun",
+   "wordId": "supporter",
+   "sense": 0,
+   "context": "destekçiler",
+   "note": null,
+   "form": "supporter'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savundu",
+   "note": "*argue*'nun temel anlamı \"tartışmak\"tır; *argue (that)…* ise \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": "argue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (baraj)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-eceğini",
+   "note": "Aktarılan cümlelerde *will*, *would* olur: *\"It will generate…\"* → *They argued it would generate…*",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "generate",
+   "pos": "verb",
+   "wordId": "generate",
+   "sense": 0,
+   "context": "yaratmak (üretmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "clean",
+   "pos": "adjective",
+   "wordId": "clean",
+   "sense": 0,
+   "context": "temiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "energy",
+   "pos": "noun",
+   "wordId": "energy",
+   "sense": 0,
+   "context": "enerji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "employment",
+   "pos": "noun",
+   "wordId": "employment",
+   "sense": 0,
+   "context": "istihdam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "environmentalist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çevreciler",
+   "note": null,
+   "form": "environmentalist'in çoğulu",
+   "base": "çevreci",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "dile getirdi",
+   "note": "*raise*'in temel anlamı \"kaldırmak, yükseltmek\"tir; *raise a concern/question* \"bir kaygıyı/soruyu dile getirmek\" demektir.",
+   "form": "raise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "raised valid concerns",
+    "meaning": "haklı kaygılar dile getirdi (raise a concern)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "valid",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "haklı (geçerli)",
+   "note": null,
+   "form": null,
+   "base": "geçerli; haklı, yerinde",
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "raised valid concerns",
+    "meaning": "haklı kaygılar dile getirdi (raise a concern)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "concern",
+   "pos": "noun",
+   "wordId": "concern",
+   "sense": 0,
+   "context": "kaygılar",
+   "note": null,
+   "form": "concern'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "raised valid concerns",
+    "meaning": "haklı kaygılar dile getirdi (raise a concern)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "ecosystem",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ekosistem",
+   "note": null,
+   "form": null,
+   "base": "ekosistem",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": "*It's*, *It is*'in kısaltmasıdır.",
+   "form": "it + 's (is) kısaltması",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "situation",
+   "pos": "noun",
+   "wordId": "situation",
+   "sense": 0,
+   "context": "durum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "mayor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "belediye başkanı",
+   "note": null,
+   "form": null,
+   "base": "belediye başkanı",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "admit",
+   "pos": "verb",
+   "wordId": "admit",
+   "sense": 0,
+   "context": "kabul etti",
+   "note": "*admit* \"(genellikle istemeyerek) kabul etmek, itiraf etmek\" demektir.",
+   "form": "admit + -ed (geçmiş zaman; son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "-miş olsaydı",
+   "note": "*Had + özne + fiilin 3. hali*, *If + özne + had…* yapısının resmî ve devrik biçimidir (3. tip koşul): *Had the council consulted…* = *If the council had consulted…* → Meclis danışmış olsaydı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "council",
+   "pos": "noun",
+   "wordId": "council",
+   "sense": 0,
+   "context": "meclis (belediye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "consult",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "danışmış",
+   "note": null,
+   "form": "consult fiilinin 3. hali (consulted, -ed)",
+   "base": "danışmak, fikrini almak",
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "early",
+   "pos": "adverb",
+   "wordId": "early",
+   "sense": 1,
+   "context": "daha önce (daha erken)",
+   "note": null,
+   "form": "early zarfının karşılaştırma hali (-ier; y → i)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "Had the council consulted residents earlier",
+    "meaning": "meclis sakinlere daha önce danışmış olsaydı (If the council had consulted…)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "negative",
+   "pos": "adjective",
+   "wordId": "negative",
+   "sense": 0,
+   "context": "olumsuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "reaction",
+   "pos": "noun",
+   "wordId": "reaction",
+   "sense": 0,
+   "context": "tepki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilirdi",
+   "note": "*might (not) have + fiilin 3. hali* geçmişe dair bir olasılığı anlatır: *might not have been so severe* → bu kadar sert olmayabilirdi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "might not have been",
+    "meaning": "olmayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olmayabilirdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "might not have been",
+    "meaning": "olmayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(geçmiş olasılık)",
+   "note": "Modal fiillerden sonra gelen *have + fiilin 3. hali* geçmişe dönük anlam verir; burada \"sahip olmak\" anlamı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "might not have been",
+    "meaning": "olmayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "might not have been",
+    "meaning": "olmayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar (o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "severe",
+   "pos": "adjective",
+   "wordId": "severe",
+   "sense": 0,
+   "context": "sert (şiddetli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "stand",
+   "pos": "verb",
+   "wordId": "stand",
+   "sense": 0,
+   "context": "-daydı (duruyordu)",
+   "note": "*stand*'in temel anlamı \"ayakta durmak\"tır; mecazi olarak bir durumda \"bulunmak\" demektir: *stood at a turning point* → dönüm noktasındaydı.",
+   "form": "stand fiilinin geçmiş zaman hali (stood, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (noktasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "critical",
+   "pos": "adjective",
+   "wordId": "critical",
+   "sense": 0,
+   "context": "kritik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "dönüm (turning point)",
+   "note": "*turning point* \"dönüm noktası\" demektir; *turn* fiilinin \"dönmek\" anlamından gelir.",
+   "form": "turn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "turning point",
+    "meaning": "dönüm noktası"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "point",
+   "pos": "noun",
+   "wordId": "point",
+   "sense": 0,
+   "context": "nokta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "turning point",
+    "meaning": "dönüm noktası"
+   }
+  }
+ ]
+}

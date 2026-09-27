@@ -1,0 +1,862 @@
+{
+ "storyId": "story-b2-006",
+ "textHash": "cf3b0b37de2b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yardım galasını düzenlemek Linda için önemli bir sorumluluktu."
+  },
+  {
+   "tr": "İkram hizmetini, müziği ve davetli listelerini koordine etmesi gerekiyordu."
+  },
+  {
+   "tr": "Pes etmek istediği anlar oldu."
+  },
+  {
+   "tr": "Ancak etkinlik gecesi her şey sorunsuz ilerledi."
+  },
+  {
+   "tr": "Yerel hastane için elli bin dolardan fazla para topladılar."
+  },
+  {
+   "tr": "Linda, toplumun bir araya geldiğini görünce derin bir başarı duygusu hissetti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "organize",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenlemek",
+   "note": "Cümlenin başındaki *-ing*'li fiil isim gibi kullanılır ve özne olur (gerund): *Organizing the gala was…* → Galayı düzenlemek … idi.",
+   "form": "organize + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "charity",
+   "pos": "noun",
+   "wordId": "charity",
+   "sense": 0,
+   "context": "yardım (hayır)",
+   "note": "*charity* \"hayır kurumu; hayır işi\" demektir; *charity gala* bağış toplamak için düzenlenen gala gecesidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "charity gala",
+    "meaning": "yardım galası"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "gala",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gala",
+   "note": null,
+   "form": null,
+   "base": "gala (özel kutlama gecesi)",
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "charity gala",
+    "meaning": "yardım galası"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "significant",
+   "pos": "adjective",
+   "wordId": "significant",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "responsibility",
+   "pos": "noun",
+   "wordId": "responsibility",
+   "sense": 0,
+   "context": "sorumluluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "Linda",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Linda",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "gerekiyordu (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur. Geçmiş hali *had to*'dur.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "had to",
+    "meaning": "-mesi gerekiyordu (have to)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(had to: -mesi gerekiyordu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "had to",
+    "meaning": "-mesi gerekiyordu (have to)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "coordinate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "koordine etmek",
+   "note": null,
+   "form": null,
+   "base": "koordine etmek, düzenlemek",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "catering",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ikram hizmeti",
+   "note": "*catering* etkinliklere yiyecek ve içecek sağlama hizmetidir.",
+   "form": null,
+   "base": "yemek ve ikram hizmeti (catering)",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "guest",
+   "pos": "noun",
+   "wordId": "guest",
+   "sense": 0,
+   "context": "davetli (konuk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "guest lists",
+    "meaning": "davetli listeleri"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "list",
+   "pos": "noun",
+   "wordId": "list",
+   "sense": 0,
+   "context": "listeler",
+   "note": null,
+   "form": "list'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "guest lists",
+    "meaning": "davetli listeleri"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there were: vardı)",
+   "note": "*there was / there were* geçmişte bir şeyin var olduğunu söyler: *There were moments* → Anlar oldu (vardı).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "There were",
+    "meaning": "vardı, oldu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (oldu)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "There were",
+    "meaning": "vardı, oldu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "moment",
+   "pos": "noun",
+   "wordId": "moment",
+   "sense": 0,
+   "context": "anlar",
+   "note": null,
+   "form": "moment'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "when",
+   "pos": "pronoun",
+   "wordId": "when",
+   "sense": 1,
+   "context": "-diği (anlar)",
+   "note": "*when* burada bir zaman ismini niteler: *moments when she wanted…* → … istediği anlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedi",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (pes etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "(give up: pes etmek)",
+   "note": "*give*'ın temel anlamı \"vermek\"tir; *give up* ise \"pes etmek, vazgeçmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "give up",
+    "meaning": "pes etmek, vazgeçmek"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(give up: pes etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "give up",
+    "meaning": "pes etmek, vazgeçmek"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (gecesi)",
+   "note": "Belirli bir gün ya da gece için *on* kullanılır: *on the night of the event* → etkinlik gecesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (etkinliğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "etkinlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 34,
+    "text": "on the night of the event",
+    "meaning": "etkinlik gecesi"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "proceed",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ilerledi",
+   "note": null,
+   "form": "proceed + -ed (geçmiş zaman)",
+   "base": "ilerlemek, devam etmek",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "smoothly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sorunsuz bir şekilde",
+   "note": "*smoothly*, *smooth* (pürüzsüz; sorunsuz) sıfatına *-ly* eklenerek yapılmış bir zarftır.",
+   "form": null,
+   "base": "sorunsuzca, pürüzsüzce",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "raised",
+    "meaning": "(para) topladılar (raise money)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "topladılar (para)",
+   "note": "*raise*'in temel anlamı \"kaldırmak, yükseltmek\"tir; *raise money* \"(bağış) para toplamak\" demektir.",
+   "form": "raise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "raised",
+    "meaning": "(para) topladılar (raise money)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "-den fazla",
+   "note": "Sayılardan önce *over* \"… -den fazla\" demektir: *over fifty thousand* → elli binden fazla.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "fifty",
+   "pos": "number",
+   "wordId": "fifty",
+   "sense": 0,
+   "context": "elli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "bin",
+   "note": "Bir sayıdan sonra *thousand* çoğul *-s* almaz: *fifty thousand* (✗ fifty thousands).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "dollar",
+   "pos": "noun",
+   "wordId": "dollar",
+   "sense": 0,
+   "context": "dolar",
+   "note": null,
+   "form": "dollar'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "Linda",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Linda",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "deep",
+   "pos": "adjective",
+   "wordId": "deep",
+   "sense": 0,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu (his)",
+   "note": "*a sense of …* \"bir … duygusu\" demektir: *a sense of accomplishment* → başarı duygusu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "sense of accomplishment",
+    "meaning": "başarı duygusu"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… duygusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "sense of accomplishment",
+    "meaning": "başarı duygusu"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "accomplishment",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": "başarı, bir işi başarmış olma",
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "sense of accomplishment",
+    "meaning": "başarı duygusu"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görünce",
+   "note": "Cümle ortasındaki *-ing*'li fiil, aynı anda olan ya da sebep olan eylemi anlatır: *seeing the community…* → toplumu … görünce.",
+   "form": "see + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "toplum (topluluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelmek (bir araya)",
+   "note": "*see someone do something* yapısında ikinci fiil yalın haliyle gelir: *see the community come together*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "come together",
+    "meaning": "bir araya gelmek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "bir araya (birlikte)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "come together",
+    "meaning": "bir araya gelmek"
+   }
+  }
+ ]
+}

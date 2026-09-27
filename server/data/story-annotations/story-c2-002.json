@@ -1,0 +1,812 @@
+{
+ "storyId": "story-c2-002",
+ "textHash": "6ad3a82235f7",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Elias şehrin siluetini canlı bir organizma olarak görüyordu."
+  },
+  {
+   "tr": "\"Nebula Spire\" adlı projesi, gerçekçi meslektaşları tarafından imkânsız sayılıyordu."
+  },
+  {
+   "tr": "Yılmadan, şehrin duygusal hâlini yansıtan ileri teknoloji malzemeleri projeye katmak için emek verdi."
+  },
+  {
+   "tr": "Kule alacakaranlıkta mor bir ışıkla nabız gibi atarken şehir halkını büyüledi."
+  },
+  {
+   "tr": "Elias, mimarinin fiziksel olanla felsefi olan arasındaki sınırı bulanıklaştırarak ortak düşünceye katalizör olabileceğini kanıtladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Elias",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elias",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "perceive",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "görüyordu (algılıyordu)",
+   "note": "*perceive A as B* \"A'yı B olarak görmek, algılamak\" demektir.",
+   "form": "perceive + -d (geçmiş zaman)",
+   "base": "algılamak, fark etmek; … olarak görmek",
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "perceived … as",
+    "meaning": "… olarak gördü (perceive A as B)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "perceived … as",
+    "meaning": "… olarak gördü (perceive A as B)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "skyline",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "siluet",
+   "note": "*skyline* bir şehrin binalarının gökyüzüne karşı oluşturduğu silueti anlatır.",
+   "form": null,
+   "base": "(şehir) silueti, ufuk çizgisi",
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "perceived … as",
+    "meaning": "… olarak gördü (perceive A as B)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "perceived … as",
+    "meaning": "… olarak gördü (perceive A as B)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "living",
+   "pos": "adjective",
+   "wordId": "living",
+   "sense": 0,
+   "context": "canlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "organism",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "organizma",
+   "note": null,
+   "form": null,
+   "base": "organizma, canlı",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "Nebula",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Nebula",
+   "note": null,
+   "form": null,
+   "base": "(projenin adı; nebula: bulutsu)",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "'Nebula Spire'",
+    "meaning": "Nebula Kulesi (projenin adı)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "Spire",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Spire",
+   "note": null,
+   "form": null,
+   "base": "(projenin adı; spire: sivri kule)",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "'Nebula Spire'",
+    "meaning": "Nebula Kulesi (projenin adı)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*was/were + fiilin 3. hali* geçmiş zamanda edilgen yapı kurar: *was deemed impossible* → imkânsız sayıldı.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "was deemed",
+    "meaning": "sayıldı, addedildi (edilgen)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "deem",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sayıldı",
+   "note": "*deem* \"… saymak, … olarak görmek\" demektir ve resmî bir kelimedir.",
+   "form": "deem fiilinin 3. hali (deemed, -ed)",
+   "base": "saymak, addetmek",
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "was deemed",
+    "meaning": "sayıldı, addedildi (edilgen)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "impossible",
+   "pos": "adjective",
+   "wordId": "impossible",
+   "sense": 0,
+   "context": "imkânsız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "practical",
+   "pos": "adjective",
+   "wordId": "practical",
+   "sense": 0,
+   "context": "gerçekçi (pratik)",
+   "note": "*practical* kişiler için \"gerçekçi, ayakları yere basan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "peer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "meslektaşlar",
+   "note": null,
+   "form": "peer'ın çoğulu",
+   "base": "akran, meslektaş",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "undeterred",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yılmadan",
+   "note": "*undeterred* engellere rağmen \"yılmamış, vazgeçmemiş\" demektir.",
+   "form": null,
+   "base": "yılmamış, caydırılamamış",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "labor",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "emek verdi",
+   "note": "*labor* Amerikan yazımıdır; İngiliz İngilizcesinde *labour* yazılır. Fiil olarak \"çok çalışmak, emek vermek\" demektir.",
+   "form": "labor + -ed (geçmiş zaman)",
+   "base": "emek vermek, çok çalışmak",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (katmak için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "integrate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "katmak (bütünleştirmek)",
+   "note": null,
+   "form": null,
+   "base": "bütünleştirmek, entegre etmek",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "advanced",
+   "pos": "adjective",
+   "wordId": "advanced",
+   "sense": 0,
+   "context": "ileri (gelişmiş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "advanced materials",
+    "meaning": "ileri teknoloji malzemeler"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "material",
+   "pos": "noun",
+   "wordId": "material",
+   "sense": 0,
+   "context": "malzemeler",
+   "note": null,
+   "form": "material'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "advanced materials",
+    "meaning": "ileri teknoloji malzemeler"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "reflect",
+   "pos": "verb",
+   "wordId": "reflect",
+   "sense": 0,
+   "context": "yansıtan",
+   "note": "İsimden sonra gelen *-ing*'li fiil o ismi niteler: *materials reflecting…* → … yansıtan malzemeler.",
+   "form": "reflect + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehrin",
+   "note": null,
+   "form": "city + 's (aitlik eki)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "emotional",
+   "pos": "adjective",
+   "wordId": "emotional",
+   "sense": 0,
+   "context": "duygusal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "state",
+   "pos": "noun",
+   "wordId": "state",
+   "sense": 0,
+   "context": "hâl (durum)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-ken",
+   "note": "*as* bağlaç olarak \"-ken, … sırasında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "Spire",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Spire (kule)",
+   "note": null,
+   "form": null,
+   "base": "(kulenin adı)",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "pulse",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "nabız gibi attı",
+   "note": "*pulse* \"nabız\" demektir; fiil olarak ışık ve ses için \"ritmik olarak atmak, yanıp sönmek\" anlamına gelir.",
+   "form": "pulse + -d (geçmiş zaman)",
+   "base": "nabız gibi atmak, ritmik olarak yanıp sönmek",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "violet",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mor (menekşe rengi)",
+   "note": null,
+   "form": null,
+   "base": "menekşe rengi, mor",
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "violet light",
+    "meaning": "mor ışık"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "violet light",
+    "meaning": "mor ışık"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (alacakaranlıkta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "twilight",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "alacakaranlık",
+   "note": null,
+   "form": null,
+   "base": "alacakaranlık",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kule)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "captivate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "büyüledi",
+   "note": null,
+   "form": "captivate + -d (geçmiş zaman)",
+   "base": "büyülemek, hayran bırakmak",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "citizen",
+   "pos": "noun",
+   "wordId": "citizen",
+   "sense": 0,
+   "context": "şehir halkı (vatandaşlar)",
+   "note": null,
+   "form": "citizen'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "Elias",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elias",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "prove",
+   "pos": "verb",
+   "wordId": "prove",
+   "sense": 0,
+   "context": "kanıtladı",
+   "note": null,
+   "form": "prove + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "architecture",
+   "pos": "noun",
+   "wordId": "architecture",
+   "sense": 0,
+   "context": "mimari",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebileceğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "catalyst",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "katalizör",
+   "note": "*catalyst* kimyada \"tepkimeyi hızlandıran madde\"dir; mecazi olarak bir değişimi \"tetikleyen, hızlandıran şey\" demektir.",
+   "form": null,
+   "base": "katalizör, tetikleyici",
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "catalyst for collective thought",
+    "meaning": "ortak düşünceye katalizör"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (-e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "catalyst for collective thought",
+    "meaning": "ortak düşünceye katalizör"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "collective",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ortak (kolektif)",
+   "note": null,
+   "form": null,
+   "base": "ortak, toplu, kolektif",
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "catalyst for collective thought",
+    "meaning": "ortak düşünceye katalizör"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "thought",
+   "pos": "noun",
+   "wordId": "thought",
+   "sense": 0,
+   "context": "düşünce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "catalyst for collective thought",
+    "meaning": "ortak düşünceye katalizör"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "blur",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bulanıklaştırarak",
+   "note": "*blur the line between A and B* \"A ile B arasındaki sınırı bulanıklaştırmak\" demektir.",
+   "form": "blur + -ing (son harf r ikilenir)",
+   "base": "bulanıklaştırmak",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(… olan)",
+   "note": "*the* + sıfat, o özelliği taşıyan şeyleri topluca anlatır: *the physical and (the) philosophical* → fiziksel olan ve felsefi olan.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "fiziksel (olan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "philosophical",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "felsefi (olan)",
+   "note": null,
+   "form": null,
+   "base": "felsefi",
+   "phrase": null
+  }
+ ]
+}

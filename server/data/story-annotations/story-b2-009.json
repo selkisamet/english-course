@@ -1,0 +1,842 @@
+{
+ "storyId": "story-b2-009",
+ "textHash": "a54d41a9f595",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Clara eskiden yoganın yalnızca esnek insanlar için olduğunu düşünürdü."
+  },
+  {
+   "tr": "Ancak bel ağrısı çektikten sonra ona yogayı denemesi tavsiye edildi."
+  },
+  {
+   "tr": "Altı aydır derslere katılıyor."
+  },
+  {
+   "tr": "Ağrısı geçmekle kalmadı, kendini çok daha sakin de hissediyor."
+  },
+  {
+   "tr": "Yoganın fiziksel esneklik kadar zihinsel güçle de ilgili olduğunu fark etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Clara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Clara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "used to",
+   "pos": "modal verb",
+   "wordId": "used-to",
+   "sense": 0,
+   "context": "eskiden -erdi",
+   "note": "*used to + fiil* geçmişte olan ama artık olmayan alışkanlık ve durumları anlatır: *She used to think…* → Eskiden … düşünürdü (artık düşünmüyor). *be used to* (-e alışkın olmak) ile karıştırılmamalıdır.",
+   "form": "used to kalıbının ilk kelimesi (used)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "used to",
+    "meaning": "eskiden -erdi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(used to: eskiden -erdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "used to",
+    "meaning": "eskiden -erdi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşünmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "yoga",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yoga",
+   "note": null,
+   "form": null,
+   "base": "yoga",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığını (olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "flexible",
+   "pos": "adjective",
+   "wordId": "flexible",
+   "sense": 0,
+   "context": "esnek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "Edattan sonra fiil *-ing* alır: *after suffering* → çektikten sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "suffer",
+   "pos": "verb",
+   "wordId": "suffer",
+   "sense": 0,
+   "context": "çekmek (acı)",
+   "note": "*suffer from* \"(bir hastalık ya da ağrıdan) muzdarip olmak, çekmek\" demektir.",
+   "form": "suffer + -ing",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "suffering from",
+    "meaning": "-den muzdarip olmak, … çekmek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "(suffer from: -den muzdarip olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "suffering from",
+    "meaning": "-den muzdarip olmak, … çekmek"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "back",
+   "pos": "noun",
+   "wordId": "back",
+   "sense": 0,
+   "context": "bel (sırt)",
+   "note": "*back* \"sırt\" demektir; *back pain* Türkçede genellikle \"bel ağrısı\" ya da \"sırt ağrısı\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "back pain",
+    "meaning": "bel ağrısı, sırt ağrısı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "ağrı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "back pain",
+    "meaning": "bel ağrısı, sırt ağrısı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (ona)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edildi)",
+   "note": "*She was advised to…* (edilgen) \"Ona … tavsiye edildi\" demektir; İngilizcede tavsiye alan kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "was advised",
+    "meaning": "tavsiye edildi (edilgen)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "advise",
+   "pos": "verb",
+   "wordId": "advise",
+   "sense": 0,
+   "context": "tavsiye edildi",
+   "note": null,
+   "form": "advise fiilinin 3. hali (advised, -d)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "was advised",
+    "meaning": "tavsiye edildi (edilgen)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesi (denemesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (yogayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır: *for six months* → altı aydır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "has been attending",
+    "meaning": "katılıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "has been attending",
+    "meaning": "katılıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "attend",
+   "pos": "verb",
+   "wordId": "attend",
+   "sense": 0,
+   "context": "katılıyor",
+   "note": "*attend* \"katılmak, devam etmek\" demektir; \"beklemek\" anlamı yoktur.",
+   "form": "attend + -ing",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "has been attending",
+    "meaning": "katılıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "dersler",
+   "note": "*class* hem \"sınıf\" hem \"ders\" demektir; burada \"ders\"tir.",
+   "form": "class'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (altı aydır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şu an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil (not only)",
+   "note": "*Not only* cümle başına gelince soru cümlesi gibi devrik yapı kurulur: *Not only has her pain disappeared…* (✗ Not only her pain has…).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "Not only",
+    "meaning": "yalnızca … değil (not only … but also …)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "Not only",
+    "meaning": "yalnızca … değil (not only … but also …)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "ağrı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "disappear",
+   "pos": "verb",
+   "wordId": "disappear",
+   "sense": 0,
+   "context": "geçti (kayboldu)",
+   "note": "*dis-* ön eki zıt anlam katar: *appear* (görünmek) → *disappear* (kaybolmak).",
+   "form": "disappear fiilinin 3. hali (disappeared, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama (aynı zamanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "but she also",
+    "meaning": "aynı zamanda … de"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "but she also",
+    "meaning": "aynı zamanda … de"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "but she also",
+    "meaning": "aynı zamanda … de"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much calmer* → çok daha sakin.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "calm",
+   "pos": "adjective",
+   "wordId": "calm",
+   "sense": 0,
+   "context": "daha sakin",
+   "note": null,
+   "form": "calm sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "realize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "yoga",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yoga",
+   "note": null,
+   "form": null,
+   "base": "yoga",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "kadar (as … as)",
+   "note": "*as much about A as about B* \"B kadar A ile de ilgili\" demektir; *as … as* iki şeyi eşit derecede karşılaştırır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "mental",
+   "pos": "adjective",
+   "wordId": "mental",
+   "sense": 0,
+   "context": "zihinsel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "strength",
+   "pos": "noun",
+   "wordId": "strength",
+   "sense": 0,
+   "context": "güç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "kadar (as … as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "as much about mental strength as",
+    "meaning": "… kadar zihinsel güçle de ilgili"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (yoga)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "fiziksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "flexibility",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "esneklik",
+   "note": "*flexibility*, *flexible* (esnek) sıfatından türeyen bir isimdir.",
+   "form": null,
+   "base": "esneklik",
+   "phrase": null
+  }
+ ]
+}

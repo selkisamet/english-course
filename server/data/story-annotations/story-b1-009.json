@@ -1,0 +1,948 @@
+{
+ "storyId": "story-b1-009",
+ "textHash": "6f7f1804e5f3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kevin'in yeni işi için bir araca ihtiyacı var."
+  },
+  {
+   "tr": "Yeni bir araba için yeterli parası yok, bu yüzden bir süredir ikinci el bir araba arıyor."
+  },
+  {
+   "tr": "İnternette mavi bir sedan buldu."
+  },
+  {
+   "tr": "Sahibi arabanın iyi durumda olduğunu söyledi."
+  },
+  {
+   "tr": "Kevin dün onu incelemeye gitti."
+  },
+  {
+   "tr": "Motorun sesi iyiydi ama lastikler eskiydi."
+  },
+  {
+   "tr": "Daha düşük bir fiyat teklif etti ve sahibi kabul etti."
+  },
+  {
+   "tr": "Kevin bu anlaşmadan memnun."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Kevin",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kevin",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacı var",
+   "note": "*need* \"ihtiyaç duymak\" demektir; Türkçede \"-e ihtiyacı var\" diye çevrilir: *Kevin needs a vehicle* → Kevin'in bir araca ihtiyacı var.",
+   "form": "need + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "vehicle",
+   "pos": "noun",
+   "wordId": "vehicle",
+   "sense": 0,
+   "context": "araç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(yok)",
+   "note": "*doesn't*, *does not*'un kısaltmasıdır; geniş zamanda 3. tekil şahıs için olumsuz cümle kurar.",
+   "form": "does + not kısaltması (doesn't)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "doesn't have",
+    "meaning": "-i yok (have'in olumsuzu)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "-i var (yok)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; olumsuz *doesn't have* Türkçede \"-i yok\" diye çevrilir: *He doesn't have money* → Parası yok.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "doesn't have",
+    "meaning": "-i yok (have'in olumsuzu)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "enough",
+   "pos": "determiner",
+   "wordId": "enough",
+   "sense": 0,
+   "context": "yeterli",
+   "note": "*enough* isimden önce gelir (*enough money*), sıfattan ise sonra gelir (*old enough*).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(araba)",
+   "note": "*one* bir ismin tekrarını önlemek için kullanılır: *a new one* (= a new vehicle) → yeni bir tane (araba).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(bir süredir)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır: *has been looking* → bir süredir arıyor.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "has been looking for",
+    "meaning": "bir süredir arıyor (look for: aramak)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "has been looking for",
+    "meaning": "bir süredir arıyor (look for: aramak)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "arıyor (look for)",
+   "note": "*look*'un temel anlamı \"bakmak\"tır; *look for* \"aramak\" demektir.",
+   "form": "look + -ing",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "has been looking for",
+    "meaning": "bir süredir arıyor (look for: aramak)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(look for: aramak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "has been looking for",
+    "meaning": "bir süredir arıyor (look for: aramak)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "used",
+   "pos": "adjective",
+   "wordId": "used",
+   "sense": 1,
+   "context": "ikinci el",
+   "note": "*used* araba ve eşyalar için \"ikinci el, kullanılmış\" demektir; *be used to* ise \"-e alışkın olmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "used car",
+    "meaning": "ikinci el araba"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "used car",
+    "meaning": "ikinci el araba"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "blue",
+   "pos": "adjective",
+   "wordId": "blue",
+   "sense": 0,
+   "context": "mavi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "sedan",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sedan",
+   "note": "*sedan* Amerikan İngilizcesidir; İngiliz İngilizcesinde *saloon* denir.",
+   "form": null,
+   "base": "sedan (dört kapılı araba)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internette",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "owner",
+   "pos": "noun",
+   "wordId": "owner",
+   "sense": 0,
+   "context": "sahibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (araba)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığını (olduğunu)",
+   "note": "Aktarılan cümlelerde zaman bir geriye kayar: *\"It is in good condition\"* → *He said it was in good condition*.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (durumda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "in good condition",
+    "meaning": "iyi durumda"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "in good condition",
+    "meaning": "iyi durumda"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "durum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "in good condition",
+    "meaning": "iyi durumda"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "Kevin",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kevin",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (amaç)",
+   "note": "*go to + fiil* \"… -meye gitmek\" demektir; *to* burada amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "inspect",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "incelemek",
+   "note": null,
+   "form": null,
+   "base": "incelemek, denetlemek",
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "engine",
+   "pos": "noun",
+   "wordId": "engine",
+   "sense": 0,
+   "context": "motor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "sound",
+   "pos": "verb",
+   "wordId": "sound",
+   "sense": 1,
+   "context": "sesi … geliyordu",
+   "note": "*sound* + sıfat \"kulağa … gelmek, sesi … olmak\" demektir: *The engine sounded good* → Motorun sesi iyiydi.",
+   "form": "sound + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "sounded good",
+    "meaning": "kulağa iyi geliyordu (sesi iyiydi)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "sounded good",
+    "meaning": "kulağa iyi geliyordu (sesi iyiydi)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "tire",
+   "pos": "noun",
+   "wordId": "tyre",
+   "sense": 0,
+   "context": "lastikler",
+   "note": "*tire* Amerikan yazımıdır; İngiliz İngilizcesinde *tyre* yazılır. (*tire* fiil olarak \"yorulmak\" da demektir.)",
+   "form": "tire'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": "*old* insanlar için \"yaşlı\", eşyalar için \"eski\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif etti",
+   "note": null,
+   "form": "offer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "low",
+   "pos": "adjective",
+   "wordId": "low",
+   "sense": 0,
+   "context": "daha düşük",
+   "note": "*lower* burada *low* sıfatının karşılaştırma halidir; *lower* ayrıca \"indirmek, düşürmek\" anlamında bir fiildir.",
+   "form": "low sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "fiyat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "owner",
+   "pos": "noun",
+   "wordId": "owner",
+   "sense": 0,
+   "context": "sahibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "kabul etti",
+   "note": "*agree*'nin temel anlamı \"aynı fikirde olmak\"tır; bir teklif için \"kabul etmek\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "Kevin",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kevin",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "satisfied",
+   "pos": "adjective",
+   "wordId": "satisfied",
+   "sense": 0,
+   "context": "memnun",
+   "note": "*be satisfied with* \"-den memnun olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "satisfied with",
+    "meaning": "-den memnun"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-den (anlaşmadan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "satisfied with",
+    "meaning": "-den memnun"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(bu)",
+   "note": "Burada *the*, daha önce anlatılan anlaşmayı işaret eder (\"bu anlaşma\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "deal",
+   "pos": "noun",
+   "wordId": "deal",
+   "sense": 1,
+   "context": "anlaşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

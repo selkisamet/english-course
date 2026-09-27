@@ -1,0 +1,733 @@
+{
+ "storyId": "story-a2-009",
+ "textHash": "3176eb7313c2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen pazar bir piknik düzenledik."
+  },
+  {
+   "tr": "Hava tahmini güneşli olacağını söylüyordu."
+  },
+  {
+   "tr": "Arabayla ormana gittik ve yemeye başladık."
+  },
+  {
+   "tr": "Birden kara bulutlar belirdi ve şiddetli yağmur yağdı."
+  },
+  {
+   "tr": "Hızla arabaya koştuk."
+  },
+  {
+   "tr": "Sırılsıklam olmuştuk."
+  },
+  {
+   "tr": "Sandviçlerimizi aracın içinde yedik."
+  },
+  {
+   "tr": "Aslında pikniklerin yeri güneşli günlerdir ama bu piknik çok eğlenceliydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* zaman ifadelerinde \"geçen\" demektir: *last Sunday* → geçen pazar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Sunday",
+    "meaning": "geçen pazar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Sunday",
+   "pos": "noun",
+   "wordId": "sunday",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Sunday",
+    "meaning": "geçen pazar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "organize",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenledik",
+   "note": "*organize* Amerikan yazımıdır; İngiliz İngilizcesinde *organise* de yazılır.",
+   "form": "organize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "picnic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "piknik",
+   "note": null,
+   "form": null,
+   "base": "piknik",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "weather forecast",
+    "meaning": "hava tahmini"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "forecast",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tahmin",
+   "note": "*weather forecast* \"hava tahmini, hava durumu raporu\" demektir.",
+   "form": null,
+   "base": "tahmin (özellikle hava tahmini)",
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "weather forecast",
+    "meaning": "hava tahmini"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "predict",
+   "pos": "verb",
+   "wordId": "predict",
+   "sense": 0,
+   "context": "öngördü (söylüyordu)",
+   "note": null,
+   "form": "predict + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "sun",
+   "pos": "noun",
+   "wordId": "sun",
+   "sense": 0,
+   "context": "güneş (güneşli hava)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "drive",
+   "pos": "verb",
+   "wordId": "drive",
+   "sense": 0,
+   "context": "arabayla gittik",
+   "note": "*drive to* bir yere \"arabayla gitmek\" demektir.",
+   "form": "drive fiilinin geçmiş zaman hali (drove, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (ormana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "forest",
+   "pos": "noun",
+   "wordId": "forest",
+   "sense": 0,
+   "context": "orman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladık",
+   "note": "*start* + *-ing*'li fiil \"… -meye başlamak\" demektir: *started eating* → yemeye başladık.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "started eating",
+    "meaning": "yemeye başladık"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": "eat + -ing",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "started eating",
+    "meaning": "yemeye başladık"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "suddenly",
+   "pos": "adverb",
+   "wordId": "suddenly",
+   "sense": 0,
+   "context": "birden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "kara (koyu)",
+   "note": "*dark* \"karanlık; koyu\" demektir; *dark clouds* → kara bulutlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "cloud",
+   "pos": "noun",
+   "wordId": "cloud",
+   "sense": 0,
+   "context": "bulutlar",
+   "note": null,
+   "form": "cloud'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "belirdi",
+   "note": null,
+   "form": "appear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır; Türkçede karşılığı yoktur: *It rained* → Yağmur yağdı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağdı",
+   "note": null,
+   "form": "rain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "rained heavily",
+    "meaning": "şiddetli yağmur yağdı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "heavily",
+   "pos": "adverb",
+   "wordId": "heavily",
+   "sense": 0,
+   "context": "şiddetle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "rained heavily",
+    "meaning": "şiddetli yağmur yağdı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştuk",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (arabaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hızla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dık (olmuştuk)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "completely",
+   "pos": "adverb",
+   "wordId": "completely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": "*completely wet* \"tamamen ıslak\" demektir; Türkçede \"sırılsıklam\" diyebiliriz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "wet",
+   "pos": "adjective",
+   "wordId": "wet",
+   "sense": 0,
+   "context": "ıslak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yedik",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "sandwich",
+   "pos": "noun",
+   "wordId": "sandwich",
+   "sense": 0,
+   "context": "sandviçler",
+   "note": null,
+   "form": "sandwich'in çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "inside",
+   "pos": "preposition",
+   "wordId": "inside",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "vehicle",
+   "pos": "noun",
+   "wordId": "vehicle",
+   "sense": 0,
+   "context": "araç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "ideally",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "ideal olarak (aslında)",
+   "note": "*ideally*, *ideal* sıfatından *-ly* ekiyle türeyen bir zarftır ve \"en uygunu, ideal olan\" anlamı verir.",
+   "form": null,
+   "base": "ideal olarak, en iyisi",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "picnic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "piknikler",
+   "note": null,
+   "form": "picnic'in çoğulu",
+   "base": "piknik",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "sunny",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "güneşli",
+   "note": null,
+   "form": null,
+   "base": "güneşli",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "günler",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(bu piknik)",
+   "note": "*one* bir ismin tekrarını önlemek için kullanılır: *this one* (= this picnic) → bu (piknik).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "funny",
+   "pos": "adjective",
+   "wordId": "funny",
+   "sense": 0,
+   "context": "eğlenceli, komik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

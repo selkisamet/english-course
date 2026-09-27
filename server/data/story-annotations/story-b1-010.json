@@ -1,0 +1,844 @@
+{
+ "storyId": "story-b1-010",
+ "textHash": "253d33a7dafe",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Maria haftalardır final biyoloji sınavına çalışıyor."
+  },
+  {
+   "tr": "Ders kitabını iki kez okudu ve birçok tekrar kartı hazırladı."
+  },
+  {
+   "tr": "Yorgun ve stresli hissediyor."
+  },
+  {
+   "tr": "Annesi ona ara verip uyumasını tavsiye etti."
+  },
+  {
+   "tr": "Maria annesinin haklı olduğunu biliyor."
+  },
+  {
+   "tr": "Uyumazsa yarın odaklanamayacak."
+  },
+  {
+   "tr": "Bu akşam rahatlamak için film izlemeyi planlıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Maria",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Maria",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır: *has been studying for weeks* → haftalardır çalışıyor.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been studying",
+    "meaning": "çalışıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been studying",
+    "meaning": "çalışıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "çalışıyor (ders)",
+   "note": "*study for an exam* \"sınava çalışmak\" demektir.",
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has been studying",
+    "meaning": "çalışıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (sınavına)",
+   "note": "Burada *for* amaç bildirir (\"sınav için\"); cümledeki ikinci *for* (*for weeks*) ise süre bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "final",
+   "pos": "adjective",
+   "wordId": "final",
+   "sense": 0,
+   "context": "final (son)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "biology",
+   "pos": "noun",
+   "wordId": "biology",
+   "sense": 0,
+   "context": "biyoloji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "exam",
+   "pos": "noun",
+   "wordId": "exam",
+   "sense": 0,
+   "context": "sınav",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (haftalardır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" ekine karşılık gelir: *for weeks* → haftalardır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "for weeks",
+    "meaning": "haftalardır"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "haftalar",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "for weeks",
+    "meaning": "haftalardır"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) sonucu şimdi önemli olan geçmiş eylemleri anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": "*read* fiilinin 2. ve 3. halleri de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin 3. hali (read, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "textbook",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ders kitabı",
+   "note": null,
+   "form": null,
+   "base": "ders kitabı",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "twice",
+   "pos": "adverb",
+   "wordId": "twice",
+   "sense": 0,
+   "context": "iki kez",
+   "note": "*twice* \"iki kez\" demektir; *once* \"bir kez\", üç ve sonrası için *three times* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "prepare",
+   "pos": "verb",
+   "wordId": "prepare",
+   "sense": 0,
+   "context": "hazırladı",
+   "note": null,
+   "form": "prepare fiilinin 3. hali (prepared, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "revision",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tekrar (sınav öncesi)",
+   "note": "*revision* İngiliz İngilizcesinde sınava hazırlık için yapılan \"tekrar\" demektir; ayrıca \"düzeltme, gözden geçirme\" anlamı vardır.",
+   "form": null,
+   "base": "gözden geçirme; (sınav için) tekrar",
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "revision cards",
+    "meaning": "tekrar kartları"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "card",
+   "pos": "noun",
+   "wordId": "card",
+   "sense": 0,
+   "context": "kartlar",
+   "note": null,
+   "form": "card'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "revision cards",
+    "meaning": "tekrar kartları"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "tired",
+   "pos": "adjective",
+   "wordId": "tired",
+   "sense": 0,
+   "context": "yorgun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "stressed",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "stresli",
+   "note": "*stressed* kişinin hissini anlatır (\"stresli, gergin\"); *stressful* ise stres veren şeyi anlatır (\"stresli bir iş\").",
+   "form": null,
+   "base": "stresli, gergin",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (annesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "advise",
+   "pos": "verb",
+   "wordId": "advise",
+   "sense": 0,
+   "context": "tavsiye etti",
+   "note": "*advise someone to + fiil* \"birine … yapmasını tavsiye etmek\" demektir. İsmi *advice*'tır (c ile).",
+   "form": "advise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini (vermesini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "vermek (ara)",
+   "note": "*take a break* \"ara vermek, mola vermek\" demektir; *take* burada \"almak\" anlamında değildir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "take a break",
+    "meaning": "ara vermek, mola vermek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "take a break",
+    "meaning": "ara vermek, mola vermek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "break",
+   "pos": "noun",
+   "wordId": "break",
+   "sense": 1,
+   "context": "ara, mola",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "take a break",
+    "meaning": "ara vermek, mola vermek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak (uyumasını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "Maria",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Maria",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "biliyor",
+   "note": null,
+   "form": "know + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (annesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dığını (olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "right",
+   "pos": "adjective",
+   "wordId": "right",
+   "sense": 0,
+   "context": "haklı",
+   "note": "*right*'ın temel anlamı \"doğru; sağ\"dır; kişiler için *be right* \"haklı olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-se (uyumazsa)",
+   "note": "*if* + geniş zaman, *will* + fiil (1. tip koşul) gerçekleşmesi olası bir koşulu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-maz)",
+   "note": "*doesn't*, *does not*'un kısaltmasıdır.",
+   "form": "does + not kısaltması (doesn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "-meyecek",
+   "note": "*won't*, *will not*'ın kısaltmasıdır.",
+   "form": "will + not kısaltması (won't)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "won't be able to",
+    "meaning": "-emeyecek (be able to: -ebilmek)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak (be able to)",
+   "note": "*be able to + fiil* \"-ebilmek\" demektir; *can*'in gelecek zamanda kullanılabilen karşılığıdır: *won't be able to* → -emeyecek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "won't be able to",
+    "meaning": "-emeyecek (be able to: -ebilmek)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "able",
+   "pos": "adjective",
+   "wordId": "able",
+   "sense": 0,
+   "context": "-ebilen (be able to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "won't be able to",
+    "meaning": "-emeyecek (be able to: -ebilmek)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(be able to: -ebilmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "won't be able to",
+    "meaning": "-emeyecek (be able to: -ebilmek)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "concentrate",
+   "pos": "verb",
+   "wordId": "concentrate",
+   "sense": 0,
+   "context": "odaklanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "tomorrow",
+   "pos": "adverb",
+   "wordId": "tomorrow",
+   "sense": 0,
+   "context": "yarın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "plan",
+   "pos": "verb",
+   "wordId": "plan",
+   "sense": 1,
+   "context": "planlıyor",
+   "note": "*plan to + fiil* \"… -meyi planlamak\" demektir.",
+   "form": "plan + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (izlemeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "movie",
+   "pos": "noun",
+   "wordId": "movie",
+   "sense": 0,
+   "context": "film",
+   "note": "*movie* Amerikan İngilizcesidir; İngiliz İngilizcesinde *film* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "tonight",
+   "pos": "adverb",
+   "wordId": "tonight",
+   "sense": 0,
+   "context": "bu akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (rahatlamak için)",
+   "note": "Cümle sonundaki *to + fiil* amaç bildirir ve \"… -mek için\" diye çevrilir: *to relax* → rahatlamak için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "relax",
+   "pos": "verb",
+   "wordId": "relax",
+   "sense": 0,
+   "context": "rahatlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,828 @@
+{
+ "storyId": "story-a1-006",
+ "textHash": "8a34b8795405",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Resim yapmayı severim."
+  },
+  {
+   "tr": "En sevdiğim etkinlik bu."
+  },
+  {
+   "tr": "Birçok rengim var: kırmızı, mavi, yeşil ve sarı."
+  },
+  {
+   "tr": "Hafta sonları resim yaparım."
+  },
+  {
+   "tr": "Genellikle çiçek ve ağaç resimleri yaparım."
+  },
+  {
+   "tr": "Bazen hayvan resmi yaparım."
+  },
+  {
+   "tr": "Odam resimlerimle dolu."
+  },
+  {
+   "tr": "Annem \"Sen iyi bir ressamsın.\" der."
+  },
+  {
+   "tr": "Bu beni mutlu hissettirir."
+  },
+  {
+   "tr": "Gelecekte ünlü olmak istiyorum."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "severim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "resim yapmak",
+   "note": "*like*'tan sonra gelen *-ing*'li fiil bir etkinliği anlatır: *I like painting* → Resim yapmayı severim.",
+   "form": "paint + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "favorite",
+   "pos": "adjective",
+   "wordId": "favourite",
+   "sense": 0,
+   "context": "en sevdiğim",
+   "note": "*favorite* Amerikan İngilizcesi yazımıdır; İngiliz İngilizcesinde *favourite* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "activity",
+   "pos": "noun",
+   "wordId": "activity",
+   "sense": 0,
+   "context": "etkinlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (rengim var)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; Türkçede \"-(i)m var\" yapısıyla söylenir: *I have many colors* → Birçok reng**im var**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "color",
+   "pos": "noun",
+   "wordId": "colour",
+   "sense": 0,
+   "context": "renkler",
+   "note": "*color* Amerikan yazımıdır; İngiliz İngilizcesinde *colour* yazılır.",
+   "form": "color'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "red",
+   "pos": "noun",
+   "wordId": "red",
+   "sense": 1,
+   "context": "kırmızı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "blue",
+   "pos": "noun",
+   "wordId": "blue",
+   "sense": 1,
+   "context": "mavi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "green",
+   "pos": "noun",
+   "wordId": "green",
+   "sense": 1,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "yellow",
+   "pos": "noun",
+   "wordId": "yellow",
+   "sense": 1,
+   "context": "sarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resim yaparım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (hafta sonları)",
+   "note": "Günlerden ve hafta sonundan önce *on* kullanılır: *on Monday, on the weekends*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonları",
+   "note": null,
+   "form": "weekend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "usually",
+   "pos": "adverb",
+   "wordId": "usually",
+   "sense": 0,
+   "context": "genellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "yaparım (resim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "picture",
+   "pos": "noun",
+   "wordId": "picture",
+   "sense": 0,
+   "context": "resimler",
+   "note": null,
+   "form": "picture'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… resimleri)",
+   "note": "*pictures of flowers* \"çiçek resimleri\" demektir; *of* burada neyin resmi olduğunu gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "flower",
+   "pos": "noun",
+   "wordId": "flower",
+   "sense": 0,
+   "context": "çiçekler",
+   "note": null,
+   "form": "flower'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaçlar",
+   "note": null,
+   "form": "tree'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resmini yaparım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (odam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "dolu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "full of",
+    "meaning": "ile dolu"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "ile (full of: ile dolu)",
+   "note": "*full of* \"… ile dolu\" anlamında bir kalıptır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "full of",
+    "meaning": "ile dolu"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "art",
+   "pos": "noun",
+   "wordId": "art",
+   "sense": 0,
+   "context": "sanat (resimlerim)",
+   "note": "*art* \"sanat\" demektir; burada kişinin yaptığı sanat eserlerini, yani resimlerini anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (annem)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "der",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "you",
+   "pos": "pronoun",
+   "wordId": "you",
+   "sense": 0,
+   "context": "sen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-sın)",
+   "note": null,
+   "form": "be fiilinin 2. şahıs, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "artist",
+   "pos": "noun",
+   "wordId": "artist",
+   "sense": 0,
+   "context": "ressam (sanatçı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "-dırır (hissettirir)",
+   "note": "*make someone feel* \"birine … hissettirmek\" demektir; *make* burada \"yaptırmak, -dırmak\" anlamı taşır.",
+   "form": "make + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "makes me feel happy",
+    "meaning": "beni mutlu hissettirir"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "beni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "makes me feel happy",
+    "meaning": "beni mutlu hissettirir"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "makes me feel happy",
+    "meaning": "beni mutlu hissettirir"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "makes me feel happy",
+    "meaning": "beni mutlu hissettirir"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyorum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mak (olmak)",
+   "note": "*want to + fiil* \"… -mak istemek\" demektir; *to* fiili mastar yapar: *to be* → olmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "famous",
+   "pos": "adjective",
+   "wordId": "famous",
+   "sense": 0,
+   "context": "ünlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (gelecekte)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "in the future",
+    "meaning": "gelecekte"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "in the future",
+    "meaning": "gelecekte"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "future",
+   "pos": "noun",
+   "wordId": "future",
+   "sense": 0,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "in the future",
+    "meaning": "gelecekte"
+   }
+  }
+ ]
+}

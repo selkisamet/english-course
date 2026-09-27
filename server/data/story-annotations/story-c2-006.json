@@ -1,0 +1,931 @@
+{
+ "storyId": "story-c2-006",
+ "textHash": "5ad9277557d7",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dijital çağda Platon'un mağara alegorisi ürkütücü bir doğrulukla yankı buluyor."
+  },
+  {
+   "tr": "Bizi zincirler değil, gerçekliğimizi seçip düzenleyen algoritmalar tutsak ediyor."
+  },
+  {
+   "tr": "Duvardaki gölgelerin yerini ekrandaki pikseller aldı."
+  },
+  {
+   "tr": "Dışarı adım atıp gerçeğin göz kamaştıran ışığına tanık olmak, pek az kişinin sahip olduğu bir entelektüel cesaret gerektirir; çoğu kişi kendi yankı odasının rahat güvenliğini tercih eder."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (çağda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "a digital age",
+    "meaning": "dijital çağ"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "digital",
+   "pos": "adjective",
+   "wordId": "digital",
+   "sense": 0,
+   "context": "dijital",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "a digital age",
+    "meaning": "dijital çağ"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "çağ",
+   "note": "*age*'in temel anlamı \"yaş\"tır; tarihte bir dönemi anlatırken \"çağ\" demektir: *the digital age* → dijital çağ.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "a digital age",
+    "meaning": "dijital çağ"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "Plato",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Platon'un",
+   "note": "Antik Yunan filozofu *Plato*, Türkçede \"Platon\" ya da \"Eflatun\" diye bilinir.",
+   "form": "Plato + 's (aitlik eki)",
+   "base": "(Antik Yunan filozofu Platon)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "allegory",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "alegori",
+   "note": "*allegory* soyut bir fikri somut bir hikâyeyle anlatan edebî anlatımdır.",
+   "form": null,
+   "base": "alegori, simgesel anlatım",
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "allegory of the cave",
+    "meaning": "mağara alegorisi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… alegorisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "allegory of the cave",
+    "meaning": "mağara alegorisi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "allegory of the cave",
+    "meaning": "mağara alegorisi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "cave",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mağara",
+   "note": null,
+   "form": null,
+   "base": "mağara",
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "allegory of the cave",
+    "meaning": "mağara alegorisi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "resonate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yankı buluyor",
+   "note": "*resonate with* mecazi olarak \"… ile yankı bulmak, … için anlam taşımak\" demektir.",
+   "form": "resonate + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "yankılanmak; yankı bulmak",
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "resonates with",
+    "meaning": "ile yankı bulur"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "resonates with",
+    "meaning": "ile yankı bulur"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "terrifying",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ürkütücü",
+   "note": "*-ing*'li sıfatlar bir şeyin etkisini anlatır (*terrifying*: dehşet verici); kişinin hissi *terrified*'dır (dehşete düşmüş).",
+   "form": null,
+   "base": "dehşet verici, ürkütücü",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "accuracy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doğruluk (isabet)",
+   "note": null,
+   "form": null,
+   "base": "doğruluk, kesinlik, isabet",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz (bizi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*are + fiilin 3. hali* geniş zamanda edilgen yapı kurar: *We are held* → Tutuluyoruz.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "tutsak ediliyoruz (tutuluyoruz)",
+   "note": null,
+   "form": "hold fiilinin 3. hali (held, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not by A but by B* \"A tarafından değil, B tarafından\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "not by chains, but by algorithms",
+    "meaning": "zincirlerle değil, algoritmalarla (not A but B)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (-le)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "not by chains, but by algorithms",
+    "meaning": "zincirlerle değil, algoritmalarla (not A but B)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "chain",
+   "pos": "noun",
+   "wordId": "chain",
+   "sense": 0,
+   "context": "zincirler",
+   "note": null,
+   "form": "chain'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "not by chains, but by algorithms",
+    "meaning": "zincirlerle değil, algoritmalarla (not A but B)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), …",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "not by chains, but by algorithms",
+    "meaning": "zincirlerle değil, algoritmalarla (not A but B)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (-le)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "not by chains, but by algorithms",
+    "meaning": "zincirlerle değil, algoritmalarla (not A but B)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "algorithm",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "algoritmalar",
+   "note": null,
+   "form": "algorithm'in çoğulu",
+   "base": "algoritma",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-en (düzenleyen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "curate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "seçip düzenleyen",
+   "note": "*curate* aslında müzede eserleri \"seçip düzenlemek\" demektir; dijital dünyada içerikleri bizim için seçmeyi anlatır.",
+   "form": null,
+   "base": "(içerik) seçip düzenlemek, küratörlük yapmak",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "reality",
+   "pos": "noun",
+   "wordId": "reality",
+   "sense": 0,
+   "context": "gerçeklik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "shadow",
+   "pos": "noun",
+   "wordId": "shadow",
+   "sense": 0,
+   "context": "gölgeler",
+   "note": null,
+   "form": "shadow'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-deki (duvardaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*have been + fiilin 3. hali* edilgen present perfect yapıdır: *have been replaced by* → yerini … aldı.",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "have been replaced by",
+    "meaning": "yerini … aldı (edilgen present perfect)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "have been replaced by",
+    "meaning": "yerini … aldı (edilgen present perfect)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "yerini aldı",
+   "note": "*be replaced by* \"yerini … -e bırakmak\" demektir: *The shadows have been replaced by pixels* → Gölgelerin yerini pikseller aldı.",
+   "form": "replace fiilinin 3. hali (replaced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "have been replaced by",
+    "meaning": "yerini … aldı (edilgen present perfect)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "have been replaced by",
+    "meaning": "yerini … aldı (edilgen present perfect)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "pixel",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "pikseller",
+   "note": null,
+   "form": "pixel'in çoğulu",
+   "base": "piksel",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-deki (ekrandaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "screen",
+   "pos": "noun",
+   "wordId": "screen",
+   "sense": 0,
+   "context": "ekran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (atmak)",
+   "note": "Cümle başındaki *to + fiil* özne olarak kullanılabilir: *To step outside … requires courage* → Dışarı adım atmak cesaret gerektirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "To step outside",
+    "meaning": "dışarı adım atmak (özne olarak mastar)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "step",
+   "pos": "verb",
+   "wordId": "step",
+   "sense": 1,
+   "context": "adım atmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "To step outside",
+    "meaning": "dışarı adım atmak (özne olarak mastar)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "outside",
+   "pos": "adverb",
+   "wordId": "outside",
+   "sense": 0,
+   "context": "dışarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "To step outside",
+    "meaning": "dışarı adım atmak (özne olarak mastar)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ıp)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "witness",
+   "pos": "verb",
+   "wordId": "witness",
+   "sense": 1,
+   "context": "tanık olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "blinding",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "göz kamaştıran",
+   "note": "*blinding*, *blind* (kör) kelimesinden türer ve \"kör edici, göz kamaştırıcı\" demektir.",
+   "form": null,
+   "base": "kör edici, göz kamaştırıcı",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (gerçeğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "truth",
+   "pos": "noun",
+   "wordId": "truth",
+   "sense": 0,
+   "context": "gerçek (hakikat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "require",
+   "pos": "verb",
+   "wordId": "require",
+   "sense": 0,
+   "context": "gerektirir",
+   "note": null,
+   "form": "require + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an intellectual*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "intellectual",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "entelektüel (düşünsel)",
+   "note": null,
+   "form": null,
+   "base": "entelektüel, zihinsel, düşünsel",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "courage",
+   "pos": "noun",
+   "wordId": "courage",
+   "sense": 0,
+   "context": "cesaret",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-dığı (sahip olduğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "that few possess",
+    "meaning": "pek az kişinin sahip olduğu"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "few",
+   "pos": "pronoun",
+   "wordId": "few",
+   "sense": 2,
+   "context": "pek az kişi",
+   "note": "*few* (a olmadan) \"çok az (kişi)\" demektir ve olumsuz bir anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "that few possess",
+    "meaning": "pek az kişinin sahip olduğu"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "possess",
+   "pos": "verb",
+   "wordId": "possess",
+   "sense": 0,
+   "context": "sahip olmak",
+   "note": "*possess* \"sahip olmak\" demektir ve *have*'den daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "that few possess",
+    "meaning": "pek az kişinin sahip olduğu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "prefer",
+   "pos": "verb",
+   "wordId": "prefer",
+   "sense": 0,
+   "context": "tercih ederek",
+   "note": "Cümle sonundaki *-ing*'li yapı önceki ifadeyi açıklar: *…, preferring the comfortable safety…* → … (onlar ise) rahat güvenliği tercih ederler.",
+   "form": "prefer + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "rahat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "safety",
+   "pos": "noun",
+   "wordId": "safety",
+   "sense": 0,
+   "context": "güvenlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (odasının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*their own* \"kendi, kendilerine ait\" demektir ve sahipliği vurgular.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "echo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yankı",
+   "note": "*echo chamber* \"yankı odası\" demektir; insanın yalnızca kendi görüşlerini tekrar tekrar duyduğu ortamı anlatır.",
+   "form": null,
+   "base": "yankı",
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "echo chamber",
+    "meaning": "yankı odası (yalnızca kendi görüşünü duyduğun ortam)"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "chamber",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": "oda, hazne",
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "echo chamber",
+    "meaning": "yankı odası (yalnızca kendi görüşünü duyduğun ortam)"
+   }
+  }
+ ]
+}

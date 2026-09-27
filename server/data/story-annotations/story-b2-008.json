@@ -1,0 +1,834 @@
+{
+ "storyId": "story-b2-008",
+ "textHash": "4ea6ef6d7f96",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün iki departman arasında ciddi bir yanlış anlaşılma yaşandı."
+  },
+  {
+   "tr": "Pazarlama ekibi, tasarım ekibinin broşürleri tamamladığını sanıyordu ama tamamlamamışlardı."
+  },
+  {
+   "tr": "Bu da lansmanda gecikmeye yol açtı."
+  },
+  {
+   "tr": "Sorunu çözmek için bir toplantı yapıldı."
+  },
+  {
+   "tr": "Bir e-postanın yanlış adrese gönderildiği ortaya çıktı."
+  },
+  {
+   "tr": "Gelecekte hata olmaması için iletişim kanallarını iyileştirmeye karar verdiler."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "serious",
+   "pos": "adjective",
+   "wordId": "serious",
+   "sense": 0,
+   "context": "ciddi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "misunderstanding",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yanlış anlaşılma",
+   "note": "*mis-* ön eki \"yanlış\" anlamı katar: *understand* (anlamak) → *misunderstand* (yanlış anlamak) → *misunderstanding* (yanlış anlaşılma).",
+   "form": null,
+   "base": "yanlış anlaşılma",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "occur",
+   "pos": "verb",
+   "wordId": "occur",
+   "sense": 0,
+   "context": "yaşandı (meydana geldi)",
+   "note": "*occur* \"meydana gelmek, olmak\" demektir; *happen*'dan daha resmîdir.",
+   "form": "occur + -ed (geçmiş zaman; son harf r ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": "*between* iki şey arasında kullanılır; ikiden fazla şey için *among* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "department",
+   "pos": "noun",
+   "wordId": "department",
+   "sense": 0,
+   "context": "departman",
+   "note": null,
+   "form": "department'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "marketing",
+   "pos": "noun",
+   "wordId": "marketing",
+   "sense": 0,
+   "context": "pazarlama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "marketing team",
+    "meaning": "pazarlama ekibi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "marketing team",
+    "meaning": "pazarlama ekibi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "sanıyordu",
+   "note": "*think*'in temel anlamı \"düşünmek\"tir; bir inanç için \"sanmak, zannetmek\" demektir.",
+   "form": "think fiilinin geçmiş zaman hali (thought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "design",
+   "pos": "noun",
+   "wordId": "design",
+   "sense": 0,
+   "context": "tasarım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "design team",
+    "meaning": "tasarım ekibi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "design team",
+    "meaning": "tasarım ekibi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir andan daha önce olan (ya da olduğu sanılan) eylemi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "had finalized",
+    "meaning": "tamamlamıştı (past perfect)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "finalize",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "tamamlamış",
+   "note": "*finalize*, *final* (son) kelimesinden türeyen bir fiildir: \"son hâline getirmek\".",
+   "form": "finalize fiilinin 3. hali (finalized, -d)",
+   "base": "son hâline getirmek, tamamlamak",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "had finalized",
+    "meaning": "tamamlamıştı (past perfect)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "brochure",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "broşürler",
+   "note": null,
+   "form": "brochure'ün çoğulu",
+   "base": "broşür",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(tamamlamamışlardı)",
+   "note": "*hadn't*, *had not*'un kısaltmasıdır; tekrar etmemek için ana fiil (*finalized*) atlanmıştır.",
+   "form": "had + not kısaltması (hadn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "cause",
+   "pos": "verb",
+   "wordId": "cause",
+   "sense": 1,
+   "context": "yol açtı",
+   "note": null,
+   "form": "cause + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "delay",
+   "pos": "noun",
+   "wordId": "delay",
+   "sense": 1,
+   "context": "gecikme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (lansmanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "launch",
+   "pos": "noun",
+   "wordId": "launch",
+   "sense": 1,
+   "context": "lansman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "meeting",
+   "pos": "noun",
+   "wordId": "meeting",
+   "sense": 0,
+   "context": "toplantı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*was/were + fiilin 3. hali* geçmiş zamanda edilgen yapı kurar: *was held* → yapıldı.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "was held",
+    "meaning": "yapıldı, düzenlendi (hold a meeting)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "yapıldı (düzenlendi)",
+   "note": "*hold*'un temel anlamı \"tutmak\"tır; toplantı ve etkinlik için \"yapmak, düzenlemek\" demektir.",
+   "form": "hold fiilinin 3. hali (held, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "was held",
+    "meaning": "yapıldı, düzenlendi (hold a meeting)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (çözmek için)",
+   "note": "*to + fiil* burada amaç bildirir ve \"… -mek için\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "resolve",
+   "pos": "verb",
+   "wordId": "resolve",
+   "sense": 0,
+   "context": "çözmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "issue",
+   "pos": "noun",
+   "wordId": "issue",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It turned out that…* yapısında *it* sonraki cümlenin yerini tutar; Türkçede karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "(turn out: ortaya çıkmak)",
+   "note": "*turn*'ün temel anlamı \"dönmek\"tir; *turn out* ise \"… olduğu ortaya çıkmak, anlaşılmak\" demektir.",
+   "form": "turn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "turned out",
+    "meaning": "ortaya çıktı (turn out: … olduğu anlaşılmak)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(turn out: ortaya çıkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "turned out",
+    "meaning": "ortaya çıktı (turn out: … olduğu anlaşılmak)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığı (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an email*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "email",
+   "pos": "noun",
+   "wordId": "email",
+   "sense": 0,
+   "context": "e-posta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been + fiilin 3. hali* past perfect edilgen yapıdır: *had been sent* → gönderilmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (edilgen past perfect)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (edilgen past perfect)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderilmiş",
+   "note": null,
+   "form": "send fiilinin 3. hali (sent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (edilgen past perfect)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (adrese)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "wrong",
+   "pos": "adjective",
+   "wordId": "wrong",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "address",
+   "pos": "noun",
+   "wordId": "address",
+   "sense": 0,
+   "context": "adres",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "karar verdiler (anlaştılar)",
+   "note": "*agree to + fiil* \"… -mekte anlaşmak, … -meyi kabul etmek\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (iyileştirmeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "iyileştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "communication",
+   "pos": "noun",
+   "wordId": "communication",
+   "sense": 0,
+   "context": "iletişim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "communication channels",
+    "meaning": "iletişim kanalları"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "channel",
+   "pos": "noun",
+   "wordId": "channel",
+   "sense": 0,
+   "context": "kanallar",
+   "note": null,
+   "form": "channel'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "communication channels",
+    "meaning": "iletişim kanalları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (amaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "avoid",
+   "pos": "verb",
+   "wordId": "avoid",
+   "sense": 0,
+   "context": "önlemek (kaçınmak)",
+   "note": "*avoid*'in temel anlamı \"kaçınmak\"tır; hatalar için \"önlemek, olmasını engellemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "future",
+   "pos": "adjective",
+   "wordId": "future",
+   "sense": 1,
+   "context": "gelecekteki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "error",
+   "pos": "noun",
+   "wordId": "error",
+   "sense": 0,
+   "context": "hatalar",
+   "note": null,
+   "form": "error'ın çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

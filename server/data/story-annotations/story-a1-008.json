@@ -1,0 +1,835 @@
+{
+ "storyId": "story-a1-008",
+ "textHash": "3262ef5fbe7a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Londra'da yaşıyorum."
+  },
+  {
+   "tr": "Kışın hava soğuk."
+  },
+  {
+   "tr": "Sık sık yağmur yağar."
+  },
+  {
+   "tr": "Bazen kar yağar."
+  },
+  {
+   "tr": "Kar yağınca şehir beyaz ve güzel görünür."
+  },
+  {
+   "tr": "İnsanlar sıcak tutan montlar ve şapkalar giyer."
+  },
+  {
+   "tr": "Kışın sıcak içecekler içmeyi severim."
+  },
+  {
+   "tr": "Evde kalıp film izlerim."
+  },
+  {
+   "tr": "Günler kısa, geceler uzundur."
+  },
+  {
+   "tr": "Karı yağmura tercih ederim."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyorum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Londra'da)",
+   "note": "Şehir ve ülkelerden önce *in* kullanılır: *in London* → Londra'**da**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "London",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Londra",
+   "note": null,
+   "form": null,
+   "base": "(İngiltere'nin başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kışın)",
+   "note": "Mevsimlerden önce *in* kullanılır: *in (the) winter* → kışın.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "In the winter",
+    "meaning": "kışın"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "In the winter",
+    "meaning": "kışın"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "In the winter",
+    "meaning": "kışın"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "cold",
+   "pos": "adjective",
+   "wordId": "cold",
+   "sense": 0,
+   "context": "soğuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır; Türkçede karşılığı yoktur: *It rains* → Yağmur yağar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağar",
+   "note": "*rain* fiil olarak tek başına \"yağmur yağmak\" demektir.",
+   "form": "rain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "snow",
+   "pos": "noun",
+   "wordId": "snow",
+   "sense": 0,
+   "context": "kar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "fall",
+   "pos": "verb",
+   "wordId": "fall",
+   "sense": 0,
+   "context": "yağar (düşer)",
+   "note": "*fall*'un temel anlamı \"düşmek\"tir; kar ve yağmur için \"yağmak\" anlamında kullanılır.",
+   "form": "fall + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince",
+   "note": "*when* bağlaç olarak \"-ince, -dığında\" anlamına gelir: *when it snows* → kar yağ**ınca**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "snow",
+   "pos": "verb",
+   "wordId": "snow",
+   "sense": 1,
+   "context": "kar yağar",
+   "note": null,
+   "form": "snow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "görünür",
+   "note": "*look* + sıfat \"… görünmek\" demektir: *looks beautiful* → güzel görünür. *look at* ise \"-e bakmak\"tır.",
+   "form": "look + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "white",
+   "pos": "adjective",
+   "wordId": "white",
+   "sense": 0,
+   "context": "beyaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "beautiful",
+   "pos": "adjective",
+   "wordId": "beautiful",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": "*people* çoğul bir isimdir (\"insanlar\"); tekili *person*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "wear",
+   "pos": "verb",
+   "wordId": "wear",
+   "sense": 0,
+   "context": "giyer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "warm",
+   "pos": "adjective",
+   "wordId": "warm",
+   "sense": 0,
+   "context": "sıcak tutan",
+   "note": "*warm* \"ılık, sıcak\" demektir; giysiler için \"sıcak tutan\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "coat",
+   "pos": "noun",
+   "wordId": "coat",
+   "sense": 0,
+   "context": "montlar",
+   "note": null,
+   "form": "coat'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "hat",
+   "pos": "noun",
+   "wordId": "hat",
+   "sense": 0,
+   "context": "şapkalar",
+   "note": null,
+   "form": "hat'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "severim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içmek",
+   "note": "*like*'tan sonra gelen *-ing*'li fiil bir etkinliği anlatır: *I like drinking* → İçmeyi severim.",
+   "form": "drink + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "hot",
+   "pos": "adjective",
+   "wordId": "hot",
+   "sense": 0,
+   "context": "sıcak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "drink",
+   "pos": "noun",
+   "wordId": "drink",
+   "sense": 0,
+   "context": "içecekler",
+   "note": null,
+   "form": "drink'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kışın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kalırım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "inside",
+   "pos": "preposition",
+   "wordId": "inside",
+   "sense": 0,
+   "context": "içinde (evde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ip)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izlerim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "film",
+   "pos": "noun",
+   "wordId": "film",
+   "sense": 0,
+   "context": "film",
+   "note": null,
+   "form": "film'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "günler",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "geceler",
+   "note": null,
+   "form": "night'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "prefer the snow to the rain",
+    "meaning": "karı yağmura tercih etmek (prefer A to B)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "prefer",
+   "pos": "verb",
+   "wordId": "prefer",
+   "sense": 0,
+   "context": "tercih ederim",
+   "note": "*prefer A to B* \"A'yı B'ye tercih etmek\" demektir; *to* burada karşılaştırılan şeyi gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "prefer the snow to the rain",
+    "meaning": "karı yağmura tercih etmek (prefer A to B)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "prefer the snow to the rain",
+    "meaning": "karı yağmura tercih etmek (prefer A to B)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "snow",
+   "pos": "noun",
+   "wordId": "snow",
+   "sense": 0,
+   "context": "kar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "prefer the snow to the rain",
+    "meaning": "karı yağmura tercih etmek (prefer A to B)"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (yağmura)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "prefer the snow to the rain",
+    "meaning": "karı yağmura tercih etmek (prefer A to B)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "rain",
+   "pos": "noun",
+   "wordId": "rain",
+   "sense": 0,
+   "context": "yağmur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

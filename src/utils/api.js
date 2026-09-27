@@ -19,6 +19,23 @@ export function fetchStories() {
   return storiesPromise
 }
 
+// Hikayedeki her kelimenin temel ve bağlamsal anlamı. İşaretlemesi olmayan hikayede null.
+const annotationCache = new Map()
+export function fetchAnnotations(storyId) {
+  if (!annotationCache.has(storyId)) {
+    annotationCache.set(
+      storyId,
+      fetch(`/api/stories/${encodeURIComponent(storyId)}/annotations`)
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => {
+          annotationCache.delete(storyId)
+          return null
+        })
+    )
+  }
+  return annotationCache.get(storyId)
+}
+
 export const translateText = (text) =>
   request('/api/translate', {
     method: 'POST',

@@ -1,0 +1,760 @@
+{
+ "storyId": "story-a2-002",
+ "textHash": "5c174a03085a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün kız kardeşimin doğum günüydü."
+  },
+  {
+   "tr": "Onun için sürpriz bir parti planladık."
+  },
+  {
+   "tr": "Bütün arkadaşlarını davet ettim."
+  },
+  {
+   "tr": "Annem kocaman bir çikolatalı pasta yaptı."
+  },
+  {
+   "tr": "Oturma odasında saklandık."
+  },
+  {
+   "tr": "Kapıyı açınca \"Sürpriz!\" diye bağırdık."
+  },
+  {
+   "tr": "Çok şaşırdı ve mutlu oldu."
+  },
+  {
+   "tr": "Duygusal biri olduğu için biraz ağladı."
+  },
+  {
+   "tr": "Gece yarısına kadar dans edip kutladık."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "yesterday",
+   "pos": "noun",
+   "wordId": "yesterday",
+   "sense": 1,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dü (idi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeşimin",
+   "note": "*'s* aitlik bildirir ve Türkçedeki \"-in\" ekine karşılık gelir: *my sister's birthday* → kız kardeşim**in** doğum günü.",
+   "form": "sister + 's (aitlik eki)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "birthday",
+   "pos": "noun",
+   "wordId": "birthday",
+   "sense": 0,
+   "context": "doğum günü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "plan",
+   "pos": "verb",
+   "wordId": "plan",
+   "sense": 1,
+   "context": "planladık",
+   "note": null,
+   "form": "plan + -ed (geçmiş zaman; son harf n ikilenir: planned)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a surprise party",
+    "meaning": "sürpriz parti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "surprise",
+   "pos": "noun",
+   "wordId": "surprise",
+   "sense": 0,
+   "context": "sürpriz",
+   "note": "Burada *surprise* isim olmasına rağmen *party*'yi niteler: *surprise party* → sürpriz parti.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a surprise party",
+    "meaning": "sürpriz parti"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "party",
+   "pos": "noun",
+   "wordId": "party",
+   "sense": 0,
+   "context": "parti, eğlence",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a surprise party",
+    "meaning": "sürpriz parti"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onun (için)",
+   "note": "*her* nesne olarak \"onu, ona\" (kadın) demektir; edattan sonra *for her* → onun için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet ettim",
+   "note": null,
+   "form": "invite + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (arkadaşları)",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir: *her friends* → onun arkadaşları.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (annem)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "bake",
+   "pos": "verb",
+   "wordId": "bake",
+   "sense": 0,
+   "context": "(fırında) yaptı",
+   "note": "*bake* \"fırında pişirmek\" demektir; pasta ve ekmek için \"yapmak\" diye çevrilir.",
+   "form": "bake + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "huge",
+   "pos": "adjective",
+   "wordId": "huge",
+   "sense": 0,
+   "context": "kocaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "chocolate",
+   "pos": "noun",
+   "wordId": "chocolate",
+   "sense": 0,
+   "context": "çikolatalı",
+   "note": "Burada *chocolate* isim olmasına rağmen *cake*'i niteler: *chocolate cake* → çikolatalı pasta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "pasta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklandık",
+   "note": "*hide* hem \"saklamak\" hem \"saklanmak\" anlamına gelir; burada \"saklanmak\"tır.",
+   "form": "hide fiilinin geçmiş zaman hali (hid, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (odasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "the living room",
+    "meaning": "oturma odası"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "oturma (living room: oturma odası)",
+   "note": "*living room* \"oturma odası, salon\" demektir; *live* fiilinin \"oturmak, yaşamak\" anlamından gelir.",
+   "form": "live + -ing",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "the living room",
+    "meaning": "oturma odası"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "the living room",
+    "meaning": "oturma odası"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ınca",
+   "note": "*when* bağlaç olarak \"-ince, -dığında\" anlamına gelir: *when she opened* → açınca.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açtı (açınca)",
+   "note": null,
+   "form": "open + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "shout",
+   "pos": "verb",
+   "wordId": "shout",
+   "sense": 0,
+   "context": "bağırdık",
+   "note": null,
+   "form": "shout + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "surprise",
+   "pos": "noun",
+   "wordId": "surprise",
+   "sense": 0,
+   "context": "Sürpriz!",
+   "note": "Ünlem olarak tek başına söylenir: *Surprise!* → Sürpriz!",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (oldu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "shocked",
+   "pos": "adjective",
+   "wordId": "shocked",
+   "sense": 0,
+   "context": "çok şaşırmış",
+   "note": "*shocked* \"şok olmuş\"tur; burada olumlu bir şaşkınlığı, \"çok şaşırmış\" olmayı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "cry",
+   "pos": "verb",
+   "wordId": "cry",
+   "sense": 0,
+   "context": "ağladı",
+   "note": null,
+   "form": "cry + -ed (geçmiş zaman; y → i: cried)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a little: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "little",
+   "pos": "pronoun",
+   "wordId": "little",
+   "sense": 2,
+   "context": "biraz (a little)",
+   "note": "*a little* \"biraz\" demektir; *little* tek başına \"az, pek az\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için, çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "emotional",
+   "pos": "adjective",
+   "wordId": "emotional",
+   "sense": 0,
+   "context": "duygusal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "dance",
+   "pos": "verb",
+   "wordId": "dance",
+   "sense": 1,
+   "context": "dans ettik",
+   "note": null,
+   "form": "dance + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ip)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "celebrate",
+   "pos": "verb",
+   "wordId": "celebrate",
+   "sense": 0,
+   "context": "kutladık",
+   "note": null,
+   "form": "celebrate + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "midnight",
+   "pos": "noun",
+   "wordId": "midnight",
+   "sense": 0,
+   "context": "gece yarısı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

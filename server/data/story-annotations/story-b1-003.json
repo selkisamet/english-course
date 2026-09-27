@@ -1,0 +1,860 @@
+{
+ "storyId": "story-b1-003",
+ "textHash": "8d31526bee84",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tom yılbaşından beri kilo vermeye karar vermiş durumda."
+  },
+  {
+   "tr": "Sağlıksız yiyecekleri ve şekeri yemeyi bıraktı."
+  },
+  {
+   "tr": "Çikolatayı çok sevdiği için bu kolay olmadı."
+  },
+  {
+   "tr": "Yine de şimdiden beş kilo verdi."
+  },
+  {
+   "tr": "Haftada üç kez koşuya gidiyor."
+  },
+  {
+   "tr": "Bu düzene devam ederse yaza kadar çok daha sağlıklı olacak."
+  },
+  {
+   "tr": "Kendini eskisinden daha enerjik hissediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since* bir başlangıç noktası verir (\"-den beri\") ve genellikle present perfect ile kullanılır; süre için ise *for* kullanılır (*for three years*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "beginning",
+   "pos": "noun",
+   "wordId": "beginning",
+   "sense": 0,
+   "context": "başlangıç (baş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yılın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the beginning of the year",
+    "meaning": "yılın başından beri"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) geçmişte olan ama etkisi şimdi de süren durumu anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide fiilinin 3. hali (decided, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (vermeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "vermek (kilo)",
+   "note": "*lose*'un temel anlamı \"kaybetmek\"tir; *lose weight* \"kilo vermek\" demektir. Kilo almak ise *put on weight* ya da *gain weight*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "lose weight",
+    "meaning": "kilo vermek"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "weight",
+   "pos": "noun",
+   "wordId": "weight",
+   "sense": 0,
+   "context": "kilo",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "lose weight",
+    "meaning": "kilo vermek"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "bıraktı",
+   "note": "*stop* + *-ing*'li fiil \"… -meyi bırakmak\" demektir: *stopped eating* → yemeyi bıraktı. *stop to* + fiil ise \"… -mek için durmak\"tır.",
+   "form": "stop fiilinin 3. hali (stopped; son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "stopped eating",
+    "meaning": "yemeyi bıraktı (stop + -ing)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": "eat + -ing",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "stopped eating",
+    "meaning": "yemeyi bıraktı (stop + -ing)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "unhealthy",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sağlıksız",
+   "note": "*un-* ön eki bir sıfatı olumsuz yapar: *healthy* (sağlıklı) → *unhealthy* (sağlıksız).",
+   "form": null,
+   "base": "sağlıksız",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek(ler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "sugar",
+   "pos": "noun",
+   "wordId": "sugar",
+   "sense": 0,
+   "context": "şeker",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(olmadı)",
+   "note": "*hasn't*, *has not*'un kısaltmasıdır.",
+   "form": "has + not kısaltması (hasn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak (olmadı)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-diği için, çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "çok seviyor",
+   "note": null,
+   "form": "love + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "chocolate",
+   "pos": "noun",
+   "wordId": "chocolate",
+   "sense": 0,
+   "context": "çikolata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "yine de (ancak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "already",
+   "pos": "adverb",
+   "wordId": "already",
+   "sense": 0,
+   "context": "şimdiden (çoktan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "verdi (kilo)",
+   "note": null,
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "kilogram",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kilo(gram)",
+   "note": null,
+   "form": "kilogram'ın çoğulu",
+   "base": "kilogram",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gider",
+   "note": "*go* + *-ing*'li fiil, bir etkinliğe gitmeyi anlatır: *go running* → koşuya gitmek.",
+   "form": "go + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "goes running",
+    "meaning": "koşuya gider"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "running",
+   "pos": "noun",
+   "wordId": "running",
+   "sense": 0,
+   "context": "koşu(ya)",
+   "note": null,
+   "form": "run + -ing",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "goes running",
+    "meaning": "koşuya gider"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "three times a week",
+    "meaning": "haftada üç kez"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* \"zaman\" demektir; sayılarla birlikte \"kez, sefer\" anlamına gelir: *three times* → üç kez.",
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "three times a week",
+    "meaning": "haftada üç kez"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-da (haftada)",
+   "note": "Sıklık anlatırken *a* \"her … -de\" anlamına gelir: *three times a week* → haftada üç kez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "three times a week",
+    "meaning": "haftada üç kez"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "three times a week",
+    "meaning": "haftada üç kez"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "eğer, -se",
+   "note": "*if* + geniş zaman, *will* + fiil (1. tip koşul) gerçekleşmesi olası bir koşulu anlatır: *If he continues…, he will be…* → Devam ederse … olacak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "devam ederse",
+   "note": null,
+   "form": "continue + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "routine",
+   "pos": "noun",
+   "wordId": "routine",
+   "sense": 0,
+   "context": "düzen (rutin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "-ecek (olacak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "will be",
+    "meaning": "olacak (gelecek zaman)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "will be",
+    "meaning": "olacak (gelecek zaman)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much healthier* → çok daha sağlıklı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "healthy",
+   "pos": "adjective",
+   "wordId": "healthy",
+   "sense": 0,
+   "context": "daha sağlıklı",
+   "note": null,
+   "form": "healthy sıfatının karşılaştırma hali (-ier; y → i)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e kadar (yaza kadar)",
+   "note": "Zaman ifadelerinde *by* \"en geç … -e kadar\" demektir: *by summer* → yaza kadar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "Uzun sıfatlarda karşılaştırma *more* ile yapılır: *more energetic* (daha enerjik); kısa sıfatlarda *-er* eklenir: *healthier*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "more energetic than before",
+    "meaning": "eskisinden daha enerjik"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "energetic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "enerjik",
+   "note": null,
+   "form": null,
+   "base": "enerjik, dinamik",
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "more energetic than before",
+    "meaning": "eskisinden daha enerjik"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (eskisinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "more energetic than before",
+    "meaning": "eskisinden daha enerjik"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "önce (eskiden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "more energetic than before",
+    "meaning": "eskisinden daha enerjik"
+   }
+  }
+ ]
+}

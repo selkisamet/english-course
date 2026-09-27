@@ -1,0 +1,939 @@
+{
+ "storyId": "story-c2-007",
+ "textHash": "1079d6360b6e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Romancı hayatı, her etkileşim ipliğinin bir amaçla yerleştirildiği dokunmuş bir kumaş olarak görüyordu."
+  },
+  {
+   "tr": "Tesadüf kavramını reddediyordu."
+  },
+  {
+   "tr": "Son başyapıtında, kahramanın görünüşte rastlantısal karşılaşmasının aslında bütün olay örgüsünün etrafında döndüğü merkezî nokta olduğu ortaya çıkıyor."
+  },
+  {
+   "tr": "Yazıları her şeyin birbirine bağlılığı üzerine bir tefekkürdür ve okuru yüzeyin ötesine bakmaya davet eder."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "novelist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "romancı",
+   "note": "*-ist* eki bir alanla uğraşan kişiyi anlatır: *novel* (roman) → *novelist* (romancı).",
+   "form": null,
+   "base": "romancı",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "view",
+   "pos": "verb",
+   "wordId": "view",
+   "sense": 1,
+   "context": "görüyordu",
+   "note": "*view A as B* \"A'yı B olarak görmek, değerlendirmek\" demektir.",
+   "form": "view + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "weave",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dokunmuş",
+   "note": null,
+   "form": "weave fiilinin 3. hali (woven, düzensiz)",
+   "base": "dokumak, örmek",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "fabric",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kumaş",
+   "note": null,
+   "form": null,
+   "base": "kumaş; (mecazi) doku, yapı",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "viewed life as a woven fabric",
+    "meaning": "hayatı dokunmuş bir kumaş olarak gördü (view A as B)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "-dığı (yerleştirildiği)",
+   "note": "*where* burada ilgi zamiridir ve önceki ismi niteler: *a fabric where every thread is placed…* → her ipliğin yerleştirildiği bir kumaş.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "thread",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iplik",
+   "note": null,
+   "form": null,
+   "base": "iplik",
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… ipliği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "interaction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "etkileşim",
+   "note": null,
+   "form": null,
+   "base": "etkileşim",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*is + fiilin 3. hali* edilgen yapı kurar: *is placed* → yerleştirilir.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "place",
+   "pos": "verb",
+   "wordId": "place",
+   "sense": 1,
+   "context": "yerleştirilir",
+   "note": null,
+   "form": "place fiilinin 3. hali (placed, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "with intention",
+    "meaning": "bilerek, bir amaçla"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "intention",
+   "pos": "noun",
+   "wordId": "intention",
+   "sense": 0,
+   "context": "amaç (niyet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "with intention",
+    "meaning": "bilerek, bir amaçla"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "reject",
+   "pos": "verb",
+   "wordId": "reject",
+   "sense": 0,
+   "context": "reddediyordu",
+   "note": null,
+   "form": "reject + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "notion",
+   "pos": "noun",
+   "wordId": "notion",
+   "sense": 0,
+   "context": "kavram",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "notion of coincidence",
+    "meaning": "tesadüf kavramı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… kavramı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "notion of coincidence",
+    "meaning": "tesadüf kavramı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "coincidence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tesadüf",
+   "note": null,
+   "form": null,
+   "base": "tesadüf, rastlantı",
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "notion of coincidence",
+    "meaning": "tesadüf kavramı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (başyapıtında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "latest",
+   "pos": "adjective",
+   "wordId": "latest",
+   "sense": 0,
+   "context": "en son",
+   "note": "*latest* \"en yeni, en son (çıkan)\" demektir; *last* ise \"sonuncu\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "masterpiece",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "başyapıt",
+   "note": null,
+   "form": null,
+   "base": "başyapıt, şaheser",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "protagonist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kahramanın",
+   "note": null,
+   "form": "protagonist + 's (aitlik eki)",
+   "base": "ana karakter, başkahraman",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "seemingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "görünüşte",
+   "note": "*seemingly*, *seem* (görünmek) fiilinden türeyen bir zarftır.",
+   "form": null,
+   "base": "görünüşte, görünüşe göre",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "seemingly random encounter",
+    "meaning": "görünüşte rastlantısal karşılaşma"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "random",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "rastlantısal",
+   "note": null,
+   "form": null,
+   "base": "rastgele, rastlantısal",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "seemingly random encounter",
+    "meaning": "görünüşte rastlantısal karşılaşma"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "encounter",
+   "pos": "noun",
+   "wordId": "encounter",
+   "sense": 1,
+   "context": "karşılaşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "seemingly random encounter",
+    "meaning": "görünüşte rastlantısal karşılaşma"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "is revealed to be",
+    "meaning": "… olduğu ortaya çıkar (edilgen)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "reveal",
+   "pos": "verb",
+   "wordId": "reveal",
+   "sense": 0,
+   "context": "ortaya çıkıyor",
+   "note": "*be revealed to be…* \"… olduğu ortaya çıkmak\" demektir.",
+   "form": "reveal fiilinin 3. hali (revealed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "is revealed to be",
+    "meaning": "… olduğu ortaya çıkar (edilgen)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-dığı (olduğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "is revealed to be",
+    "meaning": "… olduğu ortaya çıkar (edilgen)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "is revealed to be",
+    "meaning": "… olduğu ortaya çıkar (edilgen)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "central",
+   "pos": "adjective",
+   "wordId": "central",
+   "sense": 0,
+   "context": "merkezî",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "point",
+   "pos": "noun",
+   "wordId": "point",
+   "sense": 0,
+   "context": "nokta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "upon",
+   "pos": "preposition",
+   "wordId": "upon",
+   "sense": 0,
+   "context": "etrafında (üzerinde)",
+   "note": "*upon which* resmî bir ilgi yapısıdır: *the point upon which the plot pivots* → olay örgüsünün etrafında döndüğü nokta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "ki (-dığı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "entire",
+   "pos": "adjective",
+   "wordId": "entire",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "plot",
+   "pos": "noun",
+   "wordId": "plot",
+   "sense": 0,
+   "context": "olay örgüsü",
+   "note": "*plot* bir hikâyenin \"olay örgüsü\" demektir; ayrıca \"komplo\" anlamı da vardır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "pivot",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "döner",
+   "note": "*pivot on/upon something* \"bir şeyin etrafında dönmek, bir şeye bağlı olmak\" demektir.",
+   "form": "pivot + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "bir eksen etrafında dönmek; -e bağlı olmak",
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "upon which the entire plot pivots",
+    "meaning": "bütün olay örgüsünün etrafında döndüğü"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "writing",
+   "pos": "noun",
+   "wordId": "writing",
+   "sense": 0,
+   "context": "yazıları",
+   "note": "*writing* burada bir yazarın eserlerini topluca anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "meditation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tefekkür (derin düşünme)",
+   "note": "*meditation* \"meditasyon\" demektir; *a meditation on something* ise bir konu üzerine \"derin düşünme, tefekkür\" anlamına gelir.",
+   "form": null,
+   "base": "meditasyon; derin düşünme",
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "meditation on",
+    "meaning": "üzerine tefekkür"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "meditation on",
+    "meaning": "üzerine tefekkür"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağlılık (bağlantı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şeylerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "her (bütün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şeyler",
+   "note": null,
+   "form": "thing'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "urge",
+   "pos": "verb",
+   "wordId": "urge",
+   "sense": 0,
+   "context": "davet ederek (teşvik ederek)",
+   "note": "*urge someone to + fiil* \"birini … -meye teşvik etmek, ısrarla çağırmak\" demektir.",
+   "form": "urge + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "reader",
+   "pos": "noun",
+   "wordId": "reader",
+   "sense": 0,
+   "context": "okur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (bakmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "look beyond the surface",
+    "meaning": "yüzeyin ötesine bakmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "beyond",
+   "pos": "preposition",
+   "wordId": "beyond",
+   "sense": 0,
+   "context": "ötesine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "look beyond the surface",
+    "meaning": "yüzeyin ötesine bakmak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "look beyond the surface",
+    "meaning": "yüzeyin ötesine bakmak"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "surface",
+   "pos": "noun",
+   "wordId": "surface",
+   "sense": 0,
+   "context": "yüzey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "look beyond the surface",
+    "meaning": "yüzeyin ötesine bakmak"
+   }
+  }
+ ]
+}

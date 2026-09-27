@@ -1,0 +1,950 @@
+{
+ "storyId": "story-a1-002",
+ "textHash": "296a3d70dda5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Whiskers adında bir kedim var."
+  },
+  {
+   "tr": "O çok şişman ve turuncu."
+  },
+  {
+   "tr": "Whiskers bütün gün uyur."
+  },
+  {
+   "tr": "Kanepede, yatakta ve yerde uyur."
+  },
+  {
+   "tr": "Sadece yemek için uyanır."
+  },
+  {
+   "tr": "Balığı ve sütü sever."
+  },
+  {
+   "tr": "Okuldan eve döndüğümde bana bakar ve bir ses çıkarır."
+  },
+  {
+   "tr": "Onunla on dakika oynarım ama sonra yine uyur."
+  },
+  {
+   "tr": "Tembel ama çok sevimli."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (kedim var)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır. Türkçede sahiplik çoğunlukla \"-(i)m var\" yapısıyla söylenir: *I have a cat* → Bir kedi**m var**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "cat",
+   "pos": "noun",
+   "wordId": "cat",
+   "sense": 0,
+   "context": "kedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adında, isimli",
+   "note": "*named* burada \"… adında, … adlı\" anlamında bir sıfat gibi kullanılır: *a cat named Whiskers* → Whiskers adında bir kedi.",
+   "form": "name fiilinin geçmiş ortacı (-ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Whiskers",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Whiskers",
+   "note": null,
+   "form": null,
+   "base": "(kedinin adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "İngilizcede evcil hayvanlar için çoğu zaman *he/she* kullanılır; Türkçede yalnızca \"o\" deriz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "fat",
+   "pos": "adjective",
+   "wordId": "fat",
+   "sense": 0,
+   "context": "şişman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "orange",
+   "pos": "adjective",
+   "wordId": "orange",
+   "sense": 1,
+   "context": "turuncu",
+   "note": "*orange* isim olarak \"portakal\", sıfat olarak \"turuncu\" demektir; burada renk bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "Whiskers",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Whiskers",
+   "note": null,
+   "form": null,
+   "base": "(kedinin adı)",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyur",
+   "note": null,
+   "form": "sleep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "all day long",
+    "meaning": "bütün gün boyunca"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "all day long",
+    "meaning": "bütün gün boyunca"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "boyunca",
+   "note": "*all day long* kalıbında *long* \"boyunca\" anlamı katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "all day long",
+    "meaning": "bütün gün boyunca"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyur",
+   "note": null,
+   "form": "sleep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (üstünde)",
+   "note": "*on* bir yüzeyin üstünde olmayı bildirir; Türkçede \"-de\" ekiyle karşılanır: *on the sofa* → kanepe**de**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "sofa",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kanepe",
+   "note": null,
+   "form": null,
+   "base": "kanepe, koltuk",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "bed",
+   "pos": "noun",
+   "wordId": "bed",
+   "sense": 0,
+   "context": "yatak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "floor",
+   "pos": "noun",
+   "wordId": "floor",
+   "sense": 0,
+   "context": "yer, zemin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "wake",
+   "pos": "verb",
+   "wordId": "wake",
+   "sense": 0,
+   "context": "uyanır",
+   "note": null,
+   "form": "wake + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "wakes up",
+    "meaning": "uyanır (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(wake up: uyanmak)",
+   "note": "*up* burada fiille birlikte kullanılarak anlamını tamamlar; tek başına \"yukarı\" anlamı taşımaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "wakes up",
+    "meaning": "uyanır (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "sadece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "sever",
+   "note": null,
+   "form": "like + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "fish",
+   "pos": "noun",
+   "wordId": "fish",
+   "sense": 0,
+   "context": "balık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "milk",
+   "pos": "noun",
+   "wordId": "milk",
+   "sense": 0,
+   "context": "süt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığımda",
+   "note": "*when* bağlaç olarak \"-dığında, -ince\" anlamına gelir: *when I return* → döndüğü**mde**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "dönmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında kullanıldığında önüne *to* almaz: *return home* (✗ return to home).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakar",
+   "note": null,
+   "form": "look + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "looks at",
+    "meaning": "-e bakar (look at: -e bakmak)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (bana)",
+   "note": "*look at* \"-e bakmak\" demektir; *at* burada bakılan kişiyi gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "looks at",
+    "meaning": "-e bakar (look at: -e bakmak)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "çıkarır",
+   "note": "*make*'in temel anlamı \"yapmak\"tır; *make a noise* kalıbında \"ses çıkarmak\" anlamına gelir.",
+   "form": "make + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "makes a noise",
+    "meaning": "ses çıkarır (make a noise: ses çıkarmak)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "makes a noise",
+    "meaning": "ses çıkarır (make a noise: ses çıkarmak)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "ses",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "makes a noise",
+    "meaning": "ses çıkarır (make a noise: ses çıkarmak)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynarım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (onunla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu, ona (onunla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(süre)",
+   "note": "*for* süre bildirir: *for ten minutes* → on dakika (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyur",
+   "note": null,
+   "form": "sleep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "again",
+   "pos": "adverb",
+   "wordId": "again",
+   "sense": 0,
+   "context": "yine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "lazy",
+   "pos": "adjective",
+   "wordId": "lazy",
+   "sense": 0,
+   "context": "tembel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "cute",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sevimli",
+   "note": null,
+   "form": null,
+   "base": "sevimli, şirin",
+   "phrase": null
+  }
+ ]
+}

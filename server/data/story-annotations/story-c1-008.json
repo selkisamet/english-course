@@ -1,0 +1,933 @@
+{
+ "storyId": "story-c1-008",
+ "textHash": "33b856fe5d5d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Liderlik çoğu zaman idealleştirilir, oysa gerçekte yalnızlıkla doludur."
+  },
+  {
+   "tr": "CEO, şirketi batmaktan kurtarmak için şirketi küçültme gibi acı bir karar vermek zorunda kaldı."
+  },
+  {
+   "tr": "Yüzlerce insanın geçiminin yükünü omuzlarında taşıdı."
+  },
+  {
+   "tr": "Gerçek karakter tam da bu kritik anlarda ortaya çıkar ve sıradan bir yöneticiyi gerçek bir liderden ayırır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "leadership",
+   "pos": "noun",
+   "wordId": "leadership",
+   "sense": 0,
+   "context": "liderlik",
+   "note": "*-ship* eki isimden soyut isim yapar: *leader* (lider) → *leadership* (liderlik).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*is + fiilin 3. hali* geniş zamanda edilgen yapı kurar: *is often idealized* → çoğu zaman idealleştirilir.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is often idealized",
+    "meaning": "çoğu zaman idealleştirilir (edilgen)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is often idealized",
+    "meaning": "çoğu zaman idealleştirilir (edilgen)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "idealize",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "idealleştirilir",
+   "note": null,
+   "form": "idealize fiilinin 3. hali (idealized, -d)",
+   "base": "idealleştirmek, gözünde büyütmek",
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "is often idealized",
+    "meaning": "çoğu zaman idealleştirilir (edilgen)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa (yine de)",
+   "note": "*yet* bağlaç olarak \"ama, oysa, yine de\" demektir; zarf olarak olumsuz cümlelerde \"henüz\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "reality",
+   "pos": "noun",
+   "wordId": "reality",
+   "sense": 0,
+   "context": "gerçek (gerçeklik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "dolu",
+   "note": "*be filled with* \"… ile dolu olmak\" demektir; *full of* ile aynı anlamdadır.",
+   "form": "fill fiilinin 3. hali (filled, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "is filled with",
+    "meaning": "ile doludur"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "isolation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık (yalıtılmışlık)",
+   "note": null,
+   "form": null,
+   "base": "yalnızlık, yalıtılmışlık, izolasyon",
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "CEO",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "CEO (genel müdür)",
+   "note": "*CEO*, *Chief Executive Officer* sözünün kısaltmasıdır: şirketin en üst yöneticisi.",
+   "form": null,
+   "base": "genel müdür, icra kurulu başkanı",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldı (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur. Geçmiş hali *had to*'dur.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "had to make",
+    "meaning": "vermek zorunda kaldı (have to)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(had to: -mek zorunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "had to make",
+    "meaning": "vermek zorunda kaldı (have to)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "vermek (karar)",
+   "note": "*make a decision* \"karar vermek\" demektir; Türkçedeki \"vermek\" yerine *make* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "make the painful decision",
+    "meaning": "acı bir karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "make the painful decision",
+    "meaning": "acı bir karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "painful",
+   "pos": "adjective",
+   "wordId": "painful",
+   "sense": 0,
+   "context": "acı (acı verici)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "make the painful decision",
+    "meaning": "acı bir karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "make the painful decision",
+    "meaning": "acı bir karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(… kararı)",
+   "note": "*decision to + fiil* \"… -me kararı\" demektir: *the decision to reduce* → küçültme kararı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "küçültmek (azaltmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "size",
+   "pos": "noun",
+   "wordId": "size",
+   "sense": 0,
+   "context": "büyüklük (boyut)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şirketin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (kurtarmak için)",
+   "note": "*to + fiil* burada amaç bildirir ve \"… -mek için\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "kurtarmak",
+   "note": "*save* \"kurtarmak\", \"(para) biriktirmek\" ve \"kaydetmek\" demektir; burada \"kurtarmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "save it from failure",
+    "meaning": "onu başarısızlıktan (batmaktan) kurtarmak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (şirketi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "save it from failure",
+    "meaning": "onu başarısızlıktan (batmaktan) kurtarmak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "save it from failure",
+    "meaning": "onu başarısızlıktan (batmaktan) kurtarmak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "failure",
+   "pos": "noun",
+   "wordId": "failure",
+   "sense": 0,
+   "context": "başarısızlık (batma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "save it from failure",
+    "meaning": "onu başarısızlıktan (batmaktan) kurtarmak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "bear",
+   "pos": "verb",
+   "wordId": "bear",
+   "sense": 1,
+   "context": "taşıdı",
+   "note": "*bear* fiil olarak \"katlanmak, dayanmak\" ve resmî dilde \"(yük) taşımak\" demektir; isim olarak ise \"ayı\"dır.",
+   "form": "bear fiilinin geçmiş zaman hali (bore, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "bore the weight",
+    "meaning": "yükünü taşıdı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "bore the weight",
+    "meaning": "yükünü taşıdı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "weight",
+   "pos": "noun",
+   "wordId": "weight",
+   "sense": 0,
+   "context": "yük (ağırlık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "bore the weight",
+    "meaning": "yükünü taşıdı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (geçiminin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüzlerce",
+   "note": "*hundreds of* \"yüzlerce\" demektir; *two hundred* gibi belirli sayılarda ise *-s* almaz.",
+   "form": "hundred'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "hundreds of",
+    "meaning": "yüzlerce"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(hundreds of: yüzlerce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "hundreds of",
+    "meaning": "yüzlerce"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "livelihood",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "geçim",
+   "note": null,
+   "form": "livelihood'un çoğulu",
+   "base": "geçim, geçim kaynağı",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (omuzlarında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "shoulder",
+   "pos": "noun",
+   "wordId": "shoulder",
+   "sense": 0,
+   "context": "omuzlar",
+   "note": null,
+   "form": "shoulder'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is … that …* bir öğeyi vurgulamak için kullanılır: *It is in these moments that character is revealed* → Karakter **tam da bu anlarda** ortaya çıkar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(vurgu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (anlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "these",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "critical",
+   "pos": "adjective",
+   "wordId": "critical",
+   "sense": 0,
+   "context": "kritik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "moment",
+   "pos": "noun",
+   "wordId": "moment",
+   "sense": 0,
+   "context": "anlar",
+   "note": null,
+   "form": "moment'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(vurgu: tam da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 48,
+    "text": "It is in these critical moments that",
+    "meaning": "tam da bu kritik anlarda (vurgu yapısı)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "true",
+   "pos": "adjective",
+   "wordId": "true",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "character",
+   "pos": "noun",
+   "wordId": "character",
+   "sense": 0,
+   "context": "karakter",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "reveal",
+   "pos": "verb",
+   "wordId": "reveal",
+   "sense": 0,
+   "context": "ortaya çıkar",
+   "note": "*is revealed* (edilgen) \"ortaya konur, açığa çıkar\" demektir.",
+   "form": "reveal fiilinin 3. hali (revealed, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "distinguish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ayırarak",
+   "note": "*distinguish A from B* \"A'yı B'den ayırmak, ayırt etmek\" demektir.",
+   "form": "distinguish + -ing",
+   "base": "ayırt etmek, ayırmak",
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "mere",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sıradan (yalnızca)",
+   "note": "*mere* \"sadece, basit, sıradan\" anlamıyla bir şeyin önemsizliğini vurgular: *a mere manager* → sıradan bir yönetici.",
+   "form": null,
+   "base": "sadece, basit, sıradan",
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "yönetici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (liderden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "true",
+   "pos": "adjective",
+   "wordId": "true",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "leader",
+   "pos": "noun",
+   "wordId": "leader",
+   "sense": 0,
+   "context": "lider",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "distinguishing a mere manager from a true leader",
+    "meaning": "sıradan bir yöneticiyi gerçek bir liderden ayırarak (distinguish A from B)"
+   }
+  }
+ ]
+}

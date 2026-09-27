@@ -1,0 +1,866 @@
+{
+ "storyId": "story-c1-004",
+ "textHash": "634f0c6e926f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tarih, demokrasinin durağan bir hâl değil, sürekli bir çaba olduğunu defalarca göstermiştir."
+  },
+  {
+   "tr": "Son dönemdeki siyasi istikrarsızlık, kurumlarımızdaki zayıflıkları açığa çıkardı."
+  },
+  {
+   "tr": "Yanlış bilgilerle körüklenen seçmen bölünmüşlüğü, toplumun ta kendisini tehdit ediyor."
+  },
+  {
+   "tr": "Ancak eleştirel düşünmeyi ve nazik bir tartışma dilini teşvik ederek bu uçurumu kapatmayı ve demokratik değerlerimizi korumayı umabiliriz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miştir)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) geçmişten bugüne kadar tekrar tekrar olmuş şeyleri anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has repeatedly demonstrated",
+    "meaning": "defalarca göstermiştir (present perfect)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "repeatedly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "defalarca",
+   "note": "*repeatedly*, *repeat* (tekrarlamak) fiilinden türeyen bir zarftır.",
+   "form": null,
+   "base": "defalarca, tekrar tekrar",
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has repeatedly demonstrated",
+    "meaning": "defalarca göstermiştir (present perfect)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "demonstrate",
+   "pos": "verb",
+   "wordId": "demonstrate",
+   "sense": 0,
+   "context": "göstermiştir (kanıtlamıştır)",
+   "note": null,
+   "form": "demonstrate fiilinin 3. hali (demonstrated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has repeatedly demonstrated",
+    "meaning": "defalarca göstermiştir (present perfect)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "democracy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "demokrasi",
+   "note": null,
+   "form": null,
+   "base": "demokrasi",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir: *not a static state but a constant endeavor* → durağan bir hâl değil, sürekli bir çaba.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "static",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "durağan",
+   "note": null,
+   "form": null,
+   "base": "durağan, değişmeyen",
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "state",
+   "pos": "noun",
+   "wordId": "state",
+   "sense": 0,
+   "context": "hâl (durum)",
+   "note": "*state* \"durum, hâl\", \"devlet\" ve \"eyalet\" anlamlarına gelir; burada \"hâl, durum\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil) … -dir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "constant",
+   "pos": "adjective",
+   "wordId": "constant",
+   "sense": 0,
+   "context": "sürekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "endeavor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çaba",
+   "note": "*endeavor* Amerikan yazımıdır; İngiliz İngilizcesinde *endeavour* yazılır.",
+   "form": null,
+   "base": "çaba, gayret",
+   "phrase": {
+    "from": 7,
+    "to": 14,
+    "text": "not a static state but a constant endeavor",
+    "meaning": "durağan bir hâl değil, sürekli bir çaba (not A but B)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "recent",
+   "pos": "adjective",
+   "wordId": "recent",
+   "sense": 0,
+   "context": "son dönemdeki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "political",
+   "pos": "adjective",
+   "wordId": "political",
+   "sense": 0,
+   "context": "siyasi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "instability",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "istikrarsızlık",
+   "note": "*in-* ön eki olumsuzluk katar: *stability* (istikrar) → *instability* (istikrarsızlık).",
+   "form": null,
+   "base": "istikrarsızlık",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "expose",
+   "pos": "verb",
+   "wordId": "expose",
+   "sense": 0,
+   "context": "açığa çıkardı",
+   "note": null,
+   "form": "expose fiilinin 3. hali (exposed, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "weakness",
+   "pos": "noun",
+   "wordId": "weakness",
+   "sense": 0,
+   "context": "zayıflıklar",
+   "note": null,
+   "form": "weakness'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (kurumlarımızdaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "institution",
+   "pos": "noun",
+   "wordId": "institution",
+   "sense": 0,
+   "context": "kurumlar",
+   "note": null,
+   "form": "institution'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "division",
+   "pos": "noun",
+   "wordId": "division",
+   "sense": 0,
+   "context": "bölünme (bölünmüşlük)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (seçmenin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "electorate",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "seçmenler",
+   "note": "*the electorate* bir ülkedeki bütün seçmenleri topluca anlatır.",
+   "form": null,
+   "base": "seçmenler (topluca)",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "fuel",
+   "pos": "verb",
+   "wordId": "fuel",
+   "sense": 1,
+   "context": "körüklenen",
+   "note": "*fuel*'in isim anlamı \"yakıt\"tır; fiil olarak bir duyguyu ya da çatışmayı \"körüklemek, beslemek\" demektir. *fueled by* → … ile körüklenen.",
+   "form": "fuel fiilinin 3. hali (fueled; İngiliz yazımında fuelled)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "fueled by",
+    "meaning": "… ile körüklenen"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-le (tarafından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "fueled by",
+    "meaning": "… ile körüklenen"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "false",
+   "pos": "adjective",
+   "wordId": "false",
+   "sense": 0,
+   "context": "yanlış (asılsız)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi(ler)",
+   "note": "*information* sayılamayan bir isimdir; çoğul *-s* almaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "threaten",
+   "pos": "verb",
+   "wordId": "threaten",
+   "sense": 0,
+   "context": "tehdit ediyor",
+   "note": null,
+   "form": "threaten + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "the very fabric of society",
+    "meaning": "toplumun ta kendisi, toplumsal doku"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "very",
+   "pos": "adjective",
+   "wordId": "very",
+   "sense": 1,
+   "context": "ta kendisi",
+   "note": "*very* genellikle \"çok\" anlamında zarftır; isimden önce sıfat olarak gelince \"tam, ta kendisi\" anlamını vurgular: *the very fabric of society* → toplumun ta kendisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "the very fabric of society",
+    "meaning": "toplumun ta kendisi, toplumsal doku"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "fabric",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doku",
+   "note": "*fabric*'in temel anlamı \"kumaş\"tır; *the fabric of society* mecazi olarak \"toplumun dokusu, temel yapısı\" demektir.",
+   "form": null,
+   "base": "kumaş; (mecazi) doku, yapı",
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "the very fabric of society",
+    "meaning": "toplumun ta kendisi, toplumsal doku"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (toplumun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "the very fabric of society",
+    "meaning": "toplumun ta kendisi, toplumsal doku"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "the very fabric of society",
+    "meaning": "toplumun ta kendisi, toplumsal doku"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "ancak (yalnızca)",
+   "note": "*Only by…* cümle başına gelince devrik yapı kurulur: *Only by encouraging… can we hope…* (✗ we can hope).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "Only by",
+    "meaning": "ancak … -erek"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek (teşvik ederek)",
+   "note": "*by + -ing* bir şeyin nasıl yapıldığını anlatır: *by encouraging* → teşvik ederek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "Only by",
+    "meaning": "ancak … -erek"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "teşvik etmek",
+   "note": null,
+   "form": "encourage + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "critical",
+   "pos": "adjective",
+   "wordId": "critical",
+   "sense": 0,
+   "context": "eleştirel",
+   "note": "*critical* \"eleştirel\" ve \"kritik, çok önemli\" demektir; burada \"eleştirel\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "critical thinking",
+    "meaning": "eleştirel düşünme"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "thinking",
+   "pos": "noun",
+   "wordId": "thinking",
+   "sense": 0,
+   "context": "düşünme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "critical thinking",
+    "meaning": "eleştirel düşünme"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "polite",
+   "pos": "adjective",
+   "wordId": "polite",
+   "sense": 0,
+   "context": "nazik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "discourse",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tartışma dili (söylem)",
+   "note": null,
+   "form": null,
+   "base": "söylem; tartışma, konuşma",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebiliriz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "hope",
+   "pos": "verb",
+   "wordId": "hope",
+   "sense": 0,
+   "context": "ummak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (kapatmayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "bridge",
+   "pos": "verb",
+   "wordId": "bridge",
+   "sense": 0,
+   "context": "kapatmak (köprü kurmak)",
+   "note": "*bridge* isim olarak \"köprü\"dür; burada fiil olarak kullanılmıştır: *bridge a gap* \"arayı kapatmak, uçurumu gidermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "bridge this gap",
+    "meaning": "bu uçurumu kapatmak (bridge a gap)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "bridge this gap",
+    "meaning": "bu uçurumu kapatmak (bridge a gap)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "gap",
+   "pos": "noun",
+   "wordId": "gap",
+   "sense": 0,
+   "context": "uçurum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "bridge this gap",
+    "meaning": "bu uçurumu kapatmak (bridge a gap)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "preserve",
+   "pos": "verb",
+   "wordId": "preserve",
+   "sense": 0,
+   "context": "korumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "democratic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "demokratik",
+   "note": null,
+   "form": null,
+   "base": "demokratik",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "value",
+   "pos": "noun",
+   "wordId": "value",
+   "sense": 0,
+   "context": "değerler",
+   "note": null,
+   "form": "value'nun çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

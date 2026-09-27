@@ -1,0 +1,823 @@
+{
+ "storyId": "story-c1-007",
+ "textHash": "83a66afbd01a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Minimalist akım, başarıyı biriktirmeyle tanımlayan tüketim kültürüne karşı bir tepkidir."
+  },
+  {
+   "tr": "İnsan gereksiz olanı çıkararak zihinsel berraklığa yer açar."
+  },
+  {
+   "tr": "Bu yalnızca bir tasarım tercihi değil, bir yaşam felsefesidir."
+  },
+  {
+   "tr": "Onu benimseyenler, maddi eşyaların yükünden kurtulmuş olarak çoğu zaman derin bir özgürlük duygusu yaşadıklarını söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "minimalist",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "minimalist",
+   "note": null,
+   "form": null,
+   "base": "minimalist, sadelikten yana",
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "minimalist movement",
+    "meaning": "minimalist akım"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "movement",
+   "pos": "noun",
+   "wordId": "movement",
+   "sense": 0,
+   "context": "akım",
+   "note": "*movement*'ın temel anlamı \"hareket\"tir; sanatta ve düşüncede \"akım\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "minimalist movement",
+    "meaning": "minimalist akım"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "reaction",
+   "pos": "noun",
+   "wordId": "reaction",
+   "sense": 0,
+   "context": "tepki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "reaction against",
+    "meaning": "-e karşı tepki"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "against",
+   "pos": "preposition",
+   "wordId": "against",
+   "sense": 0,
+   "context": "-e karşı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "reaction against",
+    "meaning": "-e karşı tepki"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "consumer",
+   "pos": "noun",
+   "wordId": "consumer",
+   "sense": 0,
+   "context": "tüketim (tüketici)",
+   "note": "*consumer*'ın temel anlamı \"tüketici\"dir; *consumer culture* \"tüketim kültürü\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "consumer culture",
+    "meaning": "tüketim kültürü"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "culture",
+   "pos": "noun",
+   "wordId": "culture",
+   "sense": 0,
+   "context": "kültür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "consumer culture",
+    "meaning": "tüketim kültürü"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-an (tanımlayan)",
+   "note": "*that* burada ilgi zamiridir ve önceki ismi niteler: *the culture that defines…* → … tanımlayan kültür.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "define",
+   "pos": "verb",
+   "wordId": "define",
+   "sense": 0,
+   "context": "tanımlayan",
+   "note": null,
+   "form": "define + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (-e göre)",
+   "note": "*define something by…* \"bir şeyi … ile tanımlamak, … ölçüsüyle değerlendirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "accumulation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "biriktirme",
+   "note": null,
+   "form": null,
+   "base": "birikim, biriktirme",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek (çıkararak)",
+   "note": "*by + -ing* bir şeyin nasıl yapıldığını anlatır: *By removing…* → … çıkararak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "remove",
+   "pos": "verb",
+   "wordId": "remove",
+   "sense": 0,
+   "context": "çıkarmak",
+   "note": null,
+   "form": "remove + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(… olanı)",
+   "note": "*the* + sıfat, o özelliği taşıyan şeyleri topluca anlatır: *the non-essential* → gereksiz olan(lar).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "non-essential",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gereksiz (olan)",
+   "note": "*non-* ön eki olumsuzluk katar: *essential* (gerekli, temel) → *non-essential* (gereksiz, temel olmayan).",
+   "form": null,
+   "base": "gereksiz, temel olmayan",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insan (kişi)",
+   "note": "*one* burada belirli bir kişiyi değil, genel olarak \"insan\"ı anlatır; resmî bir kullanımdır. Günlük dilde *you* tercih edilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "create",
+   "pos": "verb",
+   "wordId": "create",
+   "sense": 0,
+   "context": "açar (yaratır)",
+   "note": null,
+   "form": "create + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "yer (alan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (berraklığa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "mental",
+   "pos": "adjective",
+   "wordId": "mental",
+   "sense": 0,
+   "context": "zihinsel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "clarity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "berraklık",
+   "note": null,
+   "form": null,
+   "base": "berraklık, netlik",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil) … -dir",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not merely A but B* \"yalnızca A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*merely* \"sadece, yalnızca\" demektir; *only*'den daha resmîdir.",
+   "form": null,
+   "base": "sadece, yalnızca",
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "design",
+   "pos": "noun",
+   "wordId": "design",
+   "sense": 0,
+   "context": "tasarım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "choice",
+   "pos": "noun",
+   "wordId": "choice",
+   "sense": 0,
+   "context": "tercih (seçim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), … -dir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "lifestyle",
+   "pos": "noun",
+   "wordId": "lifestyle",
+   "sense": 0,
+   "context": "yaşam (tarzı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "philosophy",
+   "pos": "noun",
+   "wordId": "philosophy",
+   "sense": 0,
+   "context": "felsefe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 35,
+    "text": "not merely a design choice but a lifestyle philosophy",
+    "meaning": "yalnızca bir tasarım tercihi değil, bir yaşam felsefesi (not merely A but B)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "those",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-enler (… olanlar)",
+   "note": "*those who…* \"… olanlar, … -enler\" demektir: *those who embrace it* → onu benimseyenler.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "Those who",
+    "meaning": "… -enler"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "-en (benimseyen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "Those who",
+    "meaning": "… -enler"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "embrace",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "benimsemek",
+   "note": "*embrace*'in temel anlamı \"kucaklamak\"tır; bir fikir için \"benimsemek, sahiplenmek\" demektir.",
+   "form": null,
+   "base": "kucaklamak; benimsemek",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (minimalizmi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "söylüyor (bildiriyor)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "profound",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": "derin, köklü, çok etkili",
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "profound sense of freedom",
+    "meaning": "derin bir özgürlük duygusu"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu",
+   "note": "*a sense of …* \"bir … duygusu\" demektir: *a sense of freedom* → özgürlük duygusu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "profound sense of freedom",
+    "meaning": "derin bir özgürlük duygusu"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… duygusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "profound sense of freedom",
+    "meaning": "derin bir özgürlük duygusu"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "freedom",
+   "pos": "noun",
+   "wordId": "freedom",
+   "sense": 0,
+   "context": "özgürlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "profound sense of freedom",
+    "meaning": "derin bir özgürlük duygusu"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "-miş olarak",
+   "note": "*having + fiilin 3. hali*, ana eylemden önce tamamlanmış bir eylemi anlatır: *having released themselves* → kendilerini kurtarmış olarak. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have + -ing (having)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "having released themselves",
+    "meaning": "kendilerini kurtarmış olarak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "release",
+   "pos": "verb",
+   "wordId": "release",
+   "sense": 0,
+   "context": "kurtarmış (serbest bırakmış)",
+   "note": null,
+   "form": "release fiilinin 3. hali (released, -d)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "having released themselves",
+    "meaning": "kendilerini kurtarmış olarak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendilerini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "having released themselves",
+    "meaning": "kendilerini kurtarmış olarak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (yükünden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "burden",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yük",
+   "note": null,
+   "form": null,
+   "base": "yük, külfet",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (eşyaların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "material",
+   "pos": "adjective",
+   "wordId": "material",
+   "sense": 1,
+   "context": "maddi",
+   "note": "*material* isim olarak \"malzeme\", sıfat olarak \"maddi\" demektir; burada sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "material possessions",
+    "meaning": "maddi eşyalar, mal mülk"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "possession",
+   "pos": "noun",
+   "wordId": "possession",
+   "sense": 0,
+   "context": "eşyalar",
+   "note": null,
+   "form": "possession'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "material possessions",
+    "meaning": "maddi eşyalar, mal mülk"
+   }
+  }
+ ]
+}

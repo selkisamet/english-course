@@ -1,0 +1,815 @@
+{
+ "storyId": "story-a2-008",
+ "textHash": "029abbfa155e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün akşam arkadaşlarımı yemeğe davet ettim."
+  },
+  {
+   "tr": "Makarna yapmayı planladım."
+  },
+  {
+   "tr": "Suyu kaynattım ve sebzeleri hazırladım."
+  },
+  {
+   "tr": "Ama sosa çok fazla tuz kattım!"
+  },
+  {
+   "tr": "Tadı berbattı."
+  },
+  {
+   "tr": "Hemen yeni bir sos yaptım."
+  },
+  {
+   "tr": "Neyse ki ikincisi çok lezzetliydi."
+  },
+  {
+   "tr": "Arkadaşlarım yemeğe bayıldı ve işlerimiz, hobilerimiz hakkında harika bir sohbet ettik."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "dün (last night)",
+   "note": "*last night* \"dün gece, dün akşam\" demektir; *yesterday night* denmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last night",
+    "meaning": "dün akşam, dün gece"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece, akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last night",
+    "meaning": "dün akşam, dün gece"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet ettim",
+   "note": null,
+   "form": "invite + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (yemeğe)",
+   "note": "*invite someone for dinner* \"birini akşam yemeğine davet etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "for dinner",
+    "meaning": "akşam yemeğine"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "akşam yemeği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "for dinner",
+    "meaning": "akşam yemeğine"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "plan",
+   "pos": "verb",
+   "wordId": "plan",
+   "sense": 1,
+   "context": "planladım",
+   "note": "*plan to + fiil* \"… -meyi planlamak\" demektir.",
+   "form": "plan + -ed (geçmiş zaman; son harf n ikilenir: planned)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (yapmayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "cook",
+   "pos": "verb",
+   "wordId": "cook",
+   "sense": 0,
+   "context": "pişirmek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": null,
+   "form": null,
+   "base": "makarna",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "boil",
+   "pos": "verb",
+   "wordId": "boil",
+   "sense": 0,
+   "context": "kaynattım",
+   "note": null,
+   "form": "boil + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "prepare",
+   "pos": "verb",
+   "wordId": "prepare",
+   "sense": 0,
+   "context": "hazırladım",
+   "note": null,
+   "form": "prepare + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "vegetable",
+   "pos": "noun",
+   "wordId": "vegetable",
+   "sense": 0,
+   "context": "sebzeler",
+   "note": null,
+   "form": "vegetable'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak, ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "add",
+   "pos": "verb",
+   "wordId": "add",
+   "sense": 0,
+   "context": "kattım (ekledim)",
+   "note": "*add something to something* \"bir şeyi bir şeye eklemek, katmak\" demektir.",
+   "form": "add + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (gereğinden)",
+   "note": "*too*, sıfat ve zarflardan önce \"gereğinden fazla\" anlamı verir: *too much salt* → çok fazla tuz. *very*'den farklı olarak olumsuz bir durum bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "too much",
+    "meaning": "çok fazla (gereğinden fazla)"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "much",
+   "pos": "determiner",
+   "wordId": "much",
+   "sense": 0,
+   "context": "çok",
+   "note": "*much* sayılamayan isimlerle kullanılır (*much salt*); sayılabilenlerle *many* kullanılır (*many friends*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "too much",
+    "meaning": "çok fazla (gereğinden fazla)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "salt",
+   "pos": "noun",
+   "wordId": "salt",
+   "sense": 0,
+   "context": "tuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (sosa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "sauce",
+   "pos": "noun",
+   "wordId": "sauce",
+   "sense": 0,
+   "context": "sos",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (sos)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "taste",
+   "pos": "verb",
+   "wordId": "taste",
+   "sense": 1,
+   "context": "tadı … idi",
+   "note": "*taste* + sıfat \"tadı … olmak\" demektir: *It tasted terrible* → Tadı berbattı.",
+   "form": "taste + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "terrible",
+   "pos": "adjective",
+   "wordId": "terrible",
+   "sense": 0,
+   "context": "berbat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hemen, çabucak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptım",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "sauce",
+   "pos": "noun",
+   "wordId": "sauce",
+   "sense": 0,
+   "context": "sos",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "luckily",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "neyse ki",
+   "note": "*luckily*, *lucky* (şanslı) sıfatından *-ly* ekiyle türeyen bir zarftır.",
+   "form": null,
+   "base": "neyse ki, şans eseri",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "second",
+   "pos": "determiner",
+   "wordId": "second",
+   "sense": 0,
+   "context": "ikinci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "-si (ikincisi)",
+   "note": "*one* bir ismin tekrarını önlemek için kullanılır: *the second one* (= the second sauce) → ikincisi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "delicious",
+   "pos": "adjective",
+   "wordId": "delicious",
+   "sense": 0,
+   "context": "çok lezzetli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayıldı",
+   "note": "*love*'ın temel anlamı \"sevmek\"tir; bir şey için \"bayılmak, çok beğenmek\" demektir.",
+   "form": "love + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "meal",
+   "pos": "noun",
+   "wordId": "meal",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "ettik (sohbet)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; *have a conversation* \"sohbet etmek\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "had a wonderful conversation",
+    "meaning": "harika bir sohbet ettik (have a conversation: sohbet etmek)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "had a wonderful conversation",
+    "meaning": "harika bir sohbet ettik (have a conversation: sohbet etmek)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "wonderful",
+   "pos": "adjective",
+   "wordId": "wonderful",
+   "sense": 0,
+   "context": "harika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "had a wonderful conversation",
+    "meaning": "harika bir sohbet ettik (have a conversation: sohbet etmek)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "had a wonderful conversation",
+    "meaning": "harika bir sohbet ettik (have a conversation: sohbet etmek)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "işler",
+   "note": null,
+   "form": "job'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "hobby",
+   "pos": "noun",
+   "wordId": "hobby",
+   "sense": 0,
+   "context": "hobiler",
+   "note": null,
+   "form": "hobby'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

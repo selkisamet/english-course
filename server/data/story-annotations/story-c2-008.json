@@ -1,0 +1,924 @@
+{
+ "storyId": "story-c2-008",
+ "textHash": "dcc55d9a4c39",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Thoreau'nun, insanların çoğunun sessiz bir umutsuzluk içinde yaşadığı gözlemi, modern kurumsal dünyanın üzerinde bir gölge gibi duruyor."
+  },
+  {
+   "tr": "Bürokratik makinenin küçük bir parçası olan kahraman, ruhunun tekdüzelikle yavaş yavaş aşındığını fark eder."
+  },
+  {
+   "tr": "İsyanı gürültülü değil, içseldir: hayal gücünün sıradanlık tarafından ele geçirilmesine izin vermeyi reddetmek."
+  },
+  {
+   "tr": "Varoluşsal direnişin dokunaklı bir incelemesidir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Thoreau",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Thoreau'nun",
+   "note": "*Henry David Thoreau* (1817–1862) Amerikalı yazar ve düşünürdür; alıntı onun *Walden* adlı kitabından gelir.",
+   "form": "Thoreau + ’s (aitlik eki)",
+   "base": "(Amerikalı yazar ve düşünür)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "observation",
+   "pos": "noun",
+   "wordId": "observation",
+   "sense": 0,
+   "context": "gözlem",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(… diye) ki",
+   "note": "*that* burada gözlemin içeriğini verir: *the observation that…* → … (olduğu) gözlemi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the majority of",
+    "meaning": "-in çoğu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "majority",
+   "pos": "noun",
+   "wordId": "majority",
+   "sense": 0,
+   "context": "çoğunluk (çoğu)",
+   "note": "*the majority of* \"… -in çoğu, çoğunluğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the majority of",
+    "meaning": "-in çoğu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (insanların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the majority of",
+    "meaning": "-in çoğu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "insanlar",
+   "note": "*man*'in temel anlamı \"adam, erkek\"tir; eski ve edebî metinlerde *men* genel olarak \"insanlar\" anlamında kullanılır.",
+   "form": "man'in çoğulu (men, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "lead",
+   "pos": "verb",
+   "wordId": "lead",
+   "sense": 0,
+   "context": "sürmek (yaşamak)",
+   "note": "*lead*'in temel anlamı \"yol göstermek, önderlik etmek\"tir; *lead a life* \"bir hayat sürmek, yaşamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "lead lives of quiet desperation",
+    "meaning": "sessiz bir umutsuzluk içinde yaşamak (lead a life)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (f → ves: lives)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "lead lives of quiet desperation",
+    "meaning": "sessiz bir umutsuzluk içinde yaşamak (lead a life)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… içinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "lead lives of quiet desperation",
+    "meaning": "sessiz bir umutsuzluk içinde yaşamak (lead a life)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "lead lives of quiet desperation",
+    "meaning": "sessiz bir umutsuzluk içinde yaşamak (lead a life)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "desperation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "umutsuzluk",
+   "note": null,
+   "form": null,
+   "base": "umutsuzluk, çaresizlik",
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "lead lives of quiet desperation",
+    "meaning": "sessiz bir umutsuzluk içinde yaşamak (lead a life)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "hang",
+   "pos": "verb",
+   "wordId": "hang",
+   "sense": 0,
+   "context": "asılı duruyor",
+   "note": "*hang over something* mecazi olarak \"bir şeyin üzerine (kara bulut gibi) çökmek\" demektir.",
+   "form": "hang + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "hangs over",
+    "meaning": "üzerinde asılı durur, gölge gibi çöker"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "hangs over",
+    "meaning": "üzerinde asılı durur, gölge gibi çöker"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "modern",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "corporate",
+   "pos": "adjective",
+   "wordId": "corporate",
+   "sense": 0,
+   "context": "kurumsal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "corporate landscape",
+    "meaning": "kurumsal dünya"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "landscape",
+   "pos": "noun",
+   "wordId": "landscape",
+   "sense": 0,
+   "context": "dünya (manzara)",
+   "note": "*landscape*'in temel anlamı \"manzara, peyzaj\"dır; mecazi olarak bir alanın \"genel görünümü, dünyası\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "corporate landscape",
+    "meaning": "kurumsal dünya"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "shadow",
+   "pos": "noun",
+   "wordId": "shadow",
+   "sense": 0,
+   "context": "gölge",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "protagonist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kahraman",
+   "note": null,
+   "form": null,
+   "base": "ana karakter, başkahraman",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "İsimden sonra virgüller arasında gelen açıklama (*the protagonist, a small part…,*) o kişiyi tanıtır; Türkçede \"… olan kahraman\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "parça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-in (makinenin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "bureaucratic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bürokratik",
+   "note": null,
+   "form": null,
+   "base": "bürokratik",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "machine",
+   "pos": "noun",
+   "wordId": "machine",
+   "sense": 0,
+   "context": "makine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "fark eder (bulur)",
+   "note": "*find* + nesne + fiilin 3. hali \"bir şeyin … olduğunu fark etmek, görmek\" demektir.",
+   "form": "find + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "finds his soul slowly eroded",
+    "meaning": "ruhunun yavaş yavaş aşındığını fark eder (find + nesne + 3. hal)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "finds his soul slowly eroded",
+    "meaning": "ruhunun yavaş yavaş aşındığını fark eder (find + nesne + 3. hal)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "soul",
+   "pos": "noun",
+   "wordId": "soul",
+   "sense": 0,
+   "context": "ruh",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "finds his soul slowly eroded",
+    "meaning": "ruhunun yavaş yavaş aşındığını fark eder (find + nesne + 3. hal)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "finds his soul slowly eroded",
+    "meaning": "ruhunun yavaş yavaş aşındığını fark eder (find + nesne + 3. hal)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "erode",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aşınmış",
+   "note": "*erode*'un temel anlamı toprak ve kaya için \"aşındırmak\"tır; mecazi olarak bir şeyi \"yavaş yavaş yok etmek\" demektir.",
+   "form": "erode fiilinin 3. hali (eroded, -d)",
+   "base": "aşındırmak; aşınmak",
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "finds his soul slowly eroded",
+    "meaning": "ruhunun yavaş yavaş aşındığını fark eder (find + nesne + 3. hal)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (-le)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "monotony",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tekdüzelik",
+   "note": null,
+   "form": null,
+   "base": "tekdüzelik, monotonluk",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "rebellion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "isyan",
+   "note": null,
+   "form": null,
+   "base": "isyan, başkaldırı",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil) … -dir",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "not loud but internal",
+    "meaning": "gürültülü değil, içsel (not A but B)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "loud",
+   "pos": "adjective",
+   "wordId": "loud",
+   "sense": 0,
+   "context": "gürültülü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "not loud but internal",
+    "meaning": "gürültülü değil, içsel (not A but B)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(değil), …",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "not loud but internal",
+    "meaning": "gürültülü değil, içsel (not A but B)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "internal",
+   "pos": "adjective",
+   "wordId": "internal",
+   "sense": 0,
+   "context": "içsel",
+   "note": "Burada *internal* ile *a* arasında boşluk yerine uzun tire (—) vardır; tire, ardından gelen açıklamayı vurgular.",
+   "form": "internal; tireyle bitişik yazılmış \"a\"",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "not loud but internal",
+    "meaning": "gürültülü değil, içsel (not A but B)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "refusal",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "reddetme",
+   "note": "*refusal to + fiil* \"… -meyi reddetme\" demektir; *refuse* (reddetmek) fiilinden türer.",
+   "form": null,
+   "base": "ret, reddetme",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (vermeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "let",
+   "pos": "verb",
+   "wordId": "let",
+   "sense": 0,
+   "context": "izin vermek",
+   "note": "*let* + nesne + yalın fiil \"birinin/bir şeyin … yapmasına izin vermek\" demektir; edilgen hali *let something be done*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "imagination",
+   "pos": "noun",
+   "wordId": "imagination",
+   "sense": 0,
+   "context": "hayal gücü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": null,
+   "form": "be fiilinin yalın hali (be)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "ele geçirilmek",
+   "note": "*take over* \"ele geçirmek, kontrolü almak\" demektir; burada edilgen anlamdadır.",
+   "form": "take fiilinin 3. hali (taken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "over",
+   "pos": "adverb",
+   "wordId": "over",
+   "sense": 1,
+   "context": "(take over: ele geçirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "let his imagination be taken over",
+    "meaning": "hayal gücünün ele geçirilmesine izin vermek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(… olan)",
+   "note": "*the* + sıfat, o özelliği taşıyan şeyleri topluca anlatır: *the mundane* → sıradan olan(lar).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "mundane",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sıradanlık",
+   "note": null,
+   "form": null,
+   "base": "sıradan, gündelik, tekdüze",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "moving",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dokunaklı",
+   "note": "*moving* burada \"hareket eden\" değil, \"dokunaklı, duygulandırıcı\" demektir.",
+   "form": null,
+   "base": "dokunaklı, duygulandırıcı",
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "exploration",
+   "pos": "noun",
+   "wordId": "exploration",
+   "sense": 0,
+   "context": "inceleme (keşif)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (direnişin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "existential",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "varoluşsal",
+   "note": null,
+   "form": null,
+   "base": "varoluşsal",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "resistance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "direniş",
+   "note": null,
+   "form": null,
+   "base": "direniş, direnç",
+   "phrase": null
+  }
+ ]
+}

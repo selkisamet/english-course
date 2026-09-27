@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Check, Gauge, Languages, Lightbulb, Play, Square, X } from 'lucide-react'
 import WordPanel from '../components/WordPanel'
-import { fetchStories, translateText } from '../utils/api'
+import { fetchAnnotations, fetchStories, translateText } from '../utils/api'
 import { cleanWord, LEVEL_NAMES, readingMinutes, splitSentences, wordCount } from '../utils/format'
 import { readAloud } from '../utils/readAloud'
 import { canSpeak, speak, stopSpeaking } from '../utils/speech'
@@ -28,7 +28,7 @@ const splitToken = (token) => token.match(/^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$
 
 function useStoryText(text) {
   return useMemo(() => {
-    if (!text) return { tokens: [], offsets: [], spans: [], sentenceOf: () => '' }
+    if (!text) return { tokens: [], offsets: [], spans: [], sentenceOf: () => '', sentenceIndexOf: () => 0 }
 
     const tokens = text.split(/\s+/).filter(Boolean)
     let pos = 0
@@ -46,14 +46,15 @@ function useStoryText(text) {
       return i
     })
 
-    const sentenceOf = (index) => {
+    const sentenceIndexOf = (index) => {
       const offset = offsets[index]
       let found = 0
       starts.forEach((start, j) => {
         if (start <= offset) found = j
       })
-      return sentences[found]
+      return found
     }
+    const sentenceOf = (index) => sentences[sentenceIndexOf(index)]
 
     // Sesli okuma için her cümlenin kelime aralığı (yalnızca noktalamadan oluşan parçalar atlanır)
     const spans = sentences
@@ -66,7 +67,7 @@ function useStoryText(text) {
       })
       .filter(Boolean)
 
-    return { tokens, offsets, spans, sentenceOf }
+    return { tokens, offsets, spans, sentenceOf, sentenceIndexOf }
   }, [text])
 }
 
@@ -80,6 +81,7 @@ function Reader({ id }) {
   const [stories, setStories] = useState(null)
   const [error, setError] = useState(false)
 
+  const [annotations, setAnnotations] = useState(null)
   const [selected, setSelected] = useState(null)
   const [speakingIndex, setSpeakingIndex] = useState(null)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -96,6 +98,7 @@ function Reader({ id }) {
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
+    fetchAnnotations(id).then(setAnnotations)
     setLastStoryId(id)
     return () => {
       clearTimeout(restartRef.current)
@@ -105,7 +108,9 @@ function Reader({ id }) {
   }, [id])
 
   const story = stories?.find((s) => s.id === id)
-  const { tokens, offsets, spans, sentenceOf } = useStoryText(story?.text)
+  const { tokens, offsets, spans, sentenceOf, sentenceIndexOf } = useStoryText(story?.text)
+  // İşaretleme metinle uyuşmuyorsa (ör. kelime sayısı farklı) kullanılmaz
+  const annotation = annotations?.tokens?.length === tokens.length ? annotations : null
 
   const nextStory = useMemo(() => {
     if (!stories || !story) return null
@@ -212,6 +217,12 @@ function Reader({ id }) {
     setShowTranslation(next)
     if (!next || translation.status === 'done' || translation.status === 'loading') return
 
+    // Doğrulanmış cümle çevirileri varsa onları kullan
+    if (annotation) {
+      setTranslation({ status: 'done', text: annotation.sentences.map((s) => s.tr).join(' ') })
+      return
+    }
+
     setTranslation({ status: 'loading', text: '' })
     try {
       setTranslation({ status: 'done', text: await translateText(story.text) })
@@ -311,8 +322,10 @@ function Reader({ id }) {
               <p className={styles.text}>
                 {tokens.map((token, index) => {
                   const [before, core, after] = splitToken(token)
-                  const state =
-                    selected?.index === index ? 'selected' : speakingIndex === index ? 'speaking' : undefined
+                  const phrase = selected && annotation?.tokens[selected.index]?.phrase
+                  const inSelection =
+                    selected?.index === index || (phrase && index >= phrase.from && index <= phrase.to)
+                  const state = inSelection ? 'selected' : speakingIndex === index ? 'speaking' : undefined
                   return (
                     <span key={index}>
                       {before}
@@ -374,6 +387,8 @@ function Reader({ id }) {
               key={`${selected.index}-${selected.word}`}
               word={selected.word}
               sentence={selected.sentence}
+              annotation={annotation?.tokens[selected.index] || null}
+              sentenceTr={annotation?.sentences[sentenceIndexOf(selected.index)]?.tr}
               onClose={() => setSelected(null)}
             />
           ) : (

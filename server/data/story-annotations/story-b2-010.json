@@ -1,0 +1,802 @@
+{
+ "storyId": "story-b2-010",
+ "textHash": "073855f2d9bb",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün gece Sanayi Devrimi hakkında büyüleyici bir belgesel izledim."
+  },
+  {
+   "tr": "Belgesel, buhar makinesinin icadının toplumu sonsuza dek nasıl değiştirdiğini anlatıyordu."
+  },
+  {
+   "tr": "Ekonomik büyüme getirse de korkunç bir kirliliğe ve kötü çalışma koşullarına da yol açtı."
+  },
+  {
+   "tr": "Belgeselde, o dönemin sonuçlarıyla bugün hâlâ uğraştığımızı savunan tarihçilerle röportaj yapılmıştı."
+  },
+  {
+   "tr": "Çok öğreticiydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izledim",
+   "note": null,
+   "form": "watch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "fascinating",
+   "pos": "adjective",
+   "wordId": "fascinating",
+   "sense": 0,
+   "context": "büyüleyici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "documentary",
+   "pos": "noun",
+   "wordId": "documentary",
+   "sense": 0,
+   "context": "belgesel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "industrial",
+   "pos": "adjective",
+   "wordId": "industrial",
+   "sense": 0,
+   "context": "sanayi",
+   "note": "*the Industrial Revolution* (Sanayi Devrimi) tarihî bir dönemin adı olduğu için büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "Industrial Revolution",
+    "meaning": "Sanayi Devrimi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "revolution",
+   "pos": "noun",
+   "wordId": "revolution",
+   "sense": 0,
+   "context": "devrim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "Industrial Revolution",
+    "meaning": "Sanayi Devrimi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "dün (last night)",
+   "note": "*last night* \"dün gece, dün akşam\" demektir; *yesterday night* denmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "last night",
+    "meaning": "dün gece"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "last night",
+    "meaning": "dün gece"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (belgesel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "anlatıyordu (açıkladı)",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "invention",
+   "pos": "noun",
+   "wordId": "invention",
+   "sense": 0,
+   "context": "icat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (makinesinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "steam",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "buhar",
+   "note": null,
+   "form": null,
+   "base": "buhar",
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "steam engine",
+    "meaning": "buhar makinesi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "engine",
+   "pos": "noun",
+   "wordId": "engine",
+   "sense": 0,
+   "context": "makine (motor)",
+   "note": "*engine* \"motor\" demektir; *steam engine* \"buhar makinesi\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "steam engine",
+    "meaning": "buhar makinesi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirdi",
+   "note": null,
+   "form": "change + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "forever",
+   "pos": "adverb",
+   "wordId": "forever",
+   "sense": 0,
+   "context": "sonsuza dek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-se de",
+   "note": "*while* \"-ken\" demektir; iki zıt durumu karşılaştırırken \"… -se de, … iken\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (buhar makinesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdi",
+   "note": null,
+   "form": "bring fiilinin geçmiş zaman hali (brought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "economic",
+   "pos": "adjective",
+   "wordId": "economic",
+   "sense": 0,
+   "context": "ekonomik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "economic growth",
+    "meaning": "ekonomik büyüme"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "growth",
+   "pos": "noun",
+   "wordId": "growth",
+   "sense": 0,
+   "context": "büyüme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "economic growth",
+    "meaning": "ekonomik büyüme"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "cause",
+   "pos": "verb",
+   "wordId": "cause",
+   "sense": 1,
+   "context": "yol açtı",
+   "note": null,
+   "form": "cause + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "terrible",
+   "pos": "adjective",
+   "wordId": "terrible",
+   "sense": 0,
+   "context": "korkunç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "pollution",
+   "pos": "noun",
+   "wordId": "pollution",
+   "sense": 0,
+   "context": "kirlilik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "poor",
+   "pos": "adjective",
+   "wordId": "poor",
+   "sense": 0,
+   "context": "kötü",
+   "note": "*poor*'un temel anlamı \"fakir, yoksul\"dur; koşullar ve kalite için \"kötü, yetersiz\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "working",
+   "pos": "adjective",
+   "wordId": "working",
+   "sense": 0,
+   "context": "çalışma (iş ile ilgili)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "working conditions",
+    "meaning": "çalışma koşulları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "condition'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "working conditions",
+    "meaning": "çalışma koşulları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "documentary",
+   "pos": "noun",
+   "wordId": "documentary",
+   "sense": 0,
+   "context": "belgesel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "interview",
+   "pos": "verb",
+   "wordId": "interview",
+   "sense": 1,
+   "context": "röportaj yaptı",
+   "note": null,
+   "form": "interview + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "historian",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tarihçiler",
+   "note": null,
+   "form": "historian'ın çoğulu",
+   "base": "tarihçi",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "-en (savunan)",
+   "note": "*who* burada ilgi zamiridir ve önceki insanları niteler: *historians who argued* → savunan tarihçiler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savundu",
+   "note": "*argue*'nun temel anlamı \"tartışmak\"tır; *argue that…* ise \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": "argue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are + -ing* şu dönemde devam eden eylemi anlatır: *we are still dealing with* → hâlâ uğraşıyoruz.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "are still dealing with",
+    "meaning": "hâlâ uğraşıyoruz (deal with: ile uğraşmak)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "are still dealing with",
+    "meaning": "hâlâ uğraşıyoruz (deal with: ile uğraşmak)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "deal",
+   "pos": "verb",
+   "wordId": "deal",
+   "sense": 0,
+   "context": "uğraşıyoruz",
+   "note": "*deal with something* \"bir şeyle uğraşmak, ilgilenmek\" demektir.",
+   "form": "deal + -ing",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "are still dealing with",
+    "meaning": "hâlâ uğraşıyoruz (deal with: ile uğraşmak)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (deal with)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "are still dealing with",
+    "meaning": "hâlâ uğraşıyoruz (deal with: ile uğraşmak)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "consequence",
+   "pos": "noun",
+   "wordId": "consequence",
+   "sense": 0,
+   "context": "sonuçlar",
+   "note": "*consequence* genellikle bir olayın (çoğu zaman olumsuz) sonucunu anlatır.",
+   "form": "consequence'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (dönemin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "that",
+   "pos": "determiner",
+   "wordId": "that",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "era",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dönem",
+   "note": null,
+   "form": null,
+   "base": "çağ, dönem",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (belgesel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "educational",
+   "pos": "adjective",
+   "wordId": "educational",
+   "sense": 0,
+   "context": "öğretici (eğitici)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

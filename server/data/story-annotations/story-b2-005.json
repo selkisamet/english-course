@@ -1,0 +1,833 @@
+{
+ "storyId": "story-b2-005",
+ "textHash": "4384886bd210",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün Londra'ya uçmamız gerekiyordu ama uçuşumuz şiddetli bir fırtına yüzünden iptal edildi."
+  },
+  {
+   "tr": "Havalimanında on saat mahsur kaldık."
+  },
+  {
+   "tr": "Havayolu personeli bunalmıştı ve doğru bilgi veremedi."
+  },
+  {
+   "tr": "Sonunda bize bir otel odası verildi."
+  },
+  {
+   "tr": "Sinir bozucu bir deneyimdi ama çok hoş bir çiftle tanıştık ve bütün gece onlarla kâğıt oynadık."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "were supposed to",
+    "meaning": "-memiz gerekiyordu (be supposed to)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "suppose",
+   "pos": "verb",
+   "wordId": "suppose",
+   "sense": 0,
+   "context": "gerekiyordu (be supposed to)",
+   "note": "*suppose*'un temel anlamı \"sanmak, varsaymak\"tır; *be supposed to + fiil* ise planlanmış ya da beklenen bir şeyi anlatır: \"… -mesi gerekiyordu\".",
+   "form": "suppose fiilinin 3. hali (supposed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "were supposed to",
+    "meaning": "-memiz gerekiyordu (be supposed to)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (uçmamız)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "were supposed to",
+    "meaning": "-memiz gerekiyordu (be supposed to)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "fly",
+   "pos": "verb",
+   "wordId": "fly",
+   "sense": 0,
+   "context": "uçmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (Londra'ya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "London",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Londra",
+   "note": null,
+   "form": null,
+   "base": "(İngiltere'nin başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "flight",
+   "pos": "noun",
+   "wordId": "flight",
+   "sense": 0,
+   "context": "uçuş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edildi)",
+   "note": "*was/were + fiilin 3. hali* geçmiş zamanda edilgen yapı kurar: *was cancelled* → iptal edildi.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "was cancelled",
+    "meaning": "iptal edildi (edilgen)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "cancel",
+   "pos": "verb",
+   "wordId": "cancel",
+   "sense": 0,
+   "context": "iptal edildi",
+   "note": "*cancelled* İngiliz yazımıdır; Amerikan İngilizcesinde *canceled* yazılır.",
+   "form": "cancel fiilinin 3. hali (cancelled; İngiliz yazımında l ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "was cancelled",
+    "meaning": "iptal edildi (edilgen)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "due",
+   "pos": "adjective",
+   "wordId": "due",
+   "sense": 0,
+   "context": "yüzünden (due to)",
+   "note": "*due*'nun temel anlamı \"beklenen, zamanı gelmiş\"tir; *due to* ise bir kalıptır ve \"yüzünden, nedeniyle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(due to: yüzünden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "severe",
+   "pos": "adjective",
+   "wordId": "severe",
+   "sense": 0,
+   "context": "şiddetli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "storm",
+   "pos": "noun",
+   "wordId": "storm",
+   "sense": 0,
+   "context": "fırtına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dık (kaldık)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "stranded",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mahsur (kalmış)",
+   "note": "*be stranded* bir yerden ayrılamayıp \"mahsur kalmak\" demektir.",
+   "form": null,
+   "base": "mahsur kalmış",
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (havalimanında)",
+   "note": "Havalimanı, istasyon gibi belirli noktalar için *at* kullanılır: *at the airport*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "airport",
+   "pos": "noun",
+   "wordId": "airport",
+   "sense": 0,
+   "context": "havalimanı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(süre) boyunca",
+   "note": "Süre bildirirken *for* kullanılır: *for ten hours* → on saat (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "airline",
+   "pos": "noun",
+   "wordId": "airline",
+   "sense": 0,
+   "context": "havayolu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "staff",
+   "pos": "noun",
+   "wordId": "staff",
+   "sense": 0,
+   "context": "personel",
+   "note": "*staff* bir grup insanı anlatır; İngiliz İngilizcesinde çoğul fiille de kullanılabilir: *the staff were*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "overwhelmed",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bunalmış",
+   "note": "*overwhelmed* çok fazla iş ya da duygu karşısında \"bunalmış, altından kalkamayan\" demektir.",
+   "form": null,
+   "base": "bunalmış, altında ezilmiş",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-emedi",
+   "note": "*couldn't*, *could not*'ın kısaltmasıdır; *could* ise *can*'in geçmiş halidir.",
+   "form": "can fiilinin geçmiş hali + not (couldn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "provide",
+   "pos": "verb",
+   "wordId": "provide",
+   "sense": 0,
+   "context": "vermek (sağlamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "accurate",
+   "pos": "adjective",
+   "wordId": "accurate",
+   "sense": 0,
+   "context": "doğru (kesin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": "*information* sayılamayan bir isimdir; çoğul *-s* almaz ve *an* ile kullanılmaz (✗ an information, ✗ informations).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": "*eventually* \"sonunda, en sonunda\" demektir; Türkçedeki \"eventüel\" (muhtemel) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz (bize)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(verildi)",
+   "note": "*We were given a room* (edilgen) \"Bize bir oda verildi\" demektir; İngilizcede alıcı kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "were given",
+    "meaning": "bize verildi (edilgen)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verildi",
+   "note": null,
+   "form": "give fiilinin 3. hali (given, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "were given",
+    "meaning": "bize verildi (edilgen)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "frustrating",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sinir bozucu",
+   "note": "*frustrating* bir şeyin sinir bozucu olduğunu anlatır; kişinin hissi ise *frustrated*'dir (hayal kırıklığına uğramış, bıkmış).",
+   "form": null,
+   "base": "sinir bozucu, bıktırıcı",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanıştık",
+   "note": "*meet*'in temel anlamı \"buluşmak, karşılaşmak\"tır; ilk kez görülen biri için \"tanışmak\" demektir.",
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "lovely",
+   "pos": "adjective",
+   "wordId": "lovely",
+   "sense": 0,
+   "context": "çok hoş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "couple",
+   "pos": "noun",
+   "wordId": "couple",
+   "sense": 0,
+   "context": "çift",
+   "note": "*a couple* \"bir çift (sevgili, evli)\" demektir; *a couple of* ise \"birkaç\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynadık",
+   "note": null,
+   "form": "play + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "played cards",
+    "meaning": "kâğıt oynadık"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "card",
+   "pos": "noun",
+   "wordId": "card",
+   "sense": 0,
+   "context": "kâğıt (iskambil)",
+   "note": "*play cards* \"iskambil oynamak, kâğıt oynamak\" demektir.",
+   "form": "card'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "played cards",
+    "meaning": "kâğıt oynadık"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (onlarla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (onlarla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": "*all night* \"bütün gece\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "all night",
+    "meaning": "bütün gece"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "all night",
+    "meaning": "bütün gece"
+   }
+  }
+ ]
+}

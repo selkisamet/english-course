@@ -1,0 +1,882 @@
+{
+ "storyId": "story-b2-003",
+ "textHash": "4a5c55f1e685",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Şehir merkezinde yaşamanın avantajları var ama sürekli gürültü büyük bir dezavantaj."
+  },
+  {
+   "tr": "Sarah yakındaki inşaat çalışmaları yüzünden bir süredir uyumakta zorlanıyor."
+  },
+  {
+   "tr": "Belediye meclisine resmî bir şikâyette bulundu ama hiçbir şey değişmedi."
+  },
+  {
+   "tr": "Banliyöye taşınmayı düşünüyor."
+  },
+  {
+   "tr": "Şehrin sunduğu kolaylıkları özleyecek olsa da iç huzuru daha önemli."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşamak",
+   "note": "Cümlenin başındaki *-ing*'li fiil isim gibi kullanılır ve özne olur (gerund): *Living in the city center has…* → Şehir merkezinde yaşamanın … var.",
+   "form": "live + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (merkezinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "city center",
+    "meaning": "şehir merkezi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "center",
+   "pos": "noun",
+   "wordId": "centre",
+   "sense": 0,
+   "context": "merkez",
+   "note": "*center* Amerikan yazımıdır; İngiliz İngilizcesinde *centre* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "city center",
+    "meaning": "şehir merkezi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (avantajları var)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; Türkçede \"-in … -ı var\" diye çevrilir: *has its advantages* → avantajları var.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (kendi)",
+   "note": "*its* eşyalar, yerler ve durumlar için iyelik bildirir; *it's* (= it is) ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "advantage",
+   "pos": "noun",
+   "wordId": "advantage",
+   "sense": 0,
+   "context": "avantajlar",
+   "note": null,
+   "form": "advantage'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "constant",
+   "pos": "adjective",
+   "wordId": "constant",
+   "sense": 0,
+   "context": "sürekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "gürültü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "major",
+   "pos": "adjective",
+   "wordId": "major",
+   "sense": 0,
+   "context": "büyük (önemli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "disadvantage",
+   "pos": "noun",
+   "wordId": "disadvantage",
+   "sense": 0,
+   "context": "dezavantaj",
+   "note": "*dis-* ön eki bir kelimeyi zıt anlamlı yapar: *advantage* (avantaj) → *disadvantage* (dezavantaj).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "Sarah",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sarah",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(bir süredir)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "has been struggling",
+    "meaning": "bir süredir zorlanıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "has been struggling",
+    "meaning": "bir süredir zorlanıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "zorlanıyor",
+   "note": "*struggle to + fiil* \"… -mekte zorlanmak\" demektir: *struggling to sleep* → uyumakta zorlanıyor.",
+   "form": "struggle + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "has been struggling",
+    "meaning": "bir süredir zorlanıyor (present perfect continuous)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mekte (uyumakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "due",
+   "pos": "adjective",
+   "wordId": "due",
+   "sense": 0,
+   "context": "yüzünden (due to)",
+   "note": "*due*'nun temel anlamı \"beklenen, zamanı gelmiş\"tir; *due to* ise bir kalıptır ve \"yüzünden, nedeniyle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(due to: yüzünden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "due to",
+    "meaning": "yüzünden, nedeniyle"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "construction",
+   "pos": "noun",
+   "wordId": "construction",
+   "sense": 0,
+   "context": "inşaat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "construction work",
+    "meaning": "inşaat çalışması"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "çalışma(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "construction work",
+    "meaning": "inşaat çalışması"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "nearby",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yakındaki",
+   "note": "*nearby* isimden sonra geldiğinde \"yakındaki\" demektir: *the construction work nearby* → yakındaki inşaat çalışması.",
+   "form": null,
+   "base": "yakında, yakındaki",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "file",
+   "pos": "verb",
+   "wordId": "file",
+   "sense": 1,
+   "context": "bulundu (şikâyette)",
+   "note": "*file*'ın temel anlamı \"dosyalamak\"tır; *file a complaint* \"resmî şikâyette bulunmak\" demektir.",
+   "form": "file fiilinin 3. hali (filed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "filed a formal complaint",
+    "meaning": "resmî şikâyette bulundu (file a complaint)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "filed a formal complaint",
+    "meaning": "resmî şikâyette bulundu (file a complaint)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "formal",
+   "pos": "adjective",
+   "wordId": "formal",
+   "sense": 0,
+   "context": "resmî",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "filed a formal complaint",
+    "meaning": "resmî şikâyette bulundu (file a complaint)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "complaint",
+   "pos": "noun",
+   "wordId": "complaint",
+   "sense": 0,
+   "context": "şikâyet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "filed a formal complaint",
+    "meaning": "resmî şikâyette bulundu (file a complaint)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-e (meclise)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "council",
+   "pos": "noun",
+   "wordId": "council",
+   "sense": 0,
+   "context": "belediye meclisi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "yine de, ama",
+   "note": "*yet* bağlaç olarak \"yine de, ama\" demektir; zarf olarak olumsuz cümlelerde \"henüz\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "nothing",
+   "pos": "pronoun",
+   "wordId": "nothing",
+   "sense": 0,
+   "context": "hiçbir şey",
+   "note": "*nothing* kendisi olumsuz anlam taşır, bu yüzden fiil olumlu kalır: *nothing has changed* → hiçbir şey değiş**me**di.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değişmedi",
+   "note": null,
+   "form": "change fiilinin 3. hali (changed, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are + -ing* şu sıralarda devam eden eylemi anlatır: *is considering* → düşünüyor.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "düşünüyor",
+   "note": "*consider* + *-ing*'li fiil \"… -meyi düşünmek (değerlendirmek)\" demektir.",
+   "form": "consider + -ing",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "considering moving",
+    "meaning": "taşınmayı düşünüyor (consider + -ing)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşınmak",
+   "note": "*move*'un temel anlamı \"hareket etmek\"tir; ev için \"taşınmak\" demektir.",
+   "form": "move + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "considering moving",
+    "meaning": "taşınmayı düşünüyor (consider + -ing)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (banliyöye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "suburb",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "banliyö",
+   "note": "*the suburbs* şehir merkezinin dışındaki yerleşim bölgeleri, \"banliyö\" demektir.",
+   "form": "suburb'ün çoğulu",
+   "base": "banliyö, şehir dışı yerleşim bölgesi",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de (-e rağmen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-ecek (özleyecek)",
+   "note": "*would* burada varsayımsal bir sonucu anlatır: taşınırsa şehri özleyecektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özlemek",
+   "note": "*miss* \"kaçırmak\" ve \"özlemek\" demektir; burada \"özlemek\"tir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "convenience",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kolaylık",
+   "note": null,
+   "form": null,
+   "base": "kolaylık, rahatlık, elverişlilik",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şehrin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "peace",
+   "pos": "noun",
+   "wordId": "peace",
+   "sense": 0,
+   "context": "huzur",
+   "note": "*peace*'in temel anlamı \"barış\"tır; *peace of mind* \"iç huzuru, gönül rahatlığı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "peace of mind",
+    "meaning": "iç huzuru, gönül rahatlığı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(peace of mind: iç huzuru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "peace of mind",
+    "meaning": "iç huzuru, gönül rahatlığı"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin (iç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "peace of mind",
+    "meaning": "iç huzuru, gönül rahatlığı"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "important",
+   "pos": "adjective",
+   "wordId": "important",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

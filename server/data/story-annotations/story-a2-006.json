@@ -1,0 +1,860 @@
+{
+ "storyId": "story-a2-006",
+ "textHash": "cde1a7791389",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Cumartesi günü Bay Smith arabayla kırsala gitmek istedi."
+  },
+  {
+   "tr": "Arabasına bindi ama motor çalışmadı."
+  },
+  {
+   "tr": "Kaputun altına baktı ama nasıl tamir edeceğini bilmiyordu."
+  },
+  {
+   "tr": "Bir tamirci çağırdı."
+  },
+  {
+   "tr": "Tamirci bir saat sonra geldi ve sorunu hızla giderdi."
+  },
+  {
+   "tr": "Sadece akü bitmişti."
+  },
+  {
+   "tr": "Bay Smith geç kaldı ama yine de gününün tadını çıkardı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (cumartesi günü)",
+   "note": "Günlerden önce *on* kullanılır: *on Saturday* → cumartesi (günü).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Mr.",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr.* erkeklerin soyadından önce kullanılan unvandır; kadınlar için *Mrs.* (evli) ya da *Ms.* kullanılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Smith",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Smith",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedi",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gitmek)",
+   "note": "*want to + fiil* \"… -mek istemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "drive",
+   "pos": "verb",
+   "wordId": "drive",
+   "sense": 0,
+   "context": "arabayla gitmek",
+   "note": "*drive*'ın temel anlamı \"araba sürmek\"tir; *drive to* bir yere \"arabayla gitmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kırsala)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "countryside",
+   "pos": "noun",
+   "wordId": "countryside",
+   "sense": 0,
+   "context": "kırsal bölge, kır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "bindi",
+   "note": "*get*'in pek çok anlamı vardır; *get into a car* \"arabaya binmek\" demektir.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "got into",
+    "meaning": "bindi (get into: arabaya binmek)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (arabasına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "got into",
+    "meaning": "bindi (get into: arabaya binmek)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (arabası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "engine",
+   "pos": "noun",
+   "wordId": "engine",
+   "sense": 0,
+   "context": "motor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur: *did not start* → çalışmadı.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "did not start",
+    "meaning": "çalışmadı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-ma (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "did not start",
+    "meaning": "çalışmadı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "çalışmak (motor)",
+   "note": "*start*'ın temel anlamı \"başlamak\"tır; motor ve araba için \"çalışmak, çalıştırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "did not start",
+    "meaning": "çalışmadı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "check",
+   "pos": "verb",
+   "wordId": "check",
+   "sense": 0,
+   "context": "kontrol etti (baktı)",
+   "note": null,
+   "form": "check + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "hood",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kaput",
+   "note": "Arabanın motor kapağına Amerikan İngilizcesinde *hood*, İngiliz İngilizcesinde *bonnet* denir.",
+   "form": null,
+   "base": "kaput (ABD); kapüşon",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mıyordu)",
+   "note": "*didn't*, *did not*'ın kısaltmasıdır.",
+   "form": "did + not kısaltması (didn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to + fiil* \"nasıl … -ileceği\" demektir: *how to fix it* → nasıl tamir edileceği.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "how to fix",
+    "meaning": "nasıl tamir edileceği"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(how to: nasıl -eceği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "how to fix",
+    "meaning": "nasıl tamir edileceği"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "fix",
+   "pos": "verb",
+   "wordId": "fix",
+   "sense": 0,
+   "context": "tamir etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "how to fix",
+    "meaning": "nasıl tamir edileceği"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "çağırdı (telefonla)",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "mechanic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tamirci",
+   "note": null,
+   "form": null,
+   "base": "tamirci, (oto) tamircisi",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "mechanic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tamirci",
+   "note": null,
+   "form": null,
+   "base": "tamirci, (oto) tamircisi",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *an* gelir; *hour*'da h okunmadığı için *an hour* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süreden sonra gelen *later* \"… sonra\" demektir: *an hour later* → bir saat sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "repair",
+   "pos": "verb",
+   "wordId": "repair",
+   "sense": 0,
+   "context": "giderdi (onardı)",
+   "note": null,
+   "form": "repair + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hızla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (sorun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "sadece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "dead",
+   "pos": "adjective",
+   "wordId": "dead",
+   "sense": 0,
+   "context": "bitmiş (boş)",
+   "note": "*dead*'in temel anlamı \"ölü\"dür; pil ve akü için \"bitmiş, boşalmış\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "dead battery",
+    "meaning": "bitmiş akü"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "battery",
+   "pos": "noun",
+   "wordId": "battery",
+   "sense": 0,
+   "context": "akü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "dead battery",
+    "meaning": "bitmiş akü"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "Mr.",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": null,
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "Smith",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Smith",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (kaldı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "late",
+   "pos": "adjective",
+   "wordId": "late",
+   "sense": 0,
+   "context": "geç kalmış",
+   "note": "*be late* \"geç kalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "yine de",
+   "note": "*still*'in temel anlamı \"hâlâ\"dır; zıtlık bildiren cümlelerde \"yine de\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "tadını çıkardı",
+   "note": null,
+   "form": "enjoy + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (günü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

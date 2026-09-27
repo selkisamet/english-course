@@ -1,0 +1,921 @@
+{
+ "storyId": "story-b2-001",
+ "textHash": "920d5a7dd588",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Elena yerel tarihi araştırırken bir rafın arkasına saklanmış tozlu bir kitap buldu."
+  },
+  {
+   "tr": "Kitapta, Clara adında bir kadının 19. yüzyılda yazdığı mektuplar vardı."
+  },
+  {
+   "tr": "Elena, Clara'nın bir hazine saklamış olduğunu fark etti."
+  },
+  {
+   "tr": "İpuçlarını çözdükten sonra Elena saat kulesinin yakınını kazdı ve bir kutu altın para buldu."
+  },
+  {
+   "tr": "Hazinenin herkes görebilsin diye müzeye bağışlanması gerektiğine karar verdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* iki eylemin aynı anda olduğunu anlatır ve genellikle *-ing*'li süreklilik zamanıyla kullanılır: *While Elena was researching* → Elena araştırırken.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were + -ing* geçmişte bir süre devam eden eylemi anlatır; genellikle kısa bir olay (*discovered*) bu eylemi böler.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "was researching",
+    "meaning": "araştırıyordu (geçmişte süren eylem)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "research",
+   "pos": "verb",
+   "wordId": "research",
+   "sense": 1,
+   "context": "araştırıyordu",
+   "note": null,
+   "form": "research + -ing",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "was researching",
+    "meaning": "araştırıyordu (geçmişte süren eylem)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": "*history* geçmişte olanlar anlamında \"tarih\"tir; takvimdeki tarih ise *date*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "buldu (keşfetti)",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "dusty",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "tozlu",
+   "note": "*-y* eki isimden sıfat yapar: *dust* (toz) → *dusty* (tozlu).",
+   "form": null,
+   "base": "tozlu",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklanmış",
+   "note": "Burada *hidden* sıfat gibi kullanılır ve edilgen anlam taşır: *a book hidden behind a shelf* → rafın arkasına saklanmış bir kitap.",
+   "form": "hide fiilinin 3. hali (hidden, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "hidden behind a shelf",
+    "meaning": "bir rafın arkasına saklanmış"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "behind",
+   "pos": "preposition",
+   "wordId": "behind",
+   "sense": 0,
+   "context": "arkasına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "hidden behind a shelf",
+    "meaning": "bir rafın arkasına saklanmış"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "hidden behind a shelf",
+    "meaning": "bir rafın arkasına saklanmış"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "shelf",
+   "pos": "noun",
+   "wordId": "shelf",
+   "sense": 0,
+   "context": "raf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "hidden behind a shelf",
+    "meaning": "bir rafın arkasına saklanmış"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kitap)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "contain",
+   "pos": "verb",
+   "wordId": "contain",
+   "sense": 0,
+   "context": "içeriyordu (vardı)",
+   "note": null,
+   "form": "contain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektuplar",
+   "note": "*letter* hem \"mektup\" hem \"harf\" demektir; burada \"mektup\"tur.",
+   "form": "letter'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (kalma)",
+   "note": "Bir döneme ait olmayı anlatırken *from* \"… -den kalma\" demektir: *letters from the 19th century* → 19. yüzyıldan kalma mektuplar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Yüzyıllardan önce *the* kullanılır: *the 19th century*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "19th",
+   "pos": "number",
+   "wordId": null,
+   "sense": null,
+   "context": "19. (on dokuzuncu)",
+   "note": null,
+   "form": null,
+   "base": "on dokuzuncu (nineteenth)",
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazılmış",
+   "note": "*written by* \"… tarafından yazılmış\" demektir ve edilgen anlam taşır.",
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "written by",
+    "meaning": "tarafından yazılmış"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": "Edilgen yapılarda *by* işi yapanı gösterir ve \"tarafından\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "written by",
+    "meaning": "tarafından yazılmış"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adında",
+   "note": "*named* \"… adında\" demektir: *a woman named Clara* → Clara adında bir kadın.",
+   "form": "name fiilinin geçmiş ortacı (-d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "Clara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Clara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "realize + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "Clara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Clara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir andan (fark etmesinden) daha önce olan eylemi anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "had hidden",
+    "meaning": "saklamıştı (past perfect)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklamış",
+   "note": null,
+   "form": "hide fiilinin 3. hali (hidden, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "had hidden",
+    "meaning": "saklamıştı (past perfect)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "treasure",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hazine",
+   "note": null,
+   "form": null,
+   "base": "hazine",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "Edattan sonra fiil *-ing* alır: *After interpreting the clues* → İpuçlarını yorumladıktan sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "interpret",
+   "pos": "verb",
+   "wordId": "interpret",
+   "sense": 0,
+   "context": "çözmek (yorumlamak)",
+   "note": null,
+   "form": "interpret + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "clue",
+   "pos": "noun",
+   "wordId": "clue",
+   "sense": 0,
+   "context": "ipuçları",
+   "note": null,
+   "form": "clue'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "dig",
+   "pos": "verb",
+   "wordId": "dig",
+   "sense": 0,
+   "context": "kazdı",
+   "note": null,
+   "form": "dig fiilinin geçmiş zaman hali (dug, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "clock",
+   "pos": "noun",
+   "wordId": "clock",
+   "sense": 0,
+   "context": "saat",
+   "note": "*clock* duvar ve kule saatidir; kol saati *watch*'tur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "clock tower",
+    "meaning": "saat kulesi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "tower",
+   "pos": "noun",
+   "wordId": "tower",
+   "sense": 0,
+   "context": "kule",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "clock tower",
+    "meaning": "saat kulesi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*found*, *find* fiilinin geçmiş halidir; ayrıca \"kurmak\" anlamında ayrı bir *found* fiili vardır.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "box",
+   "pos": "noun",
+   "wordId": "box",
+   "sense": 0,
+   "context": "kutu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bir kutu … )",
+   "note": "*a box of* \"bir kutu …\" demektir; *of* burada içindekini gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "gold",
+   "pos": "adjective",
+   "wordId": "gold",
+   "sense": 1,
+   "context": "altın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "gold coins",
+    "meaning": "altın paralar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "coin",
+   "pos": "noun",
+   "wordId": "coin",
+   "sense": 0,
+   "context": "madeni paralar",
+   "note": null,
+   "form": "coin'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "gold coins",
+    "meaning": "altın paralar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "treasure",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hazine",
+   "note": null,
+   "form": null,
+   "base": "hazine",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli (gerektiğine)",
+   "note": "*should be + fiilin 3. hali* edilgen bir tavsiye bildirir: *should be donated* → bağışlanmalı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should be donated",
+    "meaning": "bağışlanmalı (edilgen)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*be + fiilin 3. hali* edilgen yapı kurar: işi kimin yaptığı değil, işin kendisi önemlidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should be donated",
+    "meaning": "bağışlanmalı (edilgen)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "donate",
+   "pos": "verb",
+   "wordId": "donate",
+   "sense": 0,
+   "context": "bağışlanmak",
+   "note": null,
+   "form": "donate fiilinin 3. hali (donated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should be donated",
+    "meaning": "bağışlanmalı (edilgen)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (müzeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (diye)",
+   "note": "*for someone to do something* \"birinin bir şeyi yapması için\" demektir: *for everyone to see* → herkes görebilsin diye.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "for everyone to see",
+    "meaning": "herkes görebilsin diye"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "for everyone to see",
+    "meaning": "herkes görebilsin diye"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-sin diye (görmesi için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "for everyone to see",
+    "meaning": "herkes görebilsin diye"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "for everyone to see",
+    "meaning": "herkes görebilsin diye"
+   }
+  }
+ ]
+}

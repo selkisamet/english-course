@@ -1,0 +1,808 @@
+{
+ "storyId": "story-a2-005",
+ "textHash": "da1e1d0b1af0",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İki gece önce çok garip bir rüya gördüm."
+  },
+  {
+   "tr": "Rüyamda kasabamın üzerinde uçabiliyordum."
+  },
+  {
+   "tr": "Tatlı şekerden yapılmış bir bulutun üzerine indim."
+  },
+  {
+   "tr": "Birden dev bir kuş belirdi ve \"Uyan!\" dedi."
+  },
+  {
+   "tr": "Sonra gözlerimi açtım."
+  },
+  {
+   "tr": "Saat sabah 7'ydi ve alarmım çalıyordu."
+  },
+  {
+   "tr": "Yorgundum ama bu komik rüya beni eğlendirmişti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two nights ago",
+    "meaning": "iki gece önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": "İngilizcede birden fazla sayıdan sonra isim çoğul olur (*two nights*); Türkçede tekil kalır (iki gece).",
+   "form": "night'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two nights ago",
+    "meaning": "iki gece önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmişi anlatır: *two nights ago* → iki gece önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two nights ago",
+    "meaning": "iki gece önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "gördüm (rüya)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; *have a dream* ise \"rüya görmek\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "had a very strange dream",
+    "meaning": "çok garip bir rüya gördüm (have a dream: rüya görmek)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "had a very strange dream",
+    "meaning": "çok garip bir rüya gördüm (have a dream: rüya görmek)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "had a very strange dream",
+    "meaning": "çok garip bir rüya gördüm (have a dream: rüya görmek)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "strange",
+   "pos": "adjective",
+   "wordId": "strange",
+   "sense": 0,
+   "context": "garip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "had a very strange dream",
+    "meaning": "çok garip bir rüya gördüm (have a dream: rüya görmek)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "dream",
+   "pos": "noun",
+   "wordId": "dream",
+   "sense": 0,
+   "context": "rüya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "had a very strange dream",
+    "meaning": "çok garip bir rüya gördüm (have a dream: rüya görmek)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (rüyamda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "dream",
+   "pos": "noun",
+   "wordId": "dream",
+   "sense": 0,
+   "context": "rüya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebiliyordum",
+   "note": "*could*, *can*'in geçmiş halidir; geçmişteki yeteneği anlatır: *I could fly* → Uçabiliyordum.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "fly",
+   "pos": "verb",
+   "wordId": "fly",
+   "sense": 0,
+   "context": "uçmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (kasabam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "land",
+   "pos": "verb",
+   "wordId": "land",
+   "sense": 1,
+   "context": "indim (iniş yaptım)",
+   "note": null,
+   "form": "land + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "cloud",
+   "pos": "noun",
+   "wordId": "cloud",
+   "sense": 0,
+   "context": "bulut",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapılmış",
+   "note": "*made of* \"… -den yapılmış\" demektir ve malzemeyi gösterir: *made of candy* → şekerden yapılmış.",
+   "form": "make fiilinin 3. hali (made, düzensiz; edilgen anlam)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "made of",
+    "meaning": "-den yapılmış"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (şekerden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "made of",
+    "meaning": "-den yapılmış"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "sweet",
+   "pos": "adjective",
+   "wordId": "sweet",
+   "sense": 0,
+   "context": "tatlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "candy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şeker",
+   "note": "*candy* Amerikan İngilizcesidir; İngiliz İngilizcesinde *sweets* denir.",
+   "form": null,
+   "base": "şeker, şekerleme",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "suddenly",
+   "pos": "adverb",
+   "wordId": "suddenly",
+   "sense": 0,
+   "context": "birden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "giant",
+   "pos": "adjective",
+   "wordId": "giant",
+   "sense": 0,
+   "context": "dev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "belirdi (ortaya çıktı)",
+   "note": null,
+   "form": "appear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "wake",
+   "pos": "verb",
+   "wordId": "wake",
+   "sense": 0,
+   "context": "uyan",
+   "note": "*wake up* \"uyanmak\" demektir; burada emir kipidir: *Wake up!* → Uyan!",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "Wake up",
+    "meaning": "uyan (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(wake up: uyanmak)",
+   "note": "*up* birçok fiille birlikte yeni anlamlı kalıplar kurar: *wake up* (uyanmak), *get up* (kalkmak).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "Wake up",
+    "meaning": "uyan (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açtım",
+   "note": null,
+   "form": "open + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (gözlerim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "eye",
+   "pos": "noun",
+   "wordId": "eye",
+   "sense": 0,
+   "context": "gözler",
+   "note": null,
+   "form": "eye'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok; saat)",
+   "note": "Saat söylerken özne olarak *it* kullanılır: *It was 7:00* → Saat 7'ydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (7'ydi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "7:00",
+   "pos": "number",
+   "wordId": null,
+   "sense": null,
+   "context": "7 (yedi)",
+   "note": null,
+   "form": null,
+   "base": "saat 7 (seven o'clock)",
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "AM",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sabah",
+   "note": "*a.m.* öğleden önceki saatleri, *p.m.* öğleden sonraki saatleri gösterir: *7 a.m.* → sabah 7.",
+   "form": null,
+   "base": "öğleden önce (a.m.)",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (alarmım)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "alarm",
+   "pos": "noun",
+   "wordId": "alarm",
+   "sense": 0,
+   "context": "alarm (çalar saat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were + -ing* geçmişte bir süre devam eden eylemi anlatır: *was ringing* → çalıyordu.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "was ringing",
+    "meaning": "çalıyordu (geçmişte süren eylem)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "ring",
+   "pos": "verb",
+   "wordId": "ring",
+   "sense": 1,
+   "context": "çalıyordu",
+   "note": null,
+   "form": "ring + -ing",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "was ringing",
+    "meaning": "çalıyordu (geçmişte süren eylem)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissettim (-dum)",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "tired",
+   "pos": "adjective",
+   "wordId": "tired",
+   "sense": 0,
+   "context": "yorgun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "amused",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "eğlenmiş",
+   "note": "*amused by* \"… -den eğlenmiş, … -i komik bulmuş\" demektir.",
+   "form": null,
+   "base": "eğlenmiş, keyiflenmiş",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-den (tarafından)",
+   "note": "Bazı *-ed*'li sıfatlardan sonra *by*, duyguya neyin yol açtığını gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(bu)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; burada daha önce anlatılan rüyayı işaret eder (\"bu rüya\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "funny",
+   "pos": "adjective",
+   "wordId": "funny",
+   "sense": 0,
+   "context": "komik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "dream",
+   "pos": "noun",
+   "wordId": "dream",
+   "sense": 0,
+   "context": "rüya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

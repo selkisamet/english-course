@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Layers, Trophy, Volume2, X } from 'lucide-react'
-import { HighlightedSentence } from '../../components/WordPanel'
+import { HighlightedSentence, RichText } from '../../components/WordPanel'
 import { fetchWord } from '../../utils/api'
 import { capitalize, formatTr, translatePOS } from '../../utils/format'
 import { speak } from '../../utils/speech'
@@ -66,6 +66,30 @@ function CardBack({ info }) {
 
   if (info.story) {
     const { story } = info
+    // İşaretli hikayeden kaydedilen kelime: önce temel anlam, altında hikayedeki anlamı
+    if (story.base) {
+      return (
+        <div className={styles.back}>
+          <p className={styles.translation}>{formatTr(story.base)}</p>
+          {story.pos && <span className="badge">{translatePOS(story.pos)}</span>}
+          <div className={styles.inStory}>
+            <p className={`eyebrow ${styles.exampleLabel}`}>Hikayedeki anlamı</p>
+            <p className={styles.inStoryText}>{formatTr(story.translation)}</p>
+            {story.note && (
+              <p className={styles.inStoryNote}>
+                <RichText text={story.note} />
+              </p>
+            )}
+          </div>
+          <Example
+            english={story.sentence}
+            turkish={story.sentenceTranslation}
+            label="Hikayede gördüğün cümle"
+            highlight={story.highlight}
+          />
+        </div>
+      )
+    }
     return (
       <div className={styles.back}>
         <p className={styles.translation}>{formatTr(story.translation) || '—'}</p>
@@ -140,6 +164,8 @@ function Study() {
       set({
         story: {
           translation: saved.translation,
+          base: saved.base,
+          note: saved.note,
           pos: saved.pos,
           sentence: saved.sentence,
           sentenceTranslation: saved.sentenceTranslation,

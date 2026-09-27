@@ -1,0 +1,881 @@
+{
+ "storyId": "story-b2-007",
+ "textHash": "df0f36b494d1",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Şirket, plastik atığı azaltmayı amaçlayan yeni bir proje başlattı."
+  },
+  {
+   "tr": "Proje yöneticisi olarak projenin başarısından David sorumlu."
+  },
+  {
+   "tr": "Bütün teslim tarihlerine uyulsun diye bir süredir fazla mesai yapıyor."
+  },
+  {
+   "tr": "Bütçe kısıtlı olsa da ekibin motivasyonu çok yüksek."
+  },
+  {
+   "tr": "Başarırlarsa sektörde devrim yaratacak."
+  },
+  {
+   "tr": "David, sıkı çalışmalarının başarıyla sonuçlanacağı konusunda iyimser."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) yakın zamanda olmuş ve sonucu şimdi önemli olan eylemi anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "has launched",
+    "meaning": "başlattı (present perfect)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "launch",
+   "pos": "verb",
+   "wordId": "launch",
+   "sense": 0,
+   "context": "başlattı",
+   "note": null,
+   "form": "launch fiilinin 3. hali (launched, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "has launched",
+    "meaning": "başlattı (present perfect)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "aim",
+   "pos": "verb",
+   "wordId": "aim",
+   "sense": 0,
+   "context": "amaçlayan",
+   "note": "*aimed at + -ing* \"… -meyi amaçlayan\" demektir: *a project aimed at reducing waste* → atığı azaltmayı amaçlayan bir proje.",
+   "form": "aim fiilinin 3. hali (aimed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "aimed at reducing",
+    "meaning": "azaltmayı amaçlayan (aimed at + -ing)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(aimed at: -i amaçlayan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "aimed at reducing",
+    "meaning": "azaltmayı amaçlayan (aimed at + -ing)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azaltmak",
+   "note": "Edattan sonra fiil *-ing* alır: *at reducing* → azaltmayı.",
+   "form": "reduce + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "aimed at reducing",
+    "meaning": "azaltmayı amaçlayan (aimed at + -ing)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "plastic",
+   "pos": "adjective",
+   "wordId": "plastic",
+   "sense": 1,
+   "context": "plastik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "plastic waste",
+    "meaning": "plastik atık"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "waste",
+   "pos": "noun",
+   "wordId": "waste",
+   "sense": 0,
+   "context": "atık",
+   "note": "*waste* hem \"israf\" hem \"atık, çöp\" demektir; burada \"atık\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "plastic waste",
+    "meaning": "plastik atık"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": "Görev ya da rol anlatırken *as* \"olarak\" demektir: *As the project manager* → Proje yöneticisi olarak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "project manager",
+    "meaning": "proje yöneticisi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "yönetici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "project manager",
+    "meaning": "proje yöneticisi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "responsible",
+   "pos": "adjective",
+   "wordId": "responsible",
+   "sense": 0,
+   "context": "sorumlu",
+   "note": "*be responsible for something* \"bir şeyden sorumlu olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "responsible for",
+    "meaning": "-den sorumlu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-den (sorumlu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "responsible for",
+    "meaning": "-den sorumlu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (projenin)",
+   "note": "*its* eşyalar ve kavramlar için iyelik bildirir; *it's* (= it is) ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(bir süredir)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ devam eden eylemi anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "has been working overtime",
+    "meaning": "bir süredir fazla mesai yapıyor"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "has been working overtime",
+    "meaning": "bir süredir fazla mesai yapıyor"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "has been working overtime",
+    "meaning": "bir süredir fazla mesai yapıyor"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "overtime",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "fazla mesai",
+   "note": "*work overtime* \"fazla mesai yapmak\" demektir.",
+   "form": null,
+   "base": "fazla mesai",
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "has been working overtime",
+    "meaning": "bir süredir fazla mesai yapıyor"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "için (sağlamak için)",
+   "note": "*to + fiil* burada amaç bildirir ve \"… -mek için\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "ensure",
+   "pos": "verb",
+   "wordId": "ensure",
+   "sense": 0,
+   "context": "sağlamak (garanti etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "deadline",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "teslim tarihleri",
+   "note": "*meet a deadline* \"teslim tarihine yetiştirmek\" demektir.",
+   "form": "deadline'ın çoğulu",
+   "base": "son teslim tarihi",
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "deadlines are met",
+    "meaning": "teslim tarihlerine uyulur (meet a deadline)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*are + fiilin 3. hali* geniş zamanda edilgen yapı kurar: *deadlines are met* → teslim tarihlerine uyulur.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "deadlines are met",
+    "meaning": "teslim tarihlerine uyulur (meet a deadline)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "uyulmak (yetiştirilmek)",
+   "note": "*meet*'in temel anlamı \"buluşmak, karşılaşmak\"tır; *meet a deadline* \"süreye yetiştirmek\", *meet a need* \"ihtiyacı karşılamak\" demektir.",
+   "form": "meet fiilinin 3. hali (met, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "deadlines are met",
+    "meaning": "teslim tarihlerine uyulur (meet a deadline)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de (-e rağmen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "budget",
+   "pos": "noun",
+   "wordId": "budget",
+   "sense": 0,
+   "context": "bütçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "limited",
+   "pos": "adjective",
+   "wordId": "limited",
+   "sense": 0,
+   "context": "kısıtlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "highly",
+   "pos": "adverb",
+   "wordId": "highly",
+   "sense": 0,
+   "context": "son derece (çok)",
+   "note": "*highly* \"yüksekte\" değil, \"son derece, çok\" demektir: *highly motivated* → son derece motive.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "motivated",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "motive (istekli)",
+   "note": null,
+   "form": null,
+   "base": "motive olmuş, istekli",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-se (başarırlarsa)",
+   "note": "*if* + geniş zaman, *will* + fiil (1. tip koşul) gerçekleşmesi olası bir koşulu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "succeed",
+   "pos": "verb",
+   "wordId": "succeed",
+   "sense": 0,
+   "context": "başarmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "-ecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "revolutionize",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "devrim yaratmak",
+   "note": "*revolutionize*, *revolution* (devrim) kelimesinden türeyen bir fiildir.",
+   "form": null,
+   "base": "kökten değiştirmek, devrim yaratmak",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "industry",
+   "pos": "noun",
+   "wordId": "industry",
+   "sense": 0,
+   "context": "sektör (sanayi)",
+   "note": "*industry* \"sanayi\" demektir; belirli bir iş alanı için \"sektör\" anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "optimistic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "iyimser",
+   "note": null,
+   "form": null,
+   "base": "iyimser",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-ceği konusunda (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "sıkı",
+   "note": "*hard*'ın temel anlamı \"zor; sert\"tir; *hard work* \"sıkı çalışma, emek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "hard work",
+    "meaning": "sıkı çalışma"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "çalışma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "hard work",
+    "meaning": "sıkı çalışma"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "-ecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "result",
+   "pos": "verb",
+   "wordId": "result",
+   "sense": 1,
+   "context": "sonuçlanmak",
+   "note": "*result in something* \"… ile sonuçlanmak\" demektir; *result from* ise \"-den kaynaklanmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "result in",
+    "meaning": "ile sonuçlanmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(result in: ile sonuçlanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "result in",
+    "meaning": "ile sonuçlanmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

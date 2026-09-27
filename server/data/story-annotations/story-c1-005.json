@@ -1,0 +1,847 @@
+{
+ "storyId": "story-c1-005",
+ "textHash": "c48261f605ec",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Başarılı bir müzakere, saldırganlıktan çok empatiyle ilgilidir."
+  },
+  {
+   "tr": "Birleşme görüşmeleri sırasında CEO olağanüstü bir beceri sergiledi."
+  },
+  {
+   "tr": "Taleplerini dayatmak yerine karşı tarafın şikâyetlerini dinledi."
+  },
+  {
+   "tr": "Bu yaklaşım yalnızca gerginliği azaltmakla kalmadı, aynı zamanda iki taraf için de yararlı bir anlaşmanın yolunu açtı."
+  },
+  {
+   "tr": "Bu, çok az kişinin bu kadar kusursuz uygulayabileceği bir diplomasi örneğiydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "successful",
+   "pos": "adjective",
+   "wordId": "successful",
+   "sense": 0,
+   "context": "başarılı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "negotiation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "müzakere",
+   "note": null,
+   "form": null,
+   "base": "müzakere, pazarlık",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": "*less about A and more about B* \"A'dan çok B ile ilgili\" demektir; iki şeyin önemini karşılaştırır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "aggression",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "saldırganlık",
+   "note": null,
+   "form": null,
+   "base": "saldırganlık",
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "less about aggression and more about",
+    "meaning": "saldırganlıktan çok … ile ilgili (less about A, more about B)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "empathy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "empati",
+   "note": null,
+   "form": null,
+   "base": "empati, başkasının duygularını anlama",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "merger",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "birleşme",
+   "note": null,
+   "form": null,
+   "base": "(şirket) birleşme(si)",
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "merger discussions",
+    "meaning": "birleşme görüşmeleri"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "discussion",
+   "pos": "noun",
+   "wordId": "discussion",
+   "sense": 0,
+   "context": "görüşmeler",
+   "note": null,
+   "form": "discussion'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "merger discussions",
+    "meaning": "birleşme görüşmeleri"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "CEO",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "CEO (genel müdür)",
+   "note": "*CEO*, *Chief Executive Officer* sözünün kısaltmasıdır: şirketin en üst yöneticisi.",
+   "form": null,
+   "base": "genel müdür, icra kurulu başkanı",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "display",
+   "pos": "verb",
+   "wordId": "display",
+   "sense": 0,
+   "context": "sergiledi",
+   "note": null,
+   "form": "display + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "remarkable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "olağanüstü",
+   "note": null,
+   "form": null,
+   "base": "dikkate değer, olağanüstü",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "skill",
+   "pos": "noun",
+   "wordId": "skill",
+   "sense": 0,
+   "context": "beceri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather*'ın temel anlamı \"oldukça\"dır; *rather than* ise \"… yerine, … -mektense\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "Rather than",
+    "meaning": "… yerine"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "Rather than",
+    "meaning": "… yerine"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "impose",
+   "pos": "verb",
+   "wordId": "impose",
+   "sense": 0,
+   "context": "dayatmak",
+   "note": null,
+   "form": "impose + -ing (son e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "demand",
+   "pos": "noun",
+   "wordId": "demand",
+   "sense": 0,
+   "context": "talepler",
+   "note": null,
+   "form": "demand'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinledi",
+   "note": "*listen to someone/something* \"birini/bir şeyi dinlemek\" demektir; *to* atlanmaz.",
+   "form": "listen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "oppose",
+   "pos": "verb",
+   "wordId": "oppose",
+   "sense": 0,
+   "context": "karşı (taraf)",
+   "note": "*the opposing party* \"karşı taraf\" demektir; *opposing* burada sıfat gibi kullanılır.",
+   "form": "oppose + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "opposing party's",
+    "meaning": "karşı tarafın"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "party",
+   "pos": "noun",
+   "wordId": "party",
+   "sense": 0,
+   "context": "tarafın",
+   "note": "*party*'nin temel anlamı \"parti, eğlence\"dir; hukukta ve müzakerede \"taraf\" demektir.",
+   "form": "party + 's (aitlik eki)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "opposing party's",
+    "meaning": "karşı tarafın"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "complaint",
+   "pos": "noun",
+   "wordId": "complaint",
+   "sense": 0,
+   "context": "şikâyetler",
+   "note": null,
+   "form": "complaint'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "approach",
+   "pos": "noun",
+   "wordId": "approach",
+   "sense": 0,
+   "context": "yaklaşım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil (not only)",
+   "note": "*not only … but also …* \"yalnızca … değil, aynı zamanda … de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "not only",
+    "meaning": "yalnızca … değil (not only … but also)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "not only",
+    "meaning": "yalnızca … değil (not only … but also)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azalttı",
+   "note": null,
+   "form": "reduce + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "tension",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gerginlik",
+   "note": null,
+   "form": null,
+   "base": "gerginlik, gerilim",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(aynı zamanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "pave",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "açtı (yolunu)",
+   "note": "*pave*'in temel anlamı \"(yolu) döşemek\"tir; *pave the way for something* \"bir şeyin yolunu açmak, zemin hazırlamak\" demektir.",
+   "form": "pave + -d (geçmiş zaman)",
+   "base": "(yol) döşemek, kaplamak",
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "paved the way",
+    "meaning": "yolunu açtı (pave the way for)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "paved the way",
+    "meaning": "yolunu açtı (pave the way for)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "paved the way",
+    "meaning": "yolunu açtı (pave the way for)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (-in)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "mutually",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "karşılıklı olarak",
+   "note": "*mutually beneficial* \"iki taraf için de yararlı\" demektir.",
+   "form": null,
+   "base": "karşılıklı olarak",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "mutually beneficial agreement",
+    "meaning": "iki taraf için de yararlı anlaşma"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "beneficial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yararlı",
+   "note": null,
+   "form": null,
+   "base": "yararlı, faydalı",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "mutually beneficial agreement",
+    "meaning": "iki taraf için de yararlı anlaşma"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "agreement",
+   "pos": "noun",
+   "wordId": "agreement",
+   "sense": 0,
+   "context": "anlaşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "mutually beneficial agreement",
+    "meaning": "iki taraf için de yararlı anlaşma"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "demonstration",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "örnek (gösteri)",
+   "note": "*demonstration* \"gösteri, tanıtım\" demektir; *a demonstration of skill* bir becerinin \"sergilenmesi, örneği\"dir.",
+   "form": null,
+   "base": "gösterme, gösteri; kanıt",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… örneği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "diplomacy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "diplomasi",
+   "note": null,
+   "form": null,
+   "base": "diplomasi",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-eceği (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "few",
+   "pos": "pronoun",
+   "wordId": "few",
+   "sense": 2,
+   "context": "çok az kişi",
+   "note": "*few* (a olmadan) \"çok az (kişi)\" demektir ve olumsuz bir anlam taşır: *few could have…* → çok az kişi … -ebilirdi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilirdi",
+   "note": "*could have + fiilin 3. hali* geçmişte mümkün olan bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "could have executed",
+    "meaning": "uygulayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(geçmiş olasılık)",
+   "note": "Modal fiillerden sonra gelen *have + fiilin 3. hali* geçmişe dönük anlam verir; burada \"sahip olmak\" anlamı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "could have executed",
+    "meaning": "uygulayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "execute",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "uygulamak",
+   "note": "*execute* \"uygulamak, yerine getirmek\" demektir; ayrıca \"idam etmek\" anlamı da vardır.",
+   "form": "execute fiilinin 3. hali (executed, -d)",
+   "base": "uygulamak, yerine getirmek",
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "could have executed",
+    "meaning": "uygulayabilirdi (geçmişe dair olasılık)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "perfectly",
+   "pos": "adverb",
+   "wordId": "perfectly",
+   "sense": 0,
+   "context": "kusursuz bir şekilde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

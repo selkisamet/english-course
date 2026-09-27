@@ -1,0 +1,880 @@
+{
+ "storyId": "story-a2-010",
+ "textHash": "e47997d635f5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sevgili Julie, bu mektubu Paris'ten yazıyorum."
+  },
+  {
+   "tr": "Buraya üç gün önce geldim."
+  },
+  {
+   "tr": "Şehir harika."
+  },
+  {
+   "tr": "Dün Eyfel Kulesi'ni gezdim."
+  },
+  {
+   "tr": "Kocaman."
+  },
+  {
+   "tr": "Tepeden manzara inanılmazdı."
+  },
+  {
+   "tr": "Ayrıca popüler bir kafede kahve içtim."
+  },
+  {
+   "tr": "Bir hafta daha burada kalacağım."
+  },
+  {
+   "tr": "Sana bir hediye aldım."
+  },
+  {
+   "tr": "Görüşürüz!"
+  },
+  {
+   "tr": "Sevgiler, Anna."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "dear",
+   "pos": "adjective",
+   "wordId": "dear",
+   "sense": 0,
+   "context": "sevgili",
+   "note": "Mektuplar *Dear* + isimle başlar: *Dear Julie* → Sevgili Julie.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Julie",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julie",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yorum)",
+   "note": "*am/is/are + -ing* şu anda devam eden eylemi anlatır: *I am writing* → Yazıyorum.",
+   "form": "be fiilinin 1. tekil şahıs hali (am)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "am writing",
+    "meaning": "yazıyorum (şimdiki zaman)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazıyorum",
+   "note": null,
+   "form": "write + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "am writing",
+    "meaning": "yazıyorum (şimdiki zaman)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Paris'ten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "Paris",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paris",
+   "note": null,
+   "form": null,
+   "base": "(Fransa'nın başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldim (vardım)",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "here",
+   "pos": "adverb",
+   "wordId": "here",
+   "sense": 0,
+   "context": "buraya",
+   "note": "*here* \"burada, buraya\" demektir; önüne *to* almaz: *arrive here* (✗ arrive to here).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmişi anlatır: *three days ago* → üç gün önce.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "amazing",
+   "pos": "adjective",
+   "wordId": "amazing",
+   "sense": 0,
+   "context": "harika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "gezdim (ziyaret ettim)",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Bazı ünlü yapı adlarından önce *the* kullanılır: *the Eiffel Tower*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "Eiffel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Eyfel",
+   "note": null,
+   "form": null,
+   "base": "(Eyfel Kulesi'nin adı)",
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "Eiffel Tower",
+    "meaning": "Eyfel Kulesi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "tower",
+   "pos": "noun",
+   "wordId": "tower",
+   "sense": 0,
+   "context": "kule",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "Eiffel Tower",
+    "meaning": "Eyfel Kulesi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kule)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "huge",
+   "pos": "adjective",
+   "wordId": "huge",
+   "sense": 0,
+   "context": "kocaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "view",
+   "pos": "noun",
+   "wordId": "view",
+   "sense": 0,
+   "context": "manzara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (tepeden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "top",
+   "pos": "noun",
+   "wordId": "top",
+   "sense": 0,
+   "context": "tepe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "incredible",
+   "pos": "adjective",
+   "wordId": "incredible",
+   "sense": 0,
+   "context": "inanılmaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "ayrıca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içtim",
+   "note": null,
+   "form": "drink fiilinin geçmiş zaman hali (drank, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kafede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "popular",
+   "pos": "adjective",
+   "wordId": "popular",
+   "sense": 0,
+   "context": "popüler, sevilen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": "*café* Fransızcadan gelir; *cafe* olarak da yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-acağım)",
+   "note": "*be going to + fiil* önceden karar verilmiş planları anlatır: *I am going to stay* → Kalacağım.",
+   "form": "be fiilinin 1. tekil şahıs hali (am)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "am going to stay",
+    "meaning": "kalacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "Burada *going* \"gitmek\" anlamında değildir; *be going to* kalıbının parçasıdır.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "am going to stay",
+    "meaning": "kalacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "am going to stay",
+    "meaning": "kalacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kalmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "am going to stay",
+    "meaning": "kalacağım (be going to + fiil)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "here",
+   "pos": "adverb",
+   "wordId": "here",
+   "sense": 0,
+   "context": "burada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(süre)",
+   "note": "Süre bildirirken *for* \"… boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "one",
+   "pos": "number",
+   "wordId": "one",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "one more week",
+    "meaning": "bir hafta daha"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha",
+   "note": "*one more week* \"bir hafta daha\" demektir; *more* burada \"fazladan, ek olarak\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "one more week",
+    "meaning": "bir hafta daha"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "one more week",
+    "meaning": "bir hafta daha"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldım",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "present",
+   "pos": "noun",
+   "wordId": "present",
+   "sense": 1,
+   "context": "hediye",
+   "note": "*present* isim olarak \"hediye\" (ve \"şimdiki zaman\"), sıfat olarak \"mevcut, hazır\" demektir; burada \"hediye\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (sana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "you",
+   "pos": "pronoun",
+   "wordId": "you",
+   "sense": 0,
+   "context": "sen (sana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek (görüşürüz)",
+   "note": "*See you soon!* \"Yakında görüşürüz!\" anlamında kalıplaşmış bir vedalaşma sözüdür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "See you soon",
+    "meaning": "görüşürüz, yakında görüşmek üzere"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "you",
+   "pos": "pronoun",
+   "wordId": "you",
+   "sense": 0,
+   "context": "seni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "See you soon",
+    "meaning": "görüşürüz, yakında görüşmek üzere"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "yakında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "See you soon",
+    "meaning": "görüşürüz, yakında görüşmek üzere"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "love",
+   "pos": "noun",
+   "wordId": "love",
+   "sense": 0,
+   "context": "sevgiler",
+   "note": "Mektup ve mesajların sonunda *Love,* \"sevgiler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "Anna",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Anna",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  }
+ ]
+}

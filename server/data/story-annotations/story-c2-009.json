@@ -1,0 +1,878 @@
+{
+ "storyId": "story-c2-009",
+ "textHash": "05edb866456f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Setler ve barajlar inşa ediyor, yasalar ve antlaşmalar hazırlıyoruz; hepsi kaotik bir evrende denetim kurmaya yönelik çaresiz bir çaba."
+  },
+  {
+   "tr": "Kıyıyı harap eden kasırga, bu kibrin insanı haddini bilmeye zorlayan bir reddiydi."
+  },
+  {
+   "tr": "Felaketin ardından toplum duvarları daha yükseğe yeniden inşa etmedi; bunun yerine çevreyle uyum içinde hareket etmeyi öğrendi."
+  },
+  {
+   "tr": "Bu, hâkimiyetten bir arada yaşamaya doğru köklü bir değişimdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "build",
+   "pos": "verb",
+   "wordId": "build",
+   "sense": 0,
+   "context": "inşa ediyoruz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "barrier",
+   "pos": "noun",
+   "wordId": "barrier",
+   "sense": 0,
+   "context": "setler (bariyerler)",
+   "note": null,
+   "form": "barrier'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "dam",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "barajlar",
+   "note": null,
+   "form": "dam'in çoğulu",
+   "base": "baraj",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "draft",
+   "pos": "verb",
+   "wordId": "draft",
+   "sense": 1,
+   "context": "hazırlıyoruz (taslağını)",
+   "note": "*draft*'ın isim anlamı \"taslak\"tır; fiil olarak bir metnin \"taslağını hazırlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "law",
+   "pos": "noun",
+   "wordId": "law",
+   "sense": 0,
+   "context": "yasalar",
+   "note": null,
+   "form": "law'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "treaty",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "antlaşmalar",
+   "note": null,
+   "form": "treaty'nin çoğulu (y → ies)",
+   "base": "antlaşma",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "hepsi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "all in a desperate attempt",
+    "meaning": "hepsi çaresiz bir çaba içinde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "içinde (… ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "all in a desperate attempt",
+    "meaning": "hepsi çaresiz bir çaba içinde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "all in a desperate attempt",
+    "meaning": "hepsi çaresiz bir çaba içinde"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "desperate",
+   "pos": "adjective",
+   "wordId": "desperate",
+   "sense": 0,
+   "context": "çaresiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "all in a desperate attempt",
+    "meaning": "hepsi çaresiz bir çaba içinde"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "attempt",
+   "pos": "noun",
+   "wordId": "attempt",
+   "sense": 0,
+   "context": "çaba (girişim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "all in a desperate attempt",
+    "meaning": "hepsi çaresiz bir çaba içinde"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (kurmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "assert",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kurmak (öne sürmek)",
+   "note": "*assert control* \"denetim kurmak, hâkimiyetini göstermek\" demektir; *assert* tek başına \"iddia etmek, öne sürmek\"tir.",
+   "form": null,
+   "base": "iddia etmek, öne sürmek; (gücünü) göstermek",
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "assert control over",
+    "meaning": "üzerinde denetim kurmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "control",
+   "pos": "noun",
+   "wordId": "control",
+   "sense": 0,
+   "context": "denetim (kontrol)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "assert control over",
+    "meaning": "üzerinde denetim kurmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "assert control over",
+    "meaning": "üzerinde denetim kurmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "chaotic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kaotik",
+   "note": null,
+   "form": null,
+   "base": "kaotik, karmakarışık",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "universe",
+   "pos": "noun",
+   "wordId": "universe",
+   "sense": 0,
+   "context": "evren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "hurricane",
+   "pos": "noun",
+   "wordId": "hurricane",
+   "sense": 0,
+   "context": "kasırga",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "-en (harap eden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "devastate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "harap eden",
+   "note": null,
+   "form": "devastate + -d (geçmiş zaman)",
+   "base": "harap etmek, yerle bir etmek",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "coast",
+   "pos": "noun",
+   "wordId": "coast",
+   "sense": 0,
+   "context": "kıyı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "humbling",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "haddini bildiren",
+   "note": "*humbling* insana küçüklüğünü hissettiren, \"haddini bildiren\" bir deneyimi anlatır.",
+   "form": null,
+   "base": "insana haddini bildiren, alçakgönüllü kılan",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "rejection",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ret",
+   "note": null,
+   "form": null,
+   "base": "ret, reddetme",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (kibrin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "arrogance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kibir",
+   "note": null,
+   "form": null,
+   "base": "kibir, küstahlık",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "In the aftermath",
+    "meaning": "ardından, sonrasında (felaket sonrası)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "In the aftermath",
+    "meaning": "ardından, sonrasında (felaket sonrası)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "aftermath",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ardından (felaket sonrası)",
+   "note": "*aftermath* bir felaket ya da önemli bir olayın hemen sonrasını anlatır; *in the aftermath* → … ardından.",
+   "form": null,
+   "base": "(felaket) sonrası, sonuç",
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "In the aftermath",
+    "meaning": "ardından, sonrasında (felaket sonrası)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": "*did not* + fiilin yalın hali geçmiş zamanda olumsuz cümle kurar.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "rebuild",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden inşa etmek",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *build* (inşa etmek) → *rebuild* (yeniden inşa etmek).",
+   "form": null,
+   "base": "yeniden inşa etmek",
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvarlar",
+   "note": null,
+   "form": "wall'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "high",
+   "pos": "adverb",
+   "wordId": "high",
+   "sense": 1,
+   "context": "daha yükseğe",
+   "note": null,
+   "form": "high zarfının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "did not rebuild the walls higher",
+    "meaning": "duvarları daha yükseğe yeniden inşa etmedi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "bunun yerine (ama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrendi",
+   "note": null,
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (etmeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "hareket etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "move with the environment",
+    "meaning": "çevreyle uyum içinde hareket etmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (uyum içinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "move with the environment",
+    "meaning": "çevreyle uyum içinde hareket etmek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "move with the environment",
+    "meaning": "çevreyle uyum içinde hareket etmek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "environment",
+   "pos": "noun",
+   "wordId": "environment",
+   "sense": 0,
+   "context": "çevre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "move with the environment",
+    "meaning": "çevreyle uyum içinde hareket etmek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "fundamental",
+   "pos": "adjective",
+   "wordId": "fundamental",
+   "sense": 0,
+   "context": "köklü (temel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "shift",
+   "pos": "noun",
+   "wordId": "shift",
+   "sense": 0,
+   "context": "değişim",
+   "note": "*shift* \"vardiya\" ve \"değişiklik, kayma\" demektir; burada \"değişim\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (hâkimiyetten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "from domination to coexistence",
+    "meaning": "hâkimiyetten bir arada yaşamaya (from A to B)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "domination",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hâkimiyet",
+   "note": "*domination*, *dominate* (hâkim olmak) fiilinden türeyen bir isimdir.",
+   "form": null,
+   "base": "hâkimiyet, egemenlik",
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "from domination to coexistence",
+    "meaning": "hâkimiyetten bir arada yaşamaya (from A to B)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (yaşamaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "from domination to coexistence",
+    "meaning": "hâkimiyetten bir arada yaşamaya (from A to B)"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "coexistence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bir arada yaşama",
+   "note": "*co-* ön eki \"birlikte\" anlamı katar: *existence* (varoluş) → *coexistence* (bir arada var olma).",
+   "form": null,
+   "base": "bir arada yaşama, birlikte var olma",
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "from domination to coexistence",
+    "meaning": "hâkimiyetten bir arada yaşamaya (from A to B)"
+   }
+  }
+ ]
+}

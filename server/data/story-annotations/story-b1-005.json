@@ -1,0 +1,841 @@
+{
+ "storyId": "story-b1-005",
+ "textHash": "cf641dc07aa2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Mark, Paris'e yaptığı kısa bir geziden az önce döndü."
+  },
+  {
+   "tr": "İnanılmaz derecede etkileyici bulduğu Louvre Müzesi'ni gezdi."
+  },
+  {
+   "tr": "Mona Lisa'yı görmek istedi ama kalabalık çok fazlaydı."
+  },
+  {
+   "tr": "Bunun yerine Montmartre'ın sokaklarını keşfetti."
+  },
+  {
+   "tr": "Gerçek Fransız hamur işlerinin tadına baktı."
+  },
+  {
+   "tr": "Fransızcayı akıcı konuşabilseydi bir gün orada yaşamayı çok isteyeceğini söyledi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Mark",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mark",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*has/have + just + fiilin 3. hali* az önce tamamlanmış bir eylemi anlatır: *has just returned* → az önce döndü. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has just returned",
+    "meaning": "az önce döndü (present perfect + just)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "az önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has just returned",
+    "meaning": "az önce döndü (present perfect + just)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "döndü",
+   "note": null,
+   "form": "return fiilinin 3. hali (returned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "has just returned",
+    "meaning": "az önce döndü (present perfect + just)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (geziden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "trip",
+   "pos": "noun",
+   "wordId": "trip",
+   "sense": 0,
+   "context": "gezi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (Paris'e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "Paris",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paris",
+   "note": null,
+   "form": null,
+   "base": "(Fransa'nın başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "gezdi (ziyaret etti)",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Müze ve ünlü yapı adlarından önce *the* kullanılır: *the Louvre Museum*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "Louvre",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Louvre",
+   "note": null,
+   "form": null,
+   "base": "(Paris'teki ünlü müzenin adı)",
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "Louvre Museum",
+    "meaning": "Louvre Müzesi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "Louvre Museum",
+    "meaning": "Louvre Müzesi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "ki (-diği)",
+   "note": "*which* burada ilgi zamiridir ve önceki ismi (müzeyi) niteler: *the museum, which he found impressive* → etkileyici bulduğu müze.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*find* + nesne + sıfat \"bir şeyi … bulmak (öyle düşünmek)\" demektir: *found it impressive* → onu etkileyici buldu.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "incredibly",
+   "pos": "adverb",
+   "wordId": "incredibly",
+   "sense": 0,
+   "context": "inanılmaz derecede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "impressive",
+   "pos": "adjective",
+   "wordId": "impressive",
+   "sense": 0,
+   "context": "etkileyici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedi",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (görmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "Mona",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mona",
+   "note": null,
+   "form": null,
+   "base": "(Mona Lisa: Leonardo da Vinci'nin tablosu)",
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "Mona Lisa",
+    "meaning": "Mona Lisa (tablo)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "Lisa",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lisa",
+   "note": null,
+   "form": null,
+   "base": "(Mona Lisa: Leonardo da Vinci'nin tablosu)",
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "Mona Lisa",
+    "meaning": "Mona Lisa (tablo)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "crowd",
+   "pos": "noun",
+   "wordId": "crowd",
+   "sense": 0,
+   "context": "kalabalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (gereğinden)",
+   "note": "*too*, sıfatlardan önce \"gereğinden fazla\" anlamı verir ve bir sorun bildirir: *too large* → (görmesine engel olacak kadar) çok büyük.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "too large",
+    "meaning": "çok fazla, gereğinden büyük"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük (kalabalık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "too large",
+    "meaning": "çok fazla, gereğinden büyük"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "bunun yerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "explore",
+   "pos": "verb",
+   "wordId": "explore",
+   "sense": 0,
+   "context": "keşfetti (gezdi)",
+   "note": null,
+   "form": "explore + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokaklar",
+   "note": null,
+   "form": "street'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (Montmartre'ın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "Montmartre",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Montmartre",
+   "note": null,
+   "form": null,
+   "base": "(Paris'te bir semt)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "taste",
+   "pos": "verb",
+   "wordId": "taste",
+   "sense": 1,
+   "context": "tadına baktı",
+   "note": "*taste* + nesne \"bir şeyin tadına bakmak\" demektir; *taste* + sıfat ise \"tadı … olmak\"tır (*It tastes good*).",
+   "form": "taste + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "authentic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek (otantik)",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki, otantik",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "French",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "Fransız",
+   "note": "Ülke ve dil sıfatları İngilizcede büyük harfle yazılır: *French* (Fransız, Fransızca).",
+   "form": null,
+   "base": "Fransız; Fransızca",
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "pastry",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hamur işleri",
+   "note": null,
+   "form": "pastry'nin çoğulu (y → ies)",
+   "base": "hamur işi, pasta",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "mention",
+   "pos": "verb",
+   "wordId": "mention",
+   "sense": 0,
+   "context": "söyledi (bahsetti)",
+   "note": null,
+   "form": "mention + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": "*that* bağlaç olarak söylenen ya da düşünülen şeyi bağlar: *mentioned that…* → … -dığını söyledi. Çoğu zaman atlanabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-erdi (isterdi)",
+   "note": "*would love to + fiil* \"… -meyi çok isterdi\" demektir ve bir dileği kibarca anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "would love to",
+    "meaning": "-meyi çok isterdi"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "çok istemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "would love to",
+    "meaning": "-meyi çok isterdi"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (yaşamayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "would love to",
+    "meaning": "-meyi çok isterdi"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "one day",
+    "meaning": "bir gün (gelecekte)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": "*one day* hem geçmişte \"bir gün\" hem de gelecekte \"bir gün, günün birinde\" anlamında kullanılır; burada gelecektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "one day",
+    "meaning": "bir gün (gelecekte)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-se (konuşabilseydi)",
+   "note": "*would … if … could* (2. tip koşul) şu an gerçek olmayan, hayali bir durumu anlatır: *if he could speak French* → Fransızca konuşabilseydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilse",
+   "note": "Koşul cümlelerinde *could* geçmiş zaman anlamı taşımaz; hayali bir yeteneği anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "French",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Fransızca",
+   "note": "Dil adları büyük harfle yazılır ve önüne *the* almaz: *speak French*.",
+   "form": null,
+   "base": "Fransızca (dil)",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "fluently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "akıcı bir şekilde",
+   "note": "*fluently*, *fluent* (akıcı) sıfatına *-ly* eklenerek yapılmış bir zarftır.",
+   "form": null,
+   "base": "akıcı bir şekilde",
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,948 @@
+{
+ "storyId": "story-b1-002",
+ "textHash": "e795e989f3fc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen hafta sonu Mike kampa gitti."
+  },
+  {
+   "tr": "Gecenin ortasında garip bir ses onu uyandırdı."
+  },
+  {
+   "tr": "Vahşi bir hayvana benziyordu!"
+  },
+  {
+   "tr": "Dehşete kapıldı."
+  },
+  {
+   "tr": "Hemen arkadaşlarını uyandırdı."
+  },
+  {
+   "tr": "Birden küçük bir kedi çadırlarına girdi."
+  },
+  {
+   "tr": "Hepsi güldü."
+  },
+  {
+   "tr": "Bu bir ayı değildi; sadece aç bir sokak kedisiydi."
+  },
+  {
+   "tr": "Kediye biraz yiyecek verdiler."
+  },
+  {
+   "tr": "Korkutucu ama eğlenceli bir deneyimdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* zaman ifadelerinde \"geçen\" demektir: *last weekend* → geçen hafta sonu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Mike",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mike",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti",
+   "note": "*go* + *-ing*'li fiil, bir etkinliğe gitmeyi anlatır: *go camping* (kampa gitmek), *go swimming* (yüzmeye gitmek).",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "went camping",
+    "meaning": "kampa gitti (go + -ing: etkinliğe gitmek)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "camping",
+   "pos": "noun",
+   "wordId": "camping",
+   "sense": 0,
+   "context": "kamp(a)",
+   "note": null,
+   "form": "camp + -ing",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "went camping",
+    "meaning": "kampa gitti (go + -ing: etkinliğe gitmek)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ortasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "middle",
+   "pos": "noun",
+   "wordId": "middle",
+   "sense": 0,
+   "context": "orta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (gecenin)",
+   "note": "*the middle of the night* → gece**nin** ortası; *of* burada Türkçedeki \"-in\" ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 10,
+    "text": "In the middle of the night",
+    "meaning": "gecenin ortasında"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "strange",
+   "pos": "adjective",
+   "wordId": "strange",
+   "sense": 0,
+   "context": "garip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "ses (gürültü)",
+   "note": "*noise* genellikle istenmeyen, rahatsız edici ses için kullanılır; genel olarak \"ses\" *sound*'dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "wake",
+   "pos": "verb",
+   "wordId": "wake",
+   "sense": 0,
+   "context": "uyandırdı",
+   "note": "*wake someone up* \"birini uyandırmak\" demektir; kişi *wake* ile *up* arasına girebilir.",
+   "form": "wake fiilinin geçmiş zaman hali (woke, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "woke him up",
+    "meaning": "onu uyandırdı (wake someone up)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "woke him up",
+    "meaning": "onu uyandırdı (wake someone up)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(wake up: uyandırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "woke him up",
+    "meaning": "onu uyandırdı (wake someone up)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ses)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "sound",
+   "pos": "verb",
+   "wordId": "sound",
+   "sense": 1,
+   "context": "benziyordu (kulağa … gibi geliyordu)",
+   "note": "*sound like* + isim \"kulağa … gibi gelmek, … sesine benzemek\" demektir.",
+   "form": "sound + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "sounded like",
+    "meaning": "-e benziyordu (sound like: kulağa … gibi gelmek)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "sounded like",
+    "meaning": "-e benziyordu (sound like: kulağa … gibi gelmek)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "wild",
+   "pos": "adjective",
+   "wordId": "wild",
+   "sense": 0,
+   "context": "vahşi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (kapıldı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "terrified",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dehşete kapılmış",
+   "note": "*terrified* \"çok korkmuş, dehşete düşmüş\" demektir; *scared*'dan (korkmuş) daha güçlüdür.",
+   "form": null,
+   "base": "dehşete kapılmış, çok korkmuş",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "wake",
+   "pos": "verb",
+   "wordId": "wake",
+   "sense": 0,
+   "context": "uyandırdı",
+   "note": null,
+   "form": "wake fiilinin geçmiş zaman hali (woke, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "woke his friends up",
+    "meaning": "arkadaşlarını uyandırdı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (arkadaşları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "woke his friends up",
+    "meaning": "arkadaşlarını uyandırdı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "woke his friends up",
+    "meaning": "arkadaşlarını uyandırdı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(wake up: uyandırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "woke his friends up",
+    "meaning": "arkadaşlarını uyandırdı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "immediately",
+   "pos": "adverb",
+   "wordId": "immediately",
+   "sense": 0,
+   "context": "hemen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "suddenly",
+   "pos": "adverb",
+   "wordId": "suddenly",
+   "sense": 0,
+   "context": "birden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "cat",
+   "pos": "noun",
+   "wordId": "cat",
+   "sense": 0,
+   "context": "kedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "girdi (yürüyerek)",
+   "note": "*walk into* \"yürüyerek içine girmek\" demektir.",
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (içine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "tent",
+   "pos": "noun",
+   "wordId": "tent",
+   "sense": 0,
+   "context": "çadır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "hepsi",
+   "note": "*they all* \"onların hepsi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldü",
+   "note": null,
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "değildi",
+   "note": "*wasn't*, *was not*'un kısaltmasıdır.",
+   "form": "was + not kısaltması (wasn't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "bear",
+   "pos": "noun",
+   "wordId": "bear",
+   "sense": 0,
+   "context": "ayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (kedisiydi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "sadece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "hungry",
+   "pos": "adjective",
+   "wordId": "hungry",
+   "sense": 0,
+   "context": "aç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "stray",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sokak (sahipsiz)",
+   "note": "*stray* evcil hayvanlar için \"sahipsiz, başıboş\" demektir: *stray cat* → sokak kedisi.",
+   "form": null,
+   "base": "başıboş, sahipsiz",
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "stray cat",
+    "meaning": "sokak kedisi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "cat",
+   "pos": "noun",
+   "wordId": "cat",
+   "sense": 0,
+   "context": "kedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "stray cat",
+    "meaning": "sokak kedisi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdiler",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "cat",
+   "pos": "noun",
+   "wordId": "cat",
+   "sense": 0,
+   "context": "kedi(ye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "frightening",
+   "pos": "adjective",
+   "wordId": "frightening",
+   "sense": 0,
+   "context": "korkutucu",
+   "note": "*-ing*'li sıfatlar bir şeyin etkisini anlatır (*frightening*: korkutucu); *-ed*'li sıfatlar kişinin hissini anlatır (*frightened*: korkmuş).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "amusing",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "eğlenceli",
+   "note": null,
+   "form": null,
+   "base": "eğlenceli, güldürücü",
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,839 @@
+{
+ "storyId": "story-b2-004",
+ "textHash": "e1291f82d638",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kurumsal işinden ayrıldıktan sonra Tom serbest yazar oldu."
+  },
+  {
+   "tr": "Başlangıçta zamanını verimli bir şekilde yönetmekte zorlandı."
+  },
+  {
+   "tr": "Sık sık gece geç saatlere kadar çalışırdı."
+  },
+  {
+   "tr": "Ancak artık sıkı bir düzen oturttu."
+  },
+  {
+   "tr": "Herhangi bir yerden çalışabilme özgürlüğü harika."
+  },
+  {
+   "tr": "Gelecek ay Bali'deki bir sahil evinden çalışmayı planlıyor; bu, her zaman hayaliydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "Edattan sonra fiil *-ing* alır: *After quitting his job* → İşinden ayrıldıktan sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "quit",
+   "pos": "verb",
+   "wordId": "quit",
+   "sense": 0,
+   "context": "ayrılmak (bırakmak)",
+   "note": "*quit a job* \"işten ayrılmak, istifa etmek\" demektir.",
+   "form": "quit + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "corporate",
+   "pos": "adjective",
+   "wordId": "corporate",
+   "sense": 0,
+   "context": "kurumsal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oldu",
+   "note": "*become* \"olmak, … hâline gelmek\" demektir; bir değişimi anlatır.",
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Meslekten önce *a/an* kullanılır: *became a writer* → yazar oldu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a freelance writer",
+    "meaning": "serbest yazar"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "freelance",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "serbest (çalışan)",
+   "note": "*freelance* bir şirkete bağlı olmadan, iş başına ücretle çalışmayı anlatır.",
+   "form": null,
+   "base": "serbest çalışan, bağımsız",
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a freelance writer",
+    "meaning": "serbest yazar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "writer",
+   "pos": "noun",
+   "wordId": "writer",
+   "sense": 0,
+   "context": "yazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "a freelance writer",
+    "meaning": "serbest yazar"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "initially",
+   "pos": "adverb",
+   "wordId": "initially",
+   "sense": 0,
+   "context": "başlangıçta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "zorlandı",
+   "note": "*struggle to + fiil* \"… -mekte zorlanmak\" demektir.",
+   "form": "struggle + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mekte (yönetmekte)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "manage",
+   "pos": "verb",
+   "wordId": "manage",
+   "sense": 0,
+   "context": "yönetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (zamanını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "efficiently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "verimli bir şekilde",
+   "note": "*efficiently*, *efficient* (verimli) sıfatına *-ly* eklenerek yapılmış bir zarftır.",
+   "form": null,
+   "base": "verimli bir şekilde",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "-ırdı (çalışırdı)",
+   "note": "*would* + fiil, geçmişte alışkanlık hâline gelmiş, tekrar eden eylemleri de anlatır: *He would often work late* → Sık sık geç saatlere kadar çalışırdı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "late",
+   "pos": "adverb",
+   "wordId": "late",
+   "sense": 1,
+   "context": "geç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (kadar)",
+   "note": "*late into the night* \"gece geç saatlere kadar\" demektir; *into* burada zamanın içine doğru ilerlemeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "would often work late into the night",
+    "meaning": "sık sık gece geç saatlere kadar çalışırdı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) sonucu şimdi de geçerli olan eylemi anlatır. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "has now established",
+    "meaning": "artık oturttu (present perfect)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "has now established",
+    "meaning": "artık oturttu (present perfect)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "establish",
+   "pos": "verb",
+   "wordId": "establish",
+   "sense": 0,
+   "context": "oturttu (kurdu)",
+   "note": "*establish*'in temel anlamı \"kurmak\"tır; *establish a routine* \"bir düzen oturtmak\" demektir.",
+   "form": "establish fiilinin 3. hali (established, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "has now established",
+    "meaning": "artık oturttu (present perfect)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "sıkı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "routine",
+   "pos": "noun",
+   "wordId": "routine",
+   "sense": 0,
+   "context": "düzen (rutin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "freedom",
+   "pos": "noun",
+   "wordId": "freedom",
+   "sense": 0,
+   "context": "özgürlük",
+   "note": "*freedom to + fiil* \"… -me özgürlüğü\" demektir: *the freedom to work* → çalışabilme özgürlüğü.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-me (çalışabilme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (yerden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "herhangi bir",
+   "note": "Olumlu cümlede *any* \"herhangi bir, hangisi olursa\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "location",
+   "pos": "noun",
+   "wordId": "location",
+   "sense": 0,
+   "context": "yer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "amazing",
+   "pos": "adjective",
+   "wordId": "amazing",
+   "sense": 0,
+   "context": "harika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next* zaman ifadelerinde \"gelecek\" demektir ve önüne *the* ya da *in* almaz: *next month* → gelecek ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Next month",
+    "meaning": "gelecek ay"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Next month",
+    "meaning": "gelecek ay"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "intend",
+   "pos": "verb",
+   "wordId": "intend",
+   "sense": 0,
+   "context": "planlıyor (niyetinde)",
+   "note": "*intend to + fiil* \"… -meye niyetli olmak, … -meyi planlamak\" demektir.",
+   "form": "intend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (çalışmayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (evinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "beach",
+   "pos": "noun",
+   "wordId": "beach",
+   "sense": 0,
+   "context": "sahil (plaj)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "beach house",
+    "meaning": "sahil evi"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "beach house",
+    "meaning": "sahil evi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Bali'deki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "Bali",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bali",
+   "note": null,
+   "form": null,
+   "base": "(Endonezya'da bir ada)",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "ki bu",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamını niteleyebilir: *…, which has always been his ambition* → … ; bu, hep onun hayaliydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak (-dı)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "ambition",
+   "pos": "noun",
+   "wordId": "ambition",
+   "sense": 0,
+   "context": "hayal (amaç, tutku)",
+   "note": "*ambition* olumsuz anlamda \"hırs\", olumlu anlamda \"büyük amaç, hayal\" demektir; burada \"hayal\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

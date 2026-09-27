@@ -1,0 +1,776 @@
+{
+ "storyId": "story-c1-006",
+ "textHash": "633d090d9aa3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Modern toplumda, daha fazla seçeneğin daha fazla özgürlük anlamına geldiğine inandırılıyoruz."
+  },
+  {
+   "tr": "Ancak psikolojik açıdan seçenek bolluğu çoğu zaman harekete geçememeye ve memnuniyetsizliğe yol açar."
+  },
+  {
+   "tr": "Sonsuz olasılıklarla karşılaştığımızda yanlış karar vermekten korkarız."
+  },
+  {
+   "tr": "Bu olgu, hayatlarımızı sadeleştirmenin aslında gerçek mutluluğun anahtarı olabileceğini gösteriyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (toplumda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "modern",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(edilgen)",
+   "note": "*are + fiilin 3. hali* geniş zamanda edilgen yapı kurar: *we are led to believe* → inandırılıyoruz.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "are led to believe",
+    "meaning": "inandırılıyoruz (be led to believe)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "lead",
+   "pos": "verb",
+   "wordId": "lead",
+   "sense": 0,
+   "context": "(inandırılıyoruz)",
+   "note": "*lead*'in temel anlamı \"yol göstermek, yönlendirmek\"tir; *be led to believe* \"(birinin yönlendirmesiyle) … -e inandırılmak\" demektir.",
+   "form": "lead fiilinin 3. hali (led, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "are led to believe",
+    "meaning": "inandırılıyoruz (be led to believe)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (inanmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "are led to believe",
+    "meaning": "inandırılıyoruz (be led to believe)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "are led to believe",
+    "meaning": "inandırılıyoruz (be led to believe)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-diğine (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "choice",
+   "pos": "noun",
+   "wordId": "choice",
+   "sense": 0,
+   "context": "seçenek (seçim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "equate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "eşittir (anlamına gelir)",
+   "note": "*equate to something* \"-e eşit olmak, … anlamına gelmek\" demektir.",
+   "form": "equate + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "eşitlemek, bir tutmak",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "equates to",
+    "meaning": "-e eşittir, … anlamına gelir"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "equates to",
+    "meaning": "-e eşittir, … anlamına gelir"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "freedom",
+   "pos": "noun",
+   "wordId": "freedom",
+   "sense": 0,
+   "context": "özgürlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "psychologically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "psikolojik açıdan",
+   "note": null,
+   "form": null,
+   "base": "psikolojik olarak, psikolojik açıdan",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an abundance*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "an abundance of",
+    "meaning": "… bolluğu, bol miktarda"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "abundance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bolluk",
+   "note": "*an abundance of* \"bol miktarda …, … bolluğu\" demektir.",
+   "form": null,
+   "base": "bolluk",
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "an abundance of",
+    "meaning": "… bolluğu, bol miktarda"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… bolluğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "an abundance of",
+    "meaning": "… bolluğu, bol miktarda"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "option",
+   "pos": "noun",
+   "wordId": "option",
+   "sense": 0,
+   "context": "seçenekler",
+   "note": null,
+   "form": "option'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "lead",
+   "pos": "verb",
+   "wordId": "lead",
+   "sense": 0,
+   "context": "yol açar",
+   "note": "*lead to something* \"bir şeye yol açmak\" demektir.",
+   "form": "lead + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "leads to",
+    "meaning": "-e yol açar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "leads to",
+    "meaning": "-e yol açar"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "inability",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "-ememe (yapamama)",
+   "note": "*inability to + fiil* \"… -ememe, … yapamama\" demektir: *inability to act* → harekete geçememe.",
+   "form": null,
+   "base": "yapamama, yetersizlik",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(… -ememe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "act",
+   "pos": "verb",
+   "wordId": "act",
+   "sense": 0,
+   "context": "harekete geçmek",
+   "note": "*act*'in temel anlamı \"davranmak, hareket etmek\"tir; *act* ayrıca \"rol yapmak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "dissatisfaction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "memnuniyetsizlik",
+   "note": "*dis-* ön eki zıt anlam katar: *satisfaction* (memnuniyet) → *dissatisfaction* (memnuniyetsizlik).",
+   "form": null,
+   "base": "memnuniyetsizlik, hoşnutsuzluk",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığımızda",
+   "note": "*When faced with…* kısaltılmış bir yan cümledir: *When (we are) faced with…* → … ile karşılaştığımızda.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "karşılaştığımızda",
+   "note": "*face*'in isim anlamı \"yüz\"dür; *be faced with something* \"bir şeyle karşı karşıya kalmak\" demektir.",
+   "form": "face fiilinin 3. hali (faced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "faced with",
+    "meaning": "ile karşılaşınca (be faced with)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "faced with",
+    "meaning": "ile karşılaşınca (be faced with)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "endless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sonsuz",
+   "note": "*-less* eki \"-sız\" anlamı katar: *end* (son) → *endless* (sonsuz).",
+   "form": null,
+   "base": "sonsuz, bitmek bilmeyen",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "possibility",
+   "pos": "noun",
+   "wordId": "possibility",
+   "sense": 0,
+   "context": "olasılıklar",
+   "note": null,
+   "form": "possibility'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korkarız",
+   "note": "*fear* + *-ing*'li fiil \"… -mekten korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "vermek (karar)",
+   "note": "*make a decision* \"karar vermek\" demektir; Türkçedeki \"vermek\" yerine *make* kullanılır.",
+   "form": "make + -ing (son e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "making the wrong decision",
+    "meaning": "yanlış karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "making the wrong decision",
+    "meaning": "yanlış karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "wrong",
+   "pos": "adjective",
+   "wordId": "wrong",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "making the wrong decision",
+    "meaning": "yanlış karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "making the wrong decision",
+    "meaning": "yanlış karar vermek (make a decision)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "phenomenon",
+   "pos": "noun",
+   "wordId": "phenomenon",
+   "sense": 0,
+   "context": "olgu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor (akla getiriyor)",
+   "note": "*suggest*'in temel anlamı \"önermek\"tir; *suggest that…* bir bulgu için \"… olduğunu düşündürmek, göstermek\" anlamına da gelir.",
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "-dığını (ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "simplify",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sadeleştirmek",
+   "note": "Cümle ortasında özne olan *-ing*'li fiil isim gibi kullanılır (gerund): *simplifying our lives* → hayatlarımızı sadeleştirmek.",
+   "form": "simplify + -ing",
+   "base": "basitleştirmek, sadeleştirmek",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (f → ves: lives)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "actually",
+   "pos": "adverb",
+   "wordId": "actually",
+   "sense": 0,
+   "context": "aslında",
+   "note": "*actually* \"aslında, gerçekte\" demektir; Türkçedeki \"aktüel\" (güncel) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "key",
+   "pos": "noun",
+   "wordId": "key",
+   "sense": 0,
+   "context": "anahtar",
+   "note": "*the key to something* mecazi olarak \"bir şeyin anahtarı, sırrı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "key to",
+    "meaning": "-in anahtarı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-in (mutluluğun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "key to",
+    "meaning": "-in anahtarı"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki, samimi",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "satisfaction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mutluluk (memnuniyet)",
+   "note": null,
+   "form": null,
+   "base": "memnuniyet, tatmin",
+   "phrase": null
+  }
+ ]
+}

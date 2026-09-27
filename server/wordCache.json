@@ -988,5 +988,65 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-09-27T09:17:37.132Z"
+  },
+  "grand": {
+    "word": "grand",
+    "nlp": {
+      "word": "grand",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "grand"
+    },
+    "translation": "büyük",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T11:12:30.894Z"
+  },
+  "of": {
+    "word": "of",
+    "nlp": {
+      "word": "of",
+      "pos": "Preposition",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "of"
+    },
+    "translation": "...'nin",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T11:12:36.503Z"
+  },
+  "powerful": {
+    "word": "powerful",
+    "nlp": {
+      "word": "powerful",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "powerful"
+    },
+    "translation": "güçlü",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T11:12:45.029Z"
+  },
+  "presence": {
+    "word": "presence",
+    "nlp": {
+      "word": "presence",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "presence"
+    },
+    "translation": "varlık",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T11:12:48.126Z"
   }
 }

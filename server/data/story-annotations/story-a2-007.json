@@ -1,0 +1,884 @@
+{
+ "storyId": "story-a2-007",
+ "textHash": "6ef0126f2711",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Alice forma girmeye karar verdi ve bir spor merkezine üye oldu."
+  },
+  {
+   "tr": "Dün ilk seansıydı."
+  },
+  {
+   "tr": "Mike adında bir antrenör ona yardım etti."
+  },
+  {
+   "tr": "Ona koşu bandının nasıl kullanıldığını gösterdi."
+  },
+  {
+   "tr": "Alice yirmi dakika koştu."
+  },
+  {
+   "tr": "Çok yorulmuştu ve yüzü kıpkırmızıydı."
+  },
+  {
+   "tr": "Sonra biraz ağırlık kaldırdı."
+  },
+  {
+   "tr": "Bugün kasları ağrıyor ama kendini iyi hissediyor."
+  },
+  {
+   "tr": "Yarın yine gidecek."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Alice",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Alice",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (girmeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "(hâline) gelmek, olmak",
+   "note": "*get* + sıfat \"… olmak, … hâline gelmek\" demektir: *get fit* → forma girmek, *get tired* → yorulmak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "get fit",
+    "meaning": "forma girmek"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "fit",
+   "pos": "adjective",
+   "wordId": "fit",
+   "sense": 1,
+   "context": "formda",
+   "note": "*fit* sıfat olarak \"formda, sağlıklı\" demektir; fiil olarak \"(giysi) uymak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "get fit",
+    "meaning": "forma girmek"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "üye oldu",
+   "note": "*join*'in temel anlamı \"katılmak\"tır; bir kulübe ya da spor salonuna \"üye olmak\" demektir.",
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "sport",
+   "pos": "noun",
+   "wordId": "sport",
+   "sense": 0,
+   "context": "spor",
+   "note": null,
+   "form": "sport'un çoğulu (sports: spor)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "sports center",
+    "meaning": "spor merkezi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "center",
+   "pos": "noun",
+   "wordId": "centre",
+   "sense": 0,
+   "context": "merkez",
+   "note": "*center* Amerikan yazımıdır; İngiliz İngilizcesinde *centre* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "sports center",
+    "meaning": "spor merkezi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "yesterday",
+   "pos": "noun",
+   "wordId": "yesterday",
+   "sense": 1,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı (seansıydı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kadın)",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "session",
+   "pos": "noun",
+   "wordId": "session",
+   "sense": 0,
+   "context": "seans",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "trainer",
+   "pos": "noun",
+   "wordId": "trainer",
+   "sense": 0,
+   "context": "antrenör",
+   "note": "*trainer* burada \"antrenör, eğitmen\" demektir; İngiliz İngilizcesinde çoğul *trainers* \"spor ayakkabı\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adında",
+   "note": "*named* \"… adında\" demektir: *a trainer named Mike* → Mike adında bir antrenör.",
+   "form": "name fiilinin geçmiş ortacı (-d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "Mike",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mike",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "assist",
+   "pos": "verb",
+   "wordId": "assist",
+   "sense": 0,
+   "context": "yardım etti",
+   "note": null,
+   "form": "assist + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterdi",
+   "note": "*show someone something* \"birine bir şeyi göstermek\" demektir.",
+   "form": "show + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to + fiil* \"nasıl … -ileceği\" demektir: *how to use* → nasıl kullanılacağı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(how to: nasıl -ileceği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "running",
+   "pos": "noun",
+   "wordId": "running",
+   "sense": 0,
+   "context": "koşu",
+   "note": "*running machine* \"koşu bandı\" demektir; *treadmill* olarak da bilinir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "running machine",
+    "meaning": "koşu bandı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "machine",
+   "pos": "noun",
+   "wordId": "machine",
+   "sense": 0,
+   "context": "makine (bant)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "running machine",
+    "meaning": "koşu bandı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "Alice",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Alice",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştu",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca (süre)",
+   "note": "Süre bildirirken *for* \"… boyunca\" demektir: *for twenty minutes* → yirmi dakika (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "for twenty minutes",
+    "meaning": "yirmi dakika boyunca"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "for twenty minutes",
+    "meaning": "yirmi dakika boyunca"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "for twenty minutes",
+    "meaning": "yirmi dakika boyunca"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "exhausted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çok yorgun, bitkin",
+   "note": "*exhausted* \"çok yorgun, bitkin\" demektir; *tired*'dan (yorgun) daha güçlüdür.",
+   "form": null,
+   "base": "bitkin, çok yorgun",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (yüzü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "face",
+   "pos": "noun",
+   "wordId": "face",
+   "sense": 0,
+   "context": "yüz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "-dı",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "red",
+   "pos": "adjective",
+   "wordId": "red",
+   "sense": 0,
+   "context": "kırmızı (kıpkırmızı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "lift",
+   "pos": "verb",
+   "wordId": "lift",
+   "sense": 0,
+   "context": "kaldırdı",
+   "note": null,
+   "form": "lift + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "lifted some weights",
+    "meaning": "ağırlık kaldırdı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz, birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "lifted some weights",
+    "meaning": "ağırlık kaldırdı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "weight",
+   "pos": "noun",
+   "wordId": "weight",
+   "sense": 0,
+   "context": "ağırlıklar",
+   "note": "*weights* sporda kaldırılan \"ağırlıklar\" (dambıl, halter) demektir.",
+   "form": "weight'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "lifted some weights",
+    "meaning": "ağırlık kaldırdı"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "today",
+   "pos": "noun",
+   "wordId": "today",
+   "sense": 1,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kasları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "muscle",
+   "pos": "noun",
+   "wordId": "muscle",
+   "sense": 0,
+   "context": "kaslar",
+   "note": null,
+   "form": "muscle'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "painful",
+   "pos": "adjective",
+   "wordId": "painful",
+   "sense": 0,
+   "context": "ağrılı",
+   "note": "*painful* \"ağrılı, acılı\" demektir: *her muscles are painful* → kasları ağrıyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "positive",
+   "pos": "adjective",
+   "wordId": "positive",
+   "sense": 0,
+   "context": "olumlu (iyi)",
+   "note": "*feel positive* \"olumlu, iyimser hissetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "*be going to + fiil* önceden karar verilmiş planları anlatır: *She is going to go* → Gidecek.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "is going to go",
+    "meaning": "gidecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "Burada *going* \"gitmek\" anlamında değildir; *be going to* kalıbının parçasıdır. Asıl fiil sonraki *go*'dur.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "is going to go",
+    "meaning": "gidecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "is going to go",
+    "meaning": "gidecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "is going to go",
+    "meaning": "gidecek (be going to + fiil)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "again",
+   "pos": "adverb",
+   "wordId": "again",
+   "sense": 0,
+   "context": "yine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "tomorrow",
+   "pos": "adverb",
+   "wordId": "tomorrow",
+   "sense": 0,
+   "context": "yarın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

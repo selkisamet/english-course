@@ -1,0 +1,808 @@
+{
+ "storyId": "story-a1-010",
+ "textHash": "ca6d76834eb9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "David gitar çalmak istiyor."
+  },
+  {
+   "tr": "Yeni bir enstrümanı var."
+  },
+  {
+   "tr": "Kahverengi ve güzel görünüyor."
+  },
+  {
+   "tr": "Her salı ders alıyor."
+  },
+  {
+   "tr": "Parmakları acıyor ama her gün pratik yapıyor."
+  },
+  {
+   "tr": "Kolay şarkılar çalıyor."
+  },
+  {
+   "tr": "Komşuları müziği duyuyor."
+  },
+  {
+   "tr": "David mükemmel değil ama çok çalışıyor."
+  },
+  {
+   "tr": "Kız arkadaşı için bir şarkı çalmak istiyor."
+  },
+  {
+   "tr": "Bu konuda çok heyecanlı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyor",
+   "note": null,
+   "form": "want + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mak (çalmak)",
+   "note": "*want to + fiil* \"… -mak istemek\" demektir; *to* fiili mastar yapar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalmak",
+   "note": "*play* spor ve oyunlar için \"oynamak\", müzik aletleri için \"çalmak\" anlamına gelir: *play the guitar* → gitar çalmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Müzik aletlerinden önce *the* kullanılır: *play the guitar, play the piano*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "guitar",
+   "pos": "noun",
+   "wordId": "guitar",
+   "sense": 0,
+   "context": "gitar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (enstrümanı var)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; Türkçede \"-(s)i var\" yapısıyla söylenir: *He has an instrument* → Bir enstrüman**ı var**.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "instrument",
+   "pos": "noun",
+   "wordId": "instrument",
+   "sense": 0,
+   "context": "enstrüman, çalgı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "brown",
+   "pos": "adjective",
+   "wordId": "brown",
+   "sense": 0,
+   "context": "kahverengi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "görünüyor",
+   "note": "*look* + sıfat \"… görünmek\" demektir: *looks nice* → güzel görünüyor.",
+   "form": "look + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "nice",
+   "pos": "adjective",
+   "wordId": "nice",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "takes lessons",
+    "meaning": "ders alır (take lessons: ders almak)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "alıyor",
+   "note": "*take lessons* \"ders almak\" demektir.",
+   "form": "take + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "takes lessons",
+    "meaning": "ders alır (take lessons: ders almak)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "dersler",
+   "note": null,
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "takes lessons",
+    "meaning": "ders alır (take lessons: ders almak)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "Tuesday",
+   "pos": "noun",
+   "wordId": "tuesday",
+   "sense": 0,
+   "context": "salı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (parmakları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "finger",
+   "pos": "noun",
+   "wordId": "finger",
+   "sense": 0,
+   "context": "parmaklar",
+   "note": null,
+   "form": "finger'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "hurt",
+   "pos": "verb",
+   "wordId": "hurt",
+   "sense": 0,
+   "context": "acıyor",
+   "note": "*hurt* \"incitmek\" ve \"acımak\" anlamlarına gelir; burada \"acımak\"tır: *My fingers hurt* → Parmaklarım acıyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "practice",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "pratik yapıyor",
+   "note": "Amerikan İngilizcesinde fiil de *practice* yazılır; İngiliz İngilizcesinde fiil *practise*, isim *practice*'tir.",
+   "form": "practice + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalıyor",
+   "note": null,
+   "form": "play + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "song",
+   "pos": "noun",
+   "wordId": "song",
+   "sense": 0,
+   "context": "şarkılar",
+   "note": null,
+   "form": "song'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (komşuları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "neighbor",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": "*neighbor* Amerikan yazımıdır; İngiliz İngilizcesinde *neighbour* yazılır.",
+   "form": "neighbor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duyuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*be* fiilinden sonra *not* gelince cümle olumsuz olur: *is not perfect* → mükemmel değil.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "perfect",
+   "pos": "adjective",
+   "wordId": "perfect",
+   "sense": 0,
+   "context": "mükemmel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "çabalıyor",
+   "note": "*try* \"denemek; çalışmak, uğraşmak\" demektir; *try hard* \"çok çabalamak\".",
+   "form": "try + -es (geniş zaman, 3. tekil şahıs; y → i)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "tries hard",
+    "meaning": "çok çabalar (try hard: çok uğraşmak)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "hard",
+   "pos": "adverb",
+   "wordId": "hard",
+   "sense": 1,
+   "context": "çok (sıkı)",
+   "note": "*hard* sıfat olarak \"zor, sert\", zarf olarak \"çok, sıkı\" demektir; burada zarftır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "tries hard",
+    "meaning": "çok çabalar (try hard: çok uğraşmak)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyor",
+   "note": null,
+   "form": "want + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mak (çalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "song",
+   "pos": "noun",
+   "wordId": "song",
+   "sense": 0,
+   "context": "şarkı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (kız arkadaşı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "girlfriend",
+   "pos": "noun",
+   "wordId": "girlfriend",
+   "sense": 0,
+   "context": "kız arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "excited",
+   "pos": "adjective",
+   "wordId": "excited",
+   "sense": 0,
+   "context": "heyecanlı",
+   "note": "*excited* kişinin hissettiğini anlatır (\"heyecanlı\"); *exciting* ise bir şeyin heyecan verici olduğunu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında (bu konuda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (onun hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}
