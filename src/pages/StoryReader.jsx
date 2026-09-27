@@ -91,11 +91,14 @@ function Reader({ id }) {
   const [showHint, setShowHint] = useState(() => !getFlag('wordHint'))
 
   const readerRef = useRef(null)
+  const wordRef = useRef(0) // o an okunan kelime (hız değişince buradan devam edilir)
+  const restartRef = useRef(null)
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
     setLastStoryId(id)
     return () => {
+      clearTimeout(restartRef.current)
       readerRef.current?.stop()
       stopSpeaking()
     }
@@ -156,19 +159,25 @@ function Reader({ id }) {
   // ---------- Sesli okuma ----------
 
   const stopPlayback = () => {
+    clearTimeout(restartRef.current)
     readerRef.current?.stop()
     readerRef.current = null
     setIsPlaying(false)
     setSpeakingIndex(null)
   }
 
-  const startPlayback = () => {
+  const startPlayback = ({ speedIndex = speed, from = 0 } = {}) => {
     readerRef.current?.stop()
+    wordRef.current = from
     const reader = readAloud({
       sentences: spans,
       offsets,
-      rate: SPEEDS[speed].rate,
-      onWord: (index) => setSpeakingIndex(index),
+      rate: SPEEDS[speedIndex].rate,
+      startIndex: from,
+      onWord: (index) => {
+        wordRef.current = index
+        setSpeakingIndex(index)
+      },
       onDone: () => {
         if (readerRef.current !== reader) return
         readerRef.current = null
@@ -181,9 +190,19 @@ function Reader({ id }) {
     setSelected(null)
   }
 
+  // Hız okuma sırasında da değiştirilebilir: ses motoru hızı anlık değiştiremediği için
+  // okuma kesilip o an okunan kelimeden yeni hızla sürdürülür
   const cycleSpeed = () => {
-    if (isPlaying) stopPlayback()
-    setSpeed((s) => (s + 1) % SPEEDS.length)
+    const next = (speed + 1) % SPEEDS.length
+    setSpeed(next)
+    if (!isPlaying) return
+
+    const from = wordRef.current
+    readerRef.current?.stop()
+    readerRef.current = null
+    // Bazı mobil tarayıcılar iptalden hemen sonraki okumayı yutuyor; kısa bir ara ver
+    clearTimeout(restartRef.current)
+    restartRef.current = setTimeout(() => startPlayback({ speedIndex: next, from }), 120)
   }
 
   // ---------- Çeviri ve tamamlama ----------
@@ -250,7 +269,7 @@ function Reader({ id }) {
                   <>
                     <button
                       className={`btn ${isPlaying ? 'btn-secondary' : 'btn-primary'}`}
-                      onClick={isPlaying ? stopPlayback : startPlayback}
+                      onClick={isPlaying ? stopPlayback : () => startPlayback()}
                     >
                       {isPlaying ? <Square size={16} fill="currentColor" /> : <Play size={16} fill="currentColor" />}
                       {isPlaying ? 'Durdur' : 'Dinle'}

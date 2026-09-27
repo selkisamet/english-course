@@ -27,12 +27,21 @@ const TICK_MS = 80
  * @param {number} p.rate
  * @param {(index:number)=>void} p.onWord
  * @param {()=>void} p.onDone
+ * @param {number} [p.startIndex] okumaya bu kelimeden başla (ör. hız değişince kaldığı yerden)
  */
-export function readAloud({ sentences, offsets, rate, onWord, onDone }) {
+export function readAloud({ sentences, offsets, rate, onWord, onDone, startIndex = 0 }) {
   let cancelled = false
   let timer = null
   let current = null // referansı tut: bazı tarayıcılar aksi halde onend göndermiyor
-  let index = 0
+
+  // Başlangıç kelimesini içeren cümleden, o kelimeden itibaren başla
+  let index = Math.max(0, sentences.findIndex((s) => s.first <= startIndex && startIndex <= s.last))
+  if (startIndex > 0 && sentences[index] && startIndex > sentences[index].first) {
+    const s = sentences[index]
+    const cut = offsets[startIndex] - s.start
+    sentences = [...sentences]
+    sentences[index] = { text: s.text.slice(cut), start: offsets[startIndex], first: startIndex, last: s.last }
+  }
 
   const stop = () => {
     cancelled = true
