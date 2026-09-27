@@ -47,6 +47,24 @@
   display: none;
 }
 
+.install {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 14px;
+  border-radius: var(--radius-pill);
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.install:hover {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
 .navLink,
 .navLinkActive {
   display: flex;
@@ -119,6 +137,11 @@
   .desktopNav {
     display: flex;
     gap: 4px;
+    margin-left: auto;
+  }
+
+  .install {
+    margin-left: 12px;
   }
 
   .tabbar {

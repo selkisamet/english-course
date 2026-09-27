@@ -35,7 +35,10 @@ function WordDetail() {
     return (
       <div className={page.page}>
         <div className={page.empty}>
-          <p className={page.emptyTitle}>Kelime bulunamadı</p>
+          <p className={page.emptyTitle}>
+            {navigator.onLine ? 'Kelime bulunamadı' : 'Bu kelime çevrimdışı kullanılamıyor'}
+          </p>
+          {!navigator.onLine && <p>Daha önce açmadığın kelimeler için internet bağlantısı gerekiyor.</p>}
           <Link to="/vocabulary/words" className="btn btn-secondary">Listeye dön</Link>
         </div>
       </div>

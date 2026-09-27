@@ -327,7 +327,11 @@ function Reader({ id }) {
                   <p className="eyebrow">Türkçe çeviri</p>
                   {translation.status === 'loading' && <div className="skeleton" style={{ height: 96 }} />}
                   {translation.status === 'error' && (
-                    <p className={styles.errorText}>Çeviri yapılamadı. Biraz sonra tekrar dene.</p>
+                    <p className={styles.errorText}>
+                      {navigator.onLine
+                        ? 'Çeviri yapılamadı. Biraz sonra tekrar dene.'
+                        : 'İnternet bağlantısı yok. Çeviri için bağlantı gerekiyor.'}
+                    </p>
                   )}
                   {translation.status === 'done' && <p>{translation.text}</p>}
                 </section>

@@ -107,7 +107,13 @@ function WordPanel({ word, sentence, onClose }) {
           </div>
         )}
 
-        {status === 'error' && <p className={styles.error}>Anlam yüklenemedi. Tekrar dene.</p>}
+        {status === 'error' && (
+          <p className={styles.error}>
+            {navigator.onLine
+              ? 'Anlam yüklenemedi. Tekrar dene.'
+              : 'İnternet bağlantısı yok. Kelime anlamları için bağlantı gerekiyor.'}
+          </p>
+        )}
 
         {status === 'done' && (
           <>
@@ -153,7 +159,7 @@ function WordPanel({ word, sentence, onClose }) {
         <button
           className={`btn btn-block ${saved ? 'btn-secondary' : 'btn-primary'}`}
           onClick={handleSave}
-          disabled={saving || status === 'loading'}
+          disabled={saving || status !== 'done'}
         >
           {saved ? <BookmarkCheck size={18} /> : <BookmarkPlus size={18} />}
           {saved ? 'Kelimelerinde kayıtlı' : 'Kelimelerime ekle'}

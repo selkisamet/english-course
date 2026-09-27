@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { BookOpen, Layers, ChartNoAxesColumn } from 'lucide-react'
+import { BookOpen, ChartNoAxesColumn, Download, Layers } from 'lucide-react'
+import PwaStatus from '../PwaStatus'
+import { useInstallPrompt } from '../../utils/pwa'
 import styles from './AppLayout.module.css'
 
 const NAV = [
@@ -15,6 +17,7 @@ const FOCUS_ROUTES = [/^\/story\//, /^\/vocabulary\/study/]
 function AppLayout() {
   const { pathname } = useLocation()
   const isFocus = FOCUS_ROUTES.some((re) => re.test(pathname))
+  const { canInstall, install } = useInstallPrompt()
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -43,6 +46,13 @@ function AppLayout() {
                 </NavLink>
               ))}
             </nav>
+
+            {canInstall && (
+              <button className={styles.install} onClick={install}>
+                <Download size={16} strokeWidth={2.4} />
+                Yükle
+              </button>
+            )}
           </div>
         </header>
       )}
@@ -50,6 +60,8 @@ function AppLayout() {
       <main className={isFocus ? undefined : styles.main}>
         <Outlet />
       </main>
+
+      <PwaStatus aboveTabbar={!isFocus} />
 
       {!isFocus && (
         <nav className={styles.tabbar} aria-label="Ana menü">

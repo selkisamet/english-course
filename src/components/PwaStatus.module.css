@@ -1,0 +1,75 @@
+.stack {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: min(440px, calc(100vw - 32px));
+  transform: translateX(-50%);
+}
+
+.stack[data-tabbar='true'] {
+  bottom: calc(var(--tabbar-h) + 12px + env(safe-area-inset-bottom));
+}
+
+/* Odak ekranlarında (okuma, kart çalışması) alttaki panel ve butonları kapatmasın */
+.stack[data-tabbar='false'] {
+  top: calc(64px + env(safe-area-inset-top));
+  bottom: auto;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 12px 12px 14px;
+  border-radius: var(--radius);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.875rem;
+  box-shadow: var(--shadow-lg);
+  animation: toastIn 0.25s var(--ease);
+}
+
+.toast span {
+  flex: 1;
+}
+
+.icon {
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.action {
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--highlight);
+  color: #1d1c1a;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.close {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+  color: inherit;
+  opacity: 0.7;
+}
+
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@media (min-width: 768px) {
+  .stack[data-tabbar='true'] {
+    bottom: 24px;
+  }
+}
