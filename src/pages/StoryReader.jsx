@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight, Check, Gauge, Languages, Lightbulb, Play, Square
 import WordPanel from '../components/WordPanel'
 import { fetchStories, translateText } from '../utils/api'
 import { cleanWord, LEVEL_NAMES, readingMinutes, splitSentences, wordCount } from '../utils/format'
+import { readAloud } from '../utils/readAloud'
 import { canSpeak, speak, stopSpeaking } from '../utils/speech'
 import {
   getFlag,
@@ -27,7 +28,7 @@ const splitToken = (token) => token.match(/^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$
 
 function useStoryText(text) {
   return useMemo(() => {
-    if (!text) return { tokens: [], offsets: [], sentenceOf: () => '' }
+    if (!text) return { tokens: [], offsets: [], spans: [], sentenceOf: () => '' }
 
     const tokens = text.split(/\s+/).filter(Boolean)
     let pos = 0
@@ -54,7 +55,18 @@ function useStoryText(text) {
       return sentences[found]
     }
 
-    return { tokens, offsets, sentenceOf }
+    // Sesli okuma için her cümlenin kelime aralığı (yalnızca noktalamadan oluşan parçalar atlanır)
+    const spans = sentences
+      .map((sentence, j) => {
+        const end = starts[j] + sentence.length
+        const inside = offsets.map((o, t) => [o, t]).filter(([o]) => o >= starts[j] && o < end)
+        return inside.length
+          ? { text: sentence, start: starts[j], first: inside[0][1], last: inside[inside.length - 1][1] }
+          : null
+      })
+      .filter(Boolean)
+
+    return { tokens, offsets, spans, sentenceOf }
   }, [text])
 }
 
@@ -78,20 +90,19 @@ function Reader({ id }) {
   const [isRead, setIsRead] = useState(() => isStoryRead(id))
   const [showHint, setShowHint] = useState(() => !getFlag('wordHint'))
 
-  const playIdRef = useRef(0)
-  const timerRef = useRef(null)
+  const readerRef = useRef(null)
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
     setLastStoryId(id)
     return () => {
-      clearInterval(timerRef.current)
+      readerRef.current?.stop()
       stopSpeaking()
     }
   }, [id])
 
   const story = stories?.find((s) => s.id === id)
-  const { tokens, offsets, sentenceOf } = useStoryText(story?.text)
+  const { tokens, offsets, spans, sentenceOf } = useStoryText(story?.text)
 
   const nextStory = useMemo(() => {
     if (!stories || !story) return null
@@ -145,48 +156,27 @@ function Reader({ id }) {
   // ---------- Sesli okuma ----------
 
   const stopPlayback = () => {
-    playIdRef.current++
-    clearInterval(timerRef.current)
-    stopSpeaking()
+    readerRef.current?.stop()
+    readerRef.current = null
     setIsPlaying(false)
     setSpeakingIndex(null)
   }
 
   const startPlayback = () => {
-    const playId = ++playIdRef.current
-    const rate = SPEEDS[speed].rate
-    let gotBoundary = false
-    const isCurrent = () => playIdRef.current === playId
-
-    speak(story.text, {
-      rate,
-      onStart: () => {
-        if (!isCurrent()) return
-        setIsPlaying(true)
-        setSpeakingIndex(0)
-        // Kelime sınırı olayı gelmeyen tarayıcılar için tahmini ilerleme
-        let i = 0
-        clearInterval(timerRef.current)
-        timerRef.current = setInterval(() => {
-          if (gotBoundary || !isCurrent()) return clearInterval(timerRef.current)
-          i = Math.min(i + 1, tokens.length - 1)
-          setSpeakingIndex(i)
-        }, 300 / rate)
-      },
-      onBoundary: (e) => {
-        if (!isCurrent() || (e.name && e.name !== 'word')) return
-        gotBoundary = true
-        let index = 0
-        while (index + 1 < offsets.length && offsets[index + 1] <= e.charIndex) index++
-        setSpeakingIndex(index)
-      },
-      onEnd: () => {
-        if (!isCurrent()) return
-        clearInterval(timerRef.current)
+    readerRef.current?.stop()
+    const reader = readAloud({
+      sentences: spans,
+      offsets,
+      rate: SPEEDS[speed].rate,
+      onWord: (index) => setSpeakingIndex(index),
+      onDone: () => {
+        if (readerRef.current !== reader) return
+        readerRef.current = null
         setIsPlaying(false)
         setSpeakingIndex(null)
       }
     })
+    readerRef.current = reader
     setIsPlaying(true)
     setSelected(null)
   }
