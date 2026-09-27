@@ -39,16 +39,8 @@
 }
 
 .logo {
-  display: grid;
-  place-items: center;
   width: 32px;
   height: 32px;
-  border-radius: 10px;
-  background: var(--primary);
-  color: var(--on-primary);
-  font-family: var(--font-read);
-  font-size: 1.15rem;
-  font-weight: 600;
 }
 
 .desktopNav {

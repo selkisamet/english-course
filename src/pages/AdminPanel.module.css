@@ -23,16 +23,8 @@
 }
 
 .logo {
-  display: grid;
-  place-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 12px;
-  background: var(--primary);
-  color: var(--on-primary);
-  font-family: var(--font-read);
-  font-size: 1.3rem;
-  font-weight: 600;
 }
 
 .error {

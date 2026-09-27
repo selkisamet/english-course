@@ -179,7 +179,7 @@ function AdminPanel() {
     return (
       <div className={styles.loginPage}>
         <form onSubmit={handleLogin} className={`card ${styles.login}`}>
-          <span className={styles.logo} aria-hidden="true">E</span>
+          <img src="/favicon.svg" alt="" className={styles.logo} />
           <h1>Yönetim paneli</h1>
           <label className={styles.field}>
             <span>Şifre</span>

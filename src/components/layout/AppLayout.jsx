@@ -26,7 +26,7 @@ function AppLayout() {
         <header className={styles.topbar}>
           <div className={styles.topbarInner}>
             <NavLink to="/" className={styles.brand}>
-              <span className={styles.logo} aria-hidden="true">E</span>
+              <img src="/favicon.svg" alt="" className={styles.logo} />
               English Course
             </NavLink>
 
