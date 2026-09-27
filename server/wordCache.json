@@ -433,5 +433,560 @@
     "contextTranslation": null,
     "sentence": null,
     "timestamp": "2026-01-27T18:16:52.267Z"
+  },
+  "live": {
+    "word": "live",
+    "nlp": {
+      "word": "live",
+      "pos": "Verb",
+      "tense": "Base form",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "live"
+    },
+    "translation": "canlı",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-26T22:13:31.357Z",
+    "contexts": {
+      "I live in a small house in Chicago.": "yaşamak"
+    }
+  },
+  "plays": {
+    "word": "plays",
+    "nlp": {
+      "word": "plays",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "play"
+    },
+    "translation": "oyunlar",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T07:45:33.685Z",
+    "contexts": {
+      "My sisters enjoy music, and my brother plays football.": "oynar"
+    }
+  },
+  "twenty-five": {
+    "word": "twenty-five",
+    "nlp": {
+      "word": "twenty-five",
+      "pos": "Number",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "twenty"
+    },
+    "translation": "yirmi beş",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T07:54:53.171Z"
+  },
+  "together": {
+    "word": "together",
+    "nlp": {
+      "word": "together",
+      "pos": "Adverb",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "together"
+    },
+    "translation": "birlikte",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T07:55:04.285Z",
+    "contexts": {
+      "We eat dinner together every evening.": "birlikte"
+    }
+  },
+  "sleeps": {
+    "word": "sleeps",
+    "nlp": {
+      "word": "sleeps",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "sleep"
+    },
+    "translation": "uyur",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T07:57:29.238Z",
+    "contexts": {
+      "Whiskers sleeps all day long.": "uyur"
+    }
+  },
+  "cat": {
+    "word": "cat",
+    "nlp": {
+      "word": "cat",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "cat"
+    },
+    "translation": "kedi",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:08:14.749Z"
+  },
+  "sofa": {
+    "word": "sofa",
+    "nlp": {
+      "word": "sofa",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "sofa"
+    },
+    "translation": "kanepe",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:09:39.779Z"
+  },
+  "floor": {
+    "word": "floor",
+    "nlp": {
+      "word": "floor",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "floor"
+    },
+    "translation": "zemin",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:10:12.114Z"
+  },
+  "fat": {
+    "word": "fat",
+    "nlp": {
+      "word": "fat",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "fat"
+    },
+    "translation": "yağ",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:11:30.356Z",
+    "contexts": {
+      "He is very fat and orange.": "şişman"
+    }
+  },
+  "him": {
+    "word": "him",
+    "nlp": {
+      "word": "him",
+      "pos": "Pronoun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "him"
+    },
+    "translation": "ona",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:12:35.014Z"
+  },
+  "busy": {
+    "word": "busy",
+    "nlp": {
+      "word": "busy",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "busy"
+    },
+    "translation": "meşgul",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:18:40.138Z"
+  },
+  "student": {
+    "word": "student",
+    "nlp": {
+      "word": "student",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "student"
+    },
+    "translation": "öğrenci",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:18:41.472Z"
+  },
+  "sarah": {
+    "word": "sarah",
+    "nlp": {
+      "word": "sarah",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "sarah"
+    },
+    "translation": "sarah",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:18:45.212Z"
+  },
+  "dinner": {
+    "word": "dinner",
+    "nlp": {
+      "word": "dinner",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "dinner"
+    },
+    "translation": "akşam yemeği",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:20:06.463Z"
+  },
+  "football": {
+    "word": "football",
+    "nlp": {
+      "word": "football",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "football"
+    },
+    "translation": "futbol",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:22:01.837Z"
+  },
+  "funny": {
+    "word": "funny",
+    "nlp": {
+      "word": "funny",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "funny"
+    },
+    "translation": "komik",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:25:06.855Z"
+  },
+  "they": {
+    "word": "they",
+    "nlp": {
+      "word": "they",
+      "pos": "Pronoun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "they"
+    },
+    "translation": "onlar",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:25:10.383Z"
+  },
+  "named": {
+    "word": "named",
+    "nlp": {
+      "word": "named",
+      "pos": "Verb",
+      "tense": "Past",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "name"
+    },
+    "translation": "adına",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:25:33.061Z"
+  },
+  "whiskers": {
+    "word": "whiskers",
+    "nlp": {
+      "word": "whiskers",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "whisker"
+    },
+    "translation": "bıyıklar",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:25:45.270Z"
+  },
+  "cute": {
+    "word": "cute",
+    "nlp": {
+      "word": "cute",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "cute"
+    },
+    "translation": "sevimli",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:26:38.071Z"
+  },
+  "the": {
+    "word": "the",
+    "nlp": {
+      "word": "the",
+      "pos": "Determiner",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "the"
+    },
+    "translation": "o",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:26:59.401Z"
+  },
+  "puts": {
+    "word": "puts",
+    "nlp": {
+      "word": "puts",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "put"
+    },
+    "translation": "koyar",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:36:14.393Z"
+  },
+  "cheese": {
+    "word": "cheese",
+    "nlp": {
+      "word": "cheese",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "cheese"
+    },
+    "translation": "peynir",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:37:46.843Z"
+  },
+  "eats": {
+    "word": "eats",
+    "nlp": {
+      "word": "eats",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "eat"
+    },
+    "translation": "yiyor",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T08:37:59.886Z"
+  },
+  "arrives": {
+    "word": "arrives",
+    "nlp": {
+      "word": "arrives",
+      "pos": "Verb",
+      "tense": "Present",
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "arrive"
+    },
+    "translation": "geliyor",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:07:30.478Z"
+  },
+  "bus": {
+    "word": "bus",
+    "nlp": {
+      "word": "bus",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "bus"
+    },
+    "translation": "otobüs",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:08:19.218Z"
+  },
+  "never": {
+    "word": "never",
+    "nlp": {
+      "word": "never",
+      "pos": "Adverb",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "never"
+    },
+    "translation": "asla",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:08:19.518Z"
+  },
+  "late": {
+    "word": "late",
+    "nlp": {
+      "word": "late",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "late"
+    },
+    "translation": "geç",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:08:34.271Z"
+  },
+  "teeth": {
+    "word": "teeth",
+    "nlp": {
+      "word": "teeth",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "tooth"
+    },
+    "translation": "dişler",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:08:42.598Z"
+  },
+  "school": {
+    "word": "school",
+    "nlp": {
+      "word": "school",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "school"
+    },
+    "translation": "okul",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:09:09.966Z"
+  },
+  "fresh": {
+    "word": "fresh",
+    "nlp": {
+      "word": "fresh",
+      "pos": "Adjective",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "fresh"
+    },
+    "translation": "taze",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:11:10.981Z"
+  },
+  "clothes": {
+    "word": "clothes",
+    "nlp": {
+      "word": "clothes",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "clothes"
+    },
+    "translation": "giysiler",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:12:56.578Z"
+  },
+  "up": {
+    "word": "up",
+    "nlp": {
+      "word": "up",
+      "pos": "Preposition",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "up"
+    },
+    "translation": "yukarı",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:13:34.424Z"
+  },
+  "water": {
+    "word": "water",
+    "nlp": {
+      "word": "water",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "water"
+    },
+    "translation": "su",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:14:07.890Z"
+  },
+  "with": {
+    "word": "with",
+    "nlp": {
+      "word": "with",
+      "pos": "Preposition",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "with"
+    },
+    "translation": "ile",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:16:20.971Z"
+  },
+  "bread": {
+    "word": "bread",
+    "nlp": {
+      "word": "bread",
+      "pos": "Noun",
+      "tense": null,
+      "isModal": false,
+      "isAuxiliary": false,
+      "root": "bread"
+    },
+    "translation": "ekmek",
+    "contextTranslation": null,
+    "sentence": null,
+    "timestamp": "2026-09-27T09:17:37.132Z"
   }
 }
