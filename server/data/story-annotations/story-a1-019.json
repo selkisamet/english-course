@@ -1,0 +1,900 @@
+{
+ "storyId": "story-a1-019",
+ "textHash": "9a49085d828f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sam'in okul için yeni ayakkabıya ihtiyacı var."
+  },
+  {
+   "tr": "Eski ayakkabıları çok küçük geliyor."
+  },
+  {
+   "tr": "Cumartesi günü annesiyle bir ayakkabı mağazasına gidiyor."
+  },
+  {
+   "tr": "Mağazada çok sayıda ayakkabı var."
+  },
+  {
+   "tr": "Sam bir çift siyah ayakkabıyı beğeniyor."
+  },
+  {
+   "tr": "Onları deniyor ve rahatlar."
+  },
+  {
+   "tr": "Annesi \"Bunlar ne kadar?\" diye soruyor."
+  },
+  {
+   "tr": "Mağazadaki kadın \"Kırk dolar,\" diyor."
+  },
+  {
+   "tr": "Ayakkabıları alıp eve gidiyorlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacı var",
+   "note": "*need* \"ihtiyaç duymak\" demektir; Türkçede \"-e ihtiyacı var\" diye çevrilir: *Sam needs shoes* → Sam'in ayakkabıya ihtiyacı var.",
+   "form": "need + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabı",
+   "note": "Ayakkabılar çift olduğu için İngilizcede genellikle çoğul söylenir: *new shoes* → yeni ayakkabı.",
+   "form": "shoe'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his shoes* → ayakkabı**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": "*old* insanlar için \"yaşlı\", eşyalar için \"eski\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabılar",
+   "note": null,
+   "form": "shoe'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (gereğinden)",
+   "note": "*too*, sıfatlardan önce \"gereğinden fazla\" anlamı verir ve bir sorun bildirir: *too small* → (olması gerekenden) küçük. *very* ise sadece \"çok\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "too small",
+    "meaning": "çok küçük (gereğinden küçük)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "too small",
+    "meaning": "çok küçük (gereğinden küçük)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (cumartesi günü)",
+   "note": "Günlerden önce *on* kullanılır: *on Saturday* → cumartesi günü.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gidiyor",
+   "note": null,
+   "form": "go + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (mağazaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabı",
+   "note": "Burada *shoe* isim olmasına rağmen *shop*'u niteler ve tekil kalır: *shoe shop* → ayakkabı mağazası.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "mağaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (annesiyle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there are: var)",
+   "note": "*there is / there are* bir şeyin var olduğunu söyler; Türkçede \"var\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "There are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there are)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "There are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "çok",
+   "note": "*many* sayılabilen çoğul isimlerle kullanılır: *many shoes*; sayılamayanlarla *much* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabı(lar)",
+   "note": null,
+   "form": "shoe'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (mağazada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "mağaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "beğeniyor",
+   "note": "*like*'ın temel anlamı \"sevmek, hoşlanmak\"tır; bir eşya için \"beğenmek\" demektir.",
+   "form": "like + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "a pair of",
+    "meaning": "bir çift"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "pair",
+   "pos": "noun",
+   "wordId": "pair",
+   "sense": 0,
+   "context": "çift",
+   "note": "*a pair of* \"bir çift\" demektir: *a pair of shoes* → bir çift ayakkabı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "a pair of",
+    "meaning": "bir çift"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a pair of: bir çift)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "a pair of",
+    "meaning": "bir çift"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "black",
+   "pos": "adjective",
+   "wordId": "black",
+   "sense": 0,
+   "context": "siyah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabı",
+   "note": null,
+   "form": "shoe'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "dener",
+   "note": "*try on* \"(giysi, ayakkabı) giyip denemek\" demektir; nesne zamir olunca araya girer: *tries them on*.",
+   "form": "try + -es (geniş zaman, 3. tekil şahıs; y → i)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "tries them on",
+    "meaning": "onları dener (try on: giyip denemek)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "tries them on",
+    "meaning": "onları dener (try on: giyip denemek)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "(try on: denemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "tries them on",
+    "meaning": "onları dener (try on: giyip denemek)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "rahat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (annesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "soruyor",
+   "note": null,
+   "form": "ask + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar (how much)",
+   "note": "Fiyat sorarken *How much is it? / How much are they?* denir: \"Ne kadar? Kaça?\"",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "How much",
+    "meaning": "ne kadar (fiyat)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "much",
+   "pos": "pronoun",
+   "wordId": "much",
+   "sense": 1,
+   "context": "(how much: ne kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "How much",
+    "meaning": "ne kadar (fiyat)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (bunlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "dollar",
+   "pos": "noun",
+   "wordId": "dollar",
+   "sense": 0,
+   "context": "dolar",
+   "note": "İngilizcede birden fazla sayıdan sonra isim çoğul olur (*forty dollars*); Türkçede tekil kalır (kırk dolar).",
+   "form": "dollar'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "diyor",
+   "note": "Konuşma aktarılırken fiil özneden önce gelebilir: *says the woman* = *the woman says*.",
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (mağazadaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "mağaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "alırlar",
+   "note": "*buy*'ın temel anlamı \"satın almak\"tır; günlük Türkçede kısaca \"almak\" deriz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "shoe",
+   "pos": "noun",
+   "wordId": "shoe",
+   "sense": 0,
+   "context": "ayakkabılar",
+   "note": null,
+   "form": "shoe'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ıp)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "giderler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında kullanıldığında önüne *to* almaz: *go home* (✗ go to home).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,887 @@
+{
+ "storyId": "story-a1-027",
+ "textHash": "715debc7bf2c",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Lily altı yaşında."
+  },
+  {
+   "tr": "Bugün bisiklet sürmeyi öğreniyor."
+  },
+  {
+   "tr": "Babası bisikletin arkasını tutuyor ve Lily hareket etmeye başlıyor."
+  },
+  {
+   "tr": "Babası \"Durma!\" diyor."
+  },
+  {
+   "tr": "Lily sokakta yavaşça ilerliyor."
+  },
+  {
+   "tr": "Babası bisikleti bırakıyor ama Lily bunu bilmiyor."
+  },
+  {
+   "tr": "İlk kez tek başına sürüyor!"
+  },
+  {
+   "tr": "Kendisiyle çok gurur duyuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Lily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; yaş söylerken de kullanılır: *Lily is six* → Lily altı yaşında (✗ has six years).",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "six years old",
+    "meaning": "altı yaşında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl (yaş)",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "six years old",
+    "meaning": "altı yaşında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "six years old",
+    "meaning": "altı yaşında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*she* kadınlar için, *he* erkekler için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are + -ing* şu anda olan eylemi anlatır ve Türkçede \"-yor\" ekiyle karşılanır: *is learning* → öğreniyor.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": "*learn to + fiil* \"… -meyi öğrenmek\" demektir.",
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (sürmeyi)",
+   "note": "*to* burada fiili mastar yapar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "sürmek (binmek)",
+   "note": "Bisiklet ve at için *ride* kullanılır: *ride a bike* → bisiklet sürmek; araba için *drive* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede çoğu zaman söylenmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "is learning to ride a bike",
+    "meaning": "bisiklet sürmeyi öğreniyor (learn to + fiil)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (babası)",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "tutuyor",
+   "note": null,
+   "form": "hold + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "back",
+   "pos": "noun",
+   "wordId": "back",
+   "sense": 0,
+   "context": "arka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (bisikletin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "Lily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlıyor",
+   "note": "*start to + fiil* \"… -meye başlamak\" demektir.",
+   "form": "start + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye (etmeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "hareket etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (babası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "diyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-ma)",
+   "note": "*Don't* + fiil olumsuz emir kurar: *Don't stop!* → Durma! *Don't*, *do not*'un kısaltmasıdır.",
+   "form": "do + not kısaltması (don't)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durmak (durma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "Lily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "ilerliyor (sürüyor)",
+   "note": null,
+   "form": "ride + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaşça",
+   "note": "*-ly* eki sıfattan zarf yapar: *slow* (yavaş) → *slowly* (yavaşça).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "down",
+   "pos": "preposition",
+   "wordId": "down",
+   "sense": 1,
+   "context": "boyunca (sokakta)",
+   "note": "*down the street* \"sokak boyunca, sokakta ilerleyerek\" demektir; burada \"aşağı\" anlamı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (babası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "let",
+   "pos": "verb",
+   "wordId": "let",
+   "sense": 0,
+   "context": "bırakıyor (let go of)",
+   "note": "*let*'in temel anlamı \"izin vermek, bırakmak\"tır; *let go of something* \"bir şeyi tutmayı bırakmak, elini çekmek\" demektir.",
+   "form": "let + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "lets go of",
+    "meaning": "bırakır (let go of: elini çekmek, bırakmak)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(let go of: bırakmak)",
+   "note": "Burada *go* \"gitmek\" anlamında değildir; *let go of* kalıbının parçasıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "lets go of",
+    "meaning": "bırakır (let go of: elini çekmek, bırakmak)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(let go of: bırakmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "lets go of",
+    "meaning": "bırakır (let go of: elini çekmek, bırakmak)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "Lily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-miyor)",
+   "note": "Geniş zamanda olumsuz cümle *does not / do not* + fiilin yalın haliyle kurulur: *does not know* → bilmiyor.",
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "does not know",
+    "meaning": "bilmiyor"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "does not know",
+    "meaning": "bilmiyor"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "does not know",
+    "meaning": "bilmiyor"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "sürüyor",
+   "note": null,
+   "form": "ride + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "tek başına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for the first time: ilk kez)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "for the first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "for the first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "for the first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* \"zaman\" demektir; *for the first time* kalıbında \"ilk kez\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "for the first time",
+    "meaning": "ilk kez"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": "*be proud of* \"… ile gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyuyor"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "ile (-den)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyuyor"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "herself",
+   "pos": "pronoun",
+   "wordId": "herself",
+   "sense": 0,
+   "context": "kendisi (kendisiyle)",
+   "note": "*herself* \"kendisi\" (kadın) demektir; özne ile nesne aynı kişi olunca kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyuyor"
+   }
+  }
+ ]
+}

@@ -1,0 +1,879 @@
+{
+ "storyId": "story-a1-050",
+ "textHash": "f9e9460ff677",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Emily'nin dişi ağrıyor."
+  },
+  {
+   "tr": "Annesi dişçiyi arıyor ve öğleden sonra oraya gidiyorlar."
+  },
+  {
+   "tr": "Emily biraz korkuyor."
+  },
+  {
+   "tr": "Dişçi güler yüzlü bir adam."
+  },
+  {
+   "tr": "\"Ağzını aç lütfen,\" diyor."
+  },
+  {
+   "tr": "Küçük bir ışıkla dişlerine bakıyor."
+  },
+  {
+   "tr": "\"Büyük bir sorun değil,\" diyor."
+  },
+  {
+   "tr": "Yirmi dakika sonra ağrı geçiyor."
+  },
+  {
+   "tr": "Emily kendini çok daha iyi hissediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Emily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emily'nin",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (ağrısı var)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; ağrılar *have* ile söylenir: *have a pain in your tooth* → dişin ağrımak.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede çoğu zaman söylenmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "ağrı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (dişinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "tooth",
+   "pos": "noun",
+   "wordId": "tooth",
+   "sense": 0,
+   "context": "diş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "has a pain in her tooth",
+    "meaning": "dişi ağrıyor (have a pain in)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (annesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "arıyor (telefonla)",
+   "note": null,
+   "form": "call + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "dentist",
+   "pos": "noun",
+   "wordId": "dentist",
+   "sense": 0,
+   "context": "dişçi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gidiyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "oraya",
+   "note": "*there* \"orada, oraya\" demektir; önüne *to* almaz: *go there* (✗ go to there).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(öğleden sonra)",
+   "note": "Günün bölümlerinden önce *in the* kullanılır: *in the afternoon* → öğleden sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "in the afternoon",
+    "meaning": "öğleden sonra"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "in the afternoon",
+    "meaning": "öğleden sonra"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "in the afternoon",
+    "meaning": "öğleden sonra"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "Emily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; bu tür cümlelerde Türkçede ayrıca söylenmez.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a little: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "little",
+   "pos": "adverb",
+   "wordId": "little",
+   "sense": 3,
+   "context": "biraz (a little)",
+   "note": "*a little* \"biraz\" demektir; sıfatlardan önce kullanılır: *a little afraid* → biraz korkmuş.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "afraid",
+   "pos": "adjective",
+   "wordId": "afraid",
+   "sense": 0,
+   "context": "korkmuş",
+   "note": "*be afraid* \"korkmak\" demektir: *Emily is afraid* → Emily korkuyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "dentist",
+   "pos": "noun",
+   "wordId": "dentist",
+   "sense": 0,
+   "context": "dişçi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "friendly",
+   "pos": "adjective",
+   "wordId": "friendly",
+   "sense": 0,
+   "context": "güler yüzlü",
+   "note": "*friendly* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "diyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "aç",
+   "note": "Cümle fiille başlıyor ve özne yok: bu bir emir cümlesidir; *please* kibarlık katar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "your",
+   "pos": "determiner",
+   "wordId": "your",
+   "sense": 0,
+   "context": "senin (ağzın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "mouth",
+   "pos": "noun",
+   "wordId": "mouth",
+   "sense": 0,
+   "context": "ağız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "please",
+   "pos": "exclamation",
+   "wordId": "please",
+   "sense": 0,
+   "context": "lütfen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakıyor",
+   "note": "*look at* \"-e bakmak\" demektir.",
+   "form": "look + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (dişlerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "tooth",
+   "pos": "noun",
+   "wordId": "tooth",
+   "sense": 0,
+   "context": "dişler",
+   "note": "*teeth*, *tooth*'un düzensiz çoğuludur (✗ tooths).",
+   "form": "tooth'un çoğulu (teeth, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (ışıkla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": "*light* isim olarak \"ışık; lamba\", sıfat olarak \"açık (renk); hafif\" demektir; burada \"ışık\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*be* fiilinden sonra *not* gelince cümle olumsuz olur: *is not a big problem* → büyük bir sorun değil.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "diyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra",
+   "note": "*after* + süre \"… sonra\" demektir: *after twenty minutes* → yirmi dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "ağrı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(geçti)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "is gone",
+    "meaning": "geçti, gitti"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "geçmiş (gitmiş)",
+   "note": "*be gone* \"gitmiş, geçmiş, kaybolmuş olmak\" demektir: *the pain is gone* → ağrı geçti.",
+   "form": "go fiilinin 3. hali (gone, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "is gone",
+    "meaning": "geçti, gitti"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "Emily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir: *feels better* → kendini daha iyi hissediyor.",
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much better* → çok daha iyi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "better",
+   "sense": 0,
+   "context": "daha iyi",
+   "note": "*better*, *good* sıfatının karşılaştırma halidir (good → better → best).",
+   "form": "good sıfatının karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  }
+ ]
+}

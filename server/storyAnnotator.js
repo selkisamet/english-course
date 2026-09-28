@@ -6,10 +6,9 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import Anthropic from '@anthropic-ai/sdk'
-import winkNLP from 'wink-nlp'
-import model from 'wink-eng-lite-web-model'
 import { analyzeStory, coreOf, textHash } from './storyText.js'
 import { getWordById } from './vocabularyManager.js'
+import { candidateIds } from './vocabLookup.js'
 import { isCurrent, readAnnotation, writeAnnotation } from './annotationStore.js'
 import { POS_VALUES, validateAnnotation } from './scripts/validateAnnotations.js'
 
@@ -17,7 +16,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const STANDARD = fs.readFileSync(path.join(__dirname, 'prompts', 'annotation-standard.md'), 'utf8')
 
 const MODEL = 'claude-opus-5'
-const nlp = winkNLP(model)
 
 let client = null
 const getClient = () => {
@@ -27,49 +25,6 @@ const getClient = () => {
 }
 
 // ---------- Oxford 3000 anlam adayları ----------
-
-const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-
-// Kurala uymayan biçimler ve kısaltmalar → listede aranacak kök
-const IRREGULAR = {
-  swam: 'swim', drank: 'drink', sang: 'sing', began: 'begin', ran: 'run', ate: 'eat', sat: 'sit',
-  was: 'be', were: 'be', been: 'be', am: 'be', is: 'be', are: 'be', did: 'do', done: 'do',
-  had: 'have', has: 'have', went: 'go', gone: 'go', better: 'good', best: 'good',
-  worse: 'bad', worst: 'bad', men: 'man', women: 'woman', children: 'child', people: 'person',
-  feet: 'foot', teeth: 'tooth', these: 'this', those: 'that', used: 'used to', could: 'can',
-  would: 'will', won: 'win', "won't": 'will', "can't": 'can', "couldn't": 'can', tire: 'tyre'
-}
-
-// Çekimli bir kelimeden olası kök biçimleri (listede aranacak kimlikler)
-function candidateIds(surface) {
-  const w = surface.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/’/g, "'").replace(/'s$/, '')
-  const forms = new Set([w, w.replace(/n't$/, ''), w.replace(/'(m|re|ve|ll|d)$/, '')])
-  const lemma = nlp.readDoc(w).tokens().itemAt(0)?.out(nlp.its.lemma)
-  if (lemma) forms.add(lemma)
-  const strip = [
-    [/ies$/, 'y'], [/ied$/, 'y'], [/ier$/, 'y'], [/iest$/, 'y'], [/es$/, ''], [/s$/, ''],
-    [/ed$/, ''], [/ed$/, 'e'], [/d$/, ''], [/ing$/, ''], [/ing$/, 'e'], [/er$/, ''], [/est$/, ''],
-    [/(.)\1(ed|ing|er|est)$/, '$1'], [/ly$/, ''], [/ily$/, 'y']
-  ]
-  for (const [re, to] of strip) if (re.test(w)) forms.add(w.replace(re, to))
-  for (const f of [...forms]) if (IRREGULAR[f]) forms.add(IRREGULAR[f])
-  // Amerikan yazımı → listedeki İngiliz yazımı
-  for (const f of [...forms]) {
-    forms.add(f.replace(/or(ite)?$/, 'our$1'))
-    forms.add(f.replace(/er$/, 're'))
-    forms.add(f.replace(/ense$/, 'ence'))
-    forms.add(f.replace(/ize$/, 'ise'))
-    forms.add(f.replace(/ice$/, 'ise'))
-  }
-  if (w === 'a' || w === 'an') forms.add('a-an')
-  const ids = []
-  for (const f of forms) {
-    for (const id of [slug(f), `${slug(f)}-noun`]) {
-      if (getWordById(id) && !ids.includes(id)) ids.push(id)
-    }
-  }
-  return ids
-}
 
 const describeWord = (id) => {
   const w = getWordById(id)

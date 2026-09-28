@@ -1,0 +1,824 @@
+{
+ "storyId": "story-a1-039",
+ "textHash": "ff82c6c29d34",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Hana sekiz yaşında ve yüzme bilmiyor."
+  },
+  {
+   "tr": "Her salı okulunun yakınındaki havuzda yüzme dersi alıyor."
+  },
+  {
+   "tr": "Öğretmeni Adam adında genç bir adam."
+  },
+  {
+   "tr": "Çok sabırlı biri."
+  },
+  {
+   "tr": "Hana önce yüzünü suya sokmayı öğreniyor."
+  },
+  {
+   "tr": "Sonra kollarını ve bacaklarını hareket ettirmeyi öğreniyor."
+  },
+  {
+   "tr": "On dersin sonunda Hana havuzun bir ucundan öbür ucuna yüzebiliyor!"
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Hana",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hana",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; yaş söylerken de kullanılır: *Hana is eight* → Hana sekiz yaşında.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "eight",
+   "pos": "number",
+   "wordId": "eight",
+   "sense": 0,
+   "context": "sekiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "eight years old",
+    "meaning": "sekiz yaşında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl (yaş)",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "eight years old",
+    "meaning": "sekiz yaşında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "eight years old",
+    "meaning": "sekiz yaşında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*she* kadınlar için, *he* erkekler için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-emez (bilmiyor)",
+   "note": "*cannot*, *can* fiilinin olumsuzudur ve bitişik yazılır. *She cannot swim* → Yüzme bilmiyor / Yüzemiyor.",
+   "form": "can + not (cannot, bitişik yazılır)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "Tuesday",
+   "pos": "noun",
+   "wordId": "tuesday",
+   "sense": 0,
+   "context": "salı",
+   "note": "*every Tuesday* \"her salı\" demektir; önüne *on* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "alıyor (ders)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; *have a lesson* \"ders almak, dersi olmak\" demektir.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "has a swimming lesson",
+    "meaning": "yüzme dersi alır (have a lesson)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "has a swimming lesson",
+    "meaning": "yüzme dersi alır (have a lesson)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "swimming",
+   "pos": "noun",
+   "wordId": "swimming",
+   "sense": 0,
+   "context": "yüzme",
+   "note": "Burada *swimming* isim olmasına rağmen *lesson*'ı niteler: *swimming lesson* → yüzme dersi.",
+   "form": "swim + -ing (m ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "has a swimming lesson",
+    "meaning": "yüzme dersi alır (have a lesson)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "ders",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "has a swimming lesson",
+    "meaning": "yüzme dersi alır (have a lesson)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (havuzda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "pool",
+   "pos": "noun",
+   "wordId": "pool",
+   "sense": 0,
+   "context": "havuz",
+   "note": "*pool*, *swimming pool*'un kısa söylenişidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (öğretmeni)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "adında",
+   "note": "*called* burada \"… adında, … denen\" anlamındadır: *a man called Adam* → Adam adında bir adam.",
+   "form": "call fiilinin geçmiş ortacı (-ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "Adam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Adam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": "*patient* sıfat olarak \"sabırlı\", isim olarak \"hasta\" demektir; burada sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "önce",
+   "note": "Sıra anlatırken *first … then …* (önce … sonra …) kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "Hana",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hana",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": "*learn to + fiil* \"… -meyi öğrenmek\" demektir.",
+   "form": "learn + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (sokmayı)",
+   "note": "*to* burada fiili mastar yapar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "sokmak (koymak)",
+   "note": "*put*'un temel anlamı \"koymak\"tır; *put your face in the water* → yüzünü suya sokmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (yüzü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "face",
+   "pos": "noun",
+   "wordId": "face",
+   "sense": 0,
+   "context": "yüz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (suya, içine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": null,
+   "form": "learn + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi (ettirmeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "hareket ettirmek",
+   "note": "*move* nesne alınca \"hareket ettirmek, oynatmak\" demektir: *move her arms* → kollarını hareket ettirmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "arm",
+   "pos": "noun",
+   "wordId": "arm",
+   "sense": 0,
+   "context": "kollar",
+   "note": null,
+   "form": "arm'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "leg",
+   "pos": "noun",
+   "wordId": "leg",
+   "sense": 0,
+   "context": "bacaklar",
+   "note": null,
+   "form": "leg'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (sonunda)",
+   "note": "*after ten lessons* \"on dersten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "ders",
+   "note": null,
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "Hana",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hana",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebiliyor",
+   "note": "*can* + fiil \"-ebilmek\" demektir; yetenek bildirir: *Hana can swim* → Hana yüzebiliyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "across",
+   "pos": "preposition",
+   "wordId": "across",
+   "sense": 0,
+   "context": "bir ucundan öbür ucuna",
+   "note": "*across* \"bir yandan öbür yana, karşıya\" demektir: *swim across the pool* → havuzun bir ucundan öbür ucuna yüzmek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "across the pool",
+    "meaning": "havuzun bir ucundan öbür ucuna"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "across the pool",
+    "meaning": "havuzun bir ucundan öbür ucuna"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "pool",
+   "pos": "noun",
+   "wordId": "pool",
+   "sense": 0,
+   "context": "havuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "across the pool",
+    "meaning": "havuzun bir ucundan öbür ucuna"
+   }
+  }
+ ]
+}

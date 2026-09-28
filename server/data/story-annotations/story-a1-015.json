@@ -1,0 +1,874 @@
+{
+ "storyId": "story-a1-015",
+ "textHash": "a247c7278d96",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Lucy her sabah okul otobüsüne biner."
+  },
+  {
+   "tr": "Otobüs yedi buçukta evinin önünde durur."
+  },
+  {
+   "tr": "Şoför, Bay Jones adında güler yüzlü bir adamdır."
+  },
+  {
+   "tr": "Her zaman \"Günaydın!\" der."
+  },
+  {
+   "tr": "Lucy arkadaşı Mia'nın yanına oturur."
+  },
+  {
+   "tr": "Okul yolunda konuşup gülerler."
+  },
+  {
+   "tr": "Yolculuk yirmi dakika sürer."
+  },
+  {
+   "tr": "Öğleden sonra aynı otobüs onları eve getirir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": "*every morning* \"her sabah\" demektir; önüne *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "biner",
+   "note": "*take*'in temel anlamı \"almak\"tır; taşıtlar için \"binmek, (taşıtla) gitmek\" demektir: *take the bus* → otobüse binmek.",
+   "form": "take + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "takes the school bus",
+    "meaning": "okul otobüsüne biner (take a bus)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "takes the school bus",
+    "meaning": "okul otobüsüne biner (take a bus)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": "Burada *school* isim olmasına rağmen *bus*'ı niteler: *school bus* → okul otobüsü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "takes the school bus",
+    "meaning": "okul otobüsüne biner (take a bus)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "takes the school bus",
+    "meaning": "okul otobüsüne biner (take a bus)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durur",
+   "note": null,
+   "form": "stop + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in front of: -in önünde)",
+   "note": "*in front of* \"-in önünde\" anlamında bir kalıptır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "front",
+   "pos": "noun",
+   "wordId": "front",
+   "sense": 0,
+   "context": "ön",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in front of: -in önünde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (evi)",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (saat)",
+   "note": "Saatlerden önce *at* kullanılır: *at seven* → saat yedide.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "half",
+   "pos": "noun",
+   "wordId": "half",
+   "sense": 0,
+   "context": "buçuk (yarım)",
+   "note": "*half past seven* \"yedi buçuk\" demektir; İngilizcede önce yarım, sonra saat söylenir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "half past seven",
+    "meaning": "yedi buçuk"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "past",
+   "pos": "preposition",
+   "wordId": "past",
+   "sense": 2,
+   "context": "geçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "half past seven",
+    "meaning": "yedi buçuk"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "seven",
+   "pos": "number",
+   "wordId": "seven",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "half past seven",
+    "meaning": "yedi buçuk"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "driver",
+   "pos": "noun",
+   "wordId": "driver",
+   "sense": 0,
+   "context": "şoför",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "friendly",
+   "pos": "adjective",
+   "wordId": "friendly",
+   "sense": 0,
+   "context": "güler yüzlü (samimi)",
+   "note": "*friendly* \"-ly\" ile bitse de zarf değil, sıfattır: *a friendly man* → güler yüzlü bir adam.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "adında",
+   "note": "*called* burada \"… adında, … denen\" anlamındadır: *a man called Mr. Jones* → Bay Jones adında bir adam.",
+   "form": "call fiilinin geçmiş ortacı (-ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "Mr.",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr.* erkeklerin soyadından önce kullanılan unvandır; kadınlar için *Mrs.* (evli) ya da *Ms.* kullanılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "Jones",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jones",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": "*always* gibi sıklık zarfları genellikle fiilden önce gelir: *He always says…*",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "der",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "günaydın (good morning)",
+   "note": "*Good morning* sabah selamlaşmasıdır: \"günaydın\". Öğleden sonra *Good afternoon*, akşam *Good evening* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "Good morning",
+    "meaning": "günaydın"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "(good morning: günaydın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "Good morning",
+    "meaning": "günaydın"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturur",
+   "note": null,
+   "form": "sit + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "next",
+   "pos": "adverb",
+   "wordId": "next",
+   "sense": 1,
+   "context": "(next to: -in yanına)",
+   "note": "*next*'in temel anlamı \"sonraki\"dir; *next to* ise \"-in yanında, -in yanına\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "next to",
+    "meaning": "-in yanına, -in yanında"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(next to: yanına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "next to",
+    "meaning": "-in yanına, -in yanında"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "Mia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşurlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-up)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "gülerler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on the way: yolda)",
+   "note": "*on the way to …* \"… yolunda, -e giderken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "on the way",
+    "meaning": "yolda, yolunda"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "on the way",
+    "meaning": "yolda, yolunda"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "on the way",
+    "meaning": "yolda, yolunda"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (okula)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "journey",
+   "pos": "noun",
+   "wordId": "journey",
+   "sense": 0,
+   "context": "yolculuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürer",
+   "note": "*take* zaman için \"sürmek\" demektir: *The journey takes twenty minutes* → Yolculuk yirmi dakika sürer.",
+   "form": "take + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": "İngilizcede birden fazla sayıdan sonra isim çoğul olur (*twenty minutes*); Türkçede tekil kalır.",
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (öğleden sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirir",
+   "note": null,
+   "form": "bring + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında kullanıldığında önüne *to* almaz: *bring them home* (✗ to home).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

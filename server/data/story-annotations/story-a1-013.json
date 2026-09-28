@@ -1,0 +1,920 @@
+{
+ "storyId": "story-a1-013",
+ "textHash": "012de8508a01",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ben bugün hasta."
+  },
+  {
+   "tr": "Kötü bir soğuk algınlığı var ve başı ağrıyor."
+  },
+  {
+   "tr": "Annesi onu doktora götürüyor."
+  },
+  {
+   "tr": "Doktor, gözlüklü uzun boylu bir kadın."
+  },
+  {
+   "tr": "Boğazına bakıyor ve göğsünü dinliyor."
+  },
+  {
+   "tr": "\"Dinlenmen gerekiyor,\" diyor."
+  },
+  {
+   "tr": "\"Bol su iç ve iki gün yatakta kal.\""
+  },
+  {
+   "tr": "Ben eve gidip uyuyor."
+  },
+  {
+   "tr": "Ertesi gün kendini daha iyi hissediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; bu tür cümlelerde Türkçede ayrıca söylenmez.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "ill",
+   "pos": "adjective",
+   "wordId": "ill",
+   "sense": 0,
+   "context": "hasta",
+   "note": "*ill* ve *sick* ikisi de \"hasta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (soğuk algınlığı var)",
+   "note": "Hastalıklar *have* ile söylenir: *have a cold* → soğuk algınlığı olmak, *have a headache* → başı ağrımak.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "a bad cold",
+    "meaning": "kötü bir soğuk algınlığı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "bad",
+   "pos": "adjective",
+   "wordId": "bad",
+   "sense": 0,
+   "context": "kötü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "a bad cold",
+    "meaning": "kötü bir soğuk algınlığı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "cold",
+   "pos": "noun",
+   "wordId": "cold",
+   "sense": 1,
+   "context": "soğuk algınlığı",
+   "note": "*cold* sıfat olarak \"soğuk\", isim olarak \"soğuk algınlığı, nezle\" demektir; burada isimdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "a bad cold",
+    "meaning": "kötü bir soğuk algınlığı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (başı)",
+   "note": "İngilizcede vücut bölümlerinden önce iyelik sıfatı kullanılır: *his head* → onun başı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "head",
+   "pos": "noun",
+   "wordId": "head",
+   "sense": 0,
+   "context": "baş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "hurt",
+   "pos": "verb",
+   "wordId": "hurt",
+   "sense": 0,
+   "context": "ağrıyor (acıyor)",
+   "note": "*hurt* \"incitmek\" ve \"acımak, ağrımak\" demektir; burada \"ağrımak\"tır.",
+   "form": "hurt + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (annesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "götürüyor",
+   "note": "*take*'in temel anlamı \"almak\"tır; birini bir yere \"götürmek\" anlamına da gelir.",
+   "form": "take + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (doktora)",
+   "note": "*to* bir yöne gitmeyi bildirir; Türkçede \"-e/-a\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "tall",
+   "pos": "adjective",
+   "wordId": "tall",
+   "sense": 0,
+   "context": "uzun boylu",
+   "note": "İnsanlar için *tall* \"uzun boylu\" demektir; eşyalar için \"uzun\" *long*'dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-lü (gözlüklü)",
+   "note": "*with* \"ile\" demektir; bir özelliği anlatırken \"-li/-lı\" diye çevrilir: *a woman with glasses* → gözlüklü bir kadın.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "glass",
+   "pos": "noun",
+   "wordId": "glass",
+   "sense": 0,
+   "context": "gözlük",
+   "note": "*glass* \"cam; bardak\" demektir; çoğulu *glasses* ise \"gözlük\" anlamına da gelir.",
+   "form": "glass'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakıyor",
+   "note": "*look at* \"-e bakmak\" demektir; *at* bakılan şeyi gösterir.",
+   "form": "look + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "looks at",
+    "meaning": "-e bakar (look at)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (boğazına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "looks at",
+    "meaning": "-e bakar (look at)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "throat",
+   "pos": "noun",
+   "wordId": "throat",
+   "sense": 0,
+   "context": "boğaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinliyor",
+   "note": "*listen to someone/something* \"birini/bir şeyi dinlemek\" demektir; *to* atlanmaz.",
+   "form": "listen + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "listens to",
+    "meaning": "-i dinler (listen to)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "listens to",
+    "meaning": "-i dinler (listen to)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "chest",
+   "pos": "noun",
+   "wordId": "chest",
+   "sense": 0,
+   "context": "göğüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "you",
+   "pos": "pronoun",
+   "wordId": "you",
+   "sense": 0,
+   "context": "sen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "gerekiyor (ihtiyacın var)",
+   "note": "*need to + fiil* \"… -mesi gerekmek\" demektir: *You need to rest* → Dinlenmen gerekiyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (dinlenmek)",
+   "note": "*to* burada fiili mastar yapar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "rest",
+   "pos": "verb",
+   "wordId": "rest",
+   "sense": 2,
+   "context": "dinlenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "diyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs; \"sez\" diye okunur)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "iç",
+   "note": "Cümle fiille başlıyor ve özne yok: bu bir emir cümlesidir. *Drink water* → Su iç.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a lot of: çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "a lot of",
+    "meaning": "çok, bol"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "lot",
+   "pos": "determiner",
+   "wordId": "lot",
+   "sense": 1,
+   "context": "çok, bol (a lot of)",
+   "note": "*a lot of* \"çok, bir sürü\" demektir; sayılabilen ve sayılamayan isimlerle kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "a lot of",
+    "meaning": "çok, bol"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a lot of: çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "a lot of",
+    "meaning": "çok, bol"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "stay in bed",
+    "meaning": "yatakta kalmak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (yatakta)",
+   "note": "*in bed* \"yatakta\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "stay in bed",
+    "meaning": "yatakta kalmak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "bed",
+   "pos": "noun",
+   "wordId": "bed",
+   "sense": 0,
+   "context": "yatak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "stay in bed",
+    "meaning": "yatakta kalmak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(süre)",
+   "note": "Süre bildirirken *for* kullanılır: *for two days* → iki gün (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gider",
+   "note": null,
+   "form": "go + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında kullanıldığında önüne *to* almaz: *go home* (✗ go to home).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ip)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyur",
+   "note": null,
+   "form": "sleep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi (sonraki)",
+   "note": "*the next day* \"ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir: *feels better* → kendini daha iyi hissediyor.",
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "better",
+   "sense": 0,
+   "context": "daha iyi",
+   "note": "*better*, *good* sıfatının karşılaştırma halidir (good → better → best).",
+   "form": "good sıfatının karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}
