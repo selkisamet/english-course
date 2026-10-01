@@ -1,0 +1,1044 @@
+{
+ "storyId": "story-a2-021",
+ "textHash": "332022099490",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen hafta sonu odamı temizlerken bir kutunun içinde eski bir fotoğraf buldum."
+  },
+  {
+   "tr": "Fotoğrafta uzun, koyu renk saçlı genç bir kadın vardı."
+  },
+  {
+   "tr": "Bir bisikletin yanında duruyor ve gülümsüyordu."
+  },
+  {
+   "tr": "Kim olduğunu bilmiyordum, bu yüzden fotoğrafı babama gösterdim."
+  },
+  {
+   "tr": "Babam güldü ve \"Bu senin büyükannen."
+  },
+  {
+   "tr": "O zaman yirmi yaşındaydı.\" dedi."
+  },
+  {
+   "tr": "Çok şaşırdım."
+  },
+  {
+   "tr": "Şimdi fotoğraf oturma odamızın duvarında asılı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last weekend* → geçen hafta sonu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordum)",
+   "note": "*was/were* + *-ing* geçmişte süren bir eylemi anlatır; *when* ile araya giren kısa bir olay eklenir: *I was cleaning … when I found …* → temizlerken … buldum.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "was cleaning",
+    "meaning": "temizliyordum"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizliyordum",
+   "note": null,
+   "form": "clean + -ing",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "was cleaning",
+    "meaning": "temizliyordum"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my room* → oda**m**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (o sırada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldum",
+   "note": "*found* burada *find*'ın geçmiş halidir; ayrıca \"kurmak\" anlamında ayrı bir *found* fiili de vardır.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old photo*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": "*old* insanlar için \"yaşlı\", eşyalar için \"eski\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraf",
+   "note": "*photo*, *photograph*'ın kısa halidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "box",
+   "pos": "noun",
+   "wordId": "box",
+   "sense": 0,
+   "context": "kutu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (fotoğraf)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösteriyordu",
+   "note": "Resim ya da fotoğraf için *show* \"(içinde) göstermek\" demektir: *It showed a young woman* → Fotoğrafta genç bir kadın vardı.",
+   "form": "show + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (saçlı)",
+   "note": "*with* isimden sonra gelince \"…-li, … olan\" demektir: *a woman with long hair* → uzun saçlı bir kadın.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "koyu (renk)",
+   "note": "*dark*'ın temel anlamı \"karanlık\"tır; renk ve saç için \"koyu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "hair",
+   "pos": "noun",
+   "wordId": "hair",
+   "sense": 0,
+   "context": "saç",
+   "note": "*hair* \"saç\" anlamında sayılamaz ve tekil kullanılır (✗ hairs).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "stand",
+   "pos": "verb",
+   "wordId": "stand",
+   "sense": 0,
+   "context": "duruyordu (ayakta)",
+   "note": null,
+   "form": "stand + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "next",
+   "pos": "adverb",
+   "wordId": "next",
+   "sense": 1,
+   "context": "(next to: -in yanında)",
+   "note": "*next*'in temel anlamı \"sonraki\"dir; *next to* ise \"-in yanında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(next to: yanında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "bicycle",
+   "pos": "noun",
+   "wordId": "bicycle",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "smile",
+   "pos": "verb",
+   "wordId": "smile",
+   "sense": 0,
+   "context": "gülümsüyordu",
+   "note": "*and*'den sonra yardımcı fiil (*was*) tekrar edilmez: *was standing and smiling*.",
+   "form": "smile + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-miyordum)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "kim",
+   "note": "Soru sözcüğü cümlenin içinde geçince kelime sırası düz cümle gibidir: *who she was* (✗ who was she) → kim olduğunu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterdim",
+   "note": "*show something to someone* \"bir şeyi birine göstermek\" demektir.",
+   "form": "show + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "showed the photo to",
+    "meaning": "fotoğrafı …-e gösterdim (show something to someone)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "showed the photo to",
+    "meaning": "fotoğrafı …-e gösterdim (show something to someone)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "showed the photo to",
+    "meaning": "fotoğrafı …-e gösterdim (show something to someone)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (babama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "showed the photo to",
+    "meaning": "fotoğrafı …-e gösterdim (show something to someone)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "dad",
+   "pos": "noun",
+   "wordId": "dad",
+   "sense": 0,
+   "context": "baba",
+   "note": "*dad* \"baba\"nın günlük, samimi söylenişidir; resmî hali *father*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldü",
+   "note": null,
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "bu (o)",
+   "note": "Fotoğraftaki kişiyi gösterirken *that is* \"bu, şu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "your",
+   "pos": "determiner",
+   "wordId": "your",
+   "sense": 0,
+   "context": "senin",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *your grandmother* → büyükanne**n**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "twenty years old",
+    "meaning": "yirmi yaşında"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl (yaş)",
+   "note": "Yaş *be* fiiliyle söylenir: *She was twenty years old* → Yirmi yaşındaydı (✗ She had twenty years).",
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "twenty years old",
+    "meaning": "yirmi yaşında"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "twenty years old",
+    "meaning": "yirmi yaşında"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dım)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": "*surprised* kişinin hissini anlatır (\"şaşırmış\"); *surprising* ise şaşırtan şeyi anlatır (\"şaşırtıcı\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(asılı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (duvarda)",
+   "note": "Duvar gibi yüzeyler için *on* kullanılır: *on the wall* → duvarda.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (odamızda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "oturma",
+   "note": "*living room* \"oturma odası\" demektir; *living* burada *live* (yaşamak, oturmak) fiilinden gelir.",
+   "form": "live + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "living room",
+    "meaning": "oturma odası"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "living room",
+    "meaning": "oturma odası"
+   }
+  }
+ ]
+}

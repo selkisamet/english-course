@@ -1,0 +1,998 @@
+{
+ "storyId": "story-a2-016",
+ "textHash": "bfe54dedafc3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Okulumuzda her yıl haziranda bir yetenek gösterisi yapılır."
+  },
+  {
+   "tr": "Bu yıl arkadaşım Lucy bir şarkı söylemeye karar verdi."
+  },
+  {
+   "tr": "İki hafta boyunca her gün çalıştı ama gösteriden önce çok gergindi."
+  },
+  {
+   "tr": "Sahneye çıktığında elleri titriyordu."
+  },
+  {
+   "tr": "Sonra müzik başladı ve çok güzel şarkı söyledi."
+  },
+  {
+   "tr": "Salondaki herkes ayağa kalkıp alkışladı."
+  },
+  {
+   "tr": "Lucy birincilik ödülünü kazanmadı ama kendisiyle çok gurur duydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* + tekil isim \"her\" demektir: *every year* → her yıl.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every year",
+    "meaning": "her yıl"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every year",
+    "meaning": "her yıl"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *our school* → okul**umuz**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "yapılır (düzenler)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; etkinliklerle \"düzenlemek, yapmak\" anlamında kullanılır: *have a show* → gösteri düzenlemek.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "talent",
+   "pos": "noun",
+   "wordId": "talent",
+   "sense": 0,
+   "context": "yetenek",
+   "note": "*talent show* insanların şarkı, dans gibi yeteneklerini sergilediği \"yetenek gösterisi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "talent show",
+    "meaning": "yetenek gösterisi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "show",
+   "pos": "noun",
+   "wordId": "show",
+   "sense": 1,
+   "context": "gösteri",
+   "note": "*show* fiil olarak \"göstermek\", isim olarak \"gösteri, program\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "talent show",
+    "meaning": "yetenek gösterisi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (haziranda)",
+   "note": "Aylardan önce *in* kullanılır: *in June* → haziranda.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "June",
+   "pos": "noun",
+   "wordId": "june",
+   "sense": 0,
+   "context": "haziran",
+   "note": "Ay adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": "*this year* \"bu yıl\" demektir; önüne *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "This year",
+    "meaning": "bu yıl"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "This year",
+    "meaning": "bu yıl"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my friend* → arkadaş**ım**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (söylemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "sing",
+   "pos": "verb",
+   "wordId": "sing",
+   "sense": 0,
+   "context": "söylemek",
+   "note": "*sing a song* \"şarkı söylemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "song",
+   "pos": "noun",
+   "wordId": "song",
+   "sense": 0,
+   "context": "şarkı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "çalıştı (prova yaptı)",
+   "note": "*practise* İngiliz yazımıdır (fiil); Amerikan İngilizcesinde *practice* yazılır.",
+   "form": "practise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*for* + süre \"… boyunca\" demektir: *for two weeks* → iki hafta boyunca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "for two weeks",
+    "meaning": "iki hafta boyunca"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "for two weeks",
+    "meaning": "iki hafta boyunca"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "for two weeks",
+    "meaning": "iki hafta boyunca"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-den önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "show",
+   "pos": "noun",
+   "wordId": "show",
+   "sense": 1,
+   "context": "gösteri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "çıktı (yürüdü)",
+   "note": "*walk onto the stage* \"sahneye (yürüyerek) çıkmak\" demektir.",
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "onto",
+   "pos": "preposition",
+   "wordId": "onto",
+   "sense": 0,
+   "context": "-e (üstüne)",
+   "note": "*onto* bir yüzeyin \"üstüne\" doğru hareketi anlatır: *onto the stage* → sahneye.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "stage",
+   "pos": "noun",
+   "wordId": "stage",
+   "sense": 0,
+   "context": "sahne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": null,
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were* + *-ing* geçmişte o an süren bir durumu anlatır: *were shaking* → titriyordu.",
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "shake",
+   "pos": "verb",
+   "wordId": "shake",
+   "sense": 0,
+   "context": "titriyordu",
+   "note": "*shake* \"sallamak, sarsmak\" ve \"titremek\" demektir; burada \"titremek\"tir.",
+   "form": "shake + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "sing",
+   "pos": "verb",
+   "wordId": "sing",
+   "sense": 0,
+   "context": "şarkı söyledi",
+   "note": null,
+   "form": "sing fiilinin geçmiş zaman hali (sang, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "beautifully",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çok güzel (güzel bir şekilde)",
+   "note": "*-ly* eki sıfattan zarf yapar: *beautiful* (güzel) → *beautifully* (güzel bir şekilde).",
+   "form": "beautiful + -ly (sıfattan zarf)",
+   "base": "güzel bir şekilde",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone is*, *everyone claps*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (salondaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "hall",
+   "pos": "noun",
+   "wordId": "hall",
+   "sense": 0,
+   "context": "salon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "stand",
+   "pos": "verb",
+   "wordId": "stand",
+   "sense": 0,
+   "context": "kalktı (ayağa)",
+   "note": "*stand up* \"ayağa kalkmak\" demektir.",
+   "form": "stand fiilinin geçmiş zaman hali (stood, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "stood up",
+    "meaning": "ayağa kalktı (stand up)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(stand up: ayağa kalkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "stood up",
+    "meaning": "ayağa kalktı (stand up)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (-ıp)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "clap",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "alkışladı",
+   "note": null,
+   "form": "clap + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": "alkışlamak",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur: *did not win* → kazanmadı.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "win",
+   "pos": "verb",
+   "wordId": "win",
+   "sense": 0,
+   "context": "kazanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "birinci(lik)",
+   "note": "*first prize* \"birincilik ödülü\" demektir; bu kalıpta *the* kullanılmaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "first prize",
+    "meaning": "birincilik ödülü"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "prize",
+   "pos": "noun",
+   "wordId": "prize",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "first prize",
+    "meaning": "birincilik ödülü"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "duydu (hissetti)",
+   "note": "*feel* + sıfat \"… hissetmek\" demektir: *feel proud* → gurur duymak.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": "*be/feel proud of someone* \"biriyle gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyan"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-le (kendisiyle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyan"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "herself",
+   "pos": "pronoun",
+   "wordId": "herself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "*-self* ile biten zamirler öznenin kendisini gösterir: *proud of herself* → kendisiyle gurur duyan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "proud of herself",
+    "meaning": "kendisiyle gurur duyan"
+   }
+  }
+ ]
+}

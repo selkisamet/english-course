@@ -1,0 +1,1163 @@
+{
+ "storyId": "story-a2-045",
+ "textHash": "897d5dc303c4",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen hafta arkadaşım Carlos beni beş günlüğüne ziyaret etmek için Meksika'dan geldi."
+  },
+  {
+   "tr": "Ona şehrimin en güzel yerlerini göstermek istedim."
+  },
+  {
+   "tr": "İlk gün eski şehirde dolaştık ve ünlü bir müzeyi gezdik."
+  },
+  {
+   "tr": "İkinci gün nehirde tekne turuna çıktık."
+  },
+  {
+   "tr": "Carlos yöresel yemeklere, özellikle de balığa bayıldı."
+  },
+  {
+   "tr": "Son akşamında bir tepeye çıktık ve güneşin batışını izledik."
+  },
+  {
+   "tr": "Carlos gelecek yıl tekrar gelmek istediğini söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last week* → geçen hafta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my friend* → arkadaş**ım**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Carlos",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Carlos",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Meksika'dan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "Mexico",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Meksika",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *came to visit me* → beni ziyaret etmek için geldi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "ziyaret etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "beni",
+   "note": "*me*, *I*'nın nesne halidir: \"beni, bana\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(-lüğüne)",
+   "note": "*for* + süre \"… boyunca, …-lüğüne\" demektir: *for five days* → beş günlüğüne.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "for five days",
+    "meaning": "beş günlüğüne"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "for five days",
+    "meaning": "beş günlüğüne"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "for five days",
+    "meaning": "beş günlüğüne"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedim",
+   "note": "*want to + fiil* \"… -mek istemek\" demektir.",
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (göstermek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "göstermek",
+   "note": "*show someone something* \"birine bir şeyi göstermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the best* → en iyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en güzel (en iyi)",
+   "note": "*best*, *good* sıfatının en üstünlük halidir (good → better → best).",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yerler",
+   "note": null,
+   "form": "place'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-in (şehrimin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(ilk gün)",
+   "note": "Belirli günlerden önce *on* kullanılır: *on the first day* → ilk gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Sıra sayılarından önce *the* kullanılır: *the first day* → ilk gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "dolaştık (yürüdük)",
+   "note": "*walk around* bir yerde \"dolaşmak, gezinmek\" demektir.",
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "walked around",
+    "meaning": "dolaştık (walk around)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "around",
+   "pos": "preposition",
+   "wordId": "around",
+   "sense": 0,
+   "context": "(etrafında) dolaşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "walked around",
+    "meaning": "dolaştık (walk around)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "old town",
+    "meaning": "eski şehir (tarihî bölge)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "şehir",
+   "note": "*the old town* bir şehrin tarihî, eski bölümüdür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "old town",
+    "meaning": "eski şehir (tarihî bölge)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "gezdik (ziyaret ettik)",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "famous",
+   "pos": "adjective",
+   "wordId": "famous",
+   "sense": 0,
+   "context": "ünlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(ikinci gün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "second",
+   "pos": "determiner",
+   "wordId": "second",
+   "sense": 0,
+   "context": "ikinci",
+   "note": "*second* sıra sayısı olarak \"ikinci\", isim olarak \"saniye\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "çıktık (yaptık)",
+   "note": "*take a trip* \"bir geziye çıkmak\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "took a boat trip",
+    "meaning": "tekne turuna çıktık"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "took a boat trip",
+    "meaning": "tekne turuna çıktık"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "boat",
+   "pos": "noun",
+   "wordId": "boat",
+   "sense": 0,
+   "context": "tekne",
+   "note": "Burada *boat* isim olmasına rağmen *trip*'i niteler: *boat trip* → tekne gezisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "took a boat trip",
+    "meaning": "tekne turuna çıktık"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "trip",
+   "pos": "noun",
+   "wordId": "trip",
+   "sense": 0,
+   "context": "gezi (tur)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 48,
+    "text": "took a boat trip",
+    "meaning": "tekne turuna çıktık"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (nehirde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "river",
+   "pos": "noun",
+   "wordId": "river",
+   "sense": 0,
+   "context": "nehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "Carlos",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Carlos",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayıldı (çok sevdi)",
+   "note": null,
+   "form": "love + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yöresel (yerel)",
+   "note": "*local food* bir yere özgü \"yöresel yemekler\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "especially",
+   "pos": "adverb",
+   "wordId": "especially",
+   "sense": 0,
+   "context": "özellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "fish",
+   "pos": "noun",
+   "wordId": "fish",
+   "sense": 0,
+   "context": "balık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(son akşamında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his last evening* → son akşam**ı**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "son",
+   "note": "*last* burada \"geçen\" değil \"son, sonuncu\" demektir: *his last evening* → (orada geçirdiği) son akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "çıktık",
+   "note": "*go up a hill* \"bir tepeye çıkmak\" demektir.",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "went up",
+    "meaning": "çıktık (go up)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "up",
+   "pos": "preposition",
+   "wordId": "up",
+   "sense": 1,
+   "context": "yukarı (-e çıkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "went up",
+    "meaning": "çıktık (go up)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "hill",
+   "pos": "noun",
+   "wordId": "hill",
+   "sense": 0,
+   "context": "tepe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izledik",
+   "note": "*watch something happen* \"bir şeyin olmasını izlemek\" demektir; ikinci fiil yalın kalır: *watched the sun go down*.",
+   "form": "watch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Tek olan şeylerden önce *the* kullanılır: *the sun, the moon, the sky*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "the sun go down",
+    "meaning": "güneşin batışı (go down: batmak)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "sun",
+   "pos": "noun",
+   "wordId": "sun",
+   "sense": 0,
+   "context": "güneş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "the sun go down",
+    "meaning": "güneşin batışı (go down: batmak)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "batmak (go down)",
+   "note": "*the sun goes down* \"güneş batar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "the sun go down",
+    "meaning": "güneşin batışı (go down: batmak)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "aşağı (batmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "the sun go down",
+    "meaning": "güneşin batışı (go down: batmak)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "Carlos",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Carlos",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istediğini",
+   "note": null,
+   "form": "want + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gelmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelmek",
+   "note": "*come back* \"geri gelmek, tekrar gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 81,
+    "text": "come back",
+    "meaning": "geri gelmek"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri (tekrar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 81,
+    "text": "come back",
+    "meaning": "geri gelmek"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next year* \"gelecek yıl\" demektir; önüne *the* ya da *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 83,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1122 @@
+{
+ "storyId": "story-a2-022",
+ "textHash": "929c09269c4a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Maria'nın erkek kardeşi Avustralya'da yaşıyor ve Maria onu üç yıldır görmedi."
+  },
+  {
+   "tr": "Dün kardeşi bir ziyaret için uçakla eve geldi."
+  },
+  {
+   "tr": "Maria havaalanına iki saat erken gitti çünkü çok heyecanlıydı."
+  },
+  {
+   "tr": "Çıkışın yakınında, üzerinde kardeşinin adı yazan büyük bir tabelayla bekledi."
+  },
+  {
+   "tr": "Uçak kırk dakika rötar yaptı ve Maria her dakika daha da gerildi."
+  },
+  {
+   "tr": "Sonunda onun kapılardan geçtiğini gördü."
+  },
+  {
+   "tr": "Uzun süre sarıldılar ve ikisi de biraz ağladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Maria",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Maria'nın",
+   "note": "*'s* eki sahiplik bildirir: *Maria's brother* → Maria'nın kardeşi.",
+   "form": "Maria + 's (iyelik)",
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "brother",
+   "pos": "noun",
+   "wordId": "brother",
+   "sense": 0,
+   "context": "erkek kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyor",
+   "note": null,
+   "form": "live + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Avustralya'da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Australia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Avustralya",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": "*has/have* + fiilin 3. hali (present perfect) geçmişte başlayıp bugüne uzanan durumu anlatır: *has not seen him for three years* → onu üç yıldır görmedi.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": "see fiilinin 3. hali (seen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dir (üç yıldır)",
+   "note": "Present perfect ile *for* + süre \"… -dir\" demektir: *for three years* → üç yıldır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "she has not seen him for three years",
+    "meaning": "onu üç yıldır görmedi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "fly",
+   "pos": "verb",
+   "wordId": "fly",
+   "sense": 0,
+   "context": "uçtu (uçakla geldi)",
+   "note": "*fly*'ın temel anlamı \"uçmak\"tır; insanlar için \"uçakla gitmek/gelmek\" demektir.",
+   "form": "fly fiilinin geçmiş zaman hali (flew, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "flew home",
+    "meaning": "uçakla eve geldi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında zarf olarak kullanılınca önüne *to* gelmez: *fly home* (✗ fly to home).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "flew home",
+    "meaning": "uçakla eve geldi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "visit",
+   "pos": "noun",
+   "wordId": "visit",
+   "sense": 1,
+   "context": "ziyaret",
+   "note": "*visit* fiil olarak \"ziyaret etmek\", isim olarak \"ziyaret\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "Maria",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Maria",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (havaalanına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "airport",
+   "pos": "noun",
+   "wordId": "airport",
+   "sense": 0,
+   "context": "havaalanı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "two hours early",
+    "meaning": "iki saat erken"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "two hours early",
+    "meaning": "iki saat erken"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "early",
+   "pos": "adverb",
+   "wordId": "early",
+   "sense": 1,
+   "context": "erken",
+   "note": "Süre + *early* \"… erken\" demektir: *two hours early* → iki saat erken.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "two hours early",
+    "meaning": "iki saat erken"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "çok (o kadar)",
+   "note": "*so* + sıfat \"çok, o kadar\" demektir: *so excited* → çok heyecanlı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "excited",
+   "pos": "adjective",
+   "wordId": "excited",
+   "sense": 0,
+   "context": "heyecanlı",
+   "note": "*excited* kişinin hissini anlatır (\"heyecanlı\"); *exciting* ise heyecan veren şeyi anlatır (\"heyecan verici\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "bekledi",
+   "note": null,
+   "form": "wait + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "exit",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çıkış",
+   "note": "*exit* \"çıkış\"tır; giriş ise *entrance*'tır.",
+   "form": null,
+   "base": "çıkış",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (tabelayla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "sign",
+   "pos": "noun",
+   "wordId": "sign",
+   "sense": 0,
+   "context": "tabela (yazı)",
+   "note": "*sign* isim olarak \"işaret, tabela\", fiil olarak \"imzalamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (yazan)",
+   "note": "*with his name on it* \"üzerinde onun adı yazan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his name* → ad**ı**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "ad",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (tabela)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "plane",
+   "pos": "noun",
+   "wordId": "plane",
+   "sense": 0,
+   "context": "uçak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "forty minutes late",
+    "meaning": "kırk dakika geç (rötarlı)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "forty minutes late",
+    "meaning": "kırk dakika geç (rötarlı)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "late",
+   "pos": "adjective",
+   "wordId": "late",
+   "sense": 0,
+   "context": "geç (rötarlı)",
+   "note": "Süre + *late* \"… geç\" demektir: *forty minutes late* → kırk dakika geç.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "forty minutes late",
+    "meaning": "kırk dakika geç (rötarlı)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": "*feel* + sıfat \"… hissetmek\" demektir.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "Uzun sıfatlar *more* ile karşılaştırılır: *nervous → more nervous* (daha gergin).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin (kaygılı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at last: sonunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "At last",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "last",
+   "pos": "noun",
+   "wordId": "last",
+   "sense": 2,
+   "context": "son(unda)",
+   "note": "*at last* uzun bir beklemeden sonra \"sonunda, nihayet\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "At last",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "gördü",
+   "note": "*see someone do something* \"birinin bir şey yaptığını görmek\" demektir; ikinci fiil yalın kalır: *saw him come*.",
+   "form": "see fiilinin geçmiş zaman hali (saw, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geçtiğini (geldiğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "-den (içinden)",
+   "note": "*come through the doors* \"kapılardan geçmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapılar",
+   "note": null,
+   "form": "door'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "hug",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sarıldılar",
+   "note": null,
+   "form": "hug + -ed (geçmiş zaman, son harf g ikilenir)",
+   "base": "sarılmak, kucaklamak",
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for a long time* \"uzun süre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "süre (zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "both",
+   "pos": "pronoun",
+   "wordId": "both",
+   "sense": 1,
+   "context": "ikisi de",
+   "note": "*both* \"her ikisi, ikisi de\" demektir; fiilden önce gelebilir: *They both cried* → İkisi de ağladı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "cry",
+   "pos": "verb",
+   "wordId": "cry",
+   "sense": 0,
+   "context": "ağladı",
+   "note": null,
+   "form": "cry'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a little: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "little",
+   "pos": "adverb",
+   "wordId": "little",
+   "sense": 3,
+   "context": "biraz (a little)",
+   "note": "*a little* fiilden sonra gelince \"biraz\" demektir: *cried a little* → biraz ağladı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  }
+ ]
+}

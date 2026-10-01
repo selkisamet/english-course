@@ -1,0 +1,1085 @@
+{
+ "storyId": "story-a2-024",
+ "textHash": "b71dc684f6c2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tom ve arkadaşı Jack okuldan sonra sokakta futbol oynuyorlardı."
+  },
+  {
+   "tr": "Jack topa çok sert vurdu ve top Bayan Green'in penceresine uçtu."
+  },
+  {
+   "tr": "Cam küçük parçalara ayrıldı."
+  },
+  {
+   "tr": "Çocuklar korktu ve Jack kaçmak istedi."
+  },
+  {
+   "tr": "Ama Tom, \"Hayır, ona söylemeliyiz.\" dedi."
+  },
+  {
+   "tr": "Kadının kapısını çaldılar ve özür dilediler."
+  },
+  {
+   "tr": "Bayan Green mutlu değildi ama dürüst davrandıkları için memnundu."
+  },
+  {
+   "tr": "Çocuklar yeni pencerenin parasını harçlıklarıyla ödediler."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his friend* → arkadaş**ı**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Jack",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jack",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yorlardı)",
+   "note": "*was/were* + *-ing* geçmişte süren bir eylemi anlatır: *were playing* → oynuyorlardı.",
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "were playing",
+    "meaning": "oynuyorlardı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynuyorlardı",
+   "note": "Sporlarla *play* kullanılır ve önüne *the* gelmez: *play football* → futbol oynamak.",
+   "form": "play + -ing",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "were playing",
+    "meaning": "oynuyorlardı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "football",
+   "pos": "noun",
+   "wordId": "football",
+   "sense": 0,
+   "context": "futbol",
+   "note": "İngiliz İngilizcesinde *football* \"futbol\"dur; Amerikan İngilizcesinde futbola *soccer* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sokakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": "*after school* \"okuldan sonra\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "after school",
+    "meaning": "okuldan sonra"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "after school",
+    "meaning": "okuldan sonra"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "Jack",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jack",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "kick",
+   "pos": "verb",
+   "wordId": "kick",
+   "sense": 0,
+   "context": "vurdu (tekmeledi)",
+   "note": "*kick* ayakla \"tekmelemek, (topa) vurmak\" demektir.",
+   "form": "kick + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "ball",
+   "pos": "noun",
+   "wordId": "ball",
+   "sense": 0,
+   "context": "top",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "hard",
+   "pos": "adverb",
+   "wordId": "hard",
+   "sense": 1,
+   "context": "sert (güçlü)",
+   "note": "*hard* burada zarftır ve fiili niteler: *kick hard* → sert vurmak. *hardly* ise \"neredeyse hiç\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (top)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "fly",
+   "pos": "verb",
+   "wordId": "fly",
+   "sense": 0,
+   "context": "uçtu",
+   "note": null,
+   "form": "fly fiilinin geçmiş zaman hali (flew, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (penceresine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": "*Mrs* evli kadınların soyadından önce kullanılan unvandır (\"Misiz\" diye okunur); İngiliz İngilizcesinde noktasız, Amerikan İngilizcesinde *Mrs.* yazılır.",
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "Green",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Green'in",
+   "note": "*green* \"yeşil\" demektir; burada bir soyadıdır.",
+   "form": "Green + 's (iyelik)",
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "glass",
+   "pos": "noun",
+   "wordId": "glass",
+   "sense": 0,
+   "context": "cam",
+   "note": "*glass* \"bardak\" ve \"cam\" demektir; burada pencere camıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "break",
+   "pos": "verb",
+   "wordId": "break",
+   "sense": 0,
+   "context": "kırıldı",
+   "note": null,
+   "form": "break fiilinin geçmiş zaman hali (broke, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "broke into",
+    "meaning": "-e ayrıldı, kırılıp … oldu"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (parçalara)",
+   "note": "*break into pieces* \"parçalara ayrılmak, paramparça olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "broke into",
+    "meaning": "-e ayrıldı, kırılıp … oldu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "piece",
+   "pos": "noun",
+   "wordId": "piece",
+   "sense": 0,
+   "context": "parçalar",
+   "note": null,
+   "form": "piece'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "boy",
+   "pos": "noun",
+   "wordId": "boy",
+   "sense": 0,
+   "context": "çocuklar (oğlanlar)",
+   "note": null,
+   "form": "boy'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "scared",
+   "pos": "adjective",
+   "wordId": "scared",
+   "sense": 0,
+   "context": "korkmuş",
+   "note": "*be scared* \"korkmak\" demektir: *The boys were scared* → Çocuklar korktu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "Jack",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jack",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*want to + fiil* \"… -mek istemek\" demektir.",
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (kaçmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "kaçmak (koşmak)",
+   "note": "*run away* \"kaçmak, kaçıp gitmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "run away",
+    "meaning": "kaçmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "uzağa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "run away",
+    "meaning": "kaçmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "no",
+   "pos": "exclamation",
+   "wordId": "no",
+   "sense": 0,
+   "context": "hayır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "-meliyiz",
+   "note": "*must* + fiil \"… -meli\" demektir ve bir zorunluluk ya da doğru olanı bildirir; fiil yalın kalır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": "*her* burada nesnedir (\"ona\"); isimden önce gelince ise \"onun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "knock",
+   "pos": "verb",
+   "wordId": "knock",
+   "sense": 0,
+   "context": "çaldılar (vurdular)",
+   "note": "*knock on the door* \"kapıyı çalmak\" demektir.",
+   "form": "knock + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "knocked on",
+    "meaning": "(kapıyı) çaldılar (knock on)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(knock on: kapıyı çalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "knocked on",
+    "meaning": "(kapıyı) çaldılar (knock on)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dediler",
+   "note": "*say sorry* \"özür dilemek\" demektir.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "said sorry",
+    "meaning": "özür dilediler (say sorry)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "sorry",
+   "pos": "exclamation",
+   "wordId": "sorry",
+   "sense": 1,
+   "context": "özür dilerim",
+   "note": "*sorry* hem \"üzgün\" (sıfat) hem \"özür dilerim, pardon\" anlamında kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "said sorry",
+    "meaning": "özür dilediler (say sorry)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": null,
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "Green",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Green",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildi)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "glad",
+   "pos": "adjective",
+   "wordId": "glad",
+   "sense": 0,
+   "context": "memnun",
+   "note": "*glad* + cümle \"… -diği için memnun\" demektir: *glad they were honest* → dürüst oldukları için memnun.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduklarına)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "honest",
+   "pos": "adjective",
+   "wordId": "honest",
+   "sense": 0,
+   "context": "dürüst",
+   "note": "*honest*'teki *h* okunmaz (\"onıst\"); bu yüzden *an honest boy* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "boy",
+   "pos": "noun",
+   "wordId": "boy",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "boy'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödediler",
+   "note": "*pay for something* \"bir şeyin parasını ödemek\" demektir.",
+   "form": "pay fiilinin geçmiş zaman hali (paid, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "paid for",
+    "meaning": "-in parasını ödediler (pay for)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(pay for: -in parasını ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "paid for",
+    "meaning": "-in parasını ödediler (pay for)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "pocket",
+   "pos": "noun",
+   "wordId": "pocket",
+   "sense": 0,
+   "context": "cep",
+   "note": "*pocket money* çocuklara verilen \"harçlık\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "pocket money",
+    "meaning": "harçlık, cep harçlığı"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "pocket money",
+    "meaning": "harçlık, cep harçlığı"
+   }
+  }
+ ]
+}

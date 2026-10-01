@@ -1,0 +1,1080 @@
+{
+ "storyId": "story-a2-025",
+ "textHash": "f39385f9d83e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ilkbahar sınıfımız okul bahçesine bir ağaç dikti."
+  },
+  {
+   "tr": "Öğretmenimiz okulun yakınındaki bir dükkândan küçük bir elma ağacı aldı."
+  },
+  {
+   "tr": "Önce iki çocuk yerde büyük bir çukur kazdı."
+  },
+  {
+   "tr": "Sonra ağacı çukura koyduk ve çukuru toprakla doldurduk."
+  },
+  {
+   "tr": "Her öğrenci ağaca biraz su verdi."
+  },
+  {
+   "tr": "Ağaca her hafta bakıyoruz ve şimdi benden daha uzun."
+  },
+  {
+   "tr": "Öğretmenimiz gelecek yıl elma vereceğini söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last spring* → geçen ilkbahar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "spring",
+   "pos": "noun",
+   "wordId": "spring",
+   "sense": 0,
+   "context": "ilkbahar",
+   "note": "*spring* mevsim olarak \"ilkbahar\" demektir; fiil olarak \"sıçramak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *our class* → sınıf**ımız**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "sınıf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "plant",
+   "pos": "verb",
+   "wordId": "plant",
+   "sense": 1,
+   "context": "dikti",
+   "note": "*plant* isim olarak \"bitki\", fiil olarak \"dikmek, ekmek\" demektir.",
+   "form": "plant + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (bahçesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": "Burada *school* isim olmasına rağmen *garden*'ı niteler: *school garden* → okul bahçesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "school garden",
+    "meaning": "okul bahçesi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "school garden",
+    "meaning": "okul bahçesi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldı (satın aldı)",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "apple",
+   "pos": "noun",
+   "wordId": "apple",
+   "sense": 0,
+   "context": "elma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "apple tree",
+    "meaning": "elma ağacı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "apple tree",
+    "meaning": "elma ağacı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (dükkândan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "önce",
+   "note": "*First, … Then, …* \"Önce …, sonra …\" diye olayları sıralar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "boy",
+   "pos": "noun",
+   "wordId": "boy",
+   "sense": 0,
+   "context": "(erkek) çocuk",
+   "note": "Sayıdan sonra İngilizcede isim çoğul olur (*two boys*); Türkçede tekil kalır (iki çocuk).",
+   "form": "boy'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "kazdı (yaptı)",
+   "note": "*make a hole* \"çukur açmak\" demektir.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "hole",
+   "pos": "noun",
+   "wordId": "hole",
+   "sense": 0,
+   "context": "çukur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (yerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "ground",
+   "pos": "noun",
+   "wordId": "ground",
+   "sense": 0,
+   "context": "yer (toprak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "koyduk",
+   "note": "*put*'un geçmiş zaman hali de *put*'tur.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (çukura)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "hole",
+   "pos": "noun",
+   "wordId": "hole",
+   "sense": 0,
+   "context": "çukur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "doldurduk",
+   "note": "*fill something with something* \"bir şeyi bir şeyle doldurmak\" demektir.",
+   "form": "fill + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (çukuru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (toprakla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "earth",
+   "pos": "noun",
+   "wordId": "earth",
+   "sense": 0,
+   "context": "toprak",
+   "note": "*earth* \"toprak\" demektir; *the Earth* ise \"Dünya\" (gezegen) anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* tekil isim ve tekil fiil alır: *every student gave*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdi",
+   "note": null,
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (ağaca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(take care of: bakmak)",
+   "note": "*take care of* \"-e bakmak, ilgilenmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "take care of",
+    "meaning": "-e bakmak, ilgilenmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "care",
+   "pos": "noun",
+   "wordId": "care",
+   "sense": 0,
+   "context": "bakım (ilgi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "take care of",
+    "meaning": "-e bakmak, ilgilenmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(take care of: -e bakmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "take care of",
+    "meaning": "-e bakmak, ilgilenmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ağaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "tall",
+   "pos": "adjective",
+   "wordId": "tall",
+   "sense": 0,
+   "context": "daha uzun",
+   "note": "*-er* eki kısa sıfatlara \"daha\" anlamı katar ve *than* (-den) ile kullanılır: *taller than me* → benden daha uzun.",
+   "form": "tall sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "taller than me",
+    "meaning": "benden daha uzun"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (benden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "taller than me",
+    "meaning": "benden daha uzun"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "ben(den)",
+   "note": "*than*'dan sonra günlük dilde *me* kullanılır: *taller than me*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "taller than me",
+    "meaning": "benden daha uzun"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-diğini, -eceğini\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ağaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "*be going to* + fiil gelecekle ilgili bir tahmin bildirir.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "is going to have",
+    "meaning": "-ecek (be going to)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "*going to* burada \"gitmek\" anlamında değildir; gelecek zaman kalıbının parçasıdır.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "is going to have",
+    "meaning": "-ecek (be going to)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "is going to have",
+    "meaning": "-ecek (be going to)"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "olmak (elma vermek)",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; ağaç için *have apples* \"elma vermek, elması olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "is going to have",
+    "meaning": "-ecek (be going to)"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "apple",
+   "pos": "noun",
+   "wordId": "apple",
+   "sense": 0,
+   "context": "elmalar",
+   "note": null,
+   "form": "apple'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next year* \"gelecek yıl\" demektir; önüne *the* ya da *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "next year",
+    "meaning": "gelecek yıl"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "next year",
+    "meaning": "gelecek yıl"
+   }
+  }
+ ]
+}

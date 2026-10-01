@@ -1,0 +1,1077 @@
+{
+ "storyId": "story-a2-023",
+ "textHash": "00e5130441f9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Salı sabahı Ben pencereden dışarı baktı ve her şeyin bembeyaz olduğunu gördü."
+  },
+  {
+   "tr": "Çok kar vardı ve okullar kapalıydı."
+  },
+  {
+   "tr": "Ben kalın montunu, şapkasını ve eldivenlerini giydi ve kız kardeşiyle dışarı koştu."
+  },
+  {
+   "tr": "Bahçede büyük bir kardan adam yaptılar ve ona eski bir atkı taktılar."
+  },
+  {
+   "tr": "Sonra yan evdeki arkadaşlarıyla karda oynadılar."
+  },
+  {
+   "tr": "Öğleden sonra anneleri herkese sıcak çikolata yaptı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(salı sabahı)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on Tuesday morning* → salı sabahı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Tuesday morning",
+    "meaning": "salı sabahı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Tuesday",
+   "pos": "noun",
+   "wordId": "tuesday",
+   "sense": 0,
+   "context": "salı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Tuesday morning",
+    "meaning": "salı sabahı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Tuesday morning",
+    "meaning": "salı sabahı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "baktı",
+   "note": "*look out of the window* \"pencereden dışarı bakmak\" demektir.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "looked out of",
+    "meaning": "-den dışarı baktı (look out of)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "dışarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "looked out of",
+    "meaning": "-den dışarı baktı (look out of)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (pencereden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "looked out of",
+    "meaning": "-den dışarı baktı (look out of)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "gördü",
+   "note": null,
+   "form": "see fiilinin geçmiş zaman hali (saw, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(olduğunu)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": "*everything* tekil fiil alır: *everything was white*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "white",
+   "pos": "adjective",
+   "wordId": "white",
+   "sense": 0,
+   "context": "beyaz (bembeyaz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": "*there is / there was* bir şeyin var olduğunu söyler; Türkçede \"var / vardı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "There was a lot of",
+    "meaning": "çok … vardı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there was)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "There was a lot of",
+    "meaning": "çok … vardı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a lot of: çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "There was a lot of",
+    "meaning": "çok … vardı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "lot",
+   "pos": "determiner",
+   "wordId": "lot",
+   "sense": 1,
+   "context": "çok (bir sürü)",
+   "note": "*a lot of* \"çok, bir sürü\" demektir; sayılamayan isimlerle de kullanılır: *a lot of snow* → çok kar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "There was a lot of",
+    "meaning": "çok … vardı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a lot of: çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "There was a lot of",
+    "meaning": "çok … vardı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "snow",
+   "pos": "noun",
+   "wordId": "snow",
+   "sense": 0,
+   "context": "kar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okullar",
+   "note": null,
+   "form": "school'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "closed",
+   "pos": "adjective",
+   "wordId": "closed",
+   "sense": 0,
+   "context": "kapalı",
+   "note": "*closed* \"kapalı\" demektir; karşıtı *open* (açık).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "giydi (put on)",
+   "note": "*put*'un temel anlamı \"koymak\"tır; *put on* giysiler için \"giymek\" demektir. Geçmiş zaman hali de *put*'tur.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "put on",
+    "meaning": "giydi (put on)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "(put on: giymek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "put on",
+    "meaning": "giydi (put on)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his coat* → mont**u**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "warm",
+   "pos": "adjective",
+   "wordId": "warm",
+   "sense": 0,
+   "context": "kalın (sıcak tutan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "coat",
+   "pos": "noun",
+   "wordId": "coat",
+   "sense": 0,
+   "context": "mont (palto)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "hat",
+   "pos": "noun",
+   "wordId": "hat",
+   "sense": 0,
+   "context": "şapka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "glove",
+   "pos": "noun",
+   "wordId": "glove",
+   "sense": 0,
+   "context": "eldivenler",
+   "note": null,
+   "form": "glove'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştu",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "outside",
+   "pos": "adverb",
+   "wordId": "outside",
+   "sense": 0,
+   "context": "dışarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptılar",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "snowman",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kardan adam",
+   "note": "*snowman* iki kelimenin birleşimidir: *snow* (kar) + *man* (adam).",
+   "form": null,
+   "base": "kardan adam",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (bahçede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdiler (taktılar)",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (kardan adama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old scarf*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "scarf",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "atkı",
+   "note": "*scarf* boyna sarılan \"atkı\" ya da başa örtülen \"eşarp\" olabilir.",
+   "form": null,
+   "base": "atkı, eşarp",
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynadılar",
+   "note": null,
+   "form": "play + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (karda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "snow",
+   "pos": "noun",
+   "wordId": "snow",
+   "sense": 0,
+   "context": "kar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (yan evden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "from next door",
+    "meaning": "yan evden, yan evdeki"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "yan (bitişik)",
+   "note": "*next door* \"yan ev, bitişik ev\" demektir: *the people next door* → yan evdekiler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "from next door",
+    "meaning": "yan evden, yan evdeki"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı (ev)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "from next door",
+    "meaning": "yan evden, yan evdeki"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(öğleden sonra)",
+   "note": "Günün bölümlerinden önce *in the* kullanılır: *in the afternoon* → öğleden sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *their mother* → anne**leri**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "hot",
+   "pos": "adjective",
+   "wordId": "hot",
+   "sense": 0,
+   "context": "sıcak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "hot chocolate",
+    "meaning": "sıcak çikolata"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "chocolate",
+   "pos": "noun",
+   "wordId": "chocolate",
+   "sense": 0,
+   "context": "çikolata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "hot chocolate",
+    "meaning": "sıcak çikolata"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (herkese)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

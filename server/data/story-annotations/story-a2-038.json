@@ -1,0 +1,1095 @@
+{
+ "storyId": "story-a2-038",
+ "textHash": "0650a53de129",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Emily'nin saçları hep uzundu ama geçen hafta farklı bir şey denemeye karar verdi."
+  },
+  {
+   "tr": "Evinin yakınındaki bir kuaföre gitti ve saçlarını kısa kestirmek istedi."
+  },
+  {
+   "tr": "Aynaya baktığında çok şaşırdı."
+  },
+  {
+   "tr": "Kendini neredeyse tanıyamadı!"
+  },
+  {
+   "tr": "İlk başta beğenmedi."
+  },
+  {
+   "tr": "Ama ertesi gün okulda bütün arkadaşları yeni saçının harika göründüğünü söyledi."
+  },
+  {
+   "tr": "Şimdi Emily kısa saçına bayılıyor ve yıkamasının çok daha kolay olduğunu düşünüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Emily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep (her zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(saçları) vardı",
+   "note": "*have long hair* \"uzun saçlı olmak\" demektir: *Emily had long hair* → Emily'nin saçları uzundu.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "hair",
+   "pos": "noun",
+   "wordId": "hair",
+   "sense": 0,
+   "context": "saç",
+   "note": "*hair* \"saç\" anlamında sayılamaz ve tekil kullanılır (✗ hairs).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last week* → geçen hafta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (denemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": "Sıfat *something*'den sonra gelir: *something different* → farklı bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kuaföre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "hairdresser",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kuaför",
+   "note": "*hairdresser* iki parçadan oluşur: *hair* (saç) + *dresser* (düzenleyen). Erkek berberi ise *barber*'dır.",
+   "form": null,
+   "base": "kuaför",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask*'in temel anlamı \"sormak\"tır; *ask for something* \"bir şeyi istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "asked for short hair",
+    "meaning": "kısa saç istedi (ask for)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "asked for short hair",
+    "meaning": "kısa saç istedi (ask for)"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "asked for short hair",
+    "meaning": "kısa saç istedi (ask for)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "hair",
+   "pos": "noun",
+   "wordId": "hair",
+   "sense": 0,
+   "context": "saç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "asked for short hair",
+    "meaning": "kısa saç istedi (ask for)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "baktı",
+   "note": "*look in the mirror* \"aynaya bakmak\" demektir; *in* kullanılır.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "looked in the mirror",
+    "meaning": "aynaya baktı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (aynaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "looked in the mirror",
+    "meaning": "aynaya baktı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "looked in the mirror",
+    "meaning": "aynaya baktı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "mirror",
+   "pos": "noun",
+   "wordId": "mirror",
+   "sense": 0,
+   "context": "ayna",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "looked in the mirror",
+    "meaning": "aynaya baktı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": "*be surprised* \"şaşırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "tanımak",
+   "note": "*know*'un temel anlamı \"bilmek\"tir; kişiler için \"tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "herself",
+   "pos": "pronoun",
+   "wordId": "herself",
+   "sense": 0,
+   "context": "kendini",
+   "note": "*-self* ile biten zamirler öznenin kendisini gösterir: *She did not know herself* → Kendini tanımadı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta, başlangıçta\" demektir; genellikle sonra durumun değiştiğini anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "beğenmek (sevmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (saçını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next day* \"ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (okulda)",
+   "note": "*at school* \"okulda\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": "*all* + iyelik + isim: *all her friends* → bütün arkadaşları.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*say* + cümle \"… olduğunu söylemek\" demektir; *that* çoğu zaman söylenmez.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "hair",
+   "pos": "noun",
+   "wordId": "hair",
+   "sense": 0,
+   "context": "saç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "göründüğünü",
+   "note": "*look* + sıfat \"… görünmek\" demektir: *looked great* → harika görünüyordu.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "looked great",
+    "meaning": "harika görünüyordu"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "great",
+   "pos": "adjective",
+   "wordId": "great",
+   "sense": 0,
+   "context": "harika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "looked great",
+    "meaning": "harika görünüyordu"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "Emily",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emily",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayılıyor (çok seviyor)",
+   "note": null,
+   "form": "love + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "hair",
+   "pos": "noun",
+   "wordId": "hair",
+   "sense": 0,
+   "context": "saç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşünüyor",
+   "note": null,
+   "form": "think + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (saç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much easier* → çok daha kolay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "much easier to wash",
+    "meaning": "yıkaması çok daha kolay"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "daha kolay",
+   "note": "*-y* ile biten sıfatlarda *y* → *i* olur: *easy → easier → easiest*.",
+   "form": "easy sıfatının karşılaştırma hali (y → ier)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "much easier to wash",
+    "meaning": "yıkaması çok daha kolay"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yıkamak)",
+   "note": "Sıfat + *to* + fiil \"… -mesi (kolay/zor)\" demektir: *easy to wash* → yıkaması kolay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "much easier to wash",
+    "meaning": "yıkaması çok daha kolay"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "wash",
+   "pos": "verb",
+   "wordId": "wash",
+   "sense": 0,
+   "context": "yıkamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "much easier to wash",
+    "meaning": "yıkaması çok daha kolay"
+   }
+  }
+ ]
+}

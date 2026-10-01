@@ -1,0 +1,1258 @@
+{
+ "storyId": "story-a2-037",
+ "textHash": "37057aff3fcf",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen kış işten eve dönerken arabam yolun ortasında durdu."
+  },
+  {
+   "tr": "Hava karanlık ve çok soğuktu, telefonumun şarjı da bitmişti."
+  },
+  {
+   "tr": "Ne yapacağımı bilmiyordum."
+  },
+  {
+   "tr": "Sonra genç bir adam arabasını durdurdu ve yardıma ihtiyacım olup olmadığını sordu."
+  },
+  {
+   "tr": "Telefonundan bir tamirhaneyi aradı ve bir saat boyunca benimle bekledi."
+  },
+  {
+   "tr": "Tamirci geldiğinde genç adama biraz para vermek istedim ama o hayır dedi."
+  },
+  {
+   "tr": "Onun iyiliğini asla unutmayacağım."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last winter* → geçen kış.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last winter",
+    "meaning": "geçen kış"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last winter",
+    "meaning": "geçen kış"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ken)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on my way: yolda, giderken)",
+   "note": "*on my way home* \"eve giderken, eve dönüş yolunda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında zarf olarak kullanılınca önüne *to* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (işten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": "*from work* \"işten\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "on my way home from work",
+    "meaning": "işten eve dönerken"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "(… -ken) -diğinde",
+   "note": "*I was … when …* süren bir durumun ortasında olan bir olayı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my car* → araba**m**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durdu",
+   "note": null,
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ortasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "middle",
+   "pos": "noun",
+   "wordId": "middle",
+   "sense": 0,
+   "context": "orta",
+   "note": "*in the middle of* \"…-in ortasında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yolun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "road",
+   "pos": "noun",
+   "wordId": "road",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "in the middle of the road",
+    "meaning": "yolun ortasında"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava ve zaman anlatırken özne olarak *it* kullanılır: *It was dark* → Hava karanlıktı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "karanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "cold",
+   "pos": "adjective",
+   "wordId": "cold",
+   "sense": 0,
+   "context": "soğuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": "Burada *phone* isim olmasına rağmen *battery*'yi niteler: *phone battery* → telefon şarjı/pili.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "phone battery was dead",
+    "meaning": "telefonun şarjı bitmişti"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "battery",
+   "pos": "noun",
+   "wordId": "battery",
+   "sense": 0,
+   "context": "pil (şarj)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "phone battery was dead",
+    "meaning": "telefonun şarjı bitmişti"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-mişti)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "phone battery was dead",
+    "meaning": "telefonun şarjı bitmişti"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "dead",
+   "pos": "adjective",
+   "wordId": "dead",
+   "sense": 0,
+   "context": "bitmiş",
+   "note": "*dead*'in temel anlamı \"ölü\"dür; pil ve telefonlar için \"bitmiş, şarjı kalmamış\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "phone battery was dead",
+    "meaning": "telefonun şarjı bitmişti"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-miyordum)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "ne",
+   "note": "*what to do* \"ne yapacağını, ne yapmalı\" demektir: *I did not know what to do* → Ne yapacağımı bilmiyordum.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "what to do",
+    "meaning": "ne yapacağımı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "what to do",
+    "meaning": "ne yapacağımı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "what to do",
+    "meaning": "ne yapacağımı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durdurdu",
+   "note": "*stop* \"durmak\" ve \"durdurmak\" demektir; burada nesnesi olduğu için \"durdurmak\"tır.",
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his car* → araba**sı**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sordu",
+   "note": null,
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "asked if I needed help",
+    "meaning": "yardıma ihtiyacım olup olmadığını sordu"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "(-ip -mediğini)",
+   "note": "*if*'in temel anlamı \"eğer\"dir; *ask if* + cümle \"… -ip -mediğini sormak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "asked if I needed help",
+    "meaning": "yardıma ihtiyacım olup olmadığını sordu"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "asked if I needed help",
+    "meaning": "yardıma ihtiyacım olup olmadığını sordu"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacım (olup olmadığını)",
+   "note": "Aktarılan soruda zaman geriye kayar: *Do you need help?* → *He asked if I needed help.*",
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "asked if I needed help",
+    "meaning": "yardıma ihtiyacım olup olmadığını sordu"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "help",
+   "pos": "noun",
+   "wordId": "help",
+   "sense": 1,
+   "context": "yardım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "asked if I needed help",
+    "meaning": "yardıma ihtiyacım olup olmadığını sordu"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aradı",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "garage",
+   "pos": "noun",
+   "wordId": "garage",
+   "sense": 0,
+   "context": "tamirhane",
+   "note": "*garage* evde arabanın durduğu \"garaj\" ve arabaların tamir edildiği \"tamirhane\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-den (telefonundan)",
+   "note": "*on the phone* \"telefonda, telefonla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "bekledi",
+   "note": null,
+   "form": "wait + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (benimle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "ben(imle)",
+   "note": "*me*, *I*'nın nesne halidir; edattan sonra bu hali kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*for* + süre \"… boyunca\" demektir: *for an hour* → bir saat boyunca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "for an hour",
+    "meaning": "bir saat boyunca"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*hour*'daki *h* okunmadığı için *a* değil *an* kullanılır: *an hour*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "for an hour",
+    "meaning": "bir saat boyunca"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "for an hour",
+    "meaning": "bir saat boyunca"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "mechanic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tamirci",
+   "note": "*mechanic* \"makinist\" değil, araba ve makine \"tamircisi\"dir.",
+   "form": null,
+   "base": "tamirci, araba tamircisi",
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi (vardı)",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istedim",
+   "note": "*want to + fiil* \"… -mek istemek\" demektir.",
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (vermek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "vermek",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam(a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "no",
+   "pos": "exclamation",
+   "wordId": "no",
+   "sense": 0,
+   "context": "hayır",
+   "note": "*say no* \"hayır demek, kabul etmemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 83,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 84,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-meyeceğim)",
+   "note": "*will* + fiil gelecek zamanı anlatır; *will never* \"asla … -meyecek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "will never forget",
+    "meaning": "asla unutmayacağım"
+   }
+  },
+  {
+   "i": 85,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "asla",
+   "note": "*never* kendisi olumsuz anlam taşır; fiil olumlu kalır: *I will never forget* (✗ will not never).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "will never forget",
+    "meaning": "asla unutmayacağım"
+   }
+  },
+  {
+   "i": 86,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "will never forget",
+    "meaning": "asla unutmayacağım"
+   }
+  },
+  {
+   "i": 87,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 88,
+   "lemma": "kindness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iyilik",
+   "note": "*-ness* eki sıfattan isim yapar: *kind* (iyi kalpli) → *kindness* (iyilik, nezaket).",
+   "form": null,
+   "base": "iyilik, nezaket",
+   "phrase": null
+  }
+ ]
+}

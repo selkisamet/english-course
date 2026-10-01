@@ -1,0 +1,1166 @@
+{
+ "storyId": "story-a2-039",
+ "textHash": "be3597280e86",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Jake on beş yaşında ve oyunları için gerçekten yeni bir bilgisayar istiyor."
+  },
+  {
+   "tr": "Bilgisayar altı yüz sterlin ama Jake'in yalnızca elli sterlini var."
+  },
+  {
+   "tr": "Anne babası, geri kalanını biriktirirse yarısını ödeyeceklerini söyledi."
+  },
+  {
+   "tr": "Bunun üzerine Jake bir plan yaptı."
+  },
+  {
+   "tr": "Her gün komşusunun köpeğini gezdirmeye ve hafta sonları araba yıkamaya başladı."
+  },
+  {
+   "tr": "Okuldan sonra şeker ve içecek almayı da bıraktı."
+  },
+  {
+   "tr": "Sekiz ay sonra yeterli parası oldu."
+  },
+  {
+   "tr": "Sonunda bilgisayarını aldığında Jake çok mutluydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Jake",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jake",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(yaşında)",
+   "note": "Yaş *be* fiiliyle söylenir: *Jake is fifteen* → Jake on beş yaşında (✗ Jake has fifteen years).",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "fifteen",
+   "pos": "number",
+   "wordId": "fifteen",
+   "sense": 0,
+   "context": "on beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "really",
+   "pos": "adverb",
+   "wordId": "really",
+   "sense": 0,
+   "context": "gerçekten",
+   "note": "*really* fiilden önce gelince isteği ya da duyguyu güçlendirir: *really wants* → gerçekten istiyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyor",
+   "note": null,
+   "form": "want + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "computer",
+   "pos": "noun",
+   "wordId": "computer",
+   "sense": 0,
+   "context": "bilgisayar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his games* → oyun**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "game",
+   "pos": "noun",
+   "wordId": "game",
+   "sense": 0,
+   "context": "oyunlar",
+   "note": null,
+   "form": "game'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "computer",
+   "pos": "noun",
+   "wordId": "computer",
+   "sense": 0,
+   "context": "bilgisayar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "(fiyatı) tutuyor",
+   "note": "*cost* \"(fiyatı) tutmak\" demektir: *It costs six hundred pounds* → Fiyatı altı yüz sterlin.",
+   "form": "cost + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "costs six hundred pounds",
+    "meaning": "altı yüz sterlin tutuyor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "costs six hundred pounds",
+    "meaning": "altı yüz sterlin tutuyor"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüz",
+   "note": "Belirli sayılarda *hundred* çoğul eki almaz: *six hundred* (✗ six hundreds).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "costs six hundred pounds",
+    "meaning": "altı yüz sterlin tutuyor"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "pound",
+   "pos": "noun",
+   "wordId": "pound",
+   "sense": 0,
+   "context": "sterlin",
+   "note": null,
+   "form": "pound'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "costs six hundred pounds",
+    "meaning": "altı yüz sterlin tutuyor"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "Jake",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jake",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (sterlini var)",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir: *Jake only has fifty* → Jake'in yalnızca ellisi var.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "fifty",
+   "pos": "number",
+   "wordId": "fifty",
+   "sense": 0,
+   "context": "elli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": "*parents* \"anne ve baba\" demektir; *parent* bunlardan biridir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceklerini)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"We will pay\"* → *They said they would pay* (ödeyeceklerini söylediler).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödemek",
+   "note": "*pay for something* \"bir şeyin parasını ödemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(pay for: -in parasını ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "half",
+   "pos": "pronoun",
+   "wordId": "half",
+   "sense": 2,
+   "context": "yarısı",
+   "note": "*half of* \"…-in yarısı\" demektir: *half of it* → onun yarısı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "half of it",
+    "meaning": "yarısı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "half of it",
+    "meaning": "yarısı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bilgisayarın parası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "half of it",
+    "meaning": "yarısı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-se (eğer)",
+   "note": "*if* \"eğer, -se\" demektir; koşulu bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirirse",
+   "note": "*save*'in temel anlamı \"kurtarmak\"tır; para için \"biriktirmek\" demektir. Aktarılan sözde zaman geriye kaydığı için *saved* olmuştur.",
+   "form": "save + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 38,
+    "text": "would pay for half of it if he saved the rest",
+    "meaning": "geri kalanını biriktirirse yarısını ödeyeceklerdi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "the rest",
+    "meaning": "geri kalanı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "rest",
+   "pos": "noun",
+   "wordId": "rest",
+   "sense": 0,
+   "context": "geri kalanı",
+   "note": "*the rest* \"geri kalanı, kalanı\" demektir; *rest* ayrıca \"dinlenme\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "the rest",
+    "meaning": "geri kalanı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden (bunun üzerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "Jake",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jake",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": "*make a plan* \"plan yapmak\" demektir.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "plan",
+   "pos": "noun",
+   "wordId": "plan",
+   "sense": 0,
+   "context": "plan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "gezdirmek (yürütmek)",
+   "note": "*walk*'un temel anlamı \"yürümek\"tir; *walk a dog* \"köpeği gezdirmek\" demektir.",
+   "form": "walk + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşusunun",
+   "note": "*neighbour* İngiliz yazımıdır; Amerikan İngilizcesinde *neighbor* yazılır.",
+   "form": "neighbour + 's (iyelik)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "wash",
+   "pos": "verb",
+   "wordId": "wash",
+   "sense": 0,
+   "context": "yıkamak",
+   "note": "*and*'den sonra *started* tekrar edilmez: *started walking … and washing …*.",
+   "form": "wash + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": "car'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(hafta sonu)",
+   "note": "İngiliz İngilizcesinde *at the weekend*, Amerikan İngilizcesinde *on the weekend* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the weekend",
+    "meaning": "hafta sonu, hafta sonları"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the weekend",
+    "meaning": "hafta sonu, hafta sonları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the weekend",
+    "meaning": "hafta sonu, hafta sonları"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "bıraktı",
+   "note": "*stop* + *-ing* \"… -meyi bırakmak\" demektir: *stopped buying* → almayı bıraktı.",
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "stopped buying",
+    "meaning": "almayı bıraktı (stop + -ing)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almak (satın almak)",
+   "note": null,
+   "form": "buy + -ing",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "stopped buying",
+    "meaning": "almayı bıraktı (stop + -ing)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "sweet",
+   "pos": "noun",
+   "wordId": "sweet",
+   "sense": 1,
+   "context": "şekerler",
+   "note": "*sweet* sıfat olarak \"tatlı\", isim olarak (İngiliz İngilizcesinde) \"şeker, şekerleme\" demektir.",
+   "form": "sweet'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "drink",
+   "pos": "noun",
+   "wordId": "drink",
+   "sense": 0,
+   "context": "içecekler",
+   "note": null,
+   "form": "drink'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": "*after school* \"okuldan sonra\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": "*after* + süre \"… sonra\" demektir: *after eight months* → sekiz ay sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "After eight months",
+    "meaning": "sekiz ay sonra"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "eight",
+   "pos": "number",
+   "wordId": "eight",
+   "sense": 0,
+   "context": "sekiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "After eight months",
+    "meaning": "sekiz ay sonra"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "After eight months",
+    "meaning": "sekiz ay sonra"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "oldu (vardı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "enough",
+   "pos": "determiner",
+   "wordId": "enough",
+   "sense": 0,
+   "context": "yeterli",
+   "note": "*enough* isimden önce gelir: *enough money* → yeterli para; sıfattan ise sonra gelir: *big enough*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "enough money",
+    "meaning": "yeterli para"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "enough money",
+    "meaning": "yeterli para"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "Jake",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jake",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": "*finally* uzun bir bekleyişten sonra \"sonunda, nihayet\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldı (satın aldı)",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 83,
+   "lemma": "computer",
+   "pos": "noun",
+   "wordId": "computer",
+   "sense": 0,
+   "context": "bilgisayar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

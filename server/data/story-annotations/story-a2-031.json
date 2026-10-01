@@ -1,0 +1,1063 @@
+{
+ "storyId": "story-a2-031",
+ "textHash": "9b46d94da2de",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ay Sophie teyzesini ziyaret etmek için Londra'dan Edinburgh'a trenle gitti."
+  },
+  {
+   "tr": "Yolculuk dört saatten fazla sürdü."
+  },
+  {
+   "tr": "Sophie'nin pencere kenarında bir koltuğu vardı, bu yüzden güzel kırları görebildi."
+  },
+  {
+   "tr": "Yeşil tepeler, küçük köyler ve bir sürü koyun gördü."
+  },
+  {
+   "tr": "Bir dergi okudu, müzik dinledi ve bir sandviç yedi."
+  },
+  {
+   "tr": "Karşısına yaşlı bir adam oturdu ve kitaplar hakkında konuştular."
+  },
+  {
+   "tr": "Tren vardığında teyzesi peronda bekliyordu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last month* → geçen ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Sophie",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sophie",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "gitti (yolculuk etti)",
+   "note": "*travelled* İngiliz yazımıdır (l ikilenir); Amerikan İngilizcesinde *traveled* yazılır.",
+   "form": "travel + -ed (geçmiş zaman, l ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "travelled by train",
+    "meaning": "trenle gitti"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (trenle)",
+   "note": "Ulaşım araçlarıyla *by* kullanılır ve araçtan önce *the* gelmez: *by train, by bus, by car*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "travelled by train",
+    "meaning": "trenle gitti"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "tren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "travelled by train",
+    "meaning": "trenle gitti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Londra'dan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "London",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Londra",
+   "note": null,
+   "form": null,
+   "base": "(şehir adı)",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (Edinburgh'a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "Edinburgh",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Edinburgh",
+   "note": null,
+   "form": null,
+   "base": "(İskoçya'da bir şehir)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to visit her aunt* → teyzesini ziyaret etmek için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "to visit",
+    "meaning": "ziyaret etmek için"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "ziyaret etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "to visit",
+    "meaning": "ziyaret etmek için"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "aunt",
+   "pos": "noun",
+   "wordId": "aunt",
+   "sense": 0,
+   "context": "teyze (hala)",
+   "note": "*aunt* hem \"teyze\" hem \"hala\" (ve \"yenge\") demektir; İngilizcede ayrım yapılmaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "journey",
+   "pos": "noun",
+   "wordId": "journey",
+   "sense": 0,
+   "context": "yolculuk",
+   "note": "*journey* bir yerden bir yere yapılan \"yolculuk\"tur; *trip* ise gidip dönülen \"gezi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürdü",
+   "note": "*take* zamanla \"sürmek\" demektir: *The journey took four hours* → Yolculuk dört saat sürdü.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "more than",
+    "meaning": "-den fazla"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "more than",
+    "meaning": "-den fazla"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dört",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "Sophie",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sophie",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "vardı (koltuğu vardı)",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir: *Sophie had a seat* → Sophie'nin bir koltuğu vardı.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "seat",
+   "pos": "noun",
+   "wordId": "seat",
+   "sense": 0,
+   "context": "koltuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "next",
+   "pos": "adverb",
+   "wordId": "next",
+   "sense": 1,
+   "context": "(next to: -in yanında)",
+   "note": "*next*'in temel anlamı \"sonraki\"dir; *next to* ise \"-in yanında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(next to: yanında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebildi",
+   "note": "*could*, *can*'in geçmiş halidir; geçmişteki bir imkânı anlatır: *she could see* → görebildi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "beautiful",
+   "pos": "adjective",
+   "wordId": "beautiful",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "countryside",
+   "pos": "noun",
+   "wordId": "countryside",
+   "sense": 0,
+   "context": "kırlar (kırsal bölge)",
+   "note": "*countryside* şehir dışındaki tarlalar, tepeler ve köylerden oluşan \"kırsal bölge\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "gördü",
+   "note": null,
+   "form": "see fiilinin geçmiş zaman hali (saw, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "green",
+   "pos": "adjective",
+   "wordId": "green",
+   "sense": 0,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "hill",
+   "pos": "noun",
+   "wordId": "hill",
+   "sense": 0,
+   "context": "tepeler",
+   "note": null,
+   "form": "hill'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köyler",
+   "note": null,
+   "form": "village'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "lot",
+   "pos": "determiner",
+   "wordId": "lot",
+   "sense": 1,
+   "context": "bir sürü (lots of)",
+   "note": "*lots of* \"bir sürü, çok\" demektir; *a lot of* ile aynı anlamdadır ama daha samimidir.",
+   "form": "lot'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "lots of",
+    "meaning": "bir sürü"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(lots of: bir sürü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "lots of",
+    "meaning": "bir sürü"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "sheep",
+   "pos": "noun",
+   "wordId": "sheep",
+   "sense": 0,
+   "context": "koyun",
+   "note": "*sheep*'in çoğulu da *sheep*'tir (✗ sheeps).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": "*read*'in geçmiş zaman hali de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin geçmiş zaman hali (read, düzensiz — \"red\" diye okunur)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "magazine",
+   "pos": "noun",
+   "wordId": "magazine",
+   "sense": 0,
+   "context": "dergi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinledi",
+   "note": "*listen to something* \"bir şeyi dinlemek\" demektir; *to* atlanmaz.",
+   "form": "listen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "listened to",
+    "meaning": "dinledi (listen to)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "listened to",
+    "meaning": "dinledi (listen to)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "sandwich",
+   "pos": "noun",
+   "wordId": "sandwich",
+   "sense": 0,
+   "context": "sandviç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old man*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": "*old* insanlar için \"yaşlı\", eşyalar için \"eski\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturdu",
+   "note": null,
+   "form": "sit fiilinin geçmiş zaman hali (sat, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "opposite",
+   "pos": "preposition",
+   "wordId": "opposite",
+   "sense": 2,
+   "context": "karşısına",
+   "note": "*opposite* + kişi/yer \"-in karşısında\" demektir: *sat opposite her* → karşısına oturdu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onun (karşısına)",
+   "note": "Edattan sonra nesne hali kullanılır: *opposite her*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuştular",
+   "note": "*talk about something* \"bir şey hakkında konuşmak\" demektir.",
+   "form": "talk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "tren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "vardı",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (teyzesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "aunt",
+   "pos": "noun",
+   "wordId": "aunt",
+   "sense": 0,
+   "context": "teyze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were* + *-ing* geçmişte o an süren bir eylemi anlatır: *was waiting* → bekliyordu.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "was waiting",
+    "meaning": "bekliyordu"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "bekliyordu",
+   "note": null,
+   "form": "wait + -ing",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "was waiting",
+    "meaning": "bekliyordu"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (peronda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "platform",
+   "pos": "noun",
+   "wordId": "platform",
+   "sense": 0,
+   "context": "peron",
+   "note": "*platform* tren istasyonunda \"peron\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

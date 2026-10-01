@@ -1,0 +1,1088 @@
+{
+ "storyId": "story-a2-018",
+ "textHash": "578e5d8a51ba",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen hafta bizimkinin yanındaki eve yeni bir aile taşındı."
+  },
+  {
+   "tr": "İki küçük çocukları ve büyük, kahverengi bir köpekleri var."
+  },
+  {
+   "tr": "Çarşamba günü annem bir kek yaptı ve onu onlara götürdük."
+  },
+  {
+   "tr": "Anne babaları çok cana yakındı ve bizi çaya davet ettiler."
+  },
+  {
+   "tr": "Bize Kanada'dan geldiklerini söylediler."
+  },
+  {
+   "tr": "Kızları benimle aynı yaşta ve gelecek pazartesi benim okuluma başlayacak."
+  },
+  {
+   "tr": "Umarım arkadaş olabiliriz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşındı",
+   "note": "*move*'un temel anlamı \"hareket etmek\"tir; *move into a house* \"bir eve taşınmak\" demektir.",
+   "form": "move + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "moved into",
+    "meaning": "-e taşındı (move into)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (eve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "moved into",
+    "meaning": "-e taşındı (move into)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "next",
+   "pos": "adverb",
+   "wordId": "next",
+   "sense": 1,
+   "context": "(next to: -in yanındaki)",
+   "note": "*next*'in temel anlamı \"sonraki\"dir; *next to* ise \"-in yanında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(next to: yanındaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "next to",
+    "meaning": "-in yanında"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "ours",
+   "pos": "pronoun",
+   "wordId": "ours",
+   "sense": 0,
+   "context": "bizimki",
+   "note": "*ours* \"bizimki\" demektir ve tek başına kullanılır: *next to ours* → bizimkinin (bizim evin) yanında.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last week* → geçen hafta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "last week",
+    "meaning": "geçen hafta"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (çocukları var)",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir: *They have two children* → İki çocukları var.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "küçük (genç)",
+   "note": "*young* \"genç\" demektir; çocuklar için \"küçük\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuk",
+   "note": "*children*, *child*'ın düzensiz çoğuludur (✗ childs).",
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "brown",
+   "pos": "adjective",
+   "wordId": "brown",
+   "sense": 0,
+   "context": "kahverengi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (çarşamba günü)",
+   "note": "Günlerden önce *on* kullanılır: *on Wednesday* → çarşamba günü.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "Wednesday",
+   "pos": "noun",
+   "wordId": "wednesday",
+   "sense": 0,
+   "context": "çarşamba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (annem)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "kek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "götürdük",
+   "note": "*take something to someone* \"bir şeyi birine götürmek\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (onlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": "*them*, *they*'in nesne halidir: \"onları, onlara\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": "*parents* \"anne ve baba\" demektir; *parent* bunlardan biridir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "friendly",
+   "pos": "adjective",
+   "wordId": "friendly",
+   "sense": 0,
+   "context": "cana yakın",
+   "note": "*friendly* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet ettiler",
+   "note": "*invite someone in* birini \"içeri davet etmek\" demektir.",
+   "form": "invite + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "invited us in for tea",
+    "meaning": "bizi çaya (içeri) davet ettiler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bizi",
+   "note": "*us*, *we*'nin nesne halidir: \"bizi, bize\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "invited us in for tea",
+    "meaning": "bizi çaya (içeri) davet ettiler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "in",
+   "pos": "adverb",
+   "wordId": "in",
+   "sense": 1,
+   "context": "içeri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "invited us in for tea",
+    "meaning": "bizi çaya (içeri) davet ettiler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (çaya)",
+   "note": "*for* burada amaç bildirir: *for tea* → çay içmeye, çaya.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "invited us in for tea",
+    "meaning": "bizi çaya (içeri) davet ettiler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "tea",
+   "pos": "noun",
+   "wordId": "tea",
+   "sense": 0,
+   "context": "çay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "invited us in for tea",
+    "meaning": "bizi çaya (içeri) davet ettiler"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylediler",
+   "note": "*tell* kime söylendiğini belirtir: *tell someone something* → birine bir şey söylemek. *say*'den sonra ise kişi doğrudan gelmez.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bize",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldiklerini",
+   "note": "*come from* + yer \"…-den gelmek, …-li olmak\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Kanada'dan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "Canada",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kanada",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *their daughter* → kız**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "daughter",
+   "pos": "noun",
+   "wordId": "daughter",
+   "sense": 0,
+   "context": "kız (evlat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*same* her zaman *the* ile kullanılır: *the same age* → aynı yaş.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "the same age as me",
+    "meaning": "benimle aynı yaşta"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "the same age as me",
+    "meaning": "benimle aynı yaşta"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "yaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "the same age as me",
+    "meaning": "benimle aynı yaşta"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "ile (benimle)",
+   "note": "*the same … as* \"… ile aynı\" demektir: *the same age as me* → benimle aynı yaşta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "the same age as me",
+    "meaning": "benimle aynı yaşta"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "ben(imle)",
+   "note": "*me*, *I*'nın nesne halidir; *as*'ten sonra günlük dilde *me* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "the same age as me",
+    "meaning": "benimle aynı yaşta"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "*be going to* + fiil planlanmış bir geleceği bildirir: *is going to start* → başlayacak.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "is going to start",
+    "meaning": "başlayacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "*going to* burada \"gitmek\" anlamında değildir; gelecek zaman kalıbının parçasıdır.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "is going to start",
+    "meaning": "başlayacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "is going to start",
+    "meaning": "başlayacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "is going to start",
+    "meaning": "başlayacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (okuluma)",
+   "note": "*start at a school* \"bir okula başlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "next Monday",
+    "meaning": "gelecek pazartesi"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "Monday",
+   "pos": "noun",
+   "wordId": "monday",
+   "sense": 0,
+   "context": "pazartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "next Monday",
+    "meaning": "gelecek pazartesi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "hope",
+   "pos": "verb",
+   "wordId": "hope",
+   "sense": 0,
+   "context": "umuyorum (umarım)",
+   "note": "*I hope* + cümle \"Umarım …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebiliriz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "olmak",
+   "note": "*become* \"olmak, … hâline gelmek\" demektir: *become friends* → arkadaş olmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

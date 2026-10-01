@@ -1,0 +1,1082 @@
+{
+ "storyId": "story-a2-030",
+ "textHash": "565cbb62b311",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Cuma akşamı Leo ve arkadaşları yeni bir film izlemek için sinemaya gittiler."
+  },
+  {
+   "tr": "Biletlerini internetten aldılar, bu yüzden uzun bir kuyrukta beklemeleri gerekmedi."
+  },
+  {
+   "tr": "Film başlamadan önce biraz patlamış mısır ve soğuk içecek aldılar."
+  },
+  {
+   "tr": "Film, uzaya yolculuk eden bir grup çocuk hakkındaydı."
+  },
+  {
+   "tr": "Heyecanlı ve komikti, herkes çok beğendi."
+  },
+  {
+   "tr": "Filmden sonra bir kafeye gittiler ve en sevdikleri sahneler hakkında konuştular."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(cuma akşamı)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on Friday evening* → cuma akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday evening",
+    "meaning": "cuma akşamı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday evening",
+    "meaning": "cuma akşamı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday evening",
+    "meaning": "cuma akşamı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Leo",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Leo",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his friends* → arkadaş**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (sinemaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*go to the cinema* \"sinemaya gitmek\" kalıbında *the* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "cinema",
+   "pos": "noun",
+   "wordId": "cinema",
+   "sense": 0,
+   "context": "sinema",
+   "note": "İngiliz İngilizcesinde *cinema*, Amerikan İngilizcesinde *movie theater* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to see a film* → film izlemek için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "to see",
+    "meaning": "izlemek için, görmek için"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "izlemek (görmek)",
+   "note": "Sinemada film için *see a film* denir; evde televizyonda ise çoğunlukla *watch* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "to see",
+    "meaning": "izlemek için, görmek için"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "film",
+   "pos": "noun",
+   "wordId": "film",
+   "sense": 0,
+   "context": "film",
+   "note": "İngiliz İngilizcesinde *film*, Amerikan İngilizcesinde *movie* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldılar (satın aldılar)",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "ticket",
+   "pos": "noun",
+   "wordId": "ticket",
+   "sense": 0,
+   "context": "biletler",
+   "note": null,
+   "form": "ticket'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-den (internetten)",
+   "note": "İnternet için *on* kullanılır: *on the internet* → internette, internetten.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "on the internet",
+    "meaning": "internetten, internette"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "on the internet",
+    "meaning": "internetten, internette"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "on the internet",
+    "meaning": "internetten, internette"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "did not need to wait",
+    "meaning": "beklemeleri gerekmedi"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "did not need to wait",
+    "meaning": "beklemeleri gerekmedi"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "gerekmek",
+   "note": "*need to + fiil* \"… -mesi gerekmek\" demektir: *did not need to wait* → beklemeleri gerekmedi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "did not need to wait",
+    "meaning": "beklemeleri gerekmedi"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (beklemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "did not need to wait",
+    "meaning": "beklemeleri gerekmedi"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "beklemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "did not need to wait",
+    "meaning": "beklemeleri gerekmedi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kuyrukta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "line",
+   "pos": "noun",
+   "wordId": "line",
+   "sense": 0,
+   "context": "kuyruk (sıra)",
+   "note": "*line*'ın temel anlamı \"çizgi\"dir; insanlar için \"sıra, kuyruk\" demektir. İngiliz İngilizcesinde *queue* da denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "before",
+   "pos": "conjunction",
+   "wordId": "before",
+   "sense": 1,
+   "context": "-meden önce",
+   "note": "*before* + cümle \"… -meden önce\" demektir: *before the film started* → film başlamadan önce.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "film",
+   "pos": "noun",
+   "wordId": "film",
+   "sense": 0,
+   "context": "film",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başla(madan)",
+   "note": null,
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "aldılar",
+   "note": "*get*'in temel anlamı \"almak, edinmek\"tir.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "popcorn",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "patlamış mısır",
+   "note": "*popcorn* sayılamayan bir isimdir; *some popcorn* → biraz patlamış mısır.",
+   "form": null,
+   "base": "patlamış mısır",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "cold",
+   "pos": "adjective",
+   "wordId": "cold",
+   "sense": 0,
+   "context": "soğuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "drink",
+   "pos": "noun",
+   "wordId": "drink",
+   "sense": 0,
+   "context": "içecekler",
+   "note": "*drink* isim olarak \"içecek\", fiil olarak \"içmek\" demektir.",
+   "form": "drink'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "film",
+   "pos": "noun",
+   "wordId": "film",
+   "sense": 0,
+   "context": "film",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": "*be about something* \"bir şey hakkında olmak, bir şeyi anlatmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup",
+   "note": "*a group of* + çoğul isim \"bir grup …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a group of: bir grup)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuk",
+   "note": "*children*, *child*'ın düzensiz çoğuludur (✗ childs).",
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar; Türkçede \"-en/-an\" ekiyle karşılanır: *children who travel* → yolculuk eden çocuklar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "yolculuk eden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (uzaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "uzay",
+   "note": "*space* \"yer, boşluk\" demektir; *to space* gibi kullanımlarda \"uzay\" anlamındadır ve önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (film)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "exciting",
+   "pos": "adjective",
+   "wordId": "exciting",
+   "sense": 0,
+   "context": "heyecanlı (heyecan verici)",
+   "note": "*exciting* heyecan veren şeyi anlatır; *excited* ise heyecanlanan kişiyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "funny",
+   "pos": "adjective",
+   "wordId": "funny",
+   "sense": 0,
+   "context": "komik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone enjoys*, *everyone was*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "çok beğendi (keyif aldı)",
+   "note": "*enjoy* bir nesneyle kullanılır: *enjoy it* → ondan keyif almak, onu beğenmek.",
+   "form": "enjoy + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (filmi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "film",
+   "pos": "noun",
+   "wordId": "film",
+   "sense": 0,
+   "context": "film",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kafeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": "*café* Fransızcadan gelir; *cafe* diye işaretsiz de yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuştular",
+   "note": "*talk about something* \"bir şey hakkında konuşmak\" demektir.",
+   "form": "talk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "their favourite parts",
+    "meaning": "en sevdikleri bölümler"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "favourite",
+   "pos": "adjective",
+   "wordId": "favourite",
+   "sense": 0,
+   "context": "en sevdikleri",
+   "note": "*favourite* İngiliz yazımıdır; Amerikan İngilizcesinde *favorite* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "their favourite parts",
+    "meaning": "en sevdikleri bölümler"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "bölümler (sahneler)",
+   "note": null,
+   "form": "part'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "their favourite parts",
+    "meaning": "en sevdikleri bölümler"
+   }
+  }
+ ]
+}

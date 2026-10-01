@@ -1,0 +1,1192 @@
+{
+ "storyId": "story-a2-048",
+ "textHash": "f5ebb11e1033",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ilkbahar Oliver'ın midesinde kötü bir ağrı vardı ve annesi onu hastaneye götürdü."
+  },
+  {
+   "tr": "Doktor küçük bir ameliyat olması gerektiğini söyledi."
+  },
+  {
+   "tr": "Oliver korkuyordu ama hemşireler ona çok iyi davrandı."
+  },
+  {
+   "tr": "Ameliyat kısa sürdü ve ondan sonra bir hafta hastanede kaldı."
+  },
+  {
+   "tr": "Arkadaşları ona kartlar ve komik mesajlar gönderdi."
+  },
+  {
+   "tr": "Kız kardeşi ona kitaplar ve en sevdiği çikolatayı getirdi."
+  },
+  {
+   "tr": "Eve döndüğünde kendini çok daha iyi hissediyordu."
+  },
+  {
+   "tr": "Yine kendi yatağında uyuyacağı için mutluydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last spring* → geçen ilkbahar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "spring",
+   "pos": "noun",
+   "wordId": "spring",
+   "sense": 0,
+   "context": "ilkbahar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Oliver",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Oliver",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "vardı (ağrısı)",
+   "note": "Ağrı ve hastalıklar *have* ile söylenir: *have a pain in your stomach* → midende ağrı olmak.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "bad",
+   "pos": "adjective",
+   "wordId": "bad",
+   "sense": 0,
+   "context": "kötü (şiddetli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "ağrı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (midesinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his stomach* → mide**si**.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "stomach",
+   "pos": "noun",
+   "wordId": "stomach",
+   "sense": 0,
+   "context": "mide (karın)",
+   "note": "*stomach*'taki *ch* \"k\" diye okunur (\"stamık\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "had a bad pain in his stomach",
+    "meaning": "midesinde kötü bir ağrı vardı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "götürdü",
+   "note": null,
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (hastaneye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": "İngiliz İngilizcesinde hasta olarak yatan kişi için *in hospital* (the olmadan) da denir; başlıktaki *A Week in Hospital* bu kullanımdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*say* + cümle \"… olduğunu söylemek\" demektir; *that* çoğu zaman söylenmez.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "gerektiğini (ihtiyacı olduğunu)",
+   "note": null,
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "operation",
+   "pos": "noun",
+   "wordId": "operation",
+   "sense": 0,
+   "context": "ameliyat",
+   "note": "*operation* hastanede \"ameliyat\" demektir; *have an operation* \"ameliyat olmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "Oliver",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Oliver",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "scared",
+   "pos": "adjective",
+   "wordId": "scared",
+   "sense": 0,
+   "context": "korkmuş",
+   "note": "*be scared* \"korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "nurse",
+   "pos": "noun",
+   "wordId": "nurse",
+   "sense": 0,
+   "context": "hemşireler",
+   "note": null,
+   "form": "nurse'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "very kind to him",
+    "meaning": "ona çok iyi davrandılar (be kind to)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "kind",
+   "pos": "adjective",
+   "wordId": "kind",
+   "sense": 1,
+   "context": "iyi (nazik)",
+   "note": "*be kind to someone* \"birine iyi davranmak, nazik olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "very kind to him",
+    "meaning": "ona çok iyi davrandılar (be kind to)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (ona)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "very kind to him",
+    "meaning": "ona çok iyi davrandılar (be kind to)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "very kind to him",
+    "meaning": "ona çok iyi davrandılar (be kind to)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "operation",
+   "pos": "noun",
+   "wordId": "operation",
+   "sense": 0,
+   "context": "ameliyat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dü)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "quick",
+   "pos": "adjective",
+   "wordId": "quick",
+   "sense": 0,
+   "context": "kısa (çabuk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ameliyat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kaldı",
+   "note": null,
+   "form": "stay + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hastanede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for* + süre \"… boyunca\" demektir: *for a week* → bir hafta (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "for a week",
+    "meaning": "bir hafta (boyunca)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "for a week",
+    "meaning": "bir hafta (boyunca)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "for a week",
+    "meaning": "bir hafta (boyunca)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderdi",
+   "note": "*send someone something* \"birine bir şey göndermek\" demektir.",
+   "form": "send fiilinin geçmiş zaman hali (sent, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "card",
+   "pos": "noun",
+   "wordId": "card",
+   "sense": 0,
+   "context": "kartlar",
+   "note": null,
+   "form": "card'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "funny",
+   "pos": "adjective",
+   "wordId": "funny",
+   "sense": 0,
+   "context": "komik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesajlar",
+   "note": null,
+   "form": "message'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdi",
+   "note": "*bring someone something* \"birine bir şey getirmek\" demektir.",
+   "form": "bring fiilinin geçmiş zaman hali (brought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "favourite",
+   "pos": "adjective",
+   "wordId": "favourite",
+   "sense": 0,
+   "context": "en sevdiği",
+   "note": "*favourite* İngiliz yazımıdır; Amerikan İngilizcesinde *favorite* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "chocolate",
+   "pos": "noun",
+   "wordId": "chocolate",
+   "sense": 0,
+   "context": "çikolata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti (döndü)",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "went home",
+    "meaning": "eve gitti (go home)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında zarf olarak kullanılınca önüne *to* gelmez: *go home* (✗ go to home).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "went home",
+    "meaning": "eve gitti (go home)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyordu",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much better* → çok daha iyi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "better",
+   "sense": 0,
+   "context": "daha iyi",
+   "note": "*better*, *good* sıfatının karşılaştırma halidir (good → better → best).",
+   "form": "good sıfatının karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": "*happy to* + fiil \"… -diği için mutlu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (uyumak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (yatağında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 83,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 85,
+    "text": "his own bed",
+    "meaning": "kendi yatağı"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*own* iyelik sözcüğünden sonra gelir: *his own bed* → kendi yatağı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 85,
+    "text": "his own bed",
+    "meaning": "kendi yatağı"
+   }
+  },
+  {
+   "i": 85,
+   "lemma": "bed",
+   "pos": "noun",
+   "wordId": "bed",
+   "sense": 0,
+   "context": "yatak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 85,
+    "text": "his own bed",
+    "meaning": "kendi yatağı"
+   }
+  },
+  {
+   "i": 86,
+   "lemma": "again",
+   "pos": "adverb",
+   "wordId": "again",
+   "sense": 0,
+   "context": "yine (tekrar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

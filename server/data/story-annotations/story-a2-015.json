@@ -1,0 +1,1175 @@
+{
+ "storyId": "story-a2-015",
+ "textHash": "38450ec04dfc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "On yedi yaşındayken küçük bir restoranda ilk işimi buldum."
+  },
+  {
+   "tr": "Orada her cumartesi ve pazar çalıştım."
+  },
+  {
+   "tr": "İşim bulaşıkları yıkamak ve masaları temizlemekti."
+  },
+  {
+   "tr": "İş zordu ve günün sonunda her zaman yorgundum."
+  },
+  {
+   "tr": "Ama aşçı çok iyi kalpliydi ve bana çorba ile salata yapmayı öğretti."
+  },
+  {
+   "tr": "Biraz para kazandım ve çoğunu yeni bir bisiklet için biriktirdim."
+  },
+  {
+   "tr": "O işi hâlâ gülümseyerek hatırlıyorum."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": "*When I was seventeen* \"on yedi yaşındayken\" demektir; yaş söylerken *years old* söylenmeyebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ken)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "seventeen",
+   "pos": "number",
+   "wordId": "seventeen",
+   "sense": 0,
+   "context": "on yedi (yaşında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "I got my first job",
+    "meaning": "ilk işimi buldum (get a job: iş bulmak)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "buldum (edindim)",
+   "note": "*get*'in temel anlamı \"almak, edinmek\"tir; *get a job* \"iş bulmak\" demektir.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "I got my first job",
+    "meaning": "ilk işimi buldum (get a job: iş bulmak)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my first job* → ilk iş**im**.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "I got my first job",
+    "meaning": "ilk işimi buldum (get a job: iş bulmak)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "I got my first job",
+    "meaning": "ilk işimi buldum (get a job: iş bulmak)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": "*job* sayılabilir (\"bir iş, görev\"); *work* ise çoğu zaman sayılamaz (\"iş, çalışma\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "I got my first job",
+    "meaning": "ilk işimi buldum (get a job: iş bulmak)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (restoranda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalıştım",
+   "note": null,
+   "form": "work + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* + tekil isim \"her\" demektir ve önüne *on* gelmez: *every Saturday* → her cumartesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "Sunday",
+   "pos": "noun",
+   "wordId": "sunday",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim (işim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": "*be to* + fiil burada işin ne olduğunu anlatır: *My job was to wash…* → İşim … yıkamaktı.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yıkamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "wash",
+   "pos": "verb",
+   "wordId": "wash",
+   "sense": 0,
+   "context": "yıkamak",
+   "note": "*wash the dishes* \"bulaşık yıkamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "wash the dishes",
+    "meaning": "bulaşık yıkamak"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "wash the dishes",
+    "meaning": "bulaşık yıkamak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "dish",
+   "pos": "noun",
+   "wordId": "dish",
+   "sense": 0,
+   "context": "bulaşıklar (tabaklar)",
+   "note": "*dish* \"tabak, kap\" demektir; *the dishes* yemekten sonra yıkanacak \"bulaşıklar\"dır.",
+   "form": "dish'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "wash the dishes",
+    "meaning": "bulaşık yıkamak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizlemek",
+   "note": "*clean* sıfat olarak \"temiz\", fiil olarak \"temizlemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "table",
+   "pos": "noun",
+   "wordId": "table",
+   "sense": 0,
+   "context": "masalar",
+   "note": null,
+   "form": "table'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "zor",
+   "note": "*hard* \"zor\" ve \"sert\" demektir; zarf olarak \"sıkı, çok\" anlamına gelir: *work hard* → çok çalışmak.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dum)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": "*always* gibi sıklık zarfları *be* fiilinden sonra, diğer fiillerden önce gelir: *I was always tired*, *I always work*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "tired",
+   "pos": "adjective",
+   "wordId": "tired",
+   "sense": 0,
+   "context": "yorgun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (sonunda)",
+   "note": "*at the end of* \"…-in sonunda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (günün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "at the end of the day",
+    "meaning": "günün sonunda"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "cook",
+   "pos": "noun",
+   "wordId": "cook",
+   "sense": 1,
+   "context": "aşçı",
+   "note": "*cook* fiil olarak \"pişirmek\", isim olarak \"aşçı\" demektir. *cooker* ise \"ocak, fırın\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "kind",
+   "pos": "adjective",
+   "wordId": "kind",
+   "sense": 1,
+   "context": "iyi kalpli",
+   "note": "*kind* isim olarak \"tür, çeşit\", sıfat olarak \"nazik, iyi kalpli\" demektir; burada sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "teach",
+   "pos": "verb",
+   "wordId": "teach",
+   "sense": 0,
+   "context": "öğretti",
+   "note": "*teach someone how to do something* \"birine bir şeyi nasıl yapacağını öğretmek\" demektir.",
+   "form": "teach fiilinin geçmiş zaman hali (taught, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": "*me*, *I*'nın nesne halidir: \"beni, bana\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to* + fiil \"nasıl …-ileceği\" demektir: *how to make soup* → çorba yapmayı (nasıl yapılacağını).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "how to make",
+    "meaning": "nasıl yapılacağını, yapmayı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "how to make",
+    "meaning": "nasıl yapılacağını, yapmayı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "how to make",
+    "meaning": "nasıl yapılacağını, yapmayı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "soup",
+   "pos": "noun",
+   "wordId": "soup",
+   "sense": 0,
+   "context": "çorba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "salad",
+   "pos": "noun",
+   "wordId": "salad",
+   "sense": 0,
+   "context": "salatalar",
+   "note": null,
+   "form": "salad'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "earn",
+   "pos": "verb",
+   "wordId": "earn",
+   "sense": 0,
+   "context": "kazandım",
+   "note": "*earn* çalışarak \"para kazanmak\"tır; yarışma ya da oyunda kazanmak ise *win*'dir.",
+   "form": "earn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a little: biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "little",
+   "pos": "determiner",
+   "wordId": "little",
+   "sense": 1,
+   "context": "biraz (a little)",
+   "note": "*a little* + sayılamayan isim \"biraz\" demektir: *a little money* → biraz para.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "a little",
+    "meaning": "biraz"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirdim",
+   "note": "*save*'in temel anlamı \"kurtarmak\"tır; para için \"biriktirmek\" demektir.",
+   "form": "save + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*most of* + belirli bir şey \"…-in çoğu\" demektir: *most of it* → onun çoğu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "most of it",
+    "meaning": "çoğunu"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (çoğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "most of it",
+    "meaning": "çoğunu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (para)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "most of it",
+    "meaning": "çoğunu"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": "*bike*, *bicycle*'ın günlük konuşmadaki kısa halidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "remember",
+   "pos": "verb",
+   "wordId": "remember",
+   "sense": 0,
+   "context": "hatırlıyorum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "that",
+   "pos": "determiner",
+   "wordId": "that",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (-erek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 84,
+    "text": "with a smile",
+    "meaning": "gülümseyerek"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 84,
+    "text": "with a smile",
+    "meaning": "gülümseyerek"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "smile",
+   "pos": "noun",
+   "wordId": "smile",
+   "sense": 1,
+   "context": "gülümseme",
+   "note": "*with a smile* \"gülümseyerek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 84,
+    "text": "with a smile",
+    "meaning": "gülümseyerek"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1139 @@
+{
+ "storyId": "story-a2-042",
+ "textHash": "d54dabd1dac2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kışın kuşların yiyecek bulması zordur."
+  },
+  {
+   "tr": "Bu yüzden büyükannem her sabah bahçesindeki duvarın üstüne ekmek ve tohum koyar."
+  },
+  {
+   "tr": "Kısa süre sonra bir sürü küçük kuş yemeye gelir."
+  },
+  {
+   "tr": "Bazıları kahverengidir, bazılarının da kırmızı ya da sarı tüyleri vardır."
+  },
+  {
+   "tr": "Büyükannem hepsinin adını bilir."
+  },
+  {
+   "tr": "Geçen hafta sonu bana kuşlarla ilgili küçük bir kitap verdi."
+  },
+  {
+   "tr": "Şimdi ben de kendi bahçemdeki kuşları besliyorum ve gördüklerimin adlarını not ediyorum."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(kışın)",
+   "note": "Mevsimlerden önce *in* kullanılır: *in winter* → kışın.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "In winter",
+    "meaning": "kışın"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "In winter",
+    "meaning": "kışın"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is hard for … to …* kalıbında *it* asıl özneyi sonraya bırakır: *It is hard for birds to find food* → Kuşların yiyecek bulması zordur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (kuşların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuşlar",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (bulmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 9,
+    "text": "it is hard for birds to find food",
+    "meaning": "kuşların yiyecek bulması zordur"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my grandmother* → büyükanne**m**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "koyar",
+   "note": null,
+   "form": "put + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "bread",
+   "pos": "noun",
+   "wordId": "bread",
+   "sense": 0,
+   "context": "ekmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "seed",
+   "pos": "noun",
+   "wordId": "seed",
+   "sense": 0,
+   "context": "tohumlar",
+   "note": null,
+   "form": "seed'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üstüne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (bahçesindeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa süre sonra (birazdan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "lot",
+   "pos": "determiner",
+   "wordId": "lot",
+   "sense": 1,
+   "context": "bir sürü (lots of)",
+   "note": "*lots of* \"bir sürü, çok\" demektir; *a lot of* ile aynı anlamdadır ama daha samimidir.",
+   "form": "lot'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "lots of",
+    "meaning": "bir sürü"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(lots of: bir sürü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "lots of",
+    "meaning": "bir sürü"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuş",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için (yemeye)",
+   "note": "*to* + fiil amaç bildirir: *come to eat* → yemeye gelmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*Some … and some …* \"Bazıları … , bazıları da …\" diye bir grubu ikiye ayırır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "brown",
+   "pos": "adjective",
+   "wordId": "brown",
+   "sense": 0,
+   "context": "kahverengi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (tüyleri var)",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "red",
+   "pos": "adjective",
+   "wordId": "red",
+   "sense": 0,
+   "context": "kırmızı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "yellow",
+   "pos": "adjective",
+   "wordId": "yellow",
+   "sense": 0,
+   "context": "sarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "feather",
+   "pos": "noun",
+   "wordId": "feather",
+   "sense": 0,
+   "context": "tüyler",
+   "note": "*feather* kuş tüyüdür; insan ya da hayvanın vücut tüyü ise *hair*'dır.",
+   "form": "feather'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilir",
+   "note": null,
+   "form": "know + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "adlar",
+   "note": null,
+   "form": "name'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "the names of all of them",
+    "meaning": "hepsinin adları"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hepsinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "the names of all of them",
+    "meaning": "hepsinin adları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "hepsi",
+   "note": "*all of them* \"onların hepsi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "the names of all of them",
+    "meaning": "hepsinin adları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(all of: hepsi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "the names of all of them",
+    "meaning": "hepsinin adları"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": "*them*, *they*'in nesne halidir; *of*'tan sonra bu hali kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "the names of all of them",
+    "meaning": "hepsinin adları"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last weekend* → geçen hafta sonu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "Last weekend",
+    "meaning": "geçen hafta sonu"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdi",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "bana",
+   "note": "*me*, *I*'nın nesne halidir: \"beni, bana\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında (ile ilgili)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuşlar",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ben de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "feed",
+   "pos": "verb",
+   "wordId": "feed",
+   "sense": 0,
+   "context": "besliyorum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuşlar",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (bahçemdeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazıyorum (not ediyorum)",
+   "note": "*write down* \"not etmek, bir yere yazmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "write down",
+    "meaning": "not etmek, yazmak"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(write down: not etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "write down",
+    "meaning": "not etmek, yazmak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "adlar",
+   "note": null,
+   "form": "name'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "the ones I see",
+    "meaning": "gördüklerim"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "olanlar (kuşlar)",
+   "note": "*ones* aynı ismi tekrar etmemek için kullanılır: *the ones I see* → gördüklerim (gördüğüm kuşlar).",
+   "form": "one'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "the ones I see",
+    "meaning": "gördüklerim"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*the ones I see* kalıbında *that/which* atlanmıştır: *the ones (that) I see*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "the ones I see",
+    "meaning": "gördüklerim"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görüyorum (gördüklerim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "the ones I see",
+    "meaning": "gördüklerim"
+   }
+  }
+ ]
+}

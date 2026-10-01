@@ -1,0 +1,1109 @@
+{
+ "storyId": "story-a2-011",
+ "textHash": "928ba9010ea0",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün Daniel geç uyandı çünkü çalar saati çalmadı."
+  },
+  {
+   "tr": "Hızla giyindi ve kahvaltı yapmadan otobüs durağına koştu."
+  },
+  {
+   "tr": "Vardığında otobüs çoktan kalkıyordu."
+  },
+  {
+   "tr": "Kollarını salladı ama şoför onu görmedi."
+  },
+  {
+   "tr": "Sonraki otobüs otuz dakika sonraydı, bu yüzden Daniel yürümeye karar verdi."
+  },
+  {
+   "tr": "Uzun bir yoldu ve işe saat onda vardı."
+  },
+  {
+   "tr": "Patronu kızgın değildi ama Daniel o akşam yeni bir çalar saat aldı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "wordId": "yesterday",
+   "sense": 0,
+   "context": "dün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "wake",
+   "pos": "verb",
+   "wordId": "wake",
+   "sense": 0,
+   "context": "uyandı",
+   "note": "*wake up* \"uyanmak\" demektir.",
+   "form": "wake fiilinin geçmiş zaman hali (woke, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "woke up",
+    "meaning": "uyandı (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(wake up: uyanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "woke up",
+    "meaning": "uyandı (wake up: uyanmak)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "late",
+   "pos": "adverb",
+   "wordId": "late",
+   "sense": 1,
+   "context": "geç",
+   "note": "*late* hem sıfat hem zarf olabilir; burada fiili niteler: *woke up late* → geç uyandı. *lately* ise \"son zamanlarda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his alarm clock* → çalar saat**i**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "alarm",
+   "pos": "noun",
+   "wordId": "alarm",
+   "sense": 0,
+   "context": "alarm (çalar)",
+   "note": "*alarm clock* \"çalar saat\" demektir; burada *alarm* isim olmasına rağmen *clock*'u niteler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "alarm clock",
+    "meaning": "çalar saat"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "clock",
+   "pos": "noun",
+   "wordId": "clock",
+   "sense": 0,
+   "context": "saat",
+   "note": "*clock* duvardaki ya da masadaki saattir; kol saati ise *watch*'tur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "alarm clock",
+    "meaning": "çalar saat"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur: *did not ring* → çalmadı.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "ring",
+   "pos": "verb",
+   "wordId": "ring",
+   "sense": 1,
+   "context": "çalmak",
+   "note": "*ring* fiil olarak zil, telefon ya da saat için \"çalmak\" demektir; isim olarak \"yüzük\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "(get dressed: giyinmek)",
+   "note": "*get* + sıfat \"… olmak, … hâline gelmek\" demektir: *get dressed* → giyinmek.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "got dressed",
+    "meaning": "giyindi (get dressed: giyinmek)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "dress",
+   "pos": "verb",
+   "wordId": "dress",
+   "sense": 1,
+   "context": "giyindi",
+   "note": "*get dressed* günlük konuşmada \"giyinmek\" için en sık kullanılan kalıptır.",
+   "form": "dress fiilinin 3. hali (dressed)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "got dressed",
+    "meaning": "giyindi (get dressed: giyinmek)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hızla",
+   "note": "*-ly* eki sıfattan zarf yapar: *quick* (hızlı) → *quickly* (hızla).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştu",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (durağa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "bus stop",
+    "meaning": "otobüs durağı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "stop",
+   "pos": "noun",
+   "wordId": "stop",
+   "sense": 1,
+   "context": "durak",
+   "note": "*stop* fiil olarak \"durmak\", isim olarak \"durak\" demektir: *bus stop* → otobüs durağı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "bus stop",
+    "meaning": "otobüs durağı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden (-sız)",
+   "note": "*without* \"-sız, -meden\" demektir: *without breakfast* → kahvaltı yapmadan, kahvaltısız.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "breakfast",
+   "pos": "noun",
+   "wordId": "breakfast",
+   "sense": 0,
+   "context": "kahvaltı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": "*when* bağlaç olarak iki olayı zamanda bağlar: *When he arrived* → vardığında.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "vardı",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were* + *-ing* geçmişte o an süren bir eylemi anlatır: *was leaving* → kalkıyordu.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "already",
+   "pos": "adverb",
+   "wordId": "already",
+   "sense": 0,
+   "context": "çoktan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "kalkıyordu (ayrılıyordu)",
+   "note": "*leave*'in temel anlamı \"ayrılmak, çıkmak\"tır; otobüs, tren gibi araçlar için \"kalkmak\" diye çevrilir.",
+   "form": "leave + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "wave",
+   "pos": "verb",
+   "wordId": "wave",
+   "sense": 1,
+   "context": "salladı",
+   "note": null,
+   "form": "wave + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (kolları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "arm",
+   "pos": "noun",
+   "wordId": "arm",
+   "sense": 0,
+   "context": "kollar",
+   "note": null,
+   "form": "arm'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "driver",
+   "pos": "noun",
+   "wordId": "driver",
+   "sense": 0,
+   "context": "şoför",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *drive* (sürmek) → *driver* (sürücü, şoför).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "sonraki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "thirty minutes later",
+    "meaning": "otuz dakika sonra"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "thirty minutes later",
+    "meaning": "otuz dakika sonra"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *thirty minutes later* → otuz dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "thirty minutes later",
+    "meaning": "otuz dakika sonra"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yürümek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürümek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Mesafe anlatırken özne olarak *it* kullanılır: *It was a long way* → Uzun bir yoldu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": "*way* \"yol\" ve \"yöntem\" demektir; *a long way* \"uzun bir yol, epey uzak\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "vardı",
+   "note": "*arrive at* bina ya da yer için, *arrive in* şehir ya da ülke için kullanılır.",
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "arrived at work",
+    "meaning": "işe vardı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (işe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "arrived at work",
+    "meaning": "işe vardı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş(yeri)",
+   "note": "*at work* \"işte\", *arrive at work* \"işe varmak\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "arrived at work",
+    "meaning": "işe vardı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": "Saatlerden önce *at* kullanılır: *at ten o'clock* → saat onda.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "at ten o'clock",
+    "meaning": "saat onda"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "at ten o'clock",
+    "meaning": "saat onda"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır: *ten o'clock* → saat on.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "at ten o'clock",
+    "meaning": "saat onda"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (patronu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "boss",
+   "pos": "noun",
+   "wordId": "boss",
+   "sense": 0,
+   "context": "patron",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildi)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "angry",
+   "pos": "adjective",
+   "wordId": "angry",
+   "sense": 0,
+   "context": "kızgın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldı (satın aldı)",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "alarm",
+   "pos": "noun",
+   "wordId": "alarm",
+   "sense": 0,
+   "context": "alarm (çalar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "alarm clock",
+    "meaning": "çalar saat"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "clock",
+   "pos": "noun",
+   "wordId": "clock",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "alarm clock",
+    "meaning": "çalar saat"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "that",
+   "pos": "determiner",
+   "wordId": "that",
+   "sense": 0,
+   "context": "o (akşam)",
+   "note": "*that evening* \"o akşam\" demektir; geçmişteki belli bir zamanı gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

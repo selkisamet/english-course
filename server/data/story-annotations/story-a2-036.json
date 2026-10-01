@@ -1,0 +1,1182 @@
+{
+ "storyId": "story-a2-036",
+ "textHash": "1c3bbf5bfc9b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen cuma Paul ve eşi akşam yemeği için yeni bir İtalyan restoranına gittiler."
+  },
+  {
+   "tr": "Paul sebzeli balık, eşi de tavuklu salata sipariş etti."
+  },
+  {
+   "tr": "Yirmi dakika sonra garson iki büyük tabak makarna getirdi."
+  },
+  {
+   "tr": "Paul ona kibarca makarna sipariş etmediklerini söyledi."
+  },
+  {
+   "tr": "Garson çok üzüldü ve tabakları mutfağa geri götürdü."
+  },
+  {
+   "tr": "On dakika sonra doğru yemekle geri geldi."
+  },
+  {
+   "tr": "Balık çok lezzetliydi ve restoran onlardan içeceklerin parasını almadı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last Friday* → geçen cuma.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Friday",
+    "meaning": "geçen cuma"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Friday",
+    "meaning": "geçen cuma"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Paul",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paul",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his wife* → eş**i**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "wife",
+   "pos": "noun",
+   "wordId": "wife",
+   "sense": 0,
+   "context": "eş (karısı)",
+   "note": "*wife* \"kadın eş\"tir; erkek eş ise *husband*'dır. Çoğulu *wives*'tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (restorana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "Italian",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "İtalyan",
+   "note": "Milliyet sıfatları İngilizcede büyük harfle yazılır: *an Italian restaurant* → bir İtalyan restoranı.",
+   "form": null,
+   "base": "İtalyan; İtalyanca",
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "for dinner",
+    "meaning": "akşam yemeği için"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "akşam yemeği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "for dinner",
+    "meaning": "akşam yemeği için"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "Paul",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paul",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "order",
+   "pos": "verb",
+   "wordId": "order",
+   "sense": 1,
+   "context": "sipariş etti",
+   "note": "*order* fiil olarak \"sipariş etmek\", isim olarak \"sipariş; sıra\" demektir.",
+   "form": "order + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "fish",
+   "pos": "noun",
+   "wordId": "fish",
+   "sense": 0,
+   "context": "balık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (sebzeli)",
+   "note": "*with* isimden sonra gelince \"…-li\" demektir: *fish with vegetables* → sebzeli balık.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "vegetable",
+   "pos": "noun",
+   "wordId": "vegetable",
+   "sense": 0,
+   "context": "sebze",
+   "note": null,
+   "form": "vegetable'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "wife",
+   "pos": "noun",
+   "wordId": "wife",
+   "sense": 0,
+   "context": "eş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "order",
+   "pos": "verb",
+   "wordId": "order",
+   "sense": 1,
+   "context": "sipariş etti",
+   "note": null,
+   "form": "order + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "chicken",
+   "pos": "noun",
+   "wordId": "chicken",
+   "sense": 0,
+   "context": "tavuk",
+   "note": "Burada *chicken* isim olmasına rağmen *salad*'ı niteler: *chicken salad* → tavuklu salata.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "salad",
+   "pos": "noun",
+   "wordId": "salad",
+   "sense": 0,
+   "context": "salata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": "*after* + süre \"… sonra\" demektir: *after twenty minutes* → yirmi dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "After twenty minutes",
+    "meaning": "yirmi dakika sonra"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "After twenty minutes",
+    "meaning": "yirmi dakika sonra"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "After twenty minutes",
+    "meaning": "yirmi dakika sonra"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "waiter",
+   "pos": "noun",
+   "wordId": "waiter",
+   "sense": 0,
+   "context": "garson",
+   "note": "*waiter* erkek garsondur; kadın garson *waitress*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdi",
+   "note": null,
+   "form": "bring fiilinin geçmiş zaman hali (brought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "plate",
+   "pos": "noun",
+   "wordId": "plate",
+   "sense": 0,
+   "context": "tabak",
+   "note": "*a plate of* + yemek \"bir tabak …\" demektir.",
+   "form": "plate'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "plates of pasta",
+    "meaning": "tabak makarna"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(plates of: tabak …)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "plates of pasta",
+    "meaning": "tabak makarna"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": "*pasta* İtalyan usulü her tür \"makarna\"dır; sayılamaz.",
+   "form": null,
+   "base": "makarna",
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "plates of pasta",
+    "meaning": "tabak makarna"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "Paul",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paul",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone (that)…* \"birine … olduğunu söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "politely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kibarca",
+   "note": "*-ly* eki sıfattan zarf yapar: *polite* (kibar) → *politely* (kibarca).",
+   "form": "polite + -ly (sıfattan zarf)",
+   "base": "kibarca",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diklerini)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": "Geçmiş zamanda olumsuz cümle *did not* + fiilin yalın haliyle kurulur.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "order",
+   "pos": "verb",
+   "wordId": "order",
+   "sense": 1,
+   "context": "sipariş etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": null,
+   "form": null,
+   "base": "makarna",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "waiter",
+   "pos": "noun",
+   "wordId": "waiter",
+   "sense": 0,
+   "context": "garson",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "sorry",
+   "pos": "adjective",
+   "wordId": "sorry",
+   "sense": 0,
+   "context": "üzgün (mahcup)",
+   "note": "*be sorry* \"üzgün olmak, özür dilemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "götürdü",
+   "note": "*take something back* \"bir şeyi geri götürmek\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "took the plates back",
+    "meaning": "tabakları geri götürdü (take back)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "took the plates back",
+    "meaning": "tabakları geri götürdü (take back)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "plate",
+   "pos": "noun",
+   "wordId": "plate",
+   "sense": 0,
+   "context": "tabaklar",
+   "note": null,
+   "form": "plate'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "took the plates back",
+    "meaning": "tabakları geri götürdü (take back)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "took the plates back",
+    "meaning": "tabakları geri götürdü (take back)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (mutfağa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "kitchen",
+   "pos": "noun",
+   "wordId": "kitchen",
+   "sense": 0,
+   "context": "mutfak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *ten minutes later* → on dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": "*come back* \"geri gelmek, dönmek\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "came back",
+    "meaning": "geri geldi (come back)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "came back",
+    "meaning": "geri geldi (come back)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (yemekle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "right",
+   "pos": "adjective",
+   "wordId": "right",
+   "sense": 0,
+   "context": "doğru",
+   "note": "*right* \"doğru\" ve \"sağ\" demektir; burada \"doğru (yanlış olmayan)\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "fish",
+   "pos": "noun",
+   "wordId": "fish",
+   "sense": 0,
+   "context": "balık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "delicious",
+   "pos": "adjective",
+   "wordId": "delicious",
+   "sense": 0,
+   "context": "çok lezzetli",
+   "note": "*delicious* zaten \"çok lezzetli\" demektir; önüne genellikle *very* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istemek",
+   "note": "*ask*'in temel anlamı \"sormak\"tır; *ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 83,
+    "text": "ask them to pay for",
+    "meaning": "onlardan … parasını ödemelerini istemek"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlardan",
+   "note": "*them*, *they*'in nesne halidir: \"onları, onlara\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 83,
+    "text": "ask them to pay for",
+    "meaning": "onlardan … parasını ödemelerini istemek"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 83,
+    "text": "ask them to pay for",
+    "meaning": "onlardan … parasını ödemelerini istemek"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödemek",
+   "note": "*pay for something* \"bir şeyin parasını ödemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 83,
+    "text": "ask them to pay for",
+    "meaning": "onlardan … parasını ödemelerini istemek"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(pay for: -in parasını ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 83,
+    "text": "ask them to pay for",
+    "meaning": "onlardan … parasını ödemelerini istemek"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 85,
+   "lemma": "drink",
+   "pos": "noun",
+   "wordId": "drink",
+   "sense": 0,
+   "context": "içecekler",
+   "note": null,
+   "form": "drink'in çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

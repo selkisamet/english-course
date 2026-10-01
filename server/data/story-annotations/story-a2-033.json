@@ -1,0 +1,1041 @@
+{
+ "storyId": "story-a2-033",
+ "textHash": "74bfa31c12a3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Cumartesi sabahı annem, \"Büyükannenle büyükbaban bu akşam yemeğe geliyor ve ev darmadağın!\" dedi."
+  },
+  {
+   "tr": "Bu yüzden herkes yardım etti."
+  },
+  {
+   "tr": "Babam yerleri temizledi, erkek kardeşim de pencereleri yıkadı."
+  },
+  {
+   "tr": "Ben yatak odamı topladım ve bütün kıyafetlerimi yerine kaldırdım."
+  },
+  {
+   "tr": "Sonra mutfakta anneme yardım ettim."
+  },
+  {
+   "tr": "Saat beşe kadar ev tertemiz ve derli toplu olmuştu."
+  },
+  {
+   "tr": "Büyükannemle büyükbabam geldiğinde büyükannem, \"Ne güzel, tertemiz bir ev!\" dedi."
+  },
+  {
+   "tr": "Hepimiz birbirimize gülümsedik."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(cumartesi sabahı)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on Saturday morning* → cumartesi sabahı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Saturday morning",
+    "meaning": "cumartesi sabahı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Saturday morning",
+    "meaning": "cumartesi sabahı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Saturday morning",
+    "meaning": "cumartesi sabahı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "mum",
+   "pos": "noun",
+   "wordId": "mum",
+   "sense": 0,
+   "context": "annem",
+   "note": "*Mum* İngiliz İngilizcesinde \"anne\"nin samimi söylenişidir (Amerikan İngilizcesinde *Mom*); ad gibi kullanılınca büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "your",
+   "pos": "determiner",
+   "wordId": "your",
+   "sense": 0,
+   "context": "senin",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *your grandparents* → büyükanne ve büyükbaba**n**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "grandparent",
+   "pos": "noun",
+   "wordId": "grandparent",
+   "sense": 0,
+   "context": "büyükanne ve büyükbaba",
+   "note": "*grandparents* \"büyükanne ve büyükbaba\" demektir.",
+   "form": "grandparent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are* + *-ing* yakın gelecekte planlanmış bir olayı da anlatır: *are coming tonight* → bu akşam geliyorlar.",
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "are coming",
+    "meaning": "geliyor (planlanmış gelecek)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geliyor",
+   "note": null,
+   "form": "come + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "are coming",
+    "meaning": "geliyor (planlanmış gelecek)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (yemeğe)",
+   "note": "*come for dinner* \"akşam yemeğine gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "akşam yemeği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "tonight",
+   "pos": "adverb",
+   "wordId": "tonight",
+   "sense": 0,
+   "context": "bu akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "a mess",
+    "meaning": "dağınık, darmadağın"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "mess",
+   "pos": "noun",
+   "wordId": "mess",
+   "sense": 0,
+   "context": "darmadağın (dağınıklık)",
+   "note": "*be a mess* \"çok dağınık, darmadağın olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "a mess",
+    "meaning": "dağınık, darmadağın"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone helps*, *everyone was*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etti",
+   "note": null,
+   "form": "help + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "dad",
+   "pos": "noun",
+   "wordId": "dad",
+   "sense": 0,
+   "context": "babam",
+   "note": "*Dad* \"baba\"nın samimi söylenişidir; ad gibi kullanılınca büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizledi",
+   "note": null,
+   "form": "clean + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "floor",
+   "pos": "noun",
+   "wordId": "floor",
+   "sense": 0,
+   "context": "yerler (zemin)",
+   "note": "*floor* \"zemin, yer\" ve \"kat\" demektir; burada evin \"zemini\"dir.",
+   "form": "floor'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my brother* → kardeş**im**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "brother",
+   "pos": "noun",
+   "wordId": "brother",
+   "sense": 0,
+   "context": "erkek kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "wash",
+   "pos": "verb",
+   "wordId": "wash",
+   "sense": 0,
+   "context": "yıkadı",
+   "note": null,
+   "form": "wash + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencereler",
+   "note": null,
+   "form": "window'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "tidy",
+   "pos": "verb",
+   "wordId": "tidy",
+   "sense": 1,
+   "context": "topladım (düzenledim)",
+   "note": "*tidy* fiil olarak \"toplamak, düzenlemek\", sıfat olarak \"derli toplu\" demektir.",
+   "form": "tidy'nin geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "bedroom",
+   "pos": "noun",
+   "wordId": "bedroom",
+   "sense": 0,
+   "context": "yatak odası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "kaldırdım (koydum)",
+   "note": "*put something away* \"bir şeyi yerine kaldırmak\" demektir.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "put all my clothes away",
+    "meaning": "bütün kıyafetlerimi yerine kaldırdım (put away)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "put all my clothes away",
+    "meaning": "bütün kıyafetlerimi yerine kaldırdım (put away)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "*all* + iyelik + isim: *all my clothes* → bütün kıyafetlerim.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "put all my clothes away",
+    "meaning": "bütün kıyafetlerimi yerine kaldırdım (put away)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": "*clothes* her zaman çoğuldur; *cloth* ise \"kumaş, bez\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "put all my clothes away",
+    "meaning": "bütün kıyafetlerimi yerine kaldırdım (put away)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "(put away: yerine kaldırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "put all my clothes away",
+    "meaning": "bütün kıyafetlerimi yerine kaldırdım (put away)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım ettim",
+   "note": "*help someone* \"birine yardım etmek\" demektir; İngilizcede kişi doğrudan nesne olur.",
+   "form": "help + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "mum",
+   "pos": "noun",
+   "wordId": "mum",
+   "sense": 0,
+   "context": "anne(me)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (mutfakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "kitchen",
+   "pos": "noun",
+   "wordId": "kitchen",
+   "sense": 0,
+   "context": "mutfak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e kadar (en geç)",
+   "note": "*by* + zaman \"en geç …-e kadar\" demektir: *by five o'clock* → saat beşe kadar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "By five o'clock",
+    "meaning": "saat beşe kadar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "By five o'clock",
+    "meaning": "saat beşe kadar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "By five o'clock",
+    "meaning": "saat beşe kadar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "clean",
+   "pos": "adjective",
+   "wordId": "clean",
+   "sense": 0,
+   "context": "temiz (tertemiz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "tidy",
+   "pos": "adjective",
+   "wordId": "tidy",
+   "sense": 0,
+   "context": "derli toplu",
+   "note": "*clean* \"temiz\", *tidy* ise \"derli toplu, her şey yerinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "grandparent",
+   "pos": "noun",
+   "wordId": "grandparent",
+   "sense": 0,
+   "context": "büyükanne ve büyükbaba",
+   "note": null,
+   "form": "grandparent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi (vardı)",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "grandma",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "büyükannem (nine)",
+   "note": "*Grandma* \"büyükanne\"nin samimi söylenişidir; ad gibi kullanılınca büyük harfle yazılır.",
+   "form": null,
+   "base": "büyükanne, nine",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "what",
+   "pos": "determiner",
+   "wordId": "what",
+   "sense": 1,
+   "context": "ne (ünlem)",
+   "note": "*What a* + sıfat + isim! hayranlık bildiren ünlem cümlesidir: *What a lovely house!* → Ne güzel bir ev!",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "What a lovely clean house",
+    "meaning": "ne güzel, tertemiz bir ev"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "What a lovely clean house",
+    "meaning": "ne güzel, tertemiz bir ev"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "lovely",
+   "pos": "adjective",
+   "wordId": "lovely",
+   "sense": 0,
+   "context": "güzel (hoş)",
+   "note": "*lovely* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "What a lovely clean house",
+    "meaning": "ne güzel, tertemiz bir ev"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "clean",
+   "pos": "adjective",
+   "wordId": "clean",
+   "sense": 0,
+   "context": "temiz (tertemiz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "What a lovely clean house",
+    "meaning": "ne güzel, tertemiz bir ev"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "What a lovely clean house",
+    "meaning": "ne güzel, tertemiz bir ev"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "hepimiz",
+   "note": "*We all…* \"Hepimiz …\" demektir; *all* özneden sonra gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "smile",
+   "pos": "verb",
+   "wordId": "smile",
+   "sense": 0,
+   "context": "gülümsedik",
+   "note": "*smile at someone* \"birine gülümsemek\" demektir.",
+   "form": "smile + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "smiled at each other",
+    "meaning": "birbirimize gülümsedik"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (birbirimize)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "smiled at each other",
+    "meaning": "birbirimize gülümsedik"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": "*each other* \"birbiri, birbirine\" demektir: *smiled at each other* → birbirlerine gülümsediler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "smiled at each other",
+    "meaning": "birbirimize gülümsedik"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "smiled at each other",
+    "meaning": "birbirimize gülümsedik"
+   }
+  }
+ ]
+}

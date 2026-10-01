@@ -1,0 +1,1052 @@
+{
+ "storyId": "story-a2-043",
+ "textHash": "29f181a04a6a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Elif İngilizce, Tom da Türkçe öğreniyor."
+  },
+  {
+   "tr": "Birkaç ay önce bir dil sitesinde tanıştılar."
+  },
+  {
+   "tr": "Şimdi her salı ve perşembe görüntülü konuşuyorlar."
+  },
+  {
+   "tr": "Otuz dakika İngilizce, sonra otuz dakika da Türkçe konuşuyorlar."
+  },
+  {
+   "tr": "Dil bilgisi ve yeni kelimeler konusunda birbirlerine yardım ediyorlar."
+  },
+  {
+   "tr": "Bazen hatalarına gülüyorlar."
+  },
+  {
+   "tr": "Geçen ay Tom İstanbul'a geldi ve sonunda yüz yüze tanıştılar."
+  },
+  {
+   "tr": "Bir kafeye gittiler ve saatlerce konuştular."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Elif",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elif",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are* + *-ing* (şimdiki zaman) bu dönemde süren bir işi de anlatır: *is learning English* → İngilizce öğreniyor.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "is learning",
+    "meaning": "öğreniyor"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": null,
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "is learning",
+    "meaning": "öğreniyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "English",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İngilizce",
+   "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": "İngilizce; İngiliz",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": null,
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "Turkish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Türkçe",
+   "note": null,
+   "form": null,
+   "base": "Türkçe; Türk",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanıştılar",
+   "note": "*meet* \"tanışmak\" ve \"buluşmak\" demektir; burada ilk kez \"tanışmak\"tır.",
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (sitesinde)",
+   "note": "İnternet siteleri için *on* kullanılır: *on a website* → bir sitede.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": "Burada *language* isim olmasına rağmen *website*'ı niteler: *language website* → dil sitesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "website",
+   "pos": "noun",
+   "wordId": "website",
+   "sense": 0,
+   "context": "site (internet sitesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "a few months ago",
+    "meaning": "birkaç ay önce"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": "*a few* \"birkaç\" demektir; *few* tek başına ise \"pek az\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "a few months ago",
+    "meaning": "birkaç ay önce"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "a few months ago",
+    "meaning": "birkaç ay önce"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır: *a few months ago* → birkaç ay önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "a few months ago",
+    "meaning": "birkaç ay önce"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşuyorlar",
+   "note": "Geniş zaman (*present simple*) düzenli tekrarlanan alışkanlıkları anlatır: *every Tuesday* → her salı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(görüntülü)",
+   "note": "*talk on video* \"görüntülü konuşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "on video",
+    "meaning": "görüntülü"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "video (görüntü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "on video",
+    "meaning": "görüntülü"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* + gün adı \"her …\" demektir ve önüne *on* gelmez: *every Tuesday* → her salı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "Tuesday",
+   "pos": "noun",
+   "wordId": "tuesday",
+   "sense": 0,
+   "context": "salı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "Thursday",
+   "pos": "noun",
+   "wordId": "thursday",
+   "sense": 0,
+   "context": "perşembe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for* + süre \"… boyunca\" demektir: *for thirty minutes* → otuz dakika (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşuyorlar",
+   "note": "Dillerle *speak* kullanılır: *speak English* → İngilizce konuşmak (✗ talk English).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "English",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İngilizce",
+   "note": null,
+   "form": null,
+   "base": "İngilizce; İngiliz",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşuyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "Turkish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Türkçe",
+   "note": null,
+   "form": null,
+   "base": "Türkçe; Türk",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım ediyorlar",
+   "note": "*help someone with something* \"birine bir konuda yardım etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "help each other",
+    "meaning": "birbirlerine yardım etmek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": "*each other* \"birbiri, birbirine\" demektir: *help each other* → birbirlerine yardım etmek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "help each other",
+    "meaning": "birbirlerine yardım etmek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "help each other",
+    "meaning": "birbirlerine yardım etmek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "konusunda (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "grammar",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dil bilgisi",
+   "note": "*grammar* sayılamayan bir isimdir; sonu *-ar* ile yazılır (✗ grammer).",
+   "form": null,
+   "base": "dil bilgisi",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "kelimeler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": "*sometimes* cümle başında ya da fiilden önce gelebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "gülüyorlar",
+   "note": "*laugh at something* \"bir şeye gülmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "laugh at",
+    "meaning": "-e gülmek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (hatalarına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "laugh at",
+    "meaning": "-e gülmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *their mistakes* → hata**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hatalar",
+   "note": "*make a mistake* \"hata yapmak\" demektir (✗ do a mistake).",
+   "form": "mistake'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last month* → geçen ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "geldi (ziyaret etti)",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "Istanbul",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İstanbul",
+   "note": null,
+   "form": null,
+   "base": "(şehir adı)",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanıştılar (buluştular)",
+   "note": null,
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in person: yüz yüze)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "in person",
+    "meaning": "yüz yüze, bizzat"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi",
+   "note": "*in person* \"yüz yüze, bizzat\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "in person",
+    "meaning": "yüz yüze, bizzat"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kafeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": "*café* Fransızcadan gelir; *cafe* diye işaretsiz de yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuştular",
+   "note": null,
+   "form": "talk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for hours* \"saatlerce\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "for hours",
+    "meaning": "saatlerce"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saatler",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "for hours",
+    "meaning": "saatlerce"
+   }
+  }
+ ]
+}

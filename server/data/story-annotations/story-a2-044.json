@@ -1,0 +1,1120 @@
+{
+ "storyId": "story-a2-044",
+ "textHash": "8a42eb307f00",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen cumartesi kuzenim Sara evlendi."
+  },
+  {
+   "tr": "Düğün şehrin dışındaki güzel bir bahçedeydi."
+  },
+  {
+   "tr": "Sara uzun beyaz bir gelinlik giydi, eşi de lacivert bir takım elbise giydi."
+  },
+  {
+   "tr": "Yüzden fazla misafir geldi."
+  },
+  {
+   "tr": "Törenden sonra ağaçların altında büyük bir akşam yemeği yedik."
+  },
+  {
+   "tr": "Sonra bir müzik grubu çaldı ve herkes gece yarısına kadar dans etti."
+  },
+  {
+   "tr": "Büyükannemle büyükbabam da dans etti ve herkes onları alkışladı."
+  },
+  {
+   "tr": "Uzun bir gündü ama yılın en mutlu günüydü."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last Saturday* → geçen cumartesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my cousin* → kuzen**im**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "cousin",
+   "pos": "noun",
+   "wordId": "cousin",
+   "sense": 0,
+   "context": "kuzen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Sara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "(get married: evlenmek)",
+   "note": "*get married* \"evlenmek\" demektir; günlük dilde *marry*'den daha sık kullanılır.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "got married",
+    "meaning": "evlendi (get married)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "married",
+   "pos": "adjective",
+   "wordId": "married",
+   "sense": 0,
+   "context": "evli (evlendi)",
+   "note": "*be married* \"evli olmak\", *get married* \"evlenmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "got married",
+    "meaning": "evlendi (get married)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "wedding",
+   "pos": "noun",
+   "wordId": "wedding",
+   "sense": 0,
+   "context": "düğün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (bahçede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "beautiful",
+   "pos": "adjective",
+   "wordId": "beautiful",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "outside",
+   "pos": "preposition",
+   "wordId": "outside",
+   "sense": 1,
+   "context": "dışındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "outside the city",
+    "meaning": "şehrin dışında"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "outside the city",
+    "meaning": "şehrin dışında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "outside the city",
+    "meaning": "şehrin dışında"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "Sara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "wear",
+   "pos": "verb",
+   "wordId": "wear",
+   "sense": 0,
+   "context": "giydi",
+   "note": "*wear* üzerinde bir giysi \"olmak, giymek\" demektir; giyinme eylemi ise *put on*'dır.",
+   "form": "wear fiilinin geçmiş zaman hali (wore, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "white",
+   "pos": "adjective",
+   "wordId": "white",
+   "sense": 0,
+   "context": "beyaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "dress",
+   "pos": "noun",
+   "wordId": "dress",
+   "sense": 0,
+   "context": "elbise (gelinlik)",
+   "note": "*dress* \"elbise\"dir; düğünde gelinin giydiği beyaz elbiseye *wedding dress* (gelinlik) denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "husband",
+   "pos": "noun",
+   "wordId": "husband",
+   "sense": 0,
+   "context": "eş (koca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "wear",
+   "pos": "verb",
+   "wordId": "wear",
+   "sense": 0,
+   "context": "giydi",
+   "note": null,
+   "form": "wear fiilinin geçmiş zaman hali (wore, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "koyu",
+   "note": "*dark* renklerden önce \"koyu\" demektir: *dark blue* → koyu mavi, lacivert. Açık renk ise *light*'tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "dark blue",
+    "meaning": "lacivert, koyu mavi"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "blue",
+   "pos": "adjective",
+   "wordId": "blue",
+   "sense": 0,
+   "context": "mavi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "dark blue",
+    "meaning": "lacivert, koyu mavi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "suit",
+   "pos": "noun",
+   "wordId": "suit",
+   "sense": 0,
+   "context": "takım elbise",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "More than a hundred",
+    "meaning": "yüzden fazla"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "More than a hundred",
+    "meaning": "yüzden fazla"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a hundred* \"yüz\" demektir; *one hundred* de denebilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "More than a hundred",
+    "meaning": "yüzden fazla"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "More than a hundred",
+    "meaning": "yüzden fazla"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "guest",
+   "pos": "noun",
+   "wordId": "guest",
+   "sense": 0,
+   "context": "misafir",
+   "note": null,
+   "form": "guest'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "ceremony",
+   "pos": "noun",
+   "wordId": "ceremony",
+   "sense": 0,
+   "context": "tören",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "yedik",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; yemeklerle \"yemek\" demektir: *have dinner* → akşam yemeği yemek.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "akşam yemeği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaçlar",
+   "note": null,
+   "form": "tree'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "band",
+   "pos": "noun",
+   "wordId": "band",
+   "sense": 0,
+   "context": "müzik grubu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çaldı",
+   "note": "*play music* \"müzik çalmak\" demektir.",
+   "form": "play + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone dances*, *everyone was*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "dance",
+   "pos": "verb",
+   "wordId": "dance",
+   "sense": 1,
+   "context": "dans etti",
+   "note": null,
+   "form": "dance + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "until midnight",
+    "meaning": "gece yarısına kadar"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "midnight",
+   "pos": "noun",
+   "wordId": "midnight",
+   "sense": 0,
+   "context": "gece yarısı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "until midnight",
+    "meaning": "gece yarısına kadar"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "grandparent",
+   "pos": "noun",
+   "wordId": "grandparent",
+   "sense": 0,
+   "context": "büyükanne ve büyükbaba",
+   "note": "*grandparents* \"büyükanne ve büyükbaba\" demektir.",
+   "form": "grandparent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "dance",
+   "pos": "verb",
+   "wordId": "dance",
+   "sense": 1,
+   "context": "dans etti",
+   "note": null,
+   "form": "dance + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "de (dahi)",
+   "note": "*too* \"de/da\" anlamında genellikle cümlenin sonunda gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "clap",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "alkışladı",
+   "note": "*clap for someone* \"birini alkışlamak\" demektir.",
+   "form": "clap + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": "alkışlamak",
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "clapped for",
+    "meaning": "alkışladı (clap for)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(clap for: alkışlamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "clapped for",
+    "meaning": "alkışladı (clap for)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": "*them*, *they*'in nesne halidir: \"onları, onlara\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Bir günü değerlendirirken özne olarak *it* kullanılır: *It was a long day* → Uzun bir gündü.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dü)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dü)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the happiest* → en mutlu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "en mutlu",
+   "note": "*-y* ile biten sıfatlarda *y* → *i* olur: *happy → happier → happiest*.",
+   "form": "happy sıfatının en üstünlük hali (y → iest)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yılın)",
+   "note": "*the … -est … of the year* \"yılın en … -i\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 80,
+    "text": "the happiest day of the year",
+    "meaning": "yılın en mutlu günü"
+   }
+  }
+ ]
+}

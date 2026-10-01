@@ -1,0 +1,1069 @@
+{
+ "storyId": "story-a2-046",
+ "textHash": "1e59b2680566",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Pazar akşamı Mia, pazartesi için matematik ödevi olduğunu hatırladı."
+  },
+  {
+   "tr": "Saat çoktan dokuz olmuştu ve ödev çok zordu."
+  },
+  {
+   "tr": "Bir saat uğraştı ama son üç soruyu cevaplayamadı."
+  },
+  {
+   "tr": "Endişelendi ve neredeyse ağlıyordu."
+  },
+  {
+   "tr": "Sonra arkadaşı Ella'yı aradı."
+  },
+  {
+   "tr": "Ella soruları telefonda yavaşça açıkladı ve Mia sonunda onları anladı."
+  },
+  {
+   "tr": "Saat on buçukta bitirdi."
+  },
+  {
+   "tr": "Ertesi gün öğretmeni ödevinin mükemmel olduğunu söyledi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(pazar akşamı)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on Sunday evening* → pazar akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Sunday evening",
+    "meaning": "pazar akşamı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Sunday",
+   "pos": "noun",
+   "wordId": "sunday",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Sunday evening",
+    "meaning": "pazar akşamı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Sunday evening",
+    "meaning": "pazar akşamı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Mia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "remember",
+   "pos": "verb",
+   "wordId": "remember",
+   "sense": 0,
+   "context": "hatırladı",
+   "note": null,
+   "form": "remember + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(olduğunu)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(ödevi) olduğunu",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir: *she had homework* → ödevi vardı.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "maths",
+   "pos": "noun",
+   "wordId": "maths",
+   "sense": 0,
+   "context": "matematik",
+   "note": "*maths* İngiliz İngilizcesinde kullanılır; Amerikan İngilizcesinde *math* denir. Sonundaki *-s*'ye rağmen tekildir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "maths homework",
+    "meaning": "matematik ödevi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "homework",
+   "pos": "noun",
+   "wordId": "homework",
+   "sense": 0,
+   "context": "ödev",
+   "note": "*homework* sayılamayan bir isimdir: *a homework* ya da *homeworks* denmez. \"Ödev yapmak\" *do homework*'tür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "maths homework",
+    "meaning": "matematik ödevi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "Monday",
+   "pos": "noun",
+   "wordId": "monday",
+   "sense": 0,
+   "context": "pazartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Saat söylerken özne olarak *it* kullanılır: *It was nine o'clock* → Saat dokuzdu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "already",
+   "pos": "adverb",
+   "wordId": "already",
+   "sense": 0,
+   "context": "çoktan (bile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "nine",
+   "pos": "number",
+   "wordId": "nine",
+   "sense": 0,
+   "context": "dokuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "nine o'clock",
+    "meaning": "saat dokuz"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "nine o'clock",
+    "meaning": "saat dokuz"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "homework",
+   "pos": "noun",
+   "wordId": "homework",
+   "sense": 0,
+   "context": "ödev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "uğraştı (denedi)",
+   "note": null,
+   "form": "try'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for* + süre \"… boyunca\" demektir: *for an hour* → bir saat (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*hour*'daki *h* okunmadığı için *a* değil *an* kullanılır: *an hour*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-emedi)",
+   "note": "*could*, *can*'in geçmiş halidir; *could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "answer",
+   "pos": "verb",
+   "wordId": "answer",
+   "sense": 1,
+   "context": "cevaplamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "son",
+   "note": "*last* burada \"geçen\" değil \"son, sonuncu\" demektir: *the last three questions* → son üç soru.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "soru",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": "*feel* + sıfat \"… hissetmek\" demektir: *felt worried* → endişelendi.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "worried",
+   "pos": "adjective",
+   "wordId": "worried",
+   "sense": 0,
+   "context": "endişeli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": "*almost cried* \"neredeyse ağlıyordu\", yani ağlamadı ama ağlamak üzereydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "cry",
+   "pos": "verb",
+   "wordId": "cry",
+   "sense": 0,
+   "context": "ağladı",
+   "note": null,
+   "form": "cry'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aradı",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "Ella",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ella",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "Ella",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ella",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladı",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaşça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (telefonda)",
+   "note": "*on the phone* \"telefonda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the phone",
+    "meaning": "telefonda"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the phone",
+    "meaning": "telefonda"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the phone",
+    "meaning": "telefonda"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "Mia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anladı",
+   "note": null,
+   "form": "understand fiilinin geçmiş zaman hali (understood, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": "*them*, *they*'in nesne halidir: \"onları, onlara\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitirdi",
+   "note": null,
+   "form": "finish + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": "Saatlerden önce *at* kullanılır: *at half past ten* → saat on buçukta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "at half past ten",
+    "meaning": "saat on buçukta"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "half",
+   "pos": "noun",
+   "wordId": "half",
+   "sense": 0,
+   "context": "buçuk (yarım)",
+   "note": "*half past* + saat \"… buçuk\" demektir: *half past ten* → on buçuk.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "at half past ten",
+    "meaning": "saat on buçukta"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "past",
+   "pos": "preposition",
+   "wordId": "past",
+   "sense": 2,
+   "context": "geçe",
+   "note": "Saat söylerken *past* \"geçe\" demektir: *ten past nine* → dokuzu on geçe.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "at half past ten",
+    "meaning": "saat on buçukta"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "at half past ten",
+    "meaning": "saat on buçukta"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next day* \"ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *her teacher* → öğretmen**i**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*say* + cümle \"… olduğunu söylemek\" demektir; *that* çoğu zaman söylenmez.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "homework",
+   "pos": "noun",
+   "wordId": "homework",
+   "sense": 0,
+   "context": "ödev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "perfect",
+   "pos": "adjective",
+   "wordId": "perfect",
+   "sense": 0,
+   "context": "mükemmel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

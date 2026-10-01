@@ -1,0 +1,1013 @@
+{
+ "storyId": "story-a2-013",
+ "textHash": "75d66a257a0b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Gelecek hafta kız kardeşimin doğum günü, bu yüzden pazar günü ona bir hediye almak için alışveriş merkezine gittim."
+  },
+  {
+   "tr": "Önce birkaç kazağa baktım ama çok pahalıydılar."
+  },
+  {
+   "tr": "Sonra bir kitapçıya girdim."
+  },
+  {
+   "tr": "Kız kardeşim yemek yapmayı çok seviyor ve İtalyan yemek tarifleri olan güzel bir kitap buldum."
+  },
+  {
+   "tr": "Yirmi sterlin tuttu."
+  },
+  {
+   "tr": "Satış görevlisi onu benim için kırmızı kâğıda sardı."
+  },
+  {
+   "tr": "Bence kız kardeşim ona bayılacak."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next* zaman ifadelerinde \"gelecek\" demektir ve önüne *the* ya da *on* gelmez: *next week* → gelecek hafta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Next week",
+    "meaning": "gelecek hafta"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Next week",
+    "meaning": "gelecek hafta"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; bu tür cümlelerde Türkçede ayrıca söylenmez.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my sister* → kız kardeş**im**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeşimin",
+   "note": "*'s* eki sahiplik bildirir: *my sister's birthday* → kız kardeşimin doğum günü.",
+   "form": "sister + 's (iyelik)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "birthday",
+   "pos": "noun",
+   "wordId": "birthday",
+   "sense": 0,
+   "context": "doğum günü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittim",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (merkezine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "shopping",
+   "pos": "noun",
+   "wordId": "shopping",
+   "sense": 0,
+   "context": "alışveriş",
+   "note": "*shopping centre* \"alışveriş merkezi\" demektir; Amerikan İngilizcesinde *mall* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "shopping centre",
+    "meaning": "alışveriş merkezi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "centre",
+   "pos": "noun",
+   "wordId": "centre",
+   "sense": 0,
+   "context": "merkez",
+   "note": "*centre* İngiliz yazımıdır; Amerikan İngilizcesinde *center* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "shopping centre",
+    "meaning": "alışveriş merkezi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (pazar günü)",
+   "note": "Günlerden önce *on* kullanılır: *on Sunday* → pazar günü.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "Sunday",
+   "pos": "noun",
+   "wordId": "sunday",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç da bildirir: *I went … to buy a present* → hediye almak için gittim.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "to buy her a present",
+    "meaning": "ona bir hediye almak için"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almak (satın almak)",
+   "note": "*buy someone something* \"birine bir şey almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "to buy her a present",
+    "meaning": "ona bir hediye almak için"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": "*her* burada nesnedir (\"ona\"); isimden önce gelince ise \"onun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "to buy her a present",
+    "meaning": "ona bir hediye almak için"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "to buy her a present",
+    "meaning": "ona bir hediye almak için"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "present",
+   "pos": "noun",
+   "wordId": "present",
+   "sense": 1,
+   "context": "hediye",
+   "note": "*present* isim olarak \"hediye\", sıfat olarak \"şimdiki, mevcut\" demektir; burada \"hediye\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "to buy her a present",
+    "meaning": "ona bir hediye almak için"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "önce",
+   "note": "*First, … Then, …* \"Önce …, sonra …\" diye olayları sıralar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "baktım",
+   "note": "*look at* \"-e bakmak\" demektir.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "looked at",
+    "meaning": "-e baktı (look at)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (kazaklara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "looked at",
+    "meaning": "-e baktı (look at)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "jumper",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kazaklar",
+   "note": "*jumper* İngiliz İngilizcesinde \"kazak\" demektir; Amerikan İngilizcesinde *sweater* denir.",
+   "form": "jumper'ın çoğulu",
+   "base": "kazak",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dılar)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (çok)",
+   "note": "*too* + sıfat \"gereğinden fazla\" demektir ve olumsuz bir anlam taşır: *too expensive* → (almak için) fazla pahalı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "too expensive",
+    "meaning": "fazla pahalı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "expensive",
+   "pos": "adjective",
+   "wordId": "expensive",
+   "sense": 0,
+   "context": "pahalı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "too expensive",
+    "meaning": "fazla pahalı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "girdim (gittim)",
+   "note": "*go into* bir yere \"girmek\" demektir.",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (içine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "bookshop",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kitapçı",
+   "note": "*bookshop* iki kelimenin birleşimidir: *book* (kitap) + *shop* (dükkân). Amerikan İngilizcesinde *bookstore* denir.",
+   "form": null,
+   "base": "kitapçı (dükkân)",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "çok seviyor",
+   "note": "*love* + *-ing* \"… -meyi çok sevmek\" demektir.",
+   "form": "love + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek yapmak",
+   "note": null,
+   "form": "cook + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldum",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "beautiful",
+   "pos": "adjective",
+   "wordId": "beautiful",
+   "sense": 0,
+   "context": "güzel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (olan)",
+   "note": "*with* isimden sonra gelince \"…-li, … olan\" demektir: *a book with recipes* → tarifler olan bir kitap.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "recipe",
+   "pos": "noun",
+   "wordId": "recipe",
+   "sense": 0,
+   "context": "tarifler",
+   "note": null,
+   "form": "recipe'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (İtalya'dan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "Italy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İtalya",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kitap)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "tuttu",
+   "note": "*cost* \"(fiyatı) tutmak\" demektir; geçmiş zaman hali de *cost*'tur.",
+   "form": "cost fiilinin geçmiş zaman hali (cost, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "pound",
+   "pos": "noun",
+   "wordId": "pound",
+   "sense": 0,
+   "context": "sterlin",
+   "note": "*pound* İngiltere'nin para birimidir (£); ağırlık birimi olarak \"libre\" anlamına da gelir.",
+   "form": "pound'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "shop assistant",
+    "meaning": "satış görevlisi, tezgâhtar"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "assistant",
+   "pos": "noun",
+   "wordId": "assistant",
+   "sense": 0,
+   "context": "görevli (yardımcı)",
+   "note": "*shop assistant* mağazada çalışan \"satış görevlisi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "shop assistant",
+    "meaning": "satış görevlisi, tezgâhtar"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "wrap",
+   "pos": "verb",
+   "wordId": "wrap",
+   "sense": 0,
+   "context": "sardı (paketledi)",
+   "note": null,
+   "form": "wrap + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (kâğıda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "red",
+   "pos": "adjective",
+   "wordId": "red",
+   "sense": 0,
+   "context": "kırmızı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "paper",
+   "pos": "noun",
+   "wordId": "paper",
+   "sense": 0,
+   "context": "kâğıt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "me",
+   "pos": "pronoun",
+   "wordId": "me",
+   "sense": 0,
+   "context": "benim (için)",
+   "note": "*me*, *I*'nın nesne halidir: \"beni, bana\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşünüyorum (bence)",
+   "note": "*I think …* \"Bence …, sanırım …\" diye fikir bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "*be going to* + fiil gelecekle ilgili bir tahmin ya da plan bildirir: *is going to love* → bayılacak.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "is going to love",
+    "meaning": "bayılacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "(going to: -ecek)",
+   "note": "*going to* burada \"gitmek\" anlamında değildir; gelecek zaman kalıbının parçasıdır.",
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "is going to love",
+    "meaning": "bayılacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(going to: -ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "is going to love",
+    "meaning": "bayılacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayılmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "is going to love",
+    "meaning": "bayılacak (be going to: -ecek)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (onu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

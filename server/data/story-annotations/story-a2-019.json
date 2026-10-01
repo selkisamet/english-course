@@ -1,0 +1,1018 @@
+{
+ "storyId": "story-a2-019",
+ "textHash": "ead7b22bf987",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Cuma öğleden sonra Sam bisikletiyle okuldan eve dönüyordu."
+  },
+  {
+   "tr": "Yağmur yağıyordu ve yol ıslaktı."
+  },
+  {
+   "tr": "Birden önüne bir kedi fırladı."
+  },
+  {
+   "tr": "Sam hemen durdu ama bisikletten düştü ve dizini incitti."
+  },
+  {
+   "tr": "Bir kadın kazayı gördü ve ona yardım etti."
+  },
+  {
+   "tr": "Kadın, Sam'in anne babasını aradı ve babası onu almaya geldi."
+  },
+  {
+   "tr": "Doktor dizinin iyi olduğunu söyledi."
+  },
+  {
+   "tr": "Artık Sam yağmur yağınca bisiklete hep daha yavaş biniyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(cuma öğleden sonra)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on Friday afternoon* → cuma öğleden sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday afternoon",
+    "meaning": "cuma öğleden sonra"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday afternoon",
+    "meaning": "cuma öğleden sonra"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "On Friday afternoon",
+    "meaning": "cuma öğleden sonra"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were* + *-ing* geçmişte o an süren bir eylemi anlatır: *was riding* → sürüyordu.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "was riding",
+    "meaning": "(bisiklet) sürüyordu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "sürüyordu (biniyordu)",
+   "note": "*ride a bike* \"bisiklete binmek, bisiklet sürmek\" demektir.",
+   "form": "ride + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "was riding",
+    "meaning": "(bisiklet) sürüyordu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his bike* → bisiklet**i**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında zarf olarak kullanılınca önüne *to* gelmez: *go home* (✗ go to home).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "home from school",
+    "meaning": "okuldan eve"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (okuldan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "home from school",
+    "meaning": "okuldan eve"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "home from school",
+    "meaning": "okuldan eve"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır: *It was raining* → Yağmur yağıyordu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağıyordu",
+   "note": null,
+   "form": "rain + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "road",
+   "pos": "noun",
+   "wordId": "road",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "wet",
+   "pos": "adjective",
+   "wordId": "wet",
+   "sense": 0,
+   "context": "ıslak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "suddenly",
+   "pos": "adverb",
+   "wordId": "suddenly",
+   "sense": 0,
+   "context": "birden (aniden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "cat",
+   "pos": "noun",
+   "wordId": "cat",
+   "sense": 0,
+   "context": "kedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "fırladı (koştu)",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in front of: önüne)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "in front of",
+    "meaning": "-in önüne, önünde"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "front",
+   "pos": "noun",
+   "wordId": "front",
+   "sense": 0,
+   "context": "ön",
+   "note": "*in front of* \"-in önünde, önüne\" demektir; karşıtı *behind* (arkasında).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "in front of",
+    "meaning": "-in önüne, önünde"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in front of: önüne)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "in front of",
+    "meaning": "-in önüne, önünde"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onun",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\"; edattan sonra da bu hali kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durdu",
+   "note": null,
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hemen (hızla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "fall",
+   "pos": "verb",
+   "wordId": "fall",
+   "sense": 0,
+   "context": "düştü",
+   "note": "*fall off* bir şeyin \"üstünden düşmek\" demektir: *fall off a bike* → bisikletten düşmek.",
+   "form": "fall fiilinin geçmiş zaman hali (fell, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "fell off",
+    "meaning": "-den düştü (fall off)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "off",
+   "pos": "preposition",
+   "wordId": "off",
+   "sense": 1,
+   "context": "-den (bisikletten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "fell off",
+    "meaning": "-den düştü (fall off)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "hurt",
+   "pos": "verb",
+   "wordId": "hurt",
+   "sense": 0,
+   "context": "incitti",
+   "note": "*hurt*'ün geçmiş zaman hali de *hurt*'tür.",
+   "form": "hurt fiilinin geçmiş zaman hali (hurt, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "Vücut bölümlerinden önce İngilizcede iyelik sözcüğü kullanılır: *hurt his knee* → dizini incitti.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "knee",
+   "pos": "noun",
+   "wordId": "knee",
+   "sense": 0,
+   "context": "diz",
+   "note": "*knee*'deki *k* okunmaz (\"ni\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "gördü",
+   "note": null,
+   "form": "see fiilinin geçmiş zaman hali (saw, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "accident",
+   "pos": "noun",
+   "wordId": "accident",
+   "sense": 0,
+   "context": "kaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etti",
+   "note": "*help someone* \"birine yardım etmek\" demektir; İngilizcede kişi doğrudan nesne olur.",
+   "form": "help + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aradı (telefonla)",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (Sam'in)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": "*parents* \"anne ve baba\" demektir; *parent* bunlardan biridir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (babası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için (-meye)",
+   "note": "*to* + fiil amaç bildirir: *came to get him* → onu almaya geldi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "to get",
+    "meaning": "almaya"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "almak",
+   "note": "*get*'in temel anlamı \"almak, edinmek\"tir; *come to get someone* birini \"gelip almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "to get",
+    "meaning": "almaya"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*say* + cümle \"… olduğunu söylemek\" demektir; *that* çoğu zaman söylenmez.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (dizi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "knee",
+   "pos": "noun",
+   "wordId": "knee",
+   "sense": 0,
+   "context": "diz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "fine",
+   "pos": "adjective",
+   "wordId": "fine",
+   "sense": 0,
+   "context": "iyi",
+   "note": "*fine* \"iyi, sağlıklı; güzel\" demektir: *I'm fine* → İyiyim.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep (her zaman)",
+   "note": "*always* gibi sıklık zarfları fiilden önce gelir: *always rides*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "biniyor (sürüyor)",
+   "note": null,
+   "form": "ride + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "*-ly* ile biten zarflar *more* ile karşılaştırılır: *slowly → more slowly* (daha yavaş).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "more slowly",
+    "meaning": "daha yavaş"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "more slowly",
+    "meaning": "daha yavaş"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağar",
+   "note": null,
+   "form": "rain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1077 @@
+{
+ "storyId": "story-a2-049",
+ "textHash": "647b4dff4b95",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Okulumuzun futbol takımı geçen cumartesi şehir kupasının finalinde oynadı."
+  },
+  {
+   "tr": "Yüzlerce öğrenci ve veli izlemeye geldi."
+  },
+  {
+   "tr": "Diğer takım çok iyiydi ve yirmi dakika sonra gol attılar."
+  },
+  {
+   "tr": "İkinci yarıda takımımız çok daha iyi oynadı ve Ali bizim için bir gol attı."
+  },
+  {
+   "tr": "Sonra, maçın bitmesine iki dakika kala kaptanımız topu ağlara gönderdi."
+  },
+  {
+   "tr": "Kazandık!"
+  },
+  {
+   "tr": "Herkes sahaya koştu ve birlikte kutladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *our team* → takım**ımız**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": "İsimler art arda gelerek sonuncuyu niteleyebilir: *school football team* → okul futbol takımı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "school football team",
+    "meaning": "okul futbol takımı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "football",
+   "pos": "noun",
+   "wordId": "football",
+   "sense": 0,
+   "context": "futbol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "school football team",
+    "meaning": "okul futbol takımı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "takım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "school football team",
+    "meaning": "okul futbol takımı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynadı",
+   "note": null,
+   "form": "play + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (finalde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "final",
+   "pos": "noun",
+   "wordId": "final",
+   "sense": 1,
+   "context": "final",
+   "note": "*final* sıfat olarak \"son\", isim olarak bir turnuvanın \"final maçı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (kupasının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "cup",
+   "pos": "noun",
+   "wordId": "cup",
+   "sense": 0,
+   "context": "kupa",
+   "note": "*cup*'ın temel anlamı \"fincan\"dır; sporda \"kupa\" ve kupa turnuvası anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "the final of the city cup",
+    "meaning": "şehir kupasının finali"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir: *last Saturday* → geçen cumartesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "last Saturday",
+    "meaning": "geçen cumartesi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüzlerce",
+   "note": "*hundreds of* \"yüzlerce\" demektir; *two hundred* gibi belirli sayılarda ise *-s* almaz.",
+   "form": "hundred'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "Hundreds of",
+    "meaning": "yüzlerce"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(hundreds of: yüzlerce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "Hundreds of",
+    "meaning": "yüzlerce"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "veli (anne baba)",
+   "note": "*parents* \"anne ve baba\" demektir; okul bağlamında \"veliler\" diye çevrilir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için (izlemeye)",
+   "note": "*to* + fiil amaç bildirir: *came to watch* → izlemeye geldi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "diğer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "takım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": "*after* + süre \"… sonra\" demektir: *after twenty minutes* → yirmi dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": "Takımdan söz ederken İngilizcede *they* kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "score",
+   "pos": "verb",
+   "wordId": "score",
+   "sense": 0,
+   "context": "attılar",
+   "note": "*score a goal* \"gol atmak\" demektir.",
+   "form": "score + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "scored a goal",
+    "meaning": "gol attı (score a goal)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "scored a goal",
+    "meaning": "gol attı (score a goal)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "goal",
+   "pos": "noun",
+   "wordId": "goal",
+   "sense": 0,
+   "context": "gol",
+   "note": "*goal* sporda \"gol\", hayatta \"hedef, amaç\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "scored a goal",
+    "meaning": "gol attı (score a goal)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ikinci yarıda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "In the second half",
+    "meaning": "ikinci yarıda"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "In the second half",
+    "meaning": "ikinci yarıda"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "second",
+   "pos": "determiner",
+   "wordId": "second",
+   "sense": 0,
+   "context": "ikinci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "In the second half",
+    "meaning": "ikinci yarıda"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "half",
+   "pos": "noun",
+   "wordId": "half",
+   "sense": 0,
+   "context": "yarı (devre)",
+   "note": "Maçlarda *the first half / the second half* \"ilk yarı / ikinci yarı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "In the second half",
+    "meaning": "ikinci yarıda"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "takım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynadı",
+   "note": null,
+   "form": "play + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırmalardan önce *much* \"çok daha\" anlamı verir: *much better* → çok daha iyi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "better",
+   "sense": 1,
+   "context": "daha iyi",
+   "note": "Burada *better* fiili niteler; *well* zarfının karşılaştırma halidir (well → better → best).",
+   "form": "well zarfının karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "much better",
+    "meaning": "çok daha iyi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "Ali",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ali",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "score",
+   "pos": "verb",
+   "wordId": "score",
+   "sense": 0,
+   "context": "attı",
+   "note": null,
+   "form": "score + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "goal",
+   "pos": "noun",
+   "wordId": "goal",
+   "sense": 0,
+   "context": "gol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "biz(im için)",
+   "note": "*us*, *we*'nin nesne halidir: \"bizi, bize\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "two minutes before the end",
+    "meaning": "bitime iki dakika kala"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "two minutes before the end",
+    "meaning": "bitime iki dakika kala"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "önce (kala)",
+   "note": "Süre + *before the end* \"bitişten … önce, bitime … kala\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "two minutes before the end",
+    "meaning": "bitime iki dakika kala"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "two minutes before the end",
+    "meaning": "bitime iki dakika kala"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son (bitiş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "two minutes before the end",
+    "meaning": "bitime iki dakika kala"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "captain",
+   "pos": "noun",
+   "wordId": "captain",
+   "sense": 0,
+   "context": "kaptan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "kick",
+   "pos": "verb",
+   "wordId": "kick",
+   "sense": 0,
+   "context": "vurdu (gönderdi)",
+   "note": "*kick* ayakla \"tekmelemek, (topa) vurmak\" demektir.",
+   "form": "kick + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "ball",
+   "pos": "noun",
+   "wordId": "ball",
+   "sense": 0,
+   "context": "top",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (ağlara)",
+   "note": "*into* bir şeyin \"içine\" doğru hareketi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "net",
+   "pos": "noun",
+   "wordId": "net",
+   "sense": 0,
+   "context": "ağ (file)",
+   "note": "Futbolda *the net* kalenin \"ağları\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "win",
+   "pos": "verb",
+   "wordId": "win",
+   "sense": 0,
+   "context": "kazandık",
+   "note": "*win* maç ya da yarışı \"kazanmak\"tır; para kazanmak ise *earn*'dür.",
+   "form": "win fiilinin geçmiş zaman hali (won, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone runs*, *everyone was*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştu",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "onto",
+   "pos": "preposition",
+   "wordId": "onto",
+   "sense": 0,
+   "context": "-e (sahaya)",
+   "note": "*onto* bir yüzeyin \"üstüne\" doğru hareketi anlatır: *ran onto the field* → sahaya koştu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "field",
+   "pos": "noun",
+   "wordId": "field",
+   "sense": 0,
+   "context": "saha",
+   "note": "*field*'in temel anlamı \"tarla\"dır; sporda \"saha\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "celebrate",
+   "pos": "verb",
+   "wordId": "celebrate",
+   "sense": 0,
+   "context": "kutladı",
+   "note": null,
+   "form": "celebrate + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

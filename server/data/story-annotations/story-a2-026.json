@@ -1,0 +1,1095 @@
+{
+ "storyId": "story-a2-026",
+ "textHash": "f8d19e9200e5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Anna her yaz deniz kenarındaki küçük bir köyde yaşayan büyükannesiyle büyükbabasını ziyaret eder."
+  },
+  {
+   "tr": "Evleri eski ama çok rahat."
+  },
+  {
+   "tr": "Büyükannesi bahçede sebze yetiştirir ve Anna ona her sabah yardım eder."
+  },
+  {
+   "tr": "Öğleden sonraları denizde yüzerler ya da kumsal boyunca yürürler."
+  },
+  {
+   "tr": "Akşamları büyükbabası gençliğine dair komik hikayeler anlatır."
+  },
+  {
+   "tr": "Tatil bittiğinde Anna her zaman üzülür."
+  },
+  {
+   "tr": "Şimdiden gelecek yaza kadar günleri sayıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* + tekil isim \"her\" demektir: *every summer* → her yaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every summer",
+    "meaning": "her yaz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every summer",
+    "meaning": "her yaz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Anna",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Anna",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "ziyaret eder",
+   "note": null,
+   "form": "visit + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "grandparent",
+   "pos": "noun",
+   "wordId": "grandparent",
+   "sense": 0,
+   "context": "büyükanne ve büyükbaba",
+   "note": "*grandparents* \"büyükanne ve büyükbaba\" demektir.",
+   "form": "grandparent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (köyde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "kenarında (yanında)",
+   "note": "*by the sea* \"deniz kenarında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "by the sea",
+    "meaning": "deniz kenarında"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "by the sea",
+    "meaning": "deniz kenarında"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "sea",
+   "pos": "noun",
+   "wordId": "sea",
+   "sense": 0,
+   "context": "deniz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "by the sea",
+    "meaning": "deniz kenarında"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *their house* → ev**leri**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*be* fiili \"olmak\" demektir; bu tür cümlelerde Türkçede ayrıca söylenmez.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ev)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "rahat",
+   "note": "*comfortable* genellikle üç hecede okunur (\"kamftıbıl\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (büyükannesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "yetiştirir",
+   "note": "*grow*'un temel anlamı \"büyümek\"tir; bitkiler için \"yetiştirmek\" demektir.",
+   "form": "grow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "vegetable",
+   "pos": "noun",
+   "wordId": "vegetable",
+   "sense": 0,
+   "context": "sebzeler",
+   "note": null,
+   "form": "vegetable'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (bahçede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "Anna",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Anna",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım eder",
+   "note": "*help someone* \"birine yardım etmek\" demektir; İngilizcede kişi doğrudan nesne olur.",
+   "form": "help + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": "*her* burada nesnedir (\"ona\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(öğleden sonraları)",
+   "note": "*in the afternoons* çoğul olunca \"öğleden sonraları, her öğleden sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "In the afternoons",
+    "meaning": "öğleden sonraları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "In the afternoons",
+    "meaning": "öğleden sonraları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonraları",
+   "note": null,
+   "form": "afternoon'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "In the afternoons",
+    "meaning": "öğleden sonraları"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzerler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (denizde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "sea",
+   "pos": "noun",
+   "wordId": "sea",
+   "sense": 0,
+   "context": "deniz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürürler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "along",
+   "pos": "preposition",
+   "wordId": "along",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "along the beach",
+    "meaning": "kumsal boyunca"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "along the beach",
+    "meaning": "kumsal boyunca"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "beach",
+   "pos": "noun",
+   "wordId": "beach",
+   "sense": 0,
+   "context": "kumsal (plaj)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "along the beach",
+    "meaning": "kumsal boyunca"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(akşamları)",
+   "note": "*in the evenings* \"akşamları, her akşam\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "In the evenings",
+    "meaning": "akşamları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "In the evenings",
+    "meaning": "akşamları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşamları",
+   "note": null,
+   "form": "evening'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "In the evenings",
+    "meaning": "akşamları"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (büyükbabası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "anlatır",
+   "note": "*tell a story* \"hikaye anlatmak\" demektir.",
+   "form": "tell + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "funny",
+   "pos": "adjective",
+   "wordId": "funny",
+   "sense": 0,
+   "context": "komik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikayeler",
+   "note": null,
+   "form": "story'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında (-e dair)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *his life* → hayat**ı**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": "*when he was young* \"gençken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "when he was young",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": "*he* erkekler için, *she* kadınlar için kullanılır; Türkçede ikisi de \"o\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "when he was young",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ken)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "when he was young",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "when he was young",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "Anna",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Anna",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": "*always* gibi sıklık zarfları fiilden önce gelir: *always feels*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hisseder",
+   "note": "*feel* + sıfat \"… hissetmek\" demektir: *feel sad* → üzülmek, üzgün hissetmek.",
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "sad",
+   "pos": "adjective",
+   "wordId": "sad",
+   "sense": 0,
+   "context": "üzgün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "tatil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "end",
+   "pos": "verb",
+   "wordId": "end",
+   "sense": 1,
+   "context": "biter",
+   "note": "*end* isim olarak \"son\", fiil olarak \"bitmek, sona ermek\" demektir.",
+   "form": "end + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are* + *-ing* şu anda süren bir eylemi anlatır: *is counting* → sayıyor.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "already",
+   "pos": "adverb",
+   "wordId": "already",
+   "sense": 0,
+   "context": "şimdiden (çoktan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "count",
+   "pos": "verb",
+   "wordId": "count",
+   "sense": 0,
+   "context": "sayıyor",
+   "note": "*count the days* \"günleri saymak\", yani bir şeyi sabırsızlıkla beklemek demektir.",
+   "form": "count + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "günler",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "until next summer",
+    "meaning": "gelecek yaza kadar"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "until next summer",
+    "meaning": "gelecek yaza kadar"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "until next summer",
+    "meaning": "gelecek yaza kadar"
+   }
+  }
+ ]
+}

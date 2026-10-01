@@ -1,0 +1,1071 @@
+{
+ "storyId": "story-a2-014",
+ "textHash": "6611fc947cfe",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen yaz Emma ve arkadaşları bir gölün yakınında kampa gittiler."
+  },
+  {
+   "tr": "İki çadır, sıcak tutan giysiler ve bir sürü yiyecek götürdüler."
+  },
+  {
+   "tr": "İlk gün gölde yüzdüler ve ormanda yürüdüler."
+  },
+  {
+   "tr": "Akşam ateş yaktılar ve sosis pişirdiler."
+  },
+  {
+   "tr": "Gece şiddetli yağmur yağmaya başladı ve çadırlardan birine su girdi."
+  },
+  {
+   "tr": "Kimse pek iyi uyumadı."
+  },
+  {
+   "tr": "Ama ertesi sabah hava güneşliydi ve herkes o ıslak geceye güldü."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman \"geçen\" demektir ve önüne *the* ya da *in* gelmez: *last summer* → geçen yaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Emma",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emma",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "*her* isimden önce gelince \"onun\" (kadın) anlamında iyelik bildirir; nesne olarak ise \"onu, ona\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": "*go* + *-ing* bazı etkinlikler için kullanılır: *go camping* (kampa gitmek), *go swimming* (yüzmeye gitmek).",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "went camping",
+    "meaning": "kampa gittiler (go camping)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "camping",
+   "pos": "noun",
+   "wordId": "camping",
+   "sense": 0,
+   "context": "kamp(a)",
+   "note": null,
+   "form": "camp + -ing",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "went camping",
+    "meaning": "kampa gittiler (go camping)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "lake",
+   "pos": "noun",
+   "wordId": "lake",
+   "sense": 0,
+   "context": "göl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "götürdüler (yanlarına aldılar)",
+   "note": "*take*'in temel anlamı \"almak\"tır; bir yere bir şey \"götürmek\" anlamına da gelir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "tent",
+   "pos": "noun",
+   "wordId": "tent",
+   "sense": 0,
+   "context": "çadır",
+   "note": "Sayıdan sonra İngilizcede isim çoğul olur (*two tents*); Türkçede tekil kalır (iki çadır).",
+   "form": "tent'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "warm",
+   "pos": "adjective",
+   "wordId": "warm",
+   "sense": 0,
+   "context": "sıcak tutan",
+   "note": "*warm clothes* \"kalın, sıcak tutan giysiler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "giysiler",
+   "note": "*clothes* her zaman çoğuldur; tekil bir giysi için *a piece of clothing* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a lot of: bir sürü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "a lot of",
+    "meaning": "bir sürü, çok"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "lot",
+   "pos": "determiner",
+   "wordId": "lot",
+   "sense": 1,
+   "context": "bir sürü",
+   "note": "*a lot of* \"çok, bir sürü\" demektir; hem sayılabilen hem sayılamayan isimlerle kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "a lot of",
+    "meaning": "bir sürü, çok"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a lot of: bir sürü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "a lot of",
+    "meaning": "bir sürü, çok"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(ilk gün)",
+   "note": "Belirli günlerden önce *on* kullanılır: *on the first day* → ilk gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Sıra sayılarından önce *the* kullanılır: *the first day* → ilk gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "On the first day",
+    "meaning": "ilk gün"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzdüler",
+   "note": null,
+   "form": "swim fiilinin geçmiş zaman hali (swam, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (gölde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "lake",
+   "pos": "noun",
+   "wordId": "lake",
+   "sense": 0,
+   "context": "göl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürüdüler",
+   "note": null,
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ormanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "forest",
+   "pos": "noun",
+   "wordId": "forest",
+   "sense": 0,
+   "context": "orman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(akşam)",
+   "note": "*in the evening* \"akşam, akşamleyin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaktılar",
+   "note": "*make a fire* \"ateş yakmak\" demektir.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "made a fire",
+    "meaning": "ateş yaktılar (make a fire)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "made a fire",
+    "meaning": "ateş yaktılar (make a fire)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "fire",
+   "pos": "noun",
+   "wordId": "fire",
+   "sense": 0,
+   "context": "ateş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "made a fire",
+    "meaning": "ateş yaktılar (make a fire)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "cook",
+   "pos": "verb",
+   "wordId": "cook",
+   "sense": 0,
+   "context": "pişirdiler",
+   "note": null,
+   "form": "cook + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "sausage",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sosisler",
+   "note": null,
+   "form": "sausage'ın çoğulu",
+   "base": "sosis, sucuk",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(gece)",
+   "note": "*night* ile *in* değil *at* kullanılır: *at night* → gece, geceleyin.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "At night",
+    "meaning": "gece"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "At night",
+    "meaning": "gece"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır: *it started to rain* → yağmur yağmaya başladı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start to + fiil* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yağmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağmak",
+   "note": "*rain* fiil olarak tek başına \"yağmur yağmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "heavily",
+   "pos": "adverb",
+   "wordId": "heavily",
+   "sense": 0,
+   "context": "şiddetle",
+   "note": "*rain heavily* \"şiddetli yağmur yağmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "girdi (geldi)",
+   "note": "*come into* bir yerin \"içine girmek\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (içine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri",
+   "note": "*one of the* + çoğul isim \"…-lerden biri\" demektir: *one of the tents* → çadırlardan biri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "one of",
+    "meaning": "-den biri"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "one of",
+    "meaning": "-den biri"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "tent",
+   "pos": "noun",
+   "wordId": "tent",
+   "sense": 0,
+   "context": "çadırlar",
+   "note": null,
+   "form": "tent'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "nobody",
+   "pos": "pronoun",
+   "wordId": "nobody",
+   "sense": 0,
+   "context": "hiç kimse",
+   "note": "*nobody* kendisi olumsuz anlam taşır; fiil olumlu kalır: *Nobody slept* → Kimse uyumadı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyudu",
+   "note": null,
+   "form": "sleep fiilinin geçmiş zaman hali (slept, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok (pek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next morning / the next day* \"ertesi sabah / ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "sunny",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "güneşli",
+   "note": "*-y* eki isimden sıfat yapar: *sun* (güneş) → *sunny* (güneşli).",
+   "form": null,
+   "base": "güneşli",
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone is*, *everyone laughs*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldü",
+   "note": "*laugh about something* \"bir şeye gülmek\" demektir.",
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "-e (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "wet",
+   "pos": "adjective",
+   "wordId": "wet",
+   "sense": 0,
+   "context": "ıslak (yağmurlu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

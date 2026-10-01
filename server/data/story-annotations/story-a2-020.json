@@ -1,0 +1,1020 @@
+{
+ "storyId": "story-a2-020",
+ "textHash": "94f76a83a5dc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dün gece telefonum saat on birde çaldı."
+  },
+  {
+   "tr": "Bir adam, \"Orası Pizza Palace mı?\" diye sordu."
+  },
+  {
+   "tr": "\"Büyük boy bir pizza sipariş etmek istiyorum.\""
+  },
+  {
+   "tr": "Ona yanlış numarayı aradığını söyledim."
+  },
+  {
+   "tr": "On dakika sonra aynı soruyla yine aradı."
+  },
+  {
+   "tr": "Kibarca bunun özel bir numara olduğunu açıkladım."
+  },
+  {
+   "tr": "Ertesi gün internete baktım."
+  },
+  {
+   "tr": "Pizza restoranının numarası benimkiyle neredeyse aynıydı."
+  },
+  {
+   "tr": "Yalnızca bir rakam farklıydı!"
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "dün (geçen)",
+   "note": "*last night* \"dün gece\" demektir; *yesterday night* pek kullanılmaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last night",
+    "meaning": "dün gece"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last night",
+    "meaning": "dün gece"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "my",
+   "pos": "determiner",
+   "wordId": "my",
+   "sense": 0,
+   "context": "benim",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *my phone* → telefon**um**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "ring",
+   "pos": "verb",
+   "wordId": "ring",
+   "sense": 1,
+   "context": "çaldı",
+   "note": null,
+   "form": "ring fiilinin geçmiş zaman hali (rang, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": "Saatlerden önce *at* kullanılır: *at eleven o'clock* → saat on birde.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "at eleven o'clock",
+    "meaning": "saat on birde"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "eleven",
+   "pos": "number",
+   "wordId": "eleven",
+   "sense": 0,
+   "context": "on bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "at eleven o'clock",
+    "meaning": "saat on birde"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "at eleven o'clock",
+    "meaning": "saat on birde"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*a/an* tekil ve sayılabilen bir şeyden ilk kez söz ederken kullanılır; Türkçede \"bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sordu",
+   "note": null,
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(mı)",
+   "note": "Soru cümlesinde *be* fiili özneden önce gelir: *Is that…?*",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "Is that",
+    "meaning": "Orası … mı? (telefonda)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "orası (o)",
+   "note": "Telefonda karşıdakini sorarken *Is that …?* denir: *Is that Pizza Palace?* → Orası Pizza Palace mı?",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "Is that",
+    "meaning": "Orası … mı? (telefonda)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "Pizza",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Pizza",
+   "note": null,
+   "form": null,
+   "base": "(restoran adının parçası)",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "Palace",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Palace",
+   "note": "*palace* \"saray\" demektir; burada restoranın adıdır.",
+   "form": null,
+   "base": "(restoran adının parçası)",
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": "*I* her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyorum",
+   "note": "*want to + fiil* \"… -mek istemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "order",
+   "pos": "verb",
+   "wordId": "order",
+   "sense": 1,
+   "context": "sipariş etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük (boy)",
+   "note": "*large* \"büyük\" demektir; yiyecek ve içeceklerde boy için *small, medium, large* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "pizza",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "pizza",
+   "note": null,
+   "form": null,
+   "base": "pizza",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledim",
+   "note": "*tell someone (that)…* \"birine … olduğunu söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(yanlış numarayı) aradı",
+   "note": "*have the wrong number* \"yanlış numarayı aramak\" demektir. Aktarılan sözde zaman geriye kayar: *has → had*.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had the wrong number",
+    "meaning": "yanlış numarayı aradı (have the wrong number)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had the wrong number",
+    "meaning": "yanlış numarayı aradı (have the wrong number)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "wrong",
+   "pos": "adjective",
+   "wordId": "wrong",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had the wrong number",
+    "meaning": "yanlış numarayı aradı (have the wrong number)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "numara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had the wrong number",
+    "meaning": "yanlış numarayı aradı (have the wrong number)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": null,
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *ten minutes later* → on dakika sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Ten minutes later",
+    "meaning": "on dakika sonra"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aradı",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "again",
+   "pos": "adverb",
+   "wordId": "again",
+   "sense": 0,
+   "context": "yine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (soruyla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*same* her zaman *the* ile kullanılır: *the same question* → aynı soru.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "soru",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladım",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "politely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kibarca",
+   "note": "*-ly* eki sıfattan zarf yapar: *polite* (kibar) → *politely* (kibarca).",
+   "form": "polite + -ly (sıfattan zarf)",
+   "base": "kibarca",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(olduğunu)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu (numara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "private",
+   "pos": "adjective",
+   "wordId": "private",
+   "sense": 0,
+   "context": "özel (kişisel)",
+   "note": "*private number* bir işyerine değil, bir kişiye ait \"özel numara\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "numara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next day* \"ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "I",
+   "pos": "pronoun",
+   "wordId": "i",
+   "sense": 0,
+   "context": "ben",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "baktım",
+   "note": null,
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (internette)",
+   "note": "İnternet için *on* kullanılır: *on the internet* → internette.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the internet",
+    "meaning": "internette"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the internet",
+    "meaning": "internette"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "on the internet",
+    "meaning": "internette"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "pizza",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "pizza",
+   "note": "Burada *pizza* isim olmasına rağmen *restaurant*'ı niteler: *pizza restaurant* → pizza restoranı.",
+   "form": null,
+   "base": "pizza",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoranın",
+   "note": null,
+   "form": "restaurant + 's (iyelik)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "numara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "the same as mine",
+    "meaning": "benimkiyle aynı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "the same as mine",
+    "meaning": "benimkiyle aynı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "ile",
+   "note": "*the same as* \"… ile aynı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "the same as mine",
+    "meaning": "benimkiyle aynı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "mine",
+   "pos": "pronoun",
+   "wordId": "mine",
+   "sense": 0,
+   "context": "benimki",
+   "note": "*mine* \"benimki\" demektir ve tek başına kullanılır: *the same as mine* → benimkiyle aynı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "the same as mine",
+    "meaning": "benimkiyle aynı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "one",
+   "pos": "number",
+   "wordId": "one",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "rakam (sayı)",
+   "note": "*number* \"sayı, numara\" demektir; burada numaradaki tek bir \"rakam\"ı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}
