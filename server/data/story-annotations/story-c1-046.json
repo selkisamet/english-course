@@ -1,0 +1,1239 @@
+{
+ "storyId": "story-c1-046",
+ "textHash": "9788f6a76241",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Nostalji bir zamanlar sıla özlemi ve üzüntüyle ilişkilendirilen bir tür hastalık olarak görülüyordu."
+  },
+  {
+   "tr": "Bugün ise psikologlar ona çok daha olumlu bakıyor."
+  },
+  {
+   "tr": "Psikologların bulgularına göre mutlu anıları hatırlamak yalnızlık duygusunu azaltabilir ve hayatın bir anlamı olduğu hissimizi güçlendirebilir."
+  },
+  {
+   "tr": "Reklamcılar bu etkinin çok iyi farkındadır ve tüketicilerle duygusal bir bağ kurmak için sık sık geçmişten müzik ve görüntüler kullanır."
+  },
+  {
+   "tr": "Görünüşe göre nostalji yalnızca geçmişle ilgili değil, aynı zamanda bugünle başa çıkmamıza da yardımcı oluyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "nostalgia",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "nostalji",
+   "note": "*nostalgia* geçmişe duyulan tatlı bir özlemdir; Yunanca \"eve dönüş\" ve \"acı\" kelimelerinden gelir.",
+   "form": null,
+   "base": "nostalji, geçmişe özlem",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ülüyordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "was once regarded as",
+    "meaning": "bir zamanlar … olarak görülüyordu"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "was once regarded as",
+    "meaning": "bir zamanlar … olarak görülüyordu"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "regard",
+   "pos": "verb",
+   "wordId": "regard",
+   "sense": 0,
+   "context": "görülüyordu",
+   "note": "*regard something as something* \"bir şeyi … olarak görmek\" demektir.",
+   "form": "regard fiilinin 3. hali (regarded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "was once regarded as",
+    "meaning": "bir zamanlar … olarak görülüyordu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "was once regarded as",
+    "meaning": "bir zamanlar … olarak görülüyordu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "a kind of illness",
+    "meaning": "bir tür hastalık"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": "*a kind of* \"bir tür, bir çeşit\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "a kind of illness",
+    "meaning": "bir tür hastalık"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a kind of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "a kind of illness",
+    "meaning": "bir tür hastalık"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "illness",
+   "pos": "noun",
+   "wordId": "illness",
+   "sense": 0,
+   "context": "hastalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "a kind of illness",
+    "meaning": "bir tür hastalık"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "associated",
+   "pos": "adjective",
+   "wordId": "associated",
+   "sense": 0,
+   "context": "ilişkilendirilen",
+   "note": "*associated with something* \"bir şeyle ilişkili, bağlantılı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "associated with",
+    "meaning": "ile ilişkilendirilen"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "associated with",
+    "meaning": "ile ilişkilendirilen"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "homesickness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sıla özlemi",
+   "note": "*homesick* (evini özleyen) + *-ness*: \"sıla hasreti, ev özlemi\".",
+   "form": null,
+   "base": "sıla özlemi, ev hasreti",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "sadness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "üzüntü",
+   "note": "*-ness* eki sıfattan isim yapar: *sad* (üzgün) → *sadness* (üzüntü).",
+   "form": null,
+   "base": "üzüntü, hüzün",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": null,
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "view",
+   "pos": "verb",
+   "wordId": "view",
+   "sense": 1,
+   "context": "bakıyor (görüyor)",
+   "note": "*view something positively* \"bir şeye olumlu bakmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (nostaljiye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "far more positively",
+    "meaning": "çok daha olumlu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "far more positively",
+    "meaning": "çok daha olumlu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "positively",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "olumlu",
+   "note": "*-ly* eki sıfattan zarf yapar: *positive* → *positively*.",
+   "form": "positive + -ly (sıfattan zarf)",
+   "base": "olumlu bir şekilde",
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "far more positively",
+    "meaning": "çok daha olumlu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "recall",
+   "pos": "verb",
+   "wordId": "recall",
+   "sense": 0,
+   "context": "hatırlamak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Recalling happy memories* → mutlu anıları hatırlamak.",
+   "form": "recall + -ing",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "Recalling happy memories",
+    "meaning": "mutlu anıları hatırlamak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "Recalling happy memories",
+    "meaning": "mutlu anıları hatırlamak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "Recalling happy memories",
+    "meaning": "mutlu anıları hatırlamak"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (psikologlar)",
+   "note": "Virgüller arasındaki *they have found* \"buldukları üzere, bulgularına göre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "they have found",
+    "meaning": "buldukları üzere"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "they have found",
+    "meaning": "buldukları üzere"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin 3. hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "they have found",
+    "meaning": "buldukları üzere"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azaltmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "feeling",
+   "pos": "noun",
+   "wordId": "feeling",
+   "sense": 0,
+   "context": "duygular",
+   "note": null,
+   "form": "feeling'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "feelings of loneliness",
+    "meaning": "yalnızlık duygusu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(yalnızlık duygusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "feelings of loneliness",
+    "meaning": "yalnızlık duygusu"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "loneliness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık",
+   "note": null,
+   "form": null,
+   "base": "yalnızlık",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "feelings of loneliness",
+    "meaning": "yalnızlık duygusu"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "strengthen",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "güçlendirmek",
+   "note": null,
+   "form": null,
+   "base": "güçlendirmek",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "his (duygu)",
+   "note": "*a sense that…* \"… olduğu hissi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "meaning",
+   "pos": "noun",
+   "wordId": "meaning",
+   "sense": 0,
+   "context": "anlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "our sense that life has meaning",
+    "meaning": "hayatın bir anlamı olduğu hissimiz"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "advertiser",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "reklamcılar",
+   "note": null,
+   "form": "advertiser'ın çoğulu",
+   "base": "reklamcı, reklam veren",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "çok iyi",
+   "note": "*well aware* \"çok iyi farkında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "well aware of",
+    "meaning": "-in çok iyi farkında"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "aware",
+   "pos": "adjective",
+   "wordId": "aware",
+   "sense": 0,
+   "context": "farkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "well aware of",
+    "meaning": "-in çok iyi farkında"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(aware of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "well aware of",
+    "meaning": "-in çok iyi farkında"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "effect",
+   "pos": "noun",
+   "wordId": "effect",
+   "sense": 0,
+   "context": "etki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "image",
+   "pos": "noun",
+   "wordId": "image",
+   "sense": 0,
+   "context": "görüntüler",
+   "note": null,
+   "form": "image'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "from the past",
+    "meaning": "geçmişten"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "from the past",
+    "meaning": "geçmişten"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "past",
+   "pos": "noun",
+   "wordId": "past",
+   "sense": 1,
+   "context": "geçmiş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "from the past",
+    "meaning": "geçmişten"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "create",
+   "pos": "verb",
+   "wordId": "create",
+   "sense": 0,
+   "context": "kurmak (yaratmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "create an emotional connection",
+    "meaning": "duygusal bir bağ kurmak"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an emotional connection*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "create an emotional connection",
+    "meaning": "duygusal bir bağ kurmak"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "emotional",
+   "pos": "adjective",
+   "wordId": "emotional",
+   "sense": 0,
+   "context": "duygusal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "create an emotional connection",
+    "meaning": "duygusal bir bağ kurmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "create an emotional connection",
+    "meaning": "duygusal bir bağ kurmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "consumer",
+   "pos": "noun",
+   "wordId": "consumer",
+   "sense": 0,
+   "context": "tüketiciler",
+   "note": null,
+   "form": "consumer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "nostalgia",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "nostalji",
+   "note": null,
+   "form": null,
+   "base": "nostalji, geçmişe özlem",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Virgüller arasındaki *it appears* \"görünüşe göre, anlaşılan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "it appears",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "görünüyor",
+   "note": null,
+   "form": "appear + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "it appears",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*not merely … but also …* \"yalnızca … değil, aynı zamanda …\" demektir.",
+   "form": null,
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "past",
+   "pos": "noun",
+   "wordId": "past",
+   "sense": 1,
+   "context": "geçmiş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "aynı zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 73,
+    "text": "not merely … but also",
+    "meaning": "yalnızca … değil, aynı zamanda"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardımcı oluyor",
+   "note": "*help someone (to) do something* \"birinin bir şey yapmasına yardım etmek\" demektir; *to* kullanılmayabilir.",
+   "form": "help + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bize",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "cope",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "başa çıkmak",
+   "note": "*cope with something* \"bir şeyle başa çıkmak\" demektir.",
+   "form": null,
+   "base": "başa çıkmak",
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "cope with the present",
+    "meaning": "bugünle başa çıkmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "cope with the present",
+    "meaning": "bugünle başa çıkmak"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "cope with the present",
+    "meaning": "bugünle başa çıkmak"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "present",
+   "pos": "noun",
+   "wordId": "present",
+   "sense": 1,
+   "context": "bugün (şimdiki zaman)",
+   "note": "*the present* \"şimdiki zaman, bugün\" demektir; *the past* (geçmiş) ve *the future* (gelecek) ile birlikte kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "cope with the present",
+    "meaning": "bugünle başa çıkmak"
+   }
+  }
+ ]
+}

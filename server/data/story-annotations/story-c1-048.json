@@ -1,0 +1,1194 @@
+{
+ "storyId": "story-c1-048",
+ "textHash": "9822627253e8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Uyku, bir hareketsizlik dönemi olmak şöyle dursun, anıların oluşmasında hayati bir rol oynar."
+  },
+  {
+   "tr": "Derin uyku sırasında beyin, günün deneyimlerini yeniden oynatıp düzenliyor ve önemli bilgileri kalıcı belleğe aktarıyor gibi görünüyor."
+  },
+  {
+   "tr": "Bu nedenle sınavdan önceki gece hiç uyumayan öğrenciler kendi çabalarını baltalıyor olabilir."
+  },
+  {
+   "tr": "Araştırmalar, ders çalıştıktan sonra iyi bir gece uykusunun, fazladan saatlerce tekrar yapmak kadar değerli olabileceğini gösteriyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "(far from: … şöyle dursun)",
+   "note": "*far from* + *-ing* \"… -mek şöyle dursun, … -mekten çok uzak\" demektir ve beklenenin tersini vurgular.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Far from",
+    "meaning": "… -mekten çok uzak, şöyle dursun"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "(far from)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Far from",
+    "meaning": "… -mekten çok uzak, şöyle dursun"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "Far from being a period of inactivity",
+    "meaning": "bir hareketsizlik dönemi olmak şöyle dursun"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "Far from being a period of inactivity",
+    "meaning": "bir hareketsizlik dönemi olmak şöyle dursun"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "period",
+   "pos": "noun",
+   "wordId": "period",
+   "sense": 0,
+   "context": "dönem",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "Far from being a period of inactivity",
+    "meaning": "bir hareketsizlik dönemi olmak şöyle dursun"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… dönemi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "Far from being a period of inactivity",
+    "meaning": "bir hareketsizlik dönemi olmak şöyle dursun"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "inactivity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hareketsizlik",
+   "note": "*in-* (olumsuzluk) + *activity* (etkinlik): \"hareketsizlik, etkinsizlik\".",
+   "form": null,
+   "base": "hareketsizlik, etkinsizlik",
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "Far from being a period of inactivity",
+    "meaning": "bir hareketsizlik dönemi olmak şöyle dursun"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "sleep",
+   "pos": "noun",
+   "wordId": "sleep",
+   "sense": 1,
+   "context": "uyku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynar",
+   "note": "*play a role in something* \"bir şeyde rol oynamak\" demektir.",
+   "form": "play + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "plays a vital role",
+    "meaning": "hayati bir rol oynar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "plays a vital role",
+    "meaning": "hayati bir rol oynar"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "vital",
+   "pos": "adjective",
+   "wordId": "vital",
+   "sense": 0,
+   "context": "hayati",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "plays a vital role",
+    "meaning": "hayati bir rol oynar"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "role",
+   "pos": "noun",
+   "wordId": "role",
+   "sense": 0,
+   "context": "rol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "plays a vital role",
+    "meaning": "hayati bir rol oynar"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (oluşmasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "the formation of memories",
+    "meaning": "anıların oluşması"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "formation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "oluşum",
+   "note": "*form* (oluşturmak) fiilinden *-ation* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "oluşum, oluşturma",
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "the formation of memories",
+    "meaning": "anıların oluşması"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (anıların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "the formation of memories",
+    "meaning": "anıların oluşması"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "the formation of memories",
+    "meaning": "anıların oluşması"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "During deep sleep",
+    "meaning": "derin uyku sırasında"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "deep",
+   "pos": "adjective",
+   "wordId": "deep",
+   "sense": 0,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "During deep sleep",
+    "meaning": "derin uyku sırasında"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "sleep",
+   "pos": "noun",
+   "wordId": "sleep",
+   "sense": 1,
+   "context": "uyku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "During deep sleep",
+    "meaning": "derin uyku sırasında"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "brain",
+   "pos": "noun",
+   "wordId": "brain",
+   "sense": 0,
+   "context": "beyin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "gibi görünüyor",
+   "note": "*appear to* + fiil \"… gibi görünmek\" demektir.",
+   "form": "appear + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "appears to replay and organise",
+    "meaning": "yeniden oynatıp düzenliyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "appears to replay and organise",
+    "meaning": "yeniden oynatıp düzenliyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "replay",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden oynatmak",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *play* (oynatmak) → *replay*.",
+   "form": null,
+   "base": "yeniden oynatmak, tekrar göstermek",
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "appears to replay and organise",
+    "meaning": "yeniden oynatıp düzenliyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "appears to replay and organise",
+    "meaning": "yeniden oynatıp düzenliyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "organize",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenlemek",
+   "note": "İngiliz yazımında *organise*, Amerikan yazımında *organize* yazılır.",
+   "form": "organise (İngiliz yazımı)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "appears to replay and organise",
+    "meaning": "yeniden oynatıp düzenliyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "the experiences of the day",
+    "meaning": "günün deneyimleri"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": null,
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "the experiences of the day",
+    "meaning": "günün deneyimleri"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (günün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "the experiences of the day",
+    "meaning": "günün deneyimleri"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "the experiences of the day",
+    "meaning": "günün deneyimleri"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "the experiences of the day",
+    "meaning": "günün deneyimleri"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "transfer",
+   "pos": "verb",
+   "wordId": "transfer",
+   "sense": 0,
+   "context": "aktararak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda yapılan bir eylemi anlatır.",
+   "form": "transfer + -ing (son harf r ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "important",
+   "pos": "adjective",
+   "wordId": "important",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (belleğe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "into lasting memory",
+    "meaning": "kalıcı belleğe"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "last",
+   "pos": "verb",
+   "wordId": "last",
+   "sense": 3,
+   "context": "kalıcı",
+   "note": "*lasting* sıfat olarak \"kalıcı, uzun süreli\" demektir.",
+   "form": "last + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "into lasting memory",
+    "meaning": "kalıcı belleğe"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "bellek (hafıza)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "into lasting memory",
+    "meaning": "kalıcı belleğe"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "(uyumayan)",
+   "note": "*stay up* \"yatmamak, geç saate kadar uyanık kalmak\" demektir; *stay up all night* → bütün gece uyumamak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "stay up all night",
+    "meaning": "bütün gece uyumamak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(stay up)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "stay up all night",
+    "meaning": "bütün gece uyumamak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "stay up all night",
+    "meaning": "bütün gece uyumamak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "stay up all night",
+    "meaning": "bütün gece uyumamak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-den önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an exam*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "exam",
+   "pos": "noun",
+   "wordId": "exam",
+   "sense": 0,
+   "context": "sınav",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "may therefore be undermining",
+    "meaning": "bu nedenle baltalıyor olabilir"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "may therefore be undermining",
+    "meaning": "bu nedenle baltalıyor olabilir"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*may be* + *-ing* şu anda olması muhtemel bir eylemi anlatır: \"… -iyor olabilir\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "may therefore be undermining",
+    "meaning": "bu nedenle baltalıyor olabilir"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "undermine",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "baltalıyor",
+   "note": "*undermine* bir şeyi yavaş yavaş \"zayıflatmak, baltalamak\" demektir.",
+   "form": "undermine + -ing (sondaki e düşer)",
+   "base": "baltalamak, zayıflatmak",
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "may therefore be undermining",
+    "meaning": "bu nedenle baltalıyor olabilir"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "their own efforts",
+    "meaning": "kendi çabaları"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "their own efforts",
+    "meaning": "kendi çabaları"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "effort",
+   "pos": "noun",
+   "wordId": "effort",
+   "sense": 0,
+   "context": "çabalar",
+   "note": null,
+   "form": "effort'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "their own efforts",
+    "meaning": "kendi çabaları"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": "*suggest* araştırmalarla kullanıldığında \"göstermek, işaret etmek\" anlamına gelir.",
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "a good night of sleep",
+    "meaning": "iyi bir gece uykusu"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "a good night of sleep",
+    "meaning": "iyi bir gece uykusu"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": "*a good night of sleep* \"iyi bir gece uykusu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "a good night of sleep",
+    "meaning": "iyi bir gece uykusu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(gece uykusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "a good night of sleep",
+    "meaning": "iyi bir gece uykusu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "sleep",
+   "pos": "noun",
+   "wordId": "sleep",
+   "sense": 1,
+   "context": "uyku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "a good night of sleep",
+    "meaning": "iyi bir gece uykusu"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "*after* + *-ing* \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "after studying",
+    "meaning": "ders çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "ders çalışmak",
+   "note": null,
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "after studying",
+    "meaning": "ders çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "tam",
+   "note": "*just as … as* \"tam olarak … kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "just as valuable as",
+    "meaning": "… kadar değerli"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "(… kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "just as valuable as",
+    "meaning": "… kadar değerli"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "valuable",
+   "pos": "adjective",
+   "wordId": "valuable",
+   "sense": 0,
+   "context": "değerli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "just as valuable as",
+    "meaning": "… kadar değerli"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "kadar",
+   "note": "*as … as* kalıbındaki ikinci *as* karşılaştırılan şeyi gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "just as valuable as",
+    "meaning": "… kadar değerli"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "additional",
+   "pos": "adjective",
+   "wordId": "additional",
+   "sense": 0,
+   "context": "fazladan (ek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "additional hours of revision",
+    "meaning": "fazladan saatlerce tekrar"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saatler",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "additional hours of revision",
+    "meaning": "fazladan saatlerce tekrar"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… saatlik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "additional hours of revision",
+    "meaning": "fazladan saatlerce tekrar"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "revision",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tekrar",
+   "note": "İngiliz İngilizcesinde *revision* sınav öncesi yapılan \"konu tekrarı\" demektir.",
+   "form": null,
+   "base": "tekrar (sınav çalışması); düzeltme",
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "additional hours of revision",
+    "meaning": "fazladan saatlerce tekrar"
+   }
+  }
+ ]
+}

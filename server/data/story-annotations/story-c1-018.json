@@ -1,0 +1,1237 @@
+{
+ "storyId": "story-c1-018",
+ "textHash": "da3850e42ff1",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İçten bir özür dilemek, göründüğünden çok daha zordur."
+  },
+  {
+   "tr": "İnsanlar çoğu zaman kendi yaptıkları şey için değil, karşılarındakinin nasıl hissettiği için özür diler; bu da sorumluluğu belli belirsiz bir şekilde konuşan kişiden uzaklaştırır."
+  },
+  {
+   "tr": "Uzmanlar, etkili bir özrün verilen somut zararı kabul etmesi, gerçek bir pişmanlık dile getirmesi ve mümkünse durumu düzeltmenin bir yolunu sunması gerektiğini söylüyor."
+  },
+  {
+   "tr": "Bir özür ancak bu üç unsurun hepsi bulunduğunda güveni yeniden sağlayabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "sincere",
+   "pos": "adjective",
+   "wordId": "sincere",
+   "sense": 0,
+   "context": "içten (samimi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "apology",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "özür",
+   "note": "*apologise* (özür dilemek) fiilinin isim halidir; çoğulu *apologies*'dir.",
+   "form": null,
+   "base": "özür",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "considerably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çok (epey)",
+   "note": "*considerably* karşılaştırmalardan önce \"çok, epey\" anlamı verir: *considerably more difficult* → çok daha zor.",
+   "form": "considerable + -ly (sıfattan zarf)",
+   "base": "epey, önemli ölçüde",
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "considerably more difficult",
+    "meaning": "çok daha zor"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "considerably more difficult",
+    "meaning": "çok daha zor"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "considerably more difficult",
+    "meaning": "çok daha zor"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "to deliver",
+    "meaning": "(özür) dilemek, sunmak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "deliver",
+   "pos": "verb",
+   "wordId": "deliver",
+   "sense": 0,
+   "context": "(özür) dilemek (sunmak)",
+   "note": "*deliver* \"teslim etmek\" demektir; *deliver an apology / a speech* \"özür dilemek / konuşma yapmak\" anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "to deliver",
+    "meaning": "(özür) dilemek, sunmak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "than it might appear",
+    "meaning": "göründüğünden"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (özür dilemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "than it might appear",
+    "meaning": "göründüğünden"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "than it might appear",
+    "meaning": "göründüğünden"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "görünmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "than it might appear",
+    "meaning": "göründüğünden"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "all",
+   "pos": "adverb",
+   "wordId": "all",
+   "sense": 2,
+   "context": "(all too often)",
+   "note": "*all too often* \"çoğu zaman, (ne yazık ki) çok sık\" demektir ve olumsuz bir durumu vurgular.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "All too often",
+    "meaning": "çoğu zaman (ne yazık ki sıkça)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "All too often",
+    "meaning": "çoğu zaman (ne yazık ki sıkça)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "All too often",
+    "meaning": "çoğu zaman (ne yazık ki sıkça)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "apologize",
+   "pos": "verb",
+   "wordId": "apologize",
+   "sense": 0,
+   "context": "özür diler",
+   "note": "*apologise for something* \"bir şey için özür dilemek\" demektir; İngiliz yazımında *apologise*, Amerikan yazımında *apologize* yazılır.",
+   "form": "apologise (İngiliz yazımı)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "how the other person feels",
+    "meaning": "karşıdaki kişinin nasıl hissettiği"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "how the other person feels",
+    "meaning": "karşıdaki kişinin nasıl hissettiği"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "diğer (karşıdaki)",
+   "note": "*the other person* \"karşıdaki kişi, öbür kişi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "how the other person feels",
+    "meaning": "karşıdaki kişinin nasıl hissettiği"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "how the other person feels",
+    "meaning": "karşıdaki kişinin nasıl hissettiği"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissettiği",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "how the other person feels",
+    "meaning": "karşıdaki kişinin nasıl hissettiği"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* \"… yerine, … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "rather than for",
+    "meaning": "… için değil"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "rather than for",
+    "meaning": "… için değil"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "rather than for",
+    "meaning": "… için değil"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(yaptıkları) şey",
+   "note": "*what* burada \"… -an şey\" demektir: *what they did* → yaptıkları şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "what they themselves did",
+    "meaning": "kendi yaptıkları şey"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "what they themselves did",
+    "meaning": "kendi yaptıkları şey"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendileri",
+   "note": "Özneden sonra gelen *themselves* vurgu katar: *they themselves* → bizzat kendileri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "what they themselves did",
+    "meaning": "kendi yaptıkları şey"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yaptıkları",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "what they themselves did",
+    "meaning": "kendi yaptıkları şey"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına gönderme yapabilir: \"… ki bu da …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "subtly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "belli belirsiz",
+   "note": null,
+   "form": "subtle + -ly (sıfattan zarf)",
+   "base": "belli belirsiz, incelikle",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "shift",
+   "pos": "verb",
+   "wordId": "shift",
+   "sense": 1,
+   "context": "kaydırır",
+   "note": "*shift responsibility* \"sorumluluğu (başkasına) kaydırmak\" demektir.",
+   "form": "shift + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "responsibility",
+   "pos": "noun",
+   "wordId": "responsibility",
+   "sense": 0,
+   "context": "sorumluluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "uzağa",
+   "note": "*away from* \"-den uzağa\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "speaker",
+   "pos": "noun",
+   "wordId": "speaker",
+   "sense": 0,
+   "context": "konuşan kişi",
+   "note": "*speaker* \"konuşmacı, konuşan kişi\" ve \"hoparlör\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "shifts responsibility away from the speaker",
+    "meaning": "sorumluluğu konuşan kişiden uzaklaştırır"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzmanlar",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "söylüyor (öneriyor)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an effective apology*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "effective",
+   "pos": "adjective",
+   "wordId": "effective",
+   "sense": 0,
+   "context": "etkili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "apology",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "özür",
+   "note": null,
+   "form": null,
+   "base": "özür",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "acknowledge",
+   "pos": "verb",
+   "wordId": "acknowledge",
+   "sense": 0,
+   "context": "kabul etmek",
+   "note": "*acknowledge*'daki *k* okunmaz (\"ıknolic\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "acknowledge the specific harm caused",
+    "meaning": "verilen somut zararı kabul etmek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "acknowledge the specific harm caused",
+    "meaning": "verilen somut zararı kabul etmek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "specific",
+   "pos": "adjective",
+   "wordId": "specific",
+   "sense": 0,
+   "context": "somut (belirli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "acknowledge the specific harm caused",
+    "meaning": "verilen somut zararı kabul etmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "harm",
+   "pos": "noun",
+   "wordId": "harm",
+   "sense": 0,
+   "context": "zarar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "acknowledge the specific harm caused",
+    "meaning": "verilen somut zararı kabul etmek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "cause",
+   "pos": "verb",
+   "wordId": "cause",
+   "sense": 1,
+   "context": "verilen (yol açılan)",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *the harm caused* = *the harm that was caused* → verilen zarar.",
+   "form": "cause fiilinin 3. hali (caused, -d)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "acknowledge the specific harm caused",
+    "meaning": "verilen somut zararı kabul etmek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "express",
+   "pos": "verb",
+   "wordId": "express",
+   "sense": 0,
+   "context": "dile getirmek (ifade etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "express genuine regret",
+    "meaning": "gerçek pişmanlık dile getirmek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek (içten)",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "express genuine regret",
+    "meaning": "gerçek pişmanlık dile getirmek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "regret",
+   "pos": "noun",
+   "wordId": "regret",
+   "sense": 1,
+   "context": "pişmanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "express genuine regret",
+    "meaning": "gerçek pişmanlık dile getirmek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(where possible: mümkünse)",
+   "note": "*where possible* \"mümkün olduğunda, mümkünse\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "where possible",
+    "meaning": "mümkünse"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "possible",
+   "pos": "adjective",
+   "wordId": "possible",
+   "sense": 0,
+   "context": "mümkün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "where possible",
+    "meaning": "mümkünse"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "sunmak (önermek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 63,
+    "text": "a way of putting things right",
+    "meaning": "durumu düzeltmenin bir yolu"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": "*a way of* + *-ing* \"… -menin bir yolu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 63,
+    "text": "a way of putting things right",
+    "meaning": "durumu düzeltmenin bir yolu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (düzeltmenin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 63,
+    "text": "a way of putting things right",
+    "meaning": "durumu düzeltmenin bir yolu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "(düzeltmek)",
+   "note": "*put things right* \"durumu düzeltmek, işleri yoluna koymak\" demektir.",
+   "form": "put + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "putting things right",
+    "meaning": "durumu düzeltmek"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şeyler (durum)",
+   "note": null,
+   "form": "thing'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "putting things right",
+    "meaning": "durumu düzeltmek"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "right",
+   "pos": "adjective",
+   "wordId": "right",
+   "sense": 0,
+   "context": "doğru (düzgün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "putting things right",
+    "meaning": "durumu düzeltmek"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "ancak",
+   "note": "*Only when* cümle başına gelince devrik yapı kullanılır: *Only when … is an apology likely…* (= *An apology is likely … only when…*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "hepsi (bütün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "element",
+   "pos": "noun",
+   "wordId": "element",
+   "sense": 0,
+   "context": "unsurlar",
+   "note": null,
+   "form": "element'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(bulunduğunda)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "present",
+   "pos": "adjective",
+   "wordId": "present",
+   "sense": 0,
+   "context": "mevcut (bulunan)",
+   "note": "*present* sıfat olarak \"mevcut, hazır bulunan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(devrik yapı)",
+   "note": "Devrik yapıda *is* özneden (*an apology*) önce gelir.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "Only when all three elements are present is",
+    "meaning": "ancak üç unsurun hepsi bulunduğunda (devrik yapı)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an apology*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "apology",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "özür",
+   "note": null,
+   "form": null,
+   "base": "özür",
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "likely",
+   "pos": "adjective",
+   "wordId": "likely",
+   "sense": 0,
+   "context": "muhtemel (olası)",
+   "note": "*be likely to do something* \"bir şeyi yapması muhtemel olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "restore",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden sağlamak",
+   "note": "*restore* bir şeyi \"eski haline getirmek, yeniden kurmak\" demektir.",
+   "form": null,
+   "base": "eski haline getirmek, yeniden sağlamak",
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "restore trust",
+    "meaning": "güveni yeniden sağlamak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "trust",
+   "pos": "noun",
+   "wordId": "trust",
+   "sense": 0,
+   "context": "güven",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "restore trust",
+    "meaning": "güveni yeniden sağlamak"
+   }
+  }
+ ]
+}

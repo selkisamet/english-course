@@ -1,0 +1,1204 @@
+{
+ "storyId": "story-c1-035",
+ "textHash": "c744e30f9643",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Pek çok elektronik cihaz, tamir edilmesini son derece zorlaştıracak şekilde tasarlanıyor."
+  },
+  {
+   "tr": "Piller yerlerine yapıştırılıyor, yedek parça bulunmuyor ve üreticiler zaman zaman tamir kılavuzlarını paylaşmayı reddediyor."
+  },
+  {
+   "tr": "Sonuç olarak kolayca onarılabilecek ürünler çoğu zaman çöpe atılıyor."
+  },
+  {
+   "tr": "Kampanya yürütenler, tüketicilerin sahip oldukları şeyi tamir etme konusunda yasal bir hakkı olması gerektiğini savunuyor ve birkaç hükümet, üreticilerin belirli bir asgari süre boyunca parça ve bilgi sağlamasını zorunlu kılan yasalar çıkarmaya başladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "electronic",
+   "pos": "adjective",
+   "wordId": "electronic",
+   "sense": 0,
+   "context": "elektronik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "electronic devices",
+    "meaning": "elektronik cihazlar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "device",
+   "pos": "noun",
+   "wordId": "device",
+   "sense": 0,
+   "context": "cihazlar",
+   "note": null,
+   "form": "device'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "electronic devices",
+    "meaning": "elektronik cihazlar"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıyor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are designed in ways",
+    "meaning": "… şekilde tasarlanır"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "design",
+   "pos": "verb",
+   "wordId": "design",
+   "sense": 1,
+   "context": "tasarlanıyor",
+   "note": null,
+   "form": "design fiilinin 3. hali (designed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are designed in ways",
+    "meaning": "… şekilde tasarlanır"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(… şekilde)",
+   "note": "*in ways that…* \"… şekillerde, … biçimde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are designed in ways",
+    "meaning": "… şekilde tasarlanır"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "şekiller (yollar)",
+   "note": null,
+   "form": "way'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are designed in ways",
+    "meaning": "… şekilde tasarlanır"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-acak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(zor)laştırmak",
+   "note": "*make something* + sıfat + *to* + fiil \"bir şeyi … -mesi … hale getirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (cihazları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "extremely",
+   "pos": "adverb",
+   "wordId": "extremely",
+   "sense": 0,
+   "context": "son derece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "repair",
+   "pos": "verb",
+   "wordId": "repair",
+   "sense": 0,
+   "context": "tamir etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "make them extremely difficult to repair",
+    "meaning": "tamir edilmelerini son derece zorlaştırmak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "battery",
+   "pos": "noun",
+   "wordId": "battery",
+   "sense": 0,
+   "context": "piller",
+   "note": null,
+   "form": "battery'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıyor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "are glued in place",
+    "meaning": "yerlerine yapıştırılır"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "glue",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yapıştırılıyor",
+   "note": "*glue* isim olarak \"yapıştırıcı\", fiil olarak \"yapıştırmak\" demektir.",
+   "form": "glue fiilinin 3. hali (glued, -d)",
+   "base": "yapıştırmak",
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "are glued in place",
+    "meaning": "yerlerine yapıştırılır"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in place: yerinde)",
+   "note": "*in place* \"yerinde, yerine sabitlenmiş\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "are glued in place",
+    "meaning": "yerlerine yapıştırılır"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "are glued in place",
+    "meaning": "yerlerine yapıştırılır"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "spare",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yedek",
+   "note": "*spare parts* \"yedek parçalar\" demektir.",
+   "form": null,
+   "base": "yedek, fazla",
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "spare parts",
+    "meaning": "yedek parçalar"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "parçalar",
+   "note": null,
+   "form": "part'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "spare parts",
+    "meaning": "yedek parçalar"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "unavailable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bulunmuyor (temin edilemez)",
+   "note": "*un-* ön eki olumsuzluk katar: *available* (mevcut) → *unavailable* (bulunmayan).",
+   "form": null,
+   "base": "bulunmayan, temin edilemeyen",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "manufacturer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "üreticiler",
+   "note": "*manufacture* (üretmek) fiilinden *-er* ekiyle türemiştir.",
+   "form": "manufacturer'ın çoğulu",
+   "base": "üretici, imalatçı",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "zaman zaman (bazen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "refuse",
+   "pos": "verb",
+   "wordId": "refuse",
+   "sense": 0,
+   "context": "reddediyor",
+   "note": "*refuse to do something* \"bir şeyi yapmayı reddetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "repair",
+   "pos": "noun",
+   "wordId": "repair",
+   "sense": 1,
+   "context": "tamir",
+   "note": "Burada *repair* isim olarak *manuals*'ı niteler: *repair manuals* → tamir kılavuzları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "repair manuals",
+    "meaning": "tamir kılavuzları"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "manual",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kılavuzlar",
+   "note": "*manual* isim olarak \"kullanım kılavuzu\", sıfat olarak \"elle yapılan\" demektir.",
+   "form": "manual'ın çoğulu",
+   "base": "kılavuz, el kitabı",
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "repair manuals",
+    "meaning": "tamir kılavuzları"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(as a result: sonuç olarak)",
+   "note": "*as a result* \"sonuç olarak, bu nedenle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "product",
+   "pos": "noun",
+   "wordId": "product",
+   "sense": 0,
+   "context": "ürünler",
+   "note": null,
+   "form": "product'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olanak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "could easily be fixed",
+    "meaning": "kolayca onarılabilir"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "easily",
+   "pos": "adverb",
+   "wordId": "easily",
+   "sense": 0,
+   "context": "kolayca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "could easily be fixed",
+    "meaning": "kolayca onarılabilir"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "could easily be fixed",
+    "meaning": "kolayca onarılabilir"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "fix",
+   "pos": "verb",
+   "wordId": "fix",
+   "sense": 0,
+   "context": "onarılmak",
+   "note": null,
+   "form": "fix fiilinin 3. hali (fixed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "could easily be fixed",
+    "meaning": "kolayca onarılabilir"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıyor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "throw",
+   "pos": "verb",
+   "wordId": "throw",
+   "sense": 0,
+   "context": "atılmak",
+   "note": "*throw something away* \"bir şeyi atmak, çöpe atmak\" demektir.",
+   "form": "throw fiilinin 3. hali (thrown, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "thrown away",
+    "meaning": "çöpe atılır (atılmış)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "(throw away: çöpe atmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "thrown away",
+    "meaning": "çöpe atılır (atılmış)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "campaigner",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kampanya yürütenler",
+   "note": "*campaign* (kampanya) isminden *-er* ekiyle \"kampanya yürüten kişi\" anlamında isim yapılmıştır.",
+   "form": "campaigner'ın çoğulu",
+   "base": "kampanyacı, savunucu",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "consumer",
+   "pos": "noun",
+   "wordId": "consumer",
+   "sense": 0,
+   "context": "tüketiciler",
+   "note": null,
+   "form": "consumer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "sahip olmak (olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "a legal right",
+    "meaning": "yasal bir hak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "legal",
+   "pos": "adjective",
+   "wordId": "legal",
+   "sense": 0,
+   "context": "yasal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "a legal right",
+    "meaning": "yasal bir hak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "right",
+   "pos": "noun",
+   "wordId": "right",
+   "sense": 2,
+   "context": "hak",
+   "note": "*right* \"sağ\" ve \"doğru\" anlamlarının yanında isim olarak \"hak\" demektir: *a right to do something* → bir şeyi yapma hakkı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "a legal right",
+    "meaning": "yasal bir hak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(tamir etme) -me",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "repair",
+   "pos": "verb",
+   "wordId": "repair",
+   "sense": 0,
+   "context": "tamir etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "repair what they own",
+    "meaning": "sahip oldukları şeyi tamir etmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(sahip oldukları) şey",
+   "note": "*what* burada \"… -an şey\" demektir: *what they own* → sahip oldukları şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "repair what they own",
+    "meaning": "sahip oldukları şeyi tamir etmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "repair what they own",
+    "meaning": "sahip oldukları şeyi tamir etmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "own",
+   "pos": "verb",
+   "wordId": "own",
+   "sense": 2,
+   "context": "sahip olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "repair what they own",
+    "meaning": "sahip oldukları şeyi tamir etmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "government",
+   "pos": "noun",
+   "wordId": "government",
+   "sense": 0,
+   "context": "hükümetler",
+   "note": null,
+   "form": "government'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin 3. hali (begun, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "introduce",
+   "pos": "verb",
+   "wordId": "introduce",
+   "sense": 0,
+   "context": "çıkarmak (uygulamaya koymak)",
+   "note": "*introduce a law* \"bir yasa çıkarmak, getirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "introduce laws",
+    "meaning": "yasa çıkarmak"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "law",
+   "pos": "noun",
+   "wordId": "law",
+   "sense": 0,
+   "context": "yasalar",
+   "note": null,
+   "form": "law'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "introduce laws",
+    "meaning": "yasa çıkarmak"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "require",
+   "pos": "verb",
+   "wordId": "require",
+   "sense": 0,
+   "context": "zorunlu kılan",
+   "note": "*require someone to do something* \"birinin bir şey yapmasını zorunlu kılmak\" demektir.",
+   "form": "require + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "requiring manufacturers to provide",
+    "meaning": "üreticilerin sağlamasını zorunlu kılan"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "manufacturer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "üreticiler",
+   "note": null,
+   "form": "manufacturer'ın çoğulu",
+   "base": "üretici, imalatçı",
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "requiring manufacturers to provide",
+    "meaning": "üreticilerin sağlamasını zorunlu kılan"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "requiring manufacturers to provide",
+    "meaning": "üreticilerin sağlamasını zorunlu kılan"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "provide",
+   "pos": "verb",
+   "wordId": "provide",
+   "sense": 0,
+   "context": "sağlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "requiring manufacturers to provide",
+    "meaning": "üreticilerin sağlamasını zorunlu kılan"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "parçalar",
+   "note": null,
+   "form": "part'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 78,
+    "text": "a minimum number of years",
+    "meaning": "asgari bir yıl sayısı"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "minimum",
+   "pos": "adjective",
+   "wordId": "minimum",
+   "sense": 0,
+   "context": "asgari (en az)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 78,
+    "text": "a minimum number of years",
+    "meaning": "asgari bir yıl sayısı"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": "*for a minimum number of years* \"belirli bir asgari süre boyunca, en az belirli sayıda yıl\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 78,
+    "text": "a minimum number of years",
+    "meaning": "asgari bir yıl sayısı"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 78,
+    "text": "a minimum number of years",
+    "meaning": "asgari bir yıl sayısı"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 78,
+    "text": "a minimum number of years",
+    "meaning": "asgari bir yıl sayısı"
+   }
+  }
+ ]
+}

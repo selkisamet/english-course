@@ -1,0 +1,1264 @@
+{
+ "storyId": "story-c1-011",
+ "textHash": "6bfaf9152814",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sürekli dijital uyaranlarla dolu bir çağda can sıkıntısı, ne pahasına olursa olsun kaçınılması gereken bir şey olarak görülmeye başlandı."
+  },
+  {
+   "tr": "Ancak psikologlar giderek artan bir şekilde can sıkıntısının değerli bir amaca hizmet ettiğini savunuyor."
+  },
+  {
+   "tr": "Zihin dışarıdan bir girdi olmadan bırakıldığında başıboş dolaşmaya eğilimlidir ve yaratıcı fikirler çoğu zaman tam da bu anlarda ortaya çıkar."
+  },
+  {
+   "tr": "Kendimize böyle boş zamanlar tanımaya nadiren izin veririz."
+  },
+  {
+   "tr": "İşin tuhafı, can sıkıntısını tamamen ortadan kaldırarak özgün düşünceyi besleyen koşulların ta kendisinden kendimizi mahrum bırakıyor olabiliriz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (çağda)",
+   "note": "*in an age of* + isim \"… çağında, … ile dolu bir dönemde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an age*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "çağ (dönem)",
+   "note": "*age*'in temel anlamı \"yaş\"tır; burada \"çağ, devir\" anlamındadır: *the digital age* → dijital çağ.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… çağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "constant",
+   "pos": "adjective",
+   "wordId": "constant",
+   "sense": 0,
+   "context": "sürekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "digital",
+   "pos": "adjective",
+   "wordId": "digital",
+   "sense": 0,
+   "context": "dijital",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "stimulation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "uyaranlar (uyarılma)",
+   "note": "*stimulate* (uyarmak, canlandırmak) fiilinden *-ation* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "uyarılma, uyaran",
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "In an age of constant digital stimulation",
+    "meaning": "sürekli dijital uyaranlarla dolu bir çağda"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "boredom",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "can sıkıntısı",
+   "note": "*-dom* eki bir durumu anlatan isim yapar: *bored* (canı sıkılmış) → *boredom* (can sıkıntısı).",
+   "form": null,
+   "base": "can sıkıntısı",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "has come to be regarded",
+    "meaning": "olarak görülmeye başlandı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "(… başlandı)",
+   "note": "*come to* + fiil \"zamanla … hale gelmek, … -meye başlamak\" demektir: *has come to be regarded* → olarak görülmeye başlandı.",
+   "form": "come fiilinin 3. hali (come, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "has come to be regarded",
+    "meaning": "olarak görülmeye başlandı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "has come to be regarded",
+    "meaning": "olarak görülmeye başlandı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ül-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "has come to be regarded",
+    "meaning": "olarak görülmeye başlandı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "regard",
+   "pos": "verb",
+   "wordId": "regard",
+   "sense": 0,
+   "context": "görülmek",
+   "note": "*regard something as something* \"bir şeyi … olarak görmek, saymak\" demektir.",
+   "form": "regard fiilinin 3. hali (regarded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "has come to be regarded",
+    "meaning": "olarak görülmeye başlandı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "something to be avoided",
+    "meaning": "kaçınılması gereken bir şey"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-ması gereken)",
+   "note": "İsimden sonra gelen *to be* + fiilin 3. hali \"… -ilmesi gereken\" demektir: *something to be avoided* → kaçınılması gereken bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "something to be avoided",
+    "meaning": "kaçınılması gereken bir şey"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "something to be avoided",
+    "meaning": "kaçınılması gereken bir şey"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "avoid",
+   "pos": "verb",
+   "wordId": "avoid",
+   "sense": 0,
+   "context": "kaçınılmak",
+   "note": null,
+   "form": "avoid fiilinin 3. hali (avoided, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "something to be avoided",
+    "meaning": "kaçınılması gereken bir şey"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at all costs)",
+   "note": "*at all costs* \"ne pahasına olursa olsun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "at all costs",
+    "meaning": "ne pahasına olursa olsun"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün (her)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "at all costs",
+    "meaning": "ne pahasına olursa olsun"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "bedel (maliyet)",
+   "note": null,
+   "form": "cost'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "at all costs",
+    "meaning": "ne pahasına olursa olsun"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": "*psychologist*'teki *p* okunmaz (\"saykolocist\").",
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "wordId": "increasingly",
+   "sense": 0,
+   "context": "giderek (artan bir şekilde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor (ileri sürüyor)",
+   "note": "*argue* \"tartışmak\" demektir; *argue that…* ise \"… olduğunu savunmak, ileri sürmek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (can sıkıntısı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "serve",
+   "pos": "verb",
+   "wordId": "serve",
+   "sense": 0,
+   "context": "hizmet ediyor",
+   "note": "*serve a purpose* \"bir amaca hizmet etmek, bir işe yaramak\" demektir.",
+   "form": "serve + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "serves a valuable purpose",
+    "meaning": "değerli bir amaca hizmet ediyor"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "serves a valuable purpose",
+    "meaning": "değerli bir amaca hizmet ediyor"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "valuable",
+   "pos": "adjective",
+   "wordId": "valuable",
+   "sense": 0,
+   "context": "değerli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "serves a valuable purpose",
+    "meaning": "değerli bir amaca hizmet ediyor"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "purpose",
+   "pos": "noun",
+   "wordId": "purpose",
+   "sense": 0,
+   "context": "amaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "serves a valuable purpose",
+    "meaning": "değerli bir amaca hizmet ediyor"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "is left without external input",
+    "meaning": "dışarıdan girdi olmadan bırakılır"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakıldığında",
+   "note": "*be left without something* \"bir şeyden yoksun bırakılmak, … olmadan kalmak\" demektir.",
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "is left without external input",
+    "meaning": "dışarıdan girdi olmadan bırakılır"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "is left without external input",
+    "meaning": "dışarıdan girdi olmadan bırakılır"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "external",
+   "pos": "adjective",
+   "wordId": "external",
+   "sense": 0,
+   "context": "dış (dışarıdan gelen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "is left without external input",
+    "meaning": "dışarıdan girdi olmadan bırakılır"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "input",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "girdi",
+   "note": "*input* \"girdi\", *output* ise \"çıktı\" demektir.",
+   "form": null,
+   "base": "girdi",
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "is left without external input",
+    "meaning": "dışarıdan girdi olmadan bırakılır"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (zihin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğilimindedir",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak, genellikle … -mek\" demektir.",
+   "form": "tend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "tends to wander",
+    "meaning": "başıboş dolaşma eğilimindedir"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "tends to wander",
+    "meaning": "başıboş dolaşma eğilimindedir"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "wander",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "başıboş dolaşmak",
+   "note": "*wander* \"amaçsızca dolaşmak\" demektir; *the mind wanders* \"zihin dalıp gider\" anlamına gelir.",
+   "form": null,
+   "base": "dolaşmak, gezinmek; (zihin) dalmak",
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "tends to wander",
+    "meaning": "başıboş dolaşma eğilimindedir"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is … that …* (vurgu cümlesi) aradaki bölümü öne çıkarır: *it is during these moments that…* → tam da bu anlarda…",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "-de (anlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "moment",
+   "pos": "noun",
+   "wordId": "moment",
+   "sense": 0,
+   "context": "anlar",
+   "note": null,
+   "form": "moment'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(vurgu: tam da)",
+   "note": "*It is … that* kalıbındaki *that* vurgulanan bölümü cümlenin geri kalanına bağlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 50,
+    "text": "it is often during these moments that",
+    "meaning": "çoğu zaman tam da bu anlarda"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "creative",
+   "pos": "adjective",
+   "wordId": "creative",
+   "sense": 0,
+   "context": "yaratıcı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikirler",
+   "note": null,
+   "form": "idea'nın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "emerge",
+   "pos": "verb",
+   "wordId": "emerge",
+   "sense": 0,
+   "context": "ortaya çıkar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "rarely",
+   "pos": "adverb",
+   "wordId": "rarely",
+   "sense": 0,
+   "context": "nadiren",
+   "note": "Olumsuz anlamlı zarf (*rarely, never, seldom*) cümle başına gelince devrik yapı kullanılır: *Rarely do we allow…* (= *We rarely allow…*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Rarely do we allow",
+    "meaning": "nadiren izin veririz (devrik yapı)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(devrik yapı)",
+   "note": "Devrik yapıda geniş zamanda yardımcı fiil *do/does* özneden önce gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Rarely do we allow",
+    "meaning": "nadiren izin veririz (devrik yapı)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Rarely do we allow",
+    "meaning": "nadiren izin veririz (devrik yapı)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "izin veririz (tanırız)",
+   "note": "*allow oneself something* \"kendine bir şeye izin vermek, bir şeyi kendine tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Rarely do we allow",
+    "meaning": "nadiren izin veririz (devrik yapı)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "ourselves",
+   "pos": "pronoun",
+   "wordId": "ourselves",
+   "sense": 0,
+   "context": "kendimize",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "böyle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "idle",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "boş (atıl)",
+   "note": "*idle time* \"boş, hiçbir şey yapılmadan geçen zaman\" demektir.",
+   "form": null,
+   "base": "boş, aylak, atıl",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "paradoxically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "işin tuhafı (paradoks olarak)",
+   "note": "*paradox* (çelişki, paradoks) isminden türemiş bir zarftır; beklenenin tersi bir durumu belirtir.",
+   "form": "paradoxical + -ly (sıfattan zarf)",
+   "base": "paradoks olarak, işin tuhafı",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır: \"… -erek\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "by eliminating boredom entirely",
+    "meaning": "can sıkıntısını tamamen ortadan kaldırarak"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "eliminate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ortadan kaldırarak",
+   "note": null,
+   "form": "eliminate + -ing (sondaki e düşer)",
+   "base": "ortadan kaldırmak, yok etmek",
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "by eliminating boredom entirely",
+    "meaning": "can sıkıntısını tamamen ortadan kaldırarak"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "boredom",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "can sıkıntısı",
+   "note": null,
+   "form": null,
+   "base": "can sıkıntısı",
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "by eliminating boredom entirely",
+    "meaning": "can sıkıntısını tamamen ortadan kaldırarak"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "entirely",
+   "pos": "adverb",
+   "wordId": "entirely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "by eliminating boredom entirely",
+    "meaning": "can sıkıntısını tamamen ortadan kaldırarak"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebiliriz (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "may be depriving",
+    "meaning": "mahrum bırakıyor olabiliriz"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*may be* + *-ing* şu anda olması muhtemel bir eylemi anlatır: \"… -iyor olabiliriz\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "may be depriving",
+    "meaning": "mahrum bırakıyor olabiliriz"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "deprive",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "mahrum bırakıyor",
+   "note": "*deprive someone of something* \"birini bir şeyden mahrum bırakmak\" demektir.",
+   "form": "deprive + -ing (sondaki e düşer)",
+   "base": "mahrum bırakmak, yoksun bırakmak",
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "ourselves",
+   "pos": "pronoun",
+   "wordId": "ourselves",
+   "sense": 0,
+   "context": "kendimizi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (deprive of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "very",
+   "pos": "adjective",
+   "wordId": "very",
+   "sense": 1,
+   "context": "ta kendisi",
+   "note": "*the very* + isim \"tam da o, … ta kendisi\" anlamında vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "condition'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 75,
+    "text": "depriving ourselves of the very conditions",
+    "meaning": "kendimizi koşulların ta kendisinden mahrum bırakmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "besleyen (teşvik eden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "original",
+   "pos": "adjective",
+   "wordId": "original",
+   "sense": 0,
+   "context": "özgün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "original thought",
+    "meaning": "özgün düşünce"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "thought",
+   "pos": "noun",
+   "wordId": "thought",
+   "sense": 0,
+   "context": "düşünce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 79,
+    "text": "original thought",
+    "meaning": "özgün düşünce"
+   }
+  }
+ ]
+}

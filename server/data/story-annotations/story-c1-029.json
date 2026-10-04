@@ -1,0 +1,1246 @@
+{
+ "storyId": "story-c1-029",
+ "textHash": "569bfb376ecd",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birçok eğitim sisteminde başarısızlık, mümkün olduğunca kaçınılması gereken utanç verici bir şey olarak görülür."
+  },
+  {
+   "tr": "Oysa en başarılı mucit ve girişimcilerin bazıları başarılarını tekrar tekrar yaptıkları hatalardan çıkardıkları derslere bağlıyor."
+  },
+  {
+   "tr": "Psikologlar, başarısızlığı bir öğrenme fırsatı olarak gören insanların zorluklarla karşılaştıklarında pes etmeme olasılığının daha yüksek olduğunu savunuyor."
+  },
+  {
+   "tr": "Bu nedenle bazı okullar artık öğrencileri yalnızca notlara odaklanmak yerine risk almaya ve neyin yanlış gittiği üzerine düşünmeye teşvik ediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sisteminde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "education",
+   "pos": "noun",
+   "wordId": "education",
+   "sense": 0,
+   "context": "eğitim",
+   "note": "Burada *education* isim olmasına rağmen *systems*'ı niteler: *education systems* → eğitim sistemleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "education systems",
+    "meaning": "eğitim sistemleri"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "system",
+   "pos": "noun",
+   "wordId": "system",
+   "sense": 0,
+   "context": "sistemler",
+   "note": null,
+   "form": "system'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "education systems",
+    "meaning": "eğitim sistemleri"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "failure",
+   "pos": "noun",
+   "wordId": "failure",
+   "sense": 0,
+   "context": "başarısızlık",
+   "note": "*fail* (başarısız olmak) fiilinin isim halidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ür)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "is treated as",
+    "meaning": "… olarak görülür (muamele edilir)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "treat",
+   "pos": "verb",
+   "wordId": "treat",
+   "sense": 0,
+   "context": "görülür (muamele edilir)",
+   "note": "*treat something as something* \"bir şeye … gibi davranmak, … olarak görmek\" demektir.",
+   "form": "treat fiilinin 3. hali (treated, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "is treated as",
+    "meaning": "… olarak görülür (muamele edilir)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "is treated as",
+    "meaning": "… olarak görülür (muamele edilir)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "shameful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "utanç verici",
+   "note": "*-ful* eki isimden sıfat yapar: *shame* (utanç) → *shameful* (utanç verici).",
+   "form": null,
+   "base": "utanç verici, ayıp",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli (gereken)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "should be avoided",
+    "meaning": "kaçınılmalı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "should be avoided",
+    "meaning": "kaçınılmalı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "avoid",
+   "pos": "verb",
+   "wordId": "avoid",
+   "sense": 0,
+   "context": "kaçınılmak",
+   "note": null,
+   "form": "avoid fiilinin 3. hali (avoided, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "should be avoided",
+    "meaning": "kaçınılmalı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "(whenever possible: mümkün olduğunca)",
+   "note": "*whenever possible* \"mümkün olan her durumda, mümkün olduğunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "whenever possible",
+    "meaning": "mümkün olduğunca"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "possible",
+   "pos": "adjective",
+   "wordId": "possible",
+   "sense": 0,
+   "context": "mümkün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "whenever possible",
+    "meaning": "mümkün olduğunca"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa (yine de)",
+   "note": "*yet* bağlaç olarak \"ama, oysa\" demektir ve *but*'tan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of the* + çoğul isim \"… -lerin bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "some of the most successful",
+    "meaning": "en başarılı … bazıları"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (… bazıları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "some of the most successful",
+    "meaning": "en başarılı … bazıları"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "some of the most successful",
+    "meaning": "en başarılı … bazıları"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "some of the most successful",
+    "meaning": "en başarılı … bazıları"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "successful",
+   "pos": "adjective",
+   "wordId": "successful",
+   "sense": 0,
+   "context": "başarılı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "some of the most successful",
+    "meaning": "en başarılı … bazıları"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "inventor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mucitler",
+   "note": "*invent* (icat etmek) fiilinden *-or* ekiyle \"yapan kişi\" anlamında isim yapılmıştır.",
+   "form": "inventor'ın çoğulu",
+   "base": "mucit",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "entrepreneur",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "girişimciler",
+   "note": "*entrepreneur* Fransızca kökenlidir ve \"kendi işini kuran kişi, girişimci\" demektir.",
+   "form": "entrepreneur'ün çoğulu",
+   "base": "girişimci",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "attribute",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bağlıyor (atfediyor)",
+   "note": "*attribute A to B* \"A'yı B'ye bağlamak, A'nın nedeninin B olduğunu söylemek\" demektir.",
+   "form": null,
+   "base": "atfetmek, -e bağlamak",
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "attribute their achievements to",
+    "meaning": "başarılarını … bağlamak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "attribute their achievements to",
+    "meaning": "başarılarını … bağlamak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "achievement",
+   "pos": "noun",
+   "wordId": "achievement",
+   "sense": 0,
+   "context": "başarılar",
+   "note": null,
+   "form": "achievement'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "attribute their achievements to",
+    "meaning": "başarılarını … bağlamak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (derslere)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "attribute their achievements to",
+    "meaning": "başarılarını … bağlamak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "dersler",
+   "note": "*learn a lesson from something* \"bir şeyden ders çıkarmak\" demektir. İsimden sonra *that* düşebilir: *the lessons (that) they learned*.",
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "the lessons they learned",
+    "meaning": "çıkardıkları dersler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "the lessons they learned",
+    "meaning": "çıkardıkları dersler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "çıkardıkları (öğrendikleri)",
+   "note": null,
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "the lessons they learned",
+    "meaning": "çıkardıkları dersler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "repeated",
+   "pos": "adjective",
+   "wordId": "repeated",
+   "sense": 0,
+   "context": "tekrar tekrar yapılan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "repeated mistakes",
+    "meaning": "tekrar tekrar yapılan hatalar"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hatalar",
+   "note": null,
+   "form": "mistake'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "repeated mistakes",
+    "meaning": "tekrar tekrar yapılan hatalar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": null,
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "view",
+   "pos": "verb",
+   "wordId": "view",
+   "sense": 1,
+   "context": "gören",
+   "note": "*view A as B* \"A'yı B olarak görmek, değerlendirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "view failure as an opportunity",
+    "meaning": "başarısızlığı bir fırsat olarak görmek"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "failure",
+   "pos": "noun",
+   "wordId": "failure",
+   "sense": 0,
+   "context": "başarısızlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "view failure as an opportunity",
+    "meaning": "başarısızlığı bir fırsat olarak görmek"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "view failure as an opportunity",
+    "meaning": "başarısızlığı bir fırsat olarak görmek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an opportunity*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "view failure as an opportunity",
+    "meaning": "başarısızlığı bir fırsat olarak görmek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "opportunity",
+   "pos": "noun",
+   "wordId": "opportunity",
+   "sense": 0,
+   "context": "fırsat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "view failure as an opportunity",
+    "meaning": "başarısızlığı bir fırsat olarak görmek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(öğrenme) -mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "more likely to persist",
+    "meaning": "pes etmeme olasılığı daha yüksek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "likely",
+   "pos": "adjective",
+   "wordId": "likely",
+   "sense": 0,
+   "context": "olası (muhtemel)",
+   "note": "*be more likely to do something* \"bir şeyi yapma olasılığı daha yüksek olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "more likely to persist",
+    "meaning": "pes etmeme olasılığı daha yüksek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "more likely to persist",
+    "meaning": "pes etmeme olasılığı daha yüksek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "persist",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "pes etmemek (sebat etmek)",
+   "note": "*persist* zorluklara rağmen \"devam etmek, ısrar etmek\" demektir.",
+   "form": null,
+   "base": "sebat etmek, ısrarla sürdürmek",
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "more likely to persist",
+    "meaning": "pes etmeme olasılığı daha yüksek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "when faced with difficulties",
+    "meaning": "zorluklarla karşılaştıklarında"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "karşılaşmak",
+   "note": "*be faced with something* \"bir şeyle karşı karşıya kalmak\" demektir; *when faced with* = *when they are faced with*.",
+   "form": "face fiilinin 3. hali (faced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "when faced with difficulties",
+    "meaning": "zorluklarla karşılaştıklarında"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "when faced with difficulties",
+    "meaning": "zorluklarla karşılaştıklarında"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "difficulty",
+   "pos": "noun",
+   "wordId": "difficulty",
+   "sense": 0,
+   "context": "zorluklar",
+   "note": null,
+   "form": "difficulty'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "when faced with difficulties",
+    "meaning": "zorluklarla karşılaştıklarında"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "consequently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bu nedenle (sonuç olarak)",
+   "note": null,
+   "form": "consequent + -ly (sıfattan zarf)",
+   "base": "sonuç olarak, bu nedenle",
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*a number of* + çoğul isim \"birtakım, bazı, birçok\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "a number of",
+    "meaning": "bazı, birtakım"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "(bazı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "a number of",
+    "meaning": "bazı, birtakım"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "a number of",
+    "meaning": "bazı, birtakım"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okullar",
+   "note": null,
+   "form": "school'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "teşvik ediyor",
+   "note": "*encourage someone to do something* \"birini bir şeyi yapmaya teşvik etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "pupil",
+   "pos": "noun",
+   "wordId": "pupil",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "pupil'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "almak",
+   "note": "*take a risk* \"risk almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "take risks",
+    "meaning": "risk almak"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "risk",
+   "pos": "noun",
+   "wordId": "risk",
+   "sense": 0,
+   "context": "riskler",
+   "note": null,
+   "form": "risk'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "take risks",
+    "meaning": "risk almak"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "reflect",
+   "pos": "verb",
+   "wordId": "reflect",
+   "sense": 0,
+   "context": "düşünmek",
+   "note": "*reflect* \"yansıtmak\" demektir; *reflect on something* ise \"bir şey üzerine düşünmek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 73,
+    "text": "reflect on what went wrong",
+    "meaning": "neyin yanlış gittiği üzerine düşünmek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 73,
+    "text": "reflect on what went wrong",
+    "meaning": "neyin yanlış gittiği üzerine düşünmek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "neyin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 73,
+    "text": "reflect on what went wrong",
+    "meaning": "neyin yanlış gittiği üzerine düşünmek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiği",
+   "note": "*go wrong* \"ters gitmek, kötü sonuçlanmak\" demektir.",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 73,
+    "text": "reflect on what went wrong",
+    "meaning": "neyin yanlış gittiği üzerine düşünmek"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "wrong",
+   "pos": "adverb",
+   "wordId": "wrong",
+   "sense": 1,
+   "context": "yanlış (ters)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 73,
+    "text": "reflect on what went wrong",
+    "meaning": "neyin yanlış gittiği üzerine düşünmek"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "focus",
+   "pos": "verb",
+   "wordId": "focus",
+   "sense": 0,
+   "context": "odaklanmak",
+   "note": null,
+   "form": "focus + -ing",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "exclusively",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*exclusive* (yalnızca birine ait) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "exclusive + -ly (sıfattan zarf)",
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (focus on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "grade",
+   "pos": "noun",
+   "wordId": "grade",
+   "sense": 0,
+   "context": "notlar",
+   "note": null,
+   "form": "grade'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "rather than focusing exclusively on grades",
+    "meaning": "yalnızca notlara odaklanmak yerine"
+   }
+  }
+ ]
+}

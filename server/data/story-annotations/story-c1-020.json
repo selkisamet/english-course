@@ -1,0 +1,1193 @@
+{
+ "storyId": "story-c1-020",
+ "textHash": "824cfab6f159",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birçok insan, daha kısa sürede daha fazlasını başarmasını sağladığına inandığı için aynı anda birden fazla iş yapabilme becerisiyle gurur duyar."
+  },
+  {
+   "tr": "Ancak araştırmalar, beynin emek gerektiren birden fazla işi aslında aynı anda yapmadığını gösteriyor."
+  },
+  {
+   "tr": "Beyin bunun yerine bu işler arasında hızla geçiş yapar ve her geçiş zaman ve dikkat kaybına yol açar."
+  },
+  {
+   "tr": "Sonuç olarak birden fazla işi aynı anda yapanlar sık sık daha fazla hata yapar ve işlerini bitirmeleri daha uzun sürer."
+  },
+  {
+   "tr": "Görünüşe göre bir seferde tek bir işe odaklanmak çok daha verimlidir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(gurur) duyar",
+   "note": "*take pride in something* \"bir şeyle gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "take pride in",
+    "meaning": "-den gurur duymak"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "pride",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gurur",
+   "note": "*proud* (gururlu) sıfatının isim halidir.",
+   "form": null,
+   "base": "gurur",
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "take pride in",
+    "meaning": "-den gurur duymak"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-le (becerisiyle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "take pride in",
+    "meaning": "-den gurur duymak"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "their ability to multitask",
+    "meaning": "aynı anda birden fazla iş yapabilme becerileri"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "ability",
+   "pos": "noun",
+   "wordId": "ability",
+   "sense": 0,
+   "context": "beceri (yetenek)",
+   "note": "*ability to do something* \"bir şeyi yapabilme becerisi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "their ability to multitask",
+    "meaning": "aynı anda birden fazla iş yapabilme becerileri"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-ebilme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "their ability to multitask",
+    "meaning": "aynı anda birden fazla iş yapabilme becerileri"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "multitask",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aynı anda birden fazla iş yapmak",
+   "note": "*multi-* ön eki \"çok\" anlamı katar: *multi* + *task* (görev) → aynı anda birçok iş yapmak.",
+   "form": null,
+   "base": "aynı anda birden fazla iş yapmak",
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "their ability to multitask",
+    "meaning": "aynı anda birden fazla iş yapabilme becerileri"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inandığı için",
+   "note": "Virgülden sonra gelen *-ing*'li fiil sebep bildirebilir: *believing that…* → … olduğuna inandığı için.",
+   "form": "believe + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğuna)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu beceri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "sağlar (izin verir)",
+   "note": "*allow someone to do something* \"birinin bir şeyi yapmasını sağlamak, ona olanak tanımak\" demektir.",
+   "form": "allow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "allows them to accomplish",
+    "meaning": "başarmalarını sağlar"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "allows them to accomplish",
+    "meaning": "başarmalarını sağlar"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "allows them to accomplish",
+    "meaning": "başarmalarını sağlar"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "accomplish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "başarmak",
+   "note": "*accomplish* \"bir işi başarıyla tamamlamak\" demektir.",
+   "form": null,
+   "base": "başarmak, gerçekleştirmek",
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "allows them to accomplish",
+    "meaning": "başarmalarını sağlar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazlası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "more in less time",
+    "meaning": "daha kısa sürede daha fazlası"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sürede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "more in less time",
+    "meaning": "daha kısa sürede daha fazlası"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "less",
+   "pos": "determiner",
+   "wordId": "less",
+   "sense": 0,
+   "context": "daha az",
+   "note": "*less* sayılamayan isimlerle kullanılır: *less time*; sayılabilenlerle *fewer* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "more in less time",
+    "meaning": "daha kısa sürede daha fazlası"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman (süre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "more in less time",
+    "meaning": "daha kısa sürede daha fazlası"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "indicate",
+   "pos": "verb",
+   "wordId": "indicate",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": null,
+   "form": "indicate + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "brain",
+   "pos": "noun",
+   "wordId": "brain",
+   "sense": 0,
+   "context": "beyin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-maz)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "does not actually",
+    "meaning": "aslında … -mez"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "does not actually",
+    "meaning": "aslında … -mez"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "actually",
+   "pos": "adverb",
+   "wordId": "actually",
+   "sense": 0,
+   "context": "aslında",
+   "note": "*actually* \"aslında, gerçekte\" demektir; Türkçedeki \"aktüel\" (güncel) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "does not actually",
+    "meaning": "aslında … -mez"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "perform",
+   "pos": "verb",
+   "wordId": "perform",
+   "sense": 0,
+   "context": "yapmak (gerçekleştirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birden fazla (birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "demanding",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "emek gerektiren",
+   "note": "*demand* (talep etmek) fiilinden türemiş bir sıfattır: \"çok emek, dikkat isteyen\".",
+   "form": null,
+   "base": "zahmetli, emek isteyen",
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "demanding tasks",
+    "meaning": "emek gerektiren işler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "task",
+   "pos": "noun",
+   "wordId": "task",
+   "sense": 0,
+   "context": "işler",
+   "note": null,
+   "form": "task'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "demanding tasks",
+    "meaning": "emek gerektiren işler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "simultaneously",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "aynı anda",
+   "note": "*simultaneous* (eşzamanlı) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "simultaneous + -ly (sıfattan zarf)",
+   "base": "aynı anda, eşzamanlı olarak",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "bunun yerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (beyin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "switch",
+   "pos": "verb",
+   "wordId": "switch",
+   "sense": 0,
+   "context": "geçiş yapar",
+   "note": null,
+   "form": "switch + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "switches rapidly between them",
+    "meaning": "aralarında hızla geçiş yapar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "rapidly",
+   "pos": "adverb",
+   "wordId": "rapidly",
+   "sense": 0,
+   "context": "hızla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "switches rapidly between them",
+    "meaning": "aralarında hızla geçiş yapar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "switches rapidly between them",
+    "meaning": "aralarında hızla geçiş yapar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (işler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "switches rapidly between them",
+    "meaning": "aralarında hızla geçiş yapar"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "switch",
+   "pos": "noun",
+   "wordId": "switch",
+   "sense": 1,
+   "context": "geçiş",
+   "note": "*switch* isim olarak \"düğme, şalter\" ve \"geçiş, değişiklik\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "(kaybına) yol açar",
+   "note": "*cost* + isim \"… kaybına mal olmak\" demektir: *each switch costs time* → her geçiş zaman kaybettirir.",
+   "form": "cost + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "costs time and attention",
+    "meaning": "zaman ve dikkat kaybına yol açar"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "costs time and attention",
+    "meaning": "zaman ve dikkat kaybına yol açar"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "costs time and attention",
+    "meaning": "zaman ve dikkat kaybına yol açar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "costs time and attention",
+    "meaning": "zaman ve dikkat kaybına yol açar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(as a result: sonuç olarak)",
+   "note": "*as a result* \"sonuç olarak, bu nedenle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "As a result",
+    "meaning": "sonuç olarak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -anlar)",
+   "note": "*those who* + fiil \"… -enler\" demektir: *those who multitask* → aynı anda birden fazla iş yapanlar.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "those who multitask",
+    "meaning": "aynı anda birden fazla iş yapanlar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "those who multitask",
+    "meaning": "aynı anda birden fazla iş yapanlar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "multitask",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aynı anda birden fazla iş yapan",
+   "note": null,
+   "form": null,
+   "base": "aynı anda birden fazla iş yapmak",
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "those who multitask",
+    "meaning": "aynı anda birden fazla iş yapanlar"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapar",
+   "note": "*make an error / a mistake* \"hata yapmak\" demektir (✗ do an error).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "make more errors",
+    "meaning": "daha fazla hata yapmak"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "make more errors",
+    "meaning": "daha fazla hata yapmak"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "error",
+   "pos": "noun",
+   "wordId": "error",
+   "sense": 0,
+   "context": "hatalar",
+   "note": "*error*, *mistake*'in daha resmî karşılığıdır.",
+   "form": "error'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "make more errors",
+    "meaning": "daha fazla hata yapmak"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürer",
+   "note": "*take longer (to do something)* \"(bir şeyi yapmak) daha uzun sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "take longer",
+    "meaning": "daha uzun sürmek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "daha uzun",
+   "note": null,
+   "form": "long + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "take longer",
+    "meaning": "daha uzun sürmek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "focus",
+   "pos": "verb",
+   "wordId": "focus",
+   "sense": 0,
+   "context": "odaklanmak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Focusing on one task* → tek bir işe odaklanmak.",
+   "form": "focus + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (focus on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "tek (bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "one task at a time",
+    "meaning": "bir seferde tek bir iş"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "task",
+   "pos": "noun",
+   "wordId": "task",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "one task at a time",
+    "meaning": "bir seferde tek bir iş"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at a time: bir seferde)",
+   "note": "*one at a time* \"her seferinde bir tane, teker teker\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "one task at a time",
+    "meaning": "bir seferde tek bir iş"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "one task at a time",
+    "meaning": "bir seferde tek bir iş"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "sefer (kez)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "one task at a time",
+    "meaning": "bir seferde tek bir iş"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Virgüller arasındaki *it seems* \"görünüşe göre, anlaşılan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünüyor",
+   "note": null,
+   "form": "seem + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "far more efficient",
+    "meaning": "çok daha verimli"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "far more efficient",
+    "meaning": "çok daha verimli"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "efficient",
+   "pos": "adjective",
+   "wordId": "efficient",
+   "sense": 0,
+   "context": "verimli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "far more efficient",
+    "meaning": "çok daha verimli"
+   }
+  }
+ ]
+}

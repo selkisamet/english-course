@@ -1,0 +1,1205 @@
+{
+ "storyId": "story-c1-031",
+ "textHash": "00e69cce9ff2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İnsanlık tarihinin büyük bölümünde insanlar geceleri başlarını kaldırıp binlerce yıldız görebiliyordu."
+  },
+  {
+   "tr": "Ancak bugün yapay aydınlatma, Samanyolu'nu dünya nüfusunun büyük bir kısmı için görünmez hale getirdi."
+  },
+  {
+   "tr": "Bu ışık kirliliği yalnızca estetik bir kayıp değildir."
+  },
+  {
+   "tr": "Gece aktif olan hayvanların davranışlarını bozar ve hatta insanların uyku düzenini bile etkileyebilir."
+  },
+  {
+   "tr": "Neyse ki bu sorunu çözmek nispeten kolaydır: sokak lambalarının ışığını aşağıya yönlendirmek ve gereksiz ışıkları kapatmak hemen fark yaratabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca (-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "büyük bölümü (çoğu)",
+   "note": "*most of* + isim \"… -in çoğu, büyük bölümü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan(lık)",
+   "note": "*human history* \"insanlık tarihi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebiliyordu",
+   "note": "*could* burada geçmişteki bir yeteneği, olanağı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakmak",
+   "note": "*look up* \"yukarı bakmak, başını kaldırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "look up",
+    "meaning": "başını kaldırıp bakmak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "yukarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "look up",
+    "meaning": "başını kaldırıp bakmak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at night: geceleri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "at night",
+    "meaning": "geceleri"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "at night",
+    "meaning": "geceleri"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "binlerce",
+   "note": "*thousands of* + çoğul isim \"binlerce …\" demektir; sayıyla birlikte ise çoğul eki almaz: *two thousand*.",
+   "form": "thousand'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "thousands of stars",
+    "meaning": "binlerce yıldız"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(thousands of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "thousands of stars",
+    "meaning": "binlerce yıldız"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "star",
+   "pos": "noun",
+   "wordId": "star",
+   "sense": 0,
+   "context": "yıldızlar",
+   "note": null,
+   "form": "star'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "thousands of stars",
+    "meaning": "binlerce yıldız"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "artificial",
+   "pos": "adjective",
+   "wordId": "artificial",
+   "sense": 0,
+   "context": "yapay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "artificial lighting",
+    "meaning": "yapay aydınlatma"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "lighting",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "aydınlatma",
+   "note": "*lighting* bir yerin \"aydınlatma sistemi, aydınlatması\" demektir.",
+   "form": null,
+   "base": "aydınlatma",
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "artificial lighting",
+    "meaning": "yapay aydınlatma"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "hale getirdi",
+   "note": "*make something* + sıfat \"bir şeyi … hale getirmek\" demektir.",
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "has made the Milky Way invisible",
+    "meaning": "Samanyolu'nu görünmez hale getirdi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "has made the Milky Way invisible",
+    "meaning": "Samanyolu'nu görünmez hale getirdi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "Milky",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Samanyolu",
+   "note": "*the Milky Way* \"Samanyolu\" galaksisidir; kelimesi kelimesine \"sütlü yol\" demektir.",
+   "form": null,
+   "base": "(the Milky Way) Samanyolu",
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "has made the Milky Way invisible",
+    "meaning": "Samanyolu'nu görünmez hale getirdi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "Way",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "(Samanyolu)",
+   "note": null,
+   "form": null,
+   "base": "(the Milky Way) Samanyolu",
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "has made the Milky Way invisible",
+    "meaning": "Samanyolu'nu görünmez hale getirdi"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "invisible",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "görünmez",
+   "note": "*in-* ön eki olumsuzluk katar: *visible* (görünür) → *invisible* (görünmez).",
+   "form": null,
+   "base": "görünmez",
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "has made the Milky Way invisible",
+    "meaning": "Samanyolu'nu görünmez hale getirdi"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "için (-e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "proportion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kısım (oran)",
+   "note": null,
+   "form": null,
+   "base": "oran, kısım",
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (nüfusunun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "world",
+   "pos": "noun",
+   "wordId": "world",
+   "sense": 0,
+   "context": "dünya(nın)",
+   "note": "İsme *'s* eklenince iyelik bildirir: *the world's population* → dünya nüfusu.",
+   "form": "world + 's (iyelik)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "population",
+   "pos": "noun",
+   "wordId": "population",
+   "sense": 0,
+   "context": "nüfus",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 33,
+    "text": "a large proportion of the world's population",
+    "meaning": "dünya nüfusunun büyük bir kısmı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": "*light pollution* yapay ışıkların gökyüzünü aydınlatmasıyla oluşan \"ışık kirliliği\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "light pollution",
+    "meaning": "ışık kirliliği"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "pollution",
+   "pos": "noun",
+   "wordId": "pollution",
+   "sense": 0,
+   "context": "kirlilik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "light pollution",
+    "meaning": "ışık kirliliği"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "not merely an aesthetic loss",
+    "meaning": "yalnızca estetik bir kayıp değil"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*not merely* \"yalnızca … değil\" demektir ve sorunun daha büyük olduğunu ima eder.",
+   "form": null,
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "not merely an aesthetic loss",
+    "meaning": "yalnızca estetik bir kayıp değil"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an aesthetic loss*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "not merely an aesthetic loss",
+    "meaning": "yalnızca estetik bir kayıp değil"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "aesthetic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "estetik",
+   "note": null,
+   "form": null,
+   "base": "estetik",
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "not merely an aesthetic loss",
+    "meaning": "yalnızca estetik bir kayıp değil"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "loss",
+   "pos": "noun",
+   "wordId": "loss",
+   "sense": 0,
+   "context": "kayıp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "not merely an aesthetic loss",
+    "meaning": "yalnızca estetik bir kayıp değil"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ışık kirliliği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "disrupt",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bozar",
+   "note": "*disrupt* bir düzeni ya da süreci \"bozmak, sekteye uğratmak\" demektir.",
+   "form": "disrupt + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "bozmak, sekteye uğratmak",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "behaviour",
+   "pos": "noun",
+   "wordId": "behaviour",
+   "sense": 0,
+   "context": "davranış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hayvanların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "nocturnal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gece aktif olan",
+   "note": "*nocturnal* hayvanlar gündüz uyuyup geceleri etkin olan hayvanlardır (baykuş, yarasa gibi).",
+   "form": null,
+   "base": "gece aktif olan, gece …",
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "nocturnal animals",
+    "meaning": "gece aktif olan hayvanlar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "nocturnal animals",
+    "meaning": "gece aktif olan hayvanlar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta (bile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "affect",
+   "pos": "verb",
+   "wordId": "affect",
+   "sense": 0,
+   "context": "etkilemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan(ların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "sleep",
+   "pos": "noun",
+   "wordId": "sleep",
+   "sense": 1,
+   "context": "uyku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "sleep patterns",
+    "meaning": "uyku düzeni"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "pattern",
+   "pos": "noun",
+   "wordId": "pattern",
+   "sense": 0,
+   "context": "düzen",
+   "note": "*sleep patterns* \"uyku düzeni, uyku alışkanlıkları\" demektir.",
+   "form": "pattern'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "sleep patterns",
+    "meaning": "uyku düzeni"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "fortunately",
+   "pos": "adverb",
+   "wordId": "fortunately",
+   "sense": 0,
+   "context": "neyse ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "relatively",
+   "pos": "adverb",
+   "wordId": "relatively",
+   "sense": 0,
+   "context": "nispeten",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "relatively easy to address",
+    "meaning": "çözülmesi nispeten kolay"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "relatively easy to address",
+    "meaning": "çözülmesi nispeten kolay"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mesi)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *easy to address* → çözülmesi kolay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "relatively easy to address",
+    "meaning": "çözülmesi nispeten kolay"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "address",
+   "pos": "verb",
+   "wordId": "address",
+   "sense": 1,
+   "context": "çözmek (ele almak)",
+   "note": "*address* fiil olarak bir sorunu \"ele almak, çözmek için uğraşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "relatively easy to address",
+    "meaning": "çözülmesi nispeten kolay"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "shield",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "(ışığını) aşağıya yönlendirmek",
+   "note": "*shield* \"kalkan\" demektir; fiil olarak \"siper etmek, örtmek\" anlamına gelir: lambanın üstünü kapatıp ışığı aşağı yönlendirmek.",
+   "form": "shield + -ing",
+   "base": "korumak, siper etmek, örtmek",
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": "Burada *street* isim olmasına rağmen *lamps*'ı niteler: *street lamps* → sokak lambaları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "street lamps",
+    "meaning": "sokak lambaları"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "lamp",
+   "pos": "noun",
+   "wordId": "lamp",
+   "sense": 0,
+   "context": "lambalar",
+   "note": null,
+   "form": "lamp'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "street lamps",
+    "meaning": "sokak lambaları"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "switch",
+   "pos": "verb",
+   "wordId": "switch",
+   "sense": 0,
+   "context": "kapatmak",
+   "note": "*switch off* \"(ışık, cihaz) kapatmak\", *switch on* \"açmak\" demektir.",
+   "form": "switch + -ing",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "switching off",
+    "meaning": "kapatmak"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "off",
+   "pos": "adverb",
+   "wordId": "off",
+   "sense": 0,
+   "context": "(switch off)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "switching off",
+    "meaning": "kapatmak"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "unnecessary",
+   "pos": "adjective",
+   "wordId": "unnecessary",
+   "sense": 0,
+   "context": "gereksiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışıklar (lambalar)",
+   "note": null,
+   "form": "light'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaratmak",
+   "note": "*make a difference* \"fark yaratmak, etkili olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "make an immediate difference",
+    "meaning": "hemen fark yaratmak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an immediate difference*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "make an immediate difference",
+    "meaning": "hemen fark yaratmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "immediate",
+   "pos": "adjective",
+   "wordId": "immediate",
+   "sense": 0,
+   "context": "anında (hemen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "make an immediate difference",
+    "meaning": "hemen fark yaratmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "difference",
+   "pos": "noun",
+   "wordId": "difference",
+   "sense": 0,
+   "context": "fark",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "make an immediate difference",
+    "meaning": "hemen fark yaratmak"
+   }
+  }
+ ]
+}

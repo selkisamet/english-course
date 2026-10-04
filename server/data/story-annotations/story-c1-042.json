@@ -1,0 +1,1269 @@
+{
+ "storyId": "story-c1-042",
+ "textHash": "8514ee2d7ae3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Giderek artan sayıda araştırma, parklara ve diğer yeşil alanlara erişimin hem beden hem ruh sağlığı üzerinde ölçülebilir bir etkisi olduğunu gösteriyor."
+  },
+  {
+   "tr": "Yeşil alanların yakınında yaşayan insanlar daha fazla egzersiz yapma, daha düşük stres bildirme ve hastalıktan daha çabuk iyileşme eğiliminde."
+  },
+  {
+   "tr": "Ağaçlar arasında yapılan kısa bir yürüyüş bile ruh halini ve konsantrasyonu iyileştiriyor gibi görünüyor."
+  },
+  {
+   "tr": "Bu bulgular ışığında şehir plancıları yeşil alanları giderek daha fazla bir lüks olarak değil, temel bir kamu hizmeti olarak görüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "A growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": null,
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "A growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "body",
+   "pos": "noun",
+   "wordId": "body",
+   "sense": 0,
+   "context": "(bütün, birikim)",
+   "note": "*body* \"vücut\" demektir; *a body of research/evidence* ise \"bir araştırma/kanıt birikimi\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "A growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a body of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "A growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "A growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": "*suggest* \"önermek\" demektir; araştırma ve kanıtlarla kullanıldığında \"göstermek, işaret etmek\" anlamına gelir.",
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "access",
+   "pos": "noun",
+   "wordId": "access",
+   "sense": 0,
+   "context": "erişim",
+   "note": "*access to something* \"bir şeye erişim\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "access to parks and other green spaces",
+    "meaning": "parklara ve diğer yeşil alanlara erişim"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "access to parks and other green spaces",
+    "meaning": "parklara ve diğer yeşil alanlara erişim"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "park",
+   "pos": "noun",
+   "wordId": "park",
+   "sense": 0,
+   "context": "parklar",
+   "note": null,
+   "form": "park'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "access to parks and other green spaces",
+    "meaning": "parklara ve diğer yeşil alanlara erişim"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "access to parks and other green spaces",
+    "meaning": "parklara ve diğer yeşil alanlara erişim"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "diğer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "access to parks and other green spaces",
+    "meaning": "parklara ve diğer yeşil alanlara erişim"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "green",
+   "pos": "adjective",
+   "wordId": "green",
+   "sense": 0,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "green spaces",
+    "meaning": "yeşil alanlar"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "alanlar",
+   "note": null,
+   "form": "space'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "green spaces",
+    "meaning": "yeşil alanlar"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": "*have an effect on something* \"bir şey üzerinde etkisi olmak\" demektir.",
+   "form": "have fiilinin 3. tekil şahıs hali (has, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "a measurable effect",
+    "meaning": "ölçülebilir bir etki"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "measurable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ölçülebilir",
+   "note": "*-able* eki fiilden sıfat yapar: *measure* (ölçmek) → *measurable* (ölçülebilir).",
+   "form": null,
+   "base": "ölçülebilir",
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "a measurable effect",
+    "meaning": "ölçülebilir bir etki"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "effect",
+   "pos": "noun",
+   "wordId": "effect",
+   "sense": 0,
+   "context": "etki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "a measurable effect",
+    "meaning": "ölçülebilir bir etki"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "both physical and mental health",
+    "meaning": "hem beden hem ruh sağlığı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "beden (fiziksel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "both physical and mental health",
+    "meaning": "hem beden hem ruh sağlığı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "both physical and mental health",
+    "meaning": "hem beden hem ruh sağlığı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "mental",
+   "pos": "adjective",
+   "wordId": "mental",
+   "sense": 0,
+   "context": "ruh (zihinsel)",
+   "note": "*mental health* \"ruh sağlığı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "both physical and mental health",
+    "meaning": "hem beden hem ruh sağlığı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "health",
+   "pos": "noun",
+   "wordId": "health",
+   "sense": 0,
+   "context": "sağlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "both physical and mental health",
+    "meaning": "hem beden hem ruh sağlığı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşayan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "green",
+   "pos": "adjective",
+   "wordId": "green",
+   "sense": 0,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "area",
+   "pos": "noun",
+   "wordId": "area",
+   "sense": 0,
+   "context": "alanlar",
+   "note": null,
+   "form": "area'nın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğiliminde",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak, genellikle … -mek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "tend to exercise",
+    "meaning": "egzersiz yapma eğiliminde"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "tend to exercise",
+    "meaning": "egzersiz yapma eğiliminde"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "exercise",
+   "pos": "verb",
+   "wordId": "exercise",
+   "sense": 1,
+   "context": "egzersiz yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "tend to exercise",
+    "meaning": "egzersiz yapma eğiliminde"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "low",
+   "pos": "adjective",
+   "wordId": "low",
+   "sense": 0,
+   "context": "daha düşük",
+   "note": null,
+   "form": "low + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "level",
+   "pos": "noun",
+   "wordId": "level",
+   "sense": 0,
+   "context": "düzeyler",
+   "note": null,
+   "form": "level'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(stres düzeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "stress",
+   "pos": "noun",
+   "wordId": "stress",
+   "sense": 0,
+   "context": "stres",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "recover",
+   "pos": "verb",
+   "wordId": "recover",
+   "sense": 0,
+   "context": "iyileşmek",
+   "note": "*recover from an illness* \"bir hastalıktan iyileşmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "recover more quickly from illness",
+    "meaning": "hastalıktan daha çabuk iyileşmek"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "recover more quickly from illness",
+    "meaning": "hastalıktan daha çabuk iyileşmek"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "çabuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "recover more quickly from illness",
+    "meaning": "hastalıktan daha çabuk iyileşmek"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "recover more quickly from illness",
+    "meaning": "hastalıktan daha çabuk iyileşmek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "illness",
+   "pos": "noun",
+   "wordId": "illness",
+   "sense": 0,
+   "context": "hastalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "recover more quickly from illness",
+    "meaning": "hastalıktan daha çabuk iyileşmek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "a short walk among trees",
+    "meaning": "ağaçlar arasında kısa bir yürüyüş"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "a short walk among trees",
+    "meaning": "ağaçlar arasında kısa bir yürüyüş"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "walk",
+   "pos": "noun",
+   "wordId": "walk",
+   "sense": 1,
+   "context": "yürüyüş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "a short walk among trees",
+    "meaning": "ağaçlar arasında kısa bir yürüyüş"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "among",
+   "pos": "preposition",
+   "wordId": "among",
+   "sense": 0,
+   "context": "arasında",
+   "note": "*among* üçten fazla şey için \"arasında\" demektir; iki şey için *between* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "a short walk among trees",
+    "meaning": "ağaçlar arasında kısa bir yürüyüş"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaçlar",
+   "note": null,
+   "form": "tree'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 50,
+    "text": "a short walk among trees",
+    "meaning": "ağaçlar arasında kısa bir yürüyüş"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "gibi görünüyor",
+   "note": "*appear to* + fiil \"… gibi görünmek\" demektir.",
+   "form": "appear + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "appears to improve",
+    "meaning": "iyileştiriyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "appears to improve",
+    "meaning": "iyileştiriyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "iyileştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "appears to improve",
+    "meaning": "iyileştiriyor gibi görünüyor"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "mood",
+   "pos": "noun",
+   "wordId": "mood",
+   "sense": 0,
+   "context": "ruh hali",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "concentration",
+   "pos": "noun",
+   "wordId": "concentration",
+   "sense": 0,
+   "context": "konsantrasyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in light of: ışığında)",
+   "note": "*in light of something* \"bir şeyin ışığında, bir şey göz önünde bulundurularak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "In light of these findings",
+    "meaning": "bu bulgular ışığında"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "In light of these findings",
+    "meaning": "bu bulgular ışığında"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in light of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "In light of these findings",
+    "meaning": "bu bulgular ışığında"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "In light of these findings",
+    "meaning": "bu bulgular ışığında"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "finding",
+   "pos": "noun",
+   "wordId": "finding",
+   "sense": 0,
+   "context": "bulgular",
+   "note": null,
+   "form": "finding'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "In light of these findings",
+    "meaning": "bu bulgular ışığında"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "urban",
+   "pos": "adjective",
+   "wordId": "urban",
+   "sense": 0,
+   "context": "şehir (kentsel)",
+   "note": "*urban planner* \"şehir plancısı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "urban planners",
+    "meaning": "şehir plancıları"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "planner",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "plancılar",
+   "note": "*plan* (planlamak) fiilinden *-er* ekiyle \"plan yapan kişi\" anlamında isim yapılmıştır.",
+   "form": "planner'ın çoğulu",
+   "base": "plancı, planlamacı",
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "urban planners",
+    "meaning": "şehir plancıları"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "wordId": "increasingly",
+   "sense": 0,
+   "context": "giderek daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "treat",
+   "pos": "verb",
+   "wordId": "treat",
+   "sense": 0,
+   "context": "görüyor (davranıyor)",
+   "note": "*treat A as B* \"A'ya B gibi davranmak, A'yı B olarak görmek\" demektir.",
+   "form": "treat + -ing",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "green",
+   "pos": "adjective",
+   "wordId": "green",
+   "sense": 0,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "alanlar",
+   "note": null,
+   "form": "space'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not as A but as B* \"A olarak değil, B olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "luxury",
+   "pos": "noun",
+   "wordId": "luxury",
+   "sense": 0,
+   "context": "lüks",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an essential service*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "essential",
+   "pos": "adjective",
+   "wordId": "essential",
+   "sense": 0,
+   "context": "temel (vazgeçilmez)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "public",
+   "pos": "adjective",
+   "wordId": "public",
+   "sense": 0,
+   "context": "kamu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 78,
+    "text": "treating green spaces not as a luxury but as an essential public service",
+    "meaning": "yeşil alanları lüks olarak değil, temel kamu hizmeti olarak görmek"
+   }
+  }
+ ]
+}

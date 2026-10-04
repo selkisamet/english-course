@@ -1,0 +1,1221 @@
+{
+ "storyId": "story-c1-025",
+ "textHash": "3c47acb0628e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yerin kıt olduğu şehirlerde çiftçiler giderek artan bir şekilde gıdayı yanlara doğru değil, yukarıya doğru yetiştiriyor."
+  },
+  {
+   "tr": "Ürünlerin yapay ışık altında üst üste dizilmiş katmanlarda yetiştirildiği dikey çiftlikler, geleneksel tarıma göre çok daha az su gerektirir ve yıl boyunca faaliyet gösterebilir."
+  },
+  {
+   "tr": "Üstelik tüketicilere yakın yerlerde bulundukları için taşıma maliyetlerini önemli ölçüde azaltırlar."
+  },
+  {
+   "tr": "Yine de bu tür tesislerin yüksek enerji tüketimi ciddi bir endişe olmayı sürdürüyor ve geleneksel çiftliklerle ekonomik olarak rekabet edip edemeyecekleri henüz belli değil."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirlerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-duğu)",
+   "note": "*where* bir yeri tanımlar: *cities where space is scarce* → yerin kıt olduğu şehirler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "yer (alan)",
+   "note": "*space* \"uzay\" ve \"yer, alan\" demektir; burada \"boş alan\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "scarce",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kıt",
+   "note": "*scarce* \"az bulunan, kıt\" demektir.",
+   "form": null,
+   "base": "kıt, az bulunur",
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In cities where space is scarce",
+    "meaning": "yerin kıt olduğu şehirlerde"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "farmer",
+   "pos": "noun",
+   "wordId": "farmer",
+   "sense": 0,
+   "context": "çiftçiler",
+   "note": null,
+   "form": "farmer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "wordId": "increasingly",
+   "sense": 0,
+   "context": "giderek artan bir şekilde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "yetiştiriyor",
+   "note": "*grow* \"büyümek\" ve \"(bitki, ürün) yetiştirmek\" demektir.",
+   "form": "grow + -ing",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "growing food",
+    "meaning": "gıda yetiştirmek"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "gıda (yiyecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "growing food",
+    "meaning": "gıda yetiştirmek"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "upwards",
+   "pos": "adverb",
+   "wordId": "upwards",
+   "sense": 0,
+   "context": "yukarıya doğru",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "upwards rather than outwards",
+    "meaning": "yanlara değil, yukarıya doğru"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: … değil)",
+   "note": "*A rather than B* \"B değil A, B yerine A\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "upwards rather than outwards",
+    "meaning": "yanlara değil, yukarıya doğru"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "upwards rather than outwards",
+    "meaning": "yanlara değil, yukarıya doğru"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "outwards",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yanlara doğru (dışa doğru)",
+   "note": "*-wards* eki yön bildirir: *upwards* (yukarı doğru), *outwards* (dışa doğru).",
+   "form": null,
+   "base": "dışa doğru",
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "upwards rather than outwards",
+    "meaning": "yanlara değil, yukarıya doğru"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "vertical",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dikey",
+   "note": "*vertical* \"dikey\", karşıtı *horizontal* \"yatay\" demektir.",
+   "form": null,
+   "base": "dikey",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "Vertical farms",
+    "meaning": "dikey çiftlikler"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "farm",
+   "pos": "noun",
+   "wordId": "farm",
+   "sense": 0,
+   "context": "çiftlikler",
+   "note": null,
+   "form": "farm'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "Vertical farms",
+    "meaning": "dikey çiftlikler"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in which: -diği)",
+   "note": "Resmî dilde edat ilgi zamirinden önce gelir: *farms in which crops are cultivated* → ürünlerin yetiştirildiği çiftlikler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "in which crops are cultivated",
+    "meaning": "ürünlerin yetiştirildiği"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "in which crops are cultivated",
+    "meaning": "ürünlerin yetiştirildiği"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "crop",
+   "pos": "noun",
+   "wordId": "crop",
+   "sense": 0,
+   "context": "ürünler (mahsul)",
+   "note": null,
+   "form": "crop'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "in which crops are cultivated",
+    "meaning": "ürünlerin yetiştirildiği"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "in which crops are cultivated",
+    "meaning": "ürünlerin yetiştirildiği"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "cultivate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yetiştirilmek",
+   "note": "*cultivate*, *grow*'un daha resmî karşılığıdır.",
+   "form": "cultivate fiilinin 3. hali (cultivated, -d)",
+   "base": "yetiştirmek, ekip biçmek",
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "in which crops are cultivated",
+    "meaning": "ürünlerin yetiştirildiği"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (katmanlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "stack",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "üst üste dizilmiş",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *stacked layers* → üst üste dizilmiş katmanlar.",
+   "form": "stack fiilinin 3. hali (stacked, -ed)",
+   "base": "üst üste koymak, yığmak",
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "stacked layers",
+    "meaning": "üst üste dizilmiş katmanlar"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "layer",
+   "pos": "noun",
+   "wordId": "layer",
+   "sense": 0,
+   "context": "katmanlar",
+   "note": null,
+   "form": "layer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "stacked layers",
+    "meaning": "üst üste dizilmiş katmanlar"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "artificial",
+   "pos": "adjective",
+   "wordId": "artificial",
+   "sense": 0,
+   "context": "yapay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "artificial light",
+    "meaning": "yapay ışık"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "artificial light",
+    "meaning": "yapay ışık"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "require",
+   "pos": "verb",
+   "wordId": "require",
+   "sense": 0,
+   "context": "gerektirir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far less water",
+    "meaning": "çok daha az su"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "less",
+   "pos": "determiner",
+   "wordId": "less",
+   "sense": 0,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far less water",
+    "meaning": "çok daha az su"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far less water",
+    "meaning": "çok daha az su"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha) / -e göre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "conventional",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "geleneksel",
+   "note": "*conventional* \"alışılmış, geleneksel\" demektir.",
+   "form": null,
+   "base": "geleneksel, alışılmış",
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "conventional agriculture",
+    "meaning": "geleneksel tarım"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "agriculture",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tarım",
+   "note": null,
+   "form": null,
+   "base": "tarım",
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "conventional agriculture",
+    "meaning": "geleneksel tarım"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "operate",
+   "pos": "verb",
+   "wordId": "operate",
+   "sense": 0,
+   "context": "faaliyet göstermek (çalışmak)",
+   "note": "*operate* \"çalıştırmak\" demektir; bir işletme için \"faaliyet göstermek, çalışmak\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "(all year round: yıl boyunca)",
+   "note": "*all year round* \"bütün yıl boyunca, yıl boyu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "all year round",
+    "meaning": "yıl boyunca"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "all year round",
+    "meaning": "yıl boyunca"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "round",
+   "pos": "adverb",
+   "wordId": "round",
+   "sense": 1,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "all year round",
+    "meaning": "yıl boyunca"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "moreover",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "üstelik",
+   "note": "*moreover* \"üstelik, ayrıca\" demektir ve resmî bir bağlaçtır.",
+   "form": null,
+   "base": "üstelik, ayrıca",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dıkları için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (dikey çiftlikler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(bulunurlar)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "are located close to",
+    "meaning": "-e yakın yerlerde bulunurlar"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "located",
+   "pos": "adjective",
+   "wordId": "located",
+   "sense": 0,
+   "context": "bulunan",
+   "note": "*be located* \"bulunmak, yer almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "are located close to",
+    "meaning": "-e yakın yerlerde bulunurlar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "close",
+   "pos": "adverb",
+   "wordId": "close",
+   "sense": 2,
+   "context": "yakın",
+   "note": "*close to* \"-e yakın\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "are located close to",
+    "meaning": "-e yakın yerlerde bulunurlar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "are located close to",
+    "meaning": "-e yakın yerlerde bulunurlar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "consumer",
+   "pos": "noun",
+   "wordId": "consumer",
+   "sense": 0,
+   "context": "tüketiciler",
+   "note": null,
+   "form": "consumer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "significantly",
+   "pos": "adverb",
+   "wordId": "significantly",
+   "sense": 0,
+   "context": "önemli ölçüde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azaltırlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "transport",
+   "pos": "noun",
+   "wordId": "transport",
+   "sense": 0,
+   "context": "taşıma (ulaşım)",
+   "note": "Burada *transport* isim olmasına rağmen *costs*'u niteler: *transport costs* → taşıma maliyetleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "transport costs",
+    "meaning": "taşıma maliyetleri"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "maliyetler",
+   "note": null,
+   "form": "cost'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "transport costs",
+    "meaning": "taşıma maliyetleri"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "nevertheless",
+   "pos": "adverb",
+   "wordId": "nevertheless",
+   "sense": 0,
+   "context": "yine de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "high",
+   "pos": "adjective",
+   "wordId": "high",
+   "sense": 0,
+   "context": "yüksek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "high energy consumption",
+    "meaning": "yüksek enerji tüketimi"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "energy",
+   "pos": "noun",
+   "wordId": "energy",
+   "sense": 0,
+   "context": "enerji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "high energy consumption",
+    "meaning": "yüksek enerji tüketimi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "consumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tüketim",
+   "note": "*consume* (tüketmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "tüketim",
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "high energy consumption",
+    "meaning": "yüksek enerji tüketimi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tesislerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "facility",
+   "pos": "noun",
+   "wordId": "facility",
+   "sense": 0,
+   "context": "tesisler",
+   "note": null,
+   "form": "facility'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "olmayı sürdürüyor",
+   "note": null,
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "serious",
+   "pos": "adjective",
+   "wordId": "serious",
+   "sense": 0,
+   "context": "ciddi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "concern",
+   "pos": "noun",
+   "wordId": "concern",
+   "sense": 0,
+   "context": "endişe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada asıl özneyi (*whether they can compete…*) sona bırakan \"boş özne\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "it is not yet clear",
+    "meaning": "henüz belli değil"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "it is not yet clear",
+    "meaning": "henüz belli değil"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "it is not yet clear",
+    "meaning": "henüz belli değil"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "yet",
+   "pos": "adverb",
+   "wordId": "yet",
+   "sense": 0,
+   "context": "henüz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "it is not yet clear",
+    "meaning": "henüz belli değil"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "clear",
+   "pos": "adjective",
+   "wordId": "clear",
+   "sense": 0,
+   "context": "belli (açık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "it is not yet clear",
+    "meaning": "henüz belli değil"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -emeyecekleri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "compete",
+   "pos": "verb",
+   "wordId": "compete",
+   "sense": 0,
+   "context": "rekabet etmek",
+   "note": "*compete with someone* \"biriyle rekabet etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "compete economically with",
+    "meaning": "ile ekonomik olarak rekabet etmek"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "economically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "ekonomik olarak",
+   "note": "*-ally* eki *-ic* ile biten sıfatlardan zarf yapar: *economic* → *economically*.",
+   "form": "economic + -ally (sıfattan zarf)",
+   "base": "ekonomik olarak",
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "compete economically with",
+    "meaning": "ile ekonomik olarak rekabet etmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "compete economically with",
+    "meaning": "ile ekonomik olarak rekabet etmek"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "traditional",
+   "pos": "adjective",
+   "wordId": "traditional",
+   "sense": 0,
+   "context": "geleneksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "farm",
+   "pos": "noun",
+   "wordId": "farm",
+   "sense": 0,
+   "context": "çiftlikler",
+   "note": null,
+   "form": "farm'ın çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

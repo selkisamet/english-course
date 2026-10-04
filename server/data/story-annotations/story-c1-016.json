@@ -1,0 +1,1183 @@
+{
+ "storyId": "story-c1-016",
+ "textHash": "974d89f848d4",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İnsanların her an başkalarıyla çevrili olduğu büyük şehirlerde yalnızlığın yaygın olması çelişkili görünebilir."
+  },
+  {
+   "tr": "Ancak fiziksel yakınlık anlamlı bir bağ kurulacağını garanti etmez."
+  },
+  {
+   "tr": "Pek çok kentli tek başına yaşıyor, işe gidip gelmek için uzun mesafeler kat ediyor ve komşularını tanıma fırsatını nadiren buluyor."
+  },
+  {
+   "tr": "Yalnızlığın hem ruh hem beden sağlığı için oluşturduğu riskleri kabul eden birkaç şehir, sakinleri birbirleriyle kaynaşmaya teşvik etmek amacıyla ortak bahçeler ve mahalle yemekleri gibi girişimler başlattı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada asıl özneyi (*that loneliness is…*) sona bırakan \"boş özne\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "It might seem contradictory",
+    "meaning": "çelişkili görünebilir"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "It might seem contradictory",
+    "meaning": "çelişkili görünebilir"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünmek",
+   "note": "*seem* + sıfat \"… gibi görünmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "It might seem contradictory",
+    "meaning": "çelişkili görünebilir"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "contradictory",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çelişkili",
+   "note": "*contradict* (çelişmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "çelişkili",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "It might seem contradictory",
+    "meaning": "çelişkili görünebilir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ması)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "loneliness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık",
+   "note": "*-ness* eki sıfattan isim yapar: *lonely* (yalnız) → *loneliness* (yalnızlık; y → i).",
+   "form": null,
+   "base": "yalnızlık",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olması)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "widespread",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yaygın",
+   "note": null,
+   "form": null,
+   "base": "yaygın",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirlerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-duğu)",
+   "note": "*where* bir yeri tanımlar: *cities, where people are surrounded…* → insanların çevrili olduğu şehirler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "are surrounded by others",
+    "meaning": "başkalarıyla çevrilidir"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "surround",
+   "pos": "verb",
+   "wordId": "surround",
+   "sense": 0,
+   "context": "çevrili",
+   "note": "*be surrounded by* \"… ile çevrili olmak\" demektir.",
+   "form": "surround fiilinin 3. hali (surrounded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "are surrounded by others",
+    "meaning": "başkalarıyla çevrilidir"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (tarafından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "are surrounded by others",
+    "meaning": "başkalarıyla çevrilidir"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkaları",
+   "note": "*others* \"başkaları, diğer insanlar\" demektir.",
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "are surrounded by others",
+    "meaning": "başkalarıyla çevrilidir"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at every moment: her an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "at every moment",
+    "meaning": "her an"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "at every moment",
+    "meaning": "her an"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "moment",
+   "pos": "noun",
+   "wordId": "moment",
+   "sense": 0,
+   "context": "an",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "at every moment",
+    "meaning": "her an"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "fiziksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "physical proximity",
+    "meaning": "fiziksel yakınlık"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "proximity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yakınlık",
+   "note": "*proximity* resmî dilde \"fiziksel yakınlık, yakın olma\" demektir.",
+   "form": null,
+   "base": "yakınlık",
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "physical proximity",
+    "meaning": "fiziksel yakınlık"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mez)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "guarantee",
+   "pos": "verb",
+   "wordId": "guarantee",
+   "sense": 0,
+   "context": "garanti etmek",
+   "note": "*guarantee*'deki *u* okunmaz (\"gerınti\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "meaningful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "anlamlı",
+   "note": "*-ful* eki isimden sıfat yapar: *meaning* (anlam) → *meaningful* (anlamlı).",
+   "form": null,
+   "base": "anlamlı",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "meaningful connection",
+    "meaning": "anlamlı bağ"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ (bağlantı)",
+   "note": "*connection* insanlar arasında \"bağ, yakınlık\" anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "meaningful connection",
+    "meaning": "anlamlı bağ"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "urban",
+   "pos": "adjective",
+   "wordId": "urban",
+   "sense": 0,
+   "context": "kentli (kentsel)",
+   "note": "*urban* \"kentsel\", karşıtı *rural* \"kırsal\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "urban residents",
+    "meaning": "kentliler (şehir sakinleri)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "urban residents",
+    "meaning": "kentliler (şehir sakinleri)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "tek başına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "commute",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "işe gidip gelmek (kat etmek)",
+   "note": "*commute* her gün ev ile iş/okul arasında \"gidip gelmek\" demektir.",
+   "form": null,
+   "base": "işe gidip gelmek",
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "commute long distances",
+    "meaning": "işe gitmek için uzun mesafeler kat etmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "commute long distances",
+    "meaning": "işe gitmek için uzun mesafeler kat etmek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "distance",
+   "pos": "noun",
+   "wordId": "distance",
+   "sense": 0,
+   "context": "mesafeler",
+   "note": null,
+   "form": "distance'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "commute long distances",
+    "meaning": "işe gitmek için uzun mesafeler kat etmek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "rarely",
+   "pos": "adverb",
+   "wordId": "rarely",
+   "sense": 0,
+   "context": "nadiren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "buluyor (sahip oluyor)",
+   "note": "*have the opportunity to* + fiil \"… fırsatı bulmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "have the opportunity",
+    "meaning": "fırsatı bulmak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "have the opportunity",
+    "meaning": "fırsatı bulmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "opportunity",
+   "pos": "noun",
+   "wordId": "opportunity",
+   "sense": 0,
+   "context": "fırsat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "have the opportunity",
+    "meaning": "fırsatı bulmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "(get to know: tanımak)",
+   "note": "*get to know someone* \"birini zamanla tanımak, tanışıp yakınlaşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "get to know",
+    "meaning": "tanımak (tanışıp yakınlaşmak)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(get to know)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "get to know",
+    "meaning": "tanımak (tanışıp yakınlaşmak)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "tanımak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "get to know",
+    "meaning": "tanımak (tanışıp yakınlaşmak)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": "İngiliz yazımı *neighbour*, Amerikan yazımı *neighbor*'dır.",
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "recognize",
+   "pos": "verb",
+   "wordId": "recognize",
+   "sense": 0,
+   "context": "kabul eden (farkında olan)",
+   "note": "*recognize* \"tanımak\" demektir; bir durum için \"kabul etmek, farkına varmak\" anlamına gelir.",
+   "form": "recognise (İngiliz yazımı) + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "risk",
+   "pos": "noun",
+   "wordId": "risk",
+   "sense": 0,
+   "context": "riskler",
+   "note": null,
+   "form": "risk'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-duğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "isolation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık (yalıtılmışlık)",
+   "note": "*isolate* (yalıtmak, ayırmak) fiilinden türemiştir: toplumdan kopuk kalma durumu.",
+   "form": null,
+   "base": "yalnızlık, yalıtılmışlık, tecrit",
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "pose",
+   "pos": "verb",
+   "wordId": "pose",
+   "sense": 0,
+   "context": "oluşturduğu",
+   "note": "*pose a risk to* \"… için risk oluşturmak\" demektir.",
+   "form": "pose + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "için (-e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 53,
+    "text": "the risks that isolation poses to",
+    "meaning": "yalnızlığın … için oluşturduğu riskler"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "both mental and physical health",
+    "meaning": "hem ruh hem beden sağlığı"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "mental",
+   "pos": "adjective",
+   "wordId": "mental",
+   "sense": 0,
+   "context": "ruh (zihinsel)",
+   "note": "*mental health* \"ruh sağlığı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "both mental and physical health",
+    "meaning": "hem ruh hem beden sağlığı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "both mental and physical health",
+    "meaning": "hem ruh hem beden sağlığı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "beden (fiziksel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "both mental and physical health",
+    "meaning": "hem ruh hem beden sağlığı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "health",
+   "pos": "noun",
+   "wordId": "health",
+   "sense": 0,
+   "context": "sağlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "both mental and physical health",
+    "meaning": "hem ruh hem beden sağlığı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "have introduced initiatives",
+    "meaning": "girişimler başlattılar"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "introduce",
+   "pos": "verb",
+   "wordId": "introduce",
+   "sense": 0,
+   "context": "başlattı (hayata geçirdi)",
+   "note": "*introduce* \"tanıştırmak\" demektir; yeni bir uygulama için \"başlatmak, hayata geçirmek\" anlamına gelir.",
+   "form": "introduce fiilinin 3. hali (introduced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "have introduced initiatives",
+    "meaning": "girişimler başlattılar"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "initiative",
+   "pos": "noun",
+   "wordId": "initiative",
+   "sense": 0,
+   "context": "girişimler",
+   "note": null,
+   "form": "initiative'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "have introduced initiatives",
+    "meaning": "girişimler başlattılar"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "such as",
+    "meaning": "gibi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "such as",
+    "meaning": "gibi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "ortak (paylaşılan)",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *shared gardens* → ortak bahçeler.",
+   "form": "share fiilinin 3. hali (shared, -d)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "shared gardens",
+    "meaning": "ortak bahçeler"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçeler",
+   "note": null,
+   "form": "garden'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "shared gardens",
+    "meaning": "ortak bahçeler"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "mahalle (topluluk)",
+   "note": "Burada *community* isim olmasına rağmen *dinners*'ı niteler: *community dinners* → mahalle yemekleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "community dinners",
+    "meaning": "mahalle yemekleri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "yemekler",
+   "note": null,
+   "form": "dinner'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "community dinners",
+    "meaning": "mahalle yemekleri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek amacıyla",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "teşvik etmek",
+   "note": "*encourage someone to do something* \"birini bir şeyi yapmaya teşvik etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "encourage residents to interact",
+    "meaning": "sakinleri kaynaşmaya teşvik etmek"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "encourage residents to interact",
+    "meaning": "sakinleri kaynaşmaya teşvik etmek"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "encourage residents to interact",
+    "meaning": "sakinleri kaynaşmaya teşvik etmek"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "interact",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kaynaşmak (etkileşim kurmak)",
+   "note": "*inter-* ön eki \"arasında, karşılıklı\" anlamı katar: *act* → *interact* (etkileşmek).",
+   "form": null,
+   "base": "etkileşim kurmak, kaynaşmak",
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "encourage residents to interact",
+    "meaning": "sakinleri kaynaşmaya teşvik etmek"
+   }
+  }
+ ]
+}

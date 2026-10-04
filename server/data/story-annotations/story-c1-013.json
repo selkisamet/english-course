@@ -1,0 +1,1296 @@
+{
+ "storyId": "story-c1-013",
+ "textHash": "3640933d8b26",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Anılarımızın geçmiş olayların doğru kayıtları olduğunu varsayma eğilimindeyiz, ancak araştırmalar bunun tersini gösteriyor."
+  },
+  {
+   "tr": "Bir anı her hatırlandığında belli belirsiz bir şekilde yeniden oluşturulur ve sonradan edinilen bilgilerden etkilenebilir."
+  },
+  {
+   "tr": "Ünlü bir araştırmada, kendilerine yanıltıcı sorular sorulan katılımcılar daha sonra hiç var olmamış ayrıntıları gördüklerini bildirdi."
+  },
+  {
+   "tr": "Bu tür bulgular, tanık ifadelerinin geleneksel olarak büyük önem taşıdığı hukuk sistemi için ciddi sonuçlar doğuruyor."
+  },
+  {
+   "tr": "Mahkemelerin artık bu ifadelere daha temkinli yaklaşması teşvik ediliyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to assume",
+    "meaning": "varsayma eğilimindeyiz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğilimindeyiz",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak, genellikle … -mek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to assume",
+    "meaning": "varsayma eğilimindeyiz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to assume",
+    "meaning": "varsayma eğilimindeyiz"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "assume",
+   "pos": "verb",
+   "wordId": "assume",
+   "sense": 0,
+   "context": "varsaymak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to assume",
+    "meaning": "varsayma eğilimindeyiz"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": "*memory* \"hafıza, bellek\" ve \"anı\" demektir; çoğul olduğunda genellikle \"anılar\" anlamındadır.",
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "accurate",
+   "pos": "adjective",
+   "wordId": "accurate",
+   "sense": 0,
+   "context": "doğru (kesin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "accurate recordings",
+    "meaning": "doğru kayıtlar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "recording",
+   "pos": "noun",
+   "wordId": "recording",
+   "sense": 0,
+   "context": "kayıtlar",
+   "note": null,
+   "form": "recording'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "accurate recordings",
+    "meaning": "doğru kayıtlar"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (olayların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "of past events",
+    "meaning": "geçmiş olayların"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "past",
+   "pos": "adjective",
+   "wordId": "past",
+   "sense": 0,
+   "context": "geçmiş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "of past events",
+    "meaning": "geçmiş olayların"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "olaylar",
+   "note": null,
+   "form": "event'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "of past events",
+    "meaning": "geçmiş olayların"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak (yine de)",
+   "note": "*yet* bağlaç olarak \"ama, yine de\" demektir ve *but*'tan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "yet research suggests otherwise",
+    "meaning": "ancak araştırmalar tersini gösteriyor"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma(lar)",
+   "note": "*research* sayılamayan bir isimdir: *some research* (✗ researches).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "yet research suggests otherwise",
+    "meaning": "ancak araştırmalar tersini gösteriyor"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor (işaret ediyor)",
+   "note": "*suggest* \"önermek\" demektir; araştırma ve kanıtlarla kullanıldığında \"göstermek, işaret etmek\" anlamına gelir.",
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "yet research suggests otherwise",
+    "meaning": "ancak araştırmalar tersini gösteriyor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "otherwise",
+   "pos": "adverb",
+   "wordId": "otherwise",
+   "sense": 0,
+   "context": "tersini (başka türlü)",
+   "note": "*suggest otherwise* \"aksini göstermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "yet research suggests otherwise",
+    "meaning": "ancak araştırmalar tersini gösteriyor"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": "*each time* + cümle \"her … -dığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Each time",
+    "meaning": "her … -dığında"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "(her) sefer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Each time",
+    "meaning": "her … -dığında"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ndığında)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "is recalled",
+    "meaning": "hatırlanır"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "recall",
+   "pos": "verb",
+   "wordId": "recall",
+   "sense": 0,
+   "context": "hatırlanmak",
+   "note": null,
+   "form": "recall fiilinin 3. hali (recalled, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "is recalled",
+    "meaning": "hatırlanır"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (anı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ulur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "is subtly reconstructed",
+    "meaning": "belli belirsiz yeniden oluşturulur"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "subtly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "belli belirsiz",
+   "note": "*subtle* (ince, belli belirsiz) sıfatından *-ly* ile zarf yapılmıştır; *b* okunmaz (\"satli\").",
+   "form": "subtle + -ly (sıfattan zarf)",
+   "base": "belli belirsiz, incelikle",
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "is subtly reconstructed",
+    "meaning": "belli belirsiz yeniden oluşturulur"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "reconstruct",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden oluşturulur",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *construct* (inşa etmek) → *reconstruct* (yeniden oluşturmak).",
+   "form": "reconstruct fiilinin 3. hali (reconstructed, -ed)",
+   "base": "yeniden oluşturmak, yeniden kurmak",
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "is subtly reconstructed",
+    "meaning": "belli belirsiz yeniden oluşturulur"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "may be influenced by",
+    "meaning": "… tarafından etkilenebilir"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-len-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "may be influenced by",
+    "meaning": "… tarafından etkilenebilir"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "influence",
+   "pos": "verb",
+   "wordId": "influence",
+   "sense": 1,
+   "context": "etkilenmek",
+   "note": null,
+   "form": "influence fiilinin 3. hali (influenced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "may be influenced by",
+    "meaning": "… tarafından etkilenebilir"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (-den)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "may be influenced by",
+    "meaning": "… tarafından etkilenebilir"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "later",
+   "pos": "adjective",
+   "wordId": "later",
+   "sense": 1,
+   "context": "sonraki (sonradan edinilen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": "*information* sayılamayan bir isimdir: *some information* (✗ informations).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (araştırmada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "In one famous study",
+    "meaning": "ünlü bir araştırmada"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "In one famous study",
+    "meaning": "ünlü bir araştırmada"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "famous",
+   "pos": "adjective",
+   "wordId": "famous",
+   "sense": 0,
+   "context": "ünlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "In one famous study",
+    "meaning": "ünlü bir araştırmada"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "study",
+   "pos": "noun",
+   "wordId": "study",
+   "sense": 0,
+   "context": "araştırma",
+   "note": "*study* \"ders çalışma\" demektir; bilimde \"araştırma, inceleme\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "In one famous study",
+    "meaning": "ünlü bir araştırmada"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "participant",
+   "pos": "noun",
+   "wordId": "participant",
+   "sense": 0,
+   "context": "katılımcılar",
+   "note": null,
+   "form": "participant'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "who were asked misleading questions",
+    "meaning": "kendilerine yanıltıcı sorular sorulan"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ulan)",
+   "note": "*they were asked questions* \"onlara sorular soruldu\" demektir; İngilizcede soruyu alan kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "who were asked misleading questions",
+    "meaning": "kendilerine yanıltıcı sorular sorulan"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sorulmak",
+   "note": null,
+   "form": "ask fiilinin 3. hali (asked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "who were asked misleading questions",
+    "meaning": "kendilerine yanıltıcı sorular sorulan"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "misleading",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yanıltıcı",
+   "note": "*mislead* (yanıltmak) fiilinden türemiş bir sıfattır; *mis-* ön eki \"yanlış\" anlamı katar.",
+   "form": null,
+   "base": "yanıltıcı",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "who were asked misleading questions",
+    "meaning": "kendilerine yanıltıcı sorular sorulan"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "who were asked misleading questions",
+    "meaning": "kendilerine yanıltıcı sorular sorulan"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "daha sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildirdi",
+   "note": "*report* + *-ing* \"… -diğini bildirmek, söylemek\" demektir.",
+   "form": "report + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "reported seeing details",
+    "meaning": "ayrıntılar gördüklerini bildirdi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "gördüklerini",
+   "note": null,
+   "form": "see + -ing",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "reported seeing details",
+    "meaning": "ayrıntılar gördüklerini bildirdi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "ayrıntılar",
+   "note": null,
+   "form": "detail'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "reported seeing details",
+    "meaning": "ayrıntılar gördüklerini bildirdi"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamış)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had never existed",
+    "meaning": "hiç var olmamıştı"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had never existed",
+    "meaning": "hiç var olmamıştı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "exist",
+   "pos": "verb",
+   "wordId": "exist",
+   "sense": 0,
+   "context": "var olmamış",
+   "note": null,
+   "form": "exist fiilinin 3. hali (existed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had never existed",
+    "meaning": "hiç var olmamıştı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": "*such* + çoğul isim \"bu tür, böyle …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "finding",
+   "pos": "noun",
+   "wordId": "finding",
+   "sense": 0,
+   "context": "bulgular",
+   "note": null,
+   "form": "finding'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(doğuruyor)",
+   "note": "*have implications for something* \"bir şey için sonuçlar doğurmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "have serious implications",
+    "meaning": "ciddi sonuçlar doğuruyor"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "serious",
+   "pos": "adjective",
+   "wordId": "serious",
+   "sense": 0,
+   "context": "ciddi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "have serious implications",
+    "meaning": "ciddi sonuçlar doğuruyor"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "implication",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sonuçlar (etkiler)",
+   "note": "*implication* bir şeyin ileride doğurabileceği \"sonuç, etki\" demektir.",
+   "form": "implication'ın çoğulu",
+   "base": "sonuç, etki; ima",
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "have serious implications",
+    "meaning": "ciddi sonuçlar doğuruyor"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "the legal system",
+    "meaning": "hukuk sistemi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "legal",
+   "pos": "adjective",
+   "wordId": "legal",
+   "sense": 0,
+   "context": "hukuki (hukuk)",
+   "note": "*legal system* \"hukuk sistemi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "the legal system",
+    "meaning": "hukuk sistemi"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "system",
+   "pos": "noun",
+   "wordId": "system",
+   "sense": 0,
+   "context": "sistem",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "the legal system",
+    "meaning": "hukuk sistemi"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*where* burada bir yer değil, bir alanı/ortamı tanımlar: *the legal system, where…* → … -diği hukuk sistemi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the testimony of witnesses",
+    "meaning": "tanık ifadeleri"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "testimony",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ifade (tanıklık)",
+   "note": "*testimony* bir tanığın mahkemede verdiği \"ifade\"dir.",
+   "form": null,
+   "base": "tanıklık, ifade",
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the testimony of witnesses",
+    "meaning": "tanık ifadeleri"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tanıkların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the testimony of witnesses",
+    "meaning": "tanık ifadeleri"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "witness",
+   "pos": "noun",
+   "wordId": "witness",
+   "sense": 0,
+   "context": "tanıklar",
+   "note": null,
+   "form": "witness'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "the testimony of witnesses",
+    "meaning": "tanık ifadeleri"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "traditionally",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "geleneksel olarak",
+   "note": "*-ly* eki sıfattan zarf yapar: *traditional* → *traditionally*.",
+   "form": "traditional + -ly (sıfattan zarf)",
+   "base": "geleneksel olarak",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "carry",
+   "pos": "verb",
+   "wordId": "carry",
+   "sense": 0,
+   "context": "taşıdı",
+   "note": "*carry weight* \"önem taşımak, sözü geçmek\" demektir.",
+   "form": "carry fiilinin 3. hali (carried, y → ied)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "carried considerable weight",
+    "meaning": "büyük önem taşıdı"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "considerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "büyük (hatırı sayılır)",
+   "note": null,
+   "form": null,
+   "base": "kayda değer, hatırı sayılır",
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "carried considerable weight",
+    "meaning": "büyük önem taşıdı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "weight",
+   "pos": "noun",
+   "wordId": "weight",
+   "sense": 0,
+   "context": "önem (ağırlık)",
+   "note": "*weight*'in temel anlamı \"ağırlık\"tır; mecazen \"önem, etki\" demektir. *gh* okunmaz (\"weyt\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "carried considerable weight",
+    "meaning": "büyük önem taşıdı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "court",
+   "pos": "noun",
+   "wordId": "court",
+   "sense": 0,
+   "context": "mahkemeler",
+   "note": null,
+   "form": "court'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-iliyor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "are now encouraged",
+    "meaning": "artık teşvik ediliyor"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "are now encouraged",
+    "meaning": "artık teşvik ediliyor"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "teşvik ediliyor",
+   "note": "*be encouraged to do something* \"bir şeyi yapmaya teşvik edilmek\" demektir.",
+   "form": "encourage fiilinin 3. hali (encouraged, -d)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "are now encouraged",
+    "meaning": "artık teşvik ediliyor"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "treat",
+   "pos": "verb",
+   "wordId": "treat",
+   "sense": 0,
+   "context": "yaklaşmak (davranmak)",
+   "note": "*treat something with caution* \"bir şeye temkinli yaklaşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "treat it with greater caution",
+    "meaning": "ona daha temkinli yaklaşmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (tanık ifadesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "treat it with greater caution",
+    "meaning": "ona daha temkinli yaklaşmak"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (-li)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "treat it with greater caution",
+    "meaning": "ona daha temkinli yaklaşmak"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "great",
+   "pos": "adjective",
+   "wordId": "great",
+   "sense": 0,
+   "context": "daha büyük (daha fazla)",
+   "note": null,
+   "form": "great + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "treat it with greater caution",
+    "meaning": "ona daha temkinli yaklaşmak"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "caution",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "temkin (dikkat)",
+   "note": "*caution* \"dikkat, ihtiyat, temkin\" demektir.",
+   "form": null,
+   "base": "temkin, dikkat, ihtiyat",
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "treat it with greater caution",
+    "meaning": "ona daha temkinli yaklaşmak"
+   }
+  }
+ ]
+}

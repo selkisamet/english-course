@@ -1,0 +1,1139 @@
+{
+ "storyId": "story-c1-038",
+ "textHash": "0331d3b95f12",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Hayvanat bahçeleri, vahşi hayvanları doğal yaşam alanlarına pek az benzeyen koşullarda tuttukları için uzun zamandır eleştiriliyor."
+  },
+  {
+   "tr": "Buna karşılık pek çok modern hayvanat bahçesi amacını yeniden tanımladı ve eğlence yerine doğa koruma, araştırma ve eğitime odaklandı."
+  },
+  {
+   "tr": "Bazıları, dikkatle yönetilen üretme programları sayesinde türleri yok olmaktan kurtarmada çok önemli bir rol oynadı."
+  },
+  {
+   "tr": "Ancak eleştirmenler ikna olmuş değil; kaynakların, hayvanları gerçekten ait oldukları doğal ortamlarında korumaya harcanmasının daha doğru olacağını savunuyorlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "zoo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hayvanat bahçeleri",
+   "note": "*zoo*, *zoological garden* (hayvanat bahçesi) ifadesinin kısaltmasıdır.",
+   "form": "zoo'nun çoğulu",
+   "base": "hayvanat bahçesi",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "have long been criticised",
+    "meaning": "uzun zamandır eleştiriliyor"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun zamandır",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir: *have long been* → uzun zamandır … -dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "have long been criticised",
+    "meaning": "uzun zamandır eleştiriliyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "have long been criticised",
+    "meaning": "uzun zamandır eleştiriliyor"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "criticize",
+   "pos": "verb",
+   "wordId": "criticize",
+   "sense": 0,
+   "context": "eleştiriliyor",
+   "note": "*be criticised for* + *-ing* \"… -diği için eleştirilmek\" demektir.",
+   "form": "criticise (İngiliz yazımı) fiilinin 3. hali (criticised, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "have long been criticised",
+    "meaning": "uzun zamandır eleştiriliyor"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dıkları için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "for keeping wild animals",
+    "meaning": "vahşi hayvanları tuttukları için"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutmak",
+   "note": null,
+   "form": "keep + -ing",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "for keeping wild animals",
+    "meaning": "vahşi hayvanları tuttukları için"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "wild",
+   "pos": "adjective",
+   "wordId": "wild",
+   "sense": 0,
+   "context": "vahşi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "for keeping wild animals",
+    "meaning": "vahşi hayvanları tuttukları için"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "for keeping wild animals",
+    "meaning": "vahşi hayvanları tuttukları için"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (koşullarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "condition'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "bear",
+   "pos": "verb",
+   "wordId": "bear",
+   "sense": 1,
+   "context": "taşıyan (benzeyen)",
+   "note": "*bear* \"katlanmak\" demektir; *bear a resemblance to* ise \"-e benzerlik taşımak, benzemek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "bear little resemblance to",
+    "meaning": "-e pek az benziyor"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "little",
+   "pos": "determiner",
+   "wordId": "little",
+   "sense": 1,
+   "context": "pek az",
+   "note": "*little* (a olmadan) \"çok az, neredeyse hiç\" demektir; *a little* ise \"biraz\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "bear little resemblance to",
+    "meaning": "-e pek az benziyor"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "resemblance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "benzerlik",
+   "note": "*resemble* (benzemek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "benzerlik",
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "bear little resemblance to",
+    "meaning": "-e pek az benziyor"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "bear little resemblance to",
+    "meaning": "-e pek az benziyor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "natural",
+   "pos": "adjective",
+   "wordId": "natural",
+   "sense": 0,
+   "context": "doğal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "natural habitats",
+    "meaning": "doğal yaşam alanları"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "habitat",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yaşam alanları",
+   "note": "*habitat* bir canlının doğada yaşadığı ortamdır.",
+   "form": "habitat'ın çoğulu",
+   "base": "doğal yaşam alanı",
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "natural habitats",
+    "meaning": "doğal yaşam alanları"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in response: buna karşılık)",
+   "note": "*in response (to something)* \"(bir şeye) karşılık olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "response",
+   "pos": "noun",
+   "wordId": "response",
+   "sense": 0,
+   "context": "karşılık (tepki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "modern",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "zoo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hayvanat bahçeleri",
+   "note": null,
+   "form": "zoo'nun çoğulu",
+   "base": "hayvanat bahçesi",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "redefine",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden tanımladı",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *define* (tanımlamak) → *redefine*.",
+   "form": "redefine fiilinin 3. hali (redefined, -d)",
+   "base": "yeniden tanımlamak",
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "redefined their purpose",
+    "meaning": "amaçlarını yeniden tanımladılar"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "redefined their purpose",
+    "meaning": "amaçlarını yeniden tanımladılar"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "purpose",
+   "pos": "noun",
+   "wordId": "purpose",
+   "sense": 0,
+   "context": "amaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "redefined their purpose",
+    "meaning": "amaçlarını yeniden tanımladılar"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "focus",
+   "pos": "verb",
+   "wordId": "focus",
+   "sense": 0,
+   "context": "odaklanarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda yapılan bir eylemi anlatır.",
+   "form": "focus + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (focus on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "conservation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doğa koruma",
+   "note": null,
+   "form": null,
+   "base": "koruma, doğa koruma",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "education",
+   "pos": "noun",
+   "wordId": "education",
+   "sense": 0,
+   "context": "eğitim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*A rather than B* \"B yerine A\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "rather than entertainment",
+    "meaning": "eğlence yerine"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "rather than entertainment",
+    "meaning": "eğlence yerine"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "entertainment",
+   "pos": "noun",
+   "wordId": "entertainment",
+   "sense": 0,
+   "context": "eğlence",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "rather than entertainment",
+    "meaning": "eğlence yerine"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynadı",
+   "note": "*play a role in* + *-ing* \"… -mede rol oynamak\" demektir.",
+   "form": "play fiilinin 3. hali (played, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "played a crucial role",
+    "meaning": "çok önemli bir rol oynadı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "played a crucial role",
+    "meaning": "çok önemli bir rol oynadı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "crucial",
+   "pos": "adjective",
+   "wordId": "crucial",
+   "sense": 0,
+   "context": "çok önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "played a crucial role",
+    "meaning": "çok önemli bir rol oynadı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "role",
+   "pos": "noun",
+   "wordId": "role",
+   "sense": 0,
+   "context": "rol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "played a crucial role",
+    "meaning": "çok önemli bir rol oynadı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kurtarmada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "kurtarmak",
+   "note": "*save something from something* \"bir şeyi … -den kurtarmak\" demektir.",
+   "form": "save + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "saving species from extinction",
+    "meaning": "türleri yok olmaktan kurtarmak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "species",
+   "pos": "noun",
+   "wordId": "species",
+   "sense": 0,
+   "context": "türler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "saving species from extinction",
+    "meaning": "türleri yok olmaktan kurtarmak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "saving species from extinction",
+    "meaning": "türleri yok olmaktan kurtarmak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "extinction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yok olma (neslin tükenmesi)",
+   "note": "*extinct* (nesli tükenmiş) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "neslin tükenmesi, yok olma",
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "saving species from extinction",
+    "meaning": "türleri yok olmaktan kurtarmak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "sayesinde (aracılığıyla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "carefully",
+   "pos": "adverb",
+   "wordId": "carefully",
+   "sense": 0,
+   "context": "dikkatle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "carefully managed breeding programmes",
+    "meaning": "dikkatle yönetilen üretme programları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "manage",
+   "pos": "verb",
+   "wordId": "manage",
+   "sense": 0,
+   "context": "yönetilen",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *carefully managed programmes* → dikkatle yönetilen programlar.",
+   "form": "manage fiilinin 3. hali (managed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "carefully managed breeding programmes",
+    "meaning": "dikkatle yönetilen üretme programları"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "breeding",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "üretme (yavrulatma)",
+   "note": "*breeding programme* nesli tehlikedeki hayvanların kontrollü olarak çoğaltıldığı programdır.",
+   "form": null,
+   "base": "üretme, yetiştirme (hayvan)",
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "carefully managed breeding programmes",
+    "meaning": "dikkatle yönetilen üretme programları"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "programme",
+   "pos": "noun",
+   "wordId": "programme",
+   "sense": 0,
+   "context": "programlar",
+   "note": "İngiliz yazımı *programme*, Amerikan yazımı *program*'dır.",
+   "form": "programme'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "carefully managed breeding programmes",
+    "meaning": "dikkatle yönetilen üretme programları"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "critic",
+   "pos": "noun",
+   "wordId": "critic",
+   "sense": 0,
+   "context": "eleştirmenler",
+   "note": null,
+   "form": "critic'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "(değil) kalıyor",
+   "note": "*remain* + sıfat \"… olarak kalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "remain unconvinced",
+    "meaning": "ikna olmuş değil"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "unconvinced",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ikna olmamış",
+   "note": "*un-* ön eki olumsuzluk katar: *convinced* (ikna olmuş) → *unconvinced*.",
+   "form": null,
+   "base": "ikna olmamış",
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "remain unconvinced",
+    "meaning": "ikna olmuş değil"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyorlar",
+   "note": null,
+   "form": "argue + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-acağını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "resource",
+   "pos": "noun",
+   "wordId": "resource",
+   "sense": 0,
+   "context": "kaynaklar",
+   "note": null,
+   "form": "resource'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ırdı / -acak)",
+   "note": "*would be better spent* \"harcanması daha iyi olurdu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "would be better spent",
+    "meaning": "harcanması daha doğru olur"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "would be better spent",
+    "meaning": "harcanması daha doğru olur"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "better",
+   "pos": "adverb",
+   "wordId": "better",
+   "sense": 1,
+   "context": "daha iyi (daha doğru)",
+   "note": null,
+   "form": "well'in karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "would be better spent",
+    "meaning": "harcanması daha doğru olur"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "harcanmak",
+   "note": "*spend money/resources (on)* + *-ing* \"… -meye para/kaynak harcamak\" demektir.",
+   "form": "spend fiilinin 3. hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "would be better spent",
+    "meaning": "harcanması daha doğru olur"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "protect",
+   "pos": "verb",
+   "wordId": "protect",
+   "sense": 0,
+   "context": "korumak",
+   "note": null,
+   "form": "protect + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ortamlarında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "in their natural environment",
+    "meaning": "doğal ortamlarında"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "in their natural environment",
+    "meaning": "doğal ortamlarında"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "natural",
+   "pos": "adjective",
+   "wordId": "natural",
+   "sense": 0,
+   "context": "doğal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "in their natural environment",
+    "meaning": "doğal ortamlarında"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "environment",
+   "pos": "noun",
+   "wordId": "environment",
+   "sense": 0,
+   "context": "ortam (çevre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "in their natural environment",
+    "meaning": "doğal ortamlarında"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-dukları)",
+   "note": "*where* bir yeri tanımlar: *their environment, where they belong* → ait oldukları ortam.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (hayvanlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "truly",
+   "pos": "adverb",
+   "wordId": "truly",
+   "sense": 0,
+   "context": "gerçekten",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "truly belong",
+    "meaning": "gerçekten ait olmak"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "belong",
+   "pos": "verb",
+   "wordId": "belong",
+   "sense": 0,
+   "context": "ait olmak",
+   "note": "*belong* tek başına \"(doğru yerinde) olmak, ait olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "truly belong",
+    "meaning": "gerçekten ait olmak"
+   }
+  }
+ ]
+}

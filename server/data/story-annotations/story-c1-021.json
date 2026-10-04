@@ -1,0 +1,1218 @@
+{
+ "storyId": "story-c1-021",
+ "textHash": "66646c88ded0",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Pek çok tarihi şehir için turizm hem bir nimet hem de bir yük haline geldi."
+  },
+  {
+   "tr": "Ziyaretçiler hatırı sayılır bir gelir getirse de sayılarının çokluğu dar sokakları bunaltabiliyor ve yerel halk için konut maliyetlerini yükseltebiliyor."
+  },
+  {
+   "tr": "Bazı şehirler buna limana yanaşmasına izin verilen yolcu gemisi sayısını sınırlayarak ya da ziyaretçilere günlük bir ücret getirerek karşılık verdi."
+  },
+  {
+   "tr": "Eleştirmenler bu tür önlemlerin turistleri tamamen caydırabileceği konusunda uyarıyor; ancak destekçiler, bu önlemler olmazsa ziyaretçileri çeken o özgün karakterin bizzat kendisinin kaybolabileceğinde ısrar ediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "historic",
+   "pos": "adjective",
+   "wordId": "historic",
+   "sense": 0,
+   "context": "tarihi",
+   "note": "*historic* \"tarihi önemi olan\", *historical* ise \"tarihle ilgili\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "historic cities",
+    "meaning": "tarihi şehirler"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "historic cities",
+    "meaning": "tarihi şehirler"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "tourism",
+   "pos": "noun",
+   "wordId": "tourism",
+   "sense": 0,
+   "context": "turizm",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "haline geldi",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "blessing",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "nimet",
+   "note": "*a blessing and a burden* \"hem nimet hem yük\", yani hem iyi hem kötü yanı olan bir şeydir.",
+   "form": null,
+   "base": "nimet, lütuf",
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "burden",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yük",
+   "note": "*burden* mecazi anlamda \"yük, külfet\" demektir.",
+   "form": null,
+   "base": "yük, külfet",
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "both a blessing and a burden",
+    "meaning": "hem bir nimet hem de bir yük"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-se de",
+   "note": "*while* \"-ken\" demektir; cümle başında karşıtlık bildirerek \"… -se de, … iken\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "visitor",
+   "pos": "noun",
+   "wordId": "visitor",
+   "sense": 0,
+   "context": "ziyaretçiler",
+   "note": null,
+   "form": "visitor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "considerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hatırı sayılır",
+   "note": null,
+   "form": null,
+   "base": "kayda değer, hatırı sayılır",
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "considerable income",
+    "meaning": "hatırı sayılır gelir"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "income",
+   "pos": "noun",
+   "wordId": "income",
+   "sense": 0,
+   "context": "gelir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "considerable income",
+    "meaning": "hatırı sayılır gelir"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "sheer",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "(salt) çokluğu",
+   "note": "*sheer* bir şeyin büyüklüğünü vurgular: *the sheer number of* → sırf sayılarının çokluğu.",
+   "form": null,
+   "base": "salt, sırf, katıksız",
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "sheer numbers",
+    "meaning": "sayıların çokluğu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayılar",
+   "note": null,
+   "form": "number'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "sheer numbers",
+    "meaning": "sayıların çokluğu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "overwhelm",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bunaltmak",
+   "note": "*overwhelm* \"altında ezmek, baş edilemeyecek kadar bunaltmak\" demektir.",
+   "form": null,
+   "base": "bunaltmak, altında ezmek",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "narrow",
+   "pos": "adjective",
+   "wordId": "narrow",
+   "sense": 0,
+   "context": "dar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokaklar",
+   "note": null,
+   "form": "street'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "drive",
+   "pos": "verb",
+   "wordId": "drive",
+   "sense": 0,
+   "context": "yükseltmek",
+   "note": "*drive* \"araba sürmek\" demektir; *drive up prices/costs* ise \"fiyatları yükseltmek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "drive up",
+    "meaning": "(fiyatı) yükseltmek"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(drive up)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "drive up",
+    "meaning": "(fiyatı) yükseltmek"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "the cost of housing",
+    "meaning": "konut maliyeti"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "maliyet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "the cost of housing",
+    "meaning": "konut maliyeti"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (konutun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "the cost of housing",
+    "meaning": "konut maliyeti"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "housing",
+   "pos": "noun",
+   "wordId": "housing",
+   "sense": 0,
+   "context": "konut",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "the cost of housing",
+    "meaning": "konut maliyeti"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "halk (sakinler)",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "have responded",
+    "meaning": "karşılık verdiler"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "respond",
+   "pos": "verb",
+   "wordId": "respond",
+   "sense": 0,
+   "context": "karşılık verdi (tepki verdi)",
+   "note": "*respond by* + *-ing* \"… -erek karşılık vermek\" demektir.",
+   "form": "respond fiilinin 3. hali (responded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "have responded",
+    "meaning": "karşılık verdiler"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "limit",
+   "pos": "verb",
+   "wordId": "limit",
+   "sense": 1,
+   "context": "sınırlamak",
+   "note": null,
+   "form": "limit + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "the number of cruise ships",
+    "meaning": "yolcu gemisi sayısı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "the number of cruise ships",
+    "meaning": "yolcu gemisi sayısı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(the number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "the number of cruise ships",
+    "meaning": "yolcu gemisi sayısı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "cruise",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yolcu gemisi (kruvaziyer)",
+   "note": "*cruise ship* turistleri limandan limana taşıyan büyük \"yolcu gemisi\"dir.",
+   "form": null,
+   "base": "gemi yolculuğu, kruvaziyer",
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "the number of cruise ships",
+    "meaning": "yolcu gemisi sayısı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "ship",
+   "pos": "noun",
+   "wordId": "ship",
+   "sense": 0,
+   "context": "gemiler",
+   "note": null,
+   "form": "ship'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "the number of cruise ships",
+    "meaning": "yolcu gemisi sayısı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "izin verilen",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *ships allowed to dock* → yanaşmasına izin verilen gemiler.",
+   "form": "allow fiilinin 3. hali (allowed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "allowed to dock",
+    "meaning": "limana yanaşmasına izin verilen"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "allowed to dock",
+    "meaning": "limana yanaşmasına izin verilen"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "dock",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "limana yanaşmak",
+   "note": "*dock* isim olarak \"rıhtım\", fiil olarak \"limana yanaşmak\" demektir.",
+   "form": null,
+   "base": "limana yanaşmak",
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "allowed to dock",
+    "meaning": "limana yanaşmasına izin verilen"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "introduce",
+   "pos": "verb",
+   "wordId": "introduce",
+   "sense": 0,
+   "context": "getirmek (uygulamaya koymak)",
+   "note": "*introduce* yeni bir kural için \"getirmek, uygulamaya koymak\" anlamına gelir.",
+   "form": "introduce + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a daily fee",
+    "meaning": "günlük ücret"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "daily",
+   "pos": "adjective",
+   "wordId": "daily",
+   "sense": 0,
+   "context": "günlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a daily fee",
+    "meaning": "günlük ücret"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "fee",
+   "pos": "noun",
+   "wordId": "fee",
+   "sense": 0,
+   "context": "ücret",
+   "note": "*fee* bir hizmet ya da giriş için ödenen \"ücret\"tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "a daily fee",
+    "meaning": "günlük ücret"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (ziyaretçilere)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "visitor",
+   "pos": "noun",
+   "wordId": "visitor",
+   "sense": 0,
+   "context": "ziyaretçiler",
+   "note": null,
+   "form": "visitor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "critic",
+   "pos": "noun",
+   "wordId": "critic",
+   "sense": 0,
+   "context": "eleştirmenler",
+   "note": null,
+   "form": "critic'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıyor",
+   "note": "*warn that…* \"… olabileceği konusunda uyarmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceği konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "such measures",
+    "meaning": "bu tür önlemler"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "measure",
+   "pos": "noun",
+   "wordId": "measure",
+   "sense": 1,
+   "context": "önlemler",
+   "note": "*measure* fiil olarak \"ölçmek\", isim olarak \"önlem, tedbir\" demektir.",
+   "form": "measure'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "such measures",
+    "meaning": "bu tür önlemler"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "may discourage tourists altogether",
+    "meaning": "turistleri tamamen caydırabilir"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "discourage",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "caydırmak",
+   "note": "*dis-* ön eki zıt anlam katar: *encourage* (cesaretlendirmek) → *discourage* (caydırmak).",
+   "form": null,
+   "base": "caydırmak, vazgeçirmek",
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "may discourage tourists altogether",
+    "meaning": "turistleri tamamen caydırabilir"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "tourist",
+   "pos": "noun",
+   "wordId": "tourist",
+   "sense": 0,
+   "context": "turistler",
+   "note": null,
+   "form": "tourist'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "may discourage tourists altogether",
+    "meaning": "turistleri tamamen caydırabilir"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "altogether",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tamamen",
+   "note": "*altogether* \"tamamen, büsbütün\" demektir; *all together* (hep birlikte) ile karıştırılmamalı.",
+   "form": null,
+   "base": "tamamen, büsbütün",
+   "phrase": {
+    "from": 62,
+    "to": 65,
+    "text": "may discourage tourists altogether",
+    "meaning": "turistleri tamamen caydırabilir"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak (yine de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "supporter",
+   "pos": "noun",
+   "wordId": "supporter",
+   "sense": 0,
+   "context": "destekçiler",
+   "note": null,
+   "form": "supporter'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "insist",
+   "pos": "verb",
+   "wordId": "insist",
+   "sense": 0,
+   "context": "ısrar ediyor",
+   "note": "*insist that…* \"… olduğunda ısrar etmek, ısrarla savunmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan (olmazsa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "without them",
+    "meaning": "onlar olmadan"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (önlemler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "without them",
+    "meaning": "onlar olmadan"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the very character",
+    "meaning": "karakterin ta kendisi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "very",
+   "pos": "adjective",
+   "wordId": "very",
+   "sense": 1,
+   "context": "ta kendisi (bizzat)",
+   "note": "*the very* + isim \"tam da o, … ta kendisi\" anlamında vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the very character",
+    "meaning": "karakterin ta kendisi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "character",
+   "pos": "noun",
+   "wordId": "character",
+   "sense": 0,
+   "context": "karakter (özgün yapı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the very character",
+    "meaning": "karakterin ta kendisi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "attract",
+   "pos": "verb",
+   "wordId": "attract",
+   "sense": 0,
+   "context": "çeken",
+   "note": null,
+   "form": "attract + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "visitor",
+   "pos": "noun",
+   "wordId": "visitor",
+   "sense": 0,
+   "context": "ziyaretçiler",
+   "note": null,
+   "form": "visitor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "could be lost",
+    "meaning": "kaybolabilir"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "could be lost",
+    "meaning": "kaybolabilir"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybolmak (kaybedilmek)",
+   "note": null,
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "could be lost",
+    "meaning": "kaybolabilir"
+   }
+  }
+ ]
+}

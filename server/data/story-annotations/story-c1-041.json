@@ -1,0 +1,1156 @@
+{
+ "storyId": "story-c1-041",
+ "textHash": "73b44ce8026c",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Pek çok dijital platform reklamlarla finanse edilir; bu da başarılarının dikkatimizi ne kadar uzun süre tutabildiklerine bağlı olduğu anlamına gelir."
+  },
+  {
+   "tr": "Bunu başarmak için tasarımcılar sonsuz kaydırma ve öngörülemeyen ödüller gibi teknikler kullanır; bu teknikler kullanıcıların niyet ettiklerinden çok daha sık geri dönmesini sağlar."
+  },
+  {
+   "tr": "Eleştirmenler, dikkatimizin fiilen alınıp satılan bir ürüne dönüştüğünü savunuyor."
+  },
+  {
+   "tr": "Ancak bazı tasarımcılar artık kullanıcıların zamanına saygı gösteren daha etik bir yaklaşımı destekliyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "digital",
+   "pos": "adjective",
+   "wordId": "digital",
+   "sense": 0,
+   "context": "dijital",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "digital platforms",
+    "meaning": "dijital platformlar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "platform",
+   "pos": "noun",
+   "wordId": "platform",
+   "sense": 0,
+   "context": "platformlar",
+   "note": "*platform* \"peron\" demektir; internette sosyal medya gibi hizmetler için de kullanılır.",
+   "form": "platform'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "digital platforms",
+    "meaning": "dijital platformlar"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ilir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are funded by advertising",
+    "meaning": "reklamlarla finanse edilir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "fund",
+   "pos": "verb",
+   "wordId": "fund",
+   "sense": 1,
+   "context": "finanse edilir",
+   "note": null,
+   "form": "fund fiilinin 3. hali (funded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are funded by advertising",
+    "meaning": "reklamlarla finanse edilir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are funded by advertising",
+    "meaning": "reklamlarla finanse edilir"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "advertising",
+   "pos": "noun",
+   "wordId": "advertising",
+   "sense": 0,
+   "context": "reklam(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "are funded by advertising",
+    "meaning": "reklamlarla finanse edilir"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına gönderme yapabilir: \"… ki bu da …\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "which means that",
+    "meaning": "bu da … anlamına gelir"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "mean",
+   "pos": "verb",
+   "wordId": "mean",
+   "sense": 0,
+   "context": "anlamına gelir",
+   "note": null,
+   "form": "mean + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "which means that",
+    "meaning": "bu da … anlamına gelir"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "which means that",
+    "meaning": "bu da … anlamına gelir"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "depend",
+   "pos": "verb",
+   "wordId": "depend",
+   "sense": 0,
+   "context": "bağlı olmak",
+   "note": null,
+   "form": "depend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "depends on",
+    "meaning": "-e bağlıdır"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (depend on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "depends on",
+    "meaning": "-e bağlıdır"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how long* \"ne kadar (uzun) süre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "how long",
+    "meaning": "ne kadar uzun süre"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun süre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "how long",
+    "meaning": "ne kadar uzun süre"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (platformlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "tutmak",
+   "note": "*hold someone's attention* \"birinin dikkatini (uzun süre) çekmek, tutmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "hold our attention",
+    "meaning": "dikkatimizi tutmak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "hold our attention",
+    "meaning": "dikkatimizi tutmak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "hold our attention",
+    "meaning": "dikkatimizi tutmak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "To achieve this",
+    "meaning": "bunu başarmak için"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "achieve",
+   "pos": "verb",
+   "wordId": "achieve",
+   "sense": 0,
+   "context": "başarmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "To achieve this",
+    "meaning": "bunu başarmak için"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bunu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "To achieve this",
+    "meaning": "bunu başarmak için"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "designer",
+   "pos": "noun",
+   "wordId": "designer",
+   "sense": 0,
+   "context": "tasarımcılar",
+   "note": null,
+   "form": "designer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "employ",
+   "pos": "verb",
+   "wordId": "employ",
+   "sense": 0,
+   "context": "kullanır",
+   "note": "*employ* \"işe almak\" demektir; resmî dilde bir yöntem için \"kullanmak, uygulamak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "technique",
+   "pos": "noun",
+   "wordId": "technique",
+   "sense": 0,
+   "context": "teknikler",
+   "note": null,
+   "form": "technique'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "endless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sonsuz",
+   "note": "*-less* eki \"-sız\" anlamı katar: *end* (son) → *endless* (sonsuz).",
+   "form": null,
+   "base": "sonsuz, bitmeyen",
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "endless scrolling",
+    "meaning": "sonsuz kaydırma"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "scroll",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kaydırma",
+   "note": "*scroll* ekranda içeriği aşağı ya da yukarı \"kaydırmak\" demektir; *scrolling* bu eylemin adıdır.",
+   "form": "scroll + -ing (isim olarak)",
+   "base": "(ekranı) kaydırmak",
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "endless scrolling",
+    "meaning": "sonsuz kaydırma"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "unpredictable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "öngörülemeyen",
+   "note": null,
+   "form": null,
+   "base": "öngörülemeyen, tahmin edilemez",
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "unpredictable rewards",
+    "meaning": "öngörülemeyen ödüller"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "reward",
+   "pos": "noun",
+   "wordId": "reward",
+   "sense": 0,
+   "context": "ödüller",
+   "note": null,
+   "form": "reward'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "unpredictable rewards",
+    "meaning": "öngörülemeyen ödüller"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(bunlar)",
+   "note": "Virgülden sonra gelen *which* cümlesi isim hakkında ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "(sağlar)",
+   "note": "*keep someone doing something* \"birinin bir şeyi yapmaya devam etmesini sağlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "keep users returning",
+    "meaning": "kullanıcıların sürekli geri dönmesini sağlamak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "user",
+   "pos": "noun",
+   "wordId": "user",
+   "sense": 0,
+   "context": "kullanıcılar",
+   "note": null,
+   "form": "user'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "keep users returning",
+    "meaning": "kullanıcıların sürekli geri dönmesini sağlamak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "geri dönmek",
+   "note": null,
+   "form": "return + -ing",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "keep users returning",
+    "meaning": "kullanıcıların sürekli geri dönmesini sağlamak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (kullanıcılar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "intend",
+   "pos": "verb",
+   "wordId": "intend",
+   "sense": 0,
+   "context": "niyet etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 43,
+    "text": "far more often than they intend",
+    "meaning": "niyet ettiklerinden çok daha sık"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "critic",
+   "pos": "noun",
+   "wordId": "critic",
+   "sense": 0,
+   "context": "eleştirmenler",
+   "note": null,
+   "form": "critic'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-düğünü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dü)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "effectively",
+   "pos": "adverb",
+   "wordId": "effectively",
+   "sense": 0,
+   "context": "fiilen (aslında)",
+   "note": "*effectively* \"etkili bir şekilde\" demektir; cümleyi niteleyerek \"fiilen, pratikte\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüştü (oldu)",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "product",
+   "pos": "noun",
+   "wordId": "product",
+   "sense": 0,
+   "context": "ürün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-ılan)",
+   "note": "İsimden sonra gelen *to be* + fiilin 3. hali \"… -ilecek, -ilen\" demektir: *a product to be bought* → alınacak bir ürün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "alınmak",
+   "note": "*buy and sell* \"alıp satmak\" demektir.",
+   "form": "buy fiilinin 3. hali (bought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "sell",
+   "pos": "verb",
+   "wordId": "sell",
+   "sense": 0,
+   "context": "satılmak",
+   "note": null,
+   "form": "sell fiilinin 3. hali (sold, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 58,
+    "text": "a product to be bought and sold",
+    "meaning": "alınıp satılan bir ürün"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "designer",
+   "pos": "noun",
+   "wordId": "designer",
+   "sense": 0,
+   "context": "tasarımcılar",
+   "note": null,
+   "form": "designer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "promote",
+   "pos": "verb",
+   "wordId": "promote",
+   "sense": 0,
+   "context": "destekliyor",
+   "note": "*promote* bir fikri \"desteklemek, yaygınlaştırmak\" demektir.",
+   "form": "promote + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "a more ethical approach",
+    "meaning": "daha etik bir yaklaşım"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "ethical",
+   "pos": "adjective",
+   "wordId": "ethical",
+   "sense": 0,
+   "context": "etik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "a more ethical approach",
+    "meaning": "daha etik bir yaklaşım"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "approach",
+   "pos": "noun",
+   "wordId": "approach",
+   "sense": 0,
+   "context": "yaklaşım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "a more ethical approach",
+    "meaning": "daha etik bir yaklaşım"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "respect",
+   "pos": "verb",
+   "wordId": "respect",
+   "sense": 1,
+   "context": "saygı gösteren",
+   "note": null,
+   "form": "respect + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 74,
+    "text": "respects the time of users",
+    "meaning": "kullanıcıların zamanına saygı gösterir"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 74,
+    "text": "respects the time of users",
+    "meaning": "kullanıcıların zamanına saygı gösterir"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 74,
+    "text": "respects the time of users",
+    "meaning": "kullanıcıların zamanına saygı gösterir"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (kullanıcıların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 74,
+    "text": "respects the time of users",
+    "meaning": "kullanıcıların zamanına saygı gösterir"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "user",
+   "pos": "noun",
+   "wordId": "user",
+   "sense": 0,
+   "context": "kullanıcılar",
+   "note": null,
+   "form": "user'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 74,
+    "text": "respects the time of users",
+    "meaning": "kullanıcıların zamanına saygı gösterir"
+   }
+  }
+ ]
+}

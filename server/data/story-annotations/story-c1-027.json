@@ -1,0 +1,1225 @@
+{
+ "storyId": "story-c1-027",
+ "textHash": "bdb60fa7de53",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yeniden yabanileştirme, peyzajın her ayrıntısını yönetmek yerine doğal süreçleri yeniden işler hale getirmeyi amaçlayan bir doğa koruma yaklaşımıdır."
+  },
+  {
+   "tr": "Bazı bölgelerde, kunduz gibi yüzyıllar önce ortadan kaybolmuş hayvanlar yeniden doğaya salındı."
+  },
+  {
+   "tr": "Kunduzların setleri, kayda değer çeşitlilikte başka türü barındıran sulak alanlar oluşturuyor ve nehrin aşağı kesimlerinde sel baskınlarını azaltmaya yardımcı oluyor."
+  },
+  {
+   "tr": "Ancak bu değişiklikleri herkes memnuniyetle karşılamıyor."
+  },
+  {
+   "tr": "Bazı çiftçiler geri dönen hayvanların ekinlere zarar verebileceğinden korkuyor; bu yüzden yerel topluluklarla dikkatli bir istişare yapmak çok önemli."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "rewilding",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden yabanileştirme",
+   "note": "*re-* (yeniden) + *wild* (yabani) + *-ing*: bir alanı yeniden doğal ve yabani haline döndürme yaklaşımı.",
+   "form": null,
+   "base": "yeniden yabanileştirme (doğayı eski haline döndürme)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an approach*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "an approach to conservation",
+    "meaning": "bir doğa koruma yaklaşımı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "approach",
+   "pos": "noun",
+   "wordId": "approach",
+   "sense": 0,
+   "context": "yaklaşım",
+   "note": "*an approach to something* \"bir şeye yönelik yaklaşım\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "an approach to conservation",
+    "meaning": "bir doğa koruma yaklaşımı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(yönelik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "an approach to conservation",
+    "meaning": "bir doğa koruma yaklaşımı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "conservation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doğa koruma",
+   "note": "*conserve* (korumak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "koruma, doğa koruma",
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "an approach to conservation",
+    "meaning": "bir doğa koruma yaklaşımı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "aim",
+   "pos": "verb",
+   "wordId": "aim",
+   "sense": 0,
+   "context": "amaçlayan",
+   "note": "*aim to do something* \"bir şeyi yapmayı amaçlamak\" demektir.",
+   "form": "aim + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "aims to restore natural processes",
+    "meaning": "doğal süreçleri yeniden kurmayı amaçlar"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "aims to restore natural processes",
+    "meaning": "doğal süreçleri yeniden kurmayı amaçlar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "restore",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden kurmak (eski haline getirmek)",
+   "note": null,
+   "form": null,
+   "base": "eski haline getirmek, yeniden sağlamak",
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "aims to restore natural processes",
+    "meaning": "doğal süreçleri yeniden kurmayı amaçlar"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "natural",
+   "pos": "adjective",
+   "wordId": "natural",
+   "sense": 0,
+   "context": "doğal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "aims to restore natural processes",
+    "meaning": "doğal süreçleri yeniden kurmayı amaçlar"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "process",
+   "pos": "noun",
+   "wordId": "process",
+   "sense": 0,
+   "context": "süreçler",
+   "note": null,
+   "form": "process'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "aims to restore natural processes",
+    "meaning": "doğal süreçleri yeniden kurmayı amaçlar"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + fiil \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "rather than manage",
+    "meaning": "yönetmek yerine"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "rather than manage",
+    "meaning": "yönetmek yerine"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "manage",
+   "pos": "verb",
+   "wordId": "manage",
+   "sense": 0,
+   "context": "yönetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "rather than manage",
+    "meaning": "yönetmek yerine"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "every detail of the landscape",
+    "meaning": "peyzajın her ayrıntısı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "ayrıntı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "every detail of the landscape",
+    "meaning": "peyzajın her ayrıntısı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (peyzajın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "every detail of the landscape",
+    "meaning": "peyzajın her ayrıntısı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "every detail of the landscape",
+    "meaning": "peyzajın her ayrıntısı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "landscape",
+   "pos": "noun",
+   "wordId": "landscape",
+   "sense": 0,
+   "context": "peyzaj (arazi, manzara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "every detail of the landscape",
+    "meaning": "peyzajın her ayrıntısı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (bölgelerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "region",
+   "pos": "noun",
+   "wordId": "region",
+   "sense": 0,
+   "context": "bölgeler",
+   "note": null,
+   "form": "region'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "that had disappeared centuries ago",
+    "meaning": "yüzyıllar önce ortadan kaybolmuş"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "that had disappeared centuries ago",
+    "meaning": "yüzyıllar önce ortadan kaybolmuş"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "disappear",
+   "pos": "verb",
+   "wordId": "disappear",
+   "sense": 0,
+   "context": "ortadan kaybolmuş",
+   "note": null,
+   "form": "disappear fiilinin 3. hali (disappeared, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "that had disappeared centuries ago",
+    "meaning": "yüzyıllar önce ortadan kaybolmuş"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıllar",
+   "note": null,
+   "form": "century'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "that had disappeared centuries ago",
+    "meaning": "yüzyıllar önce ortadan kaybolmuş"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "that had disappeared centuries ago",
+    "meaning": "yüzyıllar önce ortadan kaybolmuş"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "such as beavers",
+    "meaning": "kunduz gibi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "such as beavers",
+    "meaning": "kunduz gibi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "beaver",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kunduzlar",
+   "note": "*beaver* nehirlere ağaç dallarından set yapan bir hayvandır.",
+   "form": "beaver'ın çoğulu",
+   "base": "kunduz",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "such as beavers",
+    "meaning": "kunduz gibi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "have been reintroduced",
+    "meaning": "yeniden doğaya salındı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "have been reintroduced",
+    "meaning": "yeniden doğaya salındı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "reintroduce",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden doğaya salındı",
+   "note": "*re-* (yeniden) + *introduce* (tanıtmak, getirmek): bir hayvanı eskiden yaşadığı yere \"yeniden getirmek\".",
+   "form": "reintroduce fiilinin 3. hali (reintroduced, -d)",
+   "base": "yeniden getirmek, yeniden doğaya salmak",
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "have been reintroduced",
+    "meaning": "yeniden doğaya salındı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların (kunduzların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "dam",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "setler",
+   "note": "*dam* \"baraj\" demektir; kunduzların dallarla yaptığı \"set\" için de kullanılır.",
+   "form": "dam'in çoğulu",
+   "base": "baraj, set",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "create",
+   "pos": "verb",
+   "wordId": "create",
+   "sense": 0,
+   "context": "oluşturuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "wetland",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sulak alanlar",
+   "note": "*wetland* *wet* (ıslak) ve *land* (arazi) kelimelerinden oluşur.",
+   "form": "wetland'in çoğulu",
+   "base": "sulak alan",
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "support",
+   "pos": "verb",
+   "wordId": "support",
+   "sense": 0,
+   "context": "barındıran (destekleyen)",
+   "note": "*support* canlılar için \"barındırmak, yaşamasını sağlamak\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "remarkable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kayda değer",
+   "note": null,
+   "form": null,
+   "base": "dikkat çekici, olağanüstü",
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "variety",
+   "pos": "noun",
+   "wordId": "variety",
+   "sense": 0,
+   "context": "çeşitlilik",
+   "note": "*a variety of* + çoğul isim \"çeşitli …, çok sayıda farklı …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a variety of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "species",
+   "pos": "noun",
+   "wordId": "species",
+   "sense": 0,
+   "context": "türler",
+   "note": "*species* tekil ve çoğulda aynı yazılır: *one species*, *many species*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "a remarkable variety of other species",
+    "meaning": "kayda değer çeşitlilikte başka tür"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardımcı oluyor",
+   "note": "*help (to) do something* \"bir şeyi yapmaya yardımcı olmak\" demektir; *to* kullanılmayabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "help reduce flooding",
+    "meaning": "selleri azaltmaya yardımcı olmak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azaltmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "help reduce flooding",
+    "meaning": "selleri azaltmaya yardımcı olmak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "flood",
+   "pos": "verb",
+   "wordId": "flood",
+   "sense": 1,
+   "context": "sel baskınları",
+   "note": "*flooding* \"sel baskını, su basması\" anlamında isim olarak kullanılır.",
+   "form": "flood + -ing (isim olarak)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "help reduce flooding",
+    "meaning": "selleri azaltmaya yardımcı olmak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "further",
+   "pos": "adverb",
+   "wordId": "further",
+   "sense": 1,
+   "context": "daha (aşağı)",
+   "note": "*further down the river* \"nehrin daha aşağı kesimlerinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "further down the river",
+    "meaning": "nehrin aşağı kesimlerinde"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "down",
+   "pos": "preposition",
+   "wordId": "down",
+   "sense": 1,
+   "context": "aşağısında (boyunca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "further down the river",
+    "meaning": "nehrin aşağı kesimlerinde"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "further down the river",
+    "meaning": "nehrin aşağı kesimlerinde"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "river",
+   "pos": "noun",
+   "wordId": "river",
+   "sense": 0,
+   "context": "nehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "further down the river",
+    "meaning": "nehrin aşağı kesimlerinde"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*Not everyone* \"herkes … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "Not everyone",
+    "meaning": "herkes … değil"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "Not everyone",
+    "meaning": "herkes … değil"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "welcome",
+   "pos": "verb",
+   "wordId": "welcome",
+   "sense": 1,
+   "context": "memnuniyetle karşılamak",
+   "note": "*welcome* fiil olarak bir değişikliği \"memnuniyetle karşılamak\" anlamına da gelir.",
+   "form": "welcome + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "change",
+   "pos": "noun",
+   "wordId": "change",
+   "sense": 1,
+   "context": "değişiklikler",
+   "note": null,
+   "form": "change'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": "*however* cümle sonunda virgülden sonra da kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "farmer",
+   "pos": "noun",
+   "wordId": "farmer",
+   "sense": 0,
+   "context": "çiftçiler",
+   "note": null,
+   "form": "farmer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korkuyor",
+   "note": "*fear that…* \"… olmasından korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "geri dönen",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *returning animals* → geri dönen hayvanlar.",
+   "form": "return + -ing",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "returning animals",
+    "meaning": "geri dönen hayvanlar"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "returning animals",
+    "meaning": "geri dönen hayvanlar"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "could damage crops",
+    "meaning": "ekinlere zarar verebilir"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "damage",
+   "pos": "verb",
+   "wordId": "damage",
+   "sense": 1,
+   "context": "zarar vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "could damage crops",
+    "meaning": "ekinlere zarar verebilir"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "crop",
+   "pos": "noun",
+   "wordId": "crop",
+   "sense": 0,
+   "context": "ekinler (mahsul)",
+   "note": null,
+   "form": "crop'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "could damage crops",
+    "meaning": "ekinlere zarar verebilir"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "careful",
+   "pos": "adjective",
+   "wordId": "careful",
+   "sense": 0,
+   "context": "dikkatli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 75,
+    "text": "careful consultation with local communities",
+    "meaning": "yerel topluluklarla dikkatli istişare"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "consultation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "istişare (danışma)",
+   "note": "*consult* (danışmak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "danışma, istişare",
+   "phrase": {
+    "from": 71,
+    "to": 75,
+    "text": "careful consultation with local communities",
+    "meaning": "yerel topluluklarla dikkatli istişare"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 75,
+    "text": "careful consultation with local communities",
+    "meaning": "yerel topluluklarla dikkatli istişare"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 75,
+    "text": "careful consultation with local communities",
+    "meaning": "yerel topluluklarla dikkatli istişare"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "topluluklar",
+   "note": null,
+   "form": "community'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 75,
+    "text": "careful consultation with local communities",
+    "meaning": "yerel topluluklarla dikkatli istişare"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "essential",
+   "pos": "adjective",
+   "wordId": "essential",
+   "sense": 0,
+   "context": "çok önemli (zorunlu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

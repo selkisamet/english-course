@@ -1,0 +1,1220 @@
+{
+ "storyId": "story-c1-024",
+ "textHash": "c2ed6b28fb65",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yanlış bilgi her zaman var olmuştur, ancak sosyal medya onun her zamankinden daha hızlı yayılmasına olanak tanıyor."
+  },
+  {
+   "tr": "Araştırmalar, yanıltıcı haberlerin doğru olanlardan çoğu zaman daha yaygın biçimde paylaşıldığını, bunun da büyük ölçüde güçlü duygusal tepkiler uyandırmalarından kaynaklandığını ortaya koydu."
+  },
+  {
+   "tr": "Yanlış bir iddia bir kez geniş çapta yayıldıktan sonra onu düzeltmek son derece zorlaşır."
+  },
+  {
+   "tr": "Bu nedenle uzmanlar, internette herhangi bir şeyi paylaşmadan önce bir an durup bilginin güvenilir bir kaynaktan gelip gelmediğini kontrol etmeyi öneriyor."
+  },
+  {
+   "tr": "Uzmanlara göre bu tür basit alışkanlıklar sorunu önemli ölçüde azaltabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "false",
+   "pos": "adjective",
+   "wordId": "false",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "False information",
+    "meaning": "yanlış bilgi"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": "*information* sayılamayan bir isimdir: *some information* (✗ informations).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "False information",
+    "meaning": "yanlış bilgi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştur)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "has always existed",
+    "meaning": "her zaman var olmuştur"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "has always existed",
+    "meaning": "her zaman var olmuştur"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "exist",
+   "pos": "verb",
+   "wordId": "exist",
+   "sense": 0,
+   "context": "var olmuştur",
+   "note": null,
+   "form": "exist fiilinin 3. hali (existed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "has always existed",
+    "meaning": "her zaman var olmuştur"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "social",
+   "pos": "adjective",
+   "wordId": "social",
+   "sense": 0,
+   "context": "sosyal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "social media",
+    "meaning": "sosyal medya"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "media",
+   "pos": "noun",
+   "wordId": "media",
+   "sense": 0,
+   "context": "medya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "social media",
+    "meaning": "sosyal medya"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "olanak tanıyor (izin veriyor)",
+   "note": "*allow something to do something* \"bir şeyin … -mesine izin vermek, olanak tanımak\" demektir.",
+   "form": "allow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows it to spread",
+    "meaning": "yayılmasına olanak tanır"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onun (yanlış bilginin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows it to spread",
+    "meaning": "yayılmasına olanak tanır"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows it to spread",
+    "meaning": "yayılmasına olanak tanır"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "spread",
+   "pos": "verb",
+   "wordId": "spread",
+   "sense": 0,
+   "context": "yayılmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows it to spread",
+    "meaning": "yayılmasına olanak tanır"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "fast",
+   "pos": "adverb",
+   "wordId": "fast",
+   "sense": 1,
+   "context": "daha hızlı",
+   "note": null,
+   "form": "fast + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "faster than ever before",
+    "meaning": "her zamankinden daha hızlı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "faster than ever before",
+    "meaning": "her zamankinden daha hızlı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "ever",
+   "pos": "adverb",
+   "wordId": "ever",
+   "sense": 0,
+   "context": "(her zamankinden)",
+   "note": "*than ever before* \"her zamankinden, hiç olmadığı kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "faster than ever before",
+    "meaning": "her zamankinden daha hızlı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "faster than ever before",
+    "meaning": "her zamankinden daha hızlı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "study",
+   "pos": "noun",
+   "wordId": "study",
+   "sense": 0,
+   "context": "araştırmalar",
+   "note": null,
+   "form": "study'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "Studies have found",
+    "meaning": "araştırmalar ortaya koydu"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "Studies have found",
+    "meaning": "araştırmalar ortaya koydu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "ortaya koydu (buldu)",
+   "note": "*find that…* araştırmalar için \"… olduğunu ortaya koymak, bulmak\" demektir.",
+   "form": "find fiilinin 3. hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "Studies have found",
+    "meaning": "araştırmalar ortaya koydu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "misleading",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yanıltıcı",
+   "note": null,
+   "form": null,
+   "base": "yanıltıcı",
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "misleading stories",
+    "meaning": "yanıltıcı haberler"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "haberler",
+   "note": "*story* \"hikâye\" demektir; gazetecilikte \"haber\" anlamına gelir.",
+   "form": "story'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "misleading stories",
+    "meaning": "yanıltıcı haberler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşılmak",
+   "note": null,
+   "form": "share fiilinin 3. hali (shared, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "more widely than accurate ones",
+    "meaning": "doğru olanlardan daha yaygın biçimde"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "widely",
+   "pos": "adverb",
+   "wordId": "widely",
+   "sense": 0,
+   "context": "yaygın biçimde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "more widely than accurate ones",
+    "meaning": "doğru olanlardan daha yaygın biçimde"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "more widely than accurate ones",
+    "meaning": "doğru olanlardan daha yaygın biçimde"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "accurate",
+   "pos": "adjective",
+   "wordId": "accurate",
+   "sense": 0,
+   "context": "doğru",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "more widely than accurate ones",
+    "meaning": "doğru olanlardan daha yaygın biçimde"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "olanlar",
+   "note": "*ones* daha önce geçen çoğul ismin tekrarını önler: *accurate ones* = *accurate stories*.",
+   "form": "one'ın çoğulu (ones)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "more widely than accurate ones",
+    "meaning": "doğru olanlardan daha yaygın biçimde"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "largely",
+   "pos": "adverb",
+   "wordId": "largely",
+   "sense": 0,
+   "context": "büyük ölçüde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (yanıltıcı haberler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "provoke",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "uyandırmak (kışkırtmak)",
+   "note": "*provoke a reaction* \"bir tepkiye yol açmak, tepki uyandırmak\" demektir.",
+   "form": null,
+   "base": "kışkırtmak; (tepki) uyandırmak",
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "provoke strong emotional reactions",
+    "meaning": "güçlü duygusal tepkiler uyandırmak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "strong",
+   "pos": "adjective",
+   "wordId": "strong",
+   "sense": 0,
+   "context": "güçlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "provoke strong emotional reactions",
+    "meaning": "güçlü duygusal tepkiler uyandırmak"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "emotional",
+   "pos": "adjective",
+   "wordId": "emotional",
+   "sense": 0,
+   "context": "duygusal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "provoke strong emotional reactions",
+    "meaning": "güçlü duygusal tepkiler uyandırmak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "reaction",
+   "pos": "noun",
+   "wordId": "reaction",
+   "sense": 0,
+   "context": "tepkiler",
+   "note": null,
+   "form": "reaction'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "provoke strong emotional reactions",
+    "meaning": "güçlü duygusal tepkiler uyandırmak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "once",
+   "pos": "conjunction",
+   "wordId": "once",
+   "sense": 1,
+   "context": "bir kez … -dıktan sonra",
+   "note": "*once* bağlaç olarak \"… -ir -mez, bir kez … -dıktan sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "false",
+   "pos": "adjective",
+   "wordId": "false",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "claim",
+   "pos": "noun",
+   "wordId": "claim",
+   "sense": 1,
+   "context": "iddia",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dıktan)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "widely",
+   "pos": "adverb",
+   "wordId": "widely",
+   "sense": 0,
+   "context": "geniş çapta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "circulate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yayılmak (dolaşıma girmek)",
+   "note": "*circulate* \"dolaşmak, elden ele yayılmak\" demektir.",
+   "form": "circulate fiilinin 3. hali (circulated, -d)",
+   "base": "dolaşmak, yayılmak; dolaştırmak",
+   "phrase": {
+    "from": 37,
+    "to": 44,
+    "text": "Once a false claim has been widely circulated",
+    "meaning": "yanlış bir iddia bir kez geniş çapta yayıldıktan sonra"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "correct",
+   "pos": "verb",
+   "wordId": "correct",
+   "sense": 1,
+   "context": "düzeltmek",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *correcting it* → onu düzeltmek.",
+   "form": "correct + -ing",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "correcting it",
+    "meaning": "onu düzeltmek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (iddiayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "correcting it",
+    "meaning": "onu düzeltmek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(zor)laşır",
+   "note": null,
+   "form": "become + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "son derece",
+   "note": null,
+   "form": "remarkable + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede, son derece",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzmanlar",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "recommend",
+   "pos": "verb",
+   "wordId": "recommend",
+   "sense": 0,
+   "context": "öneriyor (tavsiye ediyor)",
+   "note": "*recommend* + *-ing* \"… -meyi önermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "pause",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bir an durmak",
+   "note": "*pause* \"kısa bir süre durmak, duraksamak\" demektir.",
+   "form": "pause + -ing (sondaki e düşer)",
+   "base": "duraksamak, kısa bir süre durmak",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-meden önce",
+   "note": "*before* + *-ing* \"… -meden önce\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "before sharing anything online",
+    "meaning": "internette bir şey paylaşmadan önce"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmak",
+   "note": null,
+   "form": "share + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "before sharing anything online",
+    "meaning": "internette bir şey paylaşmadan önce"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "anything",
+   "pos": "pronoun",
+   "wordId": "anything",
+   "sense": 0,
+   "context": "herhangi bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "before sharing anything online",
+    "meaning": "internette bir şey paylaşmadan önce"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internette",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "before sharing anything online",
+    "meaning": "internette bir şey paylaşmadan önce"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "check",
+   "pos": "verb",
+   "wordId": "check",
+   "sense": 0,
+   "context": "kontrol etmek",
+   "note": null,
+   "form": "check + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelmek",
+   "note": null,
+   "form": "come + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "a reliable source",
+    "meaning": "güvenilir bir kaynak"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "reliable",
+   "pos": "adjective",
+   "wordId": "reliable",
+   "sense": 0,
+   "context": "güvenilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "a reliable source",
+    "meaning": "güvenilir bir kaynak"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "source",
+   "pos": "noun",
+   "wordId": "source",
+   "sense": 0,
+   "context": "kaynak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "a reliable source",
+    "meaning": "güvenilir bir kaynak"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlıklar",
+   "note": null,
+   "form": "habit'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (uzmanlar)",
+   "note": "Virgüller arasındaki *they argue* \"onlara göre, savundukları üzere\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "they argue",
+    "meaning": "onlara göre (savunduklarına göre)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "they argue",
+    "meaning": "onlara göre (savunduklarına göre)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "significantly",
+   "pos": "adverb",
+   "wordId": "significantly",
+   "sense": 0,
+   "context": "önemli ölçüde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "significantly reduce the problem",
+    "meaning": "sorunu önemli ölçüde azaltmak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "azaltmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "significantly reduce the problem",
+    "meaning": "sorunu önemli ölçüde azaltmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "significantly reduce the problem",
+    "meaning": "sorunu önemli ölçüde azaltmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "significantly reduce the problem",
+    "meaning": "sorunu önemli ölçüde azaltmak"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1175 @@
+{
+ "storyId": "story-c1-037",
+ "textHash": "c7dd213227aa",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Çeviri, bir dildeki kelimeleri başka bir dildeki kelimelerle basitçe değiştirmekten çok daha fazlasıdır."
+  },
+  {
+   "tr": "Her dil başka hiçbir yerde tam karşılığı olmayan ifadeler içerir ve kelime oyununa dayanan esprileri aktarmak bilindiği üzere son derece zordur."
+  },
+  {
+   "tr": "Bu nedenle usta bir çevirmen yalnızca dilbilgisini değil, metnin kültürel bağlamını da anlamak zorundadır."
+  },
+  {
+   "tr": "Makine çevirisi çarpıcı biçimde gelişmiş olsa da birçok uzman, edebi eserlerin öngörülebilir gelecekte de insan muhakemesine ihtiyaç duymaya devam edeceğine inanıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "translation",
+   "pos": "noun",
+   "wordId": "translation",
+   "sense": 0,
+   "context": "çeviri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "far more than",
+    "meaning": "… -den çok daha fazlası"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazlası",
+   "note": "*far more than* \"… -den çok daha fazlası\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "far more than",
+    "meaning": "… -den çok daha fazlası"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "far more than",
+    "meaning": "… -den çok daha fazlası"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "the simple replacement of words",
+    "meaning": "kelimelerin basitçe değiştirilmesi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "the simple replacement of words",
+    "meaning": "kelimelerin basitçe değiştirilmesi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "replacement",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "değiştirme (yerine koyma)",
+   "note": "*-ment* eki fiilden isim yapar: *replace* (yerine koymak) → *replacement*.",
+   "form": null,
+   "base": "yerine koyma, değiştirme",
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "the simple replacement of words",
+    "meaning": "kelimelerin basitçe değiştirilmesi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "the simple replacement of words",
+    "meaning": "kelimelerin basitçe değiştirilmesi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "kelimeler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "the simple replacement of words",
+    "meaning": "kelimelerin basitçe değiştirilmesi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (dildeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": "*replace A with B* \"A'yı B ile değiştirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "kelimeler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "başka bir (dil)",
+   "note": "*one … another* \"biri … diğeri, bir … başka bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "contain",
+   "pos": "verb",
+   "wordId": "contain",
+   "sense": 0,
+   "context": "içerir",
+   "note": null,
+   "form": "contain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "expression",
+   "pos": "noun",
+   "wordId": "expression",
+   "sense": 0,
+   "context": "ifadeler (deyimler)",
+   "note": null,
+   "form": "expression'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(olmayan)",
+   "note": "*have no* + isim \"hiç … -si olmamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "have no exact equivalent elsewhere",
+    "meaning": "başka hiçbir yerde tam karşılığı yok"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "have no exact equivalent elsewhere",
+    "meaning": "başka hiçbir yerde tam karşılığı yok"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "exact",
+   "pos": "adjective",
+   "wordId": "exact",
+   "sense": 0,
+   "context": "tam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "have no exact equivalent elsewhere",
+    "meaning": "başka hiçbir yerde tam karşılığı yok"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "equivalent",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "karşılık",
+   "note": "*equivalent* \"eşdeğer, karşılık\" demektir: *an exact equivalent* → tam karşılık.",
+   "form": null,
+   "base": "karşılık, eşdeğer",
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "have no exact equivalent elsewhere",
+    "meaning": "başka hiçbir yerde tam karşılığı yok"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "elsewhere",
+   "pos": "adverb",
+   "wordId": "elsewhere",
+   "sense": 0,
+   "context": "başka bir yerde (başka bir dilde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "have no exact equivalent elsewhere",
+    "meaning": "başka hiçbir yerde tam karşılığı yok"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "joke",
+   "pos": "noun",
+   "wordId": "joke",
+   "sense": 0,
+   "context": "espriler (şakalar)",
+   "note": null,
+   "form": "joke'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 32,
+    "text": "jokes that rely on wordplay",
+    "meaning": "kelime oyununa dayanan espriler"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 32,
+    "text": "jokes that rely on wordplay",
+    "meaning": "kelime oyununa dayanan espriler"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "dayanan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 32,
+    "text": "jokes that rely on wordplay",
+    "meaning": "kelime oyununa dayanan espriler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (rely on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 32,
+    "text": "jokes that rely on wordplay",
+    "meaning": "kelime oyununa dayanan espriler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "wordplay",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kelime oyunu",
+   "note": "*wordplay* *word* (kelime) ve *play* (oyun) kelimelerinden oluşur.",
+   "form": null,
+   "base": "kelime oyunu, cinas",
+   "phrase": {
+    "from": 28,
+    "to": 32,
+    "text": "jokes that rely on wordplay",
+    "meaning": "kelime oyununa dayanan espriler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "notoriously",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bilindiği üzere (son derece)",
+   "note": "*notoriously* kötü bir özelliğin \"herkesçe bilindiğini\" vurgular.",
+   "form": "notorious + -ly (sıfattan zarf)",
+   "base": "(kötü anlamda) herkesçe bilindiği üzere",
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "notoriously difficult to convey",
+    "meaning": "aktarması bilindiği üzere çok zor"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "notoriously difficult to convey",
+    "meaning": "aktarması bilindiği üzere çok zor"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mak)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *difficult to convey* → aktarması zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "notoriously difficult to convey",
+    "meaning": "aktarması bilindiği üzere çok zor"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "convey",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aktarmak",
+   "note": "*convey* bir anlamı ya da duyguyu \"aktarmak, iletmek\" demektir.",
+   "form": null,
+   "base": "aktarmak, iletmek",
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "notoriously difficult to convey",
+    "meaning": "aktarması bilindiği üzere çok zor"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "A skilled translator",
+    "meaning": "usta bir çevirmen"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "skilled",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "usta (yetenekli)",
+   "note": "*skill* (beceri) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "usta, yetenekli, becerikli",
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "A skilled translator",
+    "meaning": "usta bir çevirmen"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "translator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çevirmen",
+   "note": "*translate* (çevirmek) fiilinden *-or* ekiyle \"yapan kişi\" anlamında isim yapılmıştır.",
+   "form": null,
+   "base": "çevirmen",
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "A skilled translator",
+    "meaning": "usta bir çevirmen"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "zorundadır (-meli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not only … but also …* \"yalnızca … değil, aynı zamanda … da\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "not only … but also",
+    "meaning": "yalnızca … değil, … da"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "not only … but also",
+    "meaning": "yalnızca … değil, … da"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "grammar",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dilbilgisi",
+   "note": "*grammar*'ın sonu *-ar* ile yazılır (✗ grammer).",
+   "form": null,
+   "base": "dilbilgisi",
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "not only … but also",
+    "meaning": "yalnızca … değil, … da"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "not only … but also",
+    "meaning": "yalnızca … değil, … da"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (aynı zamanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "not only … but also",
+    "meaning": "yalnızca … değil, … da"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "cultural",
+   "pos": "adjective",
+   "wordId": "cultural",
+   "sense": 0,
+   "context": "kültürel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "cultural context",
+    "meaning": "kültürel bağlam"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "context",
+   "pos": "noun",
+   "wordId": "context",
+   "sense": 0,
+   "context": "bağlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "cultural context",
+    "meaning": "kültürel bağlam"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (metnin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "text",
+   "pos": "noun",
+   "wordId": "text",
+   "sense": 0,
+   "context": "metin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de (-e rağmen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "machine",
+   "pos": "noun",
+   "wordId": "machine",
+   "sense": 0,
+   "context": "makine",
+   "note": "*machine translation* bilgisayar programlarıyla yapılan \"makine çevirisi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "machine translation",
+    "meaning": "makine çevirisi"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "translation",
+   "pos": "noun",
+   "wordId": "translation",
+   "sense": 0,
+   "context": "çeviri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "machine translation",
+    "meaning": "makine çevirisi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "gelişmiş",
+   "note": null,
+   "form": "improve fiilinin 3. hali (improved, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "dramatically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çarpıcı biçimde",
+   "note": null,
+   "form": "dramatic + -ally (sıfattan zarf)",
+   "base": "çarpıcı biçimde, büyük ölçüde",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzman",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inanıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "literary",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "edebi",
+   "note": "*literature* (edebiyat) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "edebi, edebiyatla ilgili",
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "literary works",
+    "meaning": "edebi eserler"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "eserler",
+   "note": "*work* \"iş\" demektir; sanatta \"eser, yapıt\" anlamına gelir ve bu anlamda sayılabilir: *literary works* → edebi eserler.",
+   "form": "work'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "literary works",
+    "meaning": "edebi eserler"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "will continue to require",
+    "meaning": "ihtiyaç duymaya devam edecek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "devam etmek",
+   "note": "*continue to do something* \"bir şeyi yapmaya devam etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "will continue to require",
+    "meaning": "ihtiyaç duymaya devam edecek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "will continue to require",
+    "meaning": "ihtiyaç duymaya devam edecek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "require",
+   "pos": "verb",
+   "wordId": "require",
+   "sense": 0,
+   "context": "ihtiyaç duymak (gerektirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "will continue to require",
+    "meaning": "ihtiyaç duymaya devam edecek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "human judgement",
+    "meaning": "insan muhakemesi"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "muhakeme (yargı)",
+   "note": "İngiliz yazımı *judgement*, Amerikan yazımı *judgment*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "human judgement",
+    "meaning": "insan muhakemesi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(… boyunca)",
+   "note": "*for the foreseeable future* \"öngörülebilir gelecekte, yakın gelecek boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "for the foreseeable future",
+    "meaning": "öngörülebilir gelecekte"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "for the foreseeable future",
+    "meaning": "öngörülebilir gelecekte"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "foreseeable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "öngörülebilir",
+   "note": "*foresee* (önceden görmek) + *-able* (-ebilir): \"öngörülebilir\".",
+   "form": null,
+   "base": "öngörülebilir",
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "for the foreseeable future",
+    "meaning": "öngörülebilir gelecekte"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "future",
+   "pos": "noun",
+   "wordId": "future",
+   "sense": 0,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "for the foreseeable future",
+    "meaning": "öngörülebilir gelecekte"
+   }
+  }
+ ]
+}

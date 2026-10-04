@@ -1,0 +1,1130 @@
+{
+ "storyId": "story-c1-017",
+ "textHash": "71288d2fd628",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Plasebo etkisi, tıptaki en merak uyandırıcı olgulardan biri olmayı sürdürüyor."
+  },
+  {
+   "tr": "Hiçbir etken madde içermeyen bir tedavi verilen hastalar, sırf daha iyi hissetmeyi bekledikleri için bazen belirtilerinde gerçek bir iyileşme olduğunu bildiriyor."
+  },
+  {
+   "tr": "Daha da şaşırtıcısı, bu etki hastalara hapın sahte olduğu söylendiğinde bile ortaya çıkabiliyor."
+  },
+  {
+   "tr": "Plasebolar ciddi hastalıkları iyileştiremese de araştırmacılar, onları anlamanın doktorların zihin ile beden arasındaki güçlü bağdan daha iyi yararlanmasına yardımcı olabileceğine inanıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "placebo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "plasebo",
+   "note": "*placebo* içinde etken madde bulunmayan, hastaya ilaç gibi verilen maddedir.",
+   "form": null,
+   "base": "plasebo, etkisiz ilaç",
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "placebo effect",
+    "meaning": "plasebo etkisi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "effect",
+   "pos": "noun",
+   "wordId": "effect",
+   "sense": 0,
+   "context": "etki",
+   "note": "*effect* isimdir (etki); fiil olan \"etkilemek\" *affect*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "placebo effect",
+    "meaning": "plasebo etkisi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "olmayı sürdürüyor (kalıyor)",
+   "note": "*remain* + isim/sıfat \"… olarak kalmak, … olmayı sürdürmek\" demektir.",
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri",
+   "note": "*one of the* + en üstünlük + çoğul isim \"en … -lerden biri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (olgulardan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "intriguing",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "merak uyandırıcı",
+   "note": "*intrigue* (merakını uyandırmak) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "merak uyandırıcı, ilginç",
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "phenomenon",
+   "pos": "noun",
+   "wordId": "phenomenon",
+   "sense": 0,
+   "context": "olgular",
+   "note": "*phenomenon* Yunanca kökenlidir ve çoğulu *phenomena*'dır.",
+   "form": "phenomenon'un çoğulu (phenomena, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "one of the most intriguing phenomena",
+    "meaning": "en merak uyandırıcı olgulardan biri"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (tıptaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "medicine",
+   "pos": "noun",
+   "wordId": "medicine",
+   "sense": 0,
+   "context": "tıp",
+   "note": "*medicine* \"ilaç\" ve \"tıp\" demektir; burada \"tıp bilimi\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "patient",
+   "pos": "noun",
+   "wordId": "patient",
+   "sense": 0,
+   "context": "hastalar",
+   "note": null,
+   "form": "patient'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ilen)",
+   "note": "*patients are given a treatment* \"hastalara bir tedavi verilir\" demektir; İngilizcede şeyi alan kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "are given",
+    "meaning": "verilir (kendilerine)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verilen",
+   "note": null,
+   "form": "give fiilinin 3. hali (given, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "are given",
+    "meaning": "verilir (kendilerine)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "treatment",
+   "pos": "noun",
+   "wordId": "treatment",
+   "sense": 0,
+   "context": "tedavi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "(içeren)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "with no active ingredient",
+    "meaning": "hiçbir etken madde içermeyen"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiçbir",
+   "note": "*with no* + isim \"hiç … içermeyen, … -sız\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "with no active ingredient",
+    "meaning": "hiçbir etken madde içermeyen"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "active",
+   "pos": "adjective",
+   "wordId": "active",
+   "sense": 0,
+   "context": "etken (aktif)",
+   "note": "*active ingredient* bir ilacın \"etken maddesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "active ingredient",
+    "meaning": "etken madde"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "ingredient",
+   "pos": "noun",
+   "wordId": "ingredient",
+   "sense": 0,
+   "context": "madde (içerik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "active ingredient",
+    "meaning": "etken madde"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildiriyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "a genuine improvement",
+    "meaning": "gerçek bir iyileşme"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "a genuine improvement",
+    "meaning": "gerçek bir iyileşme"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "improvement",
+   "pos": "noun",
+   "wordId": "improvement",
+   "sense": 0,
+   "context": "iyileşme",
+   "note": "*-ment* eki fiilden isim yapar: *improve* (iyileşmek) → *improvement* (iyileşme).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "a genuine improvement",
+    "meaning": "gerçek bir iyileşme"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (belirtilerinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "symptom",
+   "pos": "noun",
+   "wordId": "symptom",
+   "sense": 0,
+   "context": "belirtiler",
+   "note": null,
+   "form": "symptom'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "sırf (sadece)",
+   "note": "*simply because* \"sırf … -dığı için\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "simply because",
+    "meaning": "sırf … için"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "simply because",
+    "meaning": "sırf … için"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "bekledikleri",
+   "note": "*expect to do something* \"bir şeyi yapmayı beklemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "expect to feel better",
+    "meaning": "daha iyi hissetmeyi beklemek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "expect to feel better",
+    "meaning": "daha iyi hissetmeyi beklemek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir: *feel better* → daha iyi hissetmek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "expect to feel better",
+    "meaning": "daha iyi hissetmeyi beklemek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "better",
+   "pos": "adjective",
+   "wordId": "better",
+   "sense": 0,
+   "context": "daha iyi",
+   "note": "*better*, *good*'un karşılaştırma halidir: *good → better → best*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "expect to feel better",
+    "meaning": "daha iyi hissetmeyi beklemek"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "daha da şaşırtıcısı",
+   "note": "Cümle başında *Remarkably* \"şaşırtıcı bir şekilde, dikkat çekici olarak\" demektir.",
+   "form": "remarkable + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı biçimde, dikkat çekici şekilde",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "effect",
+   "pos": "noun",
+   "wordId": "effect",
+   "sense": 0,
+   "context": "etki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "occur",
+   "pos": "verb",
+   "wordId": "occur",
+   "sense": 0,
+   "context": "ortaya çıkmak (meydana gelmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": "*even when* \"… -diğinde bile\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "even when",
+    "meaning": "-diğinde bile"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "even when",
+    "meaning": "-diğinde bile"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "patient",
+   "pos": "noun",
+   "wordId": "patient",
+   "sense": 0,
+   "context": "hastalar",
+   "note": null,
+   "form": "patient'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-endiğinde)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "are told",
+    "meaning": "söylenir (kendilerine)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylenmek",
+   "note": "*patients are told that…* \"hastalara … söylenir\" demektir.",
+   "form": "tell fiilinin 3. hali (told, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "are told",
+    "meaning": "söylenir (kendilerine)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "pill",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hap",
+   "note": null,
+   "form": null,
+   "base": "hap",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "fake",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sahte",
+   "note": null,
+   "form": null,
+   "base": "sahte",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de (-e rağmen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "placebo",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "plasebolar",
+   "note": null,
+   "form": "placebo'nun çoğulu",
+   "base": "plasebo, etkisiz ilaç",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": "*cannot* *can* ve *not*'un bitişik yazılmış halidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "cure",
+   "pos": "verb",
+   "wordId": "cure",
+   "sense": 0,
+   "context": "iyileştirmek (tedavi etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "serious",
+   "pos": "adjective",
+   "wordId": "serious",
+   "sense": 0,
+   "context": "ciddi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "disease",
+   "pos": "noun",
+   "wordId": "disease",
+   "sense": 0,
+   "context": "hastalıklar",
+   "note": null,
+   "form": "disease'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "researcher",
+   "pos": "noun",
+   "wordId": "researcher",
+   "sense": 0,
+   "context": "araştırmacılar",
+   "note": null,
+   "form": "researcher'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inanıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *understanding them* → onları anlamak.",
+   "form": "understand + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (plaseboları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": "*could* burada geçmiş değil, olasılık bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "could help",
+    "meaning": "yardımcı olabilir"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardımcı olmak",
+   "note": "*help someone do something* \"birinin bir şeyi yapmasına yardım etmek\" demektir; ikinci fiil *to* almayabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "could help",
+    "meaning": "yardımcı olabilir"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktorlar",
+   "note": null,
+   "form": "doctor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(yararlanmak)",
+   "note": "*make use of something* \"bir şeyden yararlanmak, bir şeyi kullanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "make better use of",
+    "meaning": "-den daha iyi yararlanmak"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "better",
+   "pos": "adjective",
+   "wordId": "better",
+   "sense": 0,
+   "context": "daha iyi",
+   "note": null,
+   "form": "good'un karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "make better use of",
+    "meaning": "-den daha iyi yararlanmak"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "use",
+   "pos": "noun",
+   "wordId": "use",
+   "sense": 1,
+   "context": "kullanım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "make better use of",
+    "meaning": "-den daha iyi yararlanmak"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (make use of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "make better use of",
+    "meaning": "-den daha iyi yararlanmak"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "powerful",
+   "pos": "adjective",
+   "wordId": "powerful",
+   "sense": 0,
+   "context": "güçlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ (bağlantı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "between mind and body",
+    "meaning": "zihin ile beden arasında"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "between mind and body",
+    "meaning": "zihin ile beden arasında"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile (ve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "between mind and body",
+    "meaning": "zihin ile beden arasında"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "body",
+   "pos": "noun",
+   "wordId": "body",
+   "sense": 0,
+   "context": "beden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "between mind and body",
+    "meaning": "zihin ile beden arasında"
+   }
+  }
+ ]
+}

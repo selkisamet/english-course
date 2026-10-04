@@ -1,0 +1,1212 @@
+{
+ "storyId": "story-c1-019",
+ "textHash": "755864054eda",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Dilbilimciler, bugün konuşulan dillerin önemli bir kısmının bu yüzyılın sonuna kadar yok olabileceğini tahmin ediyor."
+  },
+  {
+   "tr": "Bir dili akıcı konuşan son kişi öldüğünde, dünyayı anlamanın eşsiz bir yolu da onunla birlikte kaybolur."
+  },
+  {
+   "tr": "Buna karşılık dünyanın dört bir yanındaki topluluklar yaşlı konuşurların seslerini kaydediyor, sözlükler hazırlıyor ve çocukların atalarından kalan dilde eğitim gördüğü okullar kuruyor."
+  },
+  {
+   "tr": "Bu tür çabalar, yeterli kararlılık olduğunda ciddi tehlike altındaki dillerin bile yeniden canlandırılabileceğini gösterdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "linguist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dilbilimciler",
+   "note": "*linguist* dilleri bilimsel olarak inceleyen kişidir; *linguistics* \"dilbilim\" demektir.",
+   "form": "linguist'in çoğulu",
+   "base": "dilbilimci",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "estimate",
+   "pos": "verb",
+   "wordId": "estimate",
+   "sense": 0,
+   "context": "tahmin ediyor",
+   "note": "*estimate* fiil olarak \"tahmin etmek, kestirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "a significant proportion of the languages",
+    "meaning": "dillerin önemli bir kısmı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "significant",
+   "pos": "adjective",
+   "wordId": "significant",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "a significant proportion of the languages",
+    "meaning": "dillerin önemli bir kısmı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "proportion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kısım (oran)",
+   "note": "*a proportion of* \"… -in bir kısmı/oranı\" demektir.",
+   "form": null,
+   "base": "oran, kısım",
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "a significant proportion of the languages",
+    "meaning": "dillerin önemli bir kısmı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (dillerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "a significant proportion of the languages",
+    "meaning": "dillerin önemli bir kısmı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "a significant proportion of the languages",
+    "meaning": "dillerin önemli bir kısmı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "diller",
+   "note": null,
+   "form": "language'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "languages spoken today",
+    "meaning": "bugün konuşulan diller"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşulan",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *languages spoken today* → bugün konuşulan diller.",
+   "form": "speak fiilinin 3. hali (spoken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "languages spoken today",
+    "meaning": "bugün konuşulan diller"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "languages spoken today",
+    "meaning": "bugün konuşulan diller"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "may disappear",
+    "meaning": "yok olabilir"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "disappear",
+   "pos": "verb",
+   "wordId": "disappear",
+   "sense": 0,
+   "context": "yok olmak (kaybolmak)",
+   "note": "*dis-* ön eki zıt anlam katar: *appear* (ortaya çıkmak) → *disappear* (kaybolmak).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "may disappear",
+    "meaning": "yok olabilir"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e kadar",
+   "note": "*by* + zaman \"en geç … -e kadar\" demektir: *by the end of this century* → bu yüzyılın sonuna kadar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yüzyılın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "by the end of this century",
+    "meaning": "bu yüzyılın sonuna kadar"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "the last fluent speaker",
+    "meaning": "akıcı konuşan son kişi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "fluent",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "akıcı",
+   "note": "*a fluent speaker* bir dili \"akıcı konuşan kişi\" demektir.",
+   "form": null,
+   "base": "akıcı",
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "the last fluent speaker",
+    "meaning": "akıcı konuşan son kişi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "speaker",
+   "pos": "noun",
+   "wordId": "speaker",
+   "sense": 0,
+   "context": "konuşan (konuşur)",
+   "note": "*speaker of a language* \"bir dili konuşan kişi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "the last fluent speaker",
+    "meaning": "akıcı konuşan son kişi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (dilin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "öldüğünde",
+   "note": null,
+   "form": "die + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "unique",
+   "pos": "adjective",
+   "wordId": "unique",
+   "sense": 0,
+   "context": "eşsiz",
+   "note": "*unique*'in okunuşu \"yunik\"tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol (biçim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (anlamanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": "understand + -ing",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "world",
+   "pos": "noun",
+   "wordId": "world",
+   "sense": 0,
+   "context": "dünya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "a unique way of understanding the world",
+    "meaning": "dünyayı anlamanın eşsiz bir yolu"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "is lost with them",
+    "meaning": "onunla birlikte kaybolur"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybolur (kaybedilir)",
+   "note": null,
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "is lost with them",
+    "meaning": "onunla birlikte kaybolur"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "is lost with them",
+    "meaning": "onunla birlikte kaybolur"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onunla",
+   "note": "Cinsiyeti belirtilmeyen tek bir kişi için de *they/them* kullanılır: *the last speaker … with them* → son konuşurla birlikte.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "is lost with them",
+    "meaning": "onunla birlikte kaybolur"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in response: buna karşılık)",
+   "note": "*in response (to something)* \"(bir şeye) karşılık olarak, tepki olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "response",
+   "pos": "noun",
+   "wordId": "response",
+   "sense": 0,
+   "context": "karşılık (tepki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "topluluklar",
+   "note": null,
+   "form": "community'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "around",
+   "pos": "preposition",
+   "wordId": "around",
+   "sense": 0,
+   "context": "(dört bir yanında)",
+   "note": "*around the world* \"dünyanın her yerinde, dört bir yanında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "around the world",
+    "meaning": "dünyanın dört bir yanında"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "around the world",
+    "meaning": "dünyanın dört bir yanında"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "world",
+   "pos": "noun",
+   "wordId": "world",
+   "sense": 0,
+   "context": "dünya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "around the world",
+    "meaning": "dünyanın dört bir yanında"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "record",
+   "pos": "verb",
+   "wordId": "record",
+   "sense": 1,
+   "context": "kaydediyor",
+   "note": "*record* fiilinin vurgusu ikinci hecededir (\"rikord\"); isim olan *record* ise ilk heceden vurgulanır (\"rekırd\").",
+   "form": "record + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "elderly",
+   "pos": "adjective",
+   "wordId": "elderly",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "speaker",
+   "pos": "noun",
+   "wordId": "speaker",
+   "sense": 0,
+   "context": "konuşurlar",
+   "note": null,
+   "form": "speaker'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "hazırlıyor (geliştiriyor)",
+   "note": null,
+   "form": "develop + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "dictionary",
+   "pos": "noun",
+   "wordId": "dictionary",
+   "sense": 0,
+   "context": "sözlükler",
+   "note": null,
+   "form": "dictionary'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "establish",
+   "pos": "verb",
+   "wordId": "establish",
+   "sense": 0,
+   "context": "kuruyor",
+   "note": null,
+   "form": "establish + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okullar",
+   "note": null,
+   "form": "school'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in which: -diği)",
+   "note": "Resmî dilde edat ilgi zamirinden önce gelir: *schools in which children are taught* (= *schools where children are taught*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "in which children are taught",
+    "meaning": "çocukların eğitim gördüğü"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "in which children are taught",
+    "meaning": "çocukların eğitim gördüğü"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "in which children are taught",
+    "meaning": "çocukların eğitim gördüğü"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "in which children are taught",
+    "meaning": "çocukların eğitim gördüğü"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "teach",
+   "pos": "verb",
+   "wordId": "teach",
+   "sense": 0,
+   "context": "eğitim gördüğü (öğretilen)",
+   "note": "*be taught in a language* \"bir dilde eğitim görmek\" demektir.",
+   "form": "teach fiilinin 3. hali (taught, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "in which children are taught",
+    "meaning": "çocukların eğitim gördüğü"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (dilde)",
+   "note": "Dillerle *in* kullanılır: *in their language* → kendi dillerinde.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "ancestral",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "atalarından kalan",
+   "note": "*ancestor* (ata) isminden *-al* ekiyle türemiş bir sıfattır.",
+   "form": null,
+   "base": "atalardan kalma, ata …",
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "ancestral language",
+    "meaning": "atalardan kalan dil"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "ancestral language",
+    "meaning": "atalardan kalan dil"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "effort",
+   "pos": "noun",
+   "wordId": "effort",
+   "sense": 0,
+   "context": "çabalar",
+   "note": null,
+   "form": "effort'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterdi",
+   "note": null,
+   "form": "show fiilinin 3. hali (shown, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "(olduğunda)",
+   "note": "*with* + isim burada koşul bildirir: \"… olduğunda, … sayesinde\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with sufficient commitment",
+    "meaning": "yeterli kararlılıkla"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "sufficient",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yeterli",
+   "note": "*sufficient*, *enough*'un daha resmî karşılığıdır.",
+   "form": null,
+   "base": "yeterli",
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with sufficient commitment",
+    "meaning": "yeterli kararlılıkla"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "commitment",
+   "pos": "noun",
+   "wordId": "commitment",
+   "sense": 0,
+   "context": "kararlılık (bağlılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with sufficient commitment",
+    "meaning": "yeterli kararlılıkla"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "severely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "ciddi (şekilde)",
+   "note": "*-ly* eki sıfattan zarf yapar: *severe* (ciddi, şiddetli) → *severely*.",
+   "form": "severe + -ly (sıfattan zarf)",
+   "base": "ciddi şekilde, ağır biçimde",
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "severely threatened languages",
+    "meaning": "ciddi tehlike altındaki diller"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "threaten",
+   "pos": "verb",
+   "wordId": "threaten",
+   "sense": 0,
+   "context": "tehlike altındaki (tehdit edilen)",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *threatened languages* → tehlike altındaki diller.",
+   "form": "threaten fiilinin 3. hali (threatened, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "severely threatened languages",
+    "meaning": "ciddi tehlike altındaki diller"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "diller",
+   "note": null,
+   "form": "language'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "severely threatened languages",
+    "meaning": "ciddi tehlike altındaki diller"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "can be revived",
+    "meaning": "yeniden canlandırılabilir"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "can be revived",
+    "meaning": "yeniden canlandırılabilir"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "revive",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden canlandırılmak",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar; *revive* \"canlandırmak, yeniden hayata döndürmek\" demektir.",
+   "form": "revive fiilinin 3. hali (revived, -d)",
+   "base": "yeniden canlandırmak",
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "can be revived",
+    "meaning": "yeniden canlandırılabilir"
+   }
+  }
+ ]
+}

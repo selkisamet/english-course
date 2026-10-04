@@ -1,0 +1,1230 @@
+{
+ "storyId": "story-c1-034",
+ "textHash": "df468e062f17",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birçok gelişmiş ülkede insanlar daha az çocuk sahibi olurken daha uzun yaşıyor ve yaşlı vatandaşların oranı istikrarlı bir şekilde artıyor."
+  },
+  {
+   "tr": "Bu demografik değişim ciddi zorluklar doğuruyor."
+  },
+  {
+   "tr": "Küçülen bir işgücü giderek artan sayıda emekliyi geçindirmek zorunda kalıyor, bu da emeklilik sistemleri ve sağlık hizmetleri üzerinde baskı oluşturuyor."
+  },
+  {
+   "tr": "Öte yandan yaşlılar gönüllü çalışmalarla ve torunlarına bakarak topluma çok büyük katkı sağlıyor."
+  },
+  {
+   "tr": "Hükümetler, çalışmaya devam etmek isteyenlerin bunu yapabilmesinin yollarını giderek daha fazla araştırıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ülkede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "gelişmiş",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *developed countries* → gelişmiş ülkeler.",
+   "form": "develop fiilinin 3. hali (developed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "developed countries",
+    "meaning": "gelişmiş ülkeler"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "country",
+   "pos": "noun",
+   "wordId": "country",
+   "sense": 0,
+   "context": "ülkeler",
+   "note": null,
+   "form": "country'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "developed countries",
+    "meaning": "gelişmiş ülkeler"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "are living longer",
+    "meaning": "daha uzun yaşıyor"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyor",
+   "note": null,
+   "form": "live + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "are living longer",
+    "meaning": "daha uzun yaşıyor"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "daha uzun",
+   "note": null,
+   "form": "long + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "are living longer",
+    "meaning": "daha uzun yaşıyor"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* + *-ing* \"… -ken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "while having fewer children",
+    "meaning": "daha az çocuk sahibi olurken"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "sahip olmak",
+   "note": "*have children* \"çocuk sahibi olmak\" demektir.",
+   "form": "have + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "while having fewer children",
+    "meaning": "daha az çocuk sahibi olurken"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "daha az",
+   "note": "*fewer* sayılabilen isimlerle kullanılır: *fewer children*; sayılamayanlarla *less* kullanılır.",
+   "form": "few + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "while having fewer children",
+    "meaning": "daha az çocuk sahibi olurken"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuk",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "while having fewer children",
+    "meaning": "daha az çocuk sahibi olurken"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "the proportion of elderly citizens",
+    "meaning": "yaşlı vatandaşların oranı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "proportion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "oran",
+   "note": null,
+   "form": null,
+   "base": "oran, kısım",
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "the proportion of elderly citizens",
+    "meaning": "yaşlı vatandaşların oranı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (vatandaşların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "the proportion of elderly citizens",
+    "meaning": "yaşlı vatandaşların oranı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "elderly",
+   "pos": "adjective",
+   "wordId": "elderly",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "the proportion of elderly citizens",
+    "meaning": "yaşlı vatandaşların oranı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "citizen",
+   "pos": "noun",
+   "wordId": "citizen",
+   "sense": 0,
+   "context": "vatandaşlar",
+   "note": null,
+   "form": "citizen'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "the proportion of elderly citizens",
+    "meaning": "yaşlı vatandaşların oranı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "rise",
+   "pos": "verb",
+   "wordId": "rise",
+   "sense": 0,
+   "context": "artıyor (yükseliyor)",
+   "note": null,
+   "form": "rise + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "rising steadily",
+    "meaning": "istikrarlı biçimde artıyor"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "steadily",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "istikrarlı bir şekilde",
+   "note": "*-ly* eki sıfattan zarf yapar: *steady* (istikrarlı) → *steadily* (y → i).",
+   "form": "steady + -ly (sıfattan zarf)",
+   "base": "istikrarlı bir şekilde, sürekli",
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "rising steadily",
+    "meaning": "istikrarlı biçimde artıyor"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "demographic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "demografik",
+   "note": "*demographic* nüfusun yapısıyla (yaş, doğum oranı vb.) ilgili demektir.",
+   "form": null,
+   "base": "demografik, nüfusla ilgili",
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "demographic shift",
+    "meaning": "demografik değişim"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "shift",
+   "pos": "noun",
+   "wordId": "shift",
+   "sense": 0,
+   "context": "değişim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "demographic shift",
+    "meaning": "demografik değişim"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "present",
+   "pos": "verb",
+   "wordId": "present",
+   "sense": 2,
+   "context": "doğuruyor (ortaya çıkarıyor)",
+   "note": "*present a challenge/problem* \"bir zorluk/sorun ortaya çıkarmak\" demektir.",
+   "form": "present + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "presents considerable challenges",
+    "meaning": "ciddi zorluklar doğurur"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "considerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ciddi (hatırı sayılır)",
+   "note": null,
+   "form": null,
+   "base": "kayda değer, hatırı sayılır",
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "presents considerable challenges",
+    "meaning": "ciddi zorluklar doğurur"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "challenge",
+   "pos": "noun",
+   "wordId": "challenge",
+   "sense": 0,
+   "context": "zorluklar",
+   "note": null,
+   "form": "challenge'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "presents considerable challenges",
+    "meaning": "ciddi zorluklar doğurur"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "shrink",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "küçülen",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *a shrinking workforce* → küçülen bir işgücü.",
+   "form": "shrink + -ing",
+   "base": "küçülmek, daralmak",
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "A shrinking workforce",
+    "meaning": "küçülen bir işgücü"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "workforce",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "işgücü",
+   "note": "*workforce* bir ülkede ya da şirkette çalışan insanların tamamıdır.",
+   "form": null,
+   "base": "işgücü",
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "A shrinking workforce",
+    "meaning": "küçülen bir işgücü"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "zorunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "support",
+   "pos": "verb",
+   "wordId": "support",
+   "sense": 0,
+   "context": "geçindirmek (desteklemek)",
+   "note": "*support someone* maddi olarak \"geçindirmek, bakmak\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": "*a growing number of* + çoğul isim \"giderek artan sayıda …\" demektir.",
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "retired",
+   "pos": "adjective",
+   "wordId": "retired",
+   "sense": 0,
+   "context": "emekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "a growing number of retired people",
+    "meaning": "giderek artan sayıda emekli"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "place",
+   "pos": "verb",
+   "wordId": "place",
+   "sense": 1,
+   "context": "oluşturuyor (koyuyor)",
+   "note": "*place pressure on something* \"bir şey üzerinde baskı oluşturmak\" demektir.",
+   "form": "place + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "placing pressure on",
+    "meaning": "… üzerinde baskı oluşturarak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "pressure",
+   "pos": "noun",
+   "wordId": "pressure",
+   "sense": 0,
+   "context": "baskı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "placing pressure on",
+    "meaning": "… üzerinde baskı oluşturarak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "placing pressure on",
+    "meaning": "… üzerinde baskı oluşturarak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "pension",
+   "pos": "noun",
+   "wordId": "pension",
+   "sense": 0,
+   "context": "emeklilik (maaşı)",
+   "note": "Burada *pension* isim olmasına rağmen *systems*'ı niteler: *pension systems* → emeklilik sistemleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "pension systems",
+    "meaning": "emeklilik sistemleri"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "system",
+   "pos": "noun",
+   "wordId": "system",
+   "sense": 0,
+   "context": "sistemler",
+   "note": null,
+   "form": "system'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "pension systems",
+    "meaning": "emeklilik sistemleri"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "health",
+   "pos": "noun",
+   "wordId": "health",
+   "sense": 0,
+   "context": "sağlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmetler",
+   "note": null,
+   "form": "service'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on the other hand: öte yandan)",
+   "note": "*on the other hand* \"öte yandan, diğer taraftan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "On the other hand",
+    "meaning": "öte yandan"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "On the other hand",
+    "meaning": "öte yandan"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "öbür (diğer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "On the other hand",
+    "meaning": "öte yandan"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "taraf (el)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "On the other hand",
+    "meaning": "öte yandan"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşlı(lar)",
+   "note": "*older people* \"yaşlılar\" demektir ve *old people*'dan daha kibardır.",
+   "form": "old + -er (karşılaştırma)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "contribute",
+   "pos": "verb",
+   "wordId": "contribute",
+   "sense": 0,
+   "context": "katkı sağlıyor",
+   "note": "*contribute to something* \"bir şeye katkıda bulunmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "contribute enormously to society",
+    "meaning": "topluma çok büyük katkı sağlamak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "enormously",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çok büyük ölçüde",
+   "note": "*-ly* eki sıfattan zarf yapar: *enormous* (devasa) → *enormously*.",
+   "form": "enormous + -ly (sıfattan zarf)",
+   "base": "son derece, çok büyük ölçüde",
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "contribute enormously to society",
+    "meaning": "topluma çok büyük katkı sağlamak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (topluma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "contribute enormously to society",
+    "meaning": "topluma çok büyük katkı sağlamak"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "contribute enormously to society",
+    "meaning": "topluma çok büyük katkı sağlamak"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "(aracılığıyla) -le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "volunteer",
+   "pos": "verb",
+   "wordId": "volunteer",
+   "sense": 1,
+   "context": "gönüllü çalışma",
+   "note": "*volunteering* isim olarak \"gönüllülük, gönüllü çalışma\" demektir.",
+   "form": "volunteer + -ing (isim olarak)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "care",
+   "pos": "verb",
+   "wordId": "care",
+   "sense": 1,
+   "context": "bakmak",
+   "note": "*care* \"önemsemek\" demektir; *care for someone* ise \"birine bakmak, ilgilenmek\" anlamına gelir.",
+   "form": "care + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "caring for grandchildren",
+    "meaning": "torunlara bakmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(care for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "caring for grandchildren",
+    "meaning": "torunlara bakmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "grandchild",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "torunlar",
+   "note": "*grand-* ön eki aile ilişkilerinde bir kuşak uzaklık bildirir: *child* → *grandchild* (torun).",
+   "form": "grandchild'ın çoğulu (grandchildren, düzensiz)",
+   "base": "torun",
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "caring for grandchildren",
+    "meaning": "torunlara bakmak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "government",
+   "pos": "noun",
+   "wordId": "government",
+   "sense": 0,
+   "context": "hükümetler",
+   "note": null,
+   "form": "government'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "wordId": "increasingly",
+   "sense": 0,
+   "context": "giderek daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "explore",
+   "pos": "verb",
+   "wordId": "explore",
+   "sense": 0,
+   "context": "araştırıyor",
+   "note": "*explore* \"keşfetmek\" demektir; seçenekler için \"araştırmak, incelemek\" anlamına gelir.",
+   "form": "explore + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yollar",
+   "note": null,
+   "form": "way'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-menin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "izin vermek (olanak tanımak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -enler)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "wish",
+   "pos": "verb",
+   "wordId": "wish",
+   "sense": 0,
+   "context": "isteyen",
+   "note": "*wish to do something* \"bir şeyi yapmak istemek\" demektir ve *want*'tan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "devam etmek",
+   "note": "*keep* + *-ing* \"… -meye devam etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "those who wish to keep working",
+    "meaning": "çalışmaya devam etmek isteyenler"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "to do so",
+    "meaning": "bunu yapmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "to do so",
+    "meaning": "bunu yapmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bunu",
+   "note": "*do so* \"bunu yapmak\" demektir ve önceki eylemin tekrarını önler: *to do so* = *to keep working*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "to do so",
+    "meaning": "bunu yapmak"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1172 @@
+{
+ "storyId": "story-c1-023",
+ "textHash": "c717b1d449bb",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Son on yılda giderek artan sayıda çalışan, geleneksel istihdamı bırakıp mobil uygulamalar aracılığıyla ayarlanan kısa süreli işlere yöneldi."
+  },
+  {
+   "tr": "Bazıları için bu düzen, ne zaman ve ne kadar çalışacaklarını seçme konusunda hoş bir özgürlük sunuyor."
+  },
+  {
+   "tr": "Ancak diğerleri için bu, öngörülemeyen bir gelir ve hastalık ödeneği ile ücretli izin gibi hakların yokluğu anlamına geliyor."
+  },
+  {
+   "tr": "Birçok ülkede hükümetler şu anda bu çalışanların işçi statüsünde sayılıp sayılmaması gerektiğini tartışıyor; bu karar bütün sektörleri yeniden şekillendirebilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "-de (boyunca)",
+   "note": "*over the past* + süre \"son … içinde, son … boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Over the past decade",
+    "meaning": "son on yılda"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Over the past decade",
+    "meaning": "son on yılda"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "past",
+   "pos": "adjective",
+   "wordId": "past",
+   "sense": 0,
+   "context": "son (geçmiş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Over the past decade",
+    "meaning": "son on yılda"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Over the past decade",
+    "meaning": "son on yılda"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a growing number of workers",
+    "meaning": "giderek artan sayıda çalışan"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": "*a growing number of* + çoğul isim \"giderek artan sayıda …\" demektir.",
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a growing number of workers",
+    "meaning": "giderek artan sayıda çalışan"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a growing number of workers",
+    "meaning": "giderek artan sayıda çalışan"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a growing number of workers",
+    "meaning": "giderek artan sayıda çalışan"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "worker",
+   "pos": "noun",
+   "wordId": "worker",
+   "sense": 0,
+   "context": "çalışanlar",
+   "note": null,
+   "form": "worker'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a growing number of workers",
+    "meaning": "giderek artan sayıda çalışan"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "abandon",
+   "pos": "verb",
+   "wordId": "abandon",
+   "sense": 0,
+   "context": "bıraktı (terk etti)",
+   "note": null,
+   "form": "abandon fiilinin 3. hali (abandoned, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "traditional",
+   "pos": "adjective",
+   "wordId": "traditional",
+   "sense": 0,
+   "context": "geleneksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "traditional employment",
+    "meaning": "geleneksel istihdam"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "employment",
+   "pos": "noun",
+   "wordId": "employment",
+   "sense": 0,
+   "context": "istihdam (düzenli iş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "traditional employment",
+    "meaning": "geleneksel istihdam"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in favour of)",
+   "note": "*in favour of* \"-in yerine, -i tercih ederek; -in lehine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "in favour of",
+    "meaning": "-in yerine (-i tercih ederek)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "favour",
+   "pos": "noun",
+   "wordId": "favour",
+   "sense": 0,
+   "context": "(lehine)",
+   "note": "*favour* \"iyilik\" demektir; *in favour of* kalıbında \"tercih, destek\" anlamı taşır. İngiliz yazımı *favour*, Amerikan yazımı *favor*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "in favour of",
+    "meaning": "-in yerine (-i tercih ederek)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in favour of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "in favour of",
+    "meaning": "-in yerine (-i tercih ederek)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa (süreli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "short assignments",
+    "meaning": "kısa süreli işler"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "assignment",
+   "pos": "noun",
+   "wordId": "assignment",
+   "sense": 0,
+   "context": "işler (görevler)",
+   "note": null,
+   "form": "assignment'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "short assignments",
+    "meaning": "kısa süreli işler"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "arrange",
+   "pos": "verb",
+   "wordId": "arrange",
+   "sense": 0,
+   "context": "ayarlanan",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *assignments arranged through apps* → uygulamalar aracılığıyla ayarlanan işler.",
+   "form": "arrange fiilinin 3. hali (arranged, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "aracılığıyla",
+   "note": "*through* \"içinden\" demektir; bir araç için \"… aracılığıyla, … yoluyla\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "through mobile apps",
+    "meaning": "mobil uygulamalar aracılığıyla"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "mobile",
+   "pos": "adjective",
+   "wordId": "mobile",
+   "sense": 0,
+   "context": "mobil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "through mobile apps",
+    "meaning": "mobil uygulamalar aracılığıyla"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "app",
+   "pos": "noun",
+   "wordId": "app",
+   "sense": 0,
+   "context": "uygulamalar",
+   "note": "*app*, *application* kelimesinin kısaltmasıdır.",
+   "form": "app'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "through mobile apps",
+    "meaning": "mobil uygulamalar aracılığıyla"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*For some …, for others …* \"Bazıları için …, diğerleri için …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "arrangement",
+   "pos": "noun",
+   "wordId": "arrangement",
+   "sense": 0,
+   "context": "düzen (düzenleme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "sunuyor",
+   "note": null,
+   "form": "offer + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "welcome",
+   "pos": "adjective",
+   "wordId": "welcome",
+   "sense": 2,
+   "context": "hoş (makbule geçen)",
+   "note": "*welcome* sıfat olarak \"hoş karşılanan, memnuniyet verici\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "welcome freedom",
+    "meaning": "hoş (makbule geçen) özgürlük"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "freedom",
+   "pos": "noun",
+   "wordId": "freedom",
+   "sense": 0,
+   "context": "özgürlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "welcome freedom",
+    "meaning": "hoş (makbule geçen) özgürlük"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-me (seçme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "when",
+   "pos": "adverb",
+   "wordId": "when",
+   "sense": 0,
+   "context": "ne zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how much* \"ne kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "(ne) kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışacakları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "when and how much they work",
+    "meaning": "ne zaman ve ne kadar çalışacakları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "diğerleri",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (düzen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "mean",
+   "pos": "verb",
+   "wordId": "mean",
+   "sense": 0,
+   "context": "anlamına geliyor",
+   "note": null,
+   "form": "mean + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "unpredictable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "öngörülemeyen",
+   "note": "*un-* (olumsuzluk) + *predict* (öngörmek) + *-able* (-ebilir): \"öngörülemez\".",
+   "form": null,
+   "base": "öngörülemeyen, tahmin edilemez",
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "unpredictable income",
+    "meaning": "öngörülemeyen gelir"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "income",
+   "pos": "noun",
+   "wordId": "income",
+   "sense": 0,
+   "context": "gelir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "unpredictable income",
+    "meaning": "öngörülemeyen gelir"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "absence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yokluk",
+   "note": "*absent* (yok, bulunmayan) sıfatının isim halidir.",
+   "form": null,
+   "base": "yokluk, bulunmama",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hakların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "benefit",
+   "pos": "noun",
+   "wordId": "benefit",
+   "sense": 0,
+   "context": "haklar (yan haklar)",
+   "note": "*benefits* iş bağlamında maaş dışındaki \"yan haklar\" (izin, sigorta vb.) demektir.",
+   "form": "benefit'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "sick",
+   "pos": "adjective",
+   "wordId": "sick",
+   "sense": 0,
+   "context": "hastalık",
+   "note": "*sick pay* hastalık nedeniyle işe gidilemeyen günlerde ödenen \"hastalık ödeneği\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "sick pay",
+    "meaning": "hastalık ödeneği"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "pay",
+   "pos": "noun",
+   "wordId": "pay",
+   "sense": 1,
+   "context": "ödeme (ödenek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "sick pay",
+    "meaning": "hastalık ödeneği"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile (ve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ücretli",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *paid holidays* → ücretli izin.",
+   "form": "pay fiilinin 3. hali (paid, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "paid holidays",
+    "meaning": "ücretli izin"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "izinler (tatiller)",
+   "note": "İngiliz İngilizcesinde *holiday* işten alınan \"izin, tatil\" anlamında da kullanılır.",
+   "form": "holiday'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "paid holidays",
+    "meaning": "ücretli izin"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "government",
+   "pos": "noun",
+   "wordId": "government",
+   "sense": 0,
+   "context": "hükümetler",
+   "note": null,
+   "form": "government'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ülkede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birçok (birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "country",
+   "pos": "noun",
+   "wordId": "country",
+   "sense": 0,
+   "context": "ülkeler",
+   "note": null,
+   "form": "country'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "currently",
+   "pos": "adverb",
+   "wordId": "currently",
+   "sense": 0,
+   "context": "şu anda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "currently debating",
+    "meaning": "şu anda tartışıyor"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "debate",
+   "pos": "verb",
+   "wordId": "debate",
+   "sense": 1,
+   "context": "tartışıyor",
+   "note": null,
+   "form": "debate + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "currently debating",
+    "meaning": "şu anda tartışıyor"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": "*whether* \"… -ip -mediği\" demektir ve dolaylı sorularda kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "worker",
+   "pos": "noun",
+   "wordId": "worker",
+   "sense": 0,
+   "context": "çalışanlar",
+   "note": null,
+   "form": "worker'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "should be classified as employees",
+    "meaning": "işçi olarak sınıflandırılmalı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "should be classified as employees",
+    "meaning": "işçi olarak sınıflandırılmalı"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "classify",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sınıflandırılmak (sayılmak)",
+   "note": "*classify something as something* \"bir şeyi … olarak sınıflandırmak\" demektir.",
+   "form": "classify fiilinin 3. hali (classified, y → ied)",
+   "base": "sınıflandırmak",
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "should be classified as employees",
+    "meaning": "işçi olarak sınıflandırılmalı"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "should be classified as employees",
+    "meaning": "işçi olarak sınıflandırılmalı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "employee",
+   "pos": "noun",
+   "wordId": "employee",
+   "sense": 0,
+   "context": "işçi (çalışan)",
+   "note": "*employee* bir işverene bağlı, sözleşmeli \"çalışan\"dır.",
+   "form": "employee'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "should be classified as employees",
+    "meaning": "işçi olarak sınıflandırılmalı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Virgülden sonra gelen *a decision that…* önceki cümlenin tamamını açıklar: \"bu, … bir karardır\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "reshape",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden şekillendirmek",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *shape* (şekil vermek) → *reshape*.",
+   "form": null,
+   "base": "yeniden şekillendirmek",
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "reshape entire industries",
+    "meaning": "bütün sektörleri yeniden şekillendirmek"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "entire",
+   "pos": "adjective",
+   "wordId": "entire",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "reshape entire industries",
+    "meaning": "bütün sektörleri yeniden şekillendirmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "industry",
+   "pos": "noun",
+   "wordId": "industry",
+   "sense": 0,
+   "context": "sektörler (endüstriler)",
+   "note": null,
+   "form": "industry'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "reshape entire industries",
+    "meaning": "bütün sektörleri yeniden şekillendirmek"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "storyId": "story-c1-012",
+ "textHash": "06786ad0a2f7",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Uzaktan çalışmaya yaygın geçiş, işverenleri verimlilikle ilgili uzun süredir sorgulanmadan kabul edilen varsayımları yeniden düşünmeye yöneltti."
+  },
+  {
+   "tr": "Birçok şirket, net hedefler belirlendiği sürece çalışanlarının evde de aynı ölçüde verimli çalıştığını gördü."
+  },
+  {
+   "tr": "Yine de bu düzenlemenin bazı dezavantajları da var."
+  },
+  {
+   "tr": "Özellikle kıdemsiz çalışanlar, deneyimli meslektaşlarıyla yan yana çalışırken gerçekleşen gayri resmi öğrenmeyi çoğu zaman kaçırıyor."
+  },
+  {
+   "tr": "Sonuç olarak giderek artan sayıda kuruluş, esnekliği gerçek bir aidiyet duygusuyla birleştirmeyi umarak karma modeller benimsiyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "widespread",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yaygın",
+   "note": "*widespread* *wide* (geniş) ve *spread* (yayılmak) kelimelerinden oluşur: \"geniş alana yayılmış, yaygın\".",
+   "form": null,
+   "base": "yaygın",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "shift",
+   "pos": "noun",
+   "wordId": "shift",
+   "sense": 0,
+   "context": "geçiş (değişim)",
+   "note": "*shift* \"vardiya\" ve \"değişim, kayma\" demektir; burada *a shift to something* \"bir şeye geçiş\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (çalışmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "to remote work",
+    "meaning": "uzaktan çalışmaya"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "remote",
+   "pos": "adjective",
+   "wordId": "remote",
+   "sense": 0,
+   "context": "uzak(tan)",
+   "note": "*remote work* \"uzaktan çalışma\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "to remote work",
+    "meaning": "uzaktan çalışmaya"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "çalışma (iş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "to remote work",
+    "meaning": "uzaktan çalışmaya"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "prompt",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yöneltti (sevk etti)",
+   "note": "*prompt someone to do something* \"birini bir şeyi yapmaya yöneltmek, sevk etmek\" demektir.",
+   "form": "prompt fiilinin 3. hali (prompted, -ed)",
+   "base": "yöneltmek, sevk etmek, -e yol açmak",
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "prompted employers to reconsider",
+    "meaning": "işverenleri yeniden düşünmeye yöneltti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "employer",
+   "pos": "noun",
+   "wordId": "employer",
+   "sense": 0,
+   "context": "işverenler",
+   "note": null,
+   "form": "employer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "prompted employers to reconsider",
+    "meaning": "işverenleri yeniden düşünmeye yöneltti"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "prompted employers to reconsider",
+    "meaning": "işverenleri yeniden düşünmeye yöneltti"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "reconsider",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden düşünmek",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *consider* (düşünmek) → *reconsider* (yeniden düşünmek).",
+   "form": null,
+   "base": "yeniden düşünmek, yeniden gözden geçirmek",
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "prompted employers to reconsider",
+    "meaning": "işverenleri yeniden düşünmeye yöneltti"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "assumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varsayımlar",
+   "note": "*assume* (varsaymak) fiilinden *-tion* ekiyle isim yapılmıştır.",
+   "form": "assumption'ın çoğulu",
+   "base": "varsayım",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "productivity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "verimlilik",
+   "note": "*productive* (verimli) sıfatından *-ity* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "verimlilik, üretkenlik",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*that* ilgi zamiri olarak *assumptions*'ı tanımlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 20,
+    "text": "had long been taken for granted",
+    "meaning": "uzun süredir sorgulanmadan kabul edilmişti"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun süredir",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir: *had long been* → uzun süredir … idi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 20,
+    "text": "had long been taken for granted",
+    "meaning": "uzun süredir sorgulanmadan kabul edilmişti"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 20,
+    "text": "had long been taken for granted",
+    "meaning": "uzun süredir sorgulanmadan kabul edilmişti"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(kabul edilmek)",
+   "note": "*take something for granted* \"bir şeyi olağan saymak, hiç sorgulamadan kabul etmek\" demektir.",
+   "form": "take fiilinin 3. hali (taken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "taken for granted",
+    "meaning": "olağan sayılmış, sorgulanmadan kabul edilmiş"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(take for granted)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "taken for granted",
+    "meaning": "olağan sayılmış, sorgulanmadan kabul edilmiş"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "grant",
+   "pos": "verb",
+   "wordId": "grant",
+   "sense": 0,
+   "context": "(sorgulanmadan)",
+   "note": null,
+   "form": "grant fiilinin 3. hali (granted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "taken for granted",
+    "meaning": "olağan sayılmış, sorgulanmadan kabul edilmiş"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirketler",
+   "note": null,
+   "form": "company'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "gördü (fark etti)",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "staff",
+   "pos": "noun",
+   "wordId": "staff",
+   "sense": 0,
+   "context": "çalışanlar (personel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "perform",
+   "pos": "verb",
+   "wordId": "perform",
+   "sense": 0,
+   "context": "çalıştı (performans gösterdi)",
+   "note": "*perform* \"sahne almak\" ve \"bir işi yapmak, performans göstermek\" demektir.",
+   "form": "perform + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "tam (olarak)",
+   "note": "*just as* + sıfat/zarf (+ *as*) \"tam olarak o kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "just as effectively",
+    "meaning": "tam olarak aynı ölçüde verimli"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "aynı ölçüde (o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "just as effectively",
+    "meaning": "tam olarak aynı ölçüde verimli"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "effectively",
+   "pos": "adverb",
+   "wordId": "effectively",
+   "sense": 0,
+   "context": "verimli (etkili bir şekilde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "just as effectively",
+    "meaning": "tam olarak aynı ölçüde verimli"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at home: evde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "provided",
+   "pos": "conjunction",
+   "wordId": null,
+   "sense": null,
+   "context": "sürece (şartıyla)",
+   "note": "*provided (that)* + cümle \"… şartıyla, … sürece\" demektir; *if* anlamına yakındır ama koşulu vurgular.",
+   "form": null,
+   "base": "-mek şartıyla, -diği sürece",
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(provided that)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "clear",
+   "pos": "adjective",
+   "wordId": "clear",
+   "sense": 0,
+   "context": "net (açık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "goal",
+   "pos": "noun",
+   "wordId": "goal",
+   "sense": 0,
+   "context": "hedefler",
+   "note": null,
+   "form": "goal'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ndi)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "establish",
+   "pos": "verb",
+   "wordId": "establish",
+   "sense": 0,
+   "context": "belirlendi (oluşturuldu)",
+   "note": null,
+   "form": "establish fiilinin 3. hali (established, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "provided that clear goals were established",
+    "meaning": "net hedefler belirlendiği sürece"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "nevertheless",
+   "pos": "adverb",
+   "wordId": "nevertheless",
+   "sense": 0,
+   "context": "yine de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "arrangement",
+   "pos": "noun",
+   "wordId": "arrangement",
+   "sense": 0,
+   "context": "düzenleme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "is not without drawbacks",
+    "meaning": "dezavantajsız değil"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "is not without drawbacks",
+    "meaning": "dezavantajsız değil"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-sız",
+   "note": "*not without* + isim çift olumsuzla olumlu anlam verir: *not without drawbacks* → bazı dezavantajları var.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "is not without drawbacks",
+    "meaning": "dezavantajsız değil"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "drawback",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dezavantajlar",
+   "note": "*drawback* \"sakınca, dezavantaj\" demektir.",
+   "form": "drawback'in çoğulu",
+   "base": "dezavantaj, sakınca",
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "is not without drawbacks",
+    "meaning": "dezavantajsız değil"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "junior",
+   "pos": "adjective",
+   "wordId": "junior",
+   "sense": 0,
+   "context": "kıdemsiz (alt düzey)",
+   "note": "*junior* \"kıdemsiz, yeni\", karşıtı *senior* \"kıdemli\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "employee",
+   "pos": "noun",
+   "wordId": "employee",
+   "sense": 0,
+   "context": "çalışanlar",
+   "note": null,
+   "form": "employee'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in particular: özellikle)",
+   "note": "*in particular* \"özellikle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "in particular",
+    "meaning": "özellikle"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "particular",
+   "pos": "adjective",
+   "wordId": "particular",
+   "sense": 0,
+   "context": "(özellikle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "in particular",
+    "meaning": "özellikle"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "kaçırıyor (yoksun kalıyor)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "informal",
+   "pos": "adjective",
+   "wordId": "informal",
+   "sense": 0,
+   "context": "gayri resmi",
+   "note": "*in-* ön eki olumsuzluk katar: *formal* (resmi) → *informal* (resmi olmayan).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "informal learning",
+    "meaning": "gayri resmi öğrenme"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "learning",
+   "pos": "noun",
+   "wordId": "learning",
+   "sense": 0,
+   "context": "öğrenme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "informal learning",
+    "meaning": "gayri resmi öğrenme"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "occur",
+   "pos": "verb",
+   "wordId": "occur",
+   "sense": 0,
+   "context": "gerçekleşen (meydana gelen)",
+   "note": null,
+   "form": "occur + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken",
+   "note": "*when* + *-ing* \"… -ken, … -dığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "working alongside experienced colleagues",
+    "meaning": "deneyimli meslektaşlarla yan yana çalışmak"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "alongside",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "yan yana (ile birlikte)",
+   "note": "*alongside* \"-in yanında, ile birlikte\" demektir.",
+   "form": null,
+   "base": "yanında, ile birlikte",
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "working alongside experienced colleagues",
+    "meaning": "deneyimli meslektaşlarla yan yana çalışmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "experienced",
+   "pos": "adjective",
+   "wordId": "experienced",
+   "sense": 0,
+   "context": "deneyimli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "working alongside experienced colleagues",
+    "meaning": "deneyimli meslektaşlarla yan yana çalışmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "meslektaşlar",
+   "note": null,
+   "form": "colleague'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "working alongside experienced colleagues",
+    "meaning": "deneyimli meslektaşlarla yan yana çalışmak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "consequently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sonuç olarak",
+   "note": "*consequence* (sonuç) isminden türemiş bir zarftır; *as a result* ile aynı anlamdadır.",
+   "form": "consequent + -ly (sıfattan zarf)",
+   "base": "sonuç olarak, bu nedenle",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "a growing number of",
+    "meaning": "giderek artan sayıda"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": "*a growing number of* + çoğul isim \"giderek artan sayıda …\" demektir.",
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "a growing number of",
+    "meaning": "giderek artan sayıda"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "a growing number of",
+    "meaning": "giderek artan sayıda"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "a growing number of",
+    "meaning": "giderek artan sayıda"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "organization",
+   "pos": "noun",
+   "wordId": "organization",
+   "sense": 0,
+   "context": "kuruluşlar",
+   "note": "İngiliz yazımında *organisation*, Amerikan yazımında *organization* yazılır.",
+   "form": "organisation (İngiliz yazımı)'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "adopt",
+   "pos": "verb",
+   "wordId": "adopt",
+   "sense": 0,
+   "context": "benimsiyor",
+   "note": "*adopt* \"evlat edinmek\" ve \"bir fikri, yöntemi benimsemek\" demektir.",
+   "form": "adopt + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "hybrid",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "karma (hibrit)",
+   "note": "*hybrid* iki farklı şeyin karışımı demektir; burada ofis ve evden çalışmanın birlikte uygulanmasıdır.",
+   "form": null,
+   "base": "karma, melez, hibrit",
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "hybrid models",
+    "meaning": "karma (hibrit) modeller"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "model",
+   "pos": "noun",
+   "wordId": "model",
+   "sense": 0,
+   "context": "modeller",
+   "note": null,
+   "form": "model'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "hybrid models",
+    "meaning": "karma (hibrit) modeller"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "hope",
+   "pos": "verb",
+   "wordId": "hope",
+   "sense": 0,
+   "context": "umarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda süren bir durumu anlatır: *hoping to…* → … -meyi umarak.",
+   "form": "hope + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "combine",
+   "pos": "verb",
+   "wordId": "combine",
+   "sense": 0,
+   "context": "birleştirmek",
+   "note": "*combine A with B* \"A'yı B ile birleştirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "combine flexibility with",
+    "meaning": "esnekliği … ile birleştirmek"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "flexibility",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "esneklik",
+   "note": "*flexible* (esnek) sıfatından *-ity* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "esneklik",
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "combine flexibility with",
+    "meaning": "esnekliği … ile birleştirmek"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "combine flexibility with",
+    "meaning": "esnekliği … ile birleştirmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek (içten)",
+   "note": "*genuine* \"gerçek, sahte olmayan; içten\" demektir.",
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu (his)",
+   "note": "*a sense of belonging* \"aidiyet duygusu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "sense of belonging",
+    "meaning": "aidiyet duygusu"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(sense of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "sense of belonging",
+    "meaning": "aidiyet duygusu"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "belong",
+   "pos": "verb",
+   "wordId": "belong",
+   "sense": 0,
+   "context": "aidiyet",
+   "note": "*belonging* isim olarak \"aidiyet, bir yere ait olma duygusu\" demektir.",
+   "form": "belong + -ing (isim olarak)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "sense of belonging",
+    "meaning": "aidiyet duygusu"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1147 @@
+{
+ "storyId": "story-c1-032",
+ "textHash": "f81c46a72958",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Şarkı yazarları birbirlerini tanıdık melodileri kopyalamakla suçladıkça müzikte telif hakkı anlaşmazlıkları giderek yaygınlaştı."
+  },
+  {
+   "tr": "Zorluk, popüler müziğin sınırlı sayıda notaya ve akor kalıbına dayanmasında yatıyor; bu yüzden şarkılar arasında bir miktar benzerlik neredeyse kaçınılmaz."
+  },
+  {
+   "tr": "Bu nedenle mahkemeler meşru ilhamın nerede bitip hırsızlığın nerede başladığına karar vermek zorunda."
+  },
+  {
+   "tr": "Son zamanlardaki bazı mahkeme kararları, aşırı katı kararların müzikte yeniliği her zaman besleyen yaratıcı ödünç almayı caydırabileceğinden korkan müzisyenleri tedirgin etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "dispute",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "anlaşmazlıklar",
+   "note": "*dispute* özellikle hukuki ya da resmî \"anlaşmazlık, uyuşmazlık\" demektir.",
+   "form": "dispute'un çoğulu",
+   "base": "anlaşmazlık, uyuşmazlık",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Disputes over musical copyright",
+    "meaning": "müzikte telif hakkı anlaşmazlıkları"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "konusunda (üzerine)",
+   "note": "*a dispute over something* \"bir şey konusunda anlaşmazlık\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Disputes over musical copyright",
+    "meaning": "müzikte telif hakkı anlaşmazlıkları"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "musical",
+   "pos": "adjective",
+   "wordId": "musical",
+   "sense": 0,
+   "context": "müzik(le ilgili)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Disputes over musical copyright",
+    "meaning": "müzikte telif hakkı anlaşmazlıkları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "copyright",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "telif hakkı",
+   "note": "*copyright* bir eserin sahibine tanınan \"telif hakkı\"dır.",
+   "form": null,
+   "base": "telif hakkı",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Disputes over musical copyright",
+    "meaning": "müzikte telif hakkı anlaşmazlıkları"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(yaygın)laştı (oldu)",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "become increasingly common",
+    "meaning": "giderek yaygınlaştı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "wordId": "increasingly",
+   "sense": 0,
+   "context": "giderek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "become increasingly common",
+    "meaning": "giderek yaygınlaştı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "common",
+   "pos": "adjective",
+   "wordId": "common",
+   "sense": 0,
+   "context": "yaygın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "become increasingly common",
+    "meaning": "giderek yaygınlaştı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-dıkça (-dığı için)",
+   "note": "*as* bağlaç olarak \"-dığı için, -dıkça\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "songwriter",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şarkı yazarları",
+   "note": "*songwriter* *song* (şarkı) ve *writer* (yazar) kelimelerinden oluşur.",
+   "form": "songwriter'ın çoğulu",
+   "base": "şarkı yazarı, söz yazarı",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "accuse",
+   "pos": "verb",
+   "wordId": "accuse",
+   "sense": 0,
+   "context": "suçlamak",
+   "note": "*accuse someone of* + *-ing* \"birini … -mekle suçlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "accuse one another of copying familiar melodies",
+    "meaning": "birbirlerini tanıdık melodileri kopyalamakla suçlamak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one another: birbiri)",
+   "note": "*one another* \"birbiri, birbirini\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "one another",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "(one another)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "one another",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-le (accuse of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "accuse one another of copying familiar melodies",
+    "meaning": "birbirlerini tanıdık melodileri kopyalamakla suçlamak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "copy",
+   "pos": "verb",
+   "wordId": "copy",
+   "sense": 1,
+   "context": "kopyalamak",
+   "note": null,
+   "form": "copy + -ing",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "accuse one another of copying familiar melodies",
+    "meaning": "birbirlerini tanıdık melodileri kopyalamakla suçlamak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "familiar",
+   "pos": "adjective",
+   "wordId": "familiar",
+   "sense": 0,
+   "context": "tanıdık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "accuse one another of copying familiar melodies",
+    "meaning": "birbirlerini tanıdık melodileri kopyalamakla suçlamak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "melody",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "melodiler",
+   "note": null,
+   "form": "melody'nin çoğulu (y → ies)",
+   "base": "melodi, ezgi",
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "accuse one another of copying familiar melodies",
+    "meaning": "birbirlerini tanıdık melodileri kopyalamakla suçlamak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "difficulty",
+   "pos": "noun",
+   "wordId": "difficulty",
+   "sense": 0,
+   "context": "zorluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 0,
+   "context": "yatıyor",
+   "note": "*lie in something* \"(sorun, neden) bir şeyde yatmak\" demektir.",
+   "form": "lie + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "lies in the fact",
+    "meaning": "gerçeğinde yatıyor"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "lies in the fact",
+    "meaning": "gerçeğinde yatıyor"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "lies in the fact",
+    "meaning": "gerçeğinde yatıyor"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "fact",
+   "pos": "noun",
+   "wordId": "fact",
+   "sense": 0,
+   "context": "gerçek (olgu)",
+   "note": "*the fact that…* \"… olduğu gerçeği\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "lies in the fact",
+    "meaning": "gerçeğinde yatıyor"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ması)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "popular",
+   "pos": "adjective",
+   "wordId": "popular",
+   "sense": 0,
+   "context": "popüler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "dayanmak",
+   "note": null,
+   "form": "rely'ın 3. tekil şahıs hali (relies, y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (rely on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "a limited number of",
+    "meaning": "sınırlı sayıda"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "limited",
+   "pos": "adjective",
+   "wordId": "limited",
+   "sense": 0,
+   "context": "sınırlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "a limited number of",
+    "meaning": "sınırlı sayıda"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "a limited number of",
+    "meaning": "sınırlı sayıda"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "a limited number of",
+    "meaning": "sınırlı sayıda"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "note",
+   "pos": "noun",
+   "wordId": "note",
+   "sense": 0,
+   "context": "notalar",
+   "note": "*note* \"not\" demektir; müzikte \"nota\" anlamına gelir.",
+   "form": "note'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "chord",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "akor",
+   "note": "*chord*'daki *ch* \"k\" diye okunur (\"kord\").",
+   "form": null,
+   "base": "akor",
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "chord patterns",
+    "meaning": "akor kalıpları"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "pattern",
+   "pos": "noun",
+   "wordId": "pattern",
+   "sense": 0,
+   "context": "kalıplar (örüntüler)",
+   "note": null,
+   "form": "pattern'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "chord patterns",
+    "meaning": "akor kalıpları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bir miktar (biraz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "similarity",
+   "pos": "noun",
+   "wordId": "similarity",
+   "sense": 0,
+   "context": "benzerlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "song",
+   "pos": "noun",
+   "wordId": "song",
+   "sense": 0,
+   "context": "şarkılar",
+   "note": null,
+   "form": "song'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "almost inevitable",
+    "meaning": "neredeyse kaçınılmaz"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "inevitable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kaçınılmaz",
+   "note": null,
+   "form": null,
+   "base": "kaçınılmaz",
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "almost inevitable",
+    "meaning": "neredeyse kaçınılmaz"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "court",
+   "pos": "noun",
+   "wordId": "court",
+   "sense": 0,
+   "context": "mahkemeler",
+   "note": null,
+   "form": "court'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "zorunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "where",
+   "pos": "adverb",
+   "wordId": "where",
+   "sense": 0,
+   "context": "nerede",
+   "note": "*where* burada dolaylı soru başlatır: *decide where … ends* → nerede bittiğine karar vermek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "legitimate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "meşru",
+   "note": "*legitimate* \"yasal, meşru, haklı\" demektir.",
+   "form": null,
+   "base": "meşru, yasal, haklı",
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "legitimate inspiration",
+    "meaning": "meşru ilham"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "inspiration",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ilham",
+   "note": "*inspire* (ilham vermek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "ilham",
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "legitimate inspiration",
+    "meaning": "meşru ilham"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "end",
+   "pos": "verb",
+   "wordId": "end",
+   "sense": 1,
+   "context": "bitmek",
+   "note": null,
+   "form": "end + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "theft",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hırsızlık",
+   "note": "*thief* (hırsız) kişidir; *theft* (hırsızlık) eylemdir.",
+   "form": null,
+   "base": "hırsızlık",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlamak",
+   "note": null,
+   "form": "begin + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "bazı (birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "recent",
+   "pos": "adjective",
+   "wordId": "recent",
+   "sense": 0,
+   "context": "son (zamanlardaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "recent rulings",
+    "meaning": "son mahkeme kararları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "ruling",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mahkeme kararları",
+   "note": "*rule* (karar vermek) fiilinden türemiş bir isimdir; mahkemenin verdiği \"karar\" demektir.",
+   "form": "ruling'in çoğulu",
+   "base": "(mahkeme) kararı",
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "recent rulings",
+    "meaning": "son mahkeme kararları"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-ti)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "alarm",
+   "pos": "verb",
+   "wordId": "alarm",
+   "sense": 1,
+   "context": "tedirgin etti (endişelendirdi)",
+   "note": null,
+   "form": "alarm fiilinin 3. hali (alarmed, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "musician",
+   "pos": "noun",
+   "wordId": "musician",
+   "sense": 0,
+   "context": "müzisyenler",
+   "note": null,
+   "form": "musician'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "Virgülden sonra gelen *who* cümlesi isim hakkında ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korkan",
+   "note": "*fear that…* \"… olmasından korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "overly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "aşırı",
+   "note": "*overly* sıfattan önce \"aşırı, gereğinden fazla\" anlamı verir.",
+   "form": null,
+   "base": "aşırı, gereğinden fazla",
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "overly strict decisions",
+    "meaning": "aşırı katı kararlar"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "katı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "overly strict decisions",
+    "meaning": "aşırı katı kararlar"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "kararlar",
+   "note": null,
+   "form": "decision'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "overly strict decisions",
+    "meaning": "aşırı katı kararlar"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "discourage",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "caydırmak",
+   "note": null,
+   "form": null,
+   "base": "caydırmak, vazgeçirmek",
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "creative",
+   "pos": "adjective",
+   "wordId": "creative",
+   "sense": 0,
+   "context": "yaratıcı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "creative borrowing",
+    "meaning": "yaratıcı ödünç alma"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "borrow",
+   "pos": "verb",
+   "wordId": "borrow",
+   "sense": 0,
+   "context": "ödünç alma",
+   "note": "*borrowing* burada isim olarak \"ödünç alma, başka eserlerden yararlanma\" demektir.",
+   "form": "borrow + -ing (isim olarak)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "creative borrowing",
+    "meaning": "yaratıcı ödünç alma"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "drive",
+   "pos": "verb",
+   "wordId": "drive",
+   "sense": 0,
+   "context": "besleyen (ileri götüren)",
+   "note": "*drive* \"araba sürmek\" demektir; *drive innovation/growth* ise \"yeniliği/büyümeyi ileri götürmek\" anlamına gelir.",
+   "form": "drive fiilinin 3. hali (driven, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "driven musical innovation",
+    "meaning": "müzikte yeniliği besledi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "musical",
+   "pos": "adjective",
+   "wordId": "musical",
+   "sense": 0,
+   "context": "müzik(teki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "driven musical innovation",
+    "meaning": "müzikte yeniliği besledi"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "innovation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yenilik",
+   "note": "*innovate* (yenilik yapmak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "yenilik, inovasyon",
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "driven musical innovation",
+    "meaning": "müzikte yeniliği besledi"
+   }
+  }
+ ]
+}

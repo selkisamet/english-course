@@ -1,0 +1,1207 @@
+{
+ "storyId": "story-c1-036",
+ "textHash": "83128a33a647",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Gerçek bir sessizlik bulmak son derece zorlaştı."
+  },
+  {
+   "tr": "Trafik, uçaklar ve sürekli gelen bildirimler, çoğu zaman biz fark etmeden günlerimizi gürültüyle dolduruyor."
+  },
+  {
+   "tr": "Oysa bilim insanları, kısa süreli sessizliğin bile tansiyonu düşürüp konsantrasyonu artırabileceğini ortaya koydu."
+  },
+  {
+   "tr": "Buna karşılık bazı şehirler sessiz alanları belirleyip korumaya başladı, giderek artan sayıda gezgin de sırf sessiz oldukları için uzak yerleri arıyor."
+  },
+  {
+   "tr": "Görünüşe göre sessizlik, bilinçli olarak peşinden gidilmesi gereken bir lükse dönüşüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Genuine silence",
+    "meaning": "gerçek sessizlik"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Genuine silence",
+    "meaning": "gerçek sessizlik"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(zor)laştı",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "son derece",
+   "note": null,
+   "form": "remarkable + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede, son derece",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mak)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *difficult to find* → bulması zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "has become remarkably difficult to find",
+    "meaning": "bulmak son derece zorlaştı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "traffic",
+   "pos": "noun",
+   "wordId": "traffic",
+   "sense": 0,
+   "context": "trafik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "aircraft",
+   "pos": "noun",
+   "wordId": "aircraft",
+   "sense": 0,
+   "context": "uçaklar",
+   "note": "*aircraft* tekil ve çoğulda aynı yazılır: *one aircraft*, *many aircraft*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "constant",
+   "pos": "adjective",
+   "wordId": "constant",
+   "sense": 0,
+   "context": "sürekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "constant notifications",
+    "meaning": "sürekli bildirimler"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "notification",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bildirimler",
+   "note": "*notify* (bildirmek) fiilinden türemiş bir isimdir; telefonlarda gelen \"bildirim\"dir.",
+   "form": "notification'ın çoğulu",
+   "base": "bildirim",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "constant notifications",
+    "meaning": "sürekli bildirimler"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "dolduruyor",
+   "note": "*fill something with something* \"bir şeyi … ile doldurmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "fill our days with noise",
+    "meaning": "günlerimizi gürültüyle doldurmak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "fill our days with noise",
+    "meaning": "günlerimizi gürültüyle doldurmak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "günler",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "fill our days with noise",
+    "meaning": "günlerimizi gürültüyle doldurmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "fill our days with noise",
+    "meaning": "günlerimizi gürültüyle doldurmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "gürültü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "fill our days with noise",
+    "meaning": "günlerimizi gürültüyle doldurmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden",
+   "note": "*without* + iyelik + *-ing* resmî bir yapıdır: *without our noticing* → biz fark etmeden.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "without our noticing",
+    "meaning": "biz fark etmeden"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "(bizim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "without our noticing",
+    "meaning": "biz fark etmeden"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark etmek",
+   "note": null,
+   "form": "notice + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "without our noticing",
+    "meaning": "biz fark etmeden"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "scientist",
+   "pos": "noun",
+   "wordId": "scientist",
+   "sense": 0,
+   "context": "bilim insanları",
+   "note": null,
+   "form": "scientist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "ortaya koydu (buldu)",
+   "note": null,
+   "form": "find fiilinin 3. hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "even brief periods of silence",
+    "meaning": "kısa süreli sessizlik bile"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "brief",
+   "pos": "adjective",
+   "wordId": "brief",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "even brief periods of silence",
+    "meaning": "kısa süreli sessizlik bile"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "period",
+   "pos": "noun",
+   "wordId": "period",
+   "sense": 0,
+   "context": "süreler (dönemler)",
+   "note": null,
+   "form": "period'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "even brief periods of silence",
+    "meaning": "kısa süreli sessizlik bile"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… süreli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "even brief periods of silence",
+    "meaning": "kısa süreli sessizlik bile"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "even brief periods of silence",
+    "meaning": "kısa süreli sessizlik bile"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "lower",
+   "pos": "verb",
+   "wordId": "lower",
+   "sense": 0,
+   "context": "düşürmek",
+   "note": "*lower* hem *low*'un karşılaştırma hali (daha düşük) hem de \"düşürmek\" anlamında bir fiildir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "lower blood pressure",
+    "meaning": "tansiyonu düşürmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "blood",
+   "pos": "noun",
+   "wordId": "blood",
+   "sense": 0,
+   "context": "kan",
+   "note": "*blood pressure* \"tansiyon, kan basıncı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "blood pressure",
+    "meaning": "tansiyon (kan basıncı)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "pressure",
+   "pos": "noun",
+   "wordId": "pressure",
+   "sense": 0,
+   "context": "basınç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "blood pressure",
+    "meaning": "tansiyon (kan basıncı)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "artırmak (iyileştirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "improve concentration",
+    "meaning": "konsantrasyonu artırmak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "concentration",
+   "pos": "noun",
+   "wordId": "concentration",
+   "sense": 0,
+   "context": "konsantrasyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "improve concentration",
+    "meaning": "konsantrasyonu artırmak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in response: buna karşılık)",
+   "note": "*in response (to something)* \"(bir şeye) karşılık olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "response",
+   "pos": "noun",
+   "wordId": "response",
+   "sense": 0,
+   "context": "karşılık (tepki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "In response",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin 3. hali (begun, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "identify",
+   "pos": "verb",
+   "wordId": "identify",
+   "sense": 0,
+   "context": "belirlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "protect",
+   "pos": "verb",
+   "wordId": "protect",
+   "sense": 0,
+   "context": "korumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "quiet areas",
+    "meaning": "sessiz alanlar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "area",
+   "pos": "noun",
+   "wordId": "area",
+   "sense": 0,
+   "context": "alanlar",
+   "note": null,
+   "form": "area'nın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "quiet areas",
+    "meaning": "sessiz alanlar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "(-ken) de",
+   "note": "*while* burada iki durumu karşılaştırır: \"… -ken, öte yandan …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "a growing number of travellers",
+    "meaning": "giderek artan sayıda gezgin"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": "*a growing number of* + çoğul isim \"giderek artan sayıda …\" demektir.",
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "a growing number of travellers",
+    "meaning": "giderek artan sayıda gezgin"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "a growing number of travellers",
+    "meaning": "giderek artan sayıda gezgin"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a number of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "a growing number of travellers",
+    "meaning": "giderek artan sayıda gezgin"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "traveller",
+   "pos": "noun",
+   "wordId": "traveller",
+   "sense": 0,
+   "context": "gezginler",
+   "note": "İngiliz yazımı *traveller*, Amerikan yazımı *traveler*'dır.",
+   "form": "traveller'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "a growing number of travellers",
+    "meaning": "giderek artan sayıda gezgin"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "seek",
+   "pos": "verb",
+   "wordId": "seek",
+   "sense": 0,
+   "context": "arıyor",
+   "note": "*seek out* \"arayıp bulmak\" demektir; *seek* \"aramak\" fiilinin resmî karşılığıdır.",
+   "form": "seek + -ing",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "seeking out",
+    "meaning": "arayıp bulmak"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(seek out)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "seeking out",
+    "meaning": "arayıp bulmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "remote",
+   "pos": "adjective",
+   "wordId": "remote",
+   "sense": 0,
+   "context": "uzak (ücra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "remote destinations",
+    "meaning": "uzak yerler"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "destination",
+   "pos": "noun",
+   "wordId": "destination",
+   "sense": 0,
+   "context": "yerler (gidilecek yerler)",
+   "note": null,
+   "form": "destination'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "remote destinations",
+    "meaning": "uzak yerler"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "specifically",
+   "pos": "adverb",
+   "wordId": "specifically",
+   "sense": 0,
+   "context": "sırf (özellikle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dıkları için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (o yerler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Virgüller arasındaki *it seems* \"görünüşe göre, anlaşılan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünüyor",
+   "note": null,
+   "form": "seem + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüşüyor (oluyor)",
+   "note": null,
+   "form": "become + -ing (sondaki e düşmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "luxury",
+   "pos": "noun",
+   "wordId": "luxury",
+   "sense": 0,
+   "context": "lüks",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "-meli (gereken)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "must be actively pursued",
+    "meaning": "bilinçli olarak peşinden gidilmeli"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "must be actively pursued",
+    "meaning": "bilinçli olarak peşinden gidilmeli"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "actively",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bilinçli olarak (aktif olarak)",
+   "note": "*-ly* eki sıfattan zarf yapar: *active* → *actively*.",
+   "form": "active + -ly (sıfattan zarf)",
+   "base": "aktif olarak, etkin biçimde",
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "must be actively pursued",
+    "meaning": "bilinçli olarak peşinden gidilmeli"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "pursue",
+   "pos": "verb",
+   "wordId": "pursue",
+   "sense": 0,
+   "context": "peşinden gidilmek",
+   "note": "*pursue* bir hedefin \"peşinden gitmek\" demektir.",
+   "form": "pursue fiilinin 3. hali (pursued, -d)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "must be actively pursued",
+    "meaning": "bilinçli olarak peşinden gidilmeli"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "storyId": "story-c1-028",
+ "textHash": "465b1e0ca1a8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birkaç şirket son zamanlarda maaşları değiştirmeden, beş yerine dört günlük bir çalışma haftasını denedi."
+  },
+  {
+   "tr": "Sonuçlar şaşırtıcı derecede olumlu oldu."
+  },
+  {
+   "tr": "Çalışanlar daha düşük stres ve daha yüksek iş memnuniyeti bildirdi; birçok durumda verimlilik aynı kaldı, hatta arttı."
+  },
+  {
+   "tr": "Ancak şüpheciler, böyle bir modelin, hizmetlerin her gün sunulması gereken sağlık gibi sektörlerde uygulanmasının zor olabileceğine dikkat çekiyor."
+  },
+  {
+   "tr": "Bu fikrin daha geniş çapta yaygınlaşıp yaygınlaşmayacağını zaman gösterecek."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirketler",
+   "note": null,
+   "form": "company'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have recently experimented with",
+    "meaning": "son zamanlarda denedi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "recently",
+   "pos": "adverb",
+   "wordId": "recently",
+   "sense": 0,
+   "context": "son zamanlarda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have recently experimented with",
+    "meaning": "son zamanlarda denedi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "experiment",
+   "pos": "verb",
+   "wordId": "experiment",
+   "sense": 1,
+   "context": "denedi",
+   "note": "*experiment with something* \"bir şeyi denemek, üzerinde deney yapmak\" demektir.",
+   "form": "experiment fiilinin 3. hali (experimented, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have recently experimented with",
+    "meaning": "son zamanlarda denedi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "(experiment with)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "working",
+   "pos": "adjective",
+   "wordId": "working",
+   "sense": 0,
+   "context": "çalışma",
+   "note": "*working week* \"çalışma haftası\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(-lük)",
+   "note": "*a week of four days* \"dört günlük bir hafta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dört",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 11,
+    "text": "a working week of four days",
+    "meaning": "dört günlük çalışma haftası"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* \"yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "instead of five",
+    "meaning": "beş yerine"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "instead of five",
+    "meaning": "beş yerine"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "instead of five",
+    "meaning": "beş yerine"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-erek (-ken)",
+   "note": "*while* + *-ing* \"… -ken, … -erek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "while keeping salaries unchanged",
+    "meaning": "maaşları değiştirmeden"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutmak",
+   "note": "*keep something* + sıfat \"bir şeyi … tutmak\" demektir: *keep salaries unchanged* → maaşları değiştirmemek.",
+   "form": "keep + -ing",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "while keeping salaries unchanged",
+    "meaning": "maaşları değiştirmeden"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "salary",
+   "pos": "noun",
+   "wordId": "salary",
+   "sense": 0,
+   "context": "maaşlar",
+   "note": null,
+   "form": "salary'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "while keeping salaries unchanged",
+    "meaning": "maaşları değiştirmeden"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "unchanged",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "değişmeden (aynı)",
+   "note": "*un-* ön eki olumsuzluk katar: *changed* (değişmiş) → *unchanged* (değişmemiş).",
+   "form": null,
+   "base": "değişmemiş, aynı",
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "while keeping salaries unchanged",
+    "meaning": "maaşları değiştirmeden"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuçlar",
+   "note": null,
+   "form": "result'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "oldu",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": "*-ly* eki sıfattan zarf yapar: *surprising* → *surprisingly*.",
+   "form": "surprising + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede",
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "surprisingly positive",
+    "meaning": "şaşırtıcı derecede olumlu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "positive",
+   "pos": "adjective",
+   "wordId": "positive",
+   "sense": 0,
+   "context": "olumlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "surprisingly positive",
+    "meaning": "şaşırtıcı derecede olumlu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "employee",
+   "pos": "noun",
+   "wordId": "employee",
+   "sense": 0,
+   "context": "çalışanlar",
+   "note": null,
+   "form": "employee'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildirdi",
+   "note": null,
+   "form": "report + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "low",
+   "pos": "adjective",
+   "wordId": "low",
+   "sense": 0,
+   "context": "daha düşük",
+   "note": null,
+   "form": "low + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "level",
+   "pos": "noun",
+   "wordId": "level",
+   "sense": 0,
+   "context": "düzeyler",
+   "note": null,
+   "form": "level'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(stres düzeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "stress",
+   "pos": "noun",
+   "wordId": "stress",
+   "sense": 0,
+   "context": "stres",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "lower levels of stress",
+    "meaning": "daha düşük stres düzeyleri"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "great",
+   "pos": "adjective",
+   "wordId": "great",
+   "sense": 0,
+   "context": "daha yüksek (daha büyük)",
+   "note": null,
+   "form": "great + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "greater job satisfaction",
+    "meaning": "daha yüksek iş memnuniyeti"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": "*job satisfaction* \"iş memnuniyeti\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "greater job satisfaction",
+    "meaning": "daha yüksek iş memnuniyeti"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "satisfaction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "memnuniyet",
+   "note": "*satisfy* (memnun etmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "memnuniyet, tatmin",
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "greater job satisfaction",
+    "meaning": "daha yüksek iş memnuniyeti"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (durumda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "durumlar",
+   "note": null,
+   "form": "case'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "productivity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "verimlilik",
+   "note": null,
+   "form": null,
+   "base": "verimlilik, üretkenlik",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kaldı",
+   "note": null,
+   "form": "remain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "remained the same",
+    "meaning": "aynı kaldı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "remained the same",
+    "meaning": "aynı kaldı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "same",
+   "pos": "pronoun",
+   "wordId": "same",
+   "sense": 1,
+   "context": "aynı",
+   "note": "*remain the same* \"aynı kalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "remained the same",
+    "meaning": "aynı kaldı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "(hatta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "or even improved",
+    "meaning": "hatta arttı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta",
+   "note": "*or even* \"hatta\" demektir ve daha güçlü bir ifadeyi ekler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "or even improved",
+    "meaning": "hatta arttı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "arttı (iyileşti)",
+   "note": null,
+   "form": "improve + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "or even improved",
+    "meaning": "hatta arttı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "sceptic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şüpheciler",
+   "note": "İngiliz yazımı *sceptic*, Amerikan yazımı *skeptic*'tir.",
+   "form": "sceptic'in çoğulu",
+   "base": "şüpheci",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "point",
+   "pos": "verb",
+   "wordId": "point",
+   "sense": 1,
+   "context": "dikkat çekiyor",
+   "note": "*point out* \"belirtmek, dikkat çekmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "point out",
+    "meaning": "dikkat çekmek, belirtmek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(point out)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "point out",
+    "meaning": "dikkat çekmek, belirtmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "böyle",
+   "note": "*such a* + isim \"böyle bir …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "model",
+   "pos": "noun",
+   "wordId": "model",
+   "sense": 0,
+   "context": "model",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "difficult to apply",
+    "meaning": "uygulanması zor"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-ması)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *difficult to apply* → uygulanması zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "difficult to apply",
+    "meaning": "uygulanması zor"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "apply",
+   "pos": "verb",
+   "wordId": "apply",
+   "sense": 0,
+   "context": "uygulamak",
+   "note": "*apply* \"başvurmak\" ve \"uygulamak\" demektir; burada \"uygulamak\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "difficult to apply",
+    "meaning": "uygulanması zor"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sektörlerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "sector",
+   "pos": "noun",
+   "wordId": "sector",
+   "sense": 0,
+   "context": "sektörler",
+   "note": null,
+   "form": "sector'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "healthcare",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sağlık (hizmetleri)",
+   "note": "*healthcare* *health* (sağlık) ve *care* (bakım) kelimelerinden oluşur.",
+   "form": null,
+   "base": "sağlık hizmetleri",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*where* burada bir yeri değil, bir alanı tanımlar: *sectors … where services must be available*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmetler",
+   "note": null,
+   "form": "service'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "-meli (gereken)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "must be available",
+    "meaning": "sunulması gerekir"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "must be available",
+    "meaning": "sunulması gerekir"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "available",
+   "pos": "adjective",
+   "wordId": "available",
+   "sense": 0,
+   "context": "sunulan (mevcut)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "must be available",
+    "meaning": "sunulması gerekir"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mayacağı",
+   "note": "*Whether …* cümlesi öznenin yerini alabilir: *Whether the idea will spread … remains to be seen.*",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "spread",
+   "pos": "verb",
+   "wordId": "spread",
+   "sense": 0,
+   "context": "yaygınlaşmak (yayılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "spread more widely",
+    "meaning": "daha geniş çapta yayılmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "spread more widely",
+    "meaning": "daha geniş çapta yayılmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "widely",
+   "pos": "adverb",
+   "wordId": "widely",
+   "sense": 0,
+   "context": "geniş çapta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 77,
+    "text": "spread more widely",
+    "meaning": "daha geniş çapta yayılmak"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "(kalıyor)",
+   "note": "*remains to be seen* \"henüz belli değil, zaman gösterecek\" demektir.",
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "remains to be seen",
+    "meaning": "(henüz) belli değil, zaman gösterecek"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "remains to be seen",
+    "meaning": "(henüz) belli değil, zaman gösterecek"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "remains to be seen",
+    "meaning": "(henüz) belli değil, zaman gösterecek"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görülmek",
+   "note": null,
+   "form": "see fiilinin 3. hali (seen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "remains to be seen",
+    "meaning": "(henüz) belli değil, zaman gösterecek"
+   }
+  }
+ ]
+}

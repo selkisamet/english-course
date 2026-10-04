@@ -1,0 +1,1145 @@
+{
+ "storyId": "story-c1-043",
+ "textHash": "b5d5c03fcc49",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birçok sınıfta klavyeyle yazma elle yazmanın yerini aldıkça, bazı araştırmacılar değerli bir şeyin kaybolup kaybolmadığını sorgulamaya başladı."
+  },
+  {
+   "tr": "Birkaç araştırma, elle not alan öğrencilerin bilgiyi klavyeyle yazanlardan daha iyi hatırladığını gösteriyor; bunun nedeni muhtemelen yavaş yazmanın onları fikirleri kendi sözcükleriyle özetlemeye zorlaması."
+  },
+  {
+   "tr": "Yine de dijital araçlar hız ve düzen açısından yadsınamaz avantajlar sunuyor ve uzmanların çoğu, ikisinden birini bırakmak yerine iki yöntem arasında bir denge kurulmasını öneriyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-dıkça",
+   "note": "*as* bağlaç olarak \"-dıkça, -dığı sırada\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "type",
+   "pos": "verb",
+   "wordId": "type",
+   "sense": 1,
+   "context": "klavyeyle yazma",
+   "note": "*type* fiil olarak \"klavyeyle yazmak\" demektir; *typing* bu eylemin adıdır.",
+   "form": "type + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "typing has replaced writing by hand",
+    "meaning": "klavyeyle yazma elle yazmanın yerini aldı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "typing has replaced writing by hand",
+    "meaning": "klavyeyle yazma elle yazmanın yerini aldı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "yerini aldı",
+   "note": "*A replaces B* \"A, B'nin yerini alır\" demektir.",
+   "form": "replace fiilinin 3. hali (replaced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "typing has replaced writing by hand",
+    "meaning": "klavyeyle yazma elle yazmanın yerini aldı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "writing",
+   "pos": "noun",
+   "wordId": "writing",
+   "sense": 0,
+   "context": "yazma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "writing by hand",
+    "meaning": "elle yazma"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by hand: elle)",
+   "note": "*by hand* \"elle (makine kullanmadan)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "writing by hand",
+    "meaning": "elle yazma"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "el",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "writing by hand",
+    "meaning": "elle yazma"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sınıfta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "classroom",
+   "pos": "noun",
+   "wordId": "classroom",
+   "sense": 0,
+   "context": "sınıflar",
+   "note": null,
+   "form": "classroom'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "researcher",
+   "pos": "noun",
+   "wordId": "researcher",
+   "sense": 0,
+   "context": "araştırmacılar",
+   "note": null,
+   "form": "researcher'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin 3. hali (begun, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "question",
+   "pos": "verb",
+   "wordId": "question",
+   "sense": 1,
+   "context": "sorgulamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "question whether something valuable is being lost",
+    "meaning": "değerli bir şeyin kaybolup kaybolmadığını sorgulamak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "question whether something valuable is being lost",
+    "meaning": "değerli bir şeyin kaybolup kaybolmadığını sorgulamak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "question whether something valuable is being lost",
+    "meaning": "değerli bir şeyin kaybolup kaybolmadığını sorgulamak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "valuable",
+   "pos": "adjective",
+   "wordId": "valuable",
+   "sense": 0,
+   "context": "değerli",
+   "note": "Sıfat *something*'den sonra gelir: *something valuable* → değerli bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "question whether something valuable is being lost",
+    "meaning": "değerli bir şeyin kaybolup kaybolmadığını sorgulamak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*is being* + fiilin 3. hali (şimdiki zaman edilgen) şu anda süren edilgen bir eylemi anlatır: *is being lost* → kayboluyor.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "is being lost",
+    "meaning": "kayboluyor (edilgen, şimdiki zaman)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ul-)",
+   "note": null,
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "is being lost",
+    "meaning": "kayboluyor (edilgen, şimdiki zaman)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybolmak",
+   "note": null,
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "is being lost",
+    "meaning": "kayboluyor (edilgen, şimdiki zaman)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "study",
+   "pos": "noun",
+   "wordId": "study",
+   "sense": 0,
+   "context": "araştırmalar",
+   "note": null,
+   "form": "study'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "indicate",
+   "pos": "verb",
+   "wordId": "indicate",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "almak",
+   "note": "*take notes* \"not almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "take notes by hand",
+    "meaning": "elle not almak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "note",
+   "pos": "noun",
+   "wordId": "note",
+   "sense": 0,
+   "context": "notlar",
+   "note": null,
+   "form": "note'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "take notes by hand",
+    "meaning": "elle not almak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by hand: elle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "take notes by hand",
+    "meaning": "elle not almak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "el",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "take notes by hand",
+    "meaning": "elle not almak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "remember",
+   "pos": "verb",
+   "wordId": "remember",
+   "sense": 0,
+   "context": "hatırlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "better",
+   "pos": "adverb",
+   "wordId": "better",
+   "sense": 1,
+   "context": "daha iyi",
+   "note": null,
+   "form": "well'in karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -anlar)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "those who type",
+    "meaning": "klavyeyle yazanlar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "those who type",
+    "meaning": "klavyeyle yazanlar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "type",
+   "pos": "verb",
+   "wordId": "type",
+   "sense": 1,
+   "context": "klavyeyle yazan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "those who type",
+    "meaning": "klavyeyle yazanlar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "possibly",
+   "pos": "adverb",
+   "wordId": "possibly",
+   "sense": 0,
+   "context": "muhtemelen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "writing",
+   "pos": "noun",
+   "wordId": "writing",
+   "sense": 0,
+   "context": "yazma(k)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "force",
+   "pos": "verb",
+   "wordId": "force",
+   "sense": 1,
+   "context": "zorlar",
+   "note": "*force someone to do something* \"birini bir şeyi yapmaya zorlamak\" demektir.",
+   "form": "force + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (öğrencileri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "summarize",
+   "pos": "verb",
+   "wordId": "summarize",
+   "sense": 0,
+   "context": "özetlemek",
+   "note": "İngiliz yazımında *summarise*, Amerikan yazımında *summarize* yazılır.",
+   "form": "summarise (İngiliz yazımı)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "writing slowly forces them to summarise",
+    "meaning": "yavaş yazmak onları özetlemeye zorlar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikirler",
+   "note": null,
+   "form": "idea'nın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(… sözcükleriyle)",
+   "note": "*in your own words* \"kendi sözcüklerinle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "in their own words",
+    "meaning": "kendi sözcükleriyle"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "in their own words",
+    "meaning": "kendi sözcükleriyle"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "in their own words",
+    "meaning": "kendi sözcükleriyle"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "sözcükler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "in their own words",
+    "meaning": "kendi sözcükleriyle"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "nevertheless",
+   "pos": "adverb",
+   "wordId": "nevertheless",
+   "sense": 0,
+   "context": "yine de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "digital",
+   "pos": "adjective",
+   "wordId": "digital",
+   "sense": 0,
+   "context": "dijital",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "tool",
+   "pos": "noun",
+   "wordId": "tool",
+   "sense": 0,
+   "context": "araçlar",
+   "note": null,
+   "form": "tool'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "sunuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "offer undeniable advantages",
+    "meaning": "yadsınamaz avantajlar sunmak"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "undeniable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yadsınamaz",
+   "note": "*un-* (olumsuzluk) + *deny* (inkâr etmek) + *-able* (-ebilir): \"inkâr edilemez\".",
+   "form": null,
+   "base": "yadsınamaz, inkâr edilemez",
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "offer undeniable advantages",
+    "meaning": "yadsınamaz avantajlar sunmak"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "advantage",
+   "pos": "noun",
+   "wordId": "advantage",
+   "sense": 0,
+   "context": "avantajlar",
+   "note": null,
+   "form": "advantage'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "offer undeniable advantages",
+    "meaning": "yadsınamaz avantajlar sunmak"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(… açısından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "speed",
+   "pos": "noun",
+   "wordId": "speed",
+   "sense": 0,
+   "context": "hız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "organization",
+   "pos": "noun",
+   "wordId": "organization",
+   "sense": 0,
+   "context": "düzen (düzenleme)",
+   "note": "*organisation* \"kuruluş\" demektir; bilgiler için \"düzenleme, düzen\" anlamına da gelir.",
+   "form": "organisation (İngiliz yazımı)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "most",
+   "pos": "determiner",
+   "wordId": "most",
+   "sense": 0,
+   "context": "çoğu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzmanlar",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "recommend",
+   "pos": "verb",
+   "wordId": "recommend",
+   "sense": 0,
+   "context": "öneriyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "balance",
+   "pos": "noun",
+   "wordId": "balance",
+   "sense": 0,
+   "context": "denge",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "method",
+   "pos": "noun",
+   "wordId": "method",
+   "sense": 0,
+   "context": "yöntemler",
+   "note": null,
+   "form": "method'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "a balance between the two methods",
+    "meaning": "iki yöntem arasında denge"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "rather than abandoning either",
+    "meaning": "ikisinden birini bırakmak yerine"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "rather than abandoning either",
+    "meaning": "ikisinden birini bırakmak yerine"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "abandon",
+   "pos": "verb",
+   "wordId": "abandon",
+   "sense": 0,
+   "context": "bırakmak (vazgeçmek)",
+   "note": null,
+   "form": "abandon + -ing",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "rather than abandoning either",
+    "meaning": "ikisinden birini bırakmak yerine"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "either",
+   "pos": "pronoun",
+   "wordId": "either",
+   "sense": 1,
+   "context": "ikisinden birini",
+   "note": "*either* olumlu cümlede \"(ikisinden) herhangi biri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "rather than abandoning either",
+    "meaning": "ikisinden birini bırakmak yerine"
+   }
+  }
+ ]
+}

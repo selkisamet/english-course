@@ -1,0 +1,1261 @@
+{
+ "storyId": "story-c1-045",
+ "textHash": "8e16b617a7b2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bilimsel araştırmalar artık yalnızca profesyoneller tarafından yürütülmüyor."
+  },
+  {
+   "tr": "Vatandaş bilimi projeleri aracılığıyla sıradan gönüllüler kuş sayarak, su kalitesini izleyerek ya da uzak galaksilerin görüntülerini internet üzerinden sınıflandırarak gerçek araştırmalara katkıda bulunuyor."
+  },
+  {
+   "tr": "Bu tür projeler, bilim insanlarının kendi başlarına toplayabileceklerinden çok daha fazla veri toplamasına olanak tanıyor."
+  },
+  {
+   "tr": "Aynı derecede önemlisi, katılımcılar çoğu zaman bilimin nasıl işlediğini daha derinden kavrıyor; bu da bilime duyulan güvenin artık sorgusuz kabul edilemediği bir dönemde, halkın bilimsel bulgulara güvenini artırabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "scientific",
+   "pos": "adjective",
+   "wordId": "scientific",
+   "sense": 0,
+   "context": "bilimsel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Scientific research",
+    "meaning": "bilimsel araştırma"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma",
+   "note": "*research* sayılamayan bir isimdir: *some research* (✗ researches).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Scientific research",
+    "meaning": "bilimsel araştırma"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ül-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "is no longer conducted",
+    "meaning": "artık yürütülmüyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "conduct",
+   "pos": "verb",
+   "wordId": "conduct",
+   "sense": 0,
+   "context": "yürütülmek",
+   "note": "*conduct research* \"araştırma yürütmek, yapmak\" demektir.",
+   "form": "conduct fiilinin 3. hali (conducted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "is no longer conducted",
+    "meaning": "artık yürütülmüyor"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "exclusively",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": null,
+   "form": "exclusive + -ly (sıfattan zarf)",
+   "base": "yalnızca, sadece",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "professional",
+   "pos": "noun",
+   "wordId": "professional",
+   "sense": 1,
+   "context": "profesyoneller",
+   "note": null,
+   "form": "professional'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "aracılığıyla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Through citizen science projects",
+    "meaning": "vatandaş bilimi projeleri aracılığıyla"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "citizen",
+   "pos": "noun",
+   "wordId": "citizen",
+   "sense": 0,
+   "context": "vatandaş",
+   "note": "*citizen science* sıradan insanların gönüllü olarak bilimsel araştırmalara katıldığı projelerdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "citizen science",
+    "meaning": "vatandaş bilimi (halkın katıldığı bilim)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "science",
+   "pos": "noun",
+   "wordId": "science",
+   "sense": 0,
+   "context": "bilim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "citizen science",
+    "meaning": "vatandaş bilimi (halkın katıldığı bilim)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "projeler",
+   "note": null,
+   "form": "project'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Through citizen science projects",
+    "meaning": "vatandaş bilimi projeleri aracılığıyla"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "ordinary",
+   "pos": "adjective",
+   "wordId": "ordinary",
+   "sense": 0,
+   "context": "sıradan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "ordinary volunteers",
+    "meaning": "sıradan gönüllüler"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "volunteer",
+   "pos": "noun",
+   "wordId": "volunteer",
+   "sense": 0,
+   "context": "gönüllüler",
+   "note": null,
+   "form": "volunteer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "ordinary volunteers",
+    "meaning": "sıradan gönüllüler"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "contribute",
+   "pos": "verb",
+   "wordId": "contribute",
+   "sense": 0,
+   "context": "katkıda bulunuyor",
+   "note": "*contribute to something* \"bir şeye katkıda bulunmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "contribute to genuine research",
+    "meaning": "gerçek araştırmalara katkıda bulunmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "contribute to genuine research",
+    "meaning": "gerçek araştırmalara katkıda bulunmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "contribute to genuine research",
+    "meaning": "gerçek araştırmalara katkıda bulunmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "contribute to genuine research",
+    "meaning": "gerçek araştırmalara katkıda bulunmak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "count",
+   "pos": "verb",
+   "wordId": "count",
+   "sense": 0,
+   "context": "saymak",
+   "note": null,
+   "form": "count + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuşlar",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "monitor",
+   "pos": "verb",
+   "wordId": "monitor",
+   "sense": 1,
+   "context": "izlemek",
+   "note": "*monitor* isim olarak \"ekran\", fiil olarak \"izlemek, takip etmek\" demektir.",
+   "form": "monitor + -ing",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "monitoring water quality",
+    "meaning": "su kalitesini izlemek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "monitoring water quality",
+    "meaning": "su kalitesini izlemek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "quality",
+   "pos": "noun",
+   "wordId": "quality",
+   "sense": 0,
+   "context": "kalite",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "monitoring water quality",
+    "meaning": "su kalitesini izlemek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "classify",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sınıflandırmak",
+   "note": null,
+   "form": "classify + -ing",
+   "base": "sınıflandırmak",
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "classifying images of distant galaxies",
+    "meaning": "uzak galaksilerin görüntülerini sınıflandırmak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "image",
+   "pos": "noun",
+   "wordId": "image",
+   "sense": 0,
+   "context": "görüntüler",
+   "note": null,
+   "form": "image'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "classifying images of distant galaxies",
+    "meaning": "uzak galaksilerin görüntülerini sınıflandırmak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (galaksilerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "classifying images of distant galaxies",
+    "meaning": "uzak galaksilerin görüntülerini sınıflandırmak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "distant",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "uzak",
+   "note": "*distance* (uzaklık) isminin sıfat halidir.",
+   "form": null,
+   "base": "uzak",
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "classifying images of distant galaxies",
+    "meaning": "uzak galaksilerin görüntülerini sınıflandırmak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "galaxy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "galaksiler",
+   "note": null,
+   "form": "galaxy'nin çoğulu (y → ies)",
+   "base": "galaksi",
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "classifying images of distant galaxies",
+    "meaning": "uzak galaksilerin görüntülerini sınıflandırmak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internet üzerinden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "projeler",
+   "note": null,
+   "form": "project'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "olanak tanıyor",
+   "note": "*allow someone to do something* \"birinin bir şey yapmasına olanak tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "allow scientists to gather",
+    "meaning": "bilim insanlarının toplamasına olanak tanımak"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "scientist",
+   "pos": "noun",
+   "wordId": "scientist",
+   "sense": 0,
+   "context": "bilim insanları",
+   "note": null,
+   "form": "scientist'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "allow scientists to gather",
+    "meaning": "bilim insanlarının toplamasına olanak tanımak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "allow scientists to gather",
+    "meaning": "bilim insanlarının toplamasına olanak tanımak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "gather",
+   "pos": "verb",
+   "wordId": "gather",
+   "sense": 0,
+   "context": "toplamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "allow scientists to gather",
+    "meaning": "bilim insanlarının toplamasına olanak tanımak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "far more data",
+    "meaning": "çok daha fazla veri"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "far more data",
+    "meaning": "çok daha fazla veri"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "data",
+   "pos": "noun",
+   "wordId": "data",
+   "sense": 0,
+   "context": "veri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "far more data",
+    "meaning": "çok daha fazla veri"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilecekleri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "ever",
+   "pos": "adverb",
+   "wordId": "ever",
+   "sense": 0,
+   "context": "(hiçbir zaman)",
+   "note": "*ever* karşılaştırmalarda vurgu katar: *more than they could ever collect* → asla toplayamayacakları kadar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "collect",
+   "pos": "verb",
+   "wordId": "collect",
+   "sense": 0,
+   "context": "toplamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on their own: kendi başlarına)",
+   "note": "*on one's own* \"kendi başına, yardımsız\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "on their own",
+    "meaning": "kendi başlarına"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "on their own",
+    "meaning": "kendi başlarına"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "own",
+   "pos": "pronoun",
+   "wordId": "own",
+   "sense": 1,
+   "context": "kendi (başlarına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "on their own",
+    "meaning": "kendi başlarına"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "equally",
+   "pos": "adverb",
+   "wordId": "equally",
+   "sense": 0,
+   "context": "aynı derecede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "Equally importantly",
+    "meaning": "aynı derecede önemlisi"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "importantly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "önemlisi",
+   "note": null,
+   "form": "important + -ly (sıfattan zarf)",
+   "base": "önemli olarak, önemlisi",
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "Equally importantly",
+    "meaning": "aynı derecede önemlisi"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "participant",
+   "pos": "noun",
+   "wordId": "participant",
+   "sense": 0,
+   "context": "katılımcılar",
+   "note": null,
+   "form": "participant'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "geliştirmek (kazanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a deeper understanding",
+    "meaning": "daha derin bir kavrayış"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "deep",
+   "pos": "adjective",
+   "wordId": "deep",
+   "sense": 0,
+   "context": "daha derin",
+   "note": null,
+   "form": "deep + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a deeper understanding",
+    "meaning": "daha derin bir kavrayış"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "understanding",
+   "pos": "noun",
+   "wordId": "understanding",
+   "sense": 0,
+   "context": "kavrayış (anlayış)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "a deeper understanding",
+    "meaning": "daha derin bir kavrayış"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "how science works",
+    "meaning": "bilimin nasıl işlediği"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "science",
+   "pos": "noun",
+   "wordId": "science",
+   "sense": 0,
+   "context": "bilim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "how science works",
+    "meaning": "bilimin nasıl işlediği"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "işlemek",
+   "note": "*work* \"çalışmak\" demektir; bir sistem için \"işlemek\" anlamına da gelir: *how science works* → bilimin nasıl işlediği.",
+   "form": "work + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "how science works",
+    "meaning": "bilimin nasıl işlediği"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına gönderme yapabilir: \"… ki bu da …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "increase",
+   "pos": "verb",
+   "wordId": "increase",
+   "sense": 0,
+   "context": "artırmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "public",
+   "pos": "adjective",
+   "wordId": "public",
+   "sense": 0,
+   "context": "halkın (kamu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "public trust in scientific findings",
+    "meaning": "halkın bilimsel bulgulara güveni"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "trust",
+   "pos": "noun",
+   "wordId": "trust",
+   "sense": 0,
+   "context": "güven",
+   "note": "*trust in something* \"bir şeye güven\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "public trust in scientific findings",
+    "meaning": "halkın bilimsel bulgulara güveni"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "public trust in scientific findings",
+    "meaning": "halkın bilimsel bulgulara güveni"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "scientific",
+   "pos": "adjective",
+   "wordId": "scientific",
+   "sense": 0,
+   "context": "bilimsel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "public trust in scientific findings",
+    "meaning": "halkın bilimsel bulgulara güveni"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "finding",
+   "pos": "noun",
+   "wordId": "finding",
+   "sense": 0,
+   "context": "bulgular",
+   "note": null,
+   "form": "finding'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "public trust in scientific findings",
+    "meaning": "halkın bilimsel bulgulara güveni"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at a time when: … bir dönemde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "at a time when",
+    "meaning": "… -diği bir dönemde"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "at a time when",
+    "meaning": "… -diği bir dönemde"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "dönem (zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "at a time when",
+    "meaning": "… -diği bir dönemde"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "when",
+   "pos": "pronoun",
+   "wordId": "when",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*when* bir zamanı tanımlar: *a time when…* → … -diği bir dönem.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "at a time when",
+    "meaning": "… -diği bir dönemde"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "böyle bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "trust",
+   "pos": "noun",
+   "wordId": "trust",
+   "sense": 0,
+   "context": "güven",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "cannot be taken for granted",
+    "meaning": "sorgusuz kabul edilemez (olağan sayılamaz)"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "cannot be taken for granted",
+    "meaning": "sorgusuz kabul edilemez (olağan sayılamaz)"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(kabul edilmek)",
+   "note": "*take something for granted* \"bir şeyi olağan saymak, sorgulamadan kabul etmek\" demektir.",
+   "form": "take fiilinin 3. hali (taken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "cannot be taken for granted",
+    "meaning": "sorgusuz kabul edilemez (olağan sayılamaz)"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(take for granted)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "cannot be taken for granted",
+    "meaning": "sorgusuz kabul edilemez (olağan sayılamaz)"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "grant",
+   "pos": "verb",
+   "wordId": "grant",
+   "sense": 0,
+   "context": "(sorgusuz)",
+   "note": null,
+   "form": "grant fiilinin 3. hali (granted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "cannot be taken for granted",
+    "meaning": "sorgusuz kabul edilemez (olağan sayılamaz)"
+   }
+  }
+ ]
+}

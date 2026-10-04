@@ -1,0 +1,1198 @@
+{
+ "storyId": "story-c1-026",
+ "textHash": "c62415d996cc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Erteleme alışkanlığı çoğu zaman basit bir tembellik olarak geçiştirilir, ancak psikologlar konuya farklı bakıyor."
+  },
+  {
+   "tr": "Birçok durumda insanlar işleri motivasyonları eksik olduğu için değil, o iş kendilerini kaygılı, sıkılmış ya da emin olmayan hissettirdiği için erteler."
+  },
+  {
+   "tr": "İşi ertelemek geçici bir rahatlama sağlar, bu da ne yazık ki alışkanlığı pekiştirir."
+  },
+  {
+   "tr": "Büyük bir projeyi daha küçük ve açıkça tanımlanmış adımlara bölmek, onu daha az bunaltıcı gösterebilir."
+  },
+  {
+   "tr": "Aynı derecede önemli olan, sosyal medya gibi dikkat dağıtıcı şeylerle rahatsızlıktan kaçmak yerine ona katlanmayı öğrenmektir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "procrastination",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "erteleme alışkanlığı",
+   "note": "*procrastinate* yapılması gereken işleri sürekli \"ertelemek\" demektir; *procrastination* bu davranışın adıdır.",
+   "form": null,
+   "base": "erteleme (alışkanlığı), işi sürekli sonraya bırakma",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ilir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "is often dismissed as",
+    "meaning": "çoğu zaman … olarak geçiştirilir"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "is often dismissed as",
+    "meaning": "çoğu zaman … olarak geçiştirilir"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "dismiss",
+   "pos": "verb",
+   "wordId": "dismiss",
+   "sense": 0,
+   "context": "geçiştirilir",
+   "note": "*dismiss something as something* \"bir şeyi … diye önemsiz görüp geçiştirmek\" demektir.",
+   "form": "dismiss fiilinin 3. hali (dismissed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "is often dismissed as",
+    "meaning": "çoğu zaman … olarak geçiştirilir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "is often dismissed as",
+    "meaning": "çoğu zaman … olarak geçiştirilir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "simple laziness",
+    "meaning": "basit tembellik"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "laziness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tembellik",
+   "note": "*-ness* eki sıfattan isim yapar: *lazy* (tembel) → *laziness* (y → i).",
+   "form": null,
+   "base": "tembellik",
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "simple laziness",
+    "meaning": "basit tembellik"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": null,
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "bakıyor (görüyor)",
+   "note": "*see something differently* \"bir şeye farklı bakmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "see it differently",
+    "meaning": "konuya farklı bakmak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (konuyu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "see it differently",
+    "meaning": "konuya farklı bakmak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "differently",
+   "pos": "adverb",
+   "wordId": "differently",
+   "sense": 0,
+   "context": "farklı bir şekilde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "see it differently",
+    "meaning": "konuya farklı bakmak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (durumda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "In many cases",
+    "meaning": "birçok durumda"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "In many cases",
+    "meaning": "birçok durumda"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "durumlar",
+   "note": null,
+   "form": "case'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "In many cases",
+    "meaning": "birçok durumda"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "delay",
+   "pos": "verb",
+   "wordId": "delay",
+   "sense": 0,
+   "context": "erteler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "task",
+   "pos": "noun",
+   "wordId": "task",
+   "sense": 0,
+   "context": "işler",
+   "note": null,
+   "form": "task'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not because … but because …* \"… için değil, … için\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "lack",
+   "pos": "verb",
+   "wordId": "lack",
+   "sense": 1,
+   "context": "eksik olmak (yoksun olmak)",
+   "note": "*lack something* \"bir şeyden yoksun olmak\" demektir; *of* almaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "lack motivation",
+    "meaning": "motivasyonu eksik olmak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "motivation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "motivasyon",
+   "note": null,
+   "form": null,
+   "base": "motivasyon, istek",
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "lack motivation",
+    "meaning": "motivasyonu eksik olmak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "task",
+   "pos": "noun",
+   "wordId": "task",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(hissettirir)",
+   "note": "*make someone feel* + sıfat \"birine … hissettirmek\" demektir.",
+   "form": "make + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "makes them feel",
+    "meaning": "onlara … hissettirir"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "makes them feel",
+    "meaning": "onlara … hissettirir"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "makes them feel",
+    "meaning": "onlara … hissettirir"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "anxious",
+   "pos": "adjective",
+   "wordId": "anxious",
+   "sense": 0,
+   "context": "kaygılı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "bored",
+   "pos": "adjective",
+   "wordId": "bored",
+   "sense": 0,
+   "context": "sıkılmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "uncertain",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "emin olmayan",
+   "note": "*un-* ön eki olumsuzluk katar: *certain* (emin) → *uncertain* (emin olmayan).",
+   "form": null,
+   "base": "emin olmayan, belirsiz",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "(put off: ertelemek)",
+   "note": "*put something off* \"bir şeyi ertelemek\" demektir.",
+   "form": "put + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "Putting it off",
+    "meaning": "onu ertelemek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (işi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "Putting it off",
+    "meaning": "onu ertelemek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "off",
+   "pos": "adverb",
+   "wordId": "off",
+   "sense": 0,
+   "context": "(put off)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "Putting it off",
+    "meaning": "onu ertelemek"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "provide",
+   "pos": "verb",
+   "wordId": "provide",
+   "sense": 0,
+   "context": "sağlar",
+   "note": null,
+   "form": "provide + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "temporary",
+   "pos": "adjective",
+   "wordId": "temporary",
+   "sense": 0,
+   "context": "geçici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "temporary relief",
+    "meaning": "geçici rahatlama"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "relief",
+   "pos": "noun",
+   "wordId": "relief",
+   "sense": 0,
+   "context": "rahatlama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "temporary relief",
+    "meaning": "geçici rahatlama"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına gönderme yapabilir: \"… ki bu da …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "unfortunately",
+   "pos": "adverb",
+   "wordId": "unfortunately",
+   "sense": 0,
+   "context": "ne yazık ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "reinforce",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "pekiştirir",
+   "note": "*reinforce* \"güçlendirmek, pekiştirmek\" demektir.",
+   "form": "reinforce + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "güçlendirmek, pekiştirmek",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "break",
+   "pos": "verb",
+   "wordId": "break",
+   "sense": 0,
+   "context": "bölmek",
+   "note": "*break something into* + parçalar \"bir şeyi … -e bölmek\" demektir.",
+   "form": "break + -ing",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Breaking a large project into",
+    "meaning": "büyük bir projeyi … bölmek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Breaking a large project into",
+    "meaning": "büyük bir projeyi … bölmek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Breaking a large project into",
+    "meaning": "büyük bir projeyi … bölmek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Breaking a large project into",
+    "meaning": "büyük bir projeyi … bölmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (adımlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Breaking a large project into",
+    "meaning": "büyük bir projeyi … bölmek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "daha küçük",
+   "note": null,
+   "form": "small + -er (karşılaştırma)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "clearly",
+   "pos": "adverb",
+   "wordId": "clearly",
+   "sense": 0,
+   "context": "açıkça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "clearly defined steps",
+    "meaning": "açıkça tanımlanmış adımlar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "define",
+   "pos": "verb",
+   "wordId": "define",
+   "sense": 0,
+   "context": "tanımlanmış",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *clearly defined steps* → açıkça tanımlanmış adımlar.",
+   "form": "define fiilinin 3. hali (defined, -d)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "clearly defined steps",
+    "meaning": "açıkça tanımlanmış adımlar"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "step",
+   "pos": "noun",
+   "wordId": "step",
+   "sense": 0,
+   "context": "adımlar",
+   "note": null,
+   "form": "step'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "clearly defined steps",
+    "meaning": "açıkça tanımlanmış adımlar"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(göster)mek",
+   "note": "*make something seem* + sıfat \"bir şeyi … gibi göstermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "make it seem less overwhelming",
+    "meaning": "daha az bunaltıcı göstermek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (projeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "make it seem less overwhelming",
+    "meaning": "daha az bunaltıcı göstermek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "make it seem less overwhelming",
+    "meaning": "daha az bunaltıcı göstermek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "make it seem less overwhelming",
+    "meaning": "daha az bunaltıcı göstermek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "overwhelming",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bunaltıcı",
+   "note": "*overwhelm* (bunaltmak) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "bunaltıcı, ezici",
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "make it seem less overwhelming",
+    "meaning": "daha az bunaltıcı göstermek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "equally",
+   "pos": "adverb",
+   "wordId": "equally",
+   "sense": 0,
+   "context": "aynı derecede",
+   "note": "*Equally important is …* devrik bir yapıdır: önemli olan bilgi (*learning to tolerate…*) sona bırakılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Equally important is",
+    "meaning": "aynı derecede önemli olan (devrik yapı)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "important",
+   "pos": "adjective",
+   "wordId": "important",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Equally important is",
+    "meaning": "aynı derecede önemli olan (devrik yapı)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olan … -dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "Equally important is",
+    "meaning": "aynı derecede önemli olan (devrik yapı)"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": "*learn to do something* \"bir şeyi yapmayı öğrenmek\" demektir.",
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "tolerate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "katlanmak (tahammül etmek)",
+   "note": null,
+   "form": null,
+   "base": "katlanmak, tahammül etmek, hoş görmek",
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "discomfort",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "rahatsızlık",
+   "note": "*dis-* ön eki zıt anlam katar: *comfort* (rahatlık) → *discomfort* (rahatsızlık).",
+   "form": null,
+   "base": "rahatsızlık, huzursuzluk",
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "rather than escaping",
+    "meaning": "kaçmak yerine"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "rather than escaping",
+    "meaning": "kaçmak yerine"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "escape",
+   "pos": "verb",
+   "wordId": "escape",
+   "sense": 0,
+   "context": "kaçmak",
+   "note": null,
+   "form": "escape + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "rather than escaping",
+    "meaning": "kaçmak yerine"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ondan (rahatsızlıktan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "aracılığıyla (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "distraction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dikkat dağıtıcı şeyler",
+   "note": "*distract* (dikkatini dağıtmak) fiilinden *-ion* ekiyle isim yapılmıştır.",
+   "form": "distraction'ın çoğulu",
+   "base": "dikkat dağıtıcı şey",
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "such as social media",
+    "meaning": "sosyal medya gibi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "such as social media",
+    "meaning": "sosyal medya gibi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "social",
+   "pos": "adjective",
+   "wordId": "social",
+   "sense": 0,
+   "context": "sosyal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "such as social media",
+    "meaning": "sosyal medya gibi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "media",
+   "pos": "noun",
+   "wordId": "media",
+   "sense": 0,
+   "context": "medya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "such as social media",
+    "meaning": "sosyal medya gibi"
+   }
+  }
+ ]
+}

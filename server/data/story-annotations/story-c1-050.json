@@ -1,0 +1,1201 @@
+{
+ "storyId": "story-c1-050",
+ "textHash": "fa252089ba6b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İlk uydu fırlatıldığından beri Dünya'nın çevresindeki yörüngeye binlerce nesne gönderildi."
+  },
+  {
+   "tr": "Bunların çoğu artık çalışmıyor ve çarpışmalar bazılarını sayısız küçük parçaya ayırdı."
+  },
+  {
+   "tr": "Bu uzay çöpü son derece yüksek hızlarda hareket eder, bu yüzden minicik bir parça bile çalışan bir uyduya ciddi zarar verebilir."
+  },
+  {
+   "tr": "Giderek daha fazla uydu fırlatıldıkça uzmanlar, uzay çöpünü temizlemek için etkili yöntemler geliştirilmezse sorunun kritik bir hal alabileceği konusunda uyarıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "-dığından beri",
+   "note": "*since* + geçmiş zaman cümlesi + present perfect: \"… -dığından beri …\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "satellite",
+   "pos": "noun",
+   "wordId": "satellite",
+   "sense": 0,
+   "context": "uydu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "launch",
+   "pos": "verb",
+   "wordId": "launch",
+   "sense": 0,
+   "context": "fırlatıldı",
+   "note": "*launch* \"başlatmak\" demektir; roket ve uydular için \"fırlatmak\" anlamına gelir.",
+   "form": "launch fiilinin 3. hali (launched, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Since the first satellite was launched",
+    "meaning": "ilk uydu fırlatıldığından beri"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "binlerce",
+   "note": "*thousands of* + çoğul isim \"binlerce …\" demektir.",
+   "form": "thousand'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "thousands of objects",
+    "meaning": "binlerce nesne"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(thousands of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "thousands of objects",
+    "meaning": "binlerce nesne"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "object",
+   "pos": "noun",
+   "wordId": "object",
+   "sense": 0,
+   "context": "nesneler",
+   "note": null,
+   "form": "object'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "thousands of objects",
+    "meaning": "binlerce nesne"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "have been sent",
+    "meaning": "gönderildi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "have been sent",
+    "meaning": "gönderildi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderildi",
+   "note": null,
+   "form": "send fiilinin 3. hali (sent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "have been sent",
+    "meaning": "gönderildi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (yörüngeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "into orbit around the Earth",
+    "meaning": "Dünya'nın çevresindeki yörüngeye"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "orbit",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yörünge",
+   "note": null,
+   "form": null,
+   "base": "yörünge",
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "into orbit around the Earth",
+    "meaning": "Dünya'nın çevresindeki yörüngeye"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "around",
+   "pos": "preposition",
+   "wordId": "around",
+   "sense": 0,
+   "context": "çevresindeki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "into orbit around the Earth",
+    "meaning": "Dünya'nın çevresindeki yörüngeye"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "into orbit around the Earth",
+    "meaning": "Dünya'nın çevresindeki yörüngeye"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "earth",
+   "pos": "noun",
+   "wordId": "earth",
+   "sense": 0,
+   "context": "Dünya",
+   "note": "Gezegen adı olarak *the Earth* genellikle büyük harfle yazılır; küçük harfle *earth* \"toprak\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "into orbit around the Earth",
+    "meaning": "Dünya'nın çevresindeki yörüngeye"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*many of* + zamir/isim \"… -in çoğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Many of them",
+    "meaning": "bunların çoğu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (bunlardan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Many of them",
+    "meaning": "bunların çoğu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (nesneler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Many of them",
+    "meaning": "bunların çoğu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "no longer functioning",
+    "meaning": "artık çalışmıyor"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "no longer functioning",
+    "meaning": "artık çalışmıyor"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "function",
+   "pos": "verb",
+   "wordId": "function",
+   "sense": 1,
+   "context": "çalışmak (işlemek)",
+   "note": null,
+   "form": "function + -ing",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "no longer functioning",
+    "meaning": "artık çalışmıyor"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "collision",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çarpışmalar",
+   "note": "*collide* (çarpışmak) fiilinden türemiş bir isimdir.",
+   "form": "collision'ın çoğulu",
+   "base": "çarpışma",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "break",
+   "pos": "verb",
+   "wordId": "break",
+   "sense": 0,
+   "context": "ayırdı (kırdı)",
+   "note": "*break something into pieces* \"bir şeyi parçalara ayırmak, kırmak\" demektir.",
+   "form": "break fiilinin 3. hali (broken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (parçaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "countless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sayısız",
+   "note": "*-less* eki \"-sız\" anlamı katar: *count* (saymak) → *countless* (sayısız).",
+   "form": null,
+   "base": "sayısız",
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "daha küçük",
+   "note": null,
+   "form": "small + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "piece",
+   "pos": "noun",
+   "wordId": "piece",
+   "sense": 0,
+   "context": "parçalar",
+   "note": null,
+   "form": "piece'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "broken some into countless smaller pieces",
+    "meaning": "bazılarını sayısız küçük parçaya ayırdı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "uzay",
+   "note": "*space debris* yörüngede dolaşan, artık kullanılmayan \"uzay çöpü\"dür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "space debris",
+    "meaning": "uzay çöpü"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "debris",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çöp (enkaz)",
+   "note": "*debris*'in sonundaki *s* okunmaz (\"debri\").",
+   "form": null,
+   "base": "enkaz, döküntü",
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "space debris",
+    "meaning": "uzay çöpü"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "hareket eder (yol alır)",
+   "note": null,
+   "form": "travel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(… hızlarda)",
+   "note": "Hız bildirirken *at* kullanılır: *at high speed* → yüksek hızla.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "at extremely high speeds",
+    "meaning": "son derece yüksek hızlarda"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "extremely",
+   "pos": "adverb",
+   "wordId": "extremely",
+   "sense": 0,
+   "context": "son derece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "at extremely high speeds",
+    "meaning": "son derece yüksek hızlarda"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "high",
+   "pos": "adjective",
+   "wordId": "high",
+   "sense": 0,
+   "context": "yüksek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "at extremely high speeds",
+    "meaning": "son derece yüksek hızlarda"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "speed",
+   "pos": "noun",
+   "wordId": "speed",
+   "sense": 0,
+   "context": "hızlar",
+   "note": null,
+   "form": "speed'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "at extremely high speeds",
+    "meaning": "son derece yüksek hızlarda"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a tiny fragment",
+    "meaning": "minicik bir parça"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "tiny",
+   "pos": "adjective",
+   "wordId": "tiny",
+   "sense": 0,
+   "context": "minicik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a tiny fragment",
+    "meaning": "minicik bir parça"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "fragment",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "parça",
+   "note": null,
+   "form": null,
+   "base": "parça, kırıntı",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a tiny fragment",
+    "meaning": "minicik bir parça"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "seriously",
+   "pos": "adverb",
+   "wordId": "seriously",
+   "sense": 0,
+   "context": "ciddi şekilde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "seriously damage",
+    "meaning": "ciddi zarar vermek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "damage",
+   "pos": "verb",
+   "wordId": "damage",
+   "sense": 1,
+   "context": "zarar vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "seriously damage",
+    "meaning": "ciddi zarar vermek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a working satellite",
+    "meaning": "çalışan bir uydu"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "working",
+   "pos": "adjective",
+   "wordId": "working",
+   "sense": 0,
+   "context": "çalışan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a working satellite",
+    "meaning": "çalışan bir uydu"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "satellite",
+   "pos": "noun",
+   "wordId": "satellite",
+   "sense": 0,
+   "context": "uydu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "a working satellite",
+    "meaning": "çalışan bir uydu"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-dıkça",
+   "note": "*as* bağlaç olarak \"… -dıkça\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "(giderek) daha fazla",
+   "note": "*more and more* \"giderek daha fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(more and more)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "(more and more)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "satellite",
+   "pos": "noun",
+   "wordId": "satellite",
+   "sense": 0,
+   "context": "uydular",
+   "note": null,
+   "form": "satellite'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "launch",
+   "pos": "verb",
+   "wordId": "launch",
+   "sense": 0,
+   "context": "fırlatılmak",
+   "note": null,
+   "form": "launch fiilinin 3. hali (launched, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzmanlar",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıyor",
+   "note": "*warn that…* \"… olabileceği konusunda uyarmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceği konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "could become critical",
+    "meaning": "kritik bir hal alabilir"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(hal) almak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "could become critical",
+    "meaning": "kritik bir hal alabilir"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "critical",
+   "pos": "adjective",
+   "wordId": "critical",
+   "sense": 0,
+   "context": "kritik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "could become critical",
+    "meaning": "kritik bir hal alabilir"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "unless",
+   "pos": "conjunction",
+   "wordId": "unless",
+   "sense": 0,
+   "context": "-mezse",
+   "note": "*unless* \"-medikçe, -mezse\" demektir; *if … not* anlamı taşır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "effective",
+   "pos": "adjective",
+   "wordId": "effective",
+   "sense": 0,
+   "context": "etkili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "effective methods of removing debris",
+    "meaning": "uzay çöpünü temizlemenin etkili yöntemleri"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "method",
+   "pos": "noun",
+   "wordId": "method",
+   "sense": 0,
+   "context": "yöntemler",
+   "note": null,
+   "form": "method'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "effective methods of removing debris",
+    "meaning": "uzay çöpünü temizlemenin etkili yöntemleri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "effective methods of removing debris",
+    "meaning": "uzay çöpünü temizlemenin etkili yöntemleri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "remove",
+   "pos": "verb",
+   "wordId": "remove",
+   "sense": 0,
+   "context": "temizlemek (kaldırmak)",
+   "note": null,
+   "form": "remove + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "effective methods of removing debris",
+    "meaning": "uzay çöpünü temizlemenin etkili yöntemleri"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "debris",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "uzay çöpü (enkaz)",
+   "note": null,
+   "form": null,
+   "base": "enkaz, döküntü",
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "effective methods of removing debris",
+    "meaning": "uzay çöpünü temizlemenin etkili yöntemleri"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "are developed",
+    "meaning": "geliştirilir"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "geliştirilmek",
+   "note": null,
+   "form": "develop fiilinin 3. hali (developed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "are developed",
+    "meaning": "geliştirilir"
+   }
+  }
+ ]
+}

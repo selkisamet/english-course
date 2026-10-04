@@ -1,0 +1,1274 @@
+{
+ "storyId": "story-c1-049",
+ "textHash": "84299b0b54ea",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Çoğu insan kendini iyi bir dinleyici sayar, ancak gerçekten dinlemek şaşırtıcı derecede nadir bir beceridir."
+  },
+  {
+   "tr": "Sohbet sırasında, başkaları konuşurken o zamanı çoğu zaman onların bakış açısını anlamaya çalışmak yerine kendi cevabımızı hazırlayarak geçiririz."
+  },
+  {
+   "tr": "Buna karşılık etkin dinleme; tüm dikkati vermeyi, doğru anlaşılıp anlaşılmadığını kontrol etmek için sorular sormayı ve söylenenleri özetlemeyi içerir."
+  },
+  {
+   "tr": "Bunu uygulayanlar hem iş hem de özel hayatlarında daha güçlü ilişkiler kurma eğilimindedir, çünkü karşılarındakiler gerçekten anlaşıldıklarını hisseder."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "most",
+   "pos": "determiner",
+   "wordId": "most",
+   "sense": 0,
+   "context": "çoğu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "sayar",
+   "note": "*consider oneself* + isim/sıfat \"kendini … saymak, … olarak görmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "consider themselves good listeners",
+    "meaning": "kendilerini iyi dinleyici sayarlar"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendilerini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "consider themselves good listeners",
+    "meaning": "kendilerini iyi dinleyici sayarlar"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "consider themselves good listeners",
+    "meaning": "kendilerini iyi dinleyici sayarlar"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "listener",
+   "pos": "noun",
+   "wordId": "listener",
+   "sense": 0,
+   "context": "dinleyiciler",
+   "note": null,
+   "form": "listener'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "consider themselves good listeners",
+    "meaning": "kendilerini iyi dinleyici sayarlar"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak (ama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "genuine",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": "gerçek, hakiki; içten",
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "genuine listening",
+    "meaning": "gerçek dinleme"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinleme",
+   "note": "Fiile *-ing* eklenerek isim gibi kullanılabilir: *listening* → dinleme.",
+   "form": "listen + -ing",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "genuine listening",
+    "meaning": "gerçek dinleme"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": null,
+   "form": "surprising + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede",
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "surprisingly rare skill",
+    "meaning": "şaşırtıcı derecede nadir bir beceri"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "rare",
+   "pos": "adjective",
+   "wordId": "rare",
+   "sense": 0,
+   "context": "nadir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "surprisingly rare skill",
+    "meaning": "şaşırtıcı derecede nadir bir beceri"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "skill",
+   "pos": "noun",
+   "wordId": "skill",
+   "sense": 0,
+   "context": "beceri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "surprisingly rare skill",
+    "meaning": "şaşırtıcı derecede nadir bir beceri"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(sırasında)",
+   "note": "*in conversation* \"sohbet sırasında, konuşurken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "In conversation",
+    "meaning": "sohbet sırasında"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "In conversation",
+    "meaning": "sohbet sırasında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "çoğu zaman (sık sık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçiririz",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkaları",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşurken",
+   "note": null,
+   "form": "speak + -ing",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "prepare",
+   "pos": "verb",
+   "wordId": "prepare",
+   "sense": 0,
+   "context": "hazırlayarak",
+   "note": null,
+   "form": "prepare + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "spend the time while others are speaking preparing",
+    "meaning": "başkaları konuşurken o zamanı hazırlayarak geçirmek"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "our own reply",
+    "meaning": "kendi cevabımız"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "our own reply",
+    "meaning": "kendi cevabımız"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "reply",
+   "pos": "noun",
+   "wordId": "reply",
+   "sense": 1,
+   "context": "cevap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "our own reply",
+    "meaning": "kendi cevabımız"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "rather than trying to understand",
+    "meaning": "anlamaya çalışmak yerine"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "rather than trying to understand",
+    "meaning": "anlamaya çalışmak yerine"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "çalışmak (uğraşmak)",
+   "note": "*try to do something* \"bir şeyi yapmaya çalışmak\" demektir.",
+   "form": "try + -ing",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "rather than trying to understand",
+    "meaning": "anlamaya çalışmak yerine"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "rather than trying to understand",
+    "meaning": "anlamaya çalışmak yerine"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "rather than trying to understand",
+    "meaning": "anlamaya çalışmak yerine"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "point",
+   "pos": "noun",
+   "wordId": "point",
+   "sense": 0,
+   "context": "(bakış)",
+   "note": "*point of view* \"bakış açısı, görüş\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "point of view",
+    "meaning": "bakış açısı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(point of view)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "point of view",
+    "meaning": "bakış açısı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "view",
+   "pos": "noun",
+   "wordId": "view",
+   "sense": 0,
+   "context": "açı (görüş)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "point of view",
+    "meaning": "bakış açısı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "active",
+   "pos": "adjective",
+   "wordId": "active",
+   "sense": 0,
+   "context": "etkin (aktif)",
+   "note": "*active listening* karşıdakini anlamaya odaklanan bilinçli bir dinleme yöntemidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "Active listening",
+    "meaning": "etkin dinleme"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinleme",
+   "note": null,
+   "form": "listen + -ing",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "Active listening",
+    "meaning": "etkin dinleme"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by contrast: buna karşılık)",
+   "note": "*by contrast* \"buna karşılık, öte yandan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "by contrast",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "contrast",
+   "pos": "noun",
+   "wordId": "contrast",
+   "sense": 0,
+   "context": "karşıtlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "by contrast",
+    "meaning": "buna karşılık"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "involve",
+   "pos": "verb",
+   "wordId": "involve",
+   "sense": 0,
+   "context": "içerir",
+   "note": "*involve* + *-ing* \"… -meyi içermek, gerektirmek\" demektir.",
+   "form": "involve + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "vermek",
+   "note": "*pay attention* \"dikkat etmek, dikkatini vermek\" demektir; *pay* burada \"ödemek\" anlamında değildir.",
+   "form": "pay + -ing",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "paying full attention",
+    "meaning": "tüm dikkati vermek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "tüm (tam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "paying full attention",
+    "meaning": "tüm dikkati vermek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "paying full attention",
+    "meaning": "tüm dikkati vermek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sormak",
+   "note": null,
+   "form": "ask + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "to check understanding",
+    "meaning": "anlaşılıp anlaşılmadığını kontrol etmek için"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "check",
+   "pos": "verb",
+   "wordId": "check",
+   "sense": 0,
+   "context": "kontrol etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "to check understanding",
+    "meaning": "anlaşılıp anlaşılmadığını kontrol etmek için"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "understanding",
+   "pos": "noun",
+   "wordId": "understanding",
+   "sense": 0,
+   "context": "(doğru) anlama",
+   "note": "*check understanding* \"doğru anlaşılıp anlaşılmadığını kontrol etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "to check understanding",
+    "meaning": "anlaşılıp anlaşılmadığını kontrol etmek için"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "summarize",
+   "pos": "verb",
+   "wordId": "summarize",
+   "sense": 0,
+   "context": "özetlemek",
+   "note": "İngiliz yazımında *summarise*, Amerikan yazımında *summarize* yazılır.",
+   "form": "summarise (İngiliz yazımı) + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(söylenen) şey",
+   "note": "*what* burada \"… -an şey\" demektir: *what has been said* → söylenenler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "what has been said",
+    "meaning": "söylenenler"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "what has been said",
+    "meaning": "söylenenler"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "what has been said",
+    "meaning": "söylenenler"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylenmek",
+   "note": null,
+   "form": "say fiilinin 3. hali (said, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "what has been said",
+    "meaning": "söylenenler"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -anlar)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "Those who practise it",
+    "meaning": "bunu uygulayanlar"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "Those who practise it",
+    "meaning": "bunu uygulayanlar"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "uygulayan",
+   "note": "*practise* \"pratik yapmak\" ve bir yöntemi \"uygulamak\" demektir; İngiliz İngilizcesinde fiil *practise*, isim *practice* diye yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "Those who practise it",
+    "meaning": "bunu uygulayanlar"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (etkin dinlemeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğilimindedir",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "build",
+   "pos": "verb",
+   "wordId": "build",
+   "sense": 0,
+   "context": "kurmak",
+   "note": "*build a relationship* \"ilişki kurmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "build stronger relationships",
+    "meaning": "daha güçlü ilişkiler kurmak"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "strong",
+   "pos": "adjective",
+   "wordId": "strong",
+   "sense": 0,
+   "context": "daha güçlü",
+   "note": null,
+   "form": "strong + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "build stronger relationships",
+    "meaning": "daha güçlü ilişkiler kurmak"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "relationship",
+   "pos": "noun",
+   "wordId": "relationship",
+   "sense": 0,
+   "context": "ilişkiler",
+   "note": null,
+   "form": "relationship'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "build stronger relationships",
+    "meaning": "daha güçlü ilişkiler kurmak"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at work: işte)",
+   "note": "*at work* \"işte, iş yerinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hayatlarında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "personal",
+   "pos": "adjective",
+   "wordId": "personal",
+   "sense": 0,
+   "context": "özel (kişisel)",
+   "note": "*personal life* \"özel hayat\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (lives, f → ves)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "both at work and in their personal lives",
+    "meaning": "hem iş hem de özel hayatlarında"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "karşılarındakiler (başkaları)",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hisseder",
+   "note": "*feel* + fiilin 3. hali \"… -ildiğini hissetmek\" demektir: *feel understood* → anlaşıldığını hissetmek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "feel genuinely understood",
+    "meaning": "gerçekten anlaşıldıklarını hissetmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "genuinely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "gerçekten",
+   "note": "*-ly* eki sıfattan zarf yapar: *genuine* → *genuinely*.",
+   "form": "genuine + -ly (sıfattan zarf)",
+   "base": "gerçekten, içtenlikle",
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "feel genuinely understood",
+    "meaning": "gerçekten anlaşıldıklarını hissetmek"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlaşılmış",
+   "note": null,
+   "form": "understand fiilinin 3. hali (understood, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "feel genuinely understood",
+    "meaning": "gerçekten anlaşıldıklarını hissetmek"
+   }
+  }
+ ]
+}

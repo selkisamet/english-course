@@ -1,0 +1,1199 @@
+{
+ "storyId": "story-c1-015",
+ "textHash": "ab899c075f16",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Hemen hemen her şeyi birkaç saat içinde edinmek hiç bu kadar kolay olmamıştı."
+  },
+  {
+   "tr": "Ekrana birkaç kez dokunarak market alışverişi, yemek ve kıyafet doğrudan evimize getirilebiliyor."
+  },
+  {
+   "tr": "Yine de bu kolaylığın her zaman görünür olmayan bir bedeli var."
+  },
+  {
+   "tr": "Ambalaj atığı çarpıcı biçimde arttı ve kuryeler sık sık düşük ücretlerle yoğun baskı altında çalışıyor."
+  },
+  {
+   "tr": "Eleştirmenler, tüketicilerin yalnızca hıza ve fiyata odaklanmak yerine sipariş vermeden önce bu gizli maliyetleri de düşünmesi gerektiğini savunuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": "*Never before* cümle başına gelince devrik yapı kullanılır: *Never before has it been…* (= *It has never been … before*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Never before has it been",
+    "meaning": "hiç bu kadar … olmamıştı (devrik yapı)"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "daha önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Never before has it been",
+    "meaning": "hiç bu kadar … olmamıştı (devrik yapı)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "Devrik yapıda yardımcı fiil (*has*) özneden (*it*) önce gelir.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Never before has it been",
+    "meaning": "hiç bu kadar … olmamıştı (devrik yapı)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada asıl özneyi (*to obtain…*) sona bırakan \"boş özne\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Never before has it been",
+    "meaning": "hiç bu kadar … olmamıştı (devrik yapı)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Never before has it been",
+    "meaning": "hiç bu kadar … olmamıştı (devrik yapı)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "obtain",
+   "pos": "verb",
+   "wordId": "obtain",
+   "sense": 0,
+   "context": "edinmek (elde etmek)",
+   "note": "*obtain* *get*'in daha resmî karşılığıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "hemen hemen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "almost anything within hours",
+    "meaning": "hemen hemen her şey birkaç saat içinde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "anything",
+   "pos": "pronoun",
+   "wordId": "anything",
+   "sense": 0,
+   "context": "her şey (herhangi bir şey)",
+   "note": "Olumlu cümlede *anything* \"ne olursa, her şey\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "almost anything within hours",
+    "meaning": "hemen hemen her şey birkaç saat içinde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": "*within* + süre \"… içinde, … dolmadan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "almost anything within hours",
+    "meaning": "hemen hemen her şey birkaç saat içinde"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saatler",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "almost anything within hours",
+    "meaning": "hemen hemen her şey birkaç saat içinde"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (-arak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": "*a few* \"birkaç\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "tap",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dokunuşlar",
+   "note": "*tap* \"hafifçe dokunma, tıklama\" demektir; İngiliz İngilizcesinde \"musluk\" anlamı da vardır.",
+   "form": "tap'in çoğulu",
+   "base": "hafif dokunuş; musluk",
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (ekrana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "screen",
+   "pos": "noun",
+   "wordId": "screen",
+   "sense": 0,
+   "context": "ekran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "With a few taps on a screen",
+    "meaning": "ekrana birkaç kez dokunarak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "groceries",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "market alışverişi",
+   "note": "*groceries* marketten alınan \"gıda ve ev ürünleri\" demektir ve genellikle çoğul kullanılır.",
+   "form": null,
+   "base": "market ürünleri, gıda alışverişi",
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "meal",
+   "pos": "noun",
+   "wordId": "meal",
+   "sense": 0,
+   "context": "yemekler",
+   "note": null,
+   "form": "meal'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "clothing",
+   "pos": "noun",
+   "wordId": "clothing",
+   "sense": 0,
+   "context": "kıyafet (giyim)",
+   "note": "*clothing* sayılamayan, *clothes* ise çoğul bir isimdir; ikisi de \"giysiler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "can be delivered",
+    "meaning": "teslim edilebilir"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "can be delivered",
+    "meaning": "teslim edilebilir"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "deliver",
+   "pos": "verb",
+   "wordId": "deliver",
+   "sense": 0,
+   "context": "teslim edilmek (getirilmek)",
+   "note": null,
+   "form": "deliver fiilinin 3. hali (delivered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "can be delivered",
+    "meaning": "teslim edilebilir"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "directly",
+   "pos": "adverb",
+   "wordId": "directly",
+   "sense": 0,
+   "context": "doğrudan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (evimize)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "evler",
+   "note": null,
+   "form": "home'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "yine de",
+   "note": "*yet* bağlaç olarak \"ama, yine de\" demektir ve *but*'tan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "convenience",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kolaylık (rahatlık)",
+   "note": "*convenient* (kullanışlı, uygun) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "kolaylık, rahatlık, uygunluk",
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "(bedeli var)",
+   "note": "*come at a price* \"bir bedeli olmak, bedelsiz olmamak\" demektir.",
+   "form": "come + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "comes at a price",
+    "meaning": "bir bedeli var"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(come at a price)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "comes at a price",
+    "meaning": "bir bedeli var"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "comes at a price",
+    "meaning": "bir bedeli var"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "bedel (fiyat)",
+   "note": "*price* \"fiyat\" demektir; mecazen \"bedel\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "comes at a price",
+    "meaning": "bir bedeli var"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmayan)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": "*not always* \"her zaman … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "visible",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "görünür",
+   "note": "*vis-* kökü \"görme\" anlamı taşır: *vision* (görüş), *visible* (görünür).",
+   "form": null,
+   "base": "görünür, gözle görülür",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "packaging",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ambalaj",
+   "note": "*package* (paket) isminden türemiş bir isimdir; ürünleri saran malzemeleri anlatır.",
+   "form": null,
+   "base": "ambalaj, paketleme",
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Packaging waste",
+    "meaning": "ambalaj atığı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "waste",
+   "pos": "noun",
+   "wordId": "waste",
+   "sense": 0,
+   "context": "atık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Packaging waste",
+    "meaning": "ambalaj atığı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "increase",
+   "pos": "verb",
+   "wordId": "increase",
+   "sense": 0,
+   "context": "arttı",
+   "note": null,
+   "form": "increase fiilinin 3. hali (increased, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "dramatically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çarpıcı biçimde",
+   "note": "*-ally* eki *-ic* ile biten sıfatlardan zarf yapar: *dramatic* → *dramatically*.",
+   "form": "dramatic + -ally (sıfattan zarf)",
+   "base": "çarpıcı biçimde, büyük ölçüde",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "delivery",
+   "pos": "noun",
+   "wordId": "delivery",
+   "sense": 0,
+   "context": "teslimat",
+   "note": "Burada *delivery* isim olmasına rağmen *drivers*'ı niteler: *delivery drivers* → kuryeler, teslimat şoförleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "delivery drivers",
+    "meaning": "kuryeler (teslimat şoförleri)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "driver",
+   "pos": "noun",
+   "wordId": "driver",
+   "sense": 0,
+   "context": "şoförler",
+   "note": null,
+   "form": "driver'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "delivery drivers",
+    "meaning": "kuryeler (teslimat şoförleri)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altında",
+   "note": "*under pressure* \"baskı altında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "under intense pressure",
+    "meaning": "yoğun baskı altında"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "intense",
+   "pos": "adjective",
+   "wordId": "intense",
+   "sense": 0,
+   "context": "yoğun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "under intense pressure",
+    "meaning": "yoğun baskı altında"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "pressure",
+   "pos": "noun",
+   "wordId": "pressure",
+   "sense": 0,
+   "context": "baskı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "under intense pressure",
+    "meaning": "yoğun baskı altında"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "karşılığında (-le)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "for modest wages",
+    "meaning": "düşük ücretlerle"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "modest",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "düşük (mütevazı)",
+   "note": "*modest* \"alçakgönüllü\" demektir; miktarlar için \"küçük, düşük\" anlamına gelir.",
+   "form": null,
+   "base": "mütevazı; az, düşük",
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "for modest wages",
+    "meaning": "düşük ücretlerle"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "wage",
+   "pos": "noun",
+   "wordId": "wage",
+   "sense": 0,
+   "context": "ücretler",
+   "note": "*wage* genellikle saatlik ya da haftalık ödenen ücrettir; aylık maaş ise *salary*'dir.",
+   "form": "wage'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "for modest wages",
+    "meaning": "düşük ücretlerle"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "critic",
+   "pos": "noun",
+   "wordId": "critic",
+   "sense": 0,
+   "context": "eleştirmenler",
+   "note": null,
+   "form": "critic'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": "*argue that…* \"… olduğunu savunmak, ileri sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "consumer",
+   "pos": "noun",
+   "wordId": "consumer",
+   "sense": 0,
+   "context": "tüketiciler",
+   "note": null,
+   "form": "consumer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "düşünmek (göz önünde bulundurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "gizli",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *hidden costs* → gizli maliyetler.",
+   "form": "hide fiilinin 3. hali (hidden, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "hidden costs",
+    "meaning": "gizli maliyetler"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "maliyetler",
+   "note": null,
+   "form": "cost'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 67,
+    "text": "hidden costs",
+    "meaning": "gizli maliyetler"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-meden önce",
+   "note": "*before* + *-ing* \"… -meden önce\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "place",
+   "pos": "verb",
+   "wordId": "place",
+   "sense": 1,
+   "context": "vermek (koymak)",
+   "note": "*place an order* \"sipariş vermek\" demektir.",
+   "form": "place + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "placing an order",
+    "meaning": "sipariş vermek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an order*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "placing an order",
+    "meaning": "sipariş vermek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "sipariş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "placing an order",
+    "meaning": "sipariş vermek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "rather than focusing solely on",
+    "meaning": "yalnızca … odaklanmak yerine"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "rather than focusing solely on",
+    "meaning": "yalnızca … odaklanmak yerine"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "focus",
+   "pos": "verb",
+   "wordId": "focus",
+   "sense": 0,
+   "context": "odaklanmak",
+   "note": "*focus on something* \"bir şeye odaklanmak\" demektir.",
+   "form": "focus + -ing",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "rather than focusing solely on",
+    "meaning": "yalnızca … odaklanmak yerine"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "solely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*sole* (tek) sıfatından *-ly* ile zarf yapılmıştır; *only*'nin daha resmî karşılığıdır.",
+   "form": "sole + -ly (sıfattan zarf)",
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "rather than focusing solely on",
+    "meaning": "yalnızca … odaklanmak yerine"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (focus on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "rather than focusing solely on",
+    "meaning": "yalnızca … odaklanmak yerine"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "speed",
+   "pos": "noun",
+   "wordId": "speed",
+   "sense": 0,
+   "context": "hız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "fiyat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

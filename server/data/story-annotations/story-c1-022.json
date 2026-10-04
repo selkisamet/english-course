@@ -1,0 +1,1190 @@
+{
+ "storyId": "story-c1-022",
+ "textHash": "1a330261c879",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Alışkanlıklar, bir davranış neredeyse otomatik hale gelecek kadar sık tekrarlandığında oluşur."
+  },
+  {
+   "tr": "Araştırmacılara göre her alışkanlık basit bir döngüyü izler: bir tetikleyici, bir rutin ve bir ödül."
+  },
+  {
+   "tr": "Bu örüntüyü anlamak, istenmeyen davranışları değiştirmeyi epey kolaylaştırabilir."
+  },
+  {
+   "tr": "İnsanlara yalnızca irade gücüne güvenmek yerine, ödülü koruyarak tetikleyiciyi değiştirmeleri ya da rutinin yerine başka bir şey koymaları tavsiye ediliyor."
+  },
+  {
+   "tr": "Birkaç hafta boyunca istikrarlı bir şekilde tekrarlanan küçük değişiklikler, genellikle en kalıcı sonuçları verir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlıklar",
+   "note": null,
+   "form": "habit'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ulur)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "are formed",
+    "meaning": "oluşur (oluşturulur)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "form",
+   "pos": "verb",
+   "wordId": "form",
+   "sense": 1,
+   "context": "oluşur (oluşturulur)",
+   "note": null,
+   "form": "form fiilinin 3. hali (formed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "are formed",
+    "meaning": "oluşur (oluşturulur)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "behaviour",
+   "pos": "noun",
+   "wordId": "behaviour",
+   "sense": 0,
+   "context": "davranış",
+   "note": "İngiliz yazımı *behaviour*, Amerikan yazımı *behavior*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "repeat",
+   "pos": "verb",
+   "wordId": "repeat",
+   "sense": 0,
+   "context": "tekrarlanmak",
+   "note": null,
+   "form": "repeat fiilinin 3. hali (repeated, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*so* + sıfat/zarf + *that* … \"o kadar … ki …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "so often that",
+    "meaning": "o kadar sık ki"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "so often that",
+    "meaning": "o kadar sık ki"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "ki (-ecek kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "so often that",
+    "meaning": "o kadar sık ki"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (davranış)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "hale gelir",
+   "note": null,
+   "form": "become + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "almost automatic",
+    "meaning": "neredeyse otomatik"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "automatic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "otomatik",
+   "note": null,
+   "form": null,
+   "base": "otomatik, kendiliğinden",
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "almost automatic",
+    "meaning": "neredeyse otomatik"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "according",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "(according to: -e göre)",
+   "note": "*according to* + kişi/kaynak \"… -e göre\" demektir.",
+   "form": null,
+   "base": "(according to) -e göre",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "According to",
+    "meaning": "-e göre"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(according to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "According to",
+    "meaning": "-e göre"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "researcher",
+   "pos": "noun",
+   "wordId": "researcher",
+   "sense": 0,
+   "context": "araştırmacılar",
+   "note": null,
+   "form": "researcher'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "follow",
+   "pos": "verb",
+   "wordId": "follow",
+   "sense": 0,
+   "context": "izler",
+   "note": null,
+   "form": "follow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a simple loop",
+    "meaning": "basit bir döngü"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a simple loop",
+    "meaning": "basit bir döngü"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "loop",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "döngü",
+   "note": null,
+   "form": null,
+   "base": "döngü, ilmek",
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a simple loop",
+    "meaning": "basit bir döngü"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "trigger",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tetikleyici",
+   "note": "*trigger* \"tetik\" demektir; mecazen bir davranışı \"başlatan, tetikleyen şey\" anlamına gelir.",
+   "form": null,
+   "base": "tetik; tetikleyici",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "routine",
+   "pos": "noun",
+   "wordId": "routine",
+   "sense": 0,
+   "context": "rutin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "reward",
+   "pos": "noun",
+   "wordId": "reward",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Understanding this pattern* → bu örüntüyü anlamak.",
+   "form": "understand + -ing",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "Understanding this pattern",
+    "meaning": "bu örüntüyü anlamak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "Understanding this pattern",
+    "meaning": "bu örüntüyü anlamak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "pattern",
+   "pos": "noun",
+   "wordId": "pattern",
+   "sense": 0,
+   "context": "örüntü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "Understanding this pattern",
+    "meaning": "bu örüntüyü anlamak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(kolay)laştırmak",
+   "note": "*make it easier to do something* \"bir şeyi yapmayı kolaylaştırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "make it considerably easier",
+    "meaning": "epey kolaylaştırmak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada asıl nesneyi (*to change…*) sona bırakan \"boş nesne\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "make it considerably easier",
+    "meaning": "epey kolaylaştırmak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "considerably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "epey",
+   "note": null,
+   "form": "considerable + -ly (sıfattan zarf)",
+   "base": "epey, önemli ölçüde",
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "make it considerably easier",
+    "meaning": "epey kolaylaştırmak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "daha kolay",
+   "note": null,
+   "form": "easy'nin karşılaştırma hali (easier, y → ier)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "make it considerably easier",
+    "meaning": "epey kolaylaştırmak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "unwanted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "istenmeyen",
+   "note": "*un-* ön eki olumsuzluk katar: *wanted* (istenen) → *unwanted* (istenmeyen).",
+   "form": null,
+   "base": "istenmeyen",
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "unwanted behaviour",
+    "meaning": "istenmeyen davranış"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "behaviour",
+   "pos": "noun",
+   "wordId": "behaviour",
+   "sense": 0,
+   "context": "davranış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "unwanted behaviour",
+    "meaning": "istenmeyen davranış"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "güvenmek",
+   "note": "*rely on something* \"bir şeye güvenmek, dayanmak\" demektir.",
+   "form": "rely'ın -ing hali (relying)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (rely on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "willpower",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "irade gücü",
+   "note": "*willpower* *will* (irade) ve *power* (güç) kelimelerinden oluşan birleşik bir isimdir.",
+   "form": null,
+   "base": "irade gücü",
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": "İsimden sonra gelen *alone* \"yalnızca, tek başına\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 48,
+    "text": "Rather than relying on willpower alone",
+    "meaning": "yalnızca irade gücüne güvenmek yerine"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "are advised to",
+    "meaning": "-meleri tavsiye edilir"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "advise",
+   "pos": "verb",
+   "wordId": "advise",
+   "sense": 0,
+   "context": "tavsiye ediliyor",
+   "note": "*be advised to do something* \"bir şeyi yapması tavsiye edilmek\" demektir.",
+   "form": "advise fiilinin 3. hali (advised, -d)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "are advised to",
+    "meaning": "-meleri tavsiye edilir"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "are advised to",
+    "meaning": "-meleri tavsiye edilir"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "alter",
+   "pos": "verb",
+   "wordId": "alter",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": "*alter*, *change*'in daha resmî karşılığıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "trigger",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tetikleyici",
+   "note": null,
+   "form": null,
+   "base": "tetik; tetikleyici",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "yerine başka bir şey koymak (değiştirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "routine",
+   "pos": "noun",
+   "wordId": "routine",
+   "sense": 0,
+   "context": "rutin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-erek (-ken)",
+   "note": "*while* + *-ing* \"… -ken, … -erek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "while keeping the reward",
+    "meaning": "ödülü koruyarak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "korumak (tutmak)",
+   "note": null,
+   "form": "keep + -ing",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "while keeping the reward",
+    "meaning": "ödülü koruyarak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "while keeping the reward",
+    "meaning": "ödülü koruyarak"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "reward",
+   "pos": "noun",
+   "wordId": "reward",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 63,
+    "text": "while keeping the reward",
+    "meaning": "ödülü koruyarak"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "adjustment",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "değişiklikler (ayarlamalar)",
+   "note": "*-ment* eki fiilden isim yapar: *adjust* (ayarlamak) → *adjustment* (ayarlama).",
+   "form": "adjustment'ın çoğulu",
+   "base": "ayarlama, küçük değişiklik",
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "repeat",
+   "pos": "verb",
+   "wordId": "repeat",
+   "sense": 0,
+   "context": "tekrarlanan",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *adjustments, repeated…* → tekrarlanan değişiklikler.",
+   "form": "repeat fiilinin 3. hali (repeated, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "repeated consistently over several weeks",
+    "meaning": "birkaç hafta boyunca istikrarlı biçimde tekrarlanan"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "consistently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "istikrarlı bir şekilde",
+   "note": "*-ly* eki sıfattan zarf yapar: *consistent* (tutarlı) → *consistently*.",
+   "form": "consistent + -ly (sıfattan zarf)",
+   "base": "istikrarlı bir şekilde, sürekli",
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "repeated consistently over several weeks",
+    "meaning": "birkaç hafta boyunca istikrarlı biçimde tekrarlanan"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*over* + süre \"… boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "repeated consistently over several weeks",
+    "meaning": "birkaç hafta boyunca istikrarlı biçimde tekrarlanan"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "repeated consistently over several weeks",
+    "meaning": "birkaç hafta boyunca istikrarlı biçimde tekrarlanan"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "repeated consistently over several weeks",
+    "meaning": "birkaç hafta boyunca istikrarlı biçimde tekrarlanan"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "genellikle (eğilimindedir)",
+   "note": "*tend to* + fiil \"genellikle … -mek, … eğiliminde olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "tend to produce",
+    "meaning": "genellikle üretir"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "tend to produce",
+    "meaning": "genellikle üretir"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "produce",
+   "pos": "verb",
+   "wordId": "produce",
+   "sense": 0,
+   "context": "vermek (üretmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "tend to produce",
+    "meaning": "genellikle üretir"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "the most lasting results",
+    "meaning": "en kalıcı sonuçlar"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "the most lasting results",
+    "meaning": "en kalıcı sonuçlar"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "last",
+   "pos": "verb",
+   "wordId": "last",
+   "sense": 3,
+   "context": "kalıcı",
+   "note": "*last* fiil olarak \"sürmek\" demektir; *lasting* sıfat olarak \"kalıcı, uzun süreli\" anlamına gelir.",
+   "form": "last + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "the most lasting results",
+    "meaning": "en kalıcı sonuçlar"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuçlar",
+   "note": null,
+   "form": "result'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "the most lasting results",
+    "meaning": "en kalıcı sonuçlar"
+   }
+  }
+ ]
+}

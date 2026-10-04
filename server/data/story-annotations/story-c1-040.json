@@ -1,0 +1,1207 @@
+{
+ "storyId": "story-c1-040",
+ "textHash": "74124c78588a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Psikologlar, insanların yabancılar hakkındaki izlenimlerini çoğu zaman daha tek bir kelime bile söylenmeden, saniyenin çok küçük bir bölümünde oluşturduğunu ortaya koydu."
+  },
+  {
+   "tr": "Bu hızlı yargılar yüz ifadesi, duruş ve kıyafet gibi ipuçlarına dayanır ve değiştirilmeleri şaşırtıcı derecede zor olabilir."
+  },
+  {
+   "tr": "Bu tür hızlı kararlar bazen isabetli olsa da bilinçdışı önyargıları da yansıtabilir."
+  },
+  {
+   "tr": "Bu eğilimin farkında olmak, başkalarına daha adil bir şans vermemize ve ilk varsayımlarımızı sorgulamamıza yardımcı olabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": null,
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "ortaya koydu (buldu)",
+   "note": null,
+   "form": "find fiilinin 3. hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "people form impressions of strangers",
+    "meaning": "insanlar yabancılar hakkında izlenim oluşturur"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "form",
+   "pos": "verb",
+   "wordId": "form",
+   "sense": 1,
+   "context": "oluşturur",
+   "note": "*form an impression* \"izlenim edinmek, izlenim oluşturmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "people form impressions of strangers",
+    "meaning": "insanlar yabancılar hakkında izlenim oluşturur"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "impression",
+   "pos": "noun",
+   "wordId": "impression",
+   "sense": 0,
+   "context": "izlenimler",
+   "note": null,
+   "form": "impression'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "people form impressions of strangers",
+    "meaning": "insanlar yabancılar hakkında izlenim oluşturur"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "hakkında (-e dair)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "people form impressions of strangers",
+    "meaning": "insanlar yabancılar hakkında izlenim oluşturur"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "stranger",
+   "pos": "noun",
+   "wordId": "stranger",
+   "sense": 0,
+   "context": "yabancılar",
+   "note": null,
+   "form": "stranger'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "people form impressions of strangers",
+    "meaning": "insanlar yabancılar hakkında izlenim oluşturur"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "fraction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çok küçük bölüm",
+   "note": "*fraction* \"kesir\" ve \"çok küçük bir bölüm\" demektir: *a fraction of a second* → saniyenin çok küçük bir bölümü.",
+   "form": null,
+   "base": "kesir; küçük bir bölüm",
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "second",
+   "pos": "noun",
+   "wordId": "second",
+   "sense": 2,
+   "context": "saniye",
+   "note": "*second* \"ikinci\" ve isim olarak \"saniye\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "within a fraction of a second",
+    "meaning": "saniyenin çok küçük bir bölümünde"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "before",
+   "pos": "conjunction",
+   "wordId": "before",
+   "sense": 1,
+   "context": "-meden (önce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "single",
+   "pos": "adjective",
+   "wordId": "single",
+   "sense": 0,
+   "context": "tek",
+   "note": "*a single* + isim \"tek bir …\" demektir ve vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "kelime",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-meden)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "söylenmek (konuşulmak)",
+   "note": null,
+   "form": "speak fiilinin 3. hali (spoken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 22,
+    "text": "before a single word has been spoken",
+    "meaning": "daha tek bir kelime söylenmeden"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "rapid",
+   "pos": "adjective",
+   "wordId": "rapid",
+   "sense": 0,
+   "context": "hızlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "rapid judgements",
+    "meaning": "hızlı yargılar"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "yargılar",
+   "note": null,
+   "form": "judgement'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "rapid judgements",
+    "meaning": "hızlı yargılar"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "are based on",
+    "meaning": "-e dayanır"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "based",
+   "pos": "adjective",
+   "wordId": "based",
+   "sense": 0,
+   "context": "dayalı",
+   "note": "*be based on something* \"bir şeye dayanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "are based on",
+    "meaning": "-e dayanır"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "are based on",
+    "meaning": "-e dayanır"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "cue",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ipuçları",
+   "note": "*cue* bir şeyi anlamamızı sağlayan \"işaret, ipucu\" demektir.",
+   "form": "cue'nun çoğulu",
+   "base": "ipucu, işaret",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* \"gibi, örneğin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(such as)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "facial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yüz (ile ilgili)",
+   "note": "*face* (yüz) isminden türemiş bir sıfattır: *facial expression* → yüz ifadesi.",
+   "form": null,
+   "base": "yüz ile ilgili, yüz …",
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "facial expression",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "expression",
+   "pos": "noun",
+   "wordId": "expression",
+   "sense": 0,
+   "context": "ifade",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "facial expression",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "posture",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "duruş",
+   "note": "*posture* vücudun \"duruşu, duruş biçimi\" demektir.",
+   "form": null,
+   "base": "duruş",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "clothing",
+   "pos": "noun",
+   "wordId": "clothing",
+   "sense": 0,
+   "context": "kıyafet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (yargılar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": null,
+   "form": "surprising + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede",
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mesi)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *difficult to change* → değiştirilmesi zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 44,
+    "text": "can be surprisingly difficult to change",
+    "meaning": "değiştirilmesi şaşırtıcı derecede zor olabilir"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de (-e rağmen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "such quick decisions",
+    "meaning": "bu tür hızlı kararlar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "quick",
+   "pos": "adjective",
+   "wordId": "quick",
+   "sense": 0,
+   "context": "hızlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "such quick decisions",
+    "meaning": "bu tür hızlı kararlar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "kararlar",
+   "note": null,
+   "form": "decision'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "such quick decisions",
+    "meaning": "bu tür hızlı kararlar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olsa da)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "accurate",
+   "pos": "adjective",
+   "wordId": "accurate",
+   "sense": 0,
+   "context": "isabetli (doğru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "reflect",
+   "pos": "verb",
+   "wordId": "reflect",
+   "sense": 0,
+   "context": "yansıtmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "unconscious",
+   "pos": "adjective",
+   "wordId": "unconscious",
+   "sense": 0,
+   "context": "bilinçdışı",
+   "note": "*unconscious* \"baygın\" ve \"bilinçsiz, farkında olunmayan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "unconscious bias",
+    "meaning": "bilinçdışı önyargı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "bias",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "önyargı",
+   "note": "*bias* bir kişiye ya da gruba karşı \"önyargı, taraflılık\" demektir.",
+   "form": null,
+   "base": "önyargı, taraflılık",
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "unconscious bias",
+    "meaning": "bilinçdışı önyargı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Being aware of…* → … farkında olmak.",
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "Being aware of this tendency",
+    "meaning": "bu eğilimin farkında olmak"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "aware",
+   "pos": "adjective",
+   "wordId": "aware",
+   "sense": 0,
+   "context": "farkında",
+   "note": "*be aware of something* \"bir şeyin farkında olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "Being aware of this tendency",
+    "meaning": "bu eğilimin farkında olmak"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(aware of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "Being aware of this tendency",
+    "meaning": "bu eğilimin farkında olmak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "Being aware of this tendency",
+    "meaning": "bu eğilimin farkında olmak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "tendency",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "eğilim",
+   "note": "*tend* (eğiliminde olmak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "eğilim",
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "Being aware of this tendency",
+    "meaning": "bu eğilimin farkında olmak"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardımcı olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bize",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "give others a fairer chance",
+    "meaning": "başkalarına daha adil bir şans vermek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkalarına",
+   "note": "*others* \"başkaları, diğer insanlar\" demektir.",
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "give others a fairer chance",
+    "meaning": "başkalarına daha adil bir şans vermek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "give others a fairer chance",
+    "meaning": "başkalarına daha adil bir şans vermek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "fair",
+   "pos": "adjective",
+   "wordId": "fair",
+   "sense": 0,
+   "context": "daha adil",
+   "note": null,
+   "form": "fair + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "give others a fairer chance",
+    "meaning": "başkalarına daha adil bir şans vermek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "chance",
+   "pos": "noun",
+   "wordId": "chance",
+   "sense": 0,
+   "context": "şans (fırsat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "give others a fairer chance",
+    "meaning": "başkalarına daha adil bir şans vermek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "question",
+   "pos": "verb",
+   "wordId": "question",
+   "sense": 1,
+   "context": "sorgulamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "question our initial assumptions",
+    "meaning": "ilk varsayımlarımızı sorgulamak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "question our initial assumptions",
+    "meaning": "ilk varsayımlarımızı sorgulamak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "initial",
+   "pos": "adjective",
+   "wordId": "initial",
+   "sense": 0,
+   "context": "ilk (başlangıçtaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "question our initial assumptions",
+    "meaning": "ilk varsayımlarımızı sorgulamak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "assumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varsayımlar",
+   "note": null,
+   "form": "assumption'ın çoğulu",
+   "base": "varsayım",
+   "phrase": {
+    "from": 74,
+    "to": 77,
+    "text": "question our initial assumptions",
+    "meaning": "ilk varsayımlarımızı sorgulamak"
+   }
+  }
+ ]
+}
