@@ -1,0 +1,1207 @@
+{
+ "storyId": "story-b2-032",
+ "textHash": "c8f130e12ea0",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Büyük bir medya şirketindeki beşinci mülakatından sonra Leila işi alacağından emindi."
+  },
+  {
+   "tr": "Ancak bir hafta sonra, başka bir adayın seçildiğini bildiren kısa bir e-posta aldı."
+  },
+  {
+   "tr": "Pes etmek yerine müdürden kibarca geri bildirim istedi."
+  },
+  {
+   "tr": "Müdür, deneyiminin etkileyici olduğunu ama bazı teknik becerilerinin eksik olduğunu açıkladı."
+  },
+  {
+   "tr": "Leila bu becerileri geliştirmek için çevrimiçi bir kurs aldı ve altı ay sonra başka bir yerde benzer bir pozisyon teklif edildi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "her fifth interview",
+    "meaning": "beşinci mülakatı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "fifth",
+   "pos": "number",
+   "wordId": "fifth",
+   "sense": 0,
+   "context": "beşinci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "her fifth interview",
+    "meaning": "beşinci mülakatı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "interview",
+   "pos": "noun",
+   "wordId": "interview",
+   "sense": 0,
+   "context": "mülakat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "her fifth interview",
+    "meaning": "beşinci mülakatı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-deki (şirketteki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "large media company",
+    "meaning": "büyük medya şirketi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "media",
+   "pos": "noun",
+   "wordId": "media",
+   "sense": 0,
+   "context": "medya",
+   "note": "Burada *media* isim olmasına rağmen *company*'yi niteler: *media company* → medya şirketi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "large media company",
+    "meaning": "büyük medya şirketi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "large media company",
+    "meaning": "büyük medya şirketi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "Leila",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Leila",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "confident",
+   "pos": "adjective",
+   "wordId": "confident",
+   "sense": 0,
+   "context": "emin",
+   "note": "*be confident that…* \"… -eceğinden emin olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olması beklenen bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "almak",
+   "note": "*get the job* \"işi almak, işe kabul edilmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "was confident that she would get the job",
+    "meaning": "işi alacağından emindi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "A week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "A week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "A week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "receive",
+   "pos": "verb",
+   "wordId": "receive",
+   "sense": 0,
+   "context": "aldı",
+   "note": null,
+   "form": "receive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "email",
+   "pos": "noun",
+   "wordId": "email",
+   "sense": 0,
+   "context": "e-posta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "inform",
+   "pos": "verb",
+   "wordId": "inform",
+   "sense": 0,
+   "context": "bildiren",
+   "note": "İsimden sonra gelen *-ing*'li fiil o ismi tanımlar: *an email informing her…* → ona … bildiren bir e-posta.",
+   "form": "inform + -ing",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "another",
+   "pos": "determiner",
+   "wordId": "another",
+   "sense": 0,
+   "context": "başka bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "candidate",
+   "pos": "noun",
+   "wordId": "candidate",
+   "sense": 0,
+   "context": "aday",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been* + fiilin 3. hali (past perfect edilgen): *had been chosen* → seçilmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçildiğini",
+   "note": null,
+   "form": "choose fiilinin 3. hali (chosen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 34,
+    "text": "informing her that another candidate had been chosen",
+    "meaning": "başka bir adayın seçildiğini bildiren"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Instead of giving up",
+    "meaning": "pes etmek yerine"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Instead of giving up",
+    "meaning": "pes etmek yerine"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "(give up: pes etmek)",
+   "note": "*give up* \"pes etmek, vazgeçmek\" demektir.",
+   "form": "give + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "giving up",
+    "meaning": "pes etmek (give up)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(give up)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "giving up",
+    "meaning": "pes etmek (give up)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "politely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kibarca",
+   "note": "*-ly* eki sıfattan zarf yapar: *polite* (kibar) → *politely* (kibarca).",
+   "form": "polite + -ly (sıfattan zarf)",
+   "base": "kibarca",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone for something* \"birinden bir şey istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "asked the manager for feedback",
+    "meaning": "müdürden geri bildirim istedi"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "asked the manager for feedback",
+    "meaning": "müdürden geri bildirim istedi"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "müdür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "asked the manager for feedback",
+    "meaning": "müdürden geri bildirim istedi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "asked the manager for feedback",
+    "meaning": "müdürden geri bildirim istedi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "feedback",
+   "pos": "noun",
+   "wordId": "feedback",
+   "sense": 0,
+   "context": "geri bildirim",
+   "note": "*feedback* sayılamayan bir isimdir: *some feedback* (✗ a feedback).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "asked the manager for feedback",
+    "meaning": "müdürden geri bildirim istedi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladı",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "impressive",
+   "pos": "adjective",
+   "wordId": "impressive",
+   "sense": 0,
+   "context": "etkileyici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": "İki ayrı aktarılan bilgi olduğu için *that* tekrar kullanılmıştır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "lack",
+   "pos": "verb",
+   "wordId": "lack",
+   "sense": 1,
+   "context": "eksiği vardı (yoksundu)",
+   "note": "*lack something* \"bir şeyden yoksun olmak, eksiği olmak\" demektir; *of* almaz.",
+   "form": "lack + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "lacked certain technical skills",
+    "meaning": "bazı teknik becerileri eksikti"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "certain",
+   "pos": "adjective",
+   "wordId": "certain",
+   "sense": 0,
+   "context": "bazı (belirli)",
+   "note": "*certain* \"emin\" demektir; isimden önce \"belirli, bazı\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "lacked certain technical skills",
+    "meaning": "bazı teknik becerileri eksikti"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "technical",
+   "pos": "adjective",
+   "wordId": "technical",
+   "sense": 0,
+   "context": "teknik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "lacked certain technical skills",
+    "meaning": "bazı teknik becerileri eksikti"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "skill",
+   "pos": "noun",
+   "wordId": "skill",
+   "sense": 0,
+   "context": "beceriler",
+   "note": null,
+   "form": "skill'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "lacked certain technical skills",
+    "meaning": "bazı teknik becerileri eksikti"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "Leila",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Leila",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "aldı",
+   "note": "*take a course* \"bir kursa katılmak, kurs almak\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "took an online course",
+    "meaning": "çevrimiçi bir kurs aldı"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an online course*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "took an online course",
+    "meaning": "çevrimiçi bir kurs aldı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "online",
+   "pos": "adjective",
+   "wordId": "online",
+   "sense": 0,
+   "context": "çevrimiçi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "took an online course",
+    "meaning": "çevrimiçi bir kurs aldı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "took an online course",
+    "meaning": "çevrimiçi bir kurs aldı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "geliştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (becerileri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o(na)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "*she was offered a position* \"ona bir pozisyon teklif edildi\" demektir; İngilizcede teklifi alan kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "was offered a similar position",
+    "meaning": "benzer bir pozisyon teklif edildi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif edildi",
+   "note": null,
+   "form": "offer fiilinin 3. hali (offered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "was offered a similar position",
+    "meaning": "benzer bir pozisyon teklif edildi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "was offered a similar position",
+    "meaning": "benzer bir pozisyon teklif edildi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "similar",
+   "pos": "adjective",
+   "wordId": "similar",
+   "sense": 0,
+   "context": "benzer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "was offered a similar position",
+    "meaning": "benzer bir pozisyon teklif edildi"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "position",
+   "pos": "noun",
+   "wordId": "position",
+   "sense": 0,
+   "context": "pozisyon",
+   "note": "*position*'ın temel anlamı \"konum\"dur; iş bağlamında \"pozisyon, kadro\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "was offered a similar position",
+    "meaning": "benzer bir pozisyon teklif edildi"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "elsewhere",
+   "pos": "adverb",
+   "wordId": "elsewhere",
+   "sense": 0,
+   "context": "başka bir yerde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

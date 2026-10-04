@@ -1,0 +1,1163 @@
+{
+ "storyId": "story-b2-021",
+ "textHash": "5c70ae0f20e9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İki üniversite arkadaşı, restoranların her akşam ne kadar çok yemek attığını öğrenince şok oldu."
+  },
+  {
+   "tr": "Müşterilerin kapanış saatinden kısa süre önce artan yemekleri indirimli fiyata almasını sağlayan bir uygulama geliştirmeye karar verdiler."
+  },
+  {
+   "tr": "İlk başta, itibarlarının zarar göreceğinden korkan restoranların pek azı katılmaya istekliydi."
+  },
+  {
+   "tr": "Ancak ilk kafeler ek gelir elde ettiklerini bildirince birçok başkası da katıldı."
+  },
+  {
+   "tr": "İki yıl içinde uygulama binlerce yemeğin çöpe atılmasını önlemişti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": "Burada *university* isim olmasına rağmen *friends*'i niteler: *university friends* → üniversite arkadaşları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "university friends",
+    "meaning": "üniversite arkadaşları"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "university friends",
+    "meaning": "üniversite arkadaşları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "were shocked to learn",
+    "meaning": "öğrenince şok oldular"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "shocked",
+   "pos": "adjective",
+   "wordId": "shocked",
+   "sense": 0,
+   "context": "şok olmuş",
+   "note": "*be shocked to* + fiil \"… -ince şok olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "were shocked to learn",
+    "meaning": "öğrenince şok oldular"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (öğrenmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "were shocked to learn",
+    "meaning": "öğrenince şok oldular"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": "*learn*'ün temel anlamı \"öğrenmek\"tir; bir bilgi için \"duymak, haberdar olmak\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 6,
+    "text": "were shocked to learn",
+    "meaning": "öğrenince şok oldular"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how much* + sayılamayan isim \"ne kadar çok …\" demektir; cümle içinde kelime sırası düzdür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "how much food restaurants throw away",
+    "meaning": "restoranların ne kadar çok yemek attığı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "much",
+   "pos": "determiner",
+   "wordId": "much",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "how much food restaurants throw away",
+    "meaning": "restoranların ne kadar çok yemek attığı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek (yiyecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "how much food restaurants throw away",
+    "meaning": "restoranların ne kadar çok yemek attığı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoranlar",
+   "note": null,
+   "form": "restaurant'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "how much food restaurants throw away",
+    "meaning": "restoranların ne kadar çok yemek attığı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "throw",
+   "pos": "verb",
+   "wordId": "throw",
+   "sense": 0,
+   "context": "atmak",
+   "note": "*throw something away* \"bir şeyi çöpe atmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "throw away",
+    "meaning": "atmak (çöpe)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "(throw away: çöpe atmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "throw away",
+    "meaning": "atmak (çöpe)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdiler",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (geliştirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "develop",
+   "pos": "verb",
+   "wordId": "develop",
+   "sense": 0,
+   "context": "geliştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an app*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "app",
+   "pos": "noun",
+   "wordId": "app",
+   "sense": 0,
+   "context": "uygulama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *an app that allows…* → … sağlayan bir uygulama.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "sağlayan (izin veren)",
+   "note": "*allow someone to do something* \"birinin bir şey yapmasına izin vermek, olanak sağlamak\" demektir.",
+   "form": "allow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "allows customers to buy",
+    "meaning": "müşterilerin almasını sağlıyor"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "allows customers to buy",
+    "meaning": "müşterilerin almasını sağlıyor"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "allows customers to buy",
+    "meaning": "müşterilerin almasını sağlıyor"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almak (satın almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "allows customers to buy",
+    "meaning": "müşterilerin almasını sağlıyor"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "leftover",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "artan (artık)",
+   "note": "*leftover* \"artan, artık\" demektir; isim olarak *leftovers* \"yemek artıkları\"dır.",
+   "form": null,
+   "base": "artan, artık",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "leftover meals",
+    "meaning": "artan yemekler"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "meal",
+   "pos": "noun",
+   "wordId": "meal",
+   "sense": 0,
+   "context": "yemekler",
+   "note": null,
+   "form": "meal'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "leftover meals",
+    "meaning": "artan yemekler"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-den (fiyata)",
+   "note": "Fiyatlarla *at* kullanılır: *at a reduced price* → indirimli fiyattan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "at a reduced price",
+    "meaning": "indirimli fiyata"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "at a reduced price",
+    "meaning": "indirimli fiyata"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "reduce",
+   "pos": "verb",
+   "wordId": "reduce",
+   "sense": 0,
+   "context": "indirimli (düşürülmüş)",
+   "note": "Fiilin 3. hali isimden önce sıfat gibi kullanılabilir: *a reduced price* → düşürülmüş, indirimli fiyat.",
+   "form": "reduce fiilinin 3. hali (reduced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "at a reduced price",
+    "meaning": "indirimli fiyata"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "fiyat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "at a reduced price",
+    "meaning": "indirimli fiyata"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "shortly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kısa süre",
+   "note": "*shortly before/after* \"… -den kısa süre önce/sonra\" demektir.",
+   "form": "short + -ly (sıfattan zarf)",
+   "base": "kısa süre içinde, birazdan",
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "shortly before closing time",
+    "meaning": "kapanış saatinden kısa süre önce"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "önce (-den önce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "shortly before closing time",
+    "meaning": "kapanış saatinden kısa süre önce"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapanış",
+   "note": "*closing time* bir dükkânın ya da restoranın \"kapanış saati\"dir.",
+   "form": "close + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "shortly before closing time",
+    "meaning": "kapanış saatinden kısa süre önce"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "saat (zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "shortly before closing time",
+    "meaning": "kapanış saatinden kısa süre önce"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir (burada *However* ile).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "pek az",
+   "note": "*few* (a olmadan) \"pek az\" demektir ve olumsuz bir anlam taşır: *few restaurants were willing* → pek az restoran istekliydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoranlar",
+   "note": null,
+   "form": "restaurant'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "willing",
+   "pos": "adjective",
+   "wordId": "willing",
+   "sense": 0,
+   "context": "istekli",
+   "note": "*be willing to* + fiil \"… -meye istekli, gönüllü olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "willing to take part",
+    "meaning": "katılmaya istekli"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (katılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "willing to take part",
+    "meaning": "katılmaya istekli"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(take part: katılmak)",
+   "note": "*take part (in)* \"(bir şeye) katılmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "willing to take part",
+    "meaning": "katılmaya istekli"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "(take part: katılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "willing to take part",
+    "meaning": "katılmaya istekli"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korkarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil önceki eylemin nedenini anlatabilir: *fearing that…* → … korktukları için.",
+   "form": "fear + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (uygulama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceği)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olabilecek bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "damage",
+   "pos": "verb",
+   "wordId": "damage",
+   "sense": 1,
+   "context": "zarar vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "reputation",
+   "pos": "noun",
+   "wordId": "reputation",
+   "sense": 0,
+   "context": "itibar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "once",
+   "pos": "conjunction",
+   "wordId": "once",
+   "sense": 1,
+   "context": "-ince (-dikten sonra)",
+   "note": "*once* bağlaç olarak \"-ir -mez, -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafeler",
+   "note": "*café* Fransızcadan gelir; *cafe* diye işaretsiz de yazılır.",
+   "form": "café'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildirdi",
+   "note": null,
+   "form": "report + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "extra",
+   "pos": "adjective",
+   "wordId": "extra",
+   "sense": 0,
+   "context": "ek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "income",
+   "pos": "noun",
+   "wordId": "income",
+   "sense": 0,
+   "context": "gelir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkaları",
+   "note": "*others* \"diğerleri, başkaları\" demektir; isim olmadan tek başına kullanılır.",
+   "form": "other'ın çoğulu (zamir olarak)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": null,
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "Within two years",
+    "meaning": "iki yıl içinde"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "Within two years",
+    "meaning": "iki yıl içinde"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "Within two years",
+    "meaning": "iki yıl içinde"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "app",
+   "pos": "noun",
+   "wordId": "app",
+   "sense": 0,
+   "context": "uygulama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had* + fiilin 3. hali (past perfect) geçmişteki bir ana kadar tamamlanmış sonucu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "prevent",
+   "pos": "verb",
+   "wordId": "prevent",
+   "sense": 0,
+   "context": "önlemişti",
+   "note": "*prevent something from* + *-ing* \"bir şeyin … -mesini önlemek\" demektir.",
+   "form": "prevent fiilinin 3. hali (prevented, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "binlerce",
+   "note": "*thousands of* \"binlerce\" demektir.",
+   "form": "thousand'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(thousands of: binlerce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "meal",
+   "pos": "noun",
+   "wordId": "meal",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": "meal'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "(prevent from: -mesini önlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılma)",
+   "note": "*being* + fiilin 3. hali *-ing*'li edilgen yapıdır: *from being thrown away* → atılmaktan.",
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "throw",
+   "pos": "verb",
+   "wordId": "throw",
+   "sense": 0,
+   "context": "atılmak",
+   "note": null,
+   "form": "throw fiilinin 3. hali (thrown, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "(throw away: çöpe atmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 76,
+    "text": "prevented thousands of meals from being thrown away",
+    "meaning": "binlerce yemeğin atılmasını önledi"
+   }
+  }
+ ]
+}

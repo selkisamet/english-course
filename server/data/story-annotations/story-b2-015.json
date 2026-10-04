@@ -1,0 +1,1266 @@
+{
+ "storyId": "story-b2-015",
+ "textHash": "0950f34e1490",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Emma'nın sınıfına işitme engelli bir öğrenci katıldığında, Emma onunla hiç iletişim kuramadığını fark etti."
+  },
+  {
+   "tr": "Yazılı notlara güvenmek yerine işaret dili öğrenmeye karar verdi."
+  },
+  {
+   "tr": "Bir akşam kursuna kaydoldu ve her gün videolarla pratik yaptı."
+  },
+  {
+   "tr": "Beklediğinden çok daha zorluydu, çünkü yüz ifadesi el hareketleri kadar önemlidir."
+  },
+  {
+   "tr": "Bir yıl sonra basit bir sohbet sürdürebiliyordu ve sınıf arkadaşı onun çabasından açıkça duygulanmıştı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "deaf",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "işitme engelli",
+   "note": "*deaf* \"işitme engelli, sağır\" demektir; sondaki *ea* \"e\" diye okunur (\"def\").",
+   "form": null,
+   "base": "işitme engelli, sağır",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": "*join*'den sonra *to* gelmez: *join a class* → bir sınıfa katılmak.",
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Emma",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emma'nın",
+   "note": "*'s* eki sahiplik bildirir: *Emma's class* → Emma'nın sınıfı.",
+   "form": "Emma + 's (iyelik)",
+   "base": "(kadın adı)",
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "Emma's class",
+    "meaning": "Emma'nın sınıfı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "sınıf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "Emma's class",
+    "meaning": "Emma'nın sınıfı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "realise",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "*realise* İngiliz yazımıdır; Amerikan İngilizcesinde *realize* yazılır.",
+   "form": "realise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-amadığını)",
+   "note": "*could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "communicate",
+   "pos": "verb",
+   "wordId": "communicate",
+   "sense": 0,
+   "context": "iletişim kurmak",
+   "note": "*communicate with someone* \"biriyle iletişim kurmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "communicate with him at all",
+    "meaning": "onunla hiç iletişim kurmak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "communicate with him at all",
+    "meaning": "onunla hiç iletişim kurmak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onunla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "communicate with him at all",
+    "meaning": "onunla hiç iletişim kurmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at all: hiç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "at all",
+    "meaning": "hiç (olumsuz)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "(at all: hiç)",
+   "note": "*not … at all* \"hiç … değil\" demektir ve olumsuzluğu güçlendirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "at all",
+    "meaning": "hiç (olumsuz)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir; *instead of* ile benzer anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "Rather than relying on",
+    "meaning": "… -e güvenmek yerine"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "Rather than relying on",
+    "meaning": "… -e güvenmek yerine"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "güvenmek (bel bağlamak)",
+   "note": "*rely on something* \"bir şeye güvenmek, dayanmak\" demektir.",
+   "form": "rely + -ing",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "Rather than relying on",
+    "meaning": "… -e güvenmek yerine"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (notlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "Rather than relying on",
+    "meaning": "… -e güvenmek yerine"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "written",
+   "pos": "adjective",
+   "wordId": "written",
+   "sense": 0,
+   "context": "yazılı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "note",
+   "pos": "noun",
+   "wordId": "note",
+   "sense": 0,
+   "context": "notlar",
+   "note": null,
+   "form": "note'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (öğrenmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "sign",
+   "pos": "noun",
+   "wordId": "sign",
+   "sense": 0,
+   "context": "işaret",
+   "note": "*sign language* el ve yüz hareketleriyle konuşulan \"işaret dili\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "sign language",
+    "meaning": "işaret dili"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "sign language",
+    "meaning": "işaret dili"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "sign",
+   "pos": "verb",
+   "wordId": "sign",
+   "sense": 1,
+   "context": "kaydoldu",
+   "note": "*sign*'ın temel anlamı \"imzalamak\"tır; *sign up for* \"bir şeye kaydolmak\" demektir.",
+   "form": "sign + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(sign up: kaydolmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (kursa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an evening course*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "evening course",
+    "meaning": "akşam kursu"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "evening course",
+    "meaning": "akşam kursu"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "pratik yaptı",
+   "note": "*practise* İngiliz yazımıdır (fiil); Amerikan İngilizcesinde *practice* yazılır.",
+   "form": "practise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (videolarla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "videolar",
+   "note": null,
+   "form": "video'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (işaret dili öğrenmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir: *far more challenging* → çok daha zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "challenging",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "zorlu",
+   "note": "*challenging* \"zor ama çaba gerektiren, zorlayıcı\" demektir; *challenge* (zorluk) kelimesinden türemiştir.",
+   "form": null,
+   "base": "zorlu, zorlayıcı",
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*than she had expected* \"beklediğinden\" demektir; beklenti daha önce olduğu için past perfect kullanılır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "beklediği(nden)",
+   "note": null,
+   "form": "expect fiilinin 3. hali (expected, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 51,
+    "text": "far more challenging than she had expected",
+    "meaning": "beklediğinden çok daha zor"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "the expression on your face",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "expression",
+   "pos": "noun",
+   "wordId": "expression",
+   "sense": 0,
+   "context": "ifade",
+   "note": "*expression* \"ifade, deyim\" ve \"yüz ifadesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "the expression on your face",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-deki (yüzdeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "the expression on your face",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "your",
+   "pos": "determiner",
+   "wordId": "your",
+   "sense": 0,
+   "context": "(insanın)",
+   "note": "*you / your* burada belirli bir kişiyi değil, genel olarak \"insanı\" anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "the expression on your face",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "face",
+   "pos": "noun",
+   "wordId": "face",
+   "sense": 0,
+   "context": "yüz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "the expression on your face",
+    "meaning": "yüz ifadesi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "Genel doğrular geniş zamanla anlatılır; bu yüzden geçmiş anlatımın içinde *is* kullanılmıştır.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "tam (tıpkı)",
+   "note": "*just as … as* \"tıpkı … kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "just as important as",
+    "meaning": "… kadar önemli"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "(as … as: kadar)",
+   "note": "*as* + sıfat + *as* iki şeyi eşitlik bakımından karşılaştırır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "just as important as",
+    "meaning": "… kadar önemli"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "important",
+   "pos": "adjective",
+   "wordId": "important",
+   "sense": 0,
+   "context": "önemli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "just as important as",
+    "meaning": "… kadar önemli"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(as … as: kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "just as important as",
+    "meaning": "… kadar önemli"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "movement",
+   "pos": "noun",
+   "wordId": "movement",
+   "sense": 0,
+   "context": "hareket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ellerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "your",
+   "pos": "determiner",
+   "wordId": "your",
+   "sense": 0,
+   "context": "(insanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": null,
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebiliyordu",
+   "note": "*could*, *can*'in geçmiş halidir; geçmişteki bir yeteneği anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "sürdürmek (yapmak)",
+   "note": "*hold*'un temel anlamı \"tutmak\"tır; *hold a conversation* \"sohbet sürdürmek, konuşabilmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "hold a simple conversation",
+    "meaning": "basit bir sohbet sürdürmek"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "hold a simple conversation",
+    "meaning": "basit bir sohbet sürdürmek"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "hold a simple conversation",
+    "meaning": "basit bir sohbet sürdürmek"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "hold a simple conversation",
+    "meaning": "basit bir sohbet sürdürmek"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "classmate",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sınıf arkadaşı",
+   "note": "*classmate* iki kelimenin birleşimidir: *class* (sınıf) + *mate* (arkadaş).",
+   "form": null,
+   "base": "sınıf arkadaşı",
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "clearly",
+   "pos": "adverb",
+   "wordId": "clearly",
+   "sense": 0,
+   "context": "açıkça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "touch",
+   "pos": "verb",
+   "wordId": "touch",
+   "sense": 0,
+   "context": "duygulanmış",
+   "note": "*touch*'ın temel anlamı \"dokunmak\"tır; *be touched by something* mecazen \"bir şeyden duygulanmak, içi ısınmak\" demektir.",
+   "form": "touch fiilinin 3. hali (touched, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 85,
+    "text": "touched by her effort",
+    "meaning": "onun çabasından duygulanmış"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-den (çabasından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 85,
+    "text": "touched by her effort",
+    "meaning": "onun çabasından duygulanmış"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 85,
+    "text": "touched by her effort",
+    "meaning": "onun çabasından duygulanmış"
+   }
+  },
+  {
+   "i": 85,
+   "lemma": "effort",
+   "pos": "noun",
+   "wordId": "effort",
+   "sense": 0,
+   "context": "çaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 82,
+    "to": 85,
+    "text": "touched by her effort",
+    "meaning": "onun çabasından duygulanmış"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1144 @@
+{
+ "storyId": "story-b2-020",
+ "textHash": "6f7d20d47c5f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Hassan küçük bir tasarım ekibinin lideri olduğunda, iki iş arkadaşı arasındaki gerginliği hemen fark etti."
+  },
+  {
+   "tr": "Toplantılarda sık sık yüksek sesle tartışıyorlardı, bu da diğer herkesi rahatsız ediyordu."
+  },
+  {
+   "tr": "Hassan sorunu görmezden gelmek yerine ikisini de baş başa bir konuşmaya davet etti."
+  },
+  {
+   "tr": "Anlaşmazlığın aylar önce, bir projenin teslim tarihiyle ilgili bir yanlış anlaşılma yüzünden başladığı ortaya çıktı."
+  },
+  {
+   "tr": "Konuyu açıkça konuştuktan sonra ekipteki hava önemli ölçüde iyileşti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Hassan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hassan",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oldu",
+   "note": null,
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "became the leader of",
+    "meaning": "-in lideri oldu"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "became the leader of",
+    "meaning": "-in lideri oldu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "leader",
+   "pos": "noun",
+   "wordId": "leader",
+   "sense": 0,
+   "context": "lider",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "became the leader of",
+    "meaning": "-in lideri oldu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ekibin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "became the leader of",
+    "meaning": "-in lideri oldu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "design",
+   "pos": "noun",
+   "wordId": "design",
+   "sense": 0,
+   "context": "tasarım",
+   "note": "Burada *design* isim olmasına rağmen *team*'i niteler: *design team* → tasarım ekibi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "design team",
+    "meaning": "tasarım ekibi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "design team",
+    "meaning": "tasarım ekibi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hemen (hızla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "notice + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "tension",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gerginlik",
+   "note": "*tension* kişiler arasındaki \"gerginlik\"tir; *tense* (gergin) sıfatından türemiştir.",
+   "form": null,
+   "base": "gerginlik",
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında(ki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": "*two of his colleagues* \"iş arkadaşlarından ikisi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "iş arkadaşları",
+   "note": null,
+   "form": "colleague'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "tension between two of his colleagues",
+    "meaning": "iki iş arkadaşı arasındaki gerginlik"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "disagree",
+   "pos": "verb",
+   "wordId": "disagree",
+   "sense": 0,
+   "context": "tartıştılar (anlaşamadılar)",
+   "note": "*dis-* ön eki zıt anlam katar: *agree* (aynı fikirde olmak) → *disagree* (aynı fikirde olmamak).",
+   "form": "disagree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "disagreed loudly",
+    "meaning": "yüksek sesle tartıştılar"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "loudly",
+   "pos": "adverb",
+   "wordId": "loudly",
+   "sense": 0,
+   "context": "yüksek sesle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "disagreed loudly",
+    "meaning": "yüksek sesle tartıştılar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (toplantılarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "meeting",
+   "pos": "noun",
+   "wordId": "meeting",
+   "sense": 0,
+   "context": "toplantılar",
+   "note": null,
+   "form": "meeting'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına ek bilgi verir: *…, which made everyone uncomfortable* → bu da herkesi rahatsız etti.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "which made everyone else uncomfortable",
+    "meaning": "bu da diğer herkesi rahatsız etti"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(rahatsız) etti",
+   "note": "*make someone* + sıfat \"birini … yapmak\" demektir: *made everyone uncomfortable* → herkesi rahatsız etti.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "which made everyone else uncomfortable",
+    "meaning": "bu da diğer herkesi rahatsız etti"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "everyone else",
+    "meaning": "diğer herkes"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "else",
+   "pos": "adverb",
+   "wordId": "else",
+   "sense": 0,
+   "context": "başka (diğer)",
+   "note": "*else* \"everyone, someone, nothing\" gibi sözcüklerden sonra gelir: *everyone else* → diğer herkes.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "everyone else",
+    "meaning": "diğer herkes"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "uncomfortable",
+   "pos": "adjective",
+   "wordId": "uncomfortable",
+   "sense": 0,
+   "context": "rahatsız",
+   "note": "*un-* ön eki olumsuzluk katar: *comfortable* (rahat) → *uncomfortable* (rahatsız).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "which made everyone else uncomfortable",
+    "meaning": "bu da diğer herkesi rahatsız etti"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Instead of ignoring",
+    "meaning": "görmezden gelmek yerine"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Instead of ignoring",
+    "meaning": "görmezden gelmek yerine"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "ignore",
+   "pos": "verb",
+   "wordId": "ignore",
+   "sense": 0,
+   "context": "görmezden gelmek",
+   "note": "*ignore* \"görmezden gelmek\" demektir; \"bilmemek\" anlamına gelmez (o *not know*'dur).",
+   "form": "ignore + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "Instead of ignoring",
+    "meaning": "görmezden gelmek yerine"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "Hassan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hassan",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet etti",
+   "note": null,
+   "form": "invite + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "both",
+   "pos": "pronoun",
+   "wordId": "both",
+   "sense": 1,
+   "context": "ikisi de",
+   "note": "*both of them* \"ikisi de, her ikisi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "both of them",
+    "meaning": "ikisi de"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(both of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "both of them",
+    "meaning": "ikisi de"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "both of them",
+    "meaning": "ikisi de"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (konuşmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "a private conversation",
+    "meaning": "baş başa bir konuşma"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "private",
+   "pos": "adjective",
+   "wordId": "private",
+   "sense": 0,
+   "context": "baş başa (özel)",
+   "note": "*private conversation* başkalarının olmadığı \"baş başa, özel konuşma\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "a private conversation",
+    "meaning": "baş başa bir konuşma"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "a private conversation",
+    "meaning": "baş başa bir konuşma"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It turned out that…* \"… olduğu ortaya çıktı, anlaşıldı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "It turned out that",
+    "meaning": "… olduğu ortaya çıktı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "ortaya çıktı (turn out)",
+   "note": "*turn*'ün temel anlamı \"dönmek\"tir; *turn out* \"(sonunda) … olduğu anlaşılmak\" demektir.",
+   "form": "turn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "It turned out that",
+    "meaning": "… olduğu ortaya çıktı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(turn out)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "It turned out that",
+    "meaning": "… olduğu ortaya çıktı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 47,
+    "text": "It turned out that",
+    "meaning": "… olduğu ortaya çıktı"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "conflict",
+   "pos": "noun",
+   "wordId": "conflict",
+   "sense": 0,
+   "context": "anlaşmazlık (çatışma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": "*had started* (past perfect) konuşmadan çok önce başlamış olayı anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladığı",
+   "note": null,
+   "form": "start fiilinin 3. hali (started, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "aylar",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "months earlier",
+    "meaning": "aylar önce"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "early",
+   "pos": "adverb",
+   "wordId": "early",
+   "sense": 1,
+   "context": "önce (daha erken)",
+   "note": "Süre + *earlier* \"… önce\" demektir: *months earlier* → aylar önce.",
+   "form": "early'nin karşılaştırma hali (y → ier)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "months earlier",
+    "meaning": "aylar önce"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "(because of: yüzünden)",
+   "note": "*because of* + isim \"… yüzünden, … nedeniyle\" demektir; *because* + cümle ise \"çünkü\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "because of",
+    "meaning": "yüzünden"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(because of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "because of",
+    "meaning": "yüzünden"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "misunderstanding",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yanlış anlaşılma",
+   "note": "*mis-* ön eki \"yanlış\" anlamı katar: *understand* (anlamak) → *misunderstand* (yanlış anlamak) → *misunderstanding*.",
+   "form": null,
+   "base": "yanlış anlaşılma",
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "ile ilgili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "project deadline",
+    "meaning": "projenin teslim tarihi"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "deadline",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "teslim tarihi",
+   "note": "*deadline* bir işin bitirilmesi gereken \"son tarih\"tir.",
+   "form": null,
+   "base": "son teslim tarihi",
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "project deadline",
+    "meaning": "projenin teslim tarihi"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "once",
+   "pos": "conjunction",
+   "wordId": "once",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": "*once* bağlaç olarak \"-dikten sonra, -ir -mez\" demektir: *Once they had discussed it* → konuştuktan sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dıktan)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "discuss",
+   "pos": "verb",
+   "wordId": "discuss",
+   "sense": 0,
+   "context": "konuştuktan (tartıştıktan)",
+   "note": "*discuss*'tan sonra *about* gelmez: *discuss it* (✗ discuss about it).",
+   "form": "discuss fiilinin 3. hali (discussed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (konuyu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "openly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "açıkça",
+   "note": "*-ly* eki sıfattan zarf yapar: *open* (açık) → *openly* (açıkça, saklamadan).",
+   "form": "open + -ly (sıfattan zarf)",
+   "base": "açıkça",
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "Once they had discussed it openly",
+    "meaning": "konuyu açıkça konuştuktan sonra"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "atmosphere",
+   "pos": "noun",
+   "wordId": "atmosphere",
+   "sense": 0,
+   "context": "hava (ortam)",
+   "note": "*atmosphere* \"atmosfer\" ve bir yerin \"havası, ortamı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (ekipteki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "iyileşti",
+   "note": null,
+   "form": "improve + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "considerably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "önemli ölçüde",
+   "note": "*considerably* \"önemli ölçüde, epey\" demektir; *considerable* (kayda değer) sıfatından türemiştir.",
+   "form": "considerable + -ly (le → ly)",
+   "base": "önemli ölçüde, epey",
+   "phrase": null
+  }
+ ]
+}

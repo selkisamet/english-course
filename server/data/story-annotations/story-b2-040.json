@@ -1,0 +1,1269 @@
+{
+ "storyId": "story-b2-040",
+ "textHash": "6b1035736e70",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Lewis gençken sık sık polisle başı derde girerdi ve okulu hiçbir diploma almadan bıraktı."
+  },
+  {
+   "tr": "Yıllar sonra birçok fırsatı boşa harcadığını fark etti."
+  },
+  {
+   "tr": "Otuz yaşında, eğitimini tamamlamak için bir akşam kursuna katıldı."
+  },
+  {
+   "tr": "Bir fabrikada çalışırken ders çalışmak kolay değildi ama pes etmek istediği her an öğretmenleri onu cesaretlendirdi."
+  },
+  {
+   "tr": "Sonunda bütün sınavlarını geçti ve şimdi bir zamanlar kendisinin yaşadığı sorunlarla karşılaşan gençlerle çalışmak için eğitim alıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(gençken)",
+   "note": "*as a* + isim geçmişteki bir dönemi anlatabilir: *as a teenager* → gençken.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "As a teenager",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "As a teenager",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "teenager",
+   "pos": "noun",
+   "wordId": "teenager",
+   "sense": 0,
+   "context": "genç (ergen)",
+   "note": "*teenager* 13–19 yaş arasındaki (sayıları *-teen* ile biten yaşlar) gençtir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "As a teenager",
+    "meaning": "gençken"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Lewis",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lewis",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in trouble: başı dertte)",
+   "note": "*be in trouble with the police* \"polisle başı dertte olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "in trouble with the police",
+    "meaning": "polisle başı dertte"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "trouble",
+   "pos": "noun",
+   "wordId": "trouble",
+   "sense": 0,
+   "context": "dert (sorun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "in trouble with the police",
+    "meaning": "polisle başı dertte"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le (polisle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "in trouble with the police",
+    "meaning": "polisle başı dertte"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "in trouble with the police",
+    "meaning": "polisle başı dertte"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "police",
+   "pos": "noun",
+   "wordId": "police",
+   "sense": 0,
+   "context": "polis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "in trouble with the police",
+    "meaning": "polisle başı dertte"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bıraktı",
+   "note": "*leave school* \"okulu bırakmak ya da okuldan mezun olup ayrılmak\" demektir.",
+   "form": "leave fiilinin geçmiş zaman hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "left school",
+    "meaning": "okulu bıraktı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "left school",
+    "meaning": "okulu bıraktı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "without any qualifications",
+    "meaning": "hiçbir diploma olmadan"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "hiçbir",
+   "note": "*without any* + isim \"hiçbir … olmadan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "without any qualifications",
+    "meaning": "hiçbir diploma olmadan"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "qualification",
+   "pos": "noun",
+   "wordId": "qualification",
+   "sense": 0,
+   "context": "diploma (belge)",
+   "note": "*qualifications* bir sınav ya da kursu bitirince alınan \"diploma, belge\" demektir.",
+   "form": "qualification'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "without any qualifications",
+    "meaning": "hiçbir diploma olmadan"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Years later",
+    "meaning": "yıllar sonra"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Years later",
+    "meaning": "yıllar sonra"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "İngiliz yazımında *realise*, Amerikan yazımında *realize* yazılır.",
+   "form": "realise (İngiliz yazımı) + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "had wasted",
+    "meaning": "boşa harcamıştı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "waste",
+   "pos": "verb",
+   "wordId": "waste",
+   "sense": 1,
+   "context": "boşa harcamıştı",
+   "note": null,
+   "form": "waste fiilinin 3. hali (wasted, -d)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "had wasted",
+    "meaning": "boşa harcamıştı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "opportunity",
+   "pos": "noun",
+   "wordId": "opportunity",
+   "sense": 0,
+   "context": "fırsatlar",
+   "note": null,
+   "form": "opportunity'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (yaşında)",
+   "note": "*at the age of* + sayı \"… yaşında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "At the age of thirty",
+    "meaning": "otuz yaşında"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "At the age of thirty",
+    "meaning": "otuz yaşında"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "yaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "At the age of thirty",
+    "meaning": "otuz yaşında"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(the age of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "At the age of thirty",
+    "meaning": "otuz yaşında"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 31,
+    "text": "At the age of thirty",
+    "meaning": "otuz yaşında"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": null,
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an evening course*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "an evening course",
+    "meaning": "bir akşam kursu"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": "Burada *evening* isim olmasına rağmen *course*'u niteler: *evening course* → akşam kursu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "an evening course",
+    "meaning": "bir akşam kursu"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "an evening course",
+    "meaning": "bir akşam kursu"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "complete",
+   "pos": "verb",
+   "wordId": "complete",
+   "sense": 1,
+   "context": "tamamlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "education",
+   "pos": "noun",
+   "wordId": "education",
+   "sense": 0,
+   "context": "eğitim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is* + sıfat + *to* + fiil kalıbında *it* asıl özneyi (*to study*) sona bırakır: *It was not easy to study* → ders çalışmak kolay değildi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "ders çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "It was not easy to study",
+    "meaning": "ders çalışmak kolay değildi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* + *-ing* \"… -ken\" demektir: *while working* → çalışırken.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (fabrikada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "factory",
+   "pos": "noun",
+   "wordId": "factory",
+   "sense": 0,
+   "context": "fabrika",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmenler",
+   "note": null,
+   "form": "teacher'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "cesaretlendirdi",
+   "note": null,
+   "form": "encourage + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "her … -dığında",
+   "note": "*whenever* \"ne zaman … -se, her … -dığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "istedi (hissetti)",
+   "note": "*feel like* + *-ing* \"… -mek istemek, canı … -mek istemek\" demektir.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "felt like giving up",
+    "meaning": "pes etmek istedi"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "(feel like)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "felt like giving up",
+    "meaning": "pes etmek istedi"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "(give up: pes etmek)",
+   "note": "*give up* \"pes etmek, vazgeçmek\" demektir.",
+   "form": "give + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "giving up",
+    "meaning": "pes etmek (give up)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(give up)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "giving up",
+    "meaning": "pes etmek (give up)"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": "*eventually* \"uzun bir süreden sonra, sonunda\" demektir; Türkçedeki \"eventüel\" (olası) anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "pass",
+   "pos": "verb",
+   "wordId": "pass",
+   "sense": 0,
+   "context": "geçti",
+   "note": "*pass an exam* \"sınavı geçmek\" demektir.",
+   "form": "pass + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "exam",
+   "pos": "noun",
+   "wordId": "exam",
+   "sense": 0,
+   "context": "sınavlar",
+   "note": null,
+   "form": "exam'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*is* + *-ing* şu anda süren bir eylemi anlatır: *is training* → eğitim alıyor.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "is now training",
+    "meaning": "şimdi eğitim alıyor"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "is now training",
+    "meaning": "şimdi eğitim alıyor"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "eğitim alıyor",
+   "note": "*train to do something* \"bir iş için eğitim almak\" demektir.",
+   "form": "train + -ing",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "is now training",
+    "meaning": "şimdi eğitim alıyor"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le (gençlerle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "teenager",
+   "pos": "noun",
+   "wordId": "teenager",
+   "sense": 0,
+   "context": "gençler",
+   "note": null,
+   "form": "teenager'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "karşılaşmak (yüzleşmek)",
+   "note": "*face a problem* \"bir sorunla karşılaşmak, yüz yüze gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorunlar",
+   "note": "İsimden sonra *that* düşebilir: *the same problems (that) he once did* → bir zamanlar onun yaşadığı sorunlar.",
+   "form": "problem'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(yaşadığı)",
+   "note": "*did* burada fiili tekrarlamamak için kullanılır: *he once did* = *he once faced*.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 84,
+    "text": "face the same problems he once did",
+    "meaning": "bir zamanlar onun yaşadığı sorunlarla karşılaşan"
+   }
+  }
+ ]
+}

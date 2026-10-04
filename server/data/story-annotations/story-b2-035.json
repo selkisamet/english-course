@@ -1,0 +1,1128 @@
+{
+ "storyId": "story-b2-035",
+ "textHash": "dee467e3e6d2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Genç bir mimar, devasa cam duvarları olan modern bir ofis binası için yaptığı tasarımla gurur duyuyordu."
+  },
+  {
+   "tr": "Ancak bina açıldıktan kısa süre sonra çalışanlar, ofislerinin yazın aşırı sıcak olduğundan şikâyet etmeye başladı."
+  },
+  {
+   "tr": "Mimar, güneşin binanın güney cephesine ne kadar güçlü vuracağını tam olarak hesaba katmamıştı."
+  },
+  {
+   "tr": "Özel perdeler takılması gerekti ve maliyet epey yüksekti."
+  },
+  {
+   "tr": "Daha sonra bu deneyimin kendisini çok daha dikkatli bir tasarımcı yaptığını kabul etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "architect",
+   "pos": "noun",
+   "wordId": "architect",
+   "sense": 0,
+   "context": "mimar",
+   "note": "*architect*'teki *ch* \"k\" diye okunur (\"arkitekt\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": "*be proud of something* \"bir şeyle gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-le (tasarımıyla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "design",
+   "pos": "noun",
+   "wordId": "design",
+   "sense": 0,
+   "context": "tasarım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "was proud of her design",
+    "meaning": "tasarımıyla gurur duyuyordu"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "modern",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": "Burada *office* isim olmasına rağmen *building*'i niteler: *office building* → ofis binası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "office building",
+    "meaning": "ofis binası"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "office building",
+    "meaning": "ofis binası"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (olan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "enormous",
+   "pos": "adjective",
+   "wordId": "enormous",
+   "sense": 0,
+   "context": "devasa (kocaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "enormous glass walls",
+    "meaning": "devasa cam duvarlar"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "glass",
+   "pos": "noun",
+   "wordId": "glass",
+   "sense": 0,
+   "context": "cam",
+   "note": "Burada *glass* malzeme olarak *walls*'ı niteler: *glass walls* → cam duvarlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "enormous glass walls",
+    "meaning": "devasa cam duvarlar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvarlar",
+   "note": null,
+   "form": "wall'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "enormous glass walls",
+    "meaning": "devasa cam duvarlar"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa süre",
+   "note": "*soon after* \"-den kısa süre sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Soon after it opened",
+    "meaning": "açıldıktan kısa süre sonra"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Soon after it opened",
+    "meaning": "açıldıktan kısa süre sonra"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bina)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Soon after it opened",
+    "meaning": "açıldıktan kısa süre sonra"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açıldı",
+   "note": null,
+   "form": "open + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "employee",
+   "pos": "noun",
+   "wordId": "employee",
+   "sense": 0,
+   "context": "çalışanlar",
+   "note": "*employee* \"çalışan\", *employer* \"işveren\" demektir.",
+   "form": "employee'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*begin* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "began complaining",
+    "meaning": "şikâyet etmeye başladı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "complain",
+   "pos": "verb",
+   "wordId": "complain",
+   "sense": 0,
+   "context": "şikâyet etmek",
+   "note": "*complain that…* \"… diye şikâyet etmek\" demektir.",
+   "form": "complain + -ing",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "began complaining",
+    "meaning": "şikâyet etmeye başladı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğundan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofisler",
+   "note": null,
+   "form": "office'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oluyordu",
+   "note": null,
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (fazlasıyla)",
+   "note": "*far too* + sıfat \"fazlasıyla, aşırı …\" demektir: *far too hot* → aşırı sıcak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far too hot",
+    "meaning": "aşırı sıcak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla",
+   "note": "*too* + sıfat \"gereğinden fazla\" demektir ve olumsuz bir anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far too hot",
+    "meaning": "aşırı sıcak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "hot",
+   "pos": "adjective",
+   "wordId": "hot",
+   "sense": 0,
+   "context": "sıcak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "far too hot",
+    "meaning": "aşırı sıcak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(yazın)",
+   "note": "Mevsimlerden önce *in* kullanılır: *in summer* → yazın.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (mimar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had not* + fiilin 3. hali (past perfect) binayı tasarlarken yapılmamış bir şeyi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "had not fully considered",
+    "meaning": "tam olarak hesaba katmamıştı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "had not fully considered",
+    "meaning": "tam olarak hesaba katmamıştı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "fully",
+   "pos": "adverb",
+   "wordId": "fully",
+   "sense": 0,
+   "context": "tam olarak (tamamen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "had not fully considered",
+    "meaning": "tam olarak hesaba katmamıştı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "hesaba katmamıştı",
+   "note": "*consider* \"göz önünde bulundurmak, hesaba katmak\" demektir.",
+   "form": "consider fiilinin 3. hali (considered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "had not fully considered",
+    "meaning": "tam olarak hesaba katmamıştı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "how strongly",
+    "meaning": "ne kadar güçlü"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "strongly",
+   "pos": "adverb",
+   "wordId": "strongly",
+   "sense": 0,
+   "context": "güçlü (şiddetle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "how strongly",
+    "meaning": "ne kadar güçlü"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Tek olan şeylerden önce *the* kullanılır: *the sun*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "sun",
+   "pos": "noun",
+   "wordId": "sun",
+   "sense": 0,
+   "context": "güneş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceğini)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olacak bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "shine",
+   "pos": "verb",
+   "wordId": "shine",
+   "sense": 0,
+   "context": "vurmak (parlamak)",
+   "note": "*the sun shines on something* \"güneş bir yere vurmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (cepheye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "south",
+   "pos": "adjective",
+   "wordId": "south",
+   "sense": 1,
+   "context": "güney",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "side",
+   "pos": "noun",
+   "wordId": "side",
+   "sense": 0,
+   "context": "taraf (cephe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (binanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "special",
+   "pos": "adjective",
+   "wordId": "special",
+   "sense": 0,
+   "context": "özel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "curtain",
+   "pos": "noun",
+   "wordId": "curtain",
+   "sense": 0,
+   "context": "perdeler",
+   "note": null,
+   "form": "curtain'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "gerekti (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada edilgendir: *had to be added* → eklenmesi gerekti.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "had to be added",
+    "meaning": "eklenmesi gerekti (edilgen)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "had to be added",
+    "meaning": "eklenmesi gerekti (edilgen)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "had to be added",
+    "meaning": "eklenmesi gerekti (edilgen)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "add",
+   "pos": "verb",
+   "wordId": "add",
+   "sense": 0,
+   "context": "eklenmek (takılmak)",
+   "note": null,
+   "form": "add fiilinin 3. hali (added, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "had to be added",
+    "meaning": "eklenmesi gerekti (edilgen)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "maliyet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "considerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "epey yüksek (kayda değer)",
+   "note": "*considerable* \"hatırı sayılır, kayda değer, epey büyük\" demektir.",
+   "form": null,
+   "base": "kayda değer, hatırı sayılır",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "daha sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "admit",
+   "pos": "verb",
+   "wordId": "admit",
+   "sense": 0,
+   "context": "kabul etti (itiraf etti)",
+   "note": "*admit that…* \"… olduğunu kabul etmek, itiraf etmek\" demektir.",
+   "form": "admit + -ed (geçmiş zaman, son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptığını",
+   "note": "*make someone* + isim \"birini … yapmak\" demektir: *made her a careful designer*.",
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "careful",
+   "pos": "adjective",
+   "wordId": "careful",
+   "sense": 0,
+   "context": "dikkatli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "designer",
+   "pos": "noun",
+   "wordId": "designer",
+   "sense": 0,
+   "context": "tasarımcı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "made her a far more careful designer",
+    "meaning": "onu çok daha dikkatli bir tasarımcı yaptı"
+   }
+  }
+ ]
+}

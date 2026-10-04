@@ -1,0 +1,1220 @@
+{
+ "storyId": "story-b2-037",
+ "textHash": "4afa40eb1f17",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen bahar şehrimiz, tren istasyonu ile hastane arasındaki kısa bir güzergâhta şoförsüz bir otobüsü denemeye başladı."
+  },
+  {
+   "tr": "İlk başta birçok yolcu insan bir şoför olmadan yolculuk etmek konusunda gergindi ve ne olur ne olmaz diye bir personel her zaman otobüste onlarla birlikte bulunuyordu."
+  },
+  {
+   "tr": "Otobüs yavaş ilerliyordu ve biri yola adım attığında kendiliğinden duruyordu."
+  },
+  {
+   "tr": "Tek bir kaza olmadan geçen altı aydan sonra kamuoyu yavaş yavaş değişti."
+  },
+  {
+   "tr": "Belediye meclisi şimdi bu hizmeti şehrin başka bölgelerine de genişletmeyi düşünüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman ifadesi \"geçen …\" demektir ve önüne *the* ya da edat gelmez: *last spring* → geçen bahar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen bahar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "spring",
+   "pos": "noun",
+   "wordId": "spring",
+   "sense": 0,
+   "context": "bahar (ilkbahar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen bahar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*begin* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "began testing",
+    "meaning": "denemeye başladı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "test",
+   "pos": "verb",
+   "wordId": "test",
+   "sense": 1,
+   "context": "denemek (test etmek)",
+   "note": null,
+   "form": "test + -ing",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "began testing",
+    "meaning": "denemeye başladı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-sız (şoförsüz)",
+   "note": "*without a driver* \"şoförsüz, şoför olmadan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "without a driver",
+    "meaning": "şoförsüz"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "without a driver",
+    "meaning": "şoförsüz"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "driver",
+   "pos": "noun",
+   "wordId": "driver",
+   "sense": 0,
+   "context": "şoför",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "without a driver",
+    "meaning": "şoförsüz"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (güzergâhta)",
+   "note": "Güzergâh ve hatlarla *on* kullanılır: *on a route* → bir güzergâhta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "route",
+   "pos": "noun",
+   "wordId": "route",
+   "sense": 0,
+   "context": "güzergâh",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": "*between A and B* \"A ile B arasında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "between the train station and the hospital",
+    "meaning": "tren istasyonu ile hastane arasında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "between the train station and the hospital",
+    "meaning": "tren istasyonu ile hastane arasında"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "tren",
+   "note": "Burada *train* isim olmasına rağmen *station*'ı niteler: *train station* → tren istasyonu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "train station",
+    "meaning": "tren istasyonu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "station",
+   "pos": "noun",
+   "wordId": "station",
+   "sense": 0,
+   "context": "istasyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "train station",
+    "meaning": "tren istasyonu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile (ve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "between the train station and the hospital",
+    "meaning": "tren istasyonu ile hastane arasında"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "between the train station and the hospital",
+    "meaning": "tren istasyonu ile hastane arasında"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "between the train station and the hospital",
+    "meaning": "tren istasyonu ile hastane arasında"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": "*at first* \"ilk başta, başlangıçta\" demektir; sonradan değişen bir durumu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "ilk başta (önce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "passenger",
+   "pos": "noun",
+   "wordId": "passenger",
+   "sense": 0,
+   "context": "yolcular",
+   "note": null,
+   "form": "passenger'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin (tedirgin)",
+   "note": "*be nervous about something* \"bir şey konusunda gergin, tedirgin olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "nervous about travelling",
+    "meaning": "yolculuk etmek konusunda gergin"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "konusunda (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "nervous about travelling",
+    "meaning": "yolculuk etmek konusunda gergin"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "yolculuk etmek",
+   "note": "Edattan sonra fiil *-ing* alır: *about travelling*.",
+   "form": "travel + -ing (İngiliz yazımında l ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 29,
+    "text": "nervous about travelling",
+    "meaning": "yolculuk etmek konusunda gergin"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": "*human* sıfat olarak \"insan, insana ait\" demektir: *a human driver* → insan bir şoför.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "driver",
+   "pos": "noun",
+   "wordId": "driver",
+   "sense": 0,
+   "context": "şoför",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "a member of staff",
+    "meaning": "bir personel (çalışan)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "member",
+   "pos": "noun",
+   "wordId": "member",
+   "sense": 0,
+   "context": "üye",
+   "note": "*a member of staff* \"bir personel, bir çalışan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "a member of staff",
+    "meaning": "bir personel (çalışan)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (personelin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "a member of staff",
+    "meaning": "bir personel (çalışan)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "staff",
+   "pos": "noun",
+   "wordId": "staff",
+   "sense": 0,
+   "context": "personel",
+   "note": "*staff* bir kurumun bütün çalışanlarını anlatan topluluk ismidir; tek bir kişi için *a member of staff* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "a member of staff",
+    "meaning": "bir personel (çalışan)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "yolculuk etti (bindi)",
+   "note": "*ride along* \"(bir araçta) birlikte gitmek, eşlik etmek\" demektir.",
+   "form": "ride fiilinin geçmiş zaman hali (rode, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "rode along",
+    "meaning": "birlikte yolculuk etti"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "along",
+   "pos": "adverb",
+   "wordId": "along",
+   "sense": 1,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "rode along",
+    "meaning": "birlikte yolculuk etti"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "(just in case)",
+   "note": "*just in case* \"ne olur ne olmaz diye, her ihtimale karşı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in case: olur da diye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "durum (ihtimal)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "ilerliyordu (hareket etti)",
+   "note": null,
+   "form": "move + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaşça",
+   "note": "*-ly* eki sıfattan zarf yapar: *slow* (yavaş) → *slowly* (yavaşça).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "duruyordu",
+   "note": null,
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "automatically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kendiliğinden (otomatik olarak)",
+   "note": "*-ally* eki *-ic* ile biten sıfatlardan zarf yapar: *automatic* → *automatically*.",
+   "form": "automatic + -ally (sıfattan zarf)",
+   "base": "otomatik olarak, kendiliğinden",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "-dığında (her … -dığında)",
+   "note": "*whenever* \"ne zaman … -se, her … -dığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "step",
+   "pos": "verb",
+   "wordId": "step",
+   "sense": 1,
+   "context": "adım attı",
+   "note": "*step onto/into something* \"bir yere adım atmak\" demektir.",
+   "form": "step + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "stepped onto",
+    "meaning": "-e adım attı"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "onto",
+   "pos": "preposition",
+   "wordId": "onto",
+   "sense": 0,
+   "context": "-e (yola)",
+   "note": "*onto* bir yüzeyin üzerine doğru hareketi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "stepped onto",
+    "meaning": "-e adım attı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "road",
+   "pos": "noun",
+   "wordId": "road",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "without a single accident",
+    "meaning": "tek bir kaza olmadan"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "without a single accident",
+    "meaning": "tek bir kaza olmadan"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "single",
+   "pos": "adjective",
+   "wordId": "single",
+   "sense": 0,
+   "context": "tek",
+   "note": "*a single* + isim \"tek bir …\" demektir ve vurgu katar: *without a single accident* → tek bir kaza olmadan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "without a single accident",
+    "meaning": "tek bir kaza olmadan"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "accident",
+   "pos": "noun",
+   "wordId": "accident",
+   "sense": 0,
+   "context": "kaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "without a single accident",
+    "meaning": "tek bir kaza olmadan"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "public",
+   "pos": "adjective",
+   "wordId": "public",
+   "sense": 0,
+   "context": "kamu (genel)",
+   "note": "*public opinion* \"kamuoyu, halkın genel görüşü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "public opinion",
+    "meaning": "kamuoyu"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "opinion",
+   "pos": "noun",
+   "wordId": "opinion",
+   "sense": 0,
+   "context": "görüş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "public opinion",
+    "meaning": "kamuoyu"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş (giderek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değişti",
+   "note": null,
+   "form": "change + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "council",
+   "pos": "noun",
+   "wordId": "council",
+   "sense": 0,
+   "context": "belediye meclisi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*is* + *-ing* şu anda süren bir eylemi anlatır: *is considering* → düşünüyor.",
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "is now considering expanding",
+    "meaning": "şimdi genişletmeyi düşünüyor"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "is now considering expanding",
+    "meaning": "şimdi genişletmeyi düşünüyor"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "düşünüyor",
+   "note": "*consider* + *-ing* \"… -meyi düşünmek\" demektir: *considering expanding* → genişletmeyi düşünüyor.",
+   "form": "consider + -ing",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "is now considering expanding",
+    "meaning": "şimdi genişletmeyi düşünüyor"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "expand",
+   "pos": "verb",
+   "wordId": "expand",
+   "sense": 0,
+   "context": "genişletmek",
+   "note": null,
+   "form": "expand + -ing",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "is now considering expanding",
+    "meaning": "şimdi genişletmeyi düşünüyor"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (bölgelerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka (diğer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "bölgeler (kısımlar)",
+   "note": "*parts of the city* \"şehrin bölgeleri, semtleri\" demektir.",
+   "form": "part'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şehrin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

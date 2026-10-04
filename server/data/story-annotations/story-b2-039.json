@@ -1,0 +1,1245 @@
+{
+ "storyId": "story-b2-039",
+ "textHash": "ff8eff7d8535",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yakın zamana kadar Nadia'nın büyüdüğü küçük dağ köyünde güvenilir bir internet bağlantısı yoktu."
+  },
+  {
+   "tr": "Gençler iş bulmak için şehirlere gidiyordu ve nüfus her yıl azalıyordu."
+  },
+  {
+   "tr": "İki yıl önce yerel yönetim sonunda hızlı internet kurdu."
+  },
+  {
+   "tr": "O zamandan beri birkaç aile evden çalışmak için oraya taşındı ve küçük bir teknoloji şirketi bir ofis açtı."
+  },
+  {
+   "tr": "Kapanma tehlikesiyle karşı karşıya olan köy okulunun şimdi son on yıllardaki en yüksek öğrenci sayısı var."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": "*until recently* \"yakın zamana kadar\" demektir; durumun artık değiştiğini anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Until recently",
+    "meaning": "yakın zamana kadar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "recently",
+   "pos": "adverb",
+   "wordId": "recently",
+   "sense": 0,
+   "context": "yakın zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Until recently",
+    "meaning": "yakın zamana kadar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "mountain",
+   "pos": "noun",
+   "wordId": "mountain",
+   "sense": 0,
+   "context": "dağ",
+   "note": "Burada *mountain* isim olmasına rağmen *village*'ı niteler: *mountain village* → dağ köyü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "mountain village",
+    "meaning": "dağ köyü"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "mountain village",
+    "meaning": "dağ köyü"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "-diği (yer)",
+   "note": "*where* bir yeri tanımlar: *the village where Nadia grew up* → Nadia'nın büyüdüğü köy.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "Nadia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Nadia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "büyüdü",
+   "note": "*grow up* \"(çocukluktan yetişkinliğe) büyümek\" demektir.",
+   "form": "grow fiilinin geçmiş zaman hali (grew, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "grew up",
+    "meaning": "büyüdü"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(grow up: büyümek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "grew up",
+    "meaning": "büyüdü"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(yoktu)",
+   "note": "*have no* + isim \"hiç … -si yok\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "had no reliable internet connection",
+    "meaning": "güvenilir internet bağlantısı yoktu"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "had no reliable internet connection",
+    "meaning": "güvenilir internet bağlantısı yoktu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "reliable",
+   "pos": "adjective",
+   "wordId": "reliable",
+   "sense": 0,
+   "context": "güvenilir",
+   "note": "*-able* eki fiilden sıfat yapar: *rely* (güvenmek) → *reliable* (güvenilir).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "had no reliable internet connection",
+    "meaning": "güvenilir internet bağlantısı yoktu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "had no reliable internet connection",
+    "meaning": "güvenilir internet bağlantısı yoktu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağlantı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "had no reliable internet connection",
+    "meaning": "güvenilir internet bağlantısı yoktu"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": "*young people* \"gençler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "Young people",
+    "meaning": "gençler"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "Young people",
+    "meaning": "gençler"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*were* + *-ing* (past continuous) geçmişte bir süre devam eden durumu anlatır.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "gidiyordu (ayrılıyordu)",
+   "note": null,
+   "form": "leave + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "to find work",
+    "meaning": "iş bulmak için"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "to find work",
+    "meaning": "iş bulmak için"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": "*work* \"iş\" anlamında sayılamaz: *find work* (✗ a work); sayılabilen karşılığı *a job*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "to find work",
+    "meaning": "iş bulmak için"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirlerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehirler",
+   "note": null,
+   "form": "city'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "population",
+   "pos": "noun",
+   "wordId": "population",
+   "sense": 0,
+   "context": "nüfus",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "was getting smaller",
+    "meaning": "küçülüyordu (azalıyordu)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "oluyordu",
+   "note": "*get* + sıfat \"… olmak, gitgide … hale gelmek\" demektir: *getting smaller* → küçülüyordu.",
+   "form": "get + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "was getting smaller",
+    "meaning": "küçülüyordu (azalıyordu)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "daha küçük",
+   "note": null,
+   "form": "small + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "was getting smaller",
+    "meaning": "küçülüyordu (azalıyordu)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir: *two years ago* → iki yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "local government",
+    "meaning": "yerel yönetim"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "government",
+   "pos": "noun",
+   "wordId": "government",
+   "sense": 0,
+   "context": "yönetim (hükümet)",
+   "note": "*local government* \"yerel yönetim\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "local government",
+    "meaning": "yerel yönetim"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "install",
+   "pos": "verb",
+   "wordId": "install",
+   "sense": 0,
+   "context": "kurdu",
+   "note": null,
+   "form": "install + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "fast",
+   "pos": "adjective",
+   "wordId": "fast",
+   "sense": 0,
+   "context": "hızlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir; genellikle present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aileler",
+   "note": null,
+   "form": "family'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşındı",
+   "note": null,
+   "form": "move fiilinin 3. hali (moved, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "oraya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "work from home",
+    "meaning": "evden çalışmak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (evden)",
+   "note": "*work from home* \"evden çalışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "work from home",
+    "meaning": "evden çalışmak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "work from home",
+    "meaning": "evden çalışmak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "technology",
+   "pos": "noun",
+   "wordId": "technology",
+   "sense": 0,
+   "context": "teknoloji",
+   "note": "Burada *technology* isim olmasına rağmen *company*'yi niteler: *technology company* → teknoloji şirketi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "technology company",
+    "meaning": "teknoloji şirketi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "technology company",
+    "meaning": "teknoloji şirketi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açtı",
+   "note": null,
+   "form": "open fiilinin 3. hali (opened, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an office*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": "Burada *village* isim olmasına rağmen *school*'u niteler: *village school* → köy okulu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "Virgüller arasındaki *which* cümlesi isim hakkında ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in danger of: tehlikesinde)",
+   "note": "*be in danger of* + *-ing* \"… tehlikesiyle karşı karşıya olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "danger",
+   "pos": "noun",
+   "wordId": "danger",
+   "sense": 0,
+   "context": "tehlike",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in danger of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapanmak",
+   "note": null,
+   "form": "close + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "had been in danger of closing",
+    "meaning": "kapanma tehlikesiyle karşı karşıyaydı"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(var)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "pupil",
+   "pos": "noun",
+   "wordId": "pupil",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": "*pupil* özellikle ilkokul ve ortaokul öğrencisi için kullanılır.",
+   "form": "pupil'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (okul)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": "*has had … for decades* present perfect ile geçmişten bugüne süren bir dönemi anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "sahip olmak",
+   "note": null,
+   "form": "have fiilinin 3. hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": "*for* + süre \"… -dır\" demektir: *for decades* → on yıllardır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıllar",
+   "note": "*decade* \"on yıllık dönem\" demektir.",
+   "form": "decade'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 82,
+    "text": "more pupils than it has had for decades",
+    "meaning": "on yıllardır olduğundan daha fazla öğrenci"
+   }
+  }
+ ]
+}

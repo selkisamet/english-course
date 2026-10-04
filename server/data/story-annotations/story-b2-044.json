@@ -1,0 +1,1166 @@
+{
+ "storyId": "story-b2-044",
+ "textHash": "bc68335628ba",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir kış akşamı bir fırtına, bütün mahalleyi iki gün boyunca etkileyen bir elektrik kesintisine yol açtı."
+  },
+  {
+   "tr": "Isıtma, internet ve elektrik lambaları olmadan insanlar alışkanlıklarını değiştirmek zorunda kaldı."
+  },
+  {
+   "tr": "Daha önce birbirleriyle neredeyse hiç konuşmamış komşular, özellikle yalnız yaşayan yaşlı sakinler başta olmak üzere, birbirlerinin iyi olup olmadığını kontrol etmeye başladı."
+  },
+  {
+   "tr": "Gazlı ocağı olan bir aile sokaktaki herkese çorba yaptı."
+  },
+  {
+   "tr": "Elektrik sonunda geri geldiğinde, birkaç kişi fırtınanın yarattığı topluluk duygusunu özleyeceklerini itiraf etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*one* + zaman ifadesi geçmişte belirsiz bir zamanı anlatır: *one winter evening* → bir kış akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "One winter evening",
+    "meaning": "bir kış akşamı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": "Burada *winter* isim olmasına rağmen *evening*'i niteler: *winter evening* → kış akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "One winter evening",
+    "meaning": "bir kış akşamı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "One winter evening",
+    "meaning": "bir kış akşamı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "storm",
+   "pos": "noun",
+   "wordId": "storm",
+   "sense": 0,
+   "context": "fırtına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "cause",
+   "pos": "verb",
+   "wordId": "cause",
+   "sense": 1,
+   "context": "yol açtı (neden oldu)",
+   "note": null,
+   "form": "cause + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "power",
+   "pos": "noun",
+   "wordId": "power",
+   "sense": 0,
+   "context": "elektrik (enerji)",
+   "note": "*power cut* \"elektrik kesintisi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "power cut",
+    "meaning": "elektrik kesintisi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "cut",
+   "pos": "noun",
+   "wordId": "cut",
+   "sense": 1,
+   "context": "kesinti",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "power cut",
+    "meaning": "elektrik kesintisi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *a power cut that affected…* → … etkileyen bir elektrik kesintisi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "affect",
+   "pos": "verb",
+   "wordId": "affect",
+   "sense": 0,
+   "context": "etkileyen",
+   "note": "*affect* fiildir (etkilemek); isim hali *effect*'tir (etki).",
+   "form": "affect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "neighbourhood",
+   "pos": "noun",
+   "wordId": "neighbourhood",
+   "sense": 0,
+   "context": "mahalle",
+   "note": "İngiliz yazımı *neighbourhood*, Amerikan yazımı *neighborhood*'dur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "for two days",
+    "meaning": "iki gün boyunca"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "for two days",
+    "meaning": "iki gün boyunca"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "for two days",
+    "meaning": "iki gün boyunca"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "heating",
+   "pos": "noun",
+   "wordId": "heating",
+   "sense": 0,
+   "context": "ısıtma (kalorifer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ve (veya)",
+   "note": "Olumsuz anlamlı cümlelerde (*without*) *or* Türkçeye \"ve\" ya da \"ne … ne\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "electric",
+   "pos": "adjective",
+   "wordId": "electric",
+   "sense": 0,
+   "context": "elektrikli",
+   "note": "*electric lights* \"elektrik lambaları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "lambalar (ışıklar)",
+   "note": null,
+   "form": "light'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıldı)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "were forced to",
+    "meaning": "-mek zorunda kaldılar"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "force",
+   "pos": "verb",
+   "wordId": "force",
+   "sense": 1,
+   "context": "zorunda kaldılar (zorlandılar)",
+   "note": "*be forced to do something* \"bir şeyi yapmak zorunda kalmak\" demektir.",
+   "form": "force fiilinin 3. hali (forced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "were forced to",
+    "meaning": "-mek zorunda kaldılar"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 26,
+    "text": "were forced to",
+    "meaning": "-mek zorunda kaldılar"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "routine",
+   "pos": "noun",
+   "wordId": "routine",
+   "sense": 0,
+   "context": "alışkanlıklar (günlük düzen)",
+   "note": null,
+   "form": "routine'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": null,
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamış)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "had barely spoken before",
+    "meaning": "daha önce neredeyse hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "barely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "neredeyse hiç",
+   "note": "*barely* \"zar zor, neredeyse hiç\" demektir ve olumsuz bir anlam taşır.",
+   "form": null,
+   "base": "zar zor, ancak, neredeyse hiç",
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "had barely spoken before",
+    "meaning": "daha önce neredeyse hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmamış",
+   "note": null,
+   "form": "speak fiilinin 3. hali (spoken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "had barely spoken before",
+    "meaning": "daha önce neredeyse hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "daha önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "had barely spoken before",
+    "meaning": "daha önce neredeyse hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "check",
+   "pos": "verb",
+   "wordId": "check",
+   "sense": 0,
+   "context": "kontrol etmek",
+   "note": "*check on someone* \"birinin iyi olup olmadığını kontrol etmek\" demektir.",
+   "form": "check + -ing",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "checking on one another",
+    "meaning": "birbirlerinin iyi olup olmadığını kontrol etmek"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(check on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 40,
+    "text": "checking on one another",
+    "meaning": "birbirlerinin iyi olup olmadığını kontrol etmek"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one another: birbiri)",
+   "note": "*one another* \"birbiri, birbirini\" demektir; *each other* ile aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "one another",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "(one another)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "one another",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "especially",
+   "pos": "adverb",
+   "wordId": "especially",
+   "sense": 0,
+   "context": "özellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "daha yaşlı (yaşlı)",
+   "note": "*older* kişiler için \"yaşlıca, yaşı ilerlemiş\" anlamında kibar bir ifadedir.",
+   "form": "old + -er (karşılaştırma)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "who lived alone",
+    "meaning": "yalnız yaşayan"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşayan",
+   "note": null,
+   "form": "live + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "who lived alone",
+    "meaning": "yalnız yaşayan"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "yalnız (tek başına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "who lived alone",
+    "meaning": "yalnız yaşayan"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "(-ı olan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "gas",
+   "pos": "noun",
+   "wordId": "gas",
+   "sense": 0,
+   "context": "gaz(lı)",
+   "note": "Burada *gas* isim olmasına rağmen *cooker*'ı niteler: *gas cooker* → gazlı ocak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "gas cooker",
+    "meaning": "gazlı ocak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "cooker",
+   "pos": "noun",
+   "wordId": "cooker",
+   "sense": 0,
+   "context": "ocak (fırın)",
+   "note": "*cooker* \"ocak, fırın\" demektir; yemek yapan kişi *cook*'tur (✗ cooker).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "gas cooker",
+    "meaning": "gazlı ocak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "soup",
+   "pos": "noun",
+   "wordId": "soup",
+   "sense": 0,
+   "context": "çorba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (herkese)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-deki (sokaktaki)",
+   "note": "*on the street* \"sokakta, sokaktaki\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "electricity",
+   "pos": "noun",
+   "wordId": "electricity",
+   "sense": 0,
+   "context": "elektrik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": "*come back* \"geri gelmek\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "came back",
+    "meaning": "geri geldi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "came back",
+    "meaning": "geri geldi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi (insanlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "admit",
+   "pos": "verb",
+   "wordId": "admit",
+   "sense": 0,
+   "context": "itiraf etti (kabul etti)",
+   "note": null,
+   "form": "admit + -ed (geçmiş zaman, son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceklerini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"We will miss it\"* → *that they would miss it*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "the sense of community",
+    "meaning": "topluluk duygusu"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu (his)",
+   "note": "*a sense of community* \"topluluk duygusu, birlik hissi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "the sense of community",
+    "meaning": "topluluk duygusu"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(sense of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "the sense of community",
+    "meaning": "topluluk duygusu"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "topluluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "the sense of community",
+    "meaning": "topluluk duygusu"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "İsimden sonra *that* düşebilir: *the sense of community (that) the storm had created* → fırtınanın yarattığı topluluk duygusu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "the storm had created",
+    "meaning": "fırtınanın yarattığı"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "storm",
+   "pos": "noun",
+   "wordId": "storm",
+   "sense": 0,
+   "context": "fırtına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "the storm had created",
+    "meaning": "fırtınanın yarattığı"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "the storm had created",
+    "meaning": "fırtınanın yarattığı"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "create",
+   "pos": "verb",
+   "wordId": "create",
+   "sense": 0,
+   "context": "yarattığı",
+   "note": null,
+   "form": "create fiilinin 3. hali (created, -d)",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "the storm had created",
+    "meaning": "fırtınanın yarattığı"
+   }
+  }
+ ]
+}

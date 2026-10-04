@@ -1,0 +1,1277 @@
+{
+ "storyId": "story-b2-038",
+ "textHash": "7a1c7833a78f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yıllarca köyümüzdeki çocuklar, ara yolun sonundaki boş evin perili olduğuna inandı."
+  },
+  {
+   "tr": "Geceleri içeride hareket eden ışıklar gördüklerini ve tuhaf sesler duyduklarını iddia ediyorlardı."
+  },
+  {
+   "tr": "Geçen yaz gizem sonunda çözüldü."
+  },
+  {
+   "tr": "Çatının altında bir kuş ailesi yaşıyormuş ve ışıklar sadece geçen arabaların yansımalarıymış."
+  },
+  {
+   "tr": "Ev artık onarıldı ve genç bir çift oraya taşındı."
+  },
+  {
+   "tr": "Yine de bazı çocuklar hava karardıktan sonra hâlâ evin önünden geçmeyi reddediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(yıllarca)",
+   "note": "*for* + süre bir şeyin ne kadar sürdüğünü anlatır: *for years* → yıllarca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "For years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "For years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (köyümüzdeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inandı",
+   "note": "*believe that…* \"… olduğuna inanmak\" demektir.",
+   "form": "believe + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğuna)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "empty",
+   "pos": "adjective",
+   "wordId": "empty",
+   "sense": 0,
+   "context": "boş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (sonunda)",
+   "note": "*at the end of* \"-in sonunda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yolun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "lane",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ara yol (dar yol)",
+   "note": "*lane* kırsalda \"dar yol, patika\" demektir; otoyolda ise \"şerit\" anlamına gelir.",
+   "form": null,
+   "base": "dar yol, ara yol; şerit",
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "at the end of the lane",
+    "meaning": "ara yolun sonunda"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "was haunted",
+    "meaning": "perili idi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "haunted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "perili",
+   "note": "*haunted* \"perili, hayaletli\" demektir: *a haunted house* → perili ev.",
+   "form": null,
+   "base": "perili, hayaletli",
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "was haunted",
+    "meaning": "perili idi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (çocuklar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "claim",
+   "pos": "verb",
+   "wordId": "claim",
+   "sense": 0,
+   "context": "iddia ettiler",
+   "note": "*claim to have done something* \"bir şeyi yaptığını iddia etmek\" demektir.",
+   "form": "claim + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "claimed to have seen",
+    "meaning": "gördüklerini iddia ettiler"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "claimed to have seen",
+    "meaning": "gördüklerini iddia ettiler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dıklarını)",
+   "note": "*to have* + fiilin 3. hali (perfect infinitive) iddia edilen olayın daha önce olduğunu anlatır.",
+   "form": "have (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "claimed to have seen",
+    "meaning": "gördüklerini iddia ettiler"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": null,
+   "form": "see fiilinin 3. hali (seen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "claimed to have seen",
+    "meaning": "gördüklerini iddia ettiler"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışıklar",
+   "note": null,
+   "form": "light'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "hareket eden",
+   "note": "*see something* + *-ing* \"bir şeyin … -tiğini görmek\" demektir: *lights moving* → hareket eden ışıklar.",
+   "form": "move + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "inside",
+   "pos": "adverb",
+   "wordId": "inside",
+   "sense": 1,
+   "context": "içeride",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(geceleri)",
+   "note": "*at night* \"geceleyin, geceleri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "at night",
+    "meaning": "geceleri"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "at night",
+    "meaning": "geceleri"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "to have heard",
+    "meaning": "duymuş olmak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-duklarını)",
+   "note": null,
+   "form": "have (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "to have heard",
+    "meaning": "duymuş olmak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duymak",
+   "note": null,
+   "form": "hear fiilinin 3. hali (heard, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "to have heard",
+    "meaning": "duymuş olmak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "strange",
+   "pos": "adjective",
+   "wordId": "strange",
+   "sense": 0,
+   "context": "tuhaf (garip)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "sesler (gürültüler)",
+   "note": "*noise* genellikle istenmeyen ya da beklenmedik \"ses, gürültü\" demektir.",
+   "form": "noise'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "Last summer",
+    "meaning": "geçen yaz"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "mystery",
+   "pos": "noun",
+   "wordId": "mystery",
+   "sense": 0,
+   "context": "gizem (sır)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "was finally solved",
+    "meaning": "sonunda çözüldü"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda (nihayet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "was finally solved",
+    "meaning": "sonunda çözüldü"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "solve",
+   "pos": "verb",
+   "wordId": "solve",
+   "sense": 0,
+   "context": "çözüldü",
+   "note": null,
+   "form": "solve fiilinin 3. hali (solved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "was finally solved",
+    "meaning": "sonunda çözüldü"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "A family of birds",
+    "meaning": "bir kuş ailesi"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": "*a family of birds* \"bir kuş ailesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "A family of birds",
+    "meaning": "bir kuş ailesi"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(kuş ailesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "A family of birds",
+    "meaning": "bir kuş ailesi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "bird",
+   "pos": "noun",
+   "wordId": "bird",
+   "sense": 0,
+   "context": "kuşlar",
+   "note": null,
+   "form": "bird'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "A family of birds",
+    "meaning": "bir kuş ailesi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": "*had been* + *-ing* (past perfect continuous) geçmişte bir noktaya kadar bir süredir devam eden eylemi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "had been living",
+    "meaning": "yaşıyormuş (past perfect continuous)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "had been living",
+    "meaning": "yaşıyormuş (past perfect continuous)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyormuş",
+   "note": null,
+   "form": "live + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "had been living",
+    "meaning": "yaşıyormuş (past perfect continuous)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "roof",
+   "pos": "noun",
+   "wordId": "roof",
+   "sense": 0,
+   "context": "çatı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışıklar",
+   "note": null,
+   "form": "light'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-mış)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "sadece (yalnızca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "reflection",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yansımalar",
+   "note": "*reflect* (yansıtmak) fiilinden *-ion* ekiyle isim yapılmıştır.",
+   "form": "reflection'ın çoğulu",
+   "base": "yansıma",
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (arabalardan gelen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "pass",
+   "pos": "verb",
+   "wordId": "pass",
+   "sense": 0,
+   "context": "geçen",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *passing cars* → geçen arabalar.",
+   "form": "pass + -ing",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "passing cars",
+    "meaning": "geçen arabalar"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "arabalar",
+   "note": null,
+   "form": "car'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "passing cars",
+    "meaning": "geçen arabalar"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": "*has been* + fiilin 3. hali (present perfect edilgen): *has been repaired* → onarıldı.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "has now been repaired",
+    "meaning": "artık onarıldı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "has now been repaired",
+    "meaning": "artık onarıldı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "has now been repaired",
+    "meaning": "artık onarıldı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "repair",
+   "pos": "verb",
+   "wordId": "repair",
+   "sense": 0,
+   "context": "onarıldı",
+   "note": null,
+   "form": "repair fiilinin 3. hali (repaired, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "has now been repaired",
+    "meaning": "artık onarıldı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "couple",
+   "pos": "noun",
+   "wordId": "couple",
+   "sense": 0,
+   "context": "çift",
+   "note": "*couple* \"çift (karı-koca, sevgililer)\" demektir; *a couple of* ise \"birkaç\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşındı",
+   "note": "*move in* \"(yeni bir eve) taşınmak, yerleşmek\" demektir.",
+   "form": "move fiilinin 3. hali (moved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "moved in",
+    "meaning": "taşındı (eve yerleşti)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "in",
+   "pos": "adverb",
+   "wordId": "in",
+   "sense": 1,
+   "context": "(move in: taşınmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "moved in",
+    "meaning": "taşındı (eve yerleşti)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "yine de",
+   "note": "*however* cümlenin ortasında virgüller arasında da kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "refuse",
+   "pos": "verb",
+   "wordId": "refuse",
+   "sense": 0,
+   "context": "reddediyor",
+   "note": "*refuse to do something* \"bir şeyi yapmayı reddetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "refuse to walk past it",
+    "meaning": "önünden geçmeyi reddediyor"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "refuse to walk past it",
+    "meaning": "önünden geçmeyi reddediyor"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürümek (geçmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "refuse to walk past it",
+    "meaning": "önünden geçmeyi reddediyor"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "past",
+   "pos": "preposition",
+   "wordId": "past",
+   "sense": 2,
+   "context": "önünden (geçerek)",
+   "note": "*walk past something* \"bir şeyin önünden yürüyerek geçmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "refuse to walk past it",
+    "meaning": "önünden geçmeyi reddediyor"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ev)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "refuse to walk past it",
+    "meaning": "önünden geçmeyi reddediyor"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 84,
+    "text": "after dark",
+    "meaning": "hava karardıktan sonra"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "dark",
+   "pos": "noun",
+   "wordId": "dark",
+   "sense": 1,
+   "context": "karanlık",
+   "note": "*after dark* \"hava karardıktan sonra\" demektir; *dark* burada isimdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 84,
+    "text": "after dark",
+    "meaning": "hava karardıktan sonra"
+   }
+  }
+ ]
+}

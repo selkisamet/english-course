@@ -1,0 +1,1240 @@
+{
+ "storyId": "story-b2-016",
+ "textHash": "314b83424466",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Robert bir avukattan mektup aldığında bunun bir hata olduğunu varsaydı."
+  },
+  {
+   "tr": "Mektuba göre, hiç tanışmadığı bir kadın, küçük bir sahil köyündeki evini ona bırakmıştı."
+  },
+  {
+   "tr": "Biraz araştırma yaptıktan sonra, kadının savaş sırasında büyükbabasının en yakın arkadaşı olduğunu keşfetti."
+  },
+  {
+   "tr": "Robert köye gitti ve evi, aralarında büyükbabasının gençlik fotoğraflarının da bulunduğu eski fotoğraflarla dolu buldu."
+  },
+  {
+   "tr": "Sonunda evi tatil evi olarak tutmaya karar verdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Robert",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Robert",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "receive",
+   "pos": "verb",
+   "wordId": "receive",
+   "sense": 0,
+   "context": "aldı",
+   "note": "*receive* \"almak, teslim almak\" demektir; *get*'ten daha resmîdir.",
+   "form": "receive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (avukattan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "lawyer",
+   "pos": "noun",
+   "wordId": "lawyer",
+   "sense": 0,
+   "context": "avukat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "assume",
+   "pos": "verb",
+   "wordId": "assume",
+   "sense": 0,
+   "context": "varsaydı",
+   "note": "*assume (that)…* \"… olduğunu varsaymak, sanmak\" demektir; kanıt olmadan bir şeyi doğru kabul etmeyi anlatır.",
+   "form": "assume + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 13,
+    "text": "he assumed it was a mistake",
+    "meaning": "bir hata olduğunu varsaydı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "according",
+   "pos": "preposition",
+   "wordId": "according-to",
+   "sense": 0,
+   "context": "göre (according to)",
+   "note": "*according to* + kaynak \"…-e göre\" demektir: *according to the letter* → mektuba göre.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "According to",
+    "meaning": "… -e göre"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(according to: -e göre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "According to",
+    "meaning": "… -e göre"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": "*a woman he had never met* kalıbında *who* atlanmıştır: *a woman (who) he had never met* → hiç tanışmadığı bir kadın.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-madığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanışmadığı",
+   "note": null,
+   "form": "meet fiilinin 3. hali (met, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 23,
+    "text": "a woman he had never met",
+    "meaning": "hiç tanışmadığı bir kadın"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had left* (past perfect) mektup gelmeden önce olan bir olayı anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "had left him her house",
+    "meaning": "evini ona bırakmıştı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakmıştı",
+   "note": "*leave someone something* vasiyetle \"birine bir şey bırakmak\" demektir.",
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "had left him her house",
+    "meaning": "evini ona bırakmıştı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "had left him her house",
+    "meaning": "evini ona bırakmıştı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kadının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "had left him her house",
+    "meaning": "evini ona bırakmıştı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "had left him her house",
+    "meaning": "evini ona bırakmıştı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (köydeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "coastal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sahil",
+   "note": "*-al* eki isimden sıfat yapar: *coast* (sahil, kıyı) → *coastal* (kıyıdaki, sahil).",
+   "form": null,
+   "base": "kıyıdaki, sahil",
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "coastal village",
+    "meaning": "sahil köyü"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "coastal village",
+    "meaning": "sahil köyü"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "After some research",
+    "meaning": "biraz araştırmadan sonra"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "After some research",
+    "meaning": "biraz araştırmadan sonra"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma",
+   "note": "*research* sayılamayan bir isimdir: *some research* (✗ a research, researches).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "After some research",
+    "meaning": "biraz araştırmadan sonra"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfetti",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muş)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuş)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "his grandfather's closest friend",
+    "meaning": "büyükbabasının en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbabasının",
+   "note": null,
+   "form": "grandfather + 's (iyelik)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "his grandfather's closest friend",
+    "meaning": "büyükbabasının en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "close",
+   "pos": "adjective",
+   "wordId": "close",
+   "sense": 1,
+   "context": "en yakın",
+   "note": "*close friend* \"yakın arkadaş\" demektir; *closest* en üstünlük halidir.",
+   "form": "close sıfatının en üstünlük hali (-st)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "his grandfather's closest friend",
+    "meaning": "büyükbabasının en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "his grandfather's closest friend",
+    "meaning": "büyükbabasının en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "during the war",
+    "meaning": "savaş sırasında"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "during the war",
+    "meaning": "savaş sırasında"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "war",
+   "pos": "noun",
+   "wordId": "war",
+   "sense": 0,
+   "context": "savaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "during the war",
+    "meaning": "savaş sırasında"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "Robert",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Robert",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "gitti (yolculuk etti)",
+   "note": null,
+   "form": "travel + -ed (geçmiş zaman, l ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (köye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*find something* + sıfat \"bir şeyi … halde bulmak\" demektir: *found the house full of photographs*.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "house full of old photographs",
+    "meaning": "eski fotoğraflarla dolu ev"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "dolu",
+   "note": "*full of* \"… ile dolu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "house full of old photographs",
+    "meaning": "eski fotoğraflarla dolu ev"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(full of: ile dolu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "house full of old photographs",
+    "meaning": "eski fotoğraflarla dolu ev"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "house full of old photographs",
+    "meaning": "eski fotoğraflarla dolu ev"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "photograph",
+   "pos": "noun",
+   "wordId": "photograph",
+   "sense": 0,
+   "context": "fotoğraflar",
+   "note": "*photograph* resmî kelimedir; günlük dilde kısaca *photo* denir.",
+   "form": "photograph'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 62,
+    "text": "house full of old photographs",
+    "meaning": "eski fotoğraflarla dolu ev"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "including",
+   "pos": "preposition",
+   "wordId": "including",
+   "sense": 0,
+   "context": "(de) dahil",
+   "note": "*including* \"… de dahil olmak üzere\" demektir: *including several of his grandfather* → aralarında büyükbabasının birkaç fotoğrafı da olmak üzere.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "several",
+   "pos": "pronoun",
+   "wordId": "several",
+   "sense": 1,
+   "context": "birkaçı",
+   "note": "*several of* + isim \"…-in birkaçı\" demektir; burada \"büyükbabasının birkaç fotoğrafı\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak (-ken)",
+   "note": "*as a young man* \"genç bir adamken, gençliğinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "as a young man",
+    "meaning": "gençken, genç bir adamken"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "as a young man",
+    "meaning": "gençken, genç bir adamken"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "as a young man",
+    "meaning": "gençken, genç bir adamken"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "as a young man",
+    "meaning": "gençken, genç bir adamken"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": "*eventually* \"sonunda, en nihayetinde\" demektir; \"belki, muhtemelen\" anlamına gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (tutmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutmak (elinde tutmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "as a holiday home",
+    "meaning": "tatil evi olarak"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "as a holiday home",
+    "meaning": "tatil evi olarak"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "tatil",
+   "note": "Burada *holiday* isim olmasına rağmen *home*'u niteler: *holiday home* → tatil evi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "as a holiday home",
+    "meaning": "tatil evi olarak"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "as a holiday home",
+    "meaning": "tatil evi olarak"
+   }
+  }
+ ]
+}

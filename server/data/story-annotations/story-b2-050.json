@@ -1,0 +1,1356 @@
+{
+ "storyId": "story-b2-050",
+ "textHash": "0b801a92c40d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "En yakın arkadaşı ondan düğününde bir konuşma yapmasını isteyince Sam hem gurur duydu hem de çok korktu."
+  },
+  {
+   "tr": "Topluluk önünde konuşmaktan her zaman nefret etmişti."
+  },
+  {
+   "tr": "Haftalarca ayna karşısında çalıştı ve kız kardeşinden tavsiye istedi."
+  },
+  {
+   "tr": "Kız kardeşi ona konuşmayı kısa tutmasını ve kişisel bir hikâye eklemesini söyledi."
+  },
+  {
+   "tr": "Düğün günü elleri titriyordu ama konuklar şakalarına güldü ve birkaçı ağladı."
+  },
+  {
+   "tr": "Sonradan Sam, korkusunun yaşadığı deneyimin kendisinden çok daha kötü olduğunu fark etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "his best friend",
+    "meaning": "en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "best",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en iyi (en yakın)",
+   "note": "*best friend* \"en yakın arkadaş\" demektir; *best*, *good*'un en üstünlük halidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "his best friend",
+    "meaning": "en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "his best friend",
+    "meaning": "en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ondan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "yapmak",
+   "note": "*give a speech* \"konuşma yapmak\" demektir (✗ make a speech da kullanılır ama *give* daha yaygındır).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "give a speech",
+    "meaning": "konuşma yapmak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "give a speech",
+    "meaning": "konuşma yapmak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "give a speech",
+    "meaning": "konuşma yapmak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (düğününde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "wedding",
+   "pos": "noun",
+   "wordId": "wedding",
+   "sense": 0,
+   "context": "düğün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 12,
+    "text": "asked him to give a speech at her wedding",
+    "meaning": "ondan düğününde konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "both proud and terrified",
+    "meaning": "hem gururlu hem çok korkmuş"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "both proud and terrified",
+    "meaning": "hem gururlu hem çok korkmuş"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "both proud and terrified",
+    "meaning": "hem gururlu hem çok korkmuş"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "terrified",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çok korkmuş",
+   "note": "*terrified* *scared*'dan daha güçlüdür: \"dehşete düşmüş, çok korkmuş\".",
+   "form": null,
+   "base": "çok korkmuş, dehşete düşmüş",
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "both proud and terrified",
+    "meaning": "hem gururlu hem çok korkmuş"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had always* + fiilin 3. hali (past perfect) o zamana kadar hep süregelen bir durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "had always hated",
+    "meaning": "her zaman nefret etmişti"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "had always hated",
+    "meaning": "her zaman nefret etmişti"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "hate",
+   "pos": "verb",
+   "wordId": "hate",
+   "sense": 0,
+   "context": "nefret etmişti",
+   "note": "*hate* + *-ing* \"… -mekten nefret etmek\" demektir.",
+   "form": "hate fiilinin 3. hali (hated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "had always hated",
+    "meaning": "her zaman nefret etmişti"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": "speak + -ing",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "speaking in public",
+    "meaning": "topluluk önünde konuşmak"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in public: topluluk önünde)",
+   "note": "*in public* \"herkesin önünde, topluluk önünde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "speaking in public",
+    "meaning": "topluluk önünde konuşmak"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "public",
+   "pos": "noun",
+   "wordId": "public",
+   "sense": 1,
+   "context": "halk (topluluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "speaking in public",
+    "meaning": "topluluk önünde konuşmak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(haftalarca)",
+   "note": "*for* + süre bir şeyin ne kadar sürdüğünü anlatır: *for weeks* → haftalarca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "For weeks",
+    "meaning": "haftalarca"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "For weeks",
+    "meaning": "haftalarca"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "çalıştı (prova yaptı)",
+   "note": "İngiliz İngilizcesinde fiil *practise*, isim *practice* diye yazılır.",
+   "form": "practise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in front of: önünde)",
+   "note": "*in front of* \"-in önünde, karşısında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "in front of a mirror",
+    "meaning": "ayna karşısında"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "front",
+   "pos": "noun",
+   "wordId": "front",
+   "sense": 0,
+   "context": "ön",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "in front of a mirror",
+    "meaning": "ayna karşısında"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in front of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "in front of a mirror",
+    "meaning": "ayna karşısında"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "in front of a mirror",
+    "meaning": "ayna karşısında"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "mirror",
+   "pos": "noun",
+   "wordId": "mirror",
+   "sense": 0,
+   "context": "ayna",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "in front of a mirror",
+    "meaning": "ayna karşısında"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone for something* \"birinden bir şey istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "asked his sister for advice",
+    "meaning": "kız kardeşinden tavsiye istedi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "asked his sister for advice",
+    "meaning": "kız kardeşinden tavsiye istedi"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "asked his sister for advice",
+    "meaning": "kız kardeşinden tavsiye istedi"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "asked his sister for advice",
+    "meaning": "kız kardeşinden tavsiye istedi"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "advice",
+   "pos": "noun",
+   "wordId": "advice",
+   "sense": 0,
+   "context": "tavsiye",
+   "note": "*advice* sayılamayan bir isimdir: *some advice* (✗ an advice); fiil hali *advise*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "asked his sister for advice",
+    "meaning": "kız kardeşinden tavsiye istedi"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kız kardeşi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone to do something* \"birine bir şeyi yapmasını söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutmak",
+   "note": "*keep something* + sıfat \"bir şeyi … tutmak\" demektir: *keep it short* → kısa tutmak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "keep it short",
+    "meaning": "kısa tutmak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (konuşmayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "keep it short",
+    "meaning": "kısa tutmak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "keep it short",
+    "meaning": "kısa tutmak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "include",
+   "pos": "verb",
+   "wordId": "include",
+   "sense": 0,
+   "context": "eklemek (dahil etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "personal",
+   "pos": "adjective",
+   "wordId": "personal",
+   "sense": 0,
+   "context": "kişisel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikâye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(o gün)",
+   "note": "*on the day* burada \"o önemli günde (düğün günü)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "On the day",
+    "meaning": "o gün (düğün günü)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "On the day",
+    "meaning": "o gün (düğün günü)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "On the day",
+    "meaning": "o gün (düğün günü)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": null,
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*were* + *-ing* (past continuous) geçmişte o anda süren bir eylemi anlatır.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "were shaking",
+    "meaning": "titriyordu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "shake",
+   "pos": "verb",
+   "wordId": "shake",
+   "sense": 0,
+   "context": "titriyordu",
+   "note": null,
+   "form": "shake + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "were shaking",
+    "meaning": "titriyordu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "guest",
+   "pos": "noun",
+   "wordId": "guest",
+   "sense": 0,
+   "context": "konuklar",
+   "note": null,
+   "form": "guest'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldüler",
+   "note": "*laugh at something* \"bir şeye gülmek\" demektir.",
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "laughed at his jokes",
+    "meaning": "şakalarına güldüler"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (şakalarına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "laughed at his jokes",
+    "meaning": "şakalarına güldüler"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "laughed at his jokes",
+    "meaning": "şakalarına güldüler"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "joke",
+   "pos": "noun",
+   "wordId": "joke",
+   "sense": 0,
+   "context": "şakalar",
+   "note": null,
+   "form": "joke'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "laughed at his jokes",
+    "meaning": "şakalarına güldüler"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "several",
+   "pos": "pronoun",
+   "wordId": "several",
+   "sense": 1,
+   "context": "birkaçı",
+   "note": "*several of them* \"onlardan birkaçı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "several of them",
+    "meaning": "birkaçı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (onlardan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "several of them",
+    "meaning": "birkaçı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "several of them",
+    "meaning": "birkaçı"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "cry",
+   "pos": "verb",
+   "wordId": "cry",
+   "sense": 0,
+   "context": "ağladı",
+   "note": null,
+   "form": "cry'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "afterwards",
+   "pos": "adverb",
+   "wordId": "afterwards",
+   "sense": 0,
+   "context": "sonradan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "Sam",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sam",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "İngiliz yazımında *realise*, Amerikan yazımında *realize* yazılır.",
+   "form": "realise (İngiliz yazımı) + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "fear",
+   "pos": "noun",
+   "wordId": "fear",
+   "sense": 0,
+   "context": "korku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "had been far worse",
+    "meaning": "çok daha kötü olmuştu"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştu)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "had been far worse",
+    "meaning": "çok daha kötü olmuştu"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "had been far worse",
+    "meaning": "çok daha kötü olmuştu"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "had been far worse",
+    "meaning": "çok daha kötü olmuştu"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "worse",
+   "pos": "adjective",
+   "wordId": "worse",
+   "sense": 0,
+   "context": "daha kötü",
+   "note": "*worse*, *bad*'in karşılaştırma halidir: *bad → worse → worst*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 82,
+    "text": "had been far worse",
+    "meaning": "çok daha kötü olmuştu"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 84,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "the experience itself",
+    "meaning": "deneyimin kendisi"
+   }
+  },
+  {
+   "i": 85,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "the experience itself",
+    "meaning": "deneyimin kendisi"
+   }
+  },
+  {
+   "i": 86,
+   "lemma": "itself",
+   "pos": "pronoun",
+   "wordId": "itself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "İsimden sonra gelen *itself* vurgu katar: *the experience itself* → deneyimin kendisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 84,
+    "to": 86,
+    "text": "the experience itself",
+    "meaning": "deneyimin kendisi"
+   }
+  }
+ ]
+}

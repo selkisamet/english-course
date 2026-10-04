@@ -1,0 +1,1106 @@
+{
+ "storyId": "story-b2-023",
+ "textHash": "d40617b330ad",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yaz boyunca her cuma kasabamızın ana meydanı bir gece pazarına dönüşüyor."
+  },
+  {
+   "tr": "Onlarca tezgâhta sokak yemekleri, el yapımı takılar ve ikinci el kıyafetler satılıyor."
+  },
+  {
+   "tr": "Yerel müzisyenler küçük bir sahnede çalıyor ve ortam gece yarısından epey sonrasına kadar canlı kalıyor."
+  },
+  {
+   "tr": "Pazar başlangıçta turistleri çekmek için başlatılmıştı ama kasaba halkı arasında da en az o kadar popüler oldu."
+  },
+  {
+   "tr": "Orada başlayan bazı küçük işletmelerin artık kasaba merkezinde kendi dükkânları var."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": "*every* + gün adı \"her …\" demektir ve önüne *on* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every Friday",
+    "meaning": "her cuma"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every Friday",
+    "meaning": "her cuma"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*during* + isim \"… boyunca, … sırasında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "during the summer",
+    "meaning": "yaz boyunca"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "during the summer",
+    "meaning": "yaz boyunca"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "during the summer",
+    "meaning": "yaz boyunca"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "main",
+   "pos": "adjective",
+   "wordId": "main",
+   "sense": 0,
+   "context": "ana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "main square",
+    "meaning": "ana meydan"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "square",
+   "pos": "noun",
+   "wordId": "square",
+   "sense": 1,
+   "context": "meydan",
+   "note": "*square* \"kare\" demektir; şehirde \"meydan\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "main square",
+    "meaning": "ana meydan"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-in (kasabamızın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ülüyor)",
+   "note": "Geniş zamanda edilgen yapı *am/is/are* + fiilin 3. hali ile kurulur: *is transformed* → dönüştürülüyor.",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "is transformed into",
+    "meaning": "-e dönüştürülüyor (edilgen)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "transform",
+   "pos": "verb",
+   "wordId": "transform",
+   "sense": 0,
+   "context": "dönüştürülüyor",
+   "note": "*transform something into something* \"bir şeyi tamamen başka bir şeye dönüştürmek\" demektir.",
+   "form": "transform fiilinin 3. hali (transformed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "is transformed into",
+    "meaning": "-e dönüştürülüyor (edilgen)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (pazarına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "is transformed into",
+    "meaning": "-e dönüştürülüyor (edilgen)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": "Burada *night* isim olmasına rağmen *market*'i niteler: *night market* → gece pazarı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "night market",
+    "meaning": "gece pazarı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "market",
+   "pos": "noun",
+   "wordId": "market",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "night market",
+    "meaning": "gece pazarı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "dozen",
+   "pos": "determiner",
+   "wordId": "dozen",
+   "sense": 1,
+   "context": "onlarca",
+   "note": "*dozens of* \"onlarca\" demektir; *a dozen* ise \"bir düzine (12)\"dir.",
+   "form": "dozen'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Dozens of",
+    "meaning": "onlarca"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(dozens of: onlarca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "Dozens of",
+    "meaning": "onlarca"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "stall",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tezgâhlar",
+   "note": "*stall* pazarda ürün satılan \"tezgâh, stant\"tır.",
+   "form": "stall'ın çoğulu",
+   "base": "tezgâh, stant",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "sell",
+   "pos": "verb",
+   "wordId": "sell",
+   "sense": 0,
+   "context": "satıyor",
+   "note": "İngilizcede eşyalar da özne olabilir: *stalls sell food* → tezgâhlar yemek satıyor (tezgâhlarda yemek satılıyor).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": "Burada *street* isim olmasına rağmen *food*'u niteler: *street food* → sokak yemekleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "street food",
+    "meaning": "sokak yemekleri"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "street food",
+    "meaning": "sokak yemekleri"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "handmade",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "el yapımı",
+   "note": "*handmade* iki kelimenin birleşimidir: *hand* (el) + *made* (yapılmış).",
+   "form": null,
+   "base": "el yapımı",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "jewellery",
+   "pos": "noun",
+   "wordId": "jewellery",
+   "sense": 0,
+   "context": "takı (mücevher)",
+   "note": "*jewellery* İngiliz yazımıdır; Amerikan İngilizcesinde *jewelry* yazılır. Sayılamaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "used",
+   "pos": "adjective",
+   "wordId": "used",
+   "sense": 1,
+   "context": "ikinci el",
+   "note": "*used* isimden önce \"ikinci el, kullanılmış\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "musician",
+   "pos": "noun",
+   "wordId": "musician",
+   "sense": 0,
+   "context": "müzisyenler",
+   "note": null,
+   "form": "musician'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "perform",
+   "pos": "verb",
+   "wordId": "perform",
+   "sense": 0,
+   "context": "çalıyor (sahne alıyor)",
+   "note": "*perform* \"sahne almak, gösteri yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (sahnede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "stage",
+   "pos": "noun",
+   "wordId": "stage",
+   "sense": 0,
+   "context": "sahne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "atmosphere",
+   "pos": "noun",
+   "wordId": "atmosphere",
+   "sense": 0,
+   "context": "ortam (hava)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kalıyor",
+   "note": "*remain* + sıfat \"… kalmak\" demektir; *stay*'den daha resmîdir.",
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "remains lively",
+    "meaning": "canlı kalıyor"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "lively",
+   "pos": "adjective",
+   "wordId": "lively",
+   "sense": 0,
+   "context": "canlı (hareketli)",
+   "note": "*lively* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "remains lively",
+    "meaning": "canlı kalıyor"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "until well after midnight",
+    "meaning": "gece yarısından epey sonrasına kadar"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "epey",
+   "note": "*well* zaman ifadelerinden önce \"epey, bir hayli\" anlamı verir: *well after midnight* → gece yarısından epey sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "until well after midnight",
+    "meaning": "gece yarısından epey sonrasına kadar"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "until well after midnight",
+    "meaning": "gece yarısından epey sonrasına kadar"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "midnight",
+   "pos": "noun",
+   "wordId": "midnight",
+   "sense": 0,
+   "context": "gece yarısı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "until well after midnight",
+    "meaning": "gece yarısından epey sonrasına kadar"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "market",
+   "pos": "noun",
+   "wordId": "market",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılmıştı)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "was originally introduced",
+    "meaning": "başlangıçta başlatılmıştı (edilgen)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "originally",
+   "pos": "adverb",
+   "wordId": "originally",
+   "sense": 0,
+   "context": "başlangıçta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "was originally introduced",
+    "meaning": "başlangıçta başlatılmıştı (edilgen)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "introduce",
+   "pos": "verb",
+   "wordId": "introduce",
+   "sense": 0,
+   "context": "başlatılmıştı (getirilmişti)",
+   "note": "*introduce*'un temel anlamı \"tanıtmak\"tır; bir uygulama ya da kural için \"getirmek, başlatmak\" demektir.",
+   "form": "introduce fiilinin 3. hali (introduced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "was originally introduced",
+    "meaning": "başlangıçta başlatılmıştı (edilgen)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to attract tourists* → turistleri çekmek için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "attract",
+   "pos": "verb",
+   "wordId": "attract",
+   "sense": 0,
+   "context": "çekmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "tourist",
+   "pos": "noun",
+   "wordId": "tourist",
+   "sense": 0,
+   "context": "turistler",
+   "note": null,
+   "form": "tourist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (pazar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": "Present perfect, geçmişte başlayıp bugüne ulaşan bir değişimi anlatır: *has become* → oldu (artık öyle).",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oldu",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "(en az) tam",
+   "note": "*just as … as* \"en az … kadar, tıpkı … kadar\" demektir; burada ikinci *as* kısmı söylenmemiştir (turistler kadar).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "just as popular with",
+    "meaning": "… arasında en az o kadar popüler"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "o kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "just as popular with",
+    "meaning": "… arasında en az o kadar popüler"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "popular",
+   "pos": "adjective",
+   "wordId": "popular",
+   "sense": 0,
+   "context": "popüler (sevilen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "just as popular with",
+    "meaning": "… arasında en az o kadar popüler"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "arasında",
+   "note": "*popular with someone* \"birileri arasında popüler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "just as popular with",
+    "meaning": "… arasında en az o kadar popüler"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "kasaba halkı (sakinler)",
+   "note": "*resident* bir yerde yaşayan \"sakin\" demektir.",
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "business",
+   "pos": "noun",
+   "wordId": "business",
+   "sense": 0,
+   "context": "işletmeler",
+   "note": "*business* \"iş, ticaret\" ve sayılabilir olunca \"işletme, şirket\" demektir.",
+   "form": "business'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *businesses that started there* → orada başlayan işletmeler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlayan",
+   "note": null,
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (dükkânları var)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "their own shops",
+    "meaning": "kendi dükkânları"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*own* iyelik sözcüğünden sonra gelir: *their own shops* → kendi dükkânları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "their own shops",
+    "meaning": "kendi dükkânları"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkânlar",
+   "note": null,
+   "form": "shop'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "their own shops",
+    "meaning": "kendi dükkânları"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (merkezde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": "*town centre* \"kasaba/şehir merkezi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "town centre",
+    "meaning": "kasaba merkezi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "centre",
+   "pos": "noun",
+   "wordId": "centre",
+   "sense": 0,
+   "context": "merkez",
+   "note": "*centre* İngiliz yazımıdır; Amerikan İngilizcesinde *center* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "town centre",
+    "meaning": "kasaba merkezi"
+   }
+  }
+ ]
+}

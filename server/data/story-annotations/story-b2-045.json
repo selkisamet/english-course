@@ -1,0 +1,1206 @@
+{
+ "storyId": "story-b2-045",
+ "textHash": "5c9ea5fe6b85",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ucuz modanın çevreye etkisinden endişe duyan bir grup öğrenci, okullarında bir kıyafet takası düzenledi."
+  },
+  {
+   "tr": "Katılımcılar yeni ürünler satın almak yerine artık giymedikleri kıyafetleri getirip farklı bir şeyle değiştirdi."
+  },
+  {
+   "tr": "Etkinlik beklenenden çok daha fazla ilgi gördü ve iki yüzden fazla kişi katıldı."
+  },
+  {
+   "tr": "Sonunda kalan kıyafetler yerel bir hayır kurumuna bağışlandı."
+  },
+  {
+   "tr": "Düzenleyiciler artık takası yılda iki kez yapıyor ve başka okulların da onları örnek almasını umuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "concerned",
+   "pos": "adjective",
+   "wordId": "concerned",
+   "sense": 0,
+   "context": "endişe duyan",
+   "note": "*concerned about something* \"bir şeyden endişeli\" demektir; cümle başındaki bu yapı özneyi (*a group of students*) niteler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "-den (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "environmental",
+   "pos": "adjective",
+   "wordId": "environmental",
+   "sense": 0,
+   "context": "çevresel",
+   "note": "*-al* eki isimden sıfat yapar: *environment* (çevre) → *environmental* (çevresel).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "environmental impact",
+    "meaning": "çevresel etki"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "impact",
+   "pos": "noun",
+   "wordId": "impact",
+   "sense": 0,
+   "context": "etki",
+   "note": "*the impact of something* \"bir şeyin etkisi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "environmental impact",
+    "meaning": "çevresel etki"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (modanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "cheap",
+   "pos": "adjective",
+   "wordId": "cheap",
+   "sense": 0,
+   "context": "ucuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "fashion",
+   "pos": "noun",
+   "wordId": "fashion",
+   "sense": 0,
+   "context": "moda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "Concerned about the environmental impact of cheap fashion",
+    "meaning": "ucuz modanın çevreye etkisinden endişe duyan"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "a group of students",
+    "meaning": "bir grup öğrenci"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup",
+   "note": "*a group of* + çoğul isim \"bir grup …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "a group of students",
+    "meaning": "bir grup öğrenci"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a group of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "a group of students",
+    "meaning": "bir grup öğrenci"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "a group of students",
+    "meaning": "bir grup öğrenci"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "organize",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenledi",
+   "note": "İngiliz yazımında *organise*, Amerikan yazımında *organize* yazılır.",
+   "form": "organise (İngiliz yazımı) + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "clothing",
+   "pos": "noun",
+   "wordId": "clothing",
+   "sense": 0,
+   "context": "kıyafet (giyim)",
+   "note": "Burada *clothing* isim olmasına rağmen *swap*'ı niteler: *clothing swap* → kıyafet takası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "clothing swap",
+    "meaning": "kıyafet takası"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "swap",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "takas",
+   "note": "*swap* \"takas, değiş tokuş\" demektir; fiil olarak da \"takas etmek\" anlamında kullanılır.",
+   "form": null,
+   "base": "takas, değiş tokuş",
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "clothing swap",
+    "meaning": "kıyafet takası"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (okullarında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "college",
+   "pos": "noun",
+   "wordId": "college",
+   "sense": 0,
+   "context": "okul (kolej)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "Instead of buying",
+    "meaning": "satın almak yerine"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "Instead of buying",
+    "meaning": "satın almak yerine"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "satın almak",
+   "note": null,
+   "form": "buy + -ing",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "Instead of buying",
+    "meaning": "satın almak yerine"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "item",
+   "pos": "noun",
+   "wordId": "item",
+   "sense": 0,
+   "context": "ürünler (parçalar)",
+   "note": null,
+   "form": "item'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "participant",
+   "pos": "noun",
+   "wordId": "participant",
+   "sense": 0,
+   "context": "katılımcılar",
+   "note": null,
+   "form": "participant'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdiler",
+   "note": null,
+   "form": "bring fiilinin geçmiş zaman hali (brought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": "*clothes* her zaman çoğuldur; tekil hali yoktur. İsimden sonra *that* düşebilir: *clothes (that) they no longer wore*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir ve fiilden önce gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "no longer wore",
+    "meaning": "artık giymiyorlardı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "no longer wore",
+    "meaning": "artık giymiyorlardı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "wear",
+   "pos": "verb",
+   "wordId": "wear",
+   "sense": 0,
+   "context": "giymedikleri",
+   "note": null,
+   "form": "wear fiilinin geçmiş zaman hali (wore, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "no longer wore",
+    "meaning": "artık giymiyorlardı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "exchange",
+   "pos": "verb",
+   "wordId": "exchange",
+   "sense": 1,
+   "context": "değiştirdiler (takas ettiler)",
+   "note": "*exchange something for something* \"bir şeyi başka bir şeyle değiştirmek\" demektir.",
+   "form": "exchange + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "exchanged them for",
+    "meaning": "onları … ile değiştirdiler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "exchanged them for",
+    "meaning": "onları … ile değiştirdiler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "ile (karşılığında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "exchanged them for",
+    "meaning": "onları … ile değiştirdiler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": "Sıfat *something*'den sonra gelir: *something different* → farklı bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "etkinlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "far more popular than expected",
+    "meaning": "beklenenden çok daha popüler"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "far more popular than expected",
+    "meaning": "beklenenden çok daha popüler"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "popular",
+   "pos": "adjective",
+   "wordId": "popular",
+   "sense": 0,
+   "context": "popüler (ilgi gören)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "far more popular than expected",
+    "meaning": "beklenenden çok daha popüler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "far more popular than expected",
+    "meaning": "beklenenden çok daha popüler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "beklenen",
+   "note": "*than expected* \"beklenenden\" demektir.",
+   "form": "expect fiilinin 3. hali (expected, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 44,
+    "text": "far more popular than expected",
+    "meaning": "beklenenden çok daha popüler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "-den fazla",
+   "note": "*over* sayılardan önce \"-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "over two hundred",
+    "meaning": "iki yüzden fazla"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "over two hundred",
+    "meaning": "iki yüzden fazla"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüz",
+   "note": "*two hundred* \"iki yüz\" demektir; *hundred* burada çoğul eki almaz (✗ two hundreds).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "over two hundred",
+    "meaning": "iki yüzden fazla"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "attend",
+   "pos": "verb",
+   "wordId": "attend",
+   "sense": 0,
+   "context": "katıldı",
+   "note": "*attend an event* \"bir etkinliğe katılmak\" demektir; *to* almaz.",
+   "form": "attend + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "(herhangi bir)",
+   "note": "*any* olumlu cümlede \"hangisi olursa olsun, ne kadar varsa\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kalan",
+   "note": null,
+   "form": "remain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at the end: sonunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "at the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ldı)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "were donated",
+    "meaning": "bağışlandı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "donate",
+   "pos": "verb",
+   "wordId": "donate",
+   "sense": 0,
+   "context": "bağışlandı",
+   "note": null,
+   "form": "donate fiilinin 3. hali (donated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "were donated",
+    "meaning": "bağışlandı"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kuruma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "charity",
+   "pos": "noun",
+   "wordId": "charity",
+   "sense": 0,
+   "context": "hayır kurumu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "organizer",
+   "pos": "noun",
+   "wordId": "organizer",
+   "sense": 0,
+   "context": "düzenleyiciler",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *organise* → *organiser*.",
+   "form": "organiser (İngiliz yazımı)'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "yapıyor (düzenliyor)",
+   "note": "*hold an event* \"bir etkinlik düzenlemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "swap",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "takas",
+   "note": null,
+   "form": null,
+   "base": "takas, değiş tokuş",
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "twice",
+   "pos": "adverb",
+   "wordId": "twice",
+   "sense": 0,
+   "context": "iki kez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "twice a year",
+    "meaning": "yılda iki kez"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (yılda)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir: *twice a year* → yılda iki kez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "twice a year",
+    "meaning": "yılda iki kez"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "twice a year",
+    "meaning": "yılda iki kez"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "hope",
+   "pos": "verb",
+   "wordId": "hope",
+   "sense": 0,
+   "context": "umuyor",
+   "note": null,
+   "form": "hope (çoğul, geniş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka (diğer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "college",
+   "pos": "noun",
+   "wordId": "college",
+   "sense": 0,
+   "context": "okullar",
+   "note": null,
+   "form": "college'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*hope (that)* + *will* gelecekte olması umulan bir şeyi anlatır; *that* düşmüştür.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "follow",
+   "pos": "verb",
+   "wordId": "follow",
+   "sense": 0,
+   "context": "(örnek) almak",
+   "note": "*follow someone's example* \"birini örnek almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "follow their example",
+    "meaning": "onları örnek almak"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "follow their example",
+    "meaning": "onları örnek almak"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "example",
+   "pos": "noun",
+   "wordId": "example",
+   "sense": 0,
+   "context": "örnek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 80,
+    "text": "follow their example",
+    "meaning": "onları örnek almak"
+   }
+  }
+ ]
+}

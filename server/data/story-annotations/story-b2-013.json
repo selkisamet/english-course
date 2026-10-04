@@ -1,0 +1,1171 @@
+{
+ "storyId": "story-b2-013",
+ "textHash": "b653fff1a995",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tom doğrudan üniversiteye gitmek yerine bir yıl ara vermeye karar verdi."
+  },
+  {
+   "tr": "İlk altı ayı para biriktirmek için bir süpermarkette çalışarak geçirdi, ardından Güney Amerika'yı baştan başa gezdi."
+  },
+  {
+   "tr": "Organik bir çiftlikte gönüllü çalıştı, temel düzeyde İspanyolca öğrendi ve çok farklı yaşam tarzlarına sahip insanlarla tanıştı."
+  },
+  {
+   "tr": "Anne babası okumaya olan ilgisini kaybedeceğinden endişe etmişti."
+  },
+  {
+   "tr": "Aslında tam tersi oldu: ne okumak istediğine ve nedenine dair çok daha net bir fikirle döndü."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir: *instead of going* → gitmek yerine.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Instead of going",
+    "meaning": "gitmek yerine"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of: yerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Instead of going",
+    "meaning": "gitmek yerine"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitmek",
+   "note": null,
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "going straight to university",
+    "meaning": "doğrudan üniversiteye gitmek"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "straight",
+   "pos": "adverb",
+   "wordId": "straight",
+   "sense": 0,
+   "context": "doğrudan (doğruca)",
+   "note": "*straight* zarf olarak \"doğruca, hemen, arada bir şey olmadan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "going straight to university",
+    "meaning": "doğrudan üniversiteye gitmek"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (üniversiteye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "going straight to university",
+    "meaning": "doğrudan üniversiteye gitmek"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": "*go to university* \"üniversiteye gitmek, üniversitede okumak\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "going straight to university",
+    "meaning": "doğrudan üniversiteye gitmek"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(take off: ara vermek)",
+   "note": "*take time off* \"işe ya da okula ara vermek, izin almak\" demektir: *take a year off* → bir yıl ara vermek. Bu tür yıla *gap year* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "take a year off",
+    "meaning": "bir yıl ara vermek"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "take a year off",
+    "meaning": "bir yıl ara vermek"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "take a year off",
+    "meaning": "bir yıl ara vermek"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "off",
+   "pos": "adverb",
+   "wordId": "off",
+   "sense": 0,
+   "context": "(izin, ara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "take a year off",
+    "meaning": "bir yıl ara vermek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdi",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Sıra sayılarından önce *the* kullanılır: *the first six months* → ilk altı ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışarak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 19,
+    "text": "spent the first six months working",
+    "meaning": "ilk altı ayı çalışarak geçirdi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (süpermarkette)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "supermarket",
+   "pos": "noun",
+   "wordId": "supermarket",
+   "sense": 0,
+   "context": "süpermarket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to save money* → para biriktirmek için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "ardından (sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "gezdi (seyahat etti)",
+   "note": "*travelled* İngiliz yazımıdır (l ikilenir); Amerikan İngilizcesinde *traveled* yazılır.",
+   "form": "travel + -ed (geçmiş zaman, l ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "travelled across South America",
+    "meaning": "Güney Amerika'yı baştan başa gezdi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "across",
+   "pos": "preposition",
+   "wordId": "across",
+   "sense": 0,
+   "context": "baştan başa",
+   "note": "*travel across a place* \"bir yeri baştan başa, bir uçtan öbür uca gezmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "travelled across South America",
+    "meaning": "Güney Amerika'yı baştan başa gezdi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "South",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Güney",
+   "note": "*south* \"güney\" demektir; yer adının parçası olunca büyük harfle yazılır.",
+   "form": null,
+   "base": "(yer adının parçası)",
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "travelled across South America",
+    "meaning": "Güney Amerika'yı baştan başa gezdi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "America",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Amerika",
+   "note": null,
+   "form": null,
+   "base": "(kıta adı)",
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "travelled across South America",
+    "meaning": "Güney Amerika'yı baştan başa gezdi"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "volunteer",
+   "pos": "verb",
+   "wordId": "volunteer",
+   "sense": 1,
+   "context": "gönüllü çalıştı",
+   "note": null,
+   "form": "volunteer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (çiftlikte)",
+   "note": "Çiftlikler için *on* kullanılır: *on a farm* → bir çiftlikte.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an organic farm*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "organic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "organik",
+   "note": null,
+   "form": null,
+   "base": "organik",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "farm",
+   "pos": "noun",
+   "wordId": "farm",
+   "sense": 0,
+   "context": "çiftlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrendi",
+   "note": "*learned* Amerikan, *learnt* İngiliz İngilizcesinde daha yaygındır; ikisi de doğrudur.",
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "basic",
+   "pos": "adjective",
+   "wordId": "basic",
+   "sense": 0,
+   "context": "temel (düzeyde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "Spanish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İspanyolca",
+   "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": "İspanyolca; İspanyol",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanıştı",
+   "note": null,
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (sahip)",
+   "note": "*people with different lifestyles* \"farklı yaşam tarzlarına sahip insanlar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "lifestyle",
+   "pos": "noun",
+   "wordId": "lifestyle",
+   "sense": 0,
+   "context": "yaşam tarzları",
+   "note": null,
+   "form": "lifestyle'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": null,
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been* (past perfect) Tom dönmeden önceki durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "had been worried",
+    "meaning": "endişe etmişti"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "had been worried",
+    "meaning": "endişe etmişti"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "worried",
+   "pos": "adjective",
+   "wordId": "worried",
+   "sense": 0,
+   "context": "endişeli",
+   "note": "*be worried that…* \"… -eceğinden endişe etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "had been worried",
+    "meaning": "endişe etmişti"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olabilecek bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "lose interest in studying",
+    "meaning": "okumaya olan ilgisini kaybetmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "interest",
+   "pos": "noun",
+   "wordId": "interest",
+   "sense": 0,
+   "context": "ilgi",
+   "note": "*interest in something* \"bir şeye ilgi\" demektir; *lose interest* \"ilgisini kaybetmek\"tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "lose interest in studying",
+    "meaning": "okumaya olan ilgisini kaybetmek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (okumaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "lose interest in studying",
+    "meaning": "okumaya olan ilgisini kaybetmek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "okumak (öğrenim)",
+   "note": "Edattan sonra fiil *-ing* alır: *interest in studying*.",
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "lose interest in studying",
+    "meaning": "okumaya olan ilgisini kaybetmek"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in fact: aslında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "In fact",
+    "meaning": "aslında, gerçekte"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "fact",
+   "pos": "noun",
+   "wordId": "fact",
+   "sense": 0,
+   "context": "gerçek",
+   "note": "*in fact* \"aslında, gerçekte\" demektir; beklenenin tersini ya da daha fazlasını vurgular.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "In fact",
+    "meaning": "aslında, gerçekte"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "the opposite happened",
+    "meaning": "tam tersi oldu"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "opposite",
+   "pos": "noun",
+   "wordId": "opposite",
+   "sense": 1,
+   "context": "(tam) tersi",
+   "note": "*the opposite* \"tam tersi, zıddı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "the opposite happened",
+    "meaning": "tam tersi oldu"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "happen",
+   "pos": "verb",
+   "wordId": "happen",
+   "sense": 0,
+   "context": "oldu",
+   "note": null,
+   "form": "happen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "the opposite happened",
+    "meaning": "tam tersi oldu"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "döndü",
+   "note": null,
+   "form": "return + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "a much clearer idea",
+    "meaning": "çok daha net bir fikir"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "clear",
+   "pos": "adjective",
+   "wordId": "clear",
+   "sense": 0,
+   "context": "daha net (açık)",
+   "note": null,
+   "form": "clear sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "a much clearer idea",
+    "meaning": "çok daha net bir fikir"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "a much clearer idea",
+    "meaning": "çok daha net bir fikir"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-e dair (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "ne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istediği",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (okumak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "okumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "why",
+   "pos": "adverb",
+   "wordId": "why",
+   "sense": 0,
+   "context": "neden",
+   "note": "Cümle sonunda tek başına *why* \"(ve) nedenini\" anlamında kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

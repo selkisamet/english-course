@@ -1,0 +1,1226 @@
+{
+ "storyId": "story-b2-012",
+ "textHash": "563cc719cf60",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Şehirde artan kiralar, Julia ile partnerini alışılmadık bir şey denemeye ikna etti: amcasına ait bir arazi parçasının üzerine minicik bir ev yaptılar."
+  },
+  {
+   "tr": "Ev yalnızca yirmi metrekare, bu yüzden eşyalarının çoğundan kurtulmak zorunda kaldılar."
+  },
+  {
+   "tr": "İlk başta bu kadar küçük bir alana alışmakta zorlandılar."
+  },
+  {
+   "tr": "Ancak daha az eşyaya sahip olmanın aslında kendilerini daha özgür hissettirdiğini yavaş yavaş keşfettiler."
+  },
+  {
+   "tr": "Artık çok daha az para harcıyor ve açık havada çok daha fazla zaman geçiriyorlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "rise",
+   "pos": "verb",
+   "wordId": "rise",
+   "sense": 0,
+   "context": "artan (yükselen)",
+   "note": "*-ing* almış fiil isimden önce sıfat gibi kullanılabilir: *rising rents* → artan kiralar.",
+   "form": "rise + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Rising rents",
+    "meaning": "artan kiralar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "rent",
+   "pos": "noun",
+   "wordId": "rent",
+   "sense": 0,
+   "context": "kiralar",
+   "note": null,
+   "form": "rent'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Rising rents",
+    "meaning": "artan kiralar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "convince",
+   "pos": "verb",
+   "wordId": "convince",
+   "sense": 0,
+   "context": "ikna etti",
+   "note": "*convince someone to do something* \"birini bir şey yapmaya ikna etmek\" demektir.",
+   "form": "convince + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "Julia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Julia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "partner",
+   "pos": "noun",
+   "wordId": "partner",
+   "sense": 0,
+   "context": "partner (hayat arkadaşı)",
+   "note": "*partner* evli olsun olmasın birlikte yaşanan \"hayat arkadaşı\"nı ya da iş \"ortağı\"nı anlatabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (denemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 11,
+    "text": "convinced Julia and her partner to try",
+    "meaning": "Julia ile partnerini denemeye ikna etti"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": "Sıfat *something*'den sonra gelir: *something unusual* → alışılmadık bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "something unusual",
+    "meaning": "alışılmadık bir şey"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "unusual",
+   "pos": "adjective",
+   "wordId": "unusual",
+   "sense": 0,
+   "context": "alışılmadık",
+   "note": "İki nokta (:) sonrasında gelen cümle, önceki ifadeyi açıklar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "something unusual",
+    "meaning": "alışılmadık bir şey"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "build",
+   "pos": "verb",
+   "wordId": "build",
+   "sense": 0,
+   "context": "yaptılar (inşa ettiler)",
+   "note": null,
+   "form": "build fiilinin geçmiş zaman hali (built, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a tiny house",
+    "meaning": "minicik bir ev"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "tiny",
+   "pos": "adjective",
+   "wordId": "tiny",
+   "sense": 0,
+   "context": "minicik",
+   "note": "*tiny* \"çok küçük, minicik\" demektir; *small*'dan daha güçlüdür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a tiny house",
+    "meaning": "minicik bir ev"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "a tiny house",
+    "meaning": "minicik bir ev"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "a piece of land",
+    "meaning": "bir arazi parçası"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "piece",
+   "pos": "noun",
+   "wordId": "piece",
+   "sense": 0,
+   "context": "parça",
+   "note": "*a piece of land* \"bir arazi parçası\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "a piece of land",
+    "meaning": "bir arazi parçası"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a piece of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "a piece of land",
+    "meaning": "bir arazi parçası"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "land",
+   "pos": "noun",
+   "wordId": "land",
+   "sense": 0,
+   "context": "arazi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "a piece of land",
+    "meaning": "bir arazi parçası"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "own",
+   "pos": "verb",
+   "wordId": "own",
+   "sense": 2,
+   "context": "ait (sahip olunan)",
+   "note": "Fiilin 3. hali isimden sonra edilgen anlamda sıfat gibi kullanılabilir: *land owned by her uncle* → amcasının sahip olduğu arazi.",
+   "form": "own fiilinin 3. hali (owned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "owned by her uncle",
+    "meaning": "amcasına ait"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": "Edilgen yapılarda işi yapanı *by* gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "owned by her uncle",
+    "meaning": "amcasına ait"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "owned by her uncle",
+    "meaning": "amcasına ait"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "uncle",
+   "pos": "noun",
+   "wordId": "uncle",
+   "sense": 0,
+   "context": "amca (dayı)",
+   "note": "*uncle* hem \"amca\" hem \"dayı\" demektir; İngilizcede ayrım yapılmaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "owned by her uncle",
+    "meaning": "amcasına ait"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "twenty square metres",
+    "meaning": "yirmi metrekare"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "square",
+   "pos": "adjective",
+   "wordId": "square",
+   "sense": 0,
+   "context": "kare",
+   "note": "Ölçü birimlerinde *square* \"kare\" demektir: *square metre* → metrekare.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "twenty square metres",
+    "meaning": "yirmi metrekare"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "metre",
+   "pos": "noun",
+   "wordId": "metre",
+   "sense": 0,
+   "context": "metre",
+   "note": "*metre* İngiliz yazımıdır; Amerikan İngilizcesinde *meter* yazılır.",
+   "form": "metre'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "twenty square metres",
+    "meaning": "yirmi metrekare"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldılar (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 41,
+    "text": "had to get rid of",
+    "meaning": "-den kurtulmak zorunda kaldılar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 41,
+    "text": "had to get rid of",
+    "meaning": "-den kurtulmak zorunda kaldılar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "(get rid of: kurtulmak)",
+   "note": "*get rid of something* \"bir şeyden kurtulmak, bir şeyi elden çıkarmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 41,
+    "text": "had to get rid of",
+    "meaning": "-den kurtulmak zorunda kaldılar"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "rid",
+   "pos": "verb",
+   "wordId": "rid",
+   "sense": 0,
+   "context": "kurtulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 41,
+    "text": "had to get rid of",
+    "meaning": "-den kurtulmak zorunda kaldılar"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 41,
+    "text": "had to get rid of",
+    "meaning": "-den kurtulmak zorunda kaldılar"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*most of* + belirli bir grup \"…-in çoğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "belongings",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "eşyalar",
+   "note": "*belongings* bir kişiye ait \"eşyalar\"dır ve hep çoğul kullanılır; *belong to* (-e ait olmak) fiilinden türemiştir.",
+   "form": null,
+   "base": "kişisel eşyalar",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir (burada *However* ile).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "zorlandılar",
+   "note": "*struggle to do something* \"bir şeyi yapmakta zorlanmak\" demektir.",
+   "form": "struggle + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "struggled to adjust to",
+    "meaning": "-e alışmakta zorlandılar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (alışmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "struggled to adjust to",
+    "meaning": "-e alışmakta zorlandılar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "adjust",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "alışmak (uyum sağlamak)",
+   "note": "*adjust to something* \"bir şeye alışmak, uyum sağlamak\" demektir.",
+   "form": null,
+   "base": "uyum sağlamak; ayarlamak",
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "struggled to adjust to",
+    "meaning": "-e alışmakta zorlandılar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (alana)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "struggled to adjust to",
+    "meaning": "-e alışmakta zorlandılar"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu kadar (öyle)",
+   "note": "*such a* + sıfat + isim \"bu kadar … bir …\" demektir: *such a small space* → bu kadar küçük bir alan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "such a small space",
+    "meaning": "bu kadar küçük bir alan"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "such a small space",
+    "meaning": "bu kadar küçük bir alan"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "such a small space",
+    "meaning": "bu kadar küçük bir alan"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "alan (yer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "such a small space",
+    "meaning": "bu kadar küçük bir alan"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfettiler",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "own",
+   "pos": "verb",
+   "wordId": "own",
+   "sense": 2,
+   "context": "sahip olmak",
+   "note": "*-ing* almış fiil isim gibi kullanılıp cümlenin öznesi olabilir: *owning fewer things* → daha az şeye sahip olmak.",
+   "form": "own + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "daha az",
+   "note": "*fewer* sayılabilen isimlerle, *less* sayılamayanlarla kullanılır: *fewer things*, *less money*.",
+   "form": "few'ın karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şeyler (eşya)",
+   "note": null,
+   "form": "thing'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "actually",
+   "pos": "adverb",
+   "wordId": "actually",
+   "sense": 0,
+   "context": "aslında",
+   "note": "*actually* \"aslında, gerçekte\" demektir; \"şu anda\" anlamına gelmez (o *currently*'dir).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "(hissettirdi)",
+   "note": "*make someone do something* \"birine bir şey yaptırmak\" demektir; ikinci fiil yalın kalır: *made them feel* → onlara hissettirdi.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "made them feel freer",
+    "meaning": "onları daha özgür hissettirdi"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "made them feel freer",
+    "meaning": "onları daha özgür hissettirdi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "made them feel freer",
+    "meaning": "onları daha özgür hissettirdi"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "daha özgür",
+   "note": "*free*'nin \"ücretsiz\" anlamı yanında \"özgür, serbest\" anlamı da vardır.",
+   "form": "free sıfatının karşılaştırma hali (-r)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 69,
+    "text": "made them feel freer",
+    "meaning": "onları daha özgür hissettirdi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "harcıyorlar (geçiriyorlar)",
+   "note": "*spend* hem para \"harcamak\" hem zaman \"geçirmek\" demektir; bu cümlede ikisi birden kullanılmıştır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "far less",
+    "meaning": "çok daha az"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "less",
+   "pos": "determiner",
+   "wordId": "less",
+   "sense": 0,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "far less",
+    "meaning": "çok daha az"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "much more",
+    "meaning": "çok daha fazla"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "much more",
+    "meaning": "çok daha fazla"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "outdoors",
+   "pos": "adverb",
+   "wordId": "outdoors",
+   "sense": 0,
+   "context": "açık havada (dışarıda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

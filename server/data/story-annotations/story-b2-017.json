@@ -1,0 +1,1204 @@
+{
+ "storyId": "story-b2-017",
+ "textHash": "2e0b1e6ce776",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Küçük bir mobilya şirketi ürünlerini Japonya'da piyasaya sürmeye hazırlanıyordu."
+  },
+  {
+   "tr": "Para tasarrufu yapmak için müdür, profesyonel bir çevirmen tutmak yerine talimatları çevirmek için ücretsiz bir çevrimiçi araç kullandı."
+  },
+  {
+   "tr": "Ne yazık ki birkaç cümle o kadar kötü çevrildi ki müşteriler mobilyayı nasıl kuracaklarını anlayamadı."
+  },
+  {
+   "tr": "Bir hafta içinde onlarca şikâyet geldi ve şirket yeni talimatlar basmak zorunda kaldı."
+  },
+  {
+   "tr": "Sonunda bu hata onlara profesyonel bir çevirinin tutacağından çok daha pahalıya mal oldu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "furniture",
+   "pos": "noun",
+   "wordId": "furniture",
+   "sense": 0,
+   "context": "mobilya",
+   "note": "*furniture* sayılamaz: *a furniture* ya da *furnitures* denmez; tek bir eşya için *a piece of furniture* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "furniture company",
+    "meaning": "mobilya şirketi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "furniture company",
+    "meaning": "mobilya şirketi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "was preparing to launch",
+    "meaning": "piyasaya sürmeye hazırlanıyordu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "prepare",
+   "pos": "verb",
+   "wordId": "prepare",
+   "sense": 0,
+   "context": "hazırlanıyordu",
+   "note": "*prepare to do something* \"bir şeyi yapmaya hazırlanmak\" demektir.",
+   "form": "prepare + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "was preparing to launch",
+    "meaning": "piyasaya sürmeye hazırlanıyordu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (sürmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "was preparing to launch",
+    "meaning": "piyasaya sürmeye hazırlanıyordu"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "launch",
+   "pos": "verb",
+   "wordId": "launch",
+   "sense": 0,
+   "context": "piyasaya sürmek",
+   "note": "*launch* \"başlatmak, fırlatmak\" demektir; ürünler için \"piyasaya sürmek\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "was preparing to launch",
+    "meaning": "piyasaya sürmeye hazırlanıyordu"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (şirketin)",
+   "note": "*its* (kesme işaretsiz) iyelik bildirir; *it's* ise *it is*'in kısaltmasıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "product",
+   "pos": "noun",
+   "wordId": "product",
+   "sense": 0,
+   "context": "ürünler",
+   "note": null,
+   "form": "product'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Japonya'da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "Japan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Japonya",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "Cümle başındaki *To* + fiil amaç bildirir: *To save money,* → para tasarrufu yapmak için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "To save money",
+    "meaning": "para tasarrufu yapmak için"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "tasarruf etmek (biriktirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "To save money",
+    "meaning": "para tasarrufu yapmak için"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "To save money",
+    "meaning": "para tasarrufu yapmak için"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "müdür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullandı",
+   "note": null,
+   "form": "use + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "ücretsiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "online",
+   "pos": "adjective",
+   "wordId": "online",
+   "sense": 0,
+   "context": "çevrimiçi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "online tool",
+    "meaning": "çevrimiçi araç"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "tool",
+   "pos": "noun",
+   "wordId": "tool",
+   "sense": 0,
+   "context": "araç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "online tool",
+    "meaning": "çevrimiçi araç"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "translate",
+   "pos": "verb",
+   "wordId": "translate",
+   "sense": 0,
+   "context": "çevirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "instruction",
+   "pos": "noun",
+   "wordId": "instruction",
+   "sense": 0,
+   "context": "talimatlar (kullanım kılavuzu)",
+   "note": "*instructions* çoğul olarak bir ürünün \"kullanım talimatları\"nı anlatır.",
+   "form": "instruction'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "instead of hiring",
+    "meaning": "tutmak (işe almak) yerine"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "instead of hiring",
+    "meaning": "tutmak (işe almak) yerine"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "hire",
+   "pos": "verb",
+   "wordId": "hire",
+   "sense": 0,
+   "context": "tutmak (işe almak)",
+   "note": "*hire* \"kiralamak\" ve \"(bir iş için birini) tutmak, işe almak\" demektir.",
+   "form": "hire + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "instead of hiring",
+    "meaning": "tutmak (işe almak) yerine"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "professional",
+   "pos": "adjective",
+   "wordId": "professional",
+   "sense": 0,
+   "context": "profesyonel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "translator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çevirmen",
+   "note": "*-or* eki fiilden \"yapan kişi\" anlamında isim yapar: *translate* (çevirmek) → *translator* (çevirmen).",
+   "form": null,
+   "base": "çevirmen",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "unfortunately",
+   "pos": "adverb",
+   "wordId": "unfortunately",
+   "sense": 0,
+   "context": "ne yazık ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "sentence",
+   "pos": "noun",
+   "wordId": "sentence",
+   "sense": 0,
+   "context": "cümleler",
+   "note": null,
+   "form": "sentence'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur: *were translated* → çevrildi.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "were translated",
+    "meaning": "çevrildi (edilgen)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "translate",
+   "pos": "verb",
+   "wordId": "translate",
+   "sense": 0,
+   "context": "çevrildi",
+   "note": null,
+   "form": "translate fiilinin 3. hali (translated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "were translated",
+    "meaning": "çevrildi (edilgen)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*so* + zarf/sıfat + *that* … \"o kadar … ki …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "so badly that",
+    "meaning": "o kadar kötü ki"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "badly",
+   "pos": "adverb",
+   "wordId": "badly",
+   "sense": 0,
+   "context": "kötü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "so badly that",
+    "meaning": "o kadar kötü ki"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "so badly that",
+    "meaning": "o kadar kötü ki"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-amadı)",
+   "note": "*could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to* + fiil \"nasıl …-ileceği\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (kurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "kurmak (put together)",
+   "note": "*put something together* parçaları birleştirerek \"kurmak, monte etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "put the furniture together",
+    "meaning": "mobilyayı kurmak (put together)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "put the furniture together",
+    "meaning": "mobilyayı kurmak (put together)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "furniture",
+   "pos": "noun",
+   "wordId": "furniture",
+   "sense": 0,
+   "context": "mobilya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "put the furniture together",
+    "meaning": "mobilyayı kurmak (put together)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "(put together: kurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "put the furniture together",
+    "meaning": "mobilyayı kurmak (put together)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "dozen",
+   "pos": "determiner",
+   "wordId": "dozen",
+   "sense": 1,
+   "context": "onlarca",
+   "note": "*a dozen* \"bir düzine (12)\" demektir; *dozens of* ise \"onlarca\" anlamındadır.",
+   "form": "dozen'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "Dozens of",
+    "meaning": "onlarca"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(dozens of: onlarca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "Dozens of",
+    "meaning": "onlarca"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "complaint",
+   "pos": "noun",
+   "wordId": "complaint",
+   "sense": 0,
+   "context": "şikâyetler",
+   "note": null,
+   "form": "complaint'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": "*within* + süre \"… içinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldı (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "had to print",
+    "meaning": "basmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (basmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "had to print",
+    "meaning": "basmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "print",
+   "pos": "verb",
+   "wordId": "print",
+   "sense": 0,
+   "context": "basmak (yazdırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "had to print",
+    "meaning": "basmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "instruction",
+   "pos": "noun",
+   "wordId": "instruction",
+   "sense": 0,
+   "context": "talimatlar",
+   "note": null,
+   "form": "instruction'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in the end: sonunda)",
+   "note": "*in the end* \"sonunda, en sonunda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "mal oldu",
+   "note": "*cost someone* + miktar \"birine … -e mal olmak\" demektir; geçmiş zaman hali de *cost*'tur.",
+   "form": "cost fiilinin geçmiş zaman hali (cost, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "cost them far more",
+    "meaning": "onlara çok daha pahalıya mal oldu"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "cost them far more",
+    "meaning": "onlara çok daha pahalıya mal oldu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir: *far more* → çok daha fazla.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "cost them far more",
+    "meaning": "onlara çok daha pahalıya mal oldu"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazlası (daha pahalı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "cost them far more",
+    "meaning": "onlara çok daha pahalıya mal oldu"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "professional",
+   "pos": "adjective",
+   "wordId": "professional",
+   "sense": 0,
+   "context": "profesyonel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "translation",
+   "pos": "noun",
+   "wordId": "translation",
+   "sense": 0,
+   "context": "çeviri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-acağından)",
+   "note": "*would have* burada *would have cost them* ifadesinin kısaltılmış halidir; gerçekleşmemiş bir durumu anlatır: profesyonel çeviri yaptırsalardı tutacak olan para.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş olacak)",
+   "note": null,
+   "form": "have (would have yapısında yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 79,
+    "text": "than a professional translation would have",
+    "meaning": "profesyonel bir çevirinin tutacağından"
+   }
+  }
+ ]
+}

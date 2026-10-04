@@ -1,0 +1,1143 @@
+{
+ "storyId": "story-b2-036",
+ "textHash": "6593ddd959f8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir pazar sabahı erkenden bir güvenlik görevlisi, küçük ama değerli bir tablonun şehir müzesinden kaybolduğunu fark etti."
+  },
+  {
+   "tr": "Kimsenin zorla içeri girdiğine dair bir iz yoktu, bu yüzden polis müzenin içinden birinin olaya karıştığından şüphelendi."
+  },
+  {
+   "tr": "Güvenlik kameralarının kayıtlarını inceledikten sonra, tabloyu arabasına saklamış olan bir temizlik görevlisini tutukladılar."
+  },
+  {
+   "tr": "Tablo hasarsız olarak geri verildi ve müze o zamandan beri yeni bir alarm sistemi kurdu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "early",
+   "pos": "adverb",
+   "wordId": "early",
+   "sense": 1,
+   "context": "erken(den)",
+   "note": "*early one morning* \"bir sabah erkenden\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Early one Sunday morning",
+    "meaning": "bir pazar sabahı erkenden"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*one Sunday morning* \"bir pazar sabahı\" demektir; geçmişte belirsiz bir günü anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Early one Sunday morning",
+    "meaning": "bir pazar sabahı erkenden"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Sunday",
+   "pos": "noun",
+   "wordId": "sunday",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Early one Sunday morning",
+    "meaning": "bir pazar sabahı erkenden"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Early one Sunday morning",
+    "meaning": "bir pazar sabahı erkenden"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "security",
+   "pos": "noun",
+   "wordId": "security",
+   "sense": 0,
+   "context": "güvenlik",
+   "note": "Burada *security* isim olmasına rağmen *guard*'ı niteler: *security guard* → güvenlik görevlisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "security guard",
+    "meaning": "güvenlik görevlisi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "guard",
+   "pos": "noun",
+   "wordId": "guard",
+   "sense": 0,
+   "context": "görevli (bekçi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "security guard",
+    "meaning": "güvenlik görevlisi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "fark etti (keşfetti)",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "valuable",
+   "pos": "adjective",
+   "wordId": "valuable",
+   "sense": 0,
+   "context": "değerli",
+   "note": "*-able* eki isimden sıfat yapar: *value* (değer) → *valuable* (değerli).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "tablo",
+   "note": "*painting* \"tablo, resim\" ve \"resim yapma\" demektir; burada sanat eseridir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "was missing from",
+    "meaning": "-den kaybolmuştu"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "missing",
+   "pos": "adjective",
+   "wordId": "missing",
+   "sense": 0,
+   "context": "kayıp",
+   "note": "*be missing from* \"-den eksik, kayıp olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "was missing from",
+    "meaning": "-den kaybolmuştu"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (müzeden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "was missing from",
+    "meaning": "-den kaybolmuştu"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": "Burada *city* isim olmasına rağmen *museum*'u niteler: *city museum* → şehir müzesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": "*there was no* + isim \"hiç … yoktu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(yoktu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç (yoktu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "sign",
+   "pos": "noun",
+   "wordId": "sign",
+   "sense": 0,
+   "context": "iz (belirti)",
+   "note": "*sign* \"işaret, tabela\" ve \"belirti, iz\" demektir: *no sign that…* → … olduğuna dair iz yok.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğine dair)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "anyone",
+   "pos": "pronoun",
+   "wordId": "anyone",
+   "sense": 0,
+   "context": "kimse(nin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diğine)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "There was no sign that anyone had broken in",
+    "meaning": "kimsenin zorla girdiğine dair iz yoktu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "break",
+   "pos": "verb",
+   "wordId": "break",
+   "sense": 0,
+   "context": "zorla girmiş",
+   "note": "*break in* bir binaya \"zorla girmek\" demektir; hırsızlık bağlamında kullanılır.",
+   "form": "break fiilinin 3. hali (broken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "broken in",
+    "meaning": "zorla girmiş (break in)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "in",
+   "pos": "adverb",
+   "wordId": "in",
+   "sense": 1,
+   "context": "(break in: zorla girmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "broken in",
+    "meaning": "zorla girmiş (break in)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the police* kurum olarak \"polis\"tir ve çoğul fiil alır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "police",
+   "pos": "noun",
+   "wordId": "police",
+   "sense": 0,
+   "context": "polis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "suspect",
+   "pos": "verb",
+   "wordId": "suspect",
+   "sense": 0,
+   "context": "şüphelendi",
+   "note": "*suspect that…* \"… olduğundan şüphelenmek\" demektir.",
+   "form": "suspect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğundan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "inside",
+   "pos": "preposition",
+   "wordId": "inside",
+   "sense": 0,
+   "context": "içinden (içindeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "had been involved",
+    "meaning": "olaya karışmıştı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "had been involved",
+    "meaning": "olaya karışmıştı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "involved",
+   "pos": "adjective",
+   "wordId": "involved",
+   "sense": 0,
+   "context": "karışmış (dahil)",
+   "note": "*be involved (in something)* \"bir işe karışmak, dahil olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "had been involved",
+    "meaning": "olaya karışmıştı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "*after* + *-ing* \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "After examining",
+    "meaning": "inceledikten sonra"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "examine",
+   "pos": "verb",
+   "wordId": "examine",
+   "sense": 0,
+   "context": "incelemek",
+   "note": null,
+   "form": "examine + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "After examining",
+    "meaning": "inceledikten sonra"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "recording",
+   "pos": "noun",
+   "wordId": "recording",
+   "sense": 0,
+   "context": "kayıtlar",
+   "note": null,
+   "form": "recording'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-in (kameraların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "the security cameras",
+    "meaning": "güvenlik kameraları"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "security",
+   "pos": "noun",
+   "wordId": "security",
+   "sense": 0,
+   "context": "güvenlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "the security cameras",
+    "meaning": "güvenlik kameraları"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "camera",
+   "pos": "noun",
+   "wordId": "camera",
+   "sense": 0,
+   "context": "kameralar",
+   "note": null,
+   "form": "camera'nın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "the security cameras",
+    "meaning": "güvenlik kameraları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (polis)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "arrest",
+   "pos": "verb",
+   "wordId": "arrest",
+   "sense": 0,
+   "context": "tutukladılar",
+   "note": null,
+   "form": "arrest + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "cleaner",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "temizlik görevlisi",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *clean* (temizlemek) → *cleaner* (temizlikçi).",
+   "form": null,
+   "base": "temizlikçi, temizlik görevlisi",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklamış",
+   "note": null,
+   "form": "hide fiilinin 3. hali (hidden, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "tablo",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (arabasına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 60,
+    "text": "who had hidden the painting in his car",
+    "meaning": "tabloyu arabasına saklamış olan"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "tablo",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "was returned undamaged",
+    "meaning": "hasarsız olarak geri verildi"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "geri verildi",
+   "note": "*return*'ün temel anlamı \"dönmek\"tir; bir şeyi \"geri vermek\" anlamına da gelir.",
+   "form": "return fiilinin 3. hali (returned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "was returned undamaged",
+    "meaning": "hasarsız olarak geri verildi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "undamaged",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hasarsız",
+   "note": "*un-* ön eki olumsuzluk katar: *damaged* (hasarlı) → *undamaged* (hasarsız).",
+   "form": null,
+   "base": "hasarsız, zarar görmemiş",
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "was returned undamaged",
+    "meaning": "hasarsız olarak geri verildi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "museum",
+   "pos": "noun",
+   "wordId": "museum",
+   "sense": 0,
+   "context": "müze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": "Present perfect + *since* o olaydan bugüne kadar olanı anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "has since installed",
+    "meaning": "o zamandan beri kurdu"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "since",
+   "pos": "adverb",
+   "wordId": "since",
+   "sense": 2,
+   "context": "o zamandan beri",
+   "note": "*since* zarf olarak tek başına \"o zamandan beri\" demektir; yardımcı fiil ile asıl fiil arasına girebilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "has since installed",
+    "meaning": "o zamandan beri kurdu"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "install",
+   "pos": "verb",
+   "wordId": "install",
+   "sense": 0,
+   "context": "kurdu",
+   "note": null,
+   "form": "install fiilinin 3. hali (installed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "has since installed",
+    "meaning": "o zamandan beri kurdu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "alarm",
+   "pos": "noun",
+   "wordId": "alarm",
+   "sense": 0,
+   "context": "alarm",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "alarm system",
+    "meaning": "alarm sistemi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "system",
+   "pos": "noun",
+   "wordId": "system",
+   "sense": 0,
+   "context": "sistem",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "alarm system",
+    "meaning": "alarm sistemi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1172 @@
+{
+ "storyId": "story-b2-048",
+ "textHash": "ecdf39cd63a3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sınıfta geçen kırk yılın ardından Bayan Patel sakin bir emeklilikten keyif alacağını düşünüyordu."
+  },
+  {
+   "tr": "Ancak kısa sürede canı sıkıldı ve çocuklarla çalışmayı özledi."
+  },
+  {
+   "tr": "Yerel ilkokulun gönüllülere ihtiyacı olduğunu duyunca, okumada zorlanan öğrencilere yardım etmeyi teklif etti."
+  },
+  {
+   "tr": "Artık haftada üç sabahını çocukların yüksek sesle okumasını dinleyerek ve onları cesaretlendirerek geçiriyor."
+  },
+  {
+   "tr": "Okul müdürü birkaç öğrencinin dikkat çekici bir ilerleme kaydettiğini söylüyor; Bayan Patel ise kendini yeniden işe yarar hissettiğini söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra (ardından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırk",
+   "note": "*forty* \"kırk\" demektir; *four* (dört) ile karıştırılmamalı: *forty* u harfi almaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sınıfta)",
+   "note": "*in the classroom* burada \"öğretmenlik yaparak\" anlamı taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "classroom",
+   "pos": "noun",
+   "wordId": "classroom",
+   "sense": 0,
+   "context": "sınıf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "After forty years in the classroom",
+    "meaning": "sınıfta geçen kırk yılın ardından"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": "*Mrs* evli kadınların soyadından önce kullanılan unvandır; İngiliz yazımında noktasız yazılır.",
+   "form": null,
+   "base": "Bayan (evli kadın unvanı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "Patel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Patel",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşünüyordu",
+   "note": null,
+   "form": "think fiilinin geçmiş zaman hali (thought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceğini)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olması beklenen bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "would enjoy",
+    "meaning": "keyif alacaktı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "keyif almak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "would enjoy",
+    "meaning": "keyif alacaktı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sakin (sessiz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "quiet retirement",
+    "meaning": "sakin bir emeklilik"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "retirement",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "emeklilik",
+   "note": "*-ment* eki fiilden isim yapar: *retire* (emekli olmak) → *retirement* (emeklilik).",
+   "form": null,
+   "base": "emeklilik",
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "quiet retirement",
+    "meaning": "sakin bir emeklilik"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa sürede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(canı sıkıldı) oldu",
+   "note": null,
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "became bored",
+    "meaning": "canı sıkıldı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "bored",
+   "pos": "adjective",
+   "wordId": "bored",
+   "sense": 0,
+   "context": "canı sıkılmış",
+   "note": "*bored* \"canı sıkılmış\" (kişi), *boring* ise \"sıkıcı\" (şey) demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "became bored",
+    "meaning": "canı sıkıldı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özledi",
+   "note": "*miss* + *-ing* \"… -meyi özlemek\" demektir.",
+   "form": "miss + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "missed working with children",
+    "meaning": "çocuklarla çalışmayı özledi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "missed working with children",
+    "meaning": "çocuklarla çalışmayı özledi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (çocuklarla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "missed working with children",
+    "meaning": "çocuklarla çalışmayı özledi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "missed working with children",
+    "meaning": "çocuklarla çalışmayı özledi"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duydu",
+   "note": null,
+   "form": "hear fiilinin geçmiş zaman hali (heard, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "primary",
+   "pos": "adjective",
+   "wordId": "primary",
+   "sense": 0,
+   "context": "ilk (ilköğretim)",
+   "note": "*primary school* İngiltere'de 5–11 yaş arası çocukların gittiği \"ilkokul\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "primary school",
+    "meaning": "ilkokul"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "primary school",
+    "meaning": "ilkokul"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacı olmak",
+   "note": null,
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "volunteer",
+   "pos": "noun",
+   "wordId": "volunteer",
+   "sense": 0,
+   "context": "gönüllüler",
+   "note": null,
+   "form": "volunteer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif etti",
+   "note": "*offer to do something* \"bir şeyi yapmayı teklif etmek\" demektir.",
+   "form": "offer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "pupil",
+   "pos": "noun",
+   "wordId": "pupil",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": "*pupil* özellikle ilkokul ve ortaokul öğrencisi için kullanılır.",
+   "form": "pupil'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "were struggling with reading",
+    "meaning": "okumada zorlanıyordu"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "zorlanan",
+   "note": "*struggle with something* \"bir şeyle uğraşmak, bir şeyde zorlanmak\" demektir.",
+   "form": "struggle + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "were struggling with reading",
+    "meaning": "okumada zorlanıyordu"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-de (okumada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "were struggling with reading",
+    "meaning": "okumada zorlanıyordu"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "reading",
+   "pos": "noun",
+   "wordId": "reading",
+   "sense": 0,
+   "context": "okuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "were struggling with reading",
+    "meaning": "okumada zorlanıyordu"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçiriyor",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": "spend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "spends three mornings a week listening",
+    "meaning": "haftada üç sabahını dinleyerek geçiriyor"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "spends three mornings a week listening",
+    "meaning": "haftada üç sabahını dinleyerek geçiriyor"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabahlar",
+   "note": null,
+   "form": "morning'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "spends three mornings a week listening",
+    "meaning": "haftada üç sabahını dinleyerek geçiriyor"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (haftada)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir: *three mornings a week* → haftada üç sabah.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "spends three mornings a week listening",
+    "meaning": "haftada üç sabahını dinleyerek geçiriyor"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "spends three mornings a week listening",
+    "meaning": "haftada üç sabahını dinleyerek geçiriyor"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinleyerek",
+   "note": "*listen to someone do something* \"birinin bir şey yapmasını dinlemek\" demektir; ikinci fiil *to* almaz.",
+   "form": "listen + -ing",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "listening to children read aloud",
+    "meaning": "çocukların yüksek sesle okumasını dinlemek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "listening to children read aloud",
+    "meaning": "çocukların yüksek sesle okumasını dinlemek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "listening to children read aloud",
+    "meaning": "çocukların yüksek sesle okumasını dinlemek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okumak (okumasını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "listening to children read aloud",
+    "meaning": "çocukların yüksek sesle okumasını dinlemek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "aloud",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yüksek sesle",
+   "note": "*read aloud* \"yüksek sesle okumak\" demektir.",
+   "form": null,
+   "base": "yüksek sesle, sesli olarak",
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "listening to children read aloud",
+    "meaning": "çocukların yüksek sesle okumasını dinlemek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "encourage",
+   "pos": "verb",
+   "wordId": "encourage",
+   "sense": 0,
+   "context": "cesaretlendirerek",
+   "note": null,
+   "form": "encourage + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "head",
+   "pos": "noun",
+   "wordId": "head",
+   "sense": 0,
+   "context": "baş",
+   "note": "*head teacher* İngiltere'de \"okul müdürü\" demektir; *head* burada \"en üstteki kişi, başkan\" anlamı katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "head teacher",
+    "meaning": "okul müdürü"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "head teacher",
+    "meaning": "okul müdürü"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "pupil",
+   "pos": "noun",
+   "wordId": "pupil",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "pupil'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "have made remarkable progress",
+    "meaning": "dikkat çekici bir ilerleme kaydetti"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "kaydetti",
+   "note": "*make progress* \"ilerleme kaydetmek\" demektir.",
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "have made remarkable progress",
+    "meaning": "dikkat çekici bir ilerleme kaydetti"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "remarkable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dikkat çekici",
+   "note": "*-able* eki fiilden sıfat yapar: *remark* (söz etmek) → *remarkable* (dikkat çekici, olağanüstü).",
+   "form": null,
+   "base": "dikkat çekici, olağanüstü",
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "have made remarkable progress",
+    "meaning": "dikkat çekici bir ilerleme kaydetti"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "progress",
+   "pos": "noun",
+   "wordId": "progress",
+   "sense": 0,
+   "context": "ilerleme",
+   "note": "*progress* sayılamayan bir isimdir: *make progress* (✗ a progress).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "have made remarkable progress",
+    "meaning": "dikkat çekici bir ilerleme kaydetti"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ise)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": null,
+   "form": null,
+   "base": "Bayan (evli kadın unvanı)",
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "Patel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Patel",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir.",
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "feels useful",
+    "meaning": "kendini işe yarar hissediyor"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "useful",
+   "pos": "adjective",
+   "wordId": "useful",
+   "sense": 0,
+   "context": "işe yarar (yararlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 77,
+    "text": "feels useful",
+    "meaning": "kendini işe yarar hissediyor"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "again",
+   "pos": "adverb",
+   "wordId": "again",
+   "sense": 0,
+   "context": "yeniden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

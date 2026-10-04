@@ -1,0 +1,1293 @@
+{
+ "storyId": "story-b2-011",
+ "textHash": "7c0b8be7923b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "On iki yıl muhasebeci olarak çalıştıktan sonra Mark artık işinden keyif almadığını fark etti."
+  },
+  {
+   "tr": "Yemek yapmaya her zaman tutkuyla bağlıydı, bu yüzden aşçı olmak için eğitim almaya karar verdi."
+  },
+  {
+   "tr": "Arkadaşlarının çoğu korkunç bir hata yaptığını düşündü, özellikle de başta çok daha az kazanacağı için."
+  },
+  {
+   "tr": "Eğitim fiziksel olarak yorucuydu ve sık sık gece yarısına kadar çalıştı."
+  },
+  {
+   "tr": "Yine de kararından hiç pişman olmadı."
+  },
+  {
+   "tr": "Eski işinde kalsaydı, kendisini gerçekten neyin mutlu ettiğini asla keşfedemeyecekti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "*after* + *-ing* \"… -dikten sonra\" demektir: *after working* → çalıştıktan sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": "Meslek ya da görev anlatırken *as* \"olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an accountant*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "accountant",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "muhasebeci",
+   "note": null,
+   "form": null,
+   "base": "muhasebeci",
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "Süre bildirirken *for* kullanılır: *for twelve years* → on iki yıl (boyunca).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "twelve",
+   "pos": "number",
+   "wordId": "twelve",
+   "sense": 0,
+   "context": "on iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 7,
+    "text": "After working as an accountant for twelve years",
+    "meaning": "on iki yıl muhasebeci olarak çalıştıktan sonra"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "Mark",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mark",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "realise",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "*realise* İngiliz yazımıdır; Amerikan İngilizcesinde *realize* yazılır.",
+   "form": "realise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir ve fiilden önce gelir: *he no longer enjoyed* → artık keyif almıyordu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "keyif alıyordu",
+   "note": null,
+   "form": "enjoy + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had always been* (past perfect) o zamana kadar hep süregelen bir durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "had always been passionate about",
+    "meaning": "-e her zaman tutkuyla bağlıydı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "had always been passionate about",
+    "meaning": "-e her zaman tutkuyla bağlıydı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuştu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "had always been passionate about",
+    "meaning": "-e her zaman tutkuyla bağlıydı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "passionate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "tutkulu",
+   "note": "*be passionate about something* \"bir şeye tutkuyla bağlı olmak\" demektir; *passion* (tutku) kelimesinden türemiştir.",
+   "form": null,
+   "base": "tutkulu",
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "had always been passionate about",
+    "meaning": "-e her zaman tutkuyla bağlıydı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "-e (yemek yapmaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "had always been passionate about",
+    "meaning": "-e her zaman tutkuyla bağlıydı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek yapma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (eğitim almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "eğitim almak",
+   "note": "*train as* + meslek \"… olmak için eğitim almak\" demektir: *train as a chef* → aşçılık eğitimi almak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "train as a chef",
+    "meaning": "aşçılık eğitimi almak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "train as a chef",
+    "meaning": "aşçılık eğitimi almak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "train as a chef",
+    "meaning": "aşçılık eğitimi almak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "chef",
+   "pos": "noun",
+   "wordId": "chef",
+   "sense": 0,
+   "context": "aşçı (şef)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "train as a chef",
+    "meaning": "aşçılık eğitimi almak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "birçoğu (çoğu)",
+   "note": "*many of* + belirli bir grup \"…-in birçoğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşündü",
+   "note": null,
+   "form": "think fiilinin geçmiş zaman hali (thought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapıyordu",
+   "note": "*make a mistake* \"hata yapmak\" demektir (✗ do a mistake).",
+   "form": "make + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was making a terrible mistake",
+    "meaning": "korkunç bir hata yapıyordu (make a mistake)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was making a terrible mistake",
+    "meaning": "korkunç bir hata yapıyordu (make a mistake)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "terrible",
+   "pos": "adjective",
+   "wordId": "terrible",
+   "sense": 0,
+   "context": "korkunç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was making a terrible mistake",
+    "meaning": "korkunç bir hata yapıyordu (make a mistake)"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was making a terrible mistake",
+    "meaning": "korkunç bir hata yapıyordu (make a mistake)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "especially",
+   "pos": "adverb",
+   "wordId": "especially",
+   "sense": 0,
+   "context": "özellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "especially since",
+    "meaning": "özellikle de … -diği için"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "-dığı için",
+   "note": "*since* zaman dışında \"-dığı için, çünkü\" anlamında da kullanılır: *especially since he would earn less* → özellikle daha az kazanacağı için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "especially since",
+    "meaning": "özellikle de … -diği için"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-acak)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olacak bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "earn",
+   "pos": "verb",
+   "wordId": "earn",
+   "sense": 0,
+   "context": "kazanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "çok (çok daha)",
+   "note": "*far* karşılaştırmalardan önce \"çok daha\" anlamı verir: *far less* → çok daha az.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "far less",
+    "meaning": "çok daha az"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "far less",
+    "meaning": "çok daha az"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "at first",
+    "meaning": "başta, ilk başta"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "at first",
+    "meaning": "başta, ilk başta"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "training",
+   "pos": "noun",
+   "wordId": "training",
+   "sense": 0,
+   "context": "eğitim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "physically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "fiziksel olarak",
+   "note": "*-ly* eki sıfattan zarf yapar: *physical* (fiziksel) → *physically* (fiziksel olarak).",
+   "form": "physical + -ly (sıfattan zarf)",
+   "base": "fiziksel olarak, bedenen",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "demanding",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yorucu (zahmetli)",
+   "note": "*demanding* çok emek ve güç isteyen işleri anlatır; *demand* (talep etmek) fiilinden türemiştir.",
+   "form": null,
+   "base": "zahmetli, çok emek isteyen",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalıştı",
+   "note": null,
+   "form": "work + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "midnight",
+   "pos": "noun",
+   "wordId": "midnight",
+   "sense": 0,
+   "context": "gece yarısı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "nevertheless",
+   "pos": "adverb",
+   "wordId": "nevertheless",
+   "sense": 0,
+   "context": "yine de",
+   "note": "*nevertheless* \"yine de, buna rağmen\" demektir; *however*'dan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": "*has never* + fiilin 3. hali (present perfect) o zamandan bugüne hiç olmayan bir şeyi anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "regret",
+   "pos": "verb",
+   "wordId": "regret",
+   "sense": 0,
+   "context": "pişman olmadı",
+   "note": "*regret something* \"bir şeyden pişman olmak\" demektir; İngilizcede *of* gibi bir edat gerekmez.",
+   "form": "regret fiilinin 3. hali (regretted, son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-seydi",
+   "note": "Üçüncü tip koşul cümlesi: *If* + *had* + fiilin 3. hali, … *would have* + fiilin 3. hali. Geçmişte olmamış bir durumu ve sonucunu hayal eder.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-saydı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kalsaydı",
+   "note": null,
+   "form": "stay fiilinin 3. hali (stayed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (işinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecekti)",
+   "note": "*would have* + fiilin 3. hali geçmişte gerçekleşmemiş bir sonucu anlatır: *would never have discovered* → asla keşfedemeyecekti.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "asla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş olacak)",
+   "note": null,
+   "form": "have (would have yapısında yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfetmek",
+   "note": null,
+   "form": "discover fiilinin 3. hali (discovered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 82,
+    "text": "If he had stayed …, he would never have discovered",
+    "meaning": "kalsaydı … keşfedemeyecekti (üçüncü tip koşul)"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "neyin",
+   "note": "*what* burada \"… -en şey\" anlamında kullanılır: *what makes him happy* → onu mutlu eden şey.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 84,
+   "lemma": "truly",
+   "pos": "adverb",
+   "wordId": "truly",
+   "sense": 0,
+   "context": "gerçekten",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 85,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "ettiğini (yaptığını)",
+   "note": "*make someone* + sıfat \"birini … yapmak\" demektir: *makes him happy* → onu mutlu ediyor.",
+   "form": "make + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 86,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 87,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

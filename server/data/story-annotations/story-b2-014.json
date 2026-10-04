@@ -1,0 +1,1174 @@
+{
+ "storyId": "story-b2-014",
+ "textHash": "7985d7a3d203",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ay Priya, büyükannesinin bir aile düğününde dans ettiği kısa bir video paylaştı."
+  },
+  {
+   "tr": "Videoyu yalnızca birkaç akrabasıyla paylaşmayı amaçlamıştı ama video bir şekilde sosyal medyada yayıldı."
+  },
+  {
+   "tr": "Üç gün içinde iki milyondan fazla kez izlenmişti."
+  },
+  {
+   "tr": "Gazeteciler aileyle iletişime geçti ve büyükannesi bir televizyon programına bile davet edildi."
+  },
+  {
+   "tr": "Priya ilk başta ilgiden hoşlansa da kısa süre sonra bitmeyen mesajları yorucu buldu ve hesabını gizli yapmaya karar verdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Priya",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Priya",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "post",
+   "pos": "verb",
+   "wordId": "post",
+   "sense": 1,
+   "context": "paylaştı",
+   "note": "*post* fiil olarak \"(internette) paylaşmak; postalamak\" demektir.",
+   "form": "post + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "video",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "video of her grandmother dancing",
+    "meaning": "büyükannesinin dans ettiği video"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(-in videosu)",
+   "note": "*a video of someone doing something* \"birinin bir şey yaptığı video\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "video of her grandmother dancing",
+    "meaning": "büyükannesinin dans ettiği video"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "video of her grandmother dancing",
+    "meaning": "büyükannesinin dans ettiği video"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "video of her grandmother dancing",
+    "meaning": "büyükannesinin dans ettiği video"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "dance",
+   "pos": "verb",
+   "wordId": "dance",
+   "sense": 1,
+   "context": "dans ettiği",
+   "note": null,
+   "form": "dance + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "video of her grandmother dancing",
+    "meaning": "büyükannesinin dans ettiği video"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (düğünde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "family wedding",
+    "meaning": "aile düğünü"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": "Burada *family* isim olmasına rağmen *wedding*'i niteler: *family wedding* → aile düğünü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "family wedding",
+    "meaning": "aile düğünü"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "wedding",
+   "pos": "noun",
+   "wordId": "wedding",
+   "sense": 0,
+   "context": "düğün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "family wedding",
+    "meaning": "aile düğünü"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had intended* (past perfect) videonun yayılmasından önceki niyeti anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "had only intended",
+    "meaning": "yalnızca amaçlamıştı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "had only intended",
+    "meaning": "yalnızca amaçlamıştı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "intend",
+   "pos": "verb",
+   "wordId": "intend",
+   "sense": 0,
+   "context": "amaçlamıştı (niyetindeydi)",
+   "note": "*intend to do something* \"bir şeyi yapmayı amaçlamak, niyetinde olmak\" demektir.",
+   "form": "intend fiilinin 3. hali (intended, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "had only intended",
+    "meaning": "yalnızca amaçlamıştı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (paylaşmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (videoyu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "a few relatives",
+    "meaning": "birkaç akraba"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "a few relatives",
+    "meaning": "birkaç akraba"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "relative",
+   "pos": "noun",
+   "wordId": "relative",
+   "sense": 1,
+   "context": "akrabalar",
+   "note": "*relative* isim olarak \"akraba\", sıfat olarak \"göreceli\" demektir.",
+   "form": "relative'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "a few relatives",
+    "meaning": "birkaç akraba"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "somehow",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bir şekilde",
+   "note": "*somehow* \"nasıl olduysa, bir şekilde\" demektir; nedeni bilinmeyen bir olayı anlatır.",
+   "form": null,
+   "base": "bir şekilde, nasılsa",
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (video)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "spread",
+   "pos": "verb",
+   "wordId": "spread",
+   "sense": 0,
+   "context": "yayıldı",
+   "note": "*spread*'in geçmiş zaman hali de *spread*'dir.",
+   "form": "spread fiilinin geçmiş zaman hali (spread, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "across",
+   "pos": "preposition",
+   "wordId": "across",
+   "sense": 0,
+   "context": "(boyunca) -de",
+   "note": "*spread across* \"bir yere baştan başa yayılmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "social",
+   "pos": "adjective",
+   "wordId": "social",
+   "sense": 0,
+   "context": "sosyal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "social media",
+    "meaning": "sosyal medya"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "media",
+   "pos": "noun",
+   "wordId": "media",
+   "sense": 0,
+   "context": "medya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "social media",
+    "meaning": "sosyal medya"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": "*within* + süre \"… içinde, … geçmeden\" demektir: *within three days* → üç gün içinde.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Within three days",
+    "meaning": "üç gün içinde"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Within three days",
+    "meaning": "üç gün içinde"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "Within three days",
+    "meaning": "üç gün içinde"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (video)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been* + fiilin 3. hali (past perfect edilgen), geçmişteki bir ana kadar tamamlanmış ve kişiye yapılmış işi anlatır: *had been viewed* → izlenmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "had been viewed",
+    "meaning": "izlenmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "had been viewed",
+    "meaning": "izlenmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "view",
+   "pos": "verb",
+   "wordId": "view",
+   "sense": 1,
+   "context": "izlenmişti (görüntülenmişti)",
+   "note": "*view* fiil olarak \"izlemek, bakmak\" demektir; internette *views* \"görüntülenme sayısı\"dır.",
+   "form": "view fiilinin 3. hali (viewed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "had been viewed",
+    "meaning": "izlenmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "million",
+   "pos": "number",
+   "wordId": "million",
+   "sense": 0,
+   "context": "milyon",
+   "note": "Belirli sayılarda *million* çoğul eki almaz: *two million* (✗ two millions).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": null,
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "journalist",
+   "pos": "noun",
+   "wordId": "journalist",
+   "sense": 0,
+   "context": "gazeteciler",
+   "note": null,
+   "form": "journalist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "contact",
+   "pos": "verb",
+   "wordId": "contact",
+   "sense": 1,
+   "context": "iletişime geçti",
+   "note": "*contact someone* \"biriyle iletişime geçmek\" demektir; *contact*'tan sonra *with* gelmez.",
+   "form": "contact + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur: *was invited* → davet edildi.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "was even invited",
+    "meaning": "hatta davet edildi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile (hatta)",
+   "note": "*even* şaşırtıcı bir bilgiyi vurgular; yardımcı fiilden sonra gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "was even invited",
+    "meaning": "hatta davet edildi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet edildi",
+   "note": null,
+   "form": "invite fiilinin 3. hali (invited, -d)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "was even invited",
+    "meaning": "hatta davet edildi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "onto",
+   "pos": "preposition",
+   "wordId": "onto",
+   "sense": 0,
+   "context": "-e (programa)",
+   "note": "Televizyon programına konuk olmak için *invite onto a show* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "television",
+   "pos": "noun",
+   "wordId": "television",
+   "sense": 0,
+   "context": "televizyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "television show",
+    "meaning": "televizyon programı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "show",
+   "pos": "noun",
+   "wordId": "show",
+   "sense": 1,
+   "context": "program (şov)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "television show",
+    "meaning": "televizyon programı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de",
+   "note": "*although* + cümle \"… -mesine rağmen, … -se de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "Priya",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Priya",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "hoşlandı (keyif aldı)",
+   "note": null,
+   "form": "enjoy + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "ilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "at first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "at first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa süre sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*find something* + sıfat \"bir şeyi … bulmak\" demektir: *found the messages exhausting* → mesajları yorucu buldu.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "found the constant messages exhausting",
+    "meaning": "bitmeyen mesajları yorucu buldu"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "found the constant messages exhausting",
+    "meaning": "bitmeyen mesajları yorucu buldu"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "constant",
+   "pos": "adjective",
+   "wordId": "constant",
+   "sense": 0,
+   "context": "sürekli (bitmeyen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "found the constant messages exhausting",
+    "meaning": "bitmeyen mesajları yorucu buldu"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesajlar",
+   "note": null,
+   "form": "message'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "found the constant messages exhausting",
+    "meaning": "bitmeyen mesajları yorucu buldu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "exhausting",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yorucu (tüketici)",
+   "note": "*exhausting* insanı çok yoran şeyi anlatır; *exhausted* ise bitkin düşmüş kişiyi.",
+   "form": null,
+   "base": "çok yorucu, tüketici",
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "found the constant messages exhausting",
+    "meaning": "bitmeyen mesajları yorucu buldu"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": "*make something* + sıfat \"bir şeyi … yapmak\" demektir: *make her account private* → hesabını gizli yapmak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "make her account private",
+    "meaning": "hesabını gizli yapmak"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "make her account private",
+    "meaning": "hesabını gizli yapmak"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "account",
+   "pos": "noun",
+   "wordId": "account",
+   "sense": 0,
+   "context": "hesap",
+   "note": "*account* \"hesap\" (banka, internet) demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "make her account private",
+    "meaning": "hesabını gizli yapmak"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "private",
+   "pos": "adjective",
+   "wordId": "private",
+   "sense": 0,
+   "context": "gizli (özel)",
+   "note": "Sosyal medyada *private account* yalnızca onaylanan kişilerin görebildiği \"gizli hesap\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 79,
+    "text": "make her account private",
+    "meaning": "hesabını gizli yapmak"
+   }
+  }
+ ]
+}

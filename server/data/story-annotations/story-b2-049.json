@@ -1,0 +1,1175 @@
+{
+ "storyId": "story-b2-049",
+ "textHash": "90137e82327d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Jonas, büyükbabasının çiftliği kendisine miras kalınca ahırın arkasında birkaç eski arı kovanı buldu."
+  },
+  {
+   "tr": "Arılar hakkında hiçbir şey bilmiyordu, bu yüzden yerel bir kulübe katıldı ve konu hakkında bulabildiği her şeyi okudu."
+  },
+  {
+   "tr": "İlk yazında birçok kez arı soktu ve bir kovanın tamamını hastalık yüzünden kaybetti."
+  },
+  {
+   "tr": "Ancak yavaş yavaş arılarla sakin bir şekilde ilgilenmeyi öğrendi."
+  },
+  {
+   "tr": "Geçen yıl haftalık pazarda satacak kadar bal üretti ve şimdi yeni başlayanlar için kurslar düzenliyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Jonas",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jonas",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "inherit",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "miras kalınca (miras aldı)",
+   "note": "*inherit something* \"bir şeyi miras olarak almak\" demektir; özne mirası alan kişidir.",
+   "form": "inherit + -ed (geçmiş zaman)",
+   "base": "miras olarak almak",
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "inherited his grandfather's farm",
+    "meaning": "büyükbabasının çiftliği ona miras kaldı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "inherited his grandfather's farm",
+    "meaning": "büyükbabasının çiftliği ona miras kaldı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbaba(sının)",
+   "note": "İsme *'s* eklenince iyelik bildirir: *his grandfather's farm* → büyükbabasının çiftliği.",
+   "form": "grandfather + 's (iyelik)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "inherited his grandfather's farm",
+    "meaning": "büyükbabasının çiftliği ona miras kaldı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "farm",
+   "pos": "noun",
+   "wordId": "farm",
+   "sense": 0,
+   "context": "çiftlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 5,
+    "text": "inherited his grandfather's farm",
+    "meaning": "büyükbabasının çiftliği ona miras kaldı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "buldu (keşfetti)",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "old beehives",
+    "meaning": "eski arı kovanları"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "beehive",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "arı kovanları",
+   "note": "*beehive* *bee* (arı) ve *hive* (kovan) kelimelerinden oluşan birleşik bir isimdir.",
+   "form": "beehive'ın çoğulu",
+   "base": "arı kovanı",
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "old beehives",
+    "meaning": "eski arı kovanları"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "behind",
+   "pos": "preposition",
+   "wordId": "behind",
+   "sense": 0,
+   "context": "arkasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "behind the barn",
+    "meaning": "ahırın arkasında"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "behind the barn",
+    "meaning": "ahırın arkasında"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "barn",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ahır (ambar)",
+   "note": "*barn* çiftlikte hayvanların ya da ürünlerin tutulduğu büyük binadır.",
+   "form": null,
+   "base": "ahır, ambar",
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "behind the barn",
+    "meaning": "ahırın arkasında"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmiyordu",
+   "note": "*know nothing about* \"… hakkında hiçbir şey bilmemek\" demektir; *nothing* cümleyi olumsuz yapar.",
+   "form": "know fiilinin geçmiş zaman hali (knew, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "knew nothing about bees",
+    "meaning": "arılar hakkında hiçbir şey bilmiyordu"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "nothing",
+   "pos": "pronoun",
+   "wordId": "nothing",
+   "sense": 0,
+   "context": "hiçbir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "knew nothing about bees",
+    "meaning": "arılar hakkında hiçbir şey bilmiyordu"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "knew nothing about bees",
+    "meaning": "arılar hakkında hiçbir şey bilmiyordu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "bee",
+   "pos": "noun",
+   "wordId": "bee",
+   "sense": 0,
+   "context": "arılar",
+   "note": null,
+   "form": "bee'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "knew nothing about bees",
+    "meaning": "arılar hakkında hiçbir şey bilmiyordu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": null,
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "club",
+   "pos": "noun",
+   "wordId": "club",
+   "sense": 0,
+   "context": "kulüp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": "*read*'in geçmiş zaman hali yazılışta aynıdır ama \"red\" diye okunur.",
+   "form": "read fiilinin geçmiş zaman hali (read, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": "İsimden sonra *that* düşebilir: *everything (that) he could find* → bulabildiği her şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "everything he could find",
+    "meaning": "bulabildiği her şey"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "everything he could find",
+    "meaning": "bulabildiği her şey"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebildiği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "everything he could find",
+    "meaning": "bulabildiği her şey"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "everything he could find",
+    "meaning": "bulabildiği her şey"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "hakkında",
+   "note": "*on the subject* \"konu hakkında, bu konuda\" demektir; *on* burada *about* anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "on the subject",
+    "meaning": "konu hakkında"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "on the subject",
+    "meaning": "konu hakkında"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "subject",
+   "pos": "noun",
+   "wordId": "subject",
+   "sense": 0,
+   "context": "konu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "on the subject",
+    "meaning": "konu hakkında"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "boyunca (-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ldu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was stung many times",
+    "meaning": "birçok kez (arı) sokuldu"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "sting",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sokuldu",
+   "note": "*be stung* \"(arı vb.) tarafından sokulmak\" demektir.",
+   "form": "sting fiilinin 3. hali (stung, düzensiz)",
+   "base": "sokmak (arı, böcek)",
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was stung many times",
+    "meaning": "birçok kez (arı) sokuldu"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was stung many times",
+    "meaning": "birçok kez (arı) sokuldu"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* \"zaman\" demektir; sayılabilir olduğunda \"kez, defa\" anlamına gelir: *many times* → birçok kez.",
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "was stung many times",
+    "meaning": "birçok kez (arı) sokuldu"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybetti",
+   "note": "*lose something to* + hastalık/sebep \"bir şeyi … yüzünden kaybetmek\" demektir.",
+   "form": "lose fiilinin geçmiş zaman hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün (tamamı)",
+   "note": "*a whole* + isim \"koca bir …, … tamamı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "hive",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kovan",
+   "note": null,
+   "form": null,
+   "base": "kovan (arı)",
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "yüzünden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "disease",
+   "pos": "noun",
+   "wordId": "disease",
+   "sense": 0,
+   "context": "hastalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "lost a whole hive to disease",
+    "meaning": "bir kovanın tamamını hastalık yüzünden kaybetti"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": "*however* cümlenin başında başka bir kelimeden sonra virgüller arasında da kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrendi",
+   "note": "*learn to do something* \"bir şeyi yapmayı öğrenmek\" demektir.",
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "learned to handle",
+    "meaning": "ilgilenmeyi (başa çıkmayı) öğrendi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "learned to handle",
+    "meaning": "ilgilenmeyi (başa çıkmayı) öğrendi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "handle",
+   "pos": "verb",
+   "wordId": "handle",
+   "sense": 0,
+   "context": "ilgilenmek (başa çıkmak)",
+   "note": "*handle animals* \"hayvanları tutmak, onlarla ilgilenmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "learned to handle",
+    "meaning": "ilgilenmeyi (başa çıkmayı) öğrendi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "bee",
+   "pos": "noun",
+   "wordId": "bee",
+   "sense": 0,
+   "context": "arılar",
+   "note": null,
+   "form": "bee'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "calmly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sakin bir şekilde",
+   "note": "*-ly* eki sıfattan zarf yapar: *calm* (sakin) → *calmly* (sakince).",
+   "form": "calm + -ly (sıfattan zarf)",
+   "base": "sakince, sakin bir şekilde",
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "Last year",
+    "meaning": "geçen yıl"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "Last year",
+    "meaning": "geçen yıl"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "produce",
+   "pos": "verb",
+   "wordId": "produce",
+   "sense": 0,
+   "context": "üretti",
+   "note": null,
+   "form": "produce + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "enough",
+   "pos": "determiner",
+   "wordId": "enough",
+   "sense": 0,
+   "context": "yeterince (… kadar)",
+   "note": "*enough* + isim + *to* + fiil \"… -ecek kadar …\" demektir: *enough honey to sell* → satacak kadar bal.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "enough honey to sell",
+    "meaning": "satacak kadar bal"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "honey",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bal",
+   "note": "*honey* \"bal\" demektir; sevgiliye hitap ederken \"tatlım\" anlamında da kullanılır.",
+   "form": null,
+   "base": "bal",
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "enough honey to sell",
+    "meaning": "satacak kadar bal"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-ecek (kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "enough honey to sell",
+    "meaning": "satacak kadar bal"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "sell",
+   "pos": "verb",
+   "wordId": "sell",
+   "sense": 0,
+   "context": "satmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "enough honey to sell",
+    "meaning": "satacak kadar bal"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (pazarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "weekly",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "haftalık",
+   "note": "*-ly* eki zaman isimlerinden sıfat yapar: *week* → *weekly* (haftalık), *day* → *daily* (günlük).",
+   "form": "week + -ly",
+   "base": "haftalık",
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "weekly market",
+    "meaning": "haftalık pazar"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "market",
+   "pos": "noun",
+   "wordId": "market",
+   "sense": 0,
+   "context": "pazar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "weekly market",
+    "meaning": "haftalık pazar"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "düzenliyor (yürütüyor)",
+   "note": "*run a course* \"bir kurs düzenlemek, yürütmek\" demektir; *run* burada \"koşmak\" değil \"yönetmek\" anlamındadır.",
+   "form": "run + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "runs courses",
+    "meaning": "kurslar düzenliyor"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurslar",
+   "note": null,
+   "form": "course'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "runs courses",
+    "meaning": "kurslar düzenliyor"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "beginner",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yeni başlayanlar",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *begin* (başlamak) → *beginner* (yeni başlayan, acemi).",
+   "form": "beginner'ın çoğulu",
+   "base": "yeni başlayan, acemi",
+   "phrase": null
+  }
+ ]
+}

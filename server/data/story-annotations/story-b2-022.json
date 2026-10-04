@@ -1,0 +1,1171 @@
+{
+ "storyId": "story-b2-022",
+ "textHash": "3b4b6d9d903a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Paul'un çocukları dairesine akıllı bir hoparlör koyduğunda Paul buna şüpheyle yaklaştı."
+  },
+  {
+   "tr": "Neredeyse seksen yaşındaydı ve cep telefonundan daha karmaşık hiçbir şey kullanmamıştı."
+  },
+  {
+   "tr": "Yine de birkaç hafta içinde ondan en sevdiği radyo istasyonunu çalmasını, ilacını içmeyi hatırlatmasını ve torunlarını aramasını istiyordu."
+  },
+  {
+   "tr": "Ailesini en çok şaşırtan, onun ne kadar daha bağımsız hale geldiği oldu."
+  },
+  {
+   "tr": "Artık günlük küçük işler için yardım istemesine gerek kalmamıştı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Paul",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Paul'un",
+   "note": "*'s* eki sahiplik bildirir: *Paul's children* → Paul'un çocukları.",
+   "form": "Paul + 's (iyelik)",
+   "base": "(erkek adı)",
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "Paul's children",
+    "meaning": "Paul'un çocukları"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "Paul's children",
+    "meaning": "Paul'un çocukları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "koydu",
+   "note": null,
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "smart",
+   "pos": "adjective",
+   "wordId": "smart",
+   "sense": 0,
+   "context": "akıllı",
+   "note": "*smart* \"zeki, akıllı\" demektir; cihazlar için internete bağlı \"akıllı\" anlamındadır: *smart speaker, smartphone*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "smart speaker",
+    "meaning": "akıllı hoparlör"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "speaker",
+   "pos": "noun",
+   "wordId": "speaker",
+   "sense": 0,
+   "context": "hoparlör",
+   "note": "*speaker* \"konuşmacı\" ve \"hoparlör\" demektir; burada cihazdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "smart speaker",
+    "meaning": "akıllı hoparlör"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (dairesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "doubtful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "şüpheli (kuşkulu)",
+   "note": "*-ful* eki isimden sıfat yapar: *doubt* (şüphe) → *doubtful* (şüpheli, emin olmayan).",
+   "form": null,
+   "base": "şüpheli, kuşkulu",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(… yaşında)",
+   "note": "Yaş belirtirken *at* + sayı \"… yaşında\" demektir: *at eighty* → seksen yaşında.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "At almost eighty",
+    "meaning": "neredeyse seksen yaşında"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "At almost eighty",
+    "meaning": "neredeyse seksen yaşında"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "eighty",
+   "pos": "number",
+   "wordId": "eighty",
+   "sense": 0,
+   "context": "seksen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "At almost eighty",
+    "meaning": "neredeyse seksen yaşında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had never* + fiilin 3. hali (past perfect) o zamana kadar bir şeyin hiç olmadığını anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanmamıştı",
+   "note": null,
+   "form": "use fiilinin 3. hali (used, -d)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "anything",
+   "pos": "pronoun",
+   "wordId": "anything",
+   "sense": 0,
+   "context": "hiçbir şey",
+   "note": "*never … anything* \"hiçbir şey … -memek\" demektir; *anything*'den sonra sıfat gelir: *anything more complicated*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "complicated",
+   "pos": "adjective",
+   "wordId": "complicated",
+   "sense": 0,
+   "context": "karmaşık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "had never used anything more complicated than a mobile phone",
+    "meaning": "cep telefonundan daha karmaşık hiçbir şey kullanmamıştı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "mobile",
+   "pos": "adjective",
+   "wordId": "mobile",
+   "sense": 0,
+   "context": "cep (taşınabilir)",
+   "note": "*mobile phone* İngiliz İngilizcesinde \"cep telefonu\"dur; Amerikan İngilizcesinde *cell phone* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "mobile phone",
+    "meaning": "cep telefonu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "mobile phone",
+    "meaning": "cep telefonu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "yine de",
+   "note": "*yet* cümle başında bağlaç olarak \"yine de, ama\" demektir; *but*'tan daha vurguludur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "within a few weeks",
+    "meaning": "birkaç hafta içinde"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "within a few weeks",
+    "meaning": "birkaç hafta içinde"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "within a few weeks",
+    "meaning": "birkaç hafta içinde"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "within a few weeks",
+    "meaning": "birkaç hafta içinde"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istiyordu",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir; burada \"birisi\" hoparlördür.",
+   "form": "ask + -ing",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "asking it to play",
+    "meaning": "ondan çalmasını istiyor"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ondan (hoparlörden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "asking it to play",
+    "meaning": "ondan çalmasını istiyor"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (çalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "asking it to play",
+    "meaning": "ondan çalmasını istiyor"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalmak (açmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "asking it to play",
+    "meaning": "ondan çalmasını istiyor"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "favourite",
+   "pos": "adjective",
+   "wordId": "favourite",
+   "sense": 0,
+   "context": "en sevdiği",
+   "note": "*favourite* İngiliz yazımıdır; Amerikan İngilizcesinde *favorite* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "radio",
+   "pos": "noun",
+   "wordId": "radio",
+   "sense": 0,
+   "context": "radyo",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "radio station",
+    "meaning": "radyo istasyonu"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "station",
+   "pos": "noun",
+   "wordId": "station",
+   "sense": 0,
+   "context": "istasyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "radio station",
+    "meaning": "radyo istasyonu"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "remind",
+   "pos": "verb",
+   "wordId": "remind",
+   "sense": 0,
+   "context": "hatırlatmak",
+   "note": "*remind someone to do something* \"birine bir şeyi yapmayı hatırlatmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (içmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "içmek (almak)",
+   "note": "*take medicine* \"ilaç almak, içmek\" demektir (✗ drink medicine).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "medicine",
+   "pos": "noun",
+   "wordId": "medicine",
+   "sense": 0,
+   "context": "ilaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "remind him to take his medicine",
+    "meaning": "ona ilacını içmeyi hatırlatmak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aramak (telefonla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "grandchild",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "torunlar",
+   "note": null,
+   "form": "grandchild'ın çoğulu (grandchildren, düzensiz)",
+   "base": "torun",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -en şey)",
+   "note": "*What* + fiil … *was* … \"… -en şey … idi\" demektir: *What surprised his family most was…* → ailesini en çok şaşırtan şey … idi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "What surprised his family most",
+    "meaning": "ailesini en çok şaşırtan şey"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "surprise",
+   "pos": "verb",
+   "wordId": "surprise",
+   "sense": 1,
+   "context": "şaşırtan",
+   "note": null,
+   "form": "surprise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "What surprised his family most",
+    "meaning": "ailesini en çok şaşırtan şey"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "What surprised his family most",
+    "meaning": "ailesini en çok şaşırtan şey"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "What surprised his family most",
+    "meaning": "ailesini en çok şaşırtan şey"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "What surprised his family most",
+    "meaning": "ailesini en çok şaşırtan şey"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(idi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how* + sıfat \"ne kadar …\" demektir; cümle içinde kelime sırası düzdür: *how independent he became*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "how much more independent",
+    "meaning": "ne kadar daha bağımsız"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "how much more independent",
+    "meaning": "ne kadar daha bağımsız"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "how much more independent",
+    "meaning": "ne kadar daha bağımsız"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "independent",
+   "pos": "adjective",
+   "wordId": "independent",
+   "sense": 0,
+   "context": "bağımsız",
+   "note": "*in-* ön eki olumsuzluk katar: *dependent* (bağımlı) → *independent* (bağımsız).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 61,
+    "text": "how much more independent",
+    "meaning": "ne kadar daha bağımsız"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "hale geldiği (olduğu)",
+   "note": null,
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir ve fiilden önce gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "gerek (duymuyordu)",
+   "note": null,
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istemek",
+   "note": "*ask for something* \"bir şey istemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "ask for help",
+    "meaning": "yardım istemek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "ask for help",
+    "meaning": "yardım istemek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "help",
+   "pos": "noun",
+   "wordId": "help",
+   "sense": 1,
+   "context": "yardım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 71,
+    "text": "ask for help",
+    "meaning": "yardım istemek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "konusunda (için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "daily",
+   "pos": "adjective",
+   "wordId": "daily",
+   "sense": 0,
+   "context": "günlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "task",
+   "pos": "noun",
+   "wordId": "task",
+   "sense": 0,
+   "context": "işler (görevler)",
+   "note": null,
+   "form": "task'in çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1061 @@
+{
+ "storyId": "story-b2-028",
+ "textHash": "d1aef6b060f3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ekonomik bir kriz sırasında ofisteki işini kaybettikten sonra Hana mahallesinde küçük bir kahve dükkânı açmaya karar verdi."
+  },
+  {
+   "tr": "İşletme yönetme konusunda hiç deneyimi yoktu, bu yüzden pazarlama üzerine akşam derslerine katıldı."
+  },
+  {
+   "tr": "İlk yıl son derece zordu ve bazen ayakta kalıp kalamayacağından şüphe etti."
+  },
+  {
+   "tr": "Ancak yavaş yavaş, keklerini ve güler yüzlü hizmetini takdir eden sadık bir müşteri kitlesi oluşturdu."
+  },
+  {
+   "tr": "Bugün kafesinde altı kişi çalışıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-dikten sonra",
+   "note": "*after* + *-ing* \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "After losing her office job",
+    "meaning": "ofisteki işini kaybettikten sonra"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybetmek",
+   "note": null,
+   "form": "lose + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "After losing her office job",
+    "meaning": "ofisteki işini kaybettikten sonra"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "After losing her office job",
+    "meaning": "ofisteki işini kaybettikten sonra"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": "*office job* \"ofis işi, masa başı iş\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "After losing her office job",
+    "meaning": "ofisteki işini kaybettikten sonra"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "After losing her office job",
+    "meaning": "ofisteki işini kaybettikten sonra"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "during an economic crisis",
+    "meaning": "ekonomik bir kriz sırasında"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an economic crisis*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "during an economic crisis",
+    "meaning": "ekonomik bir kriz sırasında"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "economic",
+   "pos": "adjective",
+   "wordId": "economic",
+   "sense": 0,
+   "context": "ekonomik",
+   "note": "*economic* ekonomiyle ilgili olanı anlatır; *economical* ise \"tasarruflu, idareli\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "during an economic crisis",
+    "meaning": "ekonomik bir kriz sırasında"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "crisis",
+   "pos": "noun",
+   "wordId": "crisis",
+   "sense": 0,
+   "context": "kriz",
+   "note": "*crisis*'in çoğulu *crises*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "during an economic crisis",
+    "meaning": "ekonomik bir kriz sırasında"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "Hana",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hana",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (açmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": "Burada *coffee* isim olmasına rağmen *shop*'u niteler: *coffee shop* → kahve dükkânı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "coffee shop",
+    "meaning": "kahve dükkânı, kafe"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "coffee shop",
+    "meaning": "kahve dükkânı, kafe"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (mahallesinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "neighbourhood",
+   "pos": "noun",
+   "wordId": "neighbourhood",
+   "sense": 0,
+   "context": "mahalle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(yoktu)",
+   "note": "*have no* + isim \"hiç … -si yok\" demektir: *she had no experience* → hiç deneyimi yoktu.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": "*experience* \"deneyim\" anlamında sayılamaz; *an experience* ise yaşanmış tek bir \"olay, tecrübe\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "konusunda (-de)",
+   "note": "*experience of/in* + *-ing* \"… konusunda deneyim\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "yönetmek (işletmek)",
+   "note": "*run a business* \"bir işletme yönetmek\" demektir.",
+   "form": "run + -ing (son harf n ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "business",
+   "pos": "noun",
+   "wordId": "business",
+   "sense": 0,
+   "context": "işletme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 27,
+    "text": "had no experience of running a business",
+    "meaning": "işletme yönetme deneyimi yoktu"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "attend",
+   "pos": "verb",
+   "wordId": "attend",
+   "sense": 0,
+   "context": "katıldı (devam etti)",
+   "note": "*attend* bir derse, toplantıya \"katılmak, devam etmek\" demektir; *to* almaz.",
+   "form": "attend + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "attended evening classes in marketing",
+    "meaning": "pazarlama üzerine akşam derslerine katıldı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "attended evening classes in marketing",
+    "meaning": "pazarlama üzerine akşam derslerine katıldı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "dersler",
+   "note": null,
+   "form": "class'ın çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "attended evening classes in marketing",
+    "meaning": "pazarlama üzerine akşam derslerine katıldı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "üzerine (-de)",
+   "note": "*classes in* + konu \"… üzerine dersler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "attended evening classes in marketing",
+    "meaning": "pazarlama üzerine akşam derslerine katıldı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "marketing",
+   "pos": "noun",
+   "wordId": "marketing",
+   "sense": 0,
+   "context": "pazarlama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "attended evening classes in marketing",
+    "meaning": "pazarlama üzerine akşam derslerine katıldı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "extremely",
+   "pos": "adverb",
+   "wordId": "extremely",
+   "sense": 0,
+   "context": "son derece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "extremely tough",
+    "meaning": "son derece zor"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "tough",
+   "pos": "adjective",
+   "wordId": "tough",
+   "sense": 0,
+   "context": "zor",
+   "note": "*tough* \"zor; sert, dayanıklı\" demektir; *gh* \"f\" diye okunur (\"taf\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "extremely tough",
+    "meaning": "son derece zor"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "doubt",
+   "pos": "verb",
+   "wordId": "doubt",
+   "sense": 1,
+   "context": "şüphe etti",
+   "note": null,
+   "form": "doubt + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "doubted whether she would survive",
+    "meaning": "ayakta kalıp kalamayacağından şüphe etti"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "doubted whether she would survive",
+    "meaning": "ayakta kalıp kalamayacağından şüphe etti"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "doubted whether she would survive",
+    "meaning": "ayakta kalıp kalamayacağından şüphe etti"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-acağı)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olabilecek bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "doubted whether she would survive",
+    "meaning": "ayakta kalıp kalamayacağından şüphe etti"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "survive",
+   "pos": "verb",
+   "wordId": "survive",
+   "sense": 0,
+   "context": "ayakta kalmak (hayatta kalmak)",
+   "note": "*survive*'ın temel anlamı \"hayatta kalmak\"tır; işletmeler için \"ayakta kalmak, batmamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "doubted whether she would survive",
+    "meaning": "ayakta kalıp kalamayacağından şüphe etti"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "build",
+   "pos": "verb",
+   "wordId": "build",
+   "sense": 0,
+   "context": "oluşturdu (kurdu)",
+   "note": "*build*'in temel anlamı \"inşa etmek\"tir; mecazen bir şeyi zamanla \"oluşturmak\" demektir.",
+   "form": "build fiilinin geçmiş zaman hali (built, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "a loyal group of customers",
+    "meaning": "sadık bir müşteri kitlesi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "loyal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sadık",
+   "note": null,
+   "form": null,
+   "base": "sadık, vefalı",
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "a loyal group of customers",
+    "meaning": "sadık bir müşteri kitlesi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup (kitle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "a loyal group of customers",
+    "meaning": "sadık bir müşteri kitlesi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a group of: bir grup)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "a loyal group of customers",
+    "meaning": "sadık bir müşteri kitlesi"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 57,
+    "text": "a loyal group of customers",
+    "meaning": "sadık bir müşteri kitlesi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar: *customers who appreciated…* → … takdir eden müşteriler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "appreciate",
+   "pos": "verb",
+   "wordId": "appreciate",
+   "sense": 0,
+   "context": "takdir eden",
+   "note": null,
+   "form": "appreciate + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "kekler",
+   "note": null,
+   "form": "cake'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "friendly",
+   "pos": "adjective",
+   "wordId": "friendly",
+   "sense": 0,
+   "context": "güler yüzlü",
+   "note": "*friendly* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "friendly service",
+    "meaning": "güler yüzlü hizmet"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "friendly service",
+    "meaning": "güler yüzlü hizmet"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "employ",
+   "pos": "verb",
+   "wordId": "employ",
+   "sense": 0,
+   "context": "istihdam ediyor (çalıştırıyor)",
+   "note": "*employ* \"işe almak, çalıştırmak\" demektir; *employee* \"çalışan\", *employer* \"işveren\"dir.",
+   "form": "employ + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

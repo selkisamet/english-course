@@ -1,0 +1,1264 @@
+{
+ "storyId": "story-b2-043",
+ "textHash": "dd6a51d49d4a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tom spora hiçbir zaman pek ilgi duymamıştı ama babası hastalanınca bir kalp vakfına para toplamak için maraton koşmaya karar verdi."
+  },
+  {
+   "tr": "Altı ay boyunca sıkı bir antrenman planı uyguladı ve her hafta koştuğu mesafeyi yavaş yavaş artırdı."
+  },
+  {
+   "tr": "Yarış günü hava alışılmadık derecede sıcaktı ve birçok koşucu durmak zorunda kaldı."
+  },
+  {
+   "tr": "Tom yavaşladı, bol su içti ve sonunda yaklaşık beş saat sonra bitiş çizgisini geçti."
+  },
+  {
+   "tr": "Beklediğinden daha fazla para topladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had never been* (past perfect) o zamana kadar hiç olmamış bir durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "had never been particularly interested",
+    "meaning": "hiçbir zaman pek ilgi duymamıştı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "had never been particularly interested",
+    "meaning": "hiçbir zaman pek ilgi duymamıştı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmamıştı)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "had never been particularly interested",
+    "meaning": "hiçbir zaman pek ilgi duymamıştı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "particularly",
+   "pos": "adverb",
+   "wordId": "particularly",
+   "sense": 0,
+   "context": "pek (özellikle)",
+   "note": "Olumsuz cümlede *particularly* \"pek, o kadar da\" anlamı verir: *never particularly interested* → hiç pek ilgilenmemiş.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "had never been particularly interested",
+    "meaning": "hiçbir zaman pek ilgi duymamıştı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "interested",
+   "pos": "adjective",
+   "wordId": "interested",
+   "sense": 0,
+   "context": "ilgili",
+   "note": "*be interested in something* \"bir şeyle ilgilenmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "had never been particularly interested",
+    "meaning": "hiçbir zaman pek ilgi duymamıştı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(interested in: -e ilgi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "sport",
+   "pos": "noun",
+   "wordId": "sport",
+   "sense": 0,
+   "context": "spor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(hastalandı) oldu",
+   "note": "*become ill* \"hastalanmak\" demektir.",
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "became ill",
+    "meaning": "hastalandı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "ill",
+   "pos": "adjective",
+   "wordId": "ill",
+   "sense": 0,
+   "context": "hasta",
+   "note": "*ill* genellikle isimden önce değil, fiilden sonra kullanılır: *he became ill* (isimden önce *a sick man* denir).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "became ill",
+    "meaning": "hastalandı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to do something* \"bir şeyi yapmaya karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "to run a marathon",
+    "meaning": "maraton koşmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "to run a marathon",
+    "meaning": "maraton koşmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "to run a marathon",
+    "meaning": "maraton koşmak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "marathon",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "maraton",
+   "note": "*marathon* yaklaşık 42 kilometrelik uzun koşu yarışıdır.",
+   "form": null,
+   "base": "maraton",
+   "phrase": {
+    "from": 16,
+    "to": 19,
+    "text": "to run a marathon",
+    "meaning": "maraton koşmak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "toplamak",
+   "note": "*raise money* \"(bir amaç için) para toplamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "raise money",
+    "meaning": "para toplamak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "raise money",
+    "meaning": "para toplamak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (vakfına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "heart",
+   "pos": "noun",
+   "wordId": "heart",
+   "sense": 0,
+   "context": "kalp",
+   "note": "Burada *heart* isim olmasına rağmen *charity*'yi niteler: *heart charity* → kalp hastalıklarıyla ilgili hayır kurumu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "heart charity",
+    "meaning": "kalp vakfı (hayır kurumu)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "charity",
+   "pos": "noun",
+   "wordId": "charity",
+   "sense": 0,
+   "context": "hayır kurumu (vakıf)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "heart charity",
+    "meaning": "kalp vakfı (hayır kurumu)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "follow",
+   "pos": "verb",
+   "wordId": "follow",
+   "sense": 0,
+   "context": "uyguladı (takip etti)",
+   "note": "*follow a plan* \"bir plana uymak, planı uygulamak\" demektir.",
+   "form": "follow + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "sıkı (katı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "strict training plan",
+    "meaning": "sıkı antrenman planı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "training",
+   "pos": "noun",
+   "wordId": "training",
+   "sense": 0,
+   "context": "antrenman",
+   "note": "Burada *training* isim olmasına rağmen *plan*'ı niteler: *training plan* → antrenman planı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "strict training plan",
+    "meaning": "sıkı antrenman planı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "plan",
+   "pos": "noun",
+   "wordId": "plan",
+   "sense": 0,
+   "context": "plan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "strict training plan",
+    "meaning": "sıkı antrenman planı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*for* + süre bir şeyin ne kadar sürdüğünü anlatır: *for six months* → altı ay boyunca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "for six months",
+    "meaning": "altı ay boyunca"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "for six months",
+    "meaning": "altı ay boyunca"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "for six months",
+    "meaning": "altı ay boyunca"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "increase",
+   "pos": "verb",
+   "wordId": "increase",
+   "sense": 0,
+   "context": "artırarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda ya da ardından yapılan bir eylemi anlatır.",
+   "form": "increase + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "distance",
+   "pos": "noun",
+   "wordId": "distance",
+   "sense": 0,
+   "context": "mesafe",
+   "note": "İsimden sonra *that* düşebilir: *the distance (that) he ran* → koştuğu mesafe.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koştuğu",
+   "note": null,
+   "form": "run fiilinin geçmiş zaman hali (ran, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (günü)",
+   "note": "Belirli günlerden önce *on* kullanılır: *on the day of the race* → yarış günü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yarışın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "race",
+   "pos": "noun",
+   "wordId": "race",
+   "sense": 0,
+   "context": "yarış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "On the day of the race",
+    "meaning": "yarış günü"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-tı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "unusually",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "alışılmadık derecede",
+   "note": "*-ly* eki sıfattan zarf yapar: *unusual* → *unusually*; sıfattan önce \"alışılmadık derecede\" anlamı verir.",
+   "form": "unusual + -ly (sıfattan zarf)",
+   "base": "alışılmadık derecede, olağandışı şekilde",
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "unusually hot",
+    "meaning": "alışılmadık derecede sıcak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "hot",
+   "pos": "adjective",
+   "wordId": "hot",
+   "sense": 0,
+   "context": "sıcak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "unusually hot",
+    "meaning": "alışılmadık derecede sıcak"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "runner",
+   "pos": "noun",
+   "wordId": "runner",
+   "sense": 0,
+   "context": "koşucular",
+   "note": null,
+   "form": "runner'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldı (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "had to stop",
+    "meaning": "durmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "had to stop",
+    "meaning": "durmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "had to stop",
+    "meaning": "durmak zorunda kaldı"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "slow",
+   "pos": "verb",
+   "wordId": "slow",
+   "sense": 1,
+   "context": "yavaşladı",
+   "note": "*slow down* \"yavaşlamak\" demektir.",
+   "form": "slow + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "slowed down",
+    "meaning": "yavaşladı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(slow down)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "slowed down",
+    "meaning": "yavaşladı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içti",
+   "note": null,
+   "form": "drink fiilinin geçmiş zaman hali (drank, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "plenty",
+   "pos": "pronoun",
+   "wordId": "plenty",
+   "sense": 0,
+   "context": "bol",
+   "note": "*plenty of* + isim \"bol bol, yeterince …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "plenty of water",
+    "meaning": "bol su"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(plenty of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "plenty of water",
+    "meaning": "bol su"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "plenty of water",
+    "meaning": "bol su"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "cross",
+   "pos": "verb",
+   "wordId": "cross",
+   "sense": 0,
+   "context": "geçti",
+   "note": "*cross the finish line* \"bitiş çizgisini geçmek\" demektir.",
+   "form": "cross + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "finish",
+   "pos": "noun",
+   "wordId": "finish",
+   "sense": 1,
+   "context": "bitiş",
+   "note": "Burada *finish* isim olarak *line*'ı niteler: *finish line* → bitiş çizgisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "finish line",
+    "meaning": "bitiş çizgisi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "line",
+   "pos": "noun",
+   "wordId": "line",
+   "sense": 0,
+   "context": "çizgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "finish line",
+    "meaning": "bitiş çizgisi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "yaklaşık (neredeyse)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": "*hour*'daki *h* okunmaz (\"auır\"), bu yüzden *an hour* denir.",
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "topladı",
+   "note": null,
+   "form": "raise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazlası (daha fazla para)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 84,
+    "text": "more than he had expected",
+    "meaning": "beklediğinden daha fazla"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 84,
+    "text": "more than he had expected",
+    "meaning": "beklediğinden daha fazla"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 84,
+    "text": "more than he had expected",
+    "meaning": "beklediğinden daha fazla"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diğinden)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 84,
+    "text": "more than he had expected",
+    "meaning": "beklediğinden daha fazla"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "beklemek",
+   "note": null,
+   "form": "expect fiilinin 3. hali (expected, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 84,
+    "text": "more than he had expected",
+    "meaning": "beklediğinden daha fazla"
+   }
+  }
+ ]
+}

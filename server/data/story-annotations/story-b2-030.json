@@ -1,0 +1,1094 @@
+{
+ "storyId": "story-b2-030",
+ "textHash": "048c94d70582",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ocakta Clarke ailesi ergenlik çağındaki kızlarından gelen bir meydan okumayı kabul etti: bütün bir ay boyunca et yemeyeceklerdi."
+  },
+  {
+   "tr": "Anne babası aç kalmayı ve en sevdikleri yemekleri özlemeyi bekliyordu."
+  },
+  {
+   "tr": "Bunun yerine fasulye, pirinç ve sebzelerle yapılan çok çeşitli yeni tarifler keşfettiler."
+  },
+  {
+   "tr": "Sonrasında tamamen vejetaryen olmasalar da artık haftada yalnızca iki kez et yiyorlar."
+  },
+  {
+   "tr": "Kendilerini daha sağlıklı hissettiklerini ve meydan okumayı kabul ettikleri için memnun olduklarını söylüyorlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last January",
+    "meaning": "geçen ocak"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "January",
+   "pos": "noun",
+   "wordId": "january",
+   "sense": 0,
+   "context": "ocak",
+   "note": "Ay adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last January",
+    "meaning": "geçen ocak"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + soyadı + *family* \"… ailesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "the Clarke family",
+    "meaning": "Clarke ailesi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Clarke",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Clarke",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "the Clarke family",
+    "meaning": "Clarke ailesi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "the Clarke family",
+    "meaning": "Clarke ailesi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "accept",
+   "pos": "verb",
+   "wordId": "accept",
+   "sense": 0,
+   "context": "kabul etti",
+   "note": null,
+   "form": "accept + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "accepted a challenge",
+    "meaning": "bir meydan okumayı kabul etti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "accepted a challenge",
+    "meaning": "bir meydan okumayı kabul etti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "challenge",
+   "pos": "noun",
+   "wordId": "challenge",
+   "sense": 0,
+   "context": "meydan okuma",
+   "note": "*challenge* \"zorluk\" ve birine bir şeyi yapıp yapamayacağını sorduğunuz \"meydan okuma\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "accepted a challenge",
+    "meaning": "bir meydan okumayı kabul etti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (gelen)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "teenage",
+   "pos": "adjective",
+   "wordId": "teenage",
+   "sense": 0,
+   "context": "ergenlik çağındaki",
+   "note": "*teenage* 13-19 yaş arasındaki gençleri niteler; isim hali *teenager*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "teenage daughter",
+    "meaning": "ergenlik çağındaki kız"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "daughter",
+   "pos": "noun",
+   "wordId": "daughter",
+   "sense": 0,
+   "context": "kız (evlat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "teenage daughter",
+    "meaning": "ergenlik çağındaki kız"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": "İki nokta (:) sonrasında gelen cümle, meydan okumanın ne olduğunu açıklar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "they would not eat meat",
+    "meaning": "et yemeyeceklerdi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-meyeceklerdi)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte yapılacak bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "they would not eat meat",
+    "meaning": "et yemeyeceklerdi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "they would not eat meat",
+    "meaning": "et yemeyeceklerdi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "they would not eat meat",
+    "meaning": "et yemeyeceklerdi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "meat",
+   "pos": "noun",
+   "wordId": "meat",
+   "sense": 0,
+   "context": "et",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 16,
+    "text": "they would not eat meat",
+    "meaning": "et yemeyeceklerdi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "for an entire month",
+    "meaning": "bütün bir ay boyunca"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an entire month*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "for an entire month",
+    "meaning": "bütün bir ay boyunca"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "entire",
+   "pos": "adjective",
+   "wordId": "entire",
+   "sense": 0,
+   "context": "bütün (tam)",
+   "note": "*entire* \"bütün, tam\" demektir; *whole* ile aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "for an entire month",
+    "meaning": "bütün bir ay boyunca"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "for an entire month",
+    "meaning": "bütün bir ay boyunca"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (kızın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": null,
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "bekliyordu",
+   "note": "*expect to do something* \"bir şeyi yapmayı/yaşamayı beklemek\" demektir.",
+   "form": "expect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "expected to feel hungry",
+    "meaning": "aç kalmayı bekliyordu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "expected to feel hungry",
+    "meaning": "aç kalmayı bekliyordu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": "*feel hungry* \"acıkmak, aç hissetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "expected to feel hungry",
+    "meaning": "aç kalmayı bekliyordu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "hungry",
+   "pos": "adjective",
+   "wordId": "hungry",
+   "sense": 0,
+   "context": "aç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "expected to feel hungry",
+    "meaning": "aç kalmayı bekliyordu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (özlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özlemek",
+   "note": "*miss* \"özlemek\" ve \"kaçırmak\" demektir; burada \"özlemek\"tir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "their favourite dishes",
+    "meaning": "en sevdikleri yemekler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "favourite",
+   "pos": "adjective",
+   "wordId": "favourite",
+   "sense": 0,
+   "context": "en sevdikleri",
+   "note": "*favourite* İngiliz yazımıdır; Amerikan İngilizcesinde *favorite* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "their favourite dishes",
+    "meaning": "en sevdikleri yemekler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "dish",
+   "pos": "noun",
+   "wordId": "dish",
+   "sense": 0,
+   "context": "yemekler",
+   "note": "*dish* \"tabak\" ve hazırlanmış bir \"yemek\" demektir; burada \"yemek\"tir.",
+   "form": "dish'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "their favourite dishes",
+    "meaning": "en sevdikleri yemekler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "bunun yerine",
+   "note": "Cümle başındaki *Instead* \"bunun yerine, aksine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfettiler",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a wide range of",
+    "meaning": "çok çeşitli"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "wide",
+   "pos": "adjective",
+   "wordId": "wide",
+   "sense": 0,
+   "context": "geniş",
+   "note": "*a wide range of* \"çok çeşitli, geniş bir yelpazede\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a wide range of",
+    "meaning": "çok çeşitli"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "range",
+   "pos": "noun",
+   "wordId": "range",
+   "sense": 0,
+   "context": "çeşit (yelpaze)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a wide range of",
+    "meaning": "çok çeşitli"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a range of: çeşitli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a wide range of",
+    "meaning": "çok çeşitli"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "recipe",
+   "pos": "noun",
+   "wordId": "recipe",
+   "sense": 0,
+   "context": "tarifler",
+   "note": null,
+   "form": "recipe'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (yapılan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "bean",
+   "pos": "noun",
+   "wordId": "bean",
+   "sense": 0,
+   "context": "fasulye",
+   "note": null,
+   "form": "bean'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "rice",
+   "pos": "noun",
+   "wordId": "rice",
+   "sense": 0,
+   "context": "pirinç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "vegetable",
+   "pos": "noun",
+   "wordId": "vegetable",
+   "sense": 0,
+   "context": "sebzeler",
+   "note": null,
+   "form": "vegetable'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-se de",
+   "note": "*although* + cümle \"… -mesine rağmen, … -se de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-madı)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "fully",
+   "pos": "adverb",
+   "wordId": "fully",
+   "sense": 0,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "vegetarian",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "vejetaryen",
+   "note": null,
+   "form": null,
+   "base": "vejetaryen",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "afterwards",
+   "pos": "adverb",
+   "wordId": "afterwards",
+   "sense": 0,
+   "context": "sonrasında",
+   "note": "*afterwards* \"sonradan, daha sonra\" demektir; Amerikan İngilizcesinde *afterward* da yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yiyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "meat",
+   "pos": "noun",
+   "wordId": "meat",
+   "sense": 0,
+   "context": "et",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "only twice a week",
+    "meaning": "haftada yalnızca iki kez"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "twice",
+   "pos": "adverb",
+   "wordId": "twice",
+   "sense": 0,
+   "context": "iki kez",
+   "note": "*twice a week* \"haftada iki kez\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "only twice a week",
+    "meaning": "haftada yalnızca iki kez"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (haftada)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "only twice a week",
+    "meaning": "haftada yalnızca iki kez"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "only twice a week",
+    "meaning": "haftada yalnızca iki kez"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissettiklerini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "healthy",
+   "pos": "adjective",
+   "wordId": "healthy",
+   "sense": 0,
+   "context": "daha sağlıklı",
+   "note": null,
+   "form": "healthy sıfatının karşılaştırma hali (y → ier)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduklarını)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "glad",
+   "pos": "adjective",
+   "wordId": "glad",
+   "sense": 0,
+   "context": "memnun",
+   "note": "*be glad (that)…* \"… -diği için memnun olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "accept",
+   "pos": "verb",
+   "wordId": "accept",
+   "sense": 0,
+   "context": "kabul ettikleri",
+   "note": null,
+   "form": "accept + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "challenge",
+   "pos": "noun",
+   "wordId": "challenge",
+   "sense": 0,
+   "context": "meydan okuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1139 @@
+{
+ "storyId": "story-b2-047",
+ "textHash": "40062b681853",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Küçük bir sahil kasabasında yaşayan iki emekli gazeteci, yerel tarih hakkında bir podcast başlattı."
+  },
+  {
+   "tr": "Her hafta yaşlı sakinlerle, kasabanın onların hayatı boyunca nasıl değiştiği üzerine röportaj yaptılar."
+  },
+  {
+   "tr": "Yalnızca birkaç dinleyici beklemelerine rağmen bölümler kısa sürede internette geniş çapta paylaşılmaya başlandı."
+  },
+  {
+   "tr": "Başka ülkelerde yaşayan eski sakinler kendi anılarını anlatan mesajlar göndermeye başladı."
+  },
+  {
+   "tr": "Yerel kütüphane, gelecek nesiller dinleyebilsin diye kayıtları kalıcı olarak saklamayı teklif etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "retired",
+   "pos": "adjective",
+   "wordId": "retired",
+   "sense": 0,
+   "context": "emekli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "retired journalists",
+    "meaning": "emekli gazeteciler"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "journalist",
+   "pos": "noun",
+   "wordId": "journalist",
+   "sense": 0,
+   "context": "gazeteciler",
+   "note": null,
+   "form": "journalist'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "retired journalists",
+    "meaning": "emekli gazeteciler"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kasabada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "coastal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sahil (kıyı)",
+   "note": "*-al* eki isimden sıfat yapar: *coast* (kıyı) → *coastal* (kıyıdaki, sahil).",
+   "form": null,
+   "base": "kıyı, sahil (kıyıda bulunan)",
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "coastal town",
+    "meaning": "sahil kasabası"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "coastal town",
+    "meaning": "sahil kasabası"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlattı",
+   "note": null,
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "podcast",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "podcast",
+   "note": "*podcast* internetten dinlenebilen, bölüm bölüm yayımlanan sesli programdır.",
+   "form": null,
+   "base": "podcast, internet ses yayını",
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "local history",
+    "meaning": "yerel tarih"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "local history",
+    "meaning": "yerel tarih"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "Each week",
+    "meaning": "her hafta"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "Each week",
+    "meaning": "her hafta"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "interview",
+   "pos": "verb",
+   "wordId": "interview",
+   "sense": 1,
+   "context": "röportaj yaptılar",
+   "note": null,
+   "form": "interview + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": "*older* kişiler için \"yaşlıca, yaşı ilerlemiş\" anlamında kibar bir ifadedir.",
+   "form": "old + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "older residents",
+    "meaning": "yaşlı sakinler"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "older residents",
+    "meaning": "yaşlı sakinler"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "üzerine (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "how the town had changed",
+    "meaning": "kasabanın nasıl değiştiği"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "how the town had changed",
+    "meaning": "kasabanın nasıl değiştiği"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "how the town had changed",
+    "meaning": "kasabanın nasıl değiştiği"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "how the town had changed",
+    "meaning": "kasabanın nasıl değiştiği"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştiği",
+   "note": null,
+   "form": "change fiilinin 3. hali (changed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "how the town had changed",
+    "meaning": "kasabanın nasıl değiştiği"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "during their lifetimes",
+    "meaning": "hayatları boyunca"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "during their lifetimes",
+    "meaning": "hayatları boyunca"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "lifetime",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hayatları (ömürleri)",
+   "note": "*lifetime* bir insanın \"ömrü, yaşadığı süre\" demektir.",
+   "form": "lifetime'ın çoğulu",
+   "base": "ömür, hayat boyu",
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "during their lifetimes",
+    "meaning": "hayatları boyunca"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-e rağmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "beklemek",
+   "note": null,
+   "form": "expect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "only a few listeners",
+    "meaning": "yalnızca birkaç dinleyici"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": "*a few* \"birkaç\" demektir; *few* tek başına \"çok az\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "only a few listeners",
+    "meaning": "yalnızca birkaç dinleyici"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "only a few listeners",
+    "meaning": "yalnızca birkaç dinleyici"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "listener",
+   "pos": "noun",
+   "wordId": "listener",
+   "sense": 0,
+   "context": "dinleyiciler",
+   "note": null,
+   "form": "listener'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "only a few listeners",
+    "meaning": "yalnızca birkaç dinleyici"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "episode",
+   "pos": "noun",
+   "wordId": "episode",
+   "sense": 0,
+   "context": "bölümler",
+   "note": null,
+   "form": "episode'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*were being* + fiilin 3. hali (past continuous edilgen) geçmişte süren edilgen bir eylemi anlatır: *were being shared* → paylaşılıyordu.",
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "were soon being shared",
+    "meaning": "kısa sürede paylaşılıyordu"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa sürede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "were soon being shared",
+    "meaning": "kısa sürede paylaşılıyordu"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "were soon being shared",
+    "meaning": "kısa sürede paylaşılıyordu"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşılmak",
+   "note": null,
+   "form": "share fiilinin 3. hali (shared, -d)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "were soon being shared",
+    "meaning": "kısa sürede paylaşılıyordu"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "widely",
+   "pos": "adverb",
+   "wordId": "widely",
+   "sense": 0,
+   "context": "geniş çapta (yaygın olarak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "widely online",
+    "meaning": "internette geniş çapta"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internette",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "widely online",
+    "meaning": "internette geniş çapta"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "former",
+   "pos": "adjective",
+   "wordId": "former",
+   "sense": 0,
+   "context": "eski (önceki)",
+   "note": "*former* \"eski, önceki\" demektir ve sadece isimden önce kullanılır: *former residents* → eskiden orada yaşayanlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "Former residents",
+    "meaning": "eski sakinler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "Former residents",
+    "meaning": "eski sakinler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşayan",
+   "note": "İsimden sonra gelen *-ing*'li fiil o ismi tanımlar: *residents living in other countries* → başka ülkelerde yaşayan sakinler.",
+   "form": "live + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ülkelerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "country",
+   "pos": "noun",
+   "wordId": "country",
+   "sense": 0,
+   "context": "ülkeler",
+   "note": null,
+   "form": "country'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "göndermek",
+   "note": null,
+   "form": "send + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesajlar",
+   "note": null,
+   "form": "message'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "describe",
+   "pos": "verb",
+   "wordId": "describe",
+   "sense": 0,
+   "context": "anlatan",
+   "note": null,
+   "form": "describe + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "their own memories",
+    "meaning": "kendi anıları"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*their own* \"kendi …-leri\" demektir ve vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "their own memories",
+    "meaning": "kendi anıları"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "their own memories",
+    "meaning": "kendi anıları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "library",
+   "pos": "noun",
+   "wordId": "library",
+   "sense": 0,
+   "context": "kütüphane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif etti",
+   "note": "*offer to do something* \"bir şeyi yapmayı teklif etmek\" demektir.",
+   "form": "offer fiilinin 3. hali (offered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "offered to keep",
+    "meaning": "saklamayı teklif etti"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "offered to keep",
+    "meaning": "saklamayı teklif etti"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "saklamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "offered to keep",
+    "meaning": "saklamayı teklif etti"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "recording",
+   "pos": "noun",
+   "wordId": "recording",
+   "sense": 0,
+   "context": "kayıtlar",
+   "note": null,
+   "form": "recording'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "permanently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kalıcı olarak",
+   "note": "*-ly* eki sıfattan zarf yapar: *permanent* (kalıcı) → *permanently* (kalıcı olarak).",
+   "form": "permanent + -ly (sıfattan zarf)",
+   "base": "kalıcı olarak, sürekli",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "(so that: -sin diye)",
+   "note": "*so that* + cümle amaç bildirir: \"… -sin diye, … -ebilmesi için\". Tek başına *so* ise \"bu yüzden\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "so that future generations can hear them",
+    "meaning": "gelecek nesiller dinleyebilsin diye"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(so that)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "so that future generations can hear them",
+    "meaning": "gelecek nesiller dinleyebilsin diye"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "future",
+   "pos": "adjective",
+   "wordId": "future",
+   "sense": 1,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "future generations",
+    "meaning": "gelecek nesiller"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "generation",
+   "pos": "noun",
+   "wordId": "generation",
+   "sense": 0,
+   "context": "nesiller",
+   "note": null,
+   "form": "generation'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "future generations",
+    "meaning": "gelecek nesiller"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "so that future generations can hear them",
+    "meaning": "gelecek nesiller dinleyebilsin diye"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "dinlemek (duymak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "so that future generations can hear them",
+    "meaning": "gelecek nesiller dinleyebilsin diye"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (kayıtları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "so that future generations can hear them",
+    "meaning": "gelecek nesiller dinleyebilsin diye"
+   }
+  }
+ ]
+}

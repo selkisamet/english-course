@@ -1,0 +1,1211 @@
+{
+ "storyId": "story-b2-041",
+ "textHash": "939161c04715",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ay Daniel, bankasından geliyormuş gibi görünen bir e-posta aldı."
+  },
+  {
+   "tr": "E-posta, kişisel bilgilerini hemen onaylamazsa hesabının kapatılacağı konusunda onu uyarıyordu."
+  },
+  {
+   "tr": "Mesaj inandırıcı görünüyordu ama gönderenin adresinin biraz alışılmadık olduğunu fark etti."
+  },
+  {
+   "tr": "Bağlantıya tıklamak yerine doğrudan bankayı aradı."
+  },
+  {
+   "tr": "Bir çalışan, e-postanın dolandırıcılık olduğunu doğruladı ve bildirdiği için ona teşekkür etti."
+  },
+  {
+   "tr": "O zamandan beri Daniel yaşlı anne babasını da dikkatli olmaları konusunda uyardı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": "*last* + zaman ifadesi \"geçen …\" demektir: *last month* → geçen ay.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "receive",
+   "pos": "verb",
+   "wordId": "receive",
+   "sense": 0,
+   "context": "aldı",
+   "note": null,
+   "form": "receive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an email*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "email",
+   "pos": "noun",
+   "wordId": "email",
+   "sense": 0,
+   "context": "e-posta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *an email that appeared…* → … görünen bir e-posta.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "görünen",
+   "note": "*appear to* + fiil \"… gibi görünmek\" demektir.",
+   "form": "appear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (bankasından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "bank",
+   "pos": "noun",
+   "wordId": "bank",
+   "sense": 0,
+   "context": "banka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "that appeared to come from his bank",
+    "meaning": "bankasından geliyormuş gibi görünen"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (e-posta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıyordu",
+   "note": "*warn someone that…* \"birini … diye uyarmak\" demektir.",
+   "form": "warn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceği konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "account",
+   "pos": "noun",
+   "wordId": "account",
+   "sense": 0,
+   "context": "hesap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"Your account will be closed\"* → *that his account would be closed*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "would be closed",
+    "meaning": "kapatılacaktı (edilgen)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "would be closed",
+    "meaning": "kapatılacaktı (edilgen)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapatılmak",
+   "note": null,
+   "form": "close fiilinin 3. hali (closed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 21,
+    "text": "would be closed",
+    "meaning": "kapatılacaktı (edilgen)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "unless",
+   "pos": "conjunction",
+   "wordId": "unless",
+   "sense": 0,
+   "context": "-mezse",
+   "note": "*unless* \"-medikçe, -mezse\" demektir; *if … not* anlamı taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 28,
+    "text": "unless he confirmed his personal details immediately",
+    "meaning": "kişisel bilgilerini hemen onaylamazsa"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 28,
+    "text": "unless he confirmed his personal details immediately",
+    "meaning": "kişisel bilgilerini hemen onaylamazsa"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "confirm",
+   "pos": "verb",
+   "wordId": "confirm",
+   "sense": 0,
+   "context": "onaylamak (teyit etmek)",
+   "note": null,
+   "form": "confirm + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 28,
+    "text": "unless he confirmed his personal details immediately",
+    "meaning": "kişisel bilgilerini hemen onaylamazsa"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 28,
+    "text": "unless he confirmed his personal details immediately",
+    "meaning": "kişisel bilgilerini hemen onaylamazsa"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "personal",
+   "pos": "adjective",
+   "wordId": "personal",
+   "sense": 0,
+   "context": "kişisel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "personal details",
+    "meaning": "kişisel bilgiler"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "bilgiler (ayrıntılar)",
+   "note": "*personal details* \"kişisel bilgiler (ad, adres, şifre vb.)\" demektir.",
+   "form": "detail'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "personal details",
+    "meaning": "kişisel bilgiler"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "immediately",
+   "pos": "adverb",
+   "wordId": "immediately",
+   "sense": 0,
+   "context": "hemen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 28,
+    "text": "unless he confirmed his personal details immediately",
+    "meaning": "kişisel bilgilerini hemen onaylamazsa"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesaj",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "görünüyordu",
+   "note": "*look* + sıfat \"… görünmek\" demektir.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "looked convincing",
+    "meaning": "inandırıcı görünüyordu"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "convince",
+   "pos": "verb",
+   "wordId": "convince",
+   "sense": 0,
+   "context": "inandırıcı",
+   "note": "*convincing* sıfat olarak \"inandırıcı, ikna edici\" demektir.",
+   "form": "convince + -ing (sıfat olarak; sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "looked convincing",
+    "meaning": "inandırıcı görünüyordu"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "notice + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "address",
+   "pos": "noun",
+   "wordId": "address",
+   "sense": 0,
+   "context": "adres",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (gönderenin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "sender",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gönderen",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *send* (göndermek) → *sender* (gönderen).",
+   "form": null,
+   "base": "gönderen, gönderici",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "slightly",
+   "pos": "adverb",
+   "wordId": "slightly",
+   "sense": 0,
+   "context": "biraz (hafifçe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "unusual",
+   "pos": "adjective",
+   "wordId": "unusual",
+   "sense": 0,
+   "context": "alışılmadık",
+   "note": "*un-* ön eki olumsuzluk katar: *usual* (olağan) → *unusual* (alışılmadık).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Instead of clicking the link",
+    "meaning": "bağlantıya tıklamak yerine"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Instead of clicking the link",
+    "meaning": "bağlantıya tıklamak yerine"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "click",
+   "pos": "verb",
+   "wordId": "click",
+   "sense": 0,
+   "context": "tıklamak",
+   "note": "*click (on) a link* \"bir bağlantıya tıklamak\" demektir.",
+   "form": "click + -ing",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Instead of clicking the link",
+    "meaning": "bağlantıya tıklamak yerine"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Instead of clicking the link",
+    "meaning": "bağlantıya tıklamak yerine"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "link",
+   "pos": "noun",
+   "wordId": "link",
+   "sense": 0,
+   "context": "bağlantı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "Instead of clicking the link",
+    "meaning": "bağlantıya tıklamak yerine"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "call",
+   "pos": "verb",
+   "wordId": "call",
+   "sense": 0,
+   "context": "aradı",
+   "note": null,
+   "form": "call + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "bank",
+   "pos": "noun",
+   "wordId": "bank",
+   "sense": 0,
+   "context": "banka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "directly",
+   "pos": "adverb",
+   "wordId": "directly",
+   "sense": 0,
+   "context": "doğrudan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an employee*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "employee",
+   "pos": "noun",
+   "wordId": "employee",
+   "sense": 0,
+   "context": "çalışan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "confirm",
+   "pos": "verb",
+   "wordId": "confirm",
+   "sense": 0,
+   "context": "doğruladı",
+   "note": null,
+   "form": "confirm + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "email",
+   "pos": "noun",
+   "wordId": "email",
+   "sense": 0,
+   "context": "e-posta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "scam",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dolandırıcılık",
+   "note": "*scam* gündelik dilde \"dolandırıcılık, tuzak\" demektir.",
+   "form": null,
+   "base": "dolandırıcılık",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "thank",
+   "pos": "verb",
+   "wordId": "thank",
+   "sense": 0,
+   "context": "teşekkür etti",
+   "note": "*thank someone for* + *-ing* \"birine … -diği için teşekkür etmek\" demektir.",
+   "form": "thank + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "thanked him for reporting it",
+    "meaning": "bildirdiği için ona teşekkür etti"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "thanked him for reporting it",
+    "meaning": "bildirdiği için ona teşekkür etti"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "thanked him for reporting it",
+    "meaning": "bildirdiği için ona teşekkür etti"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "bildirmek",
+   "note": null,
+   "form": "report + -ing",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "thanked him for reporting it",
+    "meaning": "bildirdiği için ona teşekkür etti"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (e-postayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "thanked him for reporting it",
+    "meaning": "bildirdiği için ona teşekkür etti"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir; genellikle present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 71,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyardı",
+   "note": "*warn someone to do something* \"birini bir şeyi yapması için uyarmak\" demektir.",
+   "form": "warn fiilinin 3. hali (warned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "elderly",
+   "pos": "adjective",
+   "wordId": "elderly",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": "*elderly* \"yaşlı\" demektir ve *old*'a göre daha kibar bir kelimedir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": "*parents* \"anne ve baba\" demektir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "careful",
+   "pos": "adjective",
+   "wordId": "careful",
+   "sense": 0,
+   "context": "dikkatli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 80,
+    "text": "warned his elderly parents to be careful",
+    "meaning": "yaşlı anne babasını dikkatli olmaları için uyardı"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "de (da)",
+   "note": "*too* cümle sonunda \"de/da, dahi\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

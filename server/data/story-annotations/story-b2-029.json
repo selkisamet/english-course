@@ -1,0 +1,1082 @@
+{
+ "storyId": "story-b2-029",
+ "textHash": "8e4fcdee6473",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yıllarca kasabamızdaki halk kütüphanesi eskiydi ve nadiren ziyaret ediliyordu."
+  },
+  {
+   "tr": "Belediye kütüphanenin kapanabileceğini duyurunca yerel halk onu kurtarmak için bir kampanya düzenledi."
+  },
+  {
+   "tr": "Binlerce imza topladılar ve konserler ile kitap satışları aracılığıyla para topladılar."
+  },
+  {
+   "tr": "Sonunda belediye bunun yerine binayı modernleştirmeyi kabul etti."
+  },
+  {
+   "tr": "Yeni kütüphanede rahat okuma alanları, bir kafe ve ücretsiz bilgisayarlar var ve artık kasabanın en kalabalık yerlerinden biri."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*for years* \"yıllarca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "For years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "For years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "public",
+   "pos": "adjective",
+   "wordId": "public",
+   "sense": 0,
+   "context": "halk (kamu)",
+   "note": "*public library* herkese açık \"halk kütüphanesi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "public library",
+    "meaning": "halk kütüphanesi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "library",
+   "pos": "noun",
+   "wordId": "library",
+   "sense": 0,
+   "context": "kütüphane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "public library",
+    "meaning": "halk kütüphanesi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (kasabamızdaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "rarely",
+   "pos": "adverb",
+   "wordId": "rarely",
+   "sense": 0,
+   "context": "nadiren",
+   "note": "*rarely* \"nadiren, pek az\" demektir ve olumsuz bir anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "rarely visited",
+    "meaning": "nadiren ziyaret edilen"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "ziyaret edilen",
+   "note": "Fiilin 3. hali edilgen anlamda sıfat gibi kullanılabilir: *(was) rarely visited* → nadiren ziyaret ediliyordu.",
+   "form": "visit fiilinin 3. hali (visited, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "rarely visited",
+    "meaning": "nadiren ziyaret edilen"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "council",
+   "pos": "noun",
+   "wordId": "council",
+   "sense": 0,
+   "context": "belediye",
+   "note": "*council* İngiltere'de bir kasaba ya da şehri yöneten \"belediye meclisi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "announce",
+   "pos": "verb",
+   "wordId": "announce",
+   "sense": 0,
+   "context": "duyurdu",
+   "note": null,
+   "form": "announce + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "announced that it might close",
+    "meaning": "kapanabileceğini duyurdu"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "announced that it might close",
+    "meaning": "kapanabileceğini duyurdu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kütüphane)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "announced that it might close",
+    "meaning": "kapanabileceğini duyurdu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": "*might* düşük bir olasılık bildirir: *it might close* → kapanabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "announced that it might close",
+    "meaning": "kapanabileceğini duyurdu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 20,
+    "text": "announced that it might close",
+    "meaning": "kapanabileceğini duyurdu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "local residents",
+    "meaning": "yerel halk, mahalle sakinleri"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler (halk)",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "local residents",
+    "meaning": "yerel halk, mahalle sakinleri"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "organise",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenledi",
+   "note": "*organise* İngiliz yazımıdır; Amerikan İngilizcesinde *organize* yazılır.",
+   "form": "organise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "a campaign to save it",
+    "meaning": "onu kurtarmak için bir kampanya"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "campaign",
+   "pos": "noun",
+   "wordId": "campaign",
+   "sense": 0,
+   "context": "kampanya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "a campaign to save it",
+    "meaning": "onu kurtarmak için bir kampanya"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *a campaign to save it* → onu kurtarmak için bir kampanya.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "a campaign to save it",
+    "meaning": "onu kurtarmak için bir kampanya"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "kurtarmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "a campaign to save it",
+    "meaning": "onu kurtarmak için bir kampanya"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "a campaign to save it",
+    "meaning": "onu kurtarmak için bir kampanya"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "collect",
+   "pos": "verb",
+   "wordId": "collect",
+   "sense": 0,
+   "context": "topladılar",
+   "note": null,
+   "form": "collect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "binlerce",
+   "note": "*thousands of* \"binlerce\" demektir.",
+   "form": "thousand'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "thousands of signatures",
+    "meaning": "binlerce imza"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(thousands of: binlerce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "thousands of signatures",
+    "meaning": "binlerce imza"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "signature",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "imzalar",
+   "note": "*signature* \"imza\"dır; *sign* (imzalamak) fiilinden türemiştir.",
+   "form": "signature'ın çoğulu",
+   "base": "imza",
+   "phrase": {
+    "from": 31,
+    "to": 33,
+    "text": "thousands of signatures",
+    "meaning": "binlerce imza"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "topladılar (para)",
+   "note": "*raise money* \"(bir amaç için) para toplamak\" demektir.",
+   "form": "raise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "raised money",
+    "meaning": "para topladılar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "raised money",
+    "meaning": "para topladılar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "aracılığıyla",
+   "note": "*through*'nun temel anlamı \"içinden\"dir; \"… aracılığıyla, … yoluyla\" anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "concert",
+   "pos": "noun",
+   "wordId": "concert",
+   "sense": 0,
+   "context": "konserler",
+   "note": null,
+   "form": "concert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": "Burada *book* isim olmasına rağmen *sales*'i niteler: *book sales* → kitap satışları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "book sales",
+    "meaning": "kitap satışları"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "sale",
+   "pos": "noun",
+   "wordId": "sale",
+   "sense": 0,
+   "context": "satışlar",
+   "note": null,
+   "form": "sale'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "book sales",
+    "meaning": "kitap satışları"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "council",
+   "pos": "noun",
+   "wordId": "council",
+   "sense": 0,
+   "context": "belediye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "kabul etti",
+   "note": "*agree to do something* \"bir şeyi yapmayı kabul etmek\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "agreed to modernise",
+    "meaning": "modernleştirmeyi kabul etti"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "modernise",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "modernleştirmek",
+   "note": "*-ise* eki sıfattan fiil yapar: *modern* → *modernise* (modernleştirmek). Amerikan İngilizcesinde *modernize* yazılır.",
+   "form": null,
+   "base": "modernleştirmek",
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "agreed to modernise",
+    "meaning": "modernleştirmeyi kabul etti"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "bunun yerine",
+   "note": "Cümle sonundaki *instead* \"bunun yerine\" demektir: kapatmak yerine modernleştirmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "library",
+   "pos": "noun",
+   "wordId": "library",
+   "sense": 0,
+   "context": "kütüphane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (-de … var)",
+   "note": "Yerler için *have* \"-de … var\" yapısıyla çevrilir: *The library has a café* → Kütüphanede bir kafe var.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "rahat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "reading",
+   "pos": "noun",
+   "wordId": "reading",
+   "sense": 0,
+   "context": "okuma",
+   "note": "Burada *reading* isim olmasına rağmen *areas*'ı niteler: *reading areas* → okuma alanları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "reading areas",
+    "meaning": "okuma alanları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "area",
+   "pos": "noun",
+   "wordId": "area",
+   "sense": 0,
+   "context": "alanlar",
+   "note": null,
+   "form": "area'nın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "reading areas",
+    "meaning": "okuma alanları"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "ücretsiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "computer",
+   "pos": "noun",
+   "wordId": "computer",
+   "sense": 0,
+   "context": "bilgisayarlar",
+   "note": null,
+   "form": "computer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kütüphane)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri",
+   "note": "*one of the* + en üstünlük + çoğul isim \"en … -lerden biri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "one of the busiest places",
+    "meaning": "en kalabalık yerlerden biri"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "one of the busiest places",
+    "meaning": "en kalabalık yerlerden biri"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "one of the busiest places",
+    "meaning": "en kalabalık yerlerden biri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "busy",
+   "pos": "adjective",
+   "wordId": "busy",
+   "sense": 0,
+   "context": "en kalabalık (en yoğun)",
+   "note": "*busy* yerler için \"kalabalık, hareketli\" demektir.",
+   "form": "busy sıfatının en üstünlük hali (y → iest)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "one of the busiest places",
+    "meaning": "en kalabalık yerlerden biri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yerler",
+   "note": null,
+   "form": "place'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "one of the busiest places",
+    "meaning": "en kalabalık yerlerden biri"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kasabada)",
+   "note": "*in town* \"kasabada, şehirde\" demektir; burada *the* kullanılmamıştır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

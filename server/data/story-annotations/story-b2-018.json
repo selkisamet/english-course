@@ -1,0 +1,1233 @@
+{
+ "storyId": "story-b2-018",
+ "textHash": "0dc579209b81",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir yıl önce sokağımızdaki beş aile, her biri kendi arabasına sahip olmak yerine iki arabayı ortak kullanmaya karar verdi."
+  },
+  {
+   "tr": "Ne zaman araba gerekse basit bir uygulamadan rezervasyon yapıyor ve masrafları eşit olarak bölüşüyorlar."
+  },
+  {
+   "tr": "İlk başta bazı komşular bu düzenin işe yarayıp yaramayacağından şüphe ettiler, özellikle talebin yüksek olduğu hafta sonlarında."
+  },
+  {
+   "tr": "Şaşırtıcı bir şekilde çok az anlaşmazlık yaşandı."
+  },
+  {
+   "tr": "Aileler kayda değer miktarda para biriktirdi ve artık sokakta park edecek çok daha fazla yer var."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": "family'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (sokağımızdaki)",
+   "note": "İngiliz İngilizcesinde *in the street*, Amerikan İngilizcesinde *on the street* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "karar verdi (anlaştı)",
+   "note": "*agree to do something* \"bir şeyi yapmayı kabul etmek, bunda anlaşmak\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "agreed to share two cars",
+    "meaning": "iki arabayı ortak kullanmaya karar verdi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "agreed to share two cars",
+    "meaning": "iki arabayı ortak kullanmaya karar verdi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "ortak kullanmak (paylaşmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "agreed to share two cars",
+    "meaning": "iki arabayı ortak kullanmaya karar verdi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "agreed to share two cars",
+    "meaning": "iki arabayı ortak kullanmaya karar verdi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": "car'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "agreed to share two cars",
+    "meaning": "iki arabayı ortak kullanmaya karar verdi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "instead of owning one each",
+    "meaning": "her biri bir arabaya sahip olmak yerine"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "instead of owning one each",
+    "meaning": "her biri bir arabaya sahip olmak yerine"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "own",
+   "pos": "verb",
+   "wordId": "own",
+   "sense": 2,
+   "context": "sahip olmak",
+   "note": null,
+   "form": "own + -ing",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "instead of owning one each",
+    "meaning": "her biri bir arabaya sahip olmak yerine"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "bir tane",
+   "note": "*one each* \"her birine bir tane\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "instead of owning one each",
+    "meaning": "her biri bir arabaya sahip olmak yerine"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "each",
+   "pos": "adverb",
+   "wordId": "each",
+   "sense": 2,
+   "context": "her biri",
+   "note": "*each* sayıdan sonra zarf olarak \"her biri için, tanesi\" demektir: *one each* → her birine bir tane.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "instead of owning one each",
+    "meaning": "her biri bir arabaya sahip olmak yerine"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanıyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "app",
+   "pos": "noun",
+   "wordId": "app",
+   "sense": 0,
+   "context": "uygulama",
+   "note": "*app*, *application*'ın kısaltmasıdır ve telefon/bilgisayar \"uygulaması\"nı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "to book a car",
+    "meaning": "araba ayırtmak için"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "book",
+   "pos": "verb",
+   "wordId": "book",
+   "sense": 1,
+   "context": "ayırtmak (rezervasyon yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "to book a car",
+    "meaning": "araba ayırtmak için"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "to book a car",
+    "meaning": "araba ayırtmak için"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "car",
+   "pos": "noun",
+   "wordId": "car",
+   "sense": 0,
+   "context": "araba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "to book a car",
+    "meaning": "araba ayırtmak için"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "ne zaman … -se",
+   "note": "*whenever* \"ne zaman … -se, her … -dığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyaç duyarlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "bir tane (araba)",
+   "note": "*one* aynı ismi tekrar etmemek için kullanılır: *need one* → bir tane (araba) gerekmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "divide",
+   "pos": "verb",
+   "wordId": "divide",
+   "sense": 0,
+   "context": "bölüşüyorlar (bölüyorlar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "divide the costs equally",
+    "meaning": "masrafları eşit olarak bölüşmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "divide the costs equally",
+    "meaning": "masrafları eşit olarak bölüşmek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "masraflar",
+   "note": "*costs* çoğul olarak \"masraflar, giderler\" demektir.",
+   "form": "cost'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "divide the costs equally",
+    "meaning": "masrafları eşit olarak bölüşmek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "equally",
+   "pos": "adverb",
+   "wordId": "equally",
+   "sense": 0,
+   "context": "eşit olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "divide the costs equally",
+    "meaning": "masrafları eşit olarak bölüşmek"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": null,
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "doubt",
+   "pos": "verb",
+   "wordId": "doubt",
+   "sense": 1,
+   "context": "şüphe ettiler",
+   "note": "*doubt whether* + cümle \"… -ip -meyeceğinden şüphe etmek\" demektir.",
+   "form": "doubt + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediği",
+   "note": "*whether* \"-ip -mediği\" demektir; *if*'e benzer ama daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "arrangement",
+   "pos": "noun",
+   "wordId": "arrangement",
+   "sense": 0,
+   "context": "düzen (düzenleme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*would* burada geçmişten bakıldığında gelecekte olabilecek bir şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "işe yaramak",
+   "note": "*work*'ün temel anlamı \"çalışmak\"tır; planlar için \"işe yaramak, başarılı olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 46,
+    "text": "doubted whether the arrangement would work",
+    "meaning": "düzenin işe yarayıp yaramayacağından şüphe ettiler"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "particularly",
+   "pos": "adverb",
+   "wordId": "particularly",
+   "sense": 0,
+   "context": "özellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(hafta sonları)",
+   "note": "İngiliz İngilizcesinde *at weekends*, Amerikan İngilizcesinde *on weekends* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "at weekends",
+    "meaning": "hafta sonları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonları",
+   "note": null,
+   "form": "weekend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "at weekends",
+    "meaning": "hafta sonları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diği (zaman)",
+   "note": "*when* burada zamanı tanımlar: *weekends when demand is high* → talebin yüksek olduğu hafta sonları.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "demand",
+   "pos": "noun",
+   "wordId": "demand",
+   "sense": 0,
+   "context": "talep",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "high",
+   "pos": "adjective",
+   "wordId": "high",
+   "sense": 0,
+   "context": "yüksek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı bir şekilde",
+   "note": "*-ly* eki sıfattan zarf yapar: *surprising* (şaşırtıcı) → *surprisingly* (şaşırtıcı bir şekilde). Cümle başında yorum bildirir.",
+   "form": "surprising + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı bir şekilde",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there have been: oldu)",
+   "note": "*there have been* \"olmuştur, yaşanmıştır\" demektir (present perfect).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "there have been",
+    "meaning": "yaşandı, oldu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": null,
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "there have been",
+    "meaning": "yaşandı, oldu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "yaşandı (oldu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "there have been",
+    "meaning": "yaşandı, oldu"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "very few conflicts",
+    "meaning": "çok az anlaşmazlık"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "az",
+   "note": "*few* (a olmadan) \"pek az, çok az\" demektir ve olumsuz bir anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "very few conflicts",
+    "meaning": "çok az anlaşmazlık"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "conflict",
+   "pos": "noun",
+   "wordId": "conflict",
+   "sense": 0,
+   "context": "anlaşmazlıklar",
+   "note": null,
+   "form": "conflict'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "very few conflicts",
+    "meaning": "çok az anlaşmazlık"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aileler",
+   "note": null,
+   "form": "family'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": "Present perfect, bugüne kadarki sonucu anlatır: *have saved* → biriktirdiler (ve bu para şu an ellerinde).",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirdi (tasarruf etti)",
+   "note": null,
+   "form": "save fiilinin 3. hali (saved, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "a considerable amount of money",
+    "meaning": "kayda değer miktarda para"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "considerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kayda değer (epey)",
+   "note": "*considerable* \"hatırı sayılır, kayda değer, epey büyük\" demektir.",
+   "form": null,
+   "base": "kayda değer, hatırı sayılır",
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "a considerable amount of money",
+    "meaning": "kayda değer miktarda para"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "amount",
+   "pos": "noun",
+   "wordId": "amount",
+   "sense": 0,
+   "context": "miktar",
+   "note": "*amount* sayılamayan şeylerin miktarı için kullanılır: *an amount of money*; sayılabilenler için *number* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "a considerable amount of money",
+    "meaning": "kayda değer miktarda para"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… miktarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "a considerable amount of money",
+    "meaning": "kayda değer miktarda para"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "a considerable amount of money",
+    "meaning": "kayda değer miktarda para"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there is: var)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there is)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "much more space",
+    "meaning": "çok daha fazla yer"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "much more space",
+    "meaning": "çok daha fazla yer"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "space",
+   "pos": "noun",
+   "wordId": "space",
+   "sense": 0,
+   "context": "yer (alan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "much more space",
+    "meaning": "çok daha fazla yer"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": "İsim + *to* + fiil \"… -ecek (yer)\" demektir: *space to park* → park edecek yer.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "park",
+   "pos": "verb",
+   "wordId": "park",
+   "sense": 1,
+   "context": "park etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sokakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

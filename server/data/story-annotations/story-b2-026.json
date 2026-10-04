@@ -1,0 +1,1213 @@
+{
+ "storyId": "story-b2-026",
+ "textHash": "048b15b8ede9",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Mira'nın annesi Alman, babası Türk, bu yüzden evde iki dili de konuşarak büyüdü."
+  },
+  {
+   "tr": "Anne babası her birinin ona yalnızca kendi dilini konuşmasına karar verdi."
+  },
+  {
+   "tr": "Bir süre Mira iki dili aynı cümlede karıştırdı ve bu, büyükanne ve büyükbabasını endişelendirdi."
+  },
+  {
+   "tr": "Ancak uzmanlar aileye bunun tamamen normal olduğu konusunda güvence verdi."
+  },
+  {
+   "tr": "Şimdi yedi yaşında, Almanca ve Türkçe arasında kolayca geçiş yapıyor ve yakın zamanda okulda İngilizce öğrenmeye başladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Mira",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mira'nın",
+   "note": "*'s* eki sahiplik bildirir: *Mira's mother* → Mira'nın annesi.",
+   "form": "Mira + 's (iyelik)",
+   "base": "(kadın adı)",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Mira's mother is German",
+    "meaning": "Mira'nın annesi Alman"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Mira's mother is German",
+    "meaning": "Mira'nın annesi Alman"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Mira's mother is German",
+    "meaning": "Mira'nın annesi Alman"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "German",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "Alman",
+   "note": "Milliyet ve dil adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": "Alman; Almanca",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Mira's mother is German",
+    "meaning": "Mira'nın annesi Alman"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dür)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "Turkish",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "Türk",
+   "note": null,
+   "form": null,
+   "base": "Türk; Türkçe",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dü)",
+   "note": "Present perfect, geçmişte başlayıp bugüne kadar süren bir durumu anlatır: *has grown up* → büyüdü (ve hâlâ büyüyor).",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "has grown up speaking",
+    "meaning": "konuşarak büyüdü (grow up)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "büyüdü",
+   "note": "*grow up* \"(çocuk) büyümek, yetişmek\" demektir.",
+   "form": "grow fiilinin 3. hali (grown, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "has grown up speaking",
+    "meaning": "konuşarak büyüdü (grow up)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(grow up: büyümek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "has grown up speaking",
+    "meaning": "konuşarak büyüdü (grow up)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşarak",
+   "note": null,
+   "form": "speak + -ing",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "has grown up speaking",
+    "meaning": "konuşarak büyüdü (grow up)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "her iki",
+   "note": "*both* + çoğul isim \"her iki …, … ikisi de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "both languages",
+    "meaning": "iki dil de"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "diller",
+   "note": null,
+   "form": "language'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "both languages",
+    "meaning": "iki dil de"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (evde)",
+   "note": "*at home* \"evde\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "at home",
+    "meaning": "evde"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "at home",
+    "meaning": "evde"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": null,
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide that* + cümle \"… -mesine karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-mesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "her biri",
+   "note": "*each of them* \"onların her biri\" demektir ve tekil anlam taşır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "each of them",
+    "meaning": "her biri"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "each of them",
+    "meaning": "her biri"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "each of them",
+    "meaning": "her biri"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*would* burada geçmişte verilen bir kararın gelecekteki sonucunu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "(kendi) onların",
+   "note": "*each of them … their own* yapısında *their* tekil kişileri anlatır: her biri kendi dilini.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "their own language",
+    "meaning": "kendi dili"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "their own language",
+    "meaning": "kendi dili"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "their own language",
+    "meaning": "kendi dili"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (ona)",
+   "note": "*speak a language to someone* \"biriyle bir dilde konuşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for a while: bir süre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "while",
+   "pos": "noun",
+   "wordId": "while",
+   "sense": 1,
+   "context": "süre",
+   "note": "*while* bağlaç olarak \"-ken\", isim olarak \"süre\" demektir: *for a while* → bir süre.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "Mira",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mira",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "mix",
+   "pos": "verb",
+   "wordId": "mix",
+   "sense": 0,
+   "context": "karıştırdı",
+   "note": null,
+   "form": "mix + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "diller",
+   "note": null,
+   "form": "language'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (cümlede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "sentence",
+   "pos": "noun",
+   "wordId": "sentence",
+   "sense": 0,
+   "context": "cümle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu da",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "which worried her grandparents",
+    "meaning": "bu da büyükanne ve büyükbabasını endişelendirdi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "worry",
+   "pos": "verb",
+   "wordId": "worry",
+   "sense": 0,
+   "context": "endişelendirdi",
+   "note": "*worry someone* \"birini endişelendirmek\" demektir.",
+   "form": "worry'nin geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "which worried her grandparents",
+    "meaning": "bu da büyükanne ve büyükbabasını endişelendirdi"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "which worried her grandparents",
+    "meaning": "bu da büyükanne ve büyükbabasını endişelendirdi"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "grandparent",
+   "pos": "noun",
+   "wordId": "grandparent",
+   "sense": 0,
+   "context": "büyükanne ve büyükbaba",
+   "note": null,
+   "form": "grandparent'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "which worried her grandparents",
+    "meaning": "bu da büyükanne ve büyükbabasını endişelendirdi"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzmanlar",
+   "note": null,
+   "form": "expert'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "assure",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "güvence verdi",
+   "note": "*assure someone that…* \"birine … konusunda güvence vermek, temin etmek\" demektir.",
+   "form": "assure + -d (geçmiş zaman)",
+   "base": "temin etmek, güvence vermek",
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "assured the family that",
+    "meaning": "aileye … konusunda güvence verdi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "assured the family that",
+    "meaning": "aileye … konusunda güvence verdi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "assured the family that",
+    "meaning": "aileye … konusunda güvence verdi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "assured the family that",
+    "meaning": "aileye … konusunda güvence verdi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "completely",
+   "pos": "adverb",
+   "wordId": "completely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "normal",
+   "pos": "adjective",
+   "wordId": "normal",
+   "sense": 0,
+   "context": "normal",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(… yaşında)",
+   "note": "*at the age of* + sayı \"… yaşında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "at the age of seven",
+    "meaning": "yedi yaşında"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "at the age of seven",
+    "meaning": "yedi yaşında"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "yaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "at the age of seven",
+    "meaning": "yedi yaşında"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(at the age of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "at the age of seven",
+    "meaning": "yedi yaşında"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "seven",
+   "pos": "number",
+   "wordId": "seven",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "at the age of seven",
+    "meaning": "yedi yaşında"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "switch",
+   "pos": "verb",
+   "wordId": "switch",
+   "sense": 0,
+   "context": "geçiş yapıyor",
+   "note": "*switch between A and B* \"A ile B arasında geçiş yapmak\" demektir.",
+   "form": "switch + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "switches easily between",
+    "meaning": "… arasında kolayca geçiş yapıyor"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "easily",
+   "pos": "adverb",
+   "wordId": "easily",
+   "sense": 0,
+   "context": "kolayca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "switches easily between",
+    "meaning": "… arasında kolayca geçiş yapıyor"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "switches easily between",
+    "meaning": "… arasında kolayca geçiş yapıyor"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "German",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Almanca",
+   "note": null,
+   "form": null,
+   "base": "Almanca; Alman",
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "Turkish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Türkçe",
+   "note": null,
+   "form": null,
+   "base": "Türkçe; Türk",
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*has recently* + fiilin 3. hali (present perfect) yakın zamanda olan bir şeyi anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "has recently started learning",
+    "meaning": "yakın zamanda öğrenmeye başladı"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "recently",
+   "pos": "adverb",
+   "wordId": "recently",
+   "sense": 0,
+   "context": "yakın zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "has recently started learning",
+    "meaning": "yakın zamanda öğrenmeye başladı"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start fiilinin 3. hali (started, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "has recently started learning",
+    "meaning": "yakın zamanda öğrenmeye başladı"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": null,
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 78,
+    "text": "has recently started learning",
+    "meaning": "yakın zamanda öğrenmeye başladı"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "English",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İngilizce",
+   "note": null,
+   "form": null,
+   "base": "İngilizce; İngiliz",
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (okulda)",
+   "note": "*at school* \"okulda\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

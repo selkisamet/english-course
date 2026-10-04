@@ -1,0 +1,1129 @@
+{
+ "storyId": "story-b2-034",
+ "textHash": "b2e7edbeff2f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Callum üniversiteye gitmek yerine yerel bir elektrikçinin yanında eğitim almayı seçti."
+  },
+  {
+   "tr": "Haftada dört gün gerçek projelerde çalışarak, bir gün de okulda ders görerek geçirdi."
+  },
+  {
+   "tr": "Arkadaşlarının çoğunun aksine, başından beri maaş aldı ve hiç öğrenim borcu yoktu."
+  },
+  {
+   "tr": "İş fiziksel olarak zordu ve ilk yıl birkaç hata yaptı."
+  },
+  {
+   "tr": "Ancak ustalık belgesini aldığında, işverenlerin çok değer verdiği pratik bir deneyim kazanmıştı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Rather than going to university",
+    "meaning": "üniversiteye gitmek yerine"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Rather than going to university",
+    "meaning": "üniversiteye gitmek yerine"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitmek",
+   "note": null,
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Rather than going to university",
+    "meaning": "üniversiteye gitmek yerine"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (üniversiteye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Rather than going to university",
+    "meaning": "üniversiteye gitmek yerine"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": "*go to university* \"üniversitede okumak\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Rather than going to university",
+    "meaning": "üniversiteye gitmek yerine"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "Callum",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Callum",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçti",
+   "note": "*choose to do something* \"bir şeyi yapmayı seçmek, tercih etmek\" demektir.",
+   "form": "choose fiilinin geçmiş zaman hali (chose, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "eğitim almak",
+   "note": "*train with someone* \"birinin yanında eğitim almak, çıraklık yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "yanında (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "electrician",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "elektrikçi",
+   "note": "*-ian* eki bir mesleği yapan kişiyi anlatır: *electric* → *electrician* (elektrikçi).",
+   "form": null,
+   "base": "elektrikçi",
+   "phrase": {
+    "from": 6,
+    "to": 12,
+    "text": "chose to train with a local electrician",
+    "meaning": "yerel bir elektrikçinin yanında eğitim almayı seçti"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdi",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dört",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "four days a week",
+    "meaning": "haftada dört gün"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "four days a week",
+    "meaning": "haftada dört gün"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (haftada)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir: *four days a week* → haftada dört gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "four days a week",
+    "meaning": "haftada dört gün"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "four days a week",
+    "meaning": "haftada dört gün"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışarak",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (projelerde)",
+   "note": "*work on a project* \"bir proje üzerinde çalışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "real",
+   "pos": "adjective",
+   "wordId": "real",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "projeler (işler)",
+   "note": null,
+   "form": "project'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "one",
+   "pos": "number",
+   "wordId": "one",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "ders görerek",
+   "note": null,
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "studying at college",
+    "meaning": "okulda ders görerek"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (okulda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "studying at college",
+    "meaning": "okulda ders görerek"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "college",
+   "pos": "noun",
+   "wordId": "college",
+   "sense": 0,
+   "context": "okul (meslek yüksekokulu)",
+   "note": "İngiltere'de *college* genellikle 16 yaşından sonra gidilen \"meslek okulu, kolej\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "studying at college",
+    "meaning": "okulda ders görerek"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "unlike",
+   "pos": "preposition",
+   "wordId": "unlike",
+   "sense": 0,
+   "context": "aksine",
+   "note": "*unlike* \"-in aksine, -den farklı olarak\" demektir; *like* (gibi) kelimesinin tersidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "Unlike many of his friends",
+    "meaning": "arkadaşlarının çoğunun aksine"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "çoğu (birçoğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "Unlike many of his friends",
+    "meaning": "arkadaşlarının çoğunun aksine"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "Unlike many of his friends",
+    "meaning": "arkadaşlarının çoğunun aksine"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "Unlike many of his friends",
+    "meaning": "arkadaşlarının çoğunun aksine"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "Unlike many of his friends",
+    "meaning": "arkadaşlarının çoğunun aksine"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "earn",
+   "pos": "verb",
+   "wordId": "earn",
+   "sense": 0,
+   "context": "kazandı (aldı)",
+   "note": null,
+   "form": "earn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "salary",
+   "pos": "noun",
+   "wordId": "salary",
+   "sense": 0,
+   "context": "maaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (beri)",
+   "note": "*from the beginning* \"en başından (beri)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "from the beginning",
+    "meaning": "başından beri"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "from the beginning",
+    "meaning": "başından beri"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "beginning",
+   "pos": "noun",
+   "wordId": "beginning",
+   "sense": 0,
+   "context": "baş (başlangıç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "from the beginning",
+    "meaning": "başından beri"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(yoktu)",
+   "note": "*have no* + isim \"hiç … -si yok\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": "*student debt* üniversite masrafları için alınan \"öğrenim kredisi borcu\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "student debt",
+    "meaning": "öğrenim borcu"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "debt",
+   "pos": "noun",
+   "wordId": "debt",
+   "sense": 0,
+   "context": "borç",
+   "note": "*debt*'teki *b* okunmaz (\"det\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "student debt",
+    "meaning": "öğrenim borcu"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "physically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "fiziksel olarak",
+   "note": "*-ly* eki sıfattan zarf yapar: *physical* → *physically*.",
+   "form": "physical + -ly (sıfattan zarf)",
+   "base": "fiziksel olarak, bedenen",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": "*make a mistake* \"hata yapmak\" demektir (✗ do a mistake).",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "made several mistakes",
+    "meaning": "birkaç hata yaptı"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "made several mistakes",
+    "meaning": "birkaç hata yaptı"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hatalar",
+   "note": null,
+   "form": "mistake'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "made several mistakes",
+    "meaning": "birkaç hata yaptı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ilk yılda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by the time: -diğinde)",
+   "note": "*by the time* + cümle \"… -diği zamana kadar, … -diğinde\" demektir; ana cümle genellikle past perfect olur: *By the time he qualified, he had gained…*",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 64,
+    "text": "By the time he qualified",
+    "meaning": "belgesini aldığında (aldığı zamana kadar)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 64,
+    "text": "By the time he qualified",
+    "meaning": "belgesini aldığında (aldığı zamana kadar)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 64,
+    "text": "By the time he qualified",
+    "meaning": "belgesini aldığında (aldığı zamana kadar)"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 64,
+    "text": "By the time he qualified",
+    "meaning": "belgesini aldığında (aldığı zamana kadar)"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "qualify",
+   "pos": "verb",
+   "wordId": "qualify",
+   "sense": 0,
+   "context": "belgesini aldı (yeterlilik kazandı)",
+   "note": "*qualify* bir meslek için gereken eğitimi bitirip \"diploma/belge almak, yeterlilik kazanmak\" demektir.",
+   "form": "qualify'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 64,
+    "text": "By the time he qualified",
+    "meaning": "belgesini aldığında (aldığı zamana kadar)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "had gained",
+    "meaning": "kazanmıştı (past perfect)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "gain",
+   "pos": "verb",
+   "wordId": "gain",
+   "sense": 0,
+   "context": "kazanmıştı",
+   "note": "*gain experience* \"deneyim kazanmak\" demektir.",
+   "form": "gain fiilinin 3. hali (gained, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "had gained",
+    "meaning": "kazanmıştı (past perfect)"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "practical",
+   "pos": "adjective",
+   "wordId": "practical",
+   "sense": 0,
+   "context": "pratik (uygulamalı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *experience that employers valued* → işverenlerin değer verdiği deneyim.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "employer",
+   "pos": "noun",
+   "wordId": "employer",
+   "sense": 0,
+   "context": "işverenler",
+   "note": "*employer* \"işveren\", *employee* \"çalışan\" demektir.",
+   "form": "employer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "value",
+   "pos": "verb",
+   "wordId": "value",
+   "sense": 1,
+   "context": "değer verdiği",
+   "note": null,
+   "form": "value + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "valued highly",
+    "meaning": "çok değer verdi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "highly",
+   "pos": "adverb",
+   "wordId": "highly",
+   "sense": 0,
+   "context": "çok (son derece)",
+   "note": "*value something highly* \"bir şeye çok değer vermek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "valued highly",
+    "meaning": "çok değer verdi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1214 @@
+{
+ "storyId": "story-b2-033",
+ "textHash": "83a033369c57",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Morgan ailesi piyangoda büyük bir para kazandığında, bunun hayatlarını değiştirmeyeceğine dair birbirlerine söz verdiler."
+  },
+  {
+   "tr": "Evlerinin parasını ödediler, çocuklarına biraz para verdiler ve bir kısmını da yerel hayır kurumlarına bağışladılar."
+  },
+  {
+   "tr": "Ancak işlerini bırakmadılar ve aynı sokakta kaldılar."
+  },
+  {
+   "tr": "Arkadaşları şaşırdı ama çift, hayatlarından her zaman mutlu olduklarını açıkladı."
+  },
+  {
+   "tr": "Söylediklerine göre tek gerçek fark, artık beklenmedik faturalar için endişelenmemeleriydi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + soyadı + *-s* bütün aileyi anlatır: *the Morgans* → Morgan ailesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Morgan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Morgan'lar",
+   "note": null,
+   "form": "Morgan + -s (aile)",
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "win",
+   "pos": "verb",
+   "wordId": "win",
+   "sense": 0,
+   "context": "kazandı",
+   "note": null,
+   "form": "win fiilinin geçmiş zaman hali (won, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a large sum of money",
+    "meaning": "büyük bir para (miktarı)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a large sum of money",
+    "meaning": "büyük bir para (miktarı)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "sum",
+   "pos": "noun",
+   "wordId": "sum",
+   "sense": 0,
+   "context": "miktar",
+   "note": "*a sum of money* \"bir miktar para\" demektir; *sum* ayrıca matematikte \"toplam\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a large sum of money",
+    "meaning": "büyük bir para (miktarı)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a sum of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a large sum of money",
+    "meaning": "büyük bir para (miktarı)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "a large sum of money",
+    "meaning": "büyük bir para (miktarı)"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (piyangoda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "in the lottery",
+    "meaning": "piyangoda"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "in the lottery",
+    "meaning": "piyangoda"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "lottery",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "piyango",
+   "note": null,
+   "form": null,
+   "base": "piyango",
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "in the lottery",
+    "meaning": "piyangoda"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "promise",
+   "pos": "verb",
+   "wordId": "promise",
+   "sense": 0,
+   "context": "söz verdiler",
+   "note": "*promise someone that…* \"birine … diye söz vermek\" demektir.",
+   "form": "promise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "promised each other",
+    "meaning": "birbirlerine söz verdiler"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": "*each other* \"birbiri, birbirine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "promised each other",
+    "meaning": "birbirlerine söz verdiler"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "(each other)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "promised each other",
+    "meaning": "birbirlerine söz verdiler"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-meyeceğine dair)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (para)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-meyecek)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"It won't change our lives\"* → *that it would not change their lives*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (lives, f → ves)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödediler",
+   "note": "*pay for something* \"bir şeyin parasını ödemek\" demektir.",
+   "form": "pay fiilinin geçmiş zaman hali (paid, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "paid for",
+    "meaning": "-in parasını ödediler (pay for)"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(pay for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "paid for",
+    "meaning": "-in parasını ödediler (pay for)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdiler",
+   "note": null,
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (çocuklarına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "donate",
+   "pos": "verb",
+   "wordId": "donate",
+   "sense": 0,
+   "context": "bağışladılar",
+   "note": "*donate something to someone* \"bir şeyi birine bağışlamak\" demektir.",
+   "form": "donate + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a part of it",
+    "meaning": "bir kısmı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "kısım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a part of it",
+    "meaning": "bir kısmı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a part of it",
+    "meaning": "bir kısmı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (para)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "a part of it",
+    "meaning": "bir kısmı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kurumlara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "local charities",
+    "meaning": "yerel hayır kurumları"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "charity",
+   "pos": "noun",
+   "wordId": "charity",
+   "sense": 0,
+   "context": "hayır kurumları",
+   "note": null,
+   "form": "charity'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "local charities",
+    "meaning": "yerel hayır kurumları"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "(bırakmadılar) tuttular",
+   "note": "*keep one's job* \"işini bırakmamak, işinde kalmak\" demektir.",
+   "form": "keep fiilinin geçmiş zaman hali (kept, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "kept their jobs",
+    "meaning": "işlerini bırakmadılar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "kept their jobs",
+    "meaning": "işlerini bırakmadılar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "işler",
+   "note": null,
+   "form": "job'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "kept their jobs",
+    "meaning": "işlerini bırakmadılar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kaldılar",
+   "note": null,
+   "form": "stay + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sokakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "couple",
+   "pos": "noun",
+   "wordId": "couple",
+   "sense": 0,
+   "context": "çift",
+   "note": "*couple* \"çift (karı-koca, sevgililer)\" demektir; *a couple of* ise \"birkaç\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladı",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duklarını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muşlardı)",
+   "note": "*had always been* (past perfect) o zamana kadar hep süregelen bir durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "had always been happy",
+    "meaning": "her zaman mutlu olmuşlardı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "had always been happy",
+    "meaning": "her zaman mutlu olmuşlardı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmuşlardı)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "had always been happy",
+    "meaning": "her zaman mutlu olmuşlardı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": "*happy with something* \"bir şeyden memnun, mutlu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "had always been happy",
+    "meaning": "her zaman mutlu olmuşlardı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-den (hayatlarından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (lives, f → ves)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "The only real difference",
+    "meaning": "tek gerçek fark"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "only",
+   "pos": "adjective",
+   "wordId": "only",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "The only real difference",
+    "meaning": "tek gerçek fark"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "real",
+   "pos": "adjective",
+   "wordId": "real",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "The only real difference",
+    "meaning": "tek gerçek fark"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "difference",
+   "pos": "noun",
+   "wordId": "difference",
+   "sense": 0,
+   "context": "fark",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 73,
+    "text": "The only real difference",
+    "meaning": "tek gerçek fark"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": "Virgüller arasındaki *they said* cümleye eklenmiş bir açıklamadır: \"dediklerine göre\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylediler (dediklerine göre)",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(idi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-meleri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir ve fiilden önce gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "no longer",
+    "meaning": "artık … değil"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "worry",
+   "pos": "verb",
+   "wordId": "worry",
+   "sense": 0,
+   "context": "endişelenmiyorlardı",
+   "note": "*worry about something* \"bir şey için endişelenmek\" demektir.",
+   "form": "worry'nin geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "için (hakkında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 83,
+   "lemma": "unexpected",
+   "pos": "adjective",
+   "wordId": "unexpected",
+   "sense": 0,
+   "context": "beklenmedik",
+   "note": "*un-* ön eki olumsuzluk katar: *expected* (beklenen) → *unexpected* (beklenmedik).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 84,
+    "text": "unexpected bills",
+    "meaning": "beklenmedik faturalar"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "bill",
+   "pos": "noun",
+   "wordId": "bill",
+   "sense": 0,
+   "context": "faturalar",
+   "note": null,
+   "form": "bill'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 83,
+    "to": 84,
+    "text": "unexpected bills",
+    "meaning": "beklenmedik faturalar"
+   }
+  }
+ ]
+}

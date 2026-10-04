@@ -1,0 +1,1151 @@
+{
+ "storyId": "story-b2-027",
+ "textHash": "219d14670237",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birçok öğrenci gibi Jack de eskiden geç saatlere kadar telefonuna bakıp sonra derste odaklanmakta zorlanırdı."
+  },
+  {
+   "tr": "Bir psikoloji projesi kapsamında bir ay boyunca katı kurallara uymayı kabul etti: saat ondan sonra ekran yok ve her gece aynı saatte yatmak."
+  },
+  {
+   "tr": "İlk hafta şaşırtıcı derecede zordu, çünkü alışkanlıktan dolayı sürekli telefonuna uzanıyordu."
+  },
+  {
+   "tr": "Ancak ayın sonunda daha hızlı uykuya dalıyordu ve notları açıkça yükselmişti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": "*like* edat olarak \"gibi\" demektir: *like many students* → birçok öğrenci gibi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Like many students",
+    "meaning": "birçok öğrenci gibi"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Like many students",
+    "meaning": "birçok öğrenci gibi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Like many students",
+    "meaning": "birçok öğrenci gibi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Jack",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jack",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "used to",
+   "pos": "modal verb",
+   "wordId": "used-to",
+   "sense": 0,
+   "context": "eskiden …-irdi",
+   "note": "*used to* + fiil geçmişteki ama artık devam etmeyen bir alışkanlığı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "used to stay up late",
+    "meaning": "eskiden geç saatlere kadar uyumazdı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(used to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "used to stay up late",
+    "meaning": "eskiden geç saatlere kadar uyumazdı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kalmak",
+   "note": "*stay up (late)* \"(geç saate kadar) yatmamak, uyumamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "stay up late",
+    "meaning": "geç saate kadar yatmamak"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(stay up: yatmamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "stay up late",
+    "meaning": "geç saate kadar yatmamak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "late",
+   "pos": "adverb",
+   "wordId": "late",
+   "sense": 1,
+   "context": "geç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "stay up late",
+    "meaning": "geç saate kadar yatmamak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "bakarak",
+   "note": null,
+   "form": "look + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (telefonuna)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "zorlanmak",
+   "note": "*struggle to do something* \"bir şeyi yapmakta zorlanmak\" demektir; *used to* burada bu fiili de kapsar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "struggle to concentrate",
+    "meaning": "odaklanmakta zorlanmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (odaklanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "struggle to concentrate",
+    "meaning": "odaklanmakta zorlanmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "concentrate",
+   "pos": "verb",
+   "wordId": "concentrate",
+   "sense": 0,
+   "context": "odaklanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "struggle to concentrate",
+    "meaning": "odaklanmakta zorlanmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (derste)",
+   "note": "*in class* \"derste, sınıfta\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "ders",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak (kapsamında)",
+   "note": "*as part of* \"… kapsamında, … -in bir parçası olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "As part of",
+    "meaning": "… kapsamında, … -in parçası olarak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "parça (bölüm)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "As part of",
+    "meaning": "… kapsamında, … -in parçası olarak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "As part of",
+    "meaning": "… kapsamında, … -in parçası olarak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "psychology",
+   "pos": "noun",
+   "wordId": "psychology",
+   "sense": 0,
+   "context": "psikoloji",
+   "note": "*psychology*'deki *p* okunmaz (\"saykoloci\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "project",
+   "pos": "noun",
+   "wordId": "project",
+   "sense": 0,
+   "context": "proje",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "kabul etti",
+   "note": "*agree to do something* \"bir şeyi yapmayı kabul etmek\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (uymak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "follow",
+   "pos": "verb",
+   "wordId": "follow",
+   "sense": 0,
+   "context": "uymak",
+   "note": "*follow*'un temel anlamı \"takip etmek\"tir; kurallar için \"uymak\" demektir: *follow the rules*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "follow strict rules",
+    "meaning": "katı kurallara uymak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "katı (sıkı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "follow strict rules",
+    "meaning": "katı kurallara uymak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "rule",
+   "pos": "noun",
+   "wordId": "rule",
+   "sense": 0,
+   "context": "kurallar",
+   "note": null,
+   "form": "rule'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "follow strict rules",
+    "meaning": "katı kurallara uymak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": "İki nokta (:) sonrasında gelen bölüm kuralları sıralar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "yok (hiç)",
+   "note": "*no* + isim kısa uyarı ve kurallarda \"… yok, … yasak\" anlamı verir: *no screens* → ekran yok.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "screen",
+   "pos": "noun",
+   "wordId": "screen",
+   "sense": 0,
+   "context": "ekranlar",
+   "note": "*screen* \"ekran\" demektir; *screens* burada telefon, bilgisayar ve televizyon gibi cihazları anlatır.",
+   "form": "screen'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*same* her zaman *the* ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "bedtime",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yatma saati",
+   "note": "*bedtime* iki kelimenin birleşimidir: *bed* (yatak) + *time* (zaman).",
+   "form": null,
+   "base": "yatma saati",
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Sıra sayılarından önce *the* kullanılır: *the first week*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": "*-ly* eki sıfattan zarf yapar: *surprising* (şaşırtıcı) → *surprisingly* (şaşırtıcı derecede).",
+   "form": "surprising + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "çünkü (-dığı için)",
+   "note": "*as* bağlaç olarak \"-dığı için, çünkü\" anlamında da kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "sürekli (… -ip duruyordu)",
+   "note": "*keep* + *-ing* \"sürekli … -mek, … -ip durmak\" demektir: *kept reaching for his phone* → sürekli telefonuna uzanıyordu.",
+   "form": "keep fiilinin geçmiş zaman hali (kept, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "kept reaching for",
+    "meaning": "sürekli … -e uzanıyordu"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "reach",
+   "pos": "verb",
+   "wordId": "reach",
+   "sense": 0,
+   "context": "uzanmak",
+   "note": "*reach for something* \"bir şeyi almak için elini uzatmak\" demektir.",
+   "form": "reach + -ing",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "kept reaching for",
+    "meaning": "sürekli … -e uzanıyordu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(reach for: -e uzanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "kept reaching for",
+    "meaning": "sürekli … -e uzanıyordu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(out of habit: alışkanlıktan)",
+   "note": "*out of* + duygu/durum bir davranışın nedenini anlatır: *out of habit* → alışkanlıktan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "out of habit",
+    "meaning": "alışkanlıktan"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(out of: -den)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "out of habit",
+    "meaning": "alışkanlıktan"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "out of habit",
+    "meaning": "alışkanlıktan"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e kadar (gelindiğinde)",
+   "note": "*by the end of* \"…-in sonuna kadar, sonuna gelindiğinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ayın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "By the end of the month",
+    "meaning": "ayın sonunda (ayın sonuna gelindiğinde)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": "*however* cümlenin ortasında da virgüllerle kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "fall",
+   "pos": "verb",
+   "wordId": "fall",
+   "sense": 0,
+   "context": "dalıyordu",
+   "note": "*fall asleep* \"uykuya dalmak\" demektir.",
+   "form": "fall + -ing",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "falling asleep",
+    "meaning": "uykuya dalmak"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "asleep",
+   "pos": "adjective",
+   "wordId": "asleep",
+   "sense": 0,
+   "context": "uykuda (uykuya)",
+   "note": "*asleep* isimden önce kullanılmaz (✗ an asleep child); *be asleep* \"uyuyor olmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "falling asleep",
+    "meaning": "uykuya dalmak"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "fast",
+   "pos": "adverb",
+   "wordId": "fast",
+   "sense": 1,
+   "context": "daha hızlı",
+   "note": "*fast* hem sıfat hem zarftır (✗ fastly).",
+   "form": "fast'ın karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "mark",
+   "pos": "noun",
+   "wordId": "mark",
+   "sense": 1,
+   "context": "notlar",
+   "note": "*mark* okulda verilen \"not, puan\"dır; Amerikan İngilizcesinde *grade* denir.",
+   "form": "mark'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had* + fiilin 3. hali (past perfect) ay sonuna kadar gerçekleşmiş bir değişimi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "had clearly improved",
+    "meaning": "açıkça iyileşmişti"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "clearly",
+   "pos": "adverb",
+   "wordId": "clearly",
+   "sense": 0,
+   "context": "açıkça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "had clearly improved",
+    "meaning": "açıkça iyileşmişti"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "yükselmişti (iyileşmişti)",
+   "note": null,
+   "form": "improve fiilinin 3. hali (improved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 79,
+    "text": "had clearly improved",
+    "meaning": "açıkça iyileşmişti"
+   }
+  }
+ ]
+}

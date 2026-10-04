@@ -1,0 +1,1204 @@
+{
+ "storyId": "story-b2-019",
+ "textHash": "deafdb6f032f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ayla her zaman yurt dışında tıp okumayı hayal etmişti ama ailesi okul ücretlerini karşılayamıyordu."
+  },
+  {
+   "tr": "Kişisel niyet mektubunu yazıp yeniden yazarak uluslararası bir bursa başvurusunu hazırlamakla aylar geçirdi."
+  },
+  {
+   "tr": "Öğretmenlerinden referans mektubu da istedi ve mülakat için bir arkadaşıyla pratik yaptı."
+  },
+  {
+   "tr": "E-posta sonunda geldiğinde açamayacak kadar gergindi."
+  },
+  {
+   "tr": "Kız kardeşi e-postayı yüksek sesle okudu: tam burslu olarak kabul edilmişti."
+  },
+  {
+   "tr": "Bu, yıllarca süren sıkı çalışmanın sonucuydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Ayla",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ayla",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had always* + fiilin 3. hali (past perfect) o zamana kadar hep süregelen bir durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "dream",
+   "pos": "verb",
+   "wordId": "dream",
+   "sense": 1,
+   "context": "hayal etmişti",
+   "note": "*dream of* + *-ing* \"… -meyi hayal etmek\" demektir. *dreamed* ve *dreamt* ikisi de doğrudur.",
+   "form": "dream fiilinin 3. hali (dreamed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(dream of: -i hayal etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "okumak (öğrenim görmek)",
+   "note": "Edattan sonra fiil *-ing* alır: *dream of studying*.",
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "medicine",
+   "pos": "noun",
+   "wordId": "medicine",
+   "sense": 0,
+   "context": "tıp",
+   "note": "*medicine* \"ilaç\" ve \"tıp\" demektir; burada bir bölüm adı olarak \"tıp\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "abroad",
+   "pos": "adverb",
+   "wordId": "abroad",
+   "sense": 0,
+   "context": "yurt dışında",
+   "note": "*abroad* zarftır ve önüne *to* ya da *in* gelmez: *study abroad* (✗ study in abroad).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 7,
+    "text": "had always dreamed of studying medicine abroad",
+    "meaning": "her zaman yurt dışında tıp okumayı hayal etmişti"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-amıyordu)",
+   "note": "*could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 15,
+    "text": "could not afford the fees",
+    "meaning": "ücretleri karşılayamıyordu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 15,
+    "text": "could not afford the fees",
+    "meaning": "ücretleri karşılayamıyordu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "afford",
+   "pos": "verb",
+   "wordId": "afford",
+   "sense": 0,
+   "context": "karşılamak (parası yetmek)",
+   "note": "*can afford something* \"bir şeye parası yetmek, karşılayabilmek\" demektir; genellikle *can/could* ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 15,
+    "text": "could not afford the fees",
+    "meaning": "ücretleri karşılayamıyordu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 15,
+    "text": "could not afford the fees",
+    "meaning": "ücretleri karşılayamıyordu"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "fee",
+   "pos": "noun",
+   "wordId": "fee",
+   "sense": 0,
+   "context": "ücretler (okul ücreti)",
+   "note": "*fees* okul ya da hizmet için ödenen \"ücretler\"dir.",
+   "form": "fee'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 15,
+    "text": "could not afford the fees",
+    "meaning": "ücretleri karşılayamıyordu"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdi",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "spent months preparing",
+    "meaning": "hazırlamakla aylar geçirdi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "aylar",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "spent months preparing",
+    "meaning": "hazırlamakla aylar geçirdi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "prepare",
+   "pos": "verb",
+   "wordId": "prepare",
+   "sense": 0,
+   "context": "hazırlamak",
+   "note": null,
+   "form": "prepare + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "spent months preparing",
+    "meaning": "hazırlamakla aylar geçirdi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "application",
+   "pos": "noun",
+   "wordId": "application",
+   "sense": 0,
+   "context": "başvuru",
+   "note": "*application* \"başvuru\" demektir; telefondaki \"uygulama\" anlamı da vardır (kısaca *app*).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (-e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an international scholarship*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "international",
+   "pos": "adjective",
+   "wordId": "international",
+   "sense": 0,
+   "context": "uluslararası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "scholarship",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "burs",
+   "note": "*scholarship* başarıya göre verilen \"burs\"tur.",
+   "form": null,
+   "base": "burs",
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiiller önceki eylemin nasıl yapıldığını anlatır: *writing and rewriting* → yazıp yeniden yazarak.",
+   "form": "write + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "rewrite",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden yazarak",
+   "note": "*re-* ön eki \"yeniden\" anlamı katar: *write* (yazmak) → *rewrite* (yeniden yazmak).",
+   "form": "rewrite + -ing (sondaki e düşer)",
+   "base": "yeniden yazmak",
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "personal",
+   "pos": "adjective",
+   "wordId": "personal",
+   "sense": 0,
+   "context": "kişisel",
+   "note": "*personal statement* başvurularda kişinin kendini ve hedeflerini anlattığı \"niyet mektubu\"dur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "personal statement",
+    "meaning": "niyet mektubu (kişisel tanıtım yazısı)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "statement",
+   "pos": "noun",
+   "wordId": "statement",
+   "sense": 0,
+   "context": "beyan (yazı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "personal statement",
+    "meaning": "niyet mektubu (kişisel tanıtım yazısı)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone for something* \"birinden bir şey istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "asked her teachers for references",
+    "meaning": "öğretmenlerinden referans istedi (ask for)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "asked her teachers for references",
+    "meaning": "öğretmenlerinden referans istedi (ask for)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmenler",
+   "note": null,
+   "form": "teacher'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "asked her teachers for references",
+    "meaning": "öğretmenlerinden referans istedi (ask for)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(ask for: istemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "asked her teachers for references",
+    "meaning": "öğretmenlerinden referans istedi (ask for)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "reference",
+   "pos": "noun",
+   "wordId": "reference",
+   "sense": 0,
+   "context": "referans (mektupları)",
+   "note": "*reference* başvurularda bir kişi hakkında yazılan \"referans mektubu\"dur.",
+   "form": "reference'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "asked her teachers for references",
+    "meaning": "öğretmenlerinden referans istedi (ask for)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "pratik yaptı",
+   "note": "*practise* İngiliz yazımıdır (fiil); Amerikan İngilizcesinde *practice* yazılır.",
+   "form": "practise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "interview",
+   "pos": "noun",
+   "wordId": "interview",
+   "sense": 0,
+   "context": "mülakat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "email",
+   "pos": "noun",
+   "wordId": "email",
+   "sense": 0,
+   "context": "e-posta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (o kadar)",
+   "note": "*too* + sıfat + *to* + fiil \"… -emeyecek kadar …\" demektir: *too nervous to open it* → açamayacak kadar gergin.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "too nervous to open it",
+    "meaning": "açamayacak kadar gergin"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "too nervous to open it",
+    "meaning": "açamayacak kadar gergin"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (açmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "too nervous to open it",
+    "meaning": "açamayacak kadar gergin"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "too nervous to open it",
+    "meaning": "açamayacak kadar gergin"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 58,
+    "text": "too nervous to open it",
+    "meaning": "açamayacak kadar gergin"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "sister",
+   "pos": "noun",
+   "wordId": "sister",
+   "sense": 0,
+   "context": "kız kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": "*read*'in geçmiş zaman hali de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin geçmiş zaman hali (read, düzensiz — \"red\" diye okunur)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "read it aloud",
+    "meaning": "yüksek sesle okudu"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "read it aloud",
+    "meaning": "yüksek sesle okudu"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "aloud",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yüksek sesle",
+   "note": "*read something aloud* \"bir şeyi sesli okumak\" demektir.",
+   "form": null,
+   "base": "yüksek sesle, sesli",
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "read it aloud",
+    "meaning": "yüksek sesle okudu"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Ayla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been* + fiilin 3. hali (past perfect edilgen), haberin okunmasından önce verilmiş kararı anlatır: *had been accepted* → kabul edilmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "had been accepted",
+    "meaning": "kabul edilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "had been accepted",
+    "meaning": "kabul edilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "accept",
+   "pos": "verb",
+   "wordId": "accept",
+   "sense": 0,
+   "context": "kabul edilmişti",
+   "note": null,
+   "form": "accept fiilinin 3. hali (accepted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "had been accepted",
+    "meaning": "kabul edilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (burslu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "with a full scholarship",
+    "meaning": "tam burslu"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "with a full scholarship",
+    "meaning": "tam burslu"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "tam",
+   "note": "*full*'un temel anlamı \"dolu\"dur; *full scholarship* \"tam burs\" (bütün masrafları karşılayan) demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "with a full scholarship",
+    "meaning": "tam burslu"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "scholarship",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "burs",
+   "note": null,
+   "form": null,
+   "base": "burs",
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "with a full scholarship",
+    "meaning": "tam burslu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu (o)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuç",
+   "note": "*the result of* \"…-in sonucu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": "*years of* + isim \"yıllar süren …\" demektir: *years of hard work* → yıllarca süren sıkı çalışma.",
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "years of hard work",
+    "meaning": "yıllarca süren sıkı çalışma"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… süren)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "years of hard work",
+    "meaning": "yıllarca süren sıkı çalışma"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "sıkı (zor)",
+   "note": "*hard work* \"sıkı çalışma, emek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "years of hard work",
+    "meaning": "yıllarca süren sıkı çalışma"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "çalışma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 80,
+    "text": "years of hard work",
+    "meaning": "yıllarca süren sıkı çalışma"
+   }
+  }
+ ]
+}

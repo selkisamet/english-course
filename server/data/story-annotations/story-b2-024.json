@@ -1,0 +1,1126 @@
+{
+ "storyId": "story-b2-024",
+ "textHash": "99b4e4db5829",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sofia bir hayvan barınağından köpek sahiplendiğinde, köpeğin zor olabileceği konusunda uyarıldı."
+  },
+  {
+   "tr": "Max önceki sahibi tarafından kötü muamele görmüştü ve neredeyse her şeyden, özellikle yüksek seslerden korkuyordu."
+  },
+  {
+   "tr": "İlk birkaç hafta boyunca, biri ziyarete geldiğinde yatağın altına saklandı."
+  },
+  {
+   "tr": "Sofia sabırlı olmayı sürdürdü ve Max her cesaret gösterdiğinde onu bisküviyle ödüllendirdi."
+  },
+  {
+   "tr": "Bir yıl sonra Max, kapıda her misafiri mutlulukla karşılayan bambaşka bir köpek."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Sofia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sofia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "adopt",
+   "pos": "verb",
+   "wordId": "adopt",
+   "sense": 0,
+   "context": "sahiplendi",
+   "note": "*adopt* \"evlat edinmek\" demektir; hayvanlar için \"sahiplenmek\" anlamında kullanılır.",
+   "form": "adopt + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (barınaktan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an animal shelter*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "animal shelter",
+    "meaning": "hayvan barınağı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "animal shelter",
+    "meaning": "hayvan barınağı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "shelter",
+   "pos": "noun",
+   "wordId": "shelter",
+   "sense": 0,
+   "context": "barınak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "animal shelter",
+    "meaning": "hayvan barınağı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıldı)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur: *she was warned* → uyarıldı.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "was warned",
+    "meaning": "uyarıldı (edilgen)"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıldı",
+   "note": "*warn someone that…* \"birini … konusunda uyarmak\" demektir.",
+   "form": "warn fiilinin 3. hali (warned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "was warned",
+    "meaning": "uyarıldı (edilgen)"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ebileceği konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (köpek)",
+   "note": "İngilizcede evcil hayvanlardan söz ederken cinsiyetlerine göre *he/she* kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "might",
+   "pos": "modal verb",
+   "wordId": "might",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": "*might* düşük bir olasılık bildirir: *he might be difficult* → zor olabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "might be difficult",
+    "meaning": "zor olabilir"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "might be difficult",
+    "meaning": "zor olabilir"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "might be difficult",
+    "meaning": "zor olabilir"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "Max",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Max",
+   "note": null,
+   "form": null,
+   "base": "(köpeğin adı)",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-müştü)",
+   "note": "*had been* + fiilin 3. hali (past perfect edilgen), Sofia'dan önce başına gelenleri anlatır: *had been badly treated* → kötü muamele görmüştü.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "badly",
+   "pos": "adverb",
+   "wordId": "badly",
+   "sense": 0,
+   "context": "kötü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "treat",
+   "pos": "verb",
+   "wordId": "treat",
+   "sense": 0,
+   "context": "muamele görmüştü (davranılmıştı)",
+   "note": "*treat*'in temel anlamı \"davranmak\"tır: *treat someone badly* → birine kötü davranmak.",
+   "form": "treat fiilinin 3. hali (treated, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": "Edilgen yapılarda işi yapanı *by* gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "previous",
+   "pos": "adjective",
+   "wordId": "previous",
+   "sense": 0,
+   "context": "önceki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "owner",
+   "pos": "noun",
+   "wordId": "owner",
+   "sense": 0,
+   "context": "sahip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 25,
+    "text": "had been badly treated by his previous owner",
+    "meaning": "önceki sahibi tarafından kötü muamele görmüştü"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "afraid",
+   "pos": "adjective",
+   "wordId": "afraid",
+   "sense": 0,
+   "context": "korkan",
+   "note": "*be afraid of* \"-den korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "afraid of almost everything",
+    "meaning": "neredeyse her şeyden korkan"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "afraid of almost everything",
+    "meaning": "neredeyse her şeyden korkan"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "afraid of almost everything",
+    "meaning": "neredeyse her şeyden korkan"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 31,
+    "text": "afraid of almost everything",
+    "meaning": "neredeyse her şeyden korkan"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "especially",
+   "pos": "adverb",
+   "wordId": "especially",
+   "sense": 0,
+   "context": "özellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "loud",
+   "pos": "adjective",
+   "wordId": "loud",
+   "sense": 0,
+   "context": "yüksek (sesli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "loud noises",
+    "meaning": "yüksek sesler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "sesler (gürültüler)",
+   "note": null,
+   "form": "noise'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "loud noises",
+    "meaning": "yüksek sesler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "For the first few weeks",
+    "meaning": "ilk birkaç hafta boyunca"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the first few weeks* \"ilk birkaç hafta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "For the first few weeks",
+    "meaning": "ilk birkaç hafta boyunca"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "For the first few weeks",
+    "meaning": "ilk birkaç hafta boyunca"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "few",
+   "pos": "adjective",
+   "wordId": "few",
+   "sense": 1,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "For the first few weeks",
+    "meaning": "ilk birkaç hafta boyunca"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "For the first few weeks",
+    "meaning": "ilk birkaç hafta boyunca"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklandı",
+   "note": null,
+   "form": "hide fiilinin geçmiş zaman hali (hid, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "under",
+   "pos": "preposition",
+   "wordId": "under",
+   "sense": 0,
+   "context": "altına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "bed",
+   "pos": "noun",
+   "wordId": "bed",
+   "sense": 0,
+   "context": "yatak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "her … -diğinde",
+   "note": "*whenever* \"ne zaman … -se, her … -diğinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "ziyarete geldi",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "Sofia",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sofia",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kaldı (olmayı sürdürdü)",
+   "note": "*remain* + sıfat \"… kalmak\" demektir: *remained patient* → sabırlı kaldı.",
+   "form": "remain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "remained patient",
+    "meaning": "sabırlı olmayı sürdürdü"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "remained patient",
+    "meaning": "sabırlı olmayı sürdürdü"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "reward",
+   "pos": "verb",
+   "wordId": "reward",
+   "sense": 1,
+   "context": "ödüllendirerek",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda yapılan bir eylemi anlatır: *rewarding him…* → onu ödüllendirerek.",
+   "form": "reward + -ing",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "rewarding him with biscuits",
+    "meaning": "onu bisküviyle ödüllendirerek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "rewarding him with biscuits",
+    "meaning": "onu bisküviyle ödüllendirerek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile (bisküviyle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "rewarding him with biscuits",
+    "meaning": "onu bisküviyle ödüllendirerek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "biscuit",
+   "pos": "noun",
+   "wordId": "biscuit",
+   "sense": 0,
+   "context": "bisküviler",
+   "note": null,
+   "form": "biscuit'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "rewarding him with biscuits",
+    "meaning": "onu bisküviyle ödüllendirerek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "whenever",
+   "pos": "conjunction",
+   "wordId": "whenever",
+   "sense": 0,
+   "context": "her … -diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "brave",
+   "pos": "adjective",
+   "wordId": "brave",
+   "sense": 0,
+   "context": "cesur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "A year later",
+    "meaning": "bir yıl sonra"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "A year later",
+    "meaning": "bir yıl sonra"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "A year later",
+    "meaning": "bir yıl sonra"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "Max",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Max",
+   "note": null,
+   "form": null,
+   "base": "(köpeğin adı)",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "completely",
+   "pos": "adverb",
+   "wordId": "completely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": "*completely different* \"tamamen farklı, bambaşka\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "completely different",
+    "meaning": "bambaşka, tamamen farklı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "completely different",
+    "meaning": "bambaşka, tamamen farklı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* genellikle insanlar için kullanılır; evcil hayvanlar için de kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "happily",
+   "pos": "adverb",
+   "wordId": "happily",
+   "sense": 0,
+   "context": "mutlulukla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "greet",
+   "pos": "verb",
+   "wordId": "greet",
+   "sense": 0,
+   "context": "karşılayan",
+   "note": null,
+   "form": "greet + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "guest",
+   "pos": "noun",
+   "wordId": "guest",
+   "sense": 0,
+   "context": "misafir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (kapıda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}
