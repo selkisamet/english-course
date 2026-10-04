@@ -110,6 +110,10 @@ function Login() {
         options: { emailRedirectTo: window.location.origin }
       })
       if (err) throw err
+      // Kayıtlı e-posta: Supabase hata yerine kimliksiz bir kullanıcı döner ve e-posta göndermez
+      if (data.user && data.user.identities?.length === 0) {
+        return setError('Bu e-posta ile zaten bir hesap var. "Giriş yap" sekmesini kullan ya da şifreni yenile.')
+      }
       // E-posta doğrulaması açıksa oturum hemen açılmaz
       if (!data.session) setInfo('Hesabın oluşturuldu. E-postana gönderdiğimiz bağlantıya tıklayarak adresini doğrula.')
     })
