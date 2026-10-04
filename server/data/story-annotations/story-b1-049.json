@@ -1,0 +1,1256 @@
+{
+ "storyId": "story-b1-049",
+ "textHash": "3d977a20e1d3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ilkbahar küçük bir şirketin çalışanları kasabalarındaki çocuk hastanesi için para toplamaya karar verdi."
+  },
+  {
+   "tr": "Parkta beş kilometrelik bir koşu düzenlediler ve arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler."
+  },
+  {
+   "tr": "Çoğu yıllardır koşmamıştı, bu yüzden işten sonra birlikte antrenman yaptılar."
+  },
+  {
+   "tr": "Koşu günü altmıştan fazla kişi katıldı."
+  },
+  {
+   "tr": "Yolun çoğunu yürüyen patron da dahil, herkes yarışı bitirdi."
+  },
+  {
+   "tr": "Hep birlikte iki bin sterlinden fazla para topladılar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "spring",
+   "pos": "noun",
+   "wordId": "spring",
+   "sense": 0,
+   "context": "ilkbahar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last spring",
+    "meaning": "geçen ilkbahar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "staff",
+   "pos": "noun",
+   "wordId": "staff",
+   "sense": 0,
+   "context": "çalışanlar (personel)",
+   "note": "*staff* bir yerde çalışan kişilerin tümüdür; tek bir kişi için *a member of staff* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şirketin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "the staff of a small company",
+    "meaning": "küçük bir şirketin çalışanları"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (toplamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "toplamak (para)",
+   "note": "*raise*'in temel anlamı \"kaldırmak, yükseltmek\"tir; *raise money* \"(bir amaç için) para toplamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "raise money",
+    "meaning": "para toplamak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "raise money",
+    "meaning": "para toplamak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "hospital for sick children",
+    "meaning": "çocuk hastanesi"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (çocuklar için)",
+   "note": "*a hospital for sick children* \"hasta çocuklar için bir hastane\", yani \"çocuk hastanesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "hospital for sick children",
+    "meaning": "çocuk hastanesi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "sick",
+   "pos": "adjective",
+   "wordId": "sick",
+   "sense": 0,
+   "context": "hasta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "hospital for sick children",
+    "meaning": "çocuk hastanesi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "hospital for sick children",
+    "meaning": "çocuk hastanesi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (kasabalarındaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "organise",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenlediler",
+   "note": "*organise* İngiliz yazımıdır; Amerikan İngilizcesinde *organize* yazılır.",
+   "form": "organise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "a run of five kilometres",
+    "meaning": "beş kilometrelik bir koşu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "run",
+   "pos": "noun",
+   "wordId": "run",
+   "sense": 1,
+   "context": "koşu",
+   "note": "*run* fiil olarak \"koşmak\", isim olarak \"koşu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "a run of five kilometres",
+    "meaning": "beş kilometrelik bir koşu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(-lik)",
+   "note": "*a run of five kilometres* \"beş kilometrelik bir koşu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "a run of five kilometres",
+    "meaning": "beş kilometrelik bir koşu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "a run of five kilometres",
+    "meaning": "beş kilometrelik bir koşu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "kilometre",
+   "pos": "noun",
+   "wordId": "kilometre",
+   "sense": 0,
+   "context": "kilometre",
+   "note": "*kilometre* İngiliz yazımıdır; Amerikan İngilizcesinde *kilometer* yazılır.",
+   "form": "kilometre'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "a run of five kilometres",
+    "meaning": "beş kilometrelik bir koşu"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (parkta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "park",
+   "pos": "noun",
+   "wordId": "park",
+   "sense": 0,
+   "context": "park",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istediler",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (desteklemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "support",
+   "pos": "verb",
+   "wordId": "support",
+   "sense": 0,
+   "context": "desteklemek",
+   "note": "Yardım kampanyalarında *support someone* koşucuya \"bağış yaparak destek olmak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (kendilerini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "asked friends and family to support them",
+    "meaning": "arkadaşlarından ve ailelerinden kendilerini desteklemelerini istediler"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*most of them* \"onların çoğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "Most of them",
+    "meaning": "çoğu"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "Most of them",
+    "meaning": "çoğu"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "Most of them",
+    "meaning": "çoğu"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had not* + fiilin 3. hali + *for years* geçmişteki bir ana kadar uzun süredir yapılmayan bir şeyi anlatır: *had not run for years* → yıllardır koşmamıştı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "had not run for years",
+    "meaning": "yıllardır koşmamıştı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "had not run for years",
+    "meaning": "yıllardır koşmamıştı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "koşmamıştı",
+   "note": null,
+   "form": "run fiilinin 3. hali (run, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "had not run for years",
+    "meaning": "yıllardır koşmamıştı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (yıllardır)",
+   "note": "*for years* \"yıllardır, yıllarca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "had not run for years",
+    "meaning": "yıllardır koşmamıştı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "had not run for years",
+    "meaning": "yıllardır koşmamıştı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "antrenman yaptılar",
+   "note": null,
+   "form": "train + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": "*after work* \"işten sonra\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "after work",
+    "meaning": "işten sonra"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "after work",
+    "meaning": "işten sonra"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(o gün)",
+   "note": "*on the day* \"(beklenen) o gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "On the day",
+    "meaning": "o gün (koşu günü)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "On the day",
+    "meaning": "o gün (koşu günü)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "On the day",
+    "meaning": "o gün (koşu günü)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "sixty",
+   "pos": "number",
+   "wordId": "sixty",
+   "sense": 0,
+   "context": "altmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "katıldı (take part)",
+   "note": "*take part (in)* \"(bir şeye) katılmak\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "took part",
+    "meaning": "katıldı (take part)"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "(take part: katılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "took part",
+    "meaning": "katıldı (take part)"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitirdi",
+   "note": null,
+   "form": "finish + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "race",
+   "pos": "noun",
+   "wordId": "race",
+   "sense": 0,
+   "context": "yarış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile (dahil)",
+   "note": "*even* şaşırtıcı bir örneği vurgular: *even the boss* → patron bile.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "boss",
+   "pos": "noun",
+   "wordId": "boss",
+   "sense": 0,
+   "context": "patron",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(ki o)",
+   "note": "Virgülden sonra gelen *who* kişi hakkında ek bilgi verir: *the boss, who walked…* → … yürüyen patron.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürüdü",
+   "note": null,
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*most of the way* \"yolun çoğu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "most of the way",
+    "meaning": "yolun çoğu"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "most of the way",
+    "meaning": "yolun çoğu"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "most of the way",
+    "meaning": "yolun çoğu"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "most of the way",
+    "meaning": "yolun çoğu"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "hep birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "raise",
+   "pos": "verb",
+   "wordId": "raise",
+   "sense": 0,
+   "context": "topladılar",
+   "note": null,
+   "form": "raise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "-den fazla",
+   "note": "*over* + sayı \"…-den fazla\" demektir; *more than* ile aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "over two thousand pounds",
+    "meaning": "iki bin sterlinden fazla"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "over two thousand pounds",
+    "meaning": "iki bin sterlinden fazla"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "bin",
+   "note": "Belirli sayılarda *thousand* çoğul eki almaz: *two thousand* (✗ two thousands).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "over two thousand pounds",
+    "meaning": "iki bin sterlinden fazla"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "pound",
+   "pos": "noun",
+   "wordId": "pound",
+   "sense": 0,
+   "context": "sterlin",
+   "note": null,
+   "form": "pound'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 78,
+    "to": 81,
+    "text": "over two thousand pounds",
+    "meaning": "iki bin sterlinden fazla"
+   }
+  }
+ ]
+}

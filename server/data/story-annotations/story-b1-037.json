@@ -1,0 +1,1187 @@
+{
+ "storyId": "story-b1-037",
+ "textHash": "87fb6bc8934e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kasabanın eski kesiminde ikinci el kitap satan küçük bir dükkân var."
+  },
+  {
+   "tr": "Sahibi Bayan Grant, dükkânı otuz yıldan fazladır işletiyor."
+  },
+  {
+   "tr": "Raflar tavana kadar uzanıyor ve her yerde, hatta merdivenlerde bile kitap var."
+  },
+  {
+   "tr": "Müşteriler orada nadir kitaplar arayarak çoğu zaman saatler geçiriyor."
+  },
+  {
+   "tr": "Hiçbir şey düzenli görünmese de Bayan Grant her kitabın tam olarak nerede olduğunu biliyor."
+  },
+  {
+   "tr": "Birçok öğrenci geliyor çünkü kitaplar diğer dükkânlardakinden çok daha ucuz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kesiminde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "kesim (bölüm)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (kasabanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": "*town* burada *the* almadan \"kasaba, şehir merkezi\" anlamında kullanılmıştır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In the old part of town",
+    "meaning": "kasabanın eski kesiminde"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there is: var)",
+   "note": "*there is* + tekil isim \"… var\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "there is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there is)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "there is",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *a shop that sells used books* → ikinci el kitap satan bir dükkân.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "sell",
+   "pos": "verb",
+   "wordId": "sell",
+   "sense": 0,
+   "context": "satan",
+   "note": null,
+   "form": "sell + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "used",
+   "pos": "adjective",
+   "wordId": "used",
+   "sense": 1,
+   "context": "ikinci el (kullanılmış)",
+   "note": "*used* isimden önce \"ikinci el, kullanılmış\" demektir: *used books, a used car*. Başlıktaki *second-hand* da aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "used books",
+    "meaning": "ikinci el kitaplar"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "used books",
+    "meaning": "ikinci el kitaplar"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "owner",
+   "pos": "noun",
+   "wordId": "owner",
+   "sense": 0,
+   "context": "sahip",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *own* (sahip olmak) → *owner* (sahip).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": "*Mrs* evli kadınların soyadından önce kullanılan unvandır (\"Misiz\" diye okunur).",
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "Grant",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Grant",
+   "note": "*grant* küçük harfle \"burs, hibe\" demektir; burada bir soyadıdır.",
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor; -dır)",
+   "note": "*has + fiilin 3. hali* (present perfect) + *for* süresi, geçmişte başlayıp hâlâ süren durumu anlatır: *has run it for more than thirty years* → otuz yıldan fazladır işletiyor.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "işletiyor",
+   "note": "*run*'ın temel anlamı \"koşmak\"tır; bir işyeri için \"işletmek, yönetmek\" demektir.",
+   "form": "run fiilinin 3. hali (run, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (dükkânı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (… yıldır)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 26,
+    "text": "has run it for more than thirty years",
+    "meaning": "otuz yıldan fazladır işletiyor"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "shelf",
+   "pos": "noun",
+   "wordId": "shelf",
+   "sense": 0,
+   "context": "raflar",
+   "note": "*shelf*'in çoğulu *shelves*'tir (f → ves).",
+   "form": "shelf'in çoğulu (shelves, f → ves)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "uzanıyor (gidiyor)",
+   "note": "*go up to* bir yere \"kadar uzanmak, yükselmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "go up to the ceiling",
+    "meaning": "tavana kadar uzanıyor"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "yukarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "go up to the ceiling",
+    "meaning": "tavana kadar uzanıyor"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "go up to the ceiling",
+    "meaning": "tavana kadar uzanıyor"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "go up to the ceiling",
+    "meaning": "tavana kadar uzanıyor"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "ceiling",
+   "pos": "noun",
+   "wordId": "ceiling",
+   "sense": 0,
+   "context": "tavan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "go up to the ceiling",
+    "meaning": "tavana kadar uzanıyor"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there are: var)",
+   "note": "*there are* + çoğul isim \"… var\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "there are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there are)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "there are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "everywhere",
+   "pos": "adverb",
+   "wordId": "everywhere",
+   "sense": 0,
+   "context": "her yerde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta (bile)",
+   "note": "*even* şaşırtıcı bir örneği vurgular: *even on the stairs* → merdivenlerde bile.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (merdivenlerde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "stair",
+   "pos": "noun",
+   "wordId": "stair",
+   "sense": 0,
+   "context": "merdiven",
+   "note": "*stairs* çoğul olarak \"merdiven\" demektir.",
+   "form": "stair'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman (sık sık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçiriyor",
+   "note": "*spend time* + *-ing* \"… -erek zaman geçirmek\" demektir: *spend hours looking for books* → kitap arayarak saatler geçirmek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "spend hours",
+    "meaning": "saatler geçirmek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saatler",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "spend hours",
+    "meaning": "saatler geçirmek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "arayarak",
+   "note": "*look for something* \"bir şeyi aramak\" demektir.",
+   "form": "look + -ing",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "looking for",
+    "meaning": "arayarak (look for)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(look for: aramak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "looking for",
+    "meaning": "arayarak (look for)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "rare",
+   "pos": "adjective",
+   "wordId": "rare",
+   "sense": 0,
+   "context": "nadir",
+   "note": "*rare* \"nadir, az bulunan\" demektir; et için \"az pişmiş\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": null,
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "Grant",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Grant",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "biliyor",
+   "note": null,
+   "form": "know + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "exactly",
+   "pos": "adverb",
+   "wordId": "exactly",
+   "sense": 0,
+   "context": "tam olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "where",
+   "pos": "adverb",
+   "wordId": "where",
+   "sense": 0,
+   "context": "nerede",
+   "note": "Soru sözcüğü cümlenin içinde geçince kelime sırası düz cümle gibidir: *where every book is* (✗ where is every book).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "where every book is",
+    "meaning": "her kitabın nerede olduğu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "where every book is",
+    "meaning": "her kitabın nerede olduğu"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "where every book is",
+    "meaning": "her kitabın nerede olduğu"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "where every book is",
+    "meaning": "her kitabın nerede olduğu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-e rağmen (-se de)",
+   "note": "*although* + cümle \"… -mesine rağmen, … -se de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "nothing",
+   "pos": "pronoun",
+   "wordId": "nothing",
+   "sense": 0,
+   "context": "hiçbir şey",
+   "note": "*nothing* kendisi olumsuz anlam taşır; fiil olumlu kalır: *nothing seems* → hiçbir şey … görünmüyor.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünmek",
+   "note": "*seem to be* + sıfat/ifade \"… gibi görünmek\" demektir.",
+   "form": "seem + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "seems to be in order",
+    "meaning": "düzenli görünüyor"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "seems to be in order",
+    "meaning": "düzenli görünüyor"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "seems to be in order",
+    "meaning": "düzenli görünüyor"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in order: düzenli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "seems to be in order",
+    "meaning": "düzenli görünüyor"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "sıra (düzen)",
+   "note": "*in order* \"sırayla, düzenli\" demektir; *order*'ın \"sipariş\" anlamıyla karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "seems to be in order",
+    "meaning": "düzenli görünüyor"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geliyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "much cheaper",
+    "meaning": "çok daha ucuz"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "cheap",
+   "pos": "adjective",
+   "wordId": "cheap",
+   "sense": 0,
+   "context": "daha ucuz",
+   "note": null,
+   "form": "cheap sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "much cheaper",
+    "meaning": "çok daha ucuz"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": "*than in other shops* \"diğer dükkânlardakinden\" demektir; *than*'dan sonra yer bildiren ifade gelebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (dükkânlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "diğer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkânlar",
+   "note": null,
+   "form": "shop'un çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

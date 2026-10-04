@@ -1,0 +1,1198 @@
+{
+ "storyId": "story-b1-047",
+ "textHash": "fccd7524994f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Lena'nın erkek kardeşi doğum günü için ona ünlü bir restorandaki yemek kursu için bir bilet hediye etti."
+  },
+  {
+   "tr": "Kurs bir cumartesi öğleden sonra yapıldı ve grupta başka sekiz kişi vardı."
+  },
+  {
+   "tr": "Şef onlara taze makarna ve basit bir domates sosu yapmayı gösterdi."
+  },
+  {
+   "tr": "Lena makarnayı hep paketlerde satın almıştı, bu yüzden ne kadar kolay olduğuna şaşırdı."
+  },
+  {
+   "tr": "Sonunda herkes birlikte pişirdiklerini yedi."
+  },
+  {
+   "tr": "O zamandan beri Lena birkaç kez kendi makarnasını yaptı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *her birthday* → doğum gün**ü**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "birthday",
+   "pos": "noun",
+   "wordId": "birthday",
+   "sense": 0,
+   "context": "doğum günü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Lena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lena'nın",
+   "note": "*'s* eki sahiplik bildirir: *Lena's brother* → Lena'nın erkek kardeşi.",
+   "form": "Lena + 's (iyelik)",
+   "base": "(kadın adı)",
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "Lena's brother",
+    "meaning": "Lena'nın erkek kardeşi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "brother",
+   "pos": "noun",
+   "wordId": "brother",
+   "sense": 0,
+   "context": "erkek kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "Lena's brother",
+    "meaning": "Lena'nın erkek kardeşi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdi (hediye etti)",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "gave her a ticket",
+    "meaning": "ona bir bilet verdi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": "*her* burada nesnedir (\"ona\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "gave her a ticket",
+    "meaning": "ona bir bilet verdi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "gave her a ticket",
+    "meaning": "ona bir bilet verdi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "ticket",
+   "pos": "noun",
+   "wordId": "ticket",
+   "sense": 0,
+   "context": "bilet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "gave her a ticket",
+    "meaning": "ona bir bilet verdi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek pişirme",
+   "note": "Burada *cooking* isim olmasına rağmen *class*'ı niteler: *cooking class* → yemek kursu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "cooking class",
+    "meaning": "yemek kursu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "kurs (ders)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "cooking class",
+    "meaning": "yemek kursu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-deki (restorandaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "famous",
+   "pos": "adjective",
+   "wordId": "famous",
+   "sense": 0,
+   "context": "ünlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "restaurant",
+   "pos": "noun",
+   "wordId": "restaurant",
+   "sense": 0,
+   "context": "restoran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "(take place: gerçekleşmek)",
+   "note": "*take place* \"gerçekleşmek, yapılmak\" demektir; planlanmış olaylar için kullanılır.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "took place",
+    "meaning": "gerçekleşti, yapıldı (take place)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "(take place: gerçekleşmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "took place",
+    "meaning": "gerçekleşti, yapıldı (take place)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(bir cumartesi öğleden sonra)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there were: vardı)",
+   "note": "*there were* + çoğul isim \"… vardı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "there were",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there were)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "there were",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "eight",
+   "pos": "number",
+   "wordId": "eight",
+   "sense": 0,
+   "context": "sekiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (grupta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "chef",
+   "pos": "noun",
+   "wordId": "chef",
+   "sense": 0,
+   "context": "şef (aşçı)",
+   "note": "*chef* bir restoranın \"şef aşçısı\"dır; *ch* burada \"ş\" diye okunur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterdi",
+   "note": "*show someone how to* + fiil \"birine bir şeyin nasıl yapılacağını göstermek\" demektir.",
+   "form": "show + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "how to make",
+    "meaning": "yapmayı (nasıl yapılacağını)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "how to make",
+    "meaning": "yapmayı (nasıl yapılacağını)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "how to make",
+    "meaning": "yapmayı (nasıl yapılacağını)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "fresh",
+   "pos": "adjective",
+   "wordId": "fresh",
+   "sense": 0,
+   "context": "taze",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": "*pasta* İtalyan usulü her tür \"makarna\"dır; sayılamaz.",
+   "form": null,
+   "base": "makarna",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "tomato",
+   "pos": "noun",
+   "wordId": "tomato",
+   "sense": 0,
+   "context": "domates",
+   "note": "Burada *tomato* isim olmasına rağmen *sauce*'u niteler: *tomato sauce* → domates sosu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "tomato sauce",
+    "meaning": "domates sosu"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "sauce",
+   "pos": "noun",
+   "wordId": "sauce",
+   "sense": 0,
+   "context": "sos",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "tomato sauce",
+    "meaning": "domates sosu"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "Lena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had always* + fiilin 3. hali (past perfect) o güne kadar süregelen bir alışkanlığı anlatır: *had always bought* → hep satın almıştı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had always bought",
+    "meaning": "hep satın almıştı (past perfect)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep (her zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had always bought",
+    "meaning": "hep satın almıştı (past perfect)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "satın almıştı",
+   "note": null,
+   "form": "buy fiilinin 3. hali (bought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had always bought",
+    "meaning": "hep satın almıştı (past perfect)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": null,
+   "form": null,
+   "base": "makarna",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (paketlerde)",
+   "note": "Ambalajlar için *in* kullanılır: *in packets* → paketlerde, paket halinde.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "packet",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "paketler",
+   "note": "*packet* İngiliz İngilizcesinde küçük \"paket\"tir; Amerikan İngilizcesinde *package* daha yaygındır.",
+   "form": "packet'ın çoğulu",
+   "base": "paket",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": "*be surprised how* + sıfat \"ne kadar … olduğuna şaşırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how* + sıfat \"ne kadar …\" demektir; cümle içinde kelime sırası düzdür: *how easy it was*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "how easy it was",
+    "meaning": "ne kadar kolay olduğu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "easy",
+   "pos": "adjective",
+   "wordId": "easy",
+   "sense": 0,
+   "context": "kolay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "how easy it was",
+    "meaning": "ne kadar kolay olduğu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (makarna yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "how easy it was",
+    "meaning": "ne kadar kolay olduğu"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğuna)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "how easy it was",
+    "meaning": "ne kadar kolay olduğu"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at the end: sonunda)",
+   "note": "*at the end* bir olayın \"sonunda\" demektir; *in the end* ise \"en sonunda, nihayet\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "At the end",
+    "meaning": "sonunda (sonda)"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "At the end",
+    "meaning": "sonunda (sonda)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "At the end",
+    "meaning": "sonunda (sonda)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(-dikleri şey)",
+   "note": "*what* burada \"… -en şey(ler)\" anlamında kullanılır: *what they had cooked* → pişirdikleri şey.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "what they had cooked",
+    "meaning": "pişirdikleri şey"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "what they had cooked",
+    "meaning": "pişirdikleri şey"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dikleri)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "what they had cooked",
+    "meaning": "pişirdikleri şey"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "cook",
+   "pos": "verb",
+   "wordId": "cook",
+   "sense": 0,
+   "context": "pişirdikleri",
+   "note": null,
+   "form": "cook fiilinin 3. hali (cooked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "what they had cooked",
+    "meaning": "pişirdikleri şey"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir ve present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "Lena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "*has* + fiilin 3. hali + *several times* geçmişten bugüne kadar kaç kez yapıldığını anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": null,
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*own* iyelik sözcüğünden sonra gelir: *her own pasta* → kendi makarnası.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "pasta",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "makarna",
+   "note": null,
+   "form": null,
+   "base": "makarna",
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 81,
+    "to": 82,
+    "text": "several times",
+    "meaning": "birkaç kez"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": null,
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 81,
+    "to": 82,
+    "text": "several times",
+    "meaning": "birkaç kez"
+   }
+  }
+ ]
+}

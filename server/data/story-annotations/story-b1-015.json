@@ -1,0 +1,1047 @@
+{
+ "storyId": "story-b1-015",
+ "textHash": "f7dd24e7d4cd",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Jonas üniversiteye başladığında, üç öğrenciyle daha bir daireyi paylaşmaya karar verdi."
+  },
+  {
+   "tr": "İlk başta eğlenceliydi çünkü konuşacak birileri hep vardı."
+  },
+  {
+   "tr": "Ancak çok geçmeden sorunlar ortaya çıktı."
+  },
+  {
+   "tr": "Kimse bulaşıkları yıkamak istemiyordu ve mutfak hep kirliydi."
+  },
+  {
+   "tr": "Bir akşam birlikte oturdular ve her kişi için bir iş listesi yaptılar."
+  },
+  {
+   "tr": "O zamandan beri daire çok daha temiz ve dördü iyi arkadaş oldular."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Jonas",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Jonas",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start university* \"üniversiteye başlamak\" demektir; önüne *the* gelmez.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (paylaşmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmak",
+   "note": "*share a flat with someone* \"biriyle aynı daireyi paylaşmak, ev arkadaşı olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "share a flat",
+    "meaning": "bir daireyi paylaşmak, ev arkadaşı olmak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "share a flat",
+    "meaning": "bir daireyi paylaşmak, ev arkadaşı olmak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": "*flat* İngiliz İngilizcesinde \"daire\" demektir; Amerikan İngilizcesinde *apartment* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "share a flat",
+    "meaning": "bir daireyi paylaşmak, ev arkadaşı olmak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "three other students",
+    "meaning": "üç öğrenci daha"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka (daha)",
+   "note": "*three other students* \"üç öğrenci daha, başka üç öğrenci\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "three other students",
+    "meaning": "üç öğrenci daha"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "three other students",
+    "meaning": "üç öğrenci daha"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir (burada *However* ile).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 15,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Bir durumu değerlendirirken özne olarak *it* kullanılır: *it was fun* → eğlenceliydi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "fun",
+   "pos": "noun",
+   "wordId": "fun",
+   "sense": 0,
+   "context": "eğlenceli (eğlence)",
+   "note": "*fun* isimdir: *it was fun* → eğlenceliydi. *funny* ise \"komik\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there was)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep (her zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "someone to talk to",
+    "meaning": "konuşacak biri"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-acak)",
+   "note": "İsim + *to* + fiil \"… -ecek (biri/bir şey)\" demektir: *someone to talk to* → konuşacak biri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "someone to talk to",
+    "meaning": "konuşacak biri"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": "*talk to someone* kalıbındaki *to* cümlenin sonunda kalır: *someone to talk to*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "someone to talk to",
+    "meaning": "konuşacak biri"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "ile (talk to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "someone to talk to",
+    "meaning": "konuşacak biri"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorunlar",
+   "note": null,
+   "form": "problem'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "çok geçmeden (yakında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "ortaya çıktı",
+   "note": null,
+   "form": "appear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "nobody",
+   "pos": "pronoun",
+   "wordId": "nobody",
+   "sense": 0,
+   "context": "hiç kimse",
+   "note": "*nobody* kendisi olumsuz anlam taşır; fiil olumlu kalır: *Nobody wanted* → Kimse istemiyordu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istiyordu",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yıkamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "wash",
+   "pos": "verb",
+   "wordId": "wash",
+   "sense": 0,
+   "context": "yıkamak",
+   "note": "*wash the dishes* \"bulaşık yıkamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "dish",
+   "pos": "noun",
+   "wordId": "dish",
+   "sense": 0,
+   "context": "bulaşıklar",
+   "note": null,
+   "form": "dish'in çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "kitchen",
+   "pos": "noun",
+   "wordId": "kitchen",
+   "sense": 0,
+   "context": "mutfak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "dirty",
+   "pos": "adjective",
+   "wordId": "dirty",
+   "sense": 0,
+   "context": "kirli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*one evening* \"bir akşam\" demektir; geçmişte belirsiz bir günü anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturdular",
+   "note": "*sit down* \"oturmak, yerine oturmak\" demektir.",
+   "form": "sit fiilinin geçmiş zaman hali (sat, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "sat down",
+    "meaning": "oturdular (sit down)"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(sit down: oturmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "sat down",
+    "meaning": "oturdular (sit down)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptılar",
+   "note": "*make a list* \"liste yapmak\" demektir.",
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "a list of jobs",
+    "meaning": "bir iş listesi"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "list",
+   "pos": "noun",
+   "wordId": "list",
+   "sense": 0,
+   "context": "liste",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "a list of jobs",
+    "meaning": "bir iş listesi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(iş listesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "a list of jobs",
+    "meaning": "bir iş listesi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "işler (görevler)",
+   "note": null,
+   "form": "job'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "a list of jobs",
+    "meaning": "bir iş listesi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": "*each* + tekil isim \"her bir\" demektir: *each person* → her kişi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir ve present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dır)",
+   "note": "*has been* (present perfect) geçmişte başlayıp hâlâ süren durumu anlatır: *has been much cleaner* → (o zamandan beri) çok daha temiz.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmak)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir: *much cleaner* → çok daha temiz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "clean",
+   "pos": "adjective",
+   "wordId": "clean",
+   "sense": 0,
+   "context": "daha temiz",
+   "note": null,
+   "form": "clean sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "the four of them",
+    "meaning": "dördü (dördü de)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dördü",
+   "note": "*the four of them* \"onların dördü, dördü de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "the four of them",
+    "meaning": "dördü (dördü de)"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (onların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "the four of them",
+    "meaning": "dördü (dördü de)"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "the four of them",
+    "meaning": "dördü (dördü de)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dular)",
+   "note": null,
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oldular",
+   "note": "*become* \"olmak, … hâline gelmek\" demektir; 3. hali de *become*'dur.",
+   "form": "become fiilinin 3. hali (become, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1259 @@
+{
+ "storyId": "story-b1-040",
+ "textHash": "dca216c571ed",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen sonbahar Ryan ve arkadaşı dağlarda doğa yürüyüşüne gittiler."
+  },
+  {
+   "tr": "İnişte Ryan ıslak bir kayanın üzerinde kaydı ve ayak bileğini kötü incitti."
+  },
+  {
+   "tr": "Yürüyemiyordu ve telefon çekmiyordu."
+  },
+  {
+   "tr": "Arkadaşı ona su ve kalın bir mont verdi, sonra yardım bulmak için bir saat yürüdü."
+  },
+  {
+   "tr": "İki saat sonra bir kurtarma ekibi geldi ve Ryan'ı dağdan aşağı taşıdı."
+  },
+  {
+   "tr": "Doktor ayak bileğinin kırık olmadığını söyledi."
+  },
+  {
+   "tr": "Artık Ryan bir yürüyüşten önce her zaman birine nereye gittiğini söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last autumn",
+    "meaning": "geçen sonbahar"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "autumn",
+   "pos": "noun",
+   "wordId": "autumn",
+   "sense": 0,
+   "context": "sonbahar",
+   "note": "*autumn* İngiliz İngilizcesinde kullanılır; Amerikan İngilizcesinde *fall* denir. Sondaki *n* okunmaz (\"otım\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last autumn",
+    "meaning": "geçen sonbahar"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Ryan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ryan",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiler",
+   "note": "*go* + *-ing* bazı etkinlikler için kullanılır: *go hiking* → doğa yürüyüşüne gitmek.",
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "went hiking",
+    "meaning": "doğa yürüyüşüne gittiler (go hiking)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "hiking",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doğa yürüyüşü",
+   "note": "*hiking* dağ ve kırlarda yapılan uzun yürüyüştür.",
+   "form": null,
+   "base": "doğa yürüyüşü",
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "went hiking",
+    "meaning": "doğa yürüyüşüne gittiler (go hiking)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (dağlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the mountains* belli bir dağı değil, genel olarak \"dağlık bölge\"yi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "mountain",
+   "pos": "noun",
+   "wordId": "mountain",
+   "sense": 0,
+   "context": "dağlar",
+   "note": null,
+   "form": "mountain'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on the way: yolda)",
+   "note": "*on the way down* \"aşağı inerken, inişte\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "On the way down",
+    "meaning": "inişte, aşağı inerken"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "On the way down",
+    "meaning": "inişte, aşağı inerken"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "On the way down",
+    "meaning": "inişte, aşağı inerken"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "aşağı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "On the way down",
+    "meaning": "inişte, aşağı inerken"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "Ryan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ryan",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "slip",
+   "pos": "verb",
+   "wordId": "slip",
+   "sense": 0,
+   "context": "kaydı",
+   "note": "*slip on something* \"bir şeyin üzerinde ayağı kaymak\" demektir.",
+   "form": "slip + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "wet",
+   "pos": "adjective",
+   "wordId": "wet",
+   "sense": 0,
+   "context": "ıslak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "rock",
+   "pos": "noun",
+   "wordId": "rock",
+   "sense": 0,
+   "context": "kaya",
+   "note": "*rock* \"kaya\" ve \"rock müzik\" demektir; burada \"kaya\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "hurt",
+   "pos": "verb",
+   "wordId": "hurt",
+   "sense": 0,
+   "context": "incitti",
+   "note": "*hurt*'ün geçmiş zaman hali de *hurt*'tür.",
+   "form": "hurt fiilinin geçmiş zaman hali (hurt, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "hurt his ankle badly",
+    "meaning": "ayak bileğini kötü incitti"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": "Vücut bölümlerinden önce İngilizcede iyelik sözcüğü kullanılır: *hurt his ankle* → ayak bileğini incitti.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "hurt his ankle badly",
+    "meaning": "ayak bileğini kötü incitti"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "ankle",
+   "pos": "noun",
+   "wordId": "ankle",
+   "sense": 0,
+   "context": "ayak bileği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "hurt his ankle badly",
+    "meaning": "ayak bileğini kötü incitti"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "badly",
+   "pos": "adverb",
+   "wordId": "badly",
+   "sense": 0,
+   "context": "kötü (ağır biçimde)",
+   "note": "*badly* \"kötü bir şekilde\" demektir; yaralanmalarda \"ciddi, ağır biçimde\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "hurt his ankle badly",
+    "meaning": "ayak bileğini kötü incitti"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-emiyordu)",
+   "note": "*could*, *can*'in geçmiş halidir; *could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürümek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": "*there was no* + isim \"hiç … yoktu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "there was no phone signal",
+    "meaning": "telefon çekmiyordu"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(yoktu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "there was no phone signal",
+    "meaning": "telefon çekmiyordu"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç (yoktu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "there was no phone signal",
+    "meaning": "telefon çekmiyordu"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": "Burada *phone* isim olmasına rağmen *signal*'ı niteler: *phone signal* → telefon sinyali.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "there was no phone signal",
+    "meaning": "telefon çekmiyordu"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "signal",
+   "pos": "noun",
+   "wordId": "signal",
+   "sense": 0,
+   "context": "sinyal (çekim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "there was no phone signal",
+    "meaning": "telefon çekmiyordu"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdi",
+   "note": "*give someone something* \"birine bir şey vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "warm",
+   "pos": "adjective",
+   "wordId": "warm",
+   "sense": 0,
+   "context": "kalın (sıcak tutan)",
+   "note": "*warm* giysiler için \"sıcak tutan, kalın\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "jacket",
+   "pos": "noun",
+   "wordId": "jacket",
+   "sense": 0,
+   "context": "mont (ceket)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürüdü",
+   "note": null,
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for* + süre \"… boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*hour*'daki *h* okunmadığı için *a* değil *an* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "for an hour",
+    "meaning": "bir saat (boyunca)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to find help* → yardım bulmak için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "to find help",
+    "meaning": "yardım bulmak için"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "to find help",
+    "meaning": "yardım bulmak için"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "help",
+   "pos": "noun",
+   "wordId": "help",
+   "sense": 1,
+   "context": "yardım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "to find help",
+    "meaning": "yardım bulmak için"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "Two hours later",
+    "meaning": "iki saat sonra"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": "hour'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "Two hours later",
+    "meaning": "iki saat sonra"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "Two hours later",
+    "meaning": "iki saat sonra"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "rescue",
+   "pos": "noun",
+   "wordId": "rescue",
+   "sense": 1,
+   "context": "kurtarma",
+   "note": "Burada *rescue* isim olmasına rağmen *team*'i niteler: *rescue team* → kurtarma ekibi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "rescue team",
+    "meaning": "kurtarma ekibi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "rescue team",
+    "meaning": "kurtarma ekibi"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "carry",
+   "pos": "verb",
+   "wordId": "carry",
+   "sense": 0,
+   "context": "taşıdı",
+   "note": null,
+   "form": "carry'nin geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "carried Ryan down the mountain",
+    "meaning": "Ryan'ı dağdan aşağı taşıdılar"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "Ryan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ryan'ı",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "carried Ryan down the mountain",
+    "meaning": "Ryan'ı dağdan aşağı taşıdılar"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "down",
+   "pos": "preposition",
+   "wordId": "down",
+   "sense": 1,
+   "context": "-den aşağı",
+   "note": "*down the mountain* \"dağdan aşağı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "carried Ryan down the mountain",
+    "meaning": "Ryan'ı dağdan aşağı taşıdılar"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "carried Ryan down the mountain",
+    "meaning": "Ryan'ı dağdan aşağı taşıdılar"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "mountain",
+   "pos": "noun",
+   "wordId": "mountain",
+   "sense": 0,
+   "context": "dağ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "carried Ryan down the mountain",
+    "meaning": "Ryan'ı dağdan aşağı taşıdılar"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "ankle",
+   "pos": "noun",
+   "wordId": "ankle",
+   "sense": 0,
+   "context": "ayak bileği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmadığını)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "broken",
+   "pos": "adjective",
+   "wordId": "broken",
+   "sense": 0,
+   "context": "kırık",
+   "note": "*broken* \"kırık, bozuk\" demektir; *break* fiilinin 3. halidir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "Ryan",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ryan",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "tell + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "birine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 80,
+   "lemma": "where",
+   "pos": "adverb",
+   "wordId": "where",
+   "sense": 0,
+   "context": "nereye",
+   "note": "Soru sözcüğü cümlenin içinde geçince kelime sırası düz cümle gibidir: *where he is going* (✗ where is he going).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 83,
+    "text": "where he is going",
+    "meaning": "nereye gittiği"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 83,
+    "text": "where he is going",
+    "meaning": "nereye gittiği"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-diğini)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 83,
+    "text": "where he is going",
+    "meaning": "nereye gittiği"
+   }
+  },
+  {
+   "i": 83,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gittiğini",
+   "note": null,
+   "form": "go + -ing",
+   "base": null,
+   "phrase": {
+    "from": 80,
+    "to": 83,
+    "text": "where he is going",
+    "meaning": "nereye gittiği"
+   }
+  },
+  {
+   "i": 84,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-den önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 85,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 86,
+   "lemma": "hike",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yürüyüş (doğa yürüyüşü)",
+   "note": "*hike* isim olarak tek bir \"doğa yürüyüşü\", fiil olarak \"doğa yürüyüşü yapmak\" demektir.",
+   "form": null,
+   "base": "doğa yürüyüşü",
+   "phrase": null
+  }
+ ]
+}

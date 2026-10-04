@@ -1,0 +1,1216 @@
+{
+ "storyId": "story-b1-033",
+ "textHash": "e2b7f096dbc8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Carla iki yıldır Londra'da yaşıyordu ki İspanya'daki anne babasına sürpriz yapmaya karar verdi."
+  },
+  {
+   "tr": "Erkek kardeşi dışında kimseye söylemedi."
+  },
+  {
+   "tr": "Bir bilet aldı ve bir cuma akşamı uçakla eve gitti."
+  },
+  {
+   "tr": "Zili çaldığında annesi kapıyı açtı ve sevinçten çığlık attı."
+  },
+  {
+   "tr": "Babası o kadar şaşırdı ki elindeki kahve fincanını düşürdü."
+  },
+  {
+   "tr": "Bütün hafta sonunu birlikte yemek yaparak, konuşarak ve gülerek geçirdiler."
+  },
+  {
+   "tr": "Carla'nın yıllardır geçirdiği en güzel hafta sonuydu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Carla",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Carla",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*had been + -ing* (past perfect continuous) geçmişteki bir ana kadar süregelen eylemi anlatır: *had been living for two years* → iki yıldır yaşıyordu.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşıyordu",
+   "note": null,
+   "form": "live + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Londra'da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "London",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Londra",
+   "note": null,
+   "form": null,
+   "base": "(İngiltere'nin başkenti)",
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (iki yıldır)",
+   "note": "Süre bildiren *for*, perfect zamanlarla Türkçedeki \"-dır\" (… yıldır) ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "had been living in London for two years",
+    "meaning": "iki yıldır Londra'da yaşıyordu"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "(… ki) -diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (sürpriz yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "surprise",
+   "pos": "verb",
+   "wordId": "surprise",
+   "sense": 1,
+   "context": "sürpriz yapmak (şaşırtmak)",
+   "note": "*surprise* isim olarak \"sürpriz\", fiil olarak \"şaşırtmak, sürpriz yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "surprise her parents",
+    "meaning": "anne babasına sürpriz yapmak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "surprise her parents",
+    "meaning": "anne babasına sürpriz yapmak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": "*parents* \"anne ve baba\" demektir; *parent* bunlardan biridir.",
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "surprise her parents",
+    "meaning": "anne babasına sürpriz yapmak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (İspanya'daki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "Spain",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İspanya",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "tell anyone except her brother",
+    "meaning": "erkek kardeşi dışında kimseye söylemek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "anyone",
+   "pos": "pronoun",
+   "wordId": "anyone",
+   "sense": 0,
+   "context": "kimse(ye)",
+   "note": "Olumsuz cümlede *anyone* \"kimse\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "tell anyone except her brother",
+    "meaning": "erkek kardeşi dışında kimseye söylemek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "except",
+   "pos": "preposition",
+   "wordId": "except",
+   "sense": 0,
+   "context": "dışında (hariç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "tell anyone except her brother",
+    "meaning": "erkek kardeşi dışında kimseye söylemek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "tell anyone except her brother",
+    "meaning": "erkek kardeşi dışında kimseye söylemek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "brother",
+   "pos": "noun",
+   "wordId": "brother",
+   "sense": 0,
+   "context": "erkek kardeş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "tell anyone except her brother",
+    "meaning": "erkek kardeşi dışında kimseye söylemek"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldı",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "ticket",
+   "pos": "noun",
+   "wordId": "ticket",
+   "sense": 0,
+   "context": "bilet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "fly",
+   "pos": "verb",
+   "wordId": "fly",
+   "sense": 0,
+   "context": "uçakla gitti (uçtu)",
+   "note": "*fly*'ın temel anlamı \"uçmak\"tır; insanlar için \"uçakla gitmek\" demektir.",
+   "form": "fly fiilinin geçmiş zaman hali (flew, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "flew home",
+    "meaning": "uçakla eve gitti"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": "*home* \"eve\" anlamında zarf olarak kullanılınca önüne *to* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "flew home",
+    "meaning": "uçakla eve gitti"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(cuma akşamı)",
+   "note": "Belirli bir günün bölümünden önce *on* kullanılır: *on a Friday evening* → bir cuma akşamı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "ring",
+   "pos": "verb",
+   "wordId": "ring",
+   "sense": 1,
+   "context": "çaldı",
+   "note": "*ring the bell* \"zili çalmak\" demektir.",
+   "form": "ring fiilinin geçmiş zaman hali (rang, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "rang the bell",
+    "meaning": "zili çaldı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "rang the bell",
+    "meaning": "zili çaldı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "bell",
+   "pos": "noun",
+   "wordId": "bell",
+   "sense": 0,
+   "context": "zil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "rang the bell",
+    "meaning": "zili çaldı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açtı",
+   "note": null,
+   "form": "open + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "scream",
+   "pos": "verb",
+   "wordId": "scream",
+   "sense": 0,
+   "context": "çığlık attı",
+   "note": null,
+   "form": "scream + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "screamed with joy",
+    "meaning": "sevinçten çığlık attı"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-den (sevinçten)",
+   "note": "Bir duygunun sebebini anlatırken *with* kullanılabilir: *scream with joy* → sevinçten çığlık atmak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "screamed with joy",
+    "meaning": "sevinçten çığlık attı"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "joy",
+   "pos": "noun",
+   "wordId": "joy",
+   "sense": 0,
+   "context": "sevinç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "screamed with joy",
+    "meaning": "sevinçten çığlık attı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "father",
+   "pos": "noun",
+   "wordId": "father",
+   "sense": 0,
+   "context": "baba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*so* + sıfat + *that* … \"o kadar … ki …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "so surprised that",
+    "meaning": "o kadar şaşırdı ki"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "so surprised that",
+    "meaning": "o kadar şaşırdı ki"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 56,
+    "text": "so surprised that",
+    "meaning": "o kadar şaşırdı ki"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "drop",
+   "pos": "verb",
+   "wordId": "drop",
+   "sense": 0,
+   "context": "düşürdü",
+   "note": null,
+   "form": "drop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "cup",
+   "pos": "noun",
+   "wordId": "cup",
+   "sense": 0,
+   "context": "fincan",
+   "note": "*a cup of coffee* \"bir fincan kahve\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "cup of coffee",
+    "meaning": "bir fincan kahve"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a cup of: bir fincan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "cup of coffee",
+    "meaning": "bir fincan kahve"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "cup of coffee",
+    "meaning": "bir fincan kahve"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdiler",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir: *spent the weekend cooking* → hafta sonunu yemek yaparak geçirdiler.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "spent the whole weekend",
+    "meaning": "bütün hafta sonunu geçirdiler"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "spent the whole weekend",
+    "meaning": "bütün hafta sonunu geçirdiler"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün",
+   "note": "*the whole* + tekil isim \"bütün …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "spent the whole weekend",
+    "meaning": "bütün hafta sonunu geçirdiler"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 67,
+    "text": "spent the whole weekend",
+    "meaning": "bütün hafta sonunu geçirdiler"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "cook",
+   "pos": "verb",
+   "wordId": "cook",
+   "sense": 0,
+   "context": "yemek yaparak",
+   "note": null,
+   "form": "cook + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşarak",
+   "note": null,
+   "form": "talk + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "gülerek",
+   "note": null,
+   "form": "laugh + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(bu)",
+   "note": "*it* burada az önce anlatılan hafta sonunu gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the best* → en iyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en güzel (en iyi)",
+   "note": "*best*, *good* sıfatının en üstünlük halidir (good → better → best).",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": "*the best weekend Carla had had* kalıbında *that* atlanmıştır: *the best weekend (that) Carla had had* → Carla'nın geçirdiği en güzel hafta sonu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "Carla",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Carla'nın",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "İlk *had* yardımcı fiildir (past perfect), ikinci *had* ise asıl fiil *have*'in 3. halidir: *had had* → geçirmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "had had in years",
+    "meaning": "yıllardır geçirdiği"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "geçirdiği",
+   "note": "*have*'in temel anlamı \"sahip olmak\"tır; zaman ifadeleriyle \"geçirmek\" demektir: *have a good weekend* → iyi bir hafta sonu geçirmek.",
+   "form": "have fiilinin 3. hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "had had in years",
+    "meaning": "yıllardır geçirdiği"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-dır (yıllardır)",
+   "note": "*in years* olumsuz ya da en üstünlük bildiren cümlelerde \"yıllardır\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "had had in years",
+    "meaning": "yıllardır geçirdiği"
+   }
+  },
+  {
+   "i": 82,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 82,
+    "text": "had had in years",
+    "meaning": "yıllardır geçirdiği"
+   }
+  }
+ ]
+}

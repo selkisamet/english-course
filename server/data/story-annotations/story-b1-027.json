@@ -1,0 +1,1071 @@
+{
+ "storyId": "story-b1-027",
+ "textHash": "71780fe09f68",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Üç yıl önce Ahmed mühendislik okumak için Mısır'dan Kanada'ya taşındı."
+  },
+  {
+   "tr": "Her şey farklıydı: hava, yemekler, hatta insanların birbirini selamlama şekli bile."
+  },
+  {
+   "tr": "İlk kış çok zordu çünkü daha önce hiç bu kadar çok kar görmemişti."
+  },
+  {
+   "tr": "Ailesini de çok özledi."
+  },
+  {
+   "tr": "Ancak bir öğrenci kulübüne katıldı ve birçok ülkeden insanla tanıştı."
+  },
+  {
+   "tr": "Şimdi çok iyi İngilizce konuşuyor ve üniversiteyi bitirdikten sonra Kanada'da kalmaya karar verdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Three years ago",
+    "meaning": "üç yıl önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Three years ago",
+    "meaning": "üç yıl önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır: *three years ago* → üç yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Three years ago",
+    "meaning": "üç yıl önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Ahmed",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ahmed",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşındı",
+   "note": "*move*'un temel anlamı \"hareket etmek\"tir; *move to a place* \"bir yere taşınmak\" demektir.",
+   "form": "move + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Mısır'dan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "Egypt",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mısır",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (Kanada'ya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "Canada",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kanada",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to study engineering* → mühendislik okumak için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "to study engineering",
+    "meaning": "mühendislik okumak için"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "okumak (öğrenim görmek)",
+   "note": "*study* \"ders çalışmak\" ve üniversitede bir bölüm \"okumak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "to study engineering",
+    "meaning": "mühendislik okumak için"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "engineering",
+   "pos": "noun",
+   "wordId": "engineering",
+   "sense": 0,
+   "context": "mühendislik",
+   "note": "*engineer* (mühendis) kişiyi, *engineering* (mühendislik) ise alanı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "to study engineering",
+    "meaning": "mühendislik okumak için"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": "*everything* tekil fiil alır: *everything was*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": "*weather* \"hava durumu\"dur ve sayılamaz (✗ a weather).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemekler (yiyecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta (bile)",
+   "note": "*even* şaşırtıcı bir örneği vurgular: *and even the way people greeted each other* → hatta insanların selamlaşma şekli bile.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "şekil (yol, biçim)",
+   "note": "*the way* + cümle \"… -me şekli, nasıl … -diği\" demektir: *the way people greeted each other*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "greet",
+   "pos": "verb",
+   "wordId": "greet",
+   "sense": 0,
+   "context": "selamladığı",
+   "note": null,
+   "form": "greet + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": "*each other* \"birbiri, birbirini\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 26,
+    "text": "the way people greeted each other",
+    "meaning": "insanların birbirini selamlama şekli"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-memişti)",
+   "note": "*had never* + fiilin 3. hali (past perfect) geçmişteki bir ana kadar bir şeyin hiç olmadığını anlatır: *had never seen* → hiç görmemişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had never seen",
+    "meaning": "hiç görmemişti"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had never seen",
+    "meaning": "hiç görmemişti"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmemişti",
+   "note": null,
+   "form": "see fiilinin 3. hali (seen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had never seen",
+    "meaning": "hiç görmemişti"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar (o kadar)",
+   "note": "*so much* + sayılamayan isim \"bu kadar çok …\" demektir: *so much snow*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "so much snow",
+    "meaning": "bu kadar çok kar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "much",
+   "pos": "determiner",
+   "wordId": "much",
+   "sense": 0,
+   "context": "çok",
+   "note": "*much* sayılamayan isimlerle kullanılır: *much snow*; sayılabilenlerle *many* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "so much snow",
+    "meaning": "bu kadar çok kar"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "snow",
+   "pos": "noun",
+   "wordId": "snow",
+   "sense": 0,
+   "context": "kar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "so much snow",
+    "meaning": "bu kadar çok kar"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özledi",
+   "note": "*miss* \"özlemek\" ve \"kaçırmak\" demektir; burada \"özlemek\"tir.",
+   "form": "miss + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "terribly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çok (korkunç derecede)",
+   "note": "*terribly* \"korkunç bir şekilde\" demektir; duygularla \"çok, aşırı\" anlamında kullanılır: *miss someone terribly* → birini çok özlemek.",
+   "form": "terrible + -ly (le → ly)",
+   "base": "çok; korkunç bir şekilde",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı (üye oldu)",
+   "note": "*join a club* \"bir kulübe katılmak, üye olmak\" demektir; *join*'den sonra *to* gelmez.",
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": "Burada *student* isim olmasına rağmen *club*'ı niteler: *student club* → öğrenci kulübü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "student club",
+    "meaning": "öğrenci kulübü"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "club",
+   "pos": "noun",
+   "wordId": "club",
+   "sense": 0,
+   "context": "kulüp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "student club",
+    "meaning": "öğrenci kulübü"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanıştı",
+   "note": null,
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (ülkeden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "country",
+   "pos": "noun",
+   "wordId": "country",
+   "sense": 0,
+   "context": "ülkeler",
+   "note": null,
+   "form": "country'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşuyor",
+   "note": "Dillerle *speak* kullanılır: *speak English* → İngilizce konuşmak.",
+   "form": "speak + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "English",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İngilizce",
+   "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": "İngilizce; İngiliz",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "very well",
+    "meaning": "çok iyi"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "iyi",
+   "note": "*well* zarftır ve fiili niteler: *speaks English well* → iyi İngilizce konuşuyor (✗ speaks good).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "very well",
+    "meaning": "çok iyi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": "Present perfect, yakın zamanda verilen ve hâlâ geçerli olan bir kararı anlatır: *has decided* → karar verdi.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "has decided",
+    "meaning": "karar verdi (present perfect)"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide fiilinin 3. hali (decided, -d)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "has decided",
+    "meaning": "karar verdi (present perfect)"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (kalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "stay",
+   "pos": "verb",
+   "wordId": "stay",
+   "sense": 0,
+   "context": "kalmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (Kanada'da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "Canada",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kanada",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": "*after* ile gelecekten söz ederken *will* değil geniş zaman kullanılır: *after he finishes* (✗ after he will finish).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitirdikten",
+   "note": null,
+   "form": "finish + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": "*finish university* \"üniversiteyi bitirmek\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

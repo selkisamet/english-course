@@ -1,0 +1,1074 @@
+{
+ "storyId": "story-b1-014",
+ "textHash": "94dd6ebaf5f1",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen ay Ben internetten yeni bir ceket sipariş etti."
+  },
+  {
+   "tr": "Fotoğrafta koyu yeşil ve şık görünüyordu."
+  },
+  {
+   "tr": "Paket bir hafta sonra geldiğinde hayal kırıklığına uğradı."
+  },
+  {
+   "tr": "Ceket parlak sarıydı ve iki beden büyüktü."
+  },
+  {
+   "tr": "Siparişini kontrol etti ve yanlış bedeni kendisinin seçtiğini fark etti."
+  },
+  {
+   "tr": "Neyse ki mağaza, müşterilerin ürünleri ücretsiz iade etmesine izin veriyordu."
+  },
+  {
+   "tr": "Ben ceketi geri gönderdi ve bir dahaki sefere ayrıntıları daha dikkatli okuyacak."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last month",
+    "meaning": "geçen ay"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "order",
+   "pos": "verb",
+   "wordId": "order",
+   "sense": 1,
+   "context": "sipariş etti",
+   "note": null,
+   "form": "order + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "jacket",
+   "pos": "noun",
+   "wordId": "jacket",
+   "sense": 0,
+   "context": "ceket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internetten",
+   "note": "*online* zarf olarak \"internetten, çevrimiçi\" demektir: *order online* → internetten sipariş etmek.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (fotoğrafta)",
+   "note": "Fotoğraf ve resimler için *in* kullanılır: *in the photo* → fotoğrafta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ceket)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "görünüyordu",
+   "note": "*look* + sıfat \"… görünmek\" demektir.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "koyu",
+   "note": "Renklerden önce *dark* \"koyu\", *light* \"açık\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "dark green",
+    "meaning": "koyu yeşil"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "green",
+   "pos": "adjective",
+   "wordId": "green",
+   "sense": 0,
+   "context": "yeşil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "dark green",
+    "meaning": "koyu yeşil"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "fashionable",
+   "pos": "adjective",
+   "wordId": "fashionable",
+   "sense": 0,
+   "context": "şık (moda)",
+   "note": "*-able* eki isimden sıfat yapar: *fashion* (moda) → *fashionable* (moda olan, şık).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "parcel",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "paket (koli)",
+   "note": "*parcel* postayla gönderilen \"paket, koli\"dir; Amerikan İngilizcesinde *package* daha yaygındır.",
+   "form": null,
+   "base": "paket, koli",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *a week later* → bir hafta sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "a week later",
+    "meaning": "bir hafta sonra"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "disappointed",
+   "pos": "adjective",
+   "wordId": "disappointed",
+   "sense": 0,
+   "context": "hayal kırıklığına uğramış",
+   "note": "*disappointed* kişinin hissini, *disappointing* ise hayal kırıklığı yaratan şeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "jacket",
+   "pos": "noun",
+   "wordId": "jacket",
+   "sense": 0,
+   "context": "ceket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "bright",
+   "pos": "adjective",
+   "wordId": "bright",
+   "sense": 0,
+   "context": "parlak",
+   "note": "Renklerle *bright* \"parlak, canlı\" demektir: *bright yellow* → parlak sarı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "yellow",
+   "pos": "adjective",
+   "wordId": "yellow",
+   "sense": 0,
+   "context": "sarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "two sizes too big",
+    "meaning": "iki beden büyük"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "size",
+   "pos": "noun",
+   "wordId": "size",
+   "sense": 0,
+   "context": "beden",
+   "note": "*size* giysiler için \"beden\", ayakkabılar için \"numara\" demektir.",
+   "form": "size'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "two sizes too big",
+    "meaning": "iki beden büyük"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla",
+   "note": "*too* + sıfat \"gereğinden fazla\" demektir: *two sizes too big* → iki beden fazla büyük.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "two sizes too big",
+    "meaning": "iki beden büyük"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "big",
+   "pos": "adjective",
+   "wordId": "big",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "two sizes too big",
+    "meaning": "iki beden büyük"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "check",
+   "pos": "verb",
+   "wordId": "check",
+   "sense": 0,
+   "context": "kontrol etti",
+   "note": null,
+   "form": "check + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "sipariş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "realise",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "*realise* İngiliz yazımıdır; Amerikan İngilizcesinde *realize* yazılır. \"Gerçekleştirmek\" değil, \"farkına varmak\" anlamındadır.",
+   "form": "realise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir olaydan daha önce olan eylemi anlatır: *he had chosen* → seçmişti (fark etmeden önce).",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "had chosen",
+    "meaning": "seçmişti (past perfect)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçmişti",
+   "note": null,
+   "form": "choose fiilinin 3. hali (chosen, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "had chosen",
+    "meaning": "seçmişti (past perfect)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "wrong",
+   "pos": "adjective",
+   "wordId": "wrong",
+   "sense": 0,
+   "context": "yanlış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "size",
+   "pos": "noun",
+   "wordId": "size",
+   "sense": 0,
+   "context": "beden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "himself",
+   "pos": "pronoun",
+   "wordId": "himself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "*himself* burada vurgu yapar: *he had chosen it himself* → onu kendisi seçmişti (başkası değil).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "fortunately",
+   "pos": "adverb",
+   "wordId": "fortunately",
+   "sense": 0,
+   "context": "neyse ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "mağaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "izin veriyordu",
+   "note": "*allow someone to do something* \"birinin bir şey yapmasına izin vermek\" demektir.",
+   "form": "allow + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "allowed customers to return",
+    "meaning": "müşterilerin iade etmesine izin verdi"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "allowed customers to return",
+    "meaning": "müşterilerin iade etmesine izin verdi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (iade etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "allowed customers to return",
+    "meaning": "müşterilerin iade etmesine izin verdi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "iade etmek (geri vermek)",
+   "note": "*return*'ün temel anlamı \"geri dönmek\"tir; alışverişte bir ürünü \"iade etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "allowed customers to return",
+    "meaning": "müşterilerin iade etmesine izin verdi"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "item",
+   "pos": "noun",
+   "wordId": "item",
+   "sense": 0,
+   "context": "ürünler (parçalar)",
+   "note": null,
+   "form": "item'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for free: ücretsiz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "for free",
+    "meaning": "ücretsiz"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "ücretsiz",
+   "note": "*for free* \"ücretsiz, bedava\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "for free",
+    "meaning": "ücretsiz"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "Ben",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Ben",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderdi",
+   "note": "*send something back* \"bir şeyi geri göndermek\" demektir.",
+   "form": "send fiilinin geçmiş zaman hali (sent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "sent it back",
+    "meaning": "onu geri gönderdi (send back)"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "sent it back",
+    "meaning": "onu geri gönderdi (send back)"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "sent it back",
+    "meaning": "onu geri gönderdi (send back)"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "bir dahaki",
+   "note": "*next time* \"bir dahaki sefere\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "next time",
+    "meaning": "bir dahaki sefere"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "sefer (kez)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "next time",
+    "meaning": "bir dahaki sefere"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-acak)",
+   "note": "*will* + fiil gelecekte yapılacak bir şeyi ya da verilen bir kararı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "ayrıntılar",
+   "note": null,
+   "form": "detail'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "*-ly* ile biten zarflar *more* ile karşılaştırılır: *more carefully* → daha dikkatli.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "carefully",
+   "pos": "adverb",
+   "wordId": "carefully",
+   "sense": 0,
+   "context": "dikkatli (dikkatlice)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

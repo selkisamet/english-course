@@ -1,0 +1,1125 @@
+{
+ "storyId": "story-b1-032",
+ "textHash": "c3884605b45e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir yıl önce Wilson ailesi daha az çöp üretmeye karar verdi."
+  },
+  {
+   "tr": "Üç farklı çöp kutusu aldılar: biri kâğıt için, biri plastik ve cam için, biri de yemek artıkları için."
+  },
+  {
+   "tr": "İlk başta çocuklar hangi kutuyu kullanacaklarını sık sık unutuyordu."
+  },
+  {
+   "tr": "Anneleri onlara yardımcı olmak için her kutunun üzerine renkli işaretler koydu."
+  },
+  {
+   "tr": "Artık herkes çöpünü hiç düşünmeden ayırıyor."
+  },
+  {
+   "tr": "Ayrıca daha az ambalajlı ürünler almaya çalışıyorlar."
+  },
+  {
+   "tr": "Çöp torbaları artık eskisinin yarısı kadar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır: *a year ago* → bir yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "A year ago",
+    "meaning": "bir yıl önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the Wilson family",
+    "meaning": "Wilson ailesi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "Wilson",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Wilson",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the Wilson family",
+    "meaning": "Wilson ailesi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": "*the* + soyadı + *family* \"… ailesi\" demektir: *the Wilson family* → Wilson ailesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "the Wilson family",
+    "meaning": "Wilson ailesi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (üretmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "produce",
+   "pos": "verb",
+   "wordId": "produce",
+   "sense": 0,
+   "context": "üretmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "less",
+   "pos": "determiner",
+   "wordId": "less",
+   "sense": 0,
+   "context": "daha az",
+   "note": "*less* sayılamayan isimlerle kullanılır: *less rubbish*; sayılabilenlerle *fewer* tercih edilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "less rubbish",
+    "meaning": "daha az çöp"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "rubbish",
+   "pos": "noun",
+   "wordId": "rubbish",
+   "sense": 0,
+   "context": "çöp",
+   "note": "*rubbish* İngiliz İngilizcesinde \"çöp\" demektir; Amerikan İngilizcesinde *trash* ya da *garbage* denir. Sayılamaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "less rubbish",
+    "meaning": "daha az çöp"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "aldılar (satın aldılar)",
+   "note": null,
+   "form": "buy fiilinin geçmiş zaman hali (bought, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "bin",
+   "pos": "noun",
+   "wordId": "bin",
+   "sense": 0,
+   "context": "çöp kutuları",
+   "note": null,
+   "form": "bin'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri",
+   "note": "*one for …, one for …* \"biri … için, biri … için\" diye sayar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "paper",
+   "pos": "noun",
+   "wordId": "paper",
+   "sense": 0,
+   "context": "kâğıt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "plastic",
+   "pos": "noun",
+   "wordId": "plastic",
+   "sense": 0,
+   "context": "plastik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "glass",
+   "pos": "noun",
+   "wordId": "glass",
+   "sense": 0,
+   "context": "cam",
+   "note": "*glass* \"bardak\" ve \"cam\" demektir; burada malzeme olarak \"cam\"dır ve sayılamaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "biri de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek (yiyecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "food waste",
+    "meaning": "yemek artıkları"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "waste",
+   "pos": "noun",
+   "wordId": "waste",
+   "sense": 0,
+   "context": "atık (artık)",
+   "note": "*waste* \"israf\" ve \"atık\" demektir: *food waste* → yemek artıkları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "food waste",
+    "meaning": "yemek artıkları"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutuyordu",
+   "note": null,
+   "form": "forget fiilinin geçmiş zaman hali (forgot, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "which",
+   "pos": "determiner",
+   "wordId": "which",
+   "sense": 1,
+   "context": "hangi",
+   "note": "*which* + isim + *to* + fiil \"hangi …-i …-eceği\" demektir: *which bin to use* → hangi kutuyu kullanacakları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "which bin to use",
+    "meaning": "hangi kutuyu kullanacakları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "bin",
+   "pos": "noun",
+   "wordId": "bin",
+   "sense": 0,
+   "context": "kutu (çöp kutusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "which bin to use",
+    "meaning": "hangi kutuyu kullanacakları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (kullanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "which bin to use",
+    "meaning": "hangi kutuyu kullanacakları"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "which bin to use",
+    "meaning": "hangi kutuyu kullanacakları"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "koydu",
+   "note": null,
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "colourful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "renkli",
+   "note": "*-ful* eki isimden sıfat yapar: *colour* (renk) → *colourful* (renkli). Amerikan İngilizcesinde *colorful* yazılır.",
+   "form": null,
+   "base": "renkli, rengârenk",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "sign",
+   "pos": "noun",
+   "wordId": "sign",
+   "sense": 0,
+   "context": "işaretler (etiketler)",
+   "note": null,
+   "form": "sign'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "üzerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": "*each* + tekil isim \"her bir\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "bin",
+   "pos": "noun",
+   "wordId": "bin",
+   "sense": 0,
+   "context": "kutu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to help them* → onlara yardım etmek için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": "*everyone* tekil fiil alır: *everyone sorts*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "sort",
+   "pos": "verb",
+   "wordId": "sort",
+   "sense": 1,
+   "context": "ayırıyor",
+   "note": "*sort* fiil olarak \"ayırmak, sınıflandırmak\", isim olarak \"tür, çeşit\" demektir.",
+   "form": "sort + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "(kendi)",
+   "note": "*everyone* gibi sözcüklerden sonra *their* tekil anlamda kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "rubbish",
+   "pos": "noun",
+   "wordId": "rubbish",
+   "sense": 0,
+   "context": "çöp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden",
+   "note": "*without* + *-ing* \"… -meden\" demektir: *without thinking* → düşünmeden.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "without thinking about it",
+    "meaning": "hiç düşünmeden"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "think",
+   "pos": "verb",
+   "wordId": "think",
+   "sense": 0,
+   "context": "düşünmek",
+   "note": null,
+   "form": "think + -ing",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "without thinking about it",
+    "meaning": "hiç düşünmeden"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında (-i)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "without thinking about it",
+    "meaning": "hiç düşünmeden"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (bunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "without thinking about it",
+    "meaning": "hiç düşünmeden"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "ayrıca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "çalışıyorlar",
+   "note": "*try to + fiil* \"… -meye çalışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "product",
+   "pos": "noun",
+   "wordId": "product",
+   "sense": 0,
+   "context": "ürünler",
+   "note": null,
+   "form": "product'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (ambalajlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "less",
+   "pos": "determiner",
+   "wordId": "less",
+   "sense": 0,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "packaging",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ambalaj",
+   "note": "*packaging* bir ürünün sarıldığı \"ambalaj\"dır; *package* ise \"paket, koli\" demektir.",
+   "form": null,
+   "base": "ambalaj",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "rubbish",
+   "pos": "noun",
+   "wordId": "rubbish",
+   "sense": 0,
+   "context": "çöp",
+   "note": "Burada *rubbish* isim olmasına rağmen *bag*'i niteler: *rubbish bag* → çöp torbası.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "bag",
+   "pos": "noun",
+   "wordId": "bag",
+   "sense": 0,
+   "context": "torba (poşet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "half",
+   "pos": "determiner",
+   "wordId": "half",
+   "sense": 1,
+   "context": "yarı(sı)",
+   "note": "*half the size* \"yarı büyüklükte\" demektir; *half*'tan sonra *the* gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 79,
+    "text": "half the size it used to be",
+    "meaning": "eskisinin yarısı kadar"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 79,
+    "text": "half the size it used to be",
+    "meaning": "eskisinin yarısı kadar"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "size",
+   "pos": "noun",
+   "wordId": "size",
+   "sense": 0,
+   "context": "büyüklük (boyut)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 79,
+    "text": "half the size it used to be",
+    "meaning": "eskisinin yarısı kadar"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (torba)",
+   "note": "*half the size it used to be* kalıbında *that* atlanmıştır: *the size (that) it used to be* → eskiden olduğu büyüklük.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 79,
+    "text": "half the size it used to be",
+    "meaning": "eskisinin yarısı kadar"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "used to",
+   "pos": "modal verb",
+   "wordId": "used-to",
+   "sense": 0,
+   "context": "eskiden …-di",
+   "note": "*used to* + fiil geçmişte olan ama artık olmayan bir durumu anlatır: *it used to be bigger* → eskiden daha büyüktü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "used to",
+    "meaning": "eskiden …-di"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(used to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "used to",
+    "meaning": "eskiden …-di"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 79,
+    "text": "half the size it used to be",
+    "meaning": "eskisinin yarısı kadar"
+   }
+  }
+ ]
+}

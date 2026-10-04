@@ -1,0 +1,1094 @@
+{
+ "storyId": "story-b1-018",
+ "textHash": "f4f4deb7d9a7",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Her akşam yaşlı bir adam ana tren istasyonunun önünde keman çalar."
+  },
+  {
+   "tr": "İnsanların çoğu yanından aceleyle geçer ama birkaçı durup dinler."
+  },
+  {
+   "tr": "Geçen hafta genç bir kadın orada uzun süre durdu."
+  },
+  {
+   "tr": "Adam çalmayı bitirince kadın ona müzik öğretmeni olduğunu söyledi."
+  },
+  {
+   "tr": "Onu okulundaki bir konserde çalmaya davet etti."
+  },
+  {
+   "tr": "Adam o kadar mutlu oldu ki neredeyse konuşamadı."
+  },
+  {
+   "tr": "Geçen cuma iki yüz çocuk onun çalışını dinledi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old man*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalar",
+   "note": "Müzik aletleriyle *play the* + alet kullanılır: *play the violin* → keman çalmak.",
+   "form": "play + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "Müzik aletlerinden önce *the* kullanılır: *play the piano, play the violin*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "violin",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "keman",
+   "note": null,
+   "form": null,
+   "base": "keman",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "outside",
+   "pos": "preposition",
+   "wordId": "outside",
+   "sense": 1,
+   "context": "önünde (dışında)",
+   "note": "*outside* bir binanın \"dışında, önünde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "outside the main train station",
+    "meaning": "ana tren istasyonunun önünde"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "outside the main train station",
+    "meaning": "ana tren istasyonunun önünde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "main",
+   "pos": "adjective",
+   "wordId": "main",
+   "sense": 0,
+   "context": "ana",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "outside the main train station",
+    "meaning": "ana tren istasyonunun önünde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "tren",
+   "note": "Burada *train* isim olmasına rağmen *station*'ı niteler: *train station* → tren istasyonu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "train station",
+    "meaning": "tren istasyonu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "station",
+   "pos": "noun",
+   "wordId": "station",
+   "sense": 0,
+   "context": "istasyon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "train station",
+    "meaning": "tren istasyonu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "most",
+   "pos": "determiner",
+   "wordId": "most",
+   "sense": 0,
+   "context": "çoğu",
+   "note": "*most* + çoğul isim \"…-in çoğu\" demektir: *most people* → insanların çoğu (önüne *the* gelmez).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "hurry",
+   "pos": "verb",
+   "wordId": "hurry",
+   "sense": 1,
+   "context": "aceleyle geçer",
+   "note": "*hurry* \"acele etmek\" demektir; *hurry past* \"aceleyle yanından geçmek\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "hurry past",
+    "meaning": "yanından aceleyle geçmek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "past",
+   "pos": "preposition",
+   "wordId": "past",
+   "sense": 2,
+   "context": "yanından (geçerek)",
+   "note": "*past* hareket bildiren fiillerle \"-in önünden/yanından geçerek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "hurry past",
+    "meaning": "yanından aceleyle geçmek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaçı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "a few",
+    "meaning": "birkaçı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "few",
+   "pos": "pronoun",
+   "wordId": "few",
+   "sense": 2,
+   "context": "birkaçı",
+   "note": "*a few* burada isimsiz kullanılmıştır: *a few stop* → birkaçı durur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "a few",
+    "meaning": "birkaçı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durur",
+   "note": "*stop to + fiil* \"… -mek için durmak\" demektir; *stop + -ing* ise \"… -meyi bırakmak\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için (dinlemek için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "genç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "stand",
+   "pos": "verb",
+   "wordId": "stand",
+   "sense": 0,
+   "context": "durdu (ayakta)",
+   "note": null,
+   "form": "stand fiilinin geçmiş zaman hali (stood, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "*for a long time* \"uzun süre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "süre (zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "for a long time",
+    "meaning": "uzun süre"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitirdi",
+   "note": null,
+   "form": "finish + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone (that)…* \"birine … olduğunu söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": "Aktarılan sözde zaman geriye kayar: *\"I am a teacher\"* → *she said she was a teacher*.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Meslek söylerken *a/an* kullanılır: *she was a music teacher*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet etti",
+   "note": "*invite someone to do something* \"birini bir şey yapmaya davet etmek\" demektir.",
+   "form": "invite + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "invited him to play",
+    "meaning": "onu çalmaya davet etti"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "invited him to play",
+    "meaning": "onu çalmaya davet etti"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (çalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "invited him to play",
+    "meaning": "onu çalmaya davet etti"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "invited him to play",
+    "meaning": "onu çalmaya davet etti"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (konserde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "concert",
+   "pos": "noun",
+   "wordId": "concert",
+   "sense": 0,
+   "context": "konser",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-deki (okulundaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*so* + sıfat + *that* … \"o kadar … ki …\" demektir: *so happy that he could hardly speak*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "mutlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebildi",
+   "note": "*could*, *can*'in geçmiş halidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "hardly",
+   "pos": "adverb",
+   "wordId": "hardly",
+   "sense": 0,
+   "context": "neredeyse hiç (pek … -emedi)",
+   "note": "*hardly* \"neredeyse hiç\" demektir ve olumsuz anlam taşır: *could hardly speak* → neredeyse konuşamadı. *hard* (sıkı, çok) ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 67,
+    "text": "so happy that he could hardly speak",
+    "meaning": "o kadar mutluydu ki neredeyse konuşamadı"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "hundred",
+   "pos": "number",
+   "wordId": "hundred",
+   "sense": 0,
+   "context": "yüz",
+   "note": "Belirli sayılarda *hundred* çoğul eki almaz: *two hundred* (✗ two hundreds).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuk",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinledi",
+   "note": "*listen to someone do something* \"birinin bir şey yapışını dinlemek\" demektir; ikinci fiil yalın kalır: *listened to him play*.",
+   "form": "listen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "listened to him play",
+    "meaning": "onun çalışını dinledi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "listened to him play",
+    "meaning": "onun çalışını dinledi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu (onun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "listened to him play",
+    "meaning": "onun çalışını dinledi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalışını (çalmasını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 76,
+    "text": "listened to him play",
+    "meaning": "onun çalışını dinledi"
+   }
+  }
+ ]
+}

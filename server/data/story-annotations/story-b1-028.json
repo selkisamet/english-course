@@ -1,0 +1,1082 @@
+{
+ "storyId": "story-b1-028",
+ "textHash": "6d96de5bd65f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen yıl Nina ucuz seyahat hakkında bir blog yazmaya başladı."
+  },
+  {
+   "tr": "İlk başta onu sadece arkadaşları okuyordu."
+  },
+  {
+   "tr": "Gezdiği yerleri yazdı ve nasıl para biriktirileceği konusunda tavsiyeler verdi."
+  },
+  {
+   "tr": "Kendi fotoğraflarını da ekledi."
+  },
+  {
+   "tr": "Yavaş yavaş giderek daha fazla insan blogunu buldu ve bazıları ona sorularla dolu mesajlar gönderdi."
+  },
+  {
+   "tr": "Şimdi her ay binlerce okuru var."
+  },
+  {
+   "tr": "Hatta bir seyahat şirketi ondan web siteleri için makaleler yazmasını istedi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Nina",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Nina",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "started writing",
+    "meaning": "yazmaya başladı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazmak",
+   "note": null,
+   "form": "write + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "started writing",
+    "meaning": "yazmaya başladı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "blog",
+   "pos": "noun",
+   "wordId": "blog",
+   "sense": 0,
+   "context": "blog",
+   "note": "*blog* kişinin internette düzenli yazdığı sayfadır; *web log* sözcüklerinden kısaltılmıştır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "cheap",
+   "pos": "adjective",
+   "wordId": "cheap",
+   "sense": 0,
+   "context": "ucuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "travel",
+   "pos": "noun",
+   "wordId": "travel",
+   "sense": 1,
+   "context": "seyahat",
+   "note": "*travel* isim olarak genel \"seyahat\"tir ve sayılamaz; tek bir yolculuk için *a trip* ya da *a journey* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "sadece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *her friends* → arkadaş**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okuyordu",
+   "note": "*read*'in geçmiş zaman hali de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin geçmiş zaman hali (read, düzensiz — \"red\" diye okunur)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (blogu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazdı",
+   "note": "*write about something* \"bir şey hakkında yazmak\" demektir.",
+   "form": "write fiilinin geçmiş zaman hali (wrote, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yerler",
+   "note": null,
+   "form": "place'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "places she had visited",
+    "meaning": "gezmiş olduğu yerler"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": "*places she had visited* kalıbında *that/which* atlanmıştır: *places (that) she had visited*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "places she had visited",
+    "meaning": "gezmiş olduğu yerler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had + fiilin 3. hali* (past perfect), yazmadan önce gezilmiş yerleri anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "places she had visited",
+    "meaning": "gezmiş olduğu yerler"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "gezdiği (ziyaret ettiği)",
+   "note": null,
+   "form": "visit fiilinin 3. hali (visited, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "places she had visited",
+    "meaning": "gezmiş olduğu yerler"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdi",
+   "note": "*give advice* \"tavsiye vermek\" demektir.",
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "advice",
+   "pos": "noun",
+   "wordId": "advice",
+   "sense": 0,
+   "context": "tavsiye",
+   "note": "*advice* sayılamaz: *an advice* ya da *advices* denmez; tek bir tavsiye için *a piece of advice* denir. Fiili *advise*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "konusunda (hakkında)",
+   "note": "*advice on something* \"bir konuda tavsiye\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to* + fiil \"nasıl …-ileceği\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (biriktirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirmek (tasarruf etmek)",
+   "note": "*save money* \"para biriktirmek, tasarruf etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "advice on how to save money",
+    "meaning": "nasıl para biriktirileceği konusunda tavsiye"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "add",
+   "pos": "verb",
+   "wordId": "add",
+   "sense": 0,
+   "context": "ekledi",
+   "note": null,
+   "form": "add + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": "*own* iyelik sözcüğünden sonra gelir: *her own photos* → kendi fotoğrafları.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraflar",
+   "note": null,
+   "form": "photo'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "slowly",
+   "pos": "adverb",
+   "wordId": "slowly",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": "*more and more* \"giderek daha fazla\" demektir; sürekli artışı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "more and more",
+    "meaning": "giderek daha fazla"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "blog",
+   "pos": "noun",
+   "wordId": "blog",
+   "sense": 0,
+   "context": "blog",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of them* \"onların bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "some of them",
+    "meaning": "bazıları"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "some of them",
+    "meaning": "bazıları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "some of them",
+    "meaning": "bazıları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderdi",
+   "note": "*send someone something* \"birine bir şey göndermek\" demektir.",
+   "form": "send fiilinin geçmiş zaman hali (sent, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": "*her* burada nesnedir (\"ona\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesajlar",
+   "note": null,
+   "form": "message'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (sorularla dolu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "var (okuru var)",
+   "note": "Sahiplik bildiren *have* Türkçede \"-(s)i var\" yapısıyla söylenir.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "thousand",
+   "pos": "number",
+   "wordId": "thousand",
+   "sense": 0,
+   "context": "binlerce",
+   "note": "*thousands of* \"binlerce\" demektir; *two thousand* gibi belirli sayılarda ise *-s* almaz.",
+   "form": "thousand'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "thousands of",
+    "meaning": "binlerce"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(thousands of: binlerce)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "thousands of",
+    "meaning": "binlerce"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "reader",
+   "pos": "noun",
+   "wordId": "reader",
+   "sense": 0,
+   "context": "okurlar",
+   "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *read* (okumak) → *reader* (okur).",
+   "form": "reader'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "travel",
+   "pos": "noun",
+   "wordId": "travel",
+   "sense": 1,
+   "context": "seyahat",
+   "note": "Burada *travel* isim olmasına rağmen *company*'yi niteler: *travel company* → seyahat şirketi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": "Present perfect, ne zaman olduğu belirtilmeyen yakın geçmişteki bir olayı anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta (bile)",
+   "note": "*even* şaşırtıcı bir bilgiyi vurgular; yardımcı fiilden sonra gelir: *has even asked*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask fiilinin 3. hali (asked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ondan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yazmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "has even asked her to write",
+    "meaning": "hatta ondan yazmasını istedi"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "article",
+   "pos": "noun",
+   "wordId": "article",
+   "sense": 0,
+   "context": "makaleler",
+   "note": null,
+   "form": "article'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların (şirketin)",
+   "note": "Şirket gibi kurumlardan söz ederken *their* de kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "website",
+   "pos": "noun",
+   "wordId": "website",
+   "sense": 0,
+   "context": "web sitesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

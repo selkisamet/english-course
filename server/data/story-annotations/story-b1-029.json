@@ -1,0 +1,1102 @@
+{
+ "storyId": "story-b1-029",
+ "textHash": "958f25479f89",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Mark büyük bir mağazanın müşteri hizmetleri masasında çalışıyor."
+  },
+  {
+   "tr": "Bir öğleden sonra masaya kızgın bir kadın geldi."
+  },
+  {
+   "tr": "Bir kahve makinesi almıştı ama makine iki gün sonra çalışmayı bırakmıştı."
+  },
+  {
+   "tr": "Mark onu dikkatle dinledi ve özür diledi."
+  },
+  {
+   "tr": "Yeni bir makine ile parasının iadesi arasında seçim yapabileceğini açıkladı."
+  },
+  {
+   "tr": "Kadın sakinleşti ve yeni bir makine seçti."
+  },
+  {
+   "tr": "Ayrılmadan önce bu kadar kibar ve sabırlı olduğu için Mark'a teşekkür etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Mark",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mark",
+   "note": "*mark* küçük harfle \"not; iz\" demektir; burada bir erkek adıdır.",
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (masasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteri",
+   "note": "İsimler art arda gelerek sonuncuyu niteleyebilir: *customer service desk* → müşteri hizmetleri masası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "customer service desk",
+    "meaning": "müşteri hizmetleri masası"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "customer service desk",
+    "meaning": "müşteri hizmetleri masası"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "desk",
+   "pos": "noun",
+   "wordId": "desk",
+   "sense": 0,
+   "context": "masa (banko)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "customer service desk",
+    "meaning": "müşteri hizmetleri masası"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (mağazanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "department",
+   "pos": "noun",
+   "wordId": "department",
+   "sense": 0,
+   "context": "bölüm",
+   "note": "*department store* pek çok bölümü olan \"büyük mağaza\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "department store",
+    "meaning": "büyük mağaza"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "store",
+   "pos": "noun",
+   "wordId": "store",
+   "sense": 0,
+   "context": "mağaza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 11,
+    "text": "department store",
+    "meaning": "büyük mağaza"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*one afternoon* \"bir öğleden sonra\" demektir; geçmişte belirsiz bir günü anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "One afternoon",
+    "meaning": "bir öğleden sonra"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "One afternoon",
+    "meaning": "bir öğleden sonra"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an angry woman*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "angry",
+   "pos": "adjective",
+   "wordId": "angry",
+   "sense": 0,
+   "context": "kızgın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (masaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "desk",
+   "pos": "noun",
+   "wordId": "desk",
+   "sense": 0,
+   "context": "masa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had + fiilin 3. hali* (past perfect), masaya gelmeden önce olan olayları anlatır: *had bought* → almıştı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "had bought",
+    "meaning": "almıştı (past perfect)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almıştı",
+   "note": null,
+   "form": "buy fiilinin 3. hali (bought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "had bought",
+    "meaning": "almıştı (past perfect)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": "Burada *coffee* isim olmasına rağmen *machine*'i niteler: *coffee machine* → kahve makinesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "machine",
+   "pos": "noun",
+   "wordId": "machine",
+   "sense": 0,
+   "context": "makine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (makine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "had stopped working",
+    "meaning": "çalışmayı bırakmıştı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "bırakmıştı (durmuştu)",
+   "note": "*stop* + *-ing* \"… -meyi bırakmak\" demektir: *stopped working* → çalışmayı bıraktı, bozuldu.",
+   "form": "stop fiilinin 3. hali (stopped, son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "had stopped working",
+    "meaning": "çalışmayı bırakmıştı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak (işlemek)",
+   "note": "*work* makineler için \"çalışmak, işlemek\" demektir.",
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "had stopped working",
+    "meaning": "çalışmayı bırakmıştı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "Mark",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mark",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinledi",
+   "note": "*listen to someone* \"birini dinlemek\" demektir; *to* atlanmaz.",
+   "form": "listen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "listened to her",
+    "meaning": "onu dinledi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(listen to: -i dinlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "listened to her",
+    "meaning": "onu dinledi"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": "*her* burada nesnedir (\"onu\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "listened to her",
+    "meaning": "onu dinledi"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "carefully",
+   "pos": "adverb",
+   "wordId": "carefully",
+   "sense": 0,
+   "context": "dikkatle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "apologise",
+   "pos": "verb",
+   "wordId": "apologize",
+   "sense": 0,
+   "context": "özür diledi",
+   "note": "*apologise* İngiliz yazımıdır; Amerikan İngilizcesinde *apologize* yazılır. Kime özür dilendiği *to*, ne için olduğu *for* ile söylenir.",
+   "form": "apologise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladı",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını, -eceğini\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebileceğini",
+   "note": "Aktarılan sözde *can* → *could* olur: *\"You can choose\"* → *he explained that she could choose*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçmek",
+   "note": "*choose between A and B* \"A ile B arasında seçim yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "machine",
+   "pos": "noun",
+   "wordId": "machine",
+   "sense": 0,
+   "context": "makine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile (ve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "choose between a new machine and her money back",
+    "meaning": "yeni bir makine ile para iadesi arasında seçmek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "money back",
+    "meaning": "para iadesi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "back",
+   "pos": "adverb",
+   "wordId": "back",
+   "sense": 1,
+   "context": "geri",
+   "note": "*your money back* \"paranızın iadesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "money back",
+    "meaning": "para iadesi"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "calm",
+   "pos": "verb",
+   "wordId": "calm",
+   "sense": 1,
+   "context": "sakinleşti",
+   "note": "*calm down* \"sakinleşmek\" demektir.",
+   "form": "calm + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "calmed down",
+    "meaning": "sakinleşti (calm down)"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(calm down: sakinleşmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "calmed down",
+    "meaning": "sakinleşti (calm down)"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçti",
+   "note": null,
+   "form": "choose fiilinin geçmiş zaman hali (chose, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "tane (makine)",
+   "note": "*one* aynı ismi tekrar etmemek için kullanılır: *a new one* → yeni bir tane (makine).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "önce (-meden önce)",
+   "note": "*before* + *-ing* \"… -meden önce\" demektir: *before leaving* → ayrılmadan önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "Before leaving",
+    "meaning": "ayrılmadan önce"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "ayrılmak",
+   "note": null,
+   "form": "leave + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "Before leaving",
+    "meaning": "ayrılmadan önce"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "thank",
+   "pos": "verb",
+   "wordId": "thank",
+   "sense": 0,
+   "context": "teşekkür etti",
+   "note": "*thank someone for something* \"bir şey için birine teşekkür etmek\" demektir; *for*'dan sonra fiil *-ing* alır.",
+   "form": "thank + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "thanked Mark for being",
+    "meaning": "… olduğu için Mark'a teşekkür etti"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "Mark",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mark'a",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "thanked Mark for being",
+    "meaning": "… olduğu için Mark'a teşekkür etti"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "thanked Mark for being",
+    "meaning": "… olduğu için Mark'a teşekkür etti"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olduğu",
+   "note": null,
+   "form": "be + -ing (being)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "thanked Mark for being",
+    "meaning": "… olduğu için Mark'a teşekkür etti"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar (o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "polite",
+   "pos": "adjective",
+   "wordId": "polite",
+   "sense": 0,
+   "context": "kibar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": "*patient* isim olarak \"hasta\", sıfat olarak \"sabırlı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

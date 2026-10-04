@@ -1,0 +1,1201 @@
+{
+ "storyId": "story-b1-044",
+ "textHash": "72f11e9862df",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Daniel'ın en yakın arkadaşı ondan düğününde bir konuşma yapmasını istediğinde Daniel hemen evet dedi."
+  },
+  {
+   "tr": "Ama gün yaklaştıkça giderek daha çok gerildi."
+  },
+  {
+   "tr": "Daha önce hiç bu kadar çok insanın önünde konuşmamıştı."
+  },
+  {
+   "tr": "Konuşmayı dikkatle yazdı ve her akşam aynanın karşısında prova yaptı."
+  },
+  {
+   "tr": "Düğün günü ilk başta elleri titriyordu."
+  },
+  {
+   "tr": "Ama misafirler ilk şakasına gülünce rahatladı."
+  },
+  {
+   "tr": "Konuşmadan sonra herkes ayağa kalktı ve alkışladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Daniel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Daniel'ın",
+   "note": "*'s* eki sahiplik bildirir: *Daniel's best friend* → Daniel'ın en yakın arkadaşı.",
+   "form": "Daniel + 's (iyelik)",
+   "base": "(erkek adı)",
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "Daniel's best friend",
+    "meaning": "Daniel'ın en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en iyi (en yakın)",
+   "note": "*best friend* \"en yakın arkadaş\" demektir; *best*, *good*'un en üstünlük halidir.",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "Daniel's best friend",
+    "meaning": "Daniel'ın en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "Daniel's best friend",
+    "meaning": "Daniel'ın en yakın arkadaşı"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ondan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "yapmak (vermek)",
+   "note": "*give a speech* \"konuşma yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "asked him to give a speech",
+    "meaning": "ondan konuşma yapmasını istedi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (düğününde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (arkadaşının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "wedding",
+   "pos": "noun",
+   "wordId": "wedding",
+   "sense": 0,
+   "context": "düğün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (Daniel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "immediately",
+   "pos": "adverb",
+   "wordId": "immediately",
+   "sense": 0,
+   "context": "hemen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "dedi",
+   "note": "*say yes* \"evet demek\", *say no* \"hayır demek\"tir.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "said yes",
+    "meaning": "evet dedi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "yes",
+   "pos": "exclamation",
+   "wordId": "yes",
+   "sense": 0,
+   "context": "evet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "said yes",
+    "meaning": "evet dedi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-dıkça",
+   "note": "*as* + cümle iki şeyin aynı anda değiştiğini anlatabilir: *as the day came closer* → gün yaklaştıkça.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "as the day came closer",
+    "meaning": "gün yaklaştıkça"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "as the day came closer",
+    "meaning": "gün yaklaştıkça"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "as the day came closer",
+    "meaning": "gün yaklaştıkça"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi (yaklaştı)",
+   "note": "*come closer* \"yaklaşmak\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "as the day came closer",
+    "meaning": "gün yaklaştıkça"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "close",
+   "pos": "adverb",
+   "wordId": "close",
+   "sense": 2,
+   "context": "daha yakın",
+   "note": null,
+   "form": "close'un karşılaştırma hali (-r)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "as the day came closer",
+    "meaning": "gün yaklaştıkça"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "oldu",
+   "note": null,
+   "form": "become fiilinin geçmiş zaman hali (became, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "*more and more* + sıfat \"giderek daha …\" demektir: *more and more nervous* → giderek daha gergin.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "more and more",
+    "meaning": "giderek daha"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "more and more",
+    "meaning": "giderek daha"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "more and more",
+    "meaning": "giderek daha"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "nervous",
+   "pos": "adjective",
+   "wordId": "nervous",
+   "sense": 0,
+   "context": "gergin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had never* + fiilin 3. hali (past perfect) geçmişteki bir ana kadar bir şeyin hiç olmadığını anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "had never spoken",
+    "meaning": "hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "had never spoken",
+    "meaning": "hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmamıştı",
+   "note": null,
+   "form": "speak fiilinin 3. hali (spoken, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "had never spoken",
+    "meaning": "hiç konuşmamıştı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in front of: önünde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "front",
+   "pos": "noun",
+   "wordId": "front",
+   "sense": 0,
+   "context": "ön",
+   "note": "*in front of* \"-in önünde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in front of: önünde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "in front of",
+    "meaning": "-in önünde"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bu kadar",
+   "note": "*so many* + çoğul isim \"bu kadar çok …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "so many people",
+    "meaning": "bu kadar çok insan"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "so many people",
+    "meaning": "bu kadar çok insan"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "so many people",
+    "meaning": "bu kadar çok insan"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "daha önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazdı",
+   "note": null,
+   "form": "write fiilinin geçmiş zaman hali (wrote, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "carefully",
+   "pos": "adverb",
+   "wordId": "carefully",
+   "sense": 0,
+   "context": "dikkatle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "practise",
+   "pos": "verb",
+   "wordId": "practise",
+   "sense": 0,
+   "context": "prova yaptı (çalıştı)",
+   "note": "*practise* İngiliz yazımıdır (fiil); Amerikan İngilizcesinde *practice* yazılır.",
+   "form": "practise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (konuşmayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in front of: karşısında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "front",
+   "pos": "noun",
+   "wordId": "front",
+   "sense": 0,
+   "context": "ön",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(in front of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "mirror",
+   "pos": "noun",
+   "wordId": "mirror",
+   "sense": 0,
+   "context": "ayna",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(o gün)",
+   "note": "*on the day* \"(beklenen) o gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "On the day",
+    "meaning": "o gün (büyük gün)"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "On the day",
+    "meaning": "o gün (büyük gün)"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "On the day",
+    "meaning": "o gün (büyük gün)"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": null,
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": "*was/were* + *-ing* geçmişte o an süren bir durumu anlatır.",
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "shake",
+   "pos": "verb",
+   "wordId": "shake",
+   "sense": 0,
+   "context": "titriyordu",
+   "note": "*shake* \"sallamak\" ve \"titremek\" demektir; burada \"titremek\"tir.",
+   "form": "shake + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "at first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "at first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "guest",
+   "pos": "noun",
+   "wordId": "guest",
+   "sense": 0,
+   "context": "misafirler",
+   "note": null,
+   "form": "guest'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldü",
+   "note": "*laugh at a joke* \"bir şakaya gülmek\" demektir.",
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (şakasına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "joke",
+   "pos": "noun",
+   "wordId": "joke",
+   "sense": 0,
+   "context": "şaka",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "relax",
+   "pos": "verb",
+   "wordId": "relax",
+   "sense": 0,
+   "context": "rahatladı",
+   "note": null,
+   "form": "relax + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "stand",
+   "pos": "verb",
+   "wordId": "stand",
+   "sense": 0,
+   "context": "kalktı (ayağa)",
+   "note": "*stand up* \"ayağa kalkmak\" demektir.",
+   "form": "stand fiilinin geçmiş zaman hali (stood, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "stood up",
+    "meaning": "ayağa kalktı (stand up)"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(stand up: ayağa kalkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 80,
+    "text": "stood up",
+    "meaning": "ayağa kalktı (stand up)"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "clap",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "alkışladı",
+   "note": null,
+   "form": "clap + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": "alkışlamak",
+   "phrase": null
+  }
+ ]
+}

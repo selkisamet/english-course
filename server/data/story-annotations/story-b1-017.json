@@ -1,0 +1,1069 @@
+{
+ "storyId": "story-b1-017",
+ "textHash": "1c06ac56af8b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Peter kırklı yaşlarında ama hiç yüzmeyi öğrenmedi."
+  },
+  {
+   "tr": "Çocukken sudan korkardı ve yüzme derslerinden kaçmak için hep bir sebep bulurdu."
+  },
+  {
+   "tr": "Geçen yıl kızı onunla birlikte plaja gelmesini istedi ve Peter utandı."
+  },
+  {
+   "tr": "Bu yüzden yerel havuzda ders almaya karar verdi."
+  },
+  {
+   "tr": "İlk birkaç hafta zordu ama öğretmeni çok sabırlıydı."
+  },
+  {
+   "tr": "Şimdi durmadan elli metre yüzebiliyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Peter",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Peter",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (yaşlarında)",
+   "note": "*in his forties* \"kırklı yaşlarında\" demektir; onluklar çoğul yapılarak yaş aralığı söylenir: *in her twenties* → yirmili yaşlarında.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "in his forties",
+    "meaning": "kırklı yaşlarında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "in his forties",
+    "meaning": "kırklı yaşlarında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırklı yaşlar",
+   "note": null,
+   "form": "forty'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "in his forties",
+    "meaning": "kırklı yaşlarında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": "*has never* + fiilin 3. hali (present perfect) hayat boyunca bir şeyin hiç olmadığını anlatır: *has never learned* → hiç öğrenmedi.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "has never learned to swim",
+    "meaning": "hiç yüzmeyi öğrenmedi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": "*never* kendisi olumsuz anlam taşır; fiil olumlu kalır (✗ has not never).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "has never learned to swim",
+    "meaning": "hiç yüzmeyi öğrenmedi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": "*learned* Amerikan, *learnt* İngiliz İngilizcesinde daha yaygındır; ikisi de doğrudur.",
+   "form": "learn fiilinin 3. hali (learned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "has never learned to swim",
+    "meaning": "hiç yüzmeyi öğrenmedi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yüzmek)",
+   "note": "*learn to + fiil* \"… -meyi öğrenmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "has never learned to swim",
+    "meaning": "hiç yüzmeyi öğrenmedi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "has never learned to swim",
+    "meaning": "hiç yüzmeyi öğrenmedi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(-ken) olarak",
+   "note": "*as a child* \"çocukken, çocuk olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "As a child",
+    "meaning": "çocukken"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "As a child",
+    "meaning": "çocukken"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "As a child",
+    "meaning": "çocukken"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "afraid",
+   "pos": "adjective",
+   "wordId": "afraid",
+   "sense": 0,
+   "context": "korkan",
+   "note": "*be afraid of* \"-den korkmak\" demektir; *afraid* isimden önce kullanılmaz (✗ an afraid man).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "afraid of",
+    "meaning": "-den korkan"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (sudan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "afraid of",
+    "meaning": "-den korkan"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "water",
+   "pos": "noun",
+   "wordId": "water",
+   "sense": 0,
+   "context": "su",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "hep (her zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulurdu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "reason",
+   "pos": "noun",
+   "wordId": "reason",
+   "sense": 0,
+   "context": "sebepler",
+   "note": null,
+   "form": "reason'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mek için)",
+   "note": "İsim + *to* + fiil \"… -mek için (bir sebep)\" demektir: *reasons to avoid* → kaçmak için sebepler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "avoid",
+   "pos": "verb",
+   "wordId": "avoid",
+   "sense": 0,
+   "context": "kaçınmak (kaçmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "swimming",
+   "pos": "noun",
+   "wordId": "swimming",
+   "sense": 0,
+   "context": "yüzme",
+   "note": "Burada *swimming* isim olarak *lessons*'ı niteler: *swimming lessons* → yüzme dersleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "swimming lessons",
+    "meaning": "yüzme dersleri"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "dersler",
+   "note": null,
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "swimming lessons",
+    "meaning": "yüzme dersleri"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "daughter",
+   "pos": "noun",
+   "wordId": "daughter",
+   "sense": 0,
+   "context": "kız (evlat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "asked him to come",
+    "meaning": "gelmesini istedi (ask someone to)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ondan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "asked him to come",
+    "meaning": "gelmesini istedi (ask someone to)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gelmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "asked him to come",
+    "meaning": "gelmesini istedi (ask someone to)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "gelmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "asked him to come",
+    "meaning": "gelmesini istedi (ask someone to)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (plaja)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "beach",
+   "pos": "noun",
+   "wordId": "beach",
+   "sense": 0,
+   "context": "plaj",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onunla",
+   "note": "*her* burada nesnedir; edattan sonra nesne hali kullanılır: *with her* → onunla.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "embarrassed",
+   "pos": "adjective",
+   "wordId": "embarrassed",
+   "sense": 0,
+   "context": "utanmış (mahcup)",
+   "note": "*embarrassed* \"utanmış, mahcup\" demektir; \"hamile\" anlamındaki İspanyolca *embarazada* ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "almak",
+   "note": "*take lessons* \"ders almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "take lessons",
+    "meaning": "ders almak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "dersler",
+   "note": null,
+   "form": "lesson'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "take lessons",
+    "meaning": "ders almak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (havuzda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel (mahalledeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "pool",
+   "pos": "noun",
+   "wordId": "pool",
+   "sense": 0,
+   "context": "havuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "first few weeks",
+    "meaning": "ilk birkaç hafta"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "few",
+   "pos": "adjective",
+   "wordId": "few",
+   "sense": 1,
+   "context": "birkaç",
+   "note": "*the first few weeks* \"ilk birkaç hafta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "first few weeks",
+    "meaning": "ilk birkaç hafta"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "first few weeks",
+    "meaning": "ilk birkaç hafta"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": "*patient* isim olarak \"hasta\", sıfat olarak \"sabırlı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebiliyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "swim",
+   "pos": "verb",
+   "wordId": "swim",
+   "sense": 0,
+   "context": "yüzmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "fifty",
+   "pos": "number",
+   "wordId": "fifty",
+   "sense": 0,
+   "context": "elli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "metre",
+   "pos": "noun",
+   "wordId": "metre",
+   "sense": 0,
+   "context": "metre",
+   "note": "*metre* İngiliz yazımıdır; Amerikan İngilizcesinde *meter* yazılır.",
+   "form": "metre'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden",
+   "note": "*without* + *-ing* \"… -meden\" demektir: *without stopping* → durmadan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "without stopping",
+    "meaning": "durmadan"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "durmak",
+   "note": null,
+   "form": "stop + -ing (son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "without stopping",
+    "meaning": "durmadan"
+   }
+  }
+ ]
+}

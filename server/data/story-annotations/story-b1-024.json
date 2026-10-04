@@ -1,0 +1,1063 @@
+{
+ "storyId": "story-b1-024",
+ "textHash": "93756de385b3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Elena'nın büyükannesi hayattayken ailedeki en güzel elmalı keki o yapardı."
+  },
+  {
+   "tr": "Ne yazık ki tarifi hiçbir zaman bir yere yazmadı."
+  },
+  {
+   "tr": "Büyükannesi öldükten sonra Elena keki birçok kez yapmayı denedi ama hiçbir zaman aynı tadı vermedi."
+  },
+  {
+   "tr": "Geçen ay büyükannesinin bir arkadaşına göndermiş olduğu eski bir mektup buldu."
+  },
+  {
+   "tr": "Mektupta tarifin tamamı vardı!"
+  },
+  {
+   "tr": "Elena keki annesinin doğum günü için pişirdi ve herkes tadının tıpkı aslı gibi olduğunu söyledi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena'nın",
+   "note": "*'s* eki sahiplik bildirir: *Elena's grandmother* → Elena'nın büyükannesi.",
+   "form": "Elena + 's (iyelik)",
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ken)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "alive",
+   "pos": "adjective",
+   "wordId": "alive",
+   "sense": 0,
+   "context": "hayatta (sağ)",
+   "note": "*alive* isimden önce kullanılmaz (✗ an alive woman); isimden önce *living* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapardı",
+   "note": null,
+   "form": "make fiilinin geçmiş zaman hali (made, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the best* → en iyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en güzel (en iyi)",
+   "note": "*best*, *good* sıfatının en üstünlük halidir (good → better → best).",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "apple",
+   "pos": "noun",
+   "wordId": "apple",
+   "sense": 0,
+   "context": "elma",
+   "note": "Burada *apple* isim olmasına rağmen *cake*'i niteler: *apple cake* → elmalı kek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "apple cake",
+    "meaning": "elmalı kek"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "kek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 10,
+    "text": "apple cake",
+    "meaning": "elmalı kek"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (ailedeki)",
+   "note": "En üstünlük sıfatlarından sonra yerler için *in* kullanılır: *the best in the family*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "unfortunately",
+   "pos": "adverb",
+   "wordId": "unfortunately",
+   "sense": 0,
+   "context": "ne yazık ki",
+   "note": "*un-* ön eki olumsuzluk katar: *fortunately* (neyse ki) → *unfortunately* (ne yazık ki).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": "*never* kendisi olumsuz anlam taşır; fiil olumlu kalır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazdı",
+   "note": "*write something down* \"bir şeyi (unutmamak için) bir yere yazmak, not almak\" demektir.",
+   "form": "write fiilinin geçmiş zaman hali (wrote, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "wrote the recipe down",
+    "meaning": "tarifi bir yere yazdı (write down)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "wrote the recipe down",
+    "meaning": "tarifi bir yere yazdı (write down)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "recipe",
+   "pos": "noun",
+   "wordId": "recipe",
+   "sense": 0,
+   "context": "tarif",
+   "note": "*recipe* yemek \"tarifi\"dir; sondaki *e* okunur (\"resipi\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "wrote the recipe down",
+    "meaning": "tarifi bir yere yazdı (write down)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(write down: not etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "wrote the recipe down",
+    "meaning": "tarifi bir yere yazdı (write down)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": "*after* + cümle \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "öldü",
+   "note": null,
+   "form": "die + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denedi",
+   "note": "*try to + fiil* \"… -meye çalışmak, denemek\" demektir.",
+   "form": "try'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "kek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "many times",
+    "meaning": "birçok kez"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kez",
+   "note": "*time* sayılabilir olunca \"kez, sefer\" demektir: *many times* → birçok kez.",
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 31,
+    "text": "many times",
+    "meaning": "birçok kez"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "taste",
+   "pos": "verb",
+   "wordId": "taste",
+   "sense": 1,
+   "context": "tadı (… gibi) oldu",
+   "note": "*taste* + sıfat/benzetme \"… tadında olmak\" demektir: *it tasted the same* → aynı tadı verdi.",
+   "form": "taste + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "tasted the same",
+    "meaning": "aynı tadı verdi"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "tasted the same",
+    "meaning": "aynı tadı verdi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "same",
+   "pos": "pronoun",
+   "wordId": "same",
+   "sense": 1,
+   "context": "aynı(sı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "tasted the same",
+    "meaning": "aynı tadı verdi"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old letter*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektup",
+   "note": "*letter* \"mektup\" ve \"harf\" demektir; burada \"mektup\"tur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *a letter that her grandmother had sent* → büyükannesinin göndermiş olduğu bir mektup.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir olaydan (bulmak) daha önce olan eylemi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "had sent",
+    "meaning": "göndermişti (past perfect)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "göndermiş",
+   "note": null,
+   "form": "send fiilinin 3. hali (sent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "had sent",
+    "meaning": "göndermişti (past perfect)"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (arkadaşına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (mektupta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "there was",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there was)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "there was",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "tam (eksiksiz)",
+   "note": "*full*'un temel anlamı \"dolu\"dur; isimden önce \"tam, eksiksiz\" anlamına da gelir: *the full recipe* → tarifin tamamı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "recipe",
+   "pos": "noun",
+   "wordId": "recipe",
+   "sense": 0,
+   "context": "tarif",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "Elena",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Elena",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "bake",
+   "pos": "verb",
+   "wordId": "bake",
+   "sense": 0,
+   "context": "pişirdi (fırında)",
+   "note": "*bake* fırında \"pişirmek\" demektir: kek, ekmek gibi.",
+   "form": "bake + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "cake",
+   "pos": "noun",
+   "wordId": "cake",
+   "sense": 0,
+   "context": "kek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "annesinin",
+   "note": null,
+   "form": "mother + 's (iyelik)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "birthday",
+   "pos": "noun",
+   "wordId": "birthday",
+   "sense": 0,
+   "context": "doğum günü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "taste",
+   "pos": "verb",
+   "wordId": "taste",
+   "sense": 1,
+   "context": "tadında olduğunu",
+   "note": "*taste like* + isim \"… gibi tadı olmak\" demektir.",
+   "form": "taste + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "tasted exactly like the original",
+    "meaning": "tadı tıpkı aslı gibiydi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "exactly",
+   "pos": "adverb",
+   "wordId": "exactly",
+   "sense": 0,
+   "context": "tıpkı (tam olarak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "tasted exactly like the original",
+    "meaning": "tadı tıpkı aslı gibiydi"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "tasted exactly like the original",
+    "meaning": "tadı tıpkı aslı gibiydi"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "tasted exactly like the original",
+    "meaning": "tadı tıpkı aslı gibiydi"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "original",
+   "pos": "noun",
+   "wordId": "original",
+   "sense": 1,
+   "context": "aslı (orijinali)",
+   "note": "*the original* \"aslı, orijinali\" demektir; burada büyükannenin yaptığı keki anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 77,
+    "text": "tasted exactly like the original",
+    "meaning": "tadı tıpkı aslı gibiydi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1159 @@
+{
+ "storyId": "story-b1-039",
+ "textHash": "b42d38078a53",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "David yıllarca hiç kahvaltı yapmadı."
+  },
+  {
+   "tr": "Genellikle işe giderken büyük bir kahve içer ve saat on bire doğru acıkırdı."
+  },
+  {
+   "tr": "Sonra masasında sık sık bisküvi ve çikolata yerdi."
+  },
+  {
+   "tr": "Doktoru ona sağlıklı bir kahvaltının ona daha fazla enerji vereceğini söyledi."
+  },
+  {
+   "tr": "Bu yüzden David her sabah meyveli yulaf lapası yemeye başladı."
+  },
+  {
+   "tr": "Birkaç hafta sonra kendini daha az yorgun hissettiğini fark etti ve artık tatlı atıştırmalıklar canı çekmiyordu."
+  },
+  {
+   "tr": "Ayrıca biraz kilo da verdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": "*for many years* \"uzun yıllar boyunca, yıllarca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For many years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For many years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For many years",
+    "meaning": "yıllarca"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": "*never* kendisi olumsuz anlam taşır; fiil olumlu kalır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemedi (kahvaltı yapmadı)",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "breakfast",
+   "pos": "noun",
+   "wordId": "breakfast",
+   "sense": 0,
+   "context": "kahvaltı",
+   "note": "*eat/have breakfast* \"kahvaltı yapmak\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "usually",
+   "pos": "adverb",
+   "wordId": "usually",
+   "sense": 0,
+   "context": "genellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "drink",
+   "pos": "verb",
+   "wordId": "drink",
+   "sense": 1,
+   "context": "içerdi",
+   "note": "Geçmişteki alışkanlıklar geçmiş zamanla da anlatılabilir: *He usually drank…* → genellikle içerdi.",
+   "form": "drink fiilinin geçmiş zaman hali (drank, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": "*a large coffee* \"büyük boy bir kahve\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "coffee",
+   "pos": "noun",
+   "wordId": "coffee",
+   "sense": 0,
+   "context": "kahve",
+   "note": "*coffee* genellikle sayılamaz; ama bir fincan kahve sipariş ederken *a coffee* denebilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on the way: yolda)",
+   "note": "*on the way to work* \"işe giderken, işe giden yolda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "on the way to work",
+    "meaning": "işe giderken"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "on the way to work",
+    "meaning": "işe giderken"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "on the way to work",
+    "meaning": "işe giderken"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (işe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "on the way to work",
+    "meaning": "işe giderken"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 17,
+    "text": "on the way to work",
+    "meaning": "işe giderken"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissederdi",
+   "note": "*feel hungry* \"acıkmak, aç hissetmek\" demektir.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "hungry",
+   "pos": "adjective",
+   "wordId": "hungry",
+   "sense": 0,
+   "context": "aç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e kadar (en geç)",
+   "note": "*by* + zaman \"en geç …-e kadar\" demektir: *by eleven o'clock* → saat on bire kadar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "by eleven o'clock",
+    "meaning": "saat on bire kadar"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "eleven",
+   "pos": "number",
+   "wordId": "eleven",
+   "sense": 0,
+   "context": "on bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "by eleven o'clock",
+    "meaning": "saat on bire kadar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "o'clock",
+   "pos": "adverb",
+   "wordId": "o-clock",
+   "sense": 0,
+   "context": "saat (tam)",
+   "note": "*o'clock* yalnızca tam saatlerde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 23,
+    "text": "by eleven o'clock",
+    "meaning": "saat on bire kadar"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yerdi",
+   "note": null,
+   "form": "eat fiilinin geçmiş zaman hali (ate, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "biscuit",
+   "pos": "noun",
+   "wordId": "biscuit",
+   "sense": 0,
+   "context": "bisküvi",
+   "note": "*biscuit* İngiliz İngilizcesinde \"bisküvi\"dir; Amerikan İngilizcesinde *cookie* denir.",
+   "form": "biscuit'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "chocolate",
+   "pos": "noun",
+   "wordId": "chocolate",
+   "sense": 0,
+   "context": "çikolata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (masasında)",
+   "note": "Masada oturmak ya da çalışmak için *at* kullanılır: *at his desk*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "desk",
+   "pos": "noun",
+   "wordId": "desk",
+   "sense": 0,
+   "context": "masa (çalışma masası)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "doctor",
+   "pos": "noun",
+   "wordId": "doctor",
+   "sense": 0,
+   "context": "doktor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone (that)…* \"birine … olduğunu söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "healthy",
+   "pos": "adjective",
+   "wordId": "healthy",
+   "sense": 0,
+   "context": "sağlıklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "breakfast",
+   "pos": "noun",
+   "wordId": "breakfast",
+   "sense": 0,
+   "context": "kahvaltı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceğini)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"It will give you energy\"* → *he said it would give him energy*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "would give him more energy",
+    "meaning": "ona daha fazla enerji verecekti"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "would give him more energy",
+    "meaning": "ona daha fazla enerji verecekti"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "would give him more energy",
+    "meaning": "ona daha fazla enerji verecekti"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "would give him more energy",
+    "meaning": "ona daha fazla enerji verecekti"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "energy",
+   "pos": "noun",
+   "wordId": "energy",
+   "sense": 0,
+   "context": "enerji",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "would give him more energy",
+    "meaning": "ona daha fazla enerji verecekti"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "David",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "David",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "started eating",
+    "meaning": "yemeye başladı"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "eat",
+   "pos": "verb",
+   "wordId": "eat",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": "eat + -ing",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 50,
+    "text": "started eating",
+    "meaning": "yemeye başladı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "porridge",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yulaf lapası",
+   "note": "*porridge* yulafın süt ya da suyla pişirilmesiyle yapılan bir kahvaltılıktır.",
+   "form": null,
+   "base": "yulaf lapası",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (meyveli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "fruit",
+   "pos": "noun",
+   "wordId": "fruit",
+   "sense": 0,
+   "context": "meyve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "After a few weeks",
+    "meaning": "birkaç hafta sonra"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "After a few weeks",
+    "meaning": "birkaç hafta sonra"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "After a few weeks",
+    "meaning": "birkaç hafta sonra"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "After a few weeks",
+    "meaning": "birkaç hafta sonra"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark etti",
+   "note": null,
+   "form": "notice + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissettiğini",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": "*less* + sıfat \"daha az …\" demektir; *more*'un tersidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "less tired",
+    "meaning": "daha az yorgun"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "tired",
+   "pos": "adjective",
+   "wordId": "tired",
+   "sense": 0,
+   "context": "yorgun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 66,
+    "text": "less tired",
+    "meaning": "daha az yorgun"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-miyordu)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istemek (canı çekmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "sweet",
+   "pos": "adjective",
+   "wordId": "sweet",
+   "sense": 0,
+   "context": "tatlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "snack",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "atıştırmalıklar",
+   "note": "*snack* ana öğünler arasında yenen küçük yiyecektir.",
+   "form": "snack'in çoğulu",
+   "base": "atıştırmalık",
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "any",
+   "pos": "adverb",
+   "wordId": "any",
+   "sense": 2,
+   "context": "(any more: artık)",
+   "note": "*not … any more* \"artık … değil\" demektir; Amerikan İngilizcesinde *anymore* bitişik yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "any more",
+    "meaning": "artık (olumsuz)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "(any more: artık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "any more",
+    "meaning": "artık (olumsuz)"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": "Present perfect, sonucu bugün de görülen bir değişimi anlatır: *He has lost some weight* → (şu an) biraz kilo vermiş durumda.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "ayrıca (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "verdi (kaybetti)",
+   "note": "*lose weight* \"kilo vermek\", *put on weight* ise \"kilo almak\" demektir.",
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "lost some weight",
+    "meaning": "biraz kilo verdi"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "lost some weight",
+    "meaning": "biraz kilo verdi"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "weight",
+   "pos": "noun",
+   "wordId": "weight",
+   "sense": 0,
+   "context": "kilo (ağırlık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "lost some weight",
+    "meaning": "biraz kilo verdi"
+   }
+  }
+ ]
+}

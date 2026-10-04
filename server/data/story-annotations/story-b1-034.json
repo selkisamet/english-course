@@ -1,0 +1,1119 @@
+{
+ "storyId": "story-b1-034",
+ "textHash": "00986b477475",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Leo büyükbabasının eski bisikletini garajda bulduğunda bisiklet toz içindeydi ve lastikleri inikti."
+  },
+  {
+   "tr": "Onu kendisi tamir etmeye karar verdi."
+  },
+  {
+   "tr": "Nasıl yapılacağını öğrenmek için internette birkaç video izledi."
+  },
+  {
+   "tr": "Önce bütün bisikleti temizledi ve lastikleri değiştirdi."
+  },
+  {
+   "tr": "Sonra frenleri ve zinciri onardı."
+  },
+  {
+   "tr": "Üç hafta sonu sürdü ama sonunda bisiklet hazırdı."
+  },
+  {
+   "tr": "Artık her gün bisikletiyle okula gidiyor ve büyükbabası onunla çok gurur duyuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Leo",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Leo",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbabasının",
+   "note": "*'s* eki sahiplik bildirir: *his grandfather's bicycle* → büyükbabasının bisikleti.",
+   "form": "grandfather + 's (iyelik)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "grandfather's old bicycle",
+    "meaning": "büyükbabasının eski bisikleti"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "grandfather's old bicycle",
+    "meaning": "büyükbabasının eski bisikleti"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "bicycle",
+   "pos": "noun",
+   "wordId": "bicycle",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": "*bicycle*'ın günlük konuşmadaki kısa hali *bike*'tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "grandfather's old bicycle",
+    "meaning": "büyükbabasının eski bisikleti"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (garajda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "garage",
+   "pos": "noun",
+   "wordId": "garage",
+   "sense": 0,
+   "context": "garaj",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bisiklet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "covered",
+   "pos": "adjective",
+   "wordId": "covered",
+   "sense": 0,
+   "context": "kaplı",
+   "note": "*be covered in/with something* \"bir şeyle kaplı olmak\" demektir: *covered in dust* → toz içinde.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "covered in dust",
+    "meaning": "toz içinde, tozla kaplı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "ile (toz içinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "covered in dust",
+    "meaning": "toz içinde, tozla kaplı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "dust",
+   "pos": "noun",
+   "wordId": "dust",
+   "sense": 0,
+   "context": "toz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "covered in dust",
+    "meaning": "toz içinde, tozla kaplı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "tyre",
+   "pos": "noun",
+   "wordId": "tyre",
+   "sense": 0,
+   "context": "lastikler",
+   "note": "*tyre* İngiliz yazımıdır; Amerikan İngilizcesinde *tire* yazılır.",
+   "form": "tyre'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "flat",
+   "pos": "adjective",
+   "wordId": "flat",
+   "sense": 1,
+   "context": "inik (patlak)",
+   "note": "*flat*'in temel anlamı \"düz, yassı\"dır; lastikler için \"havası inmiş, patlak\" demektir: *a flat tyre*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (tamir etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "repair",
+   "pos": "verb",
+   "wordId": "repair",
+   "sense": 0,
+   "context": "tamir etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "repair it himself",
+    "meaning": "onu kendisi tamir etmek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "repair it himself",
+    "meaning": "onu kendisi tamir etmek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "himself",
+   "pos": "pronoun",
+   "wordId": "himself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "*himself* burada \"başkasının yardımı olmadan, kendisi\" anlamında vurgu yapar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "repair it himself",
+    "meaning": "onu kendisi tamir etmek"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izledi",
+   "note": null,
+   "form": "watch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "videolar",
+   "note": null,
+   "form": "video'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "online",
+   "pos": "adverb",
+   "wordId": "online",
+   "sense": 1,
+   "context": "internette",
+   "note": "*online* zarf olarak \"internette, çevrimiçi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to learn how to do it* → nasıl yapılacağını öğrenmek için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to* + fiil \"nasıl …-ileceği\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "how to do it",
+    "meaning": "nasıl yapılacağını"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "how to do it",
+    "meaning": "nasıl yapılacağını"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "how to do it",
+    "meaning": "nasıl yapılacağını"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (bunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "how to do it",
+    "meaning": "nasıl yapılacağını"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "önce",
+   "note": "*First, … Then, …* \"Önce …, sonra …\" diye olayları sıralar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizledi",
+   "note": null,
+   "form": "clean + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "değiştirdi",
+   "note": null,
+   "form": "replace + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "tyre",
+   "pos": "noun",
+   "wordId": "tyre",
+   "sense": 0,
+   "context": "lastikler",
+   "note": null,
+   "form": "tyre'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "fix",
+   "pos": "verb",
+   "wordId": "fix",
+   "sense": 0,
+   "context": "onardı (tamir etti)",
+   "note": "*fix* günlük dilde *repair* ile aynı anlamda \"tamir etmek\" demektir.",
+   "form": "fix + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "brake",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "frenler",
+   "note": null,
+   "form": "brake'in çoğulu",
+   "base": "fren",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "chain",
+   "pos": "noun",
+   "wordId": "chain",
+   "sense": 0,
+   "context": "zincir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It took (someone) + süre* \"(birinin) … sürmesi\" demektir: *It took him three weekends* → üç hafta sonu sürdü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "It took him three weekends",
+    "meaning": "üç hafta sonu sürdü"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürdü",
+   "note": "*take* zamanla \"sürmek\" demektir.",
+   "form": "take fiilinin geçmiş zaman hali (took, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "It took him three weekends",
+    "meaning": "üç hafta sonu sürdü"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "(onun)",
+   "note": "*him*, *he*'nin nesne halidir: \"onu, ona\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "It took him three weekends",
+    "meaning": "üç hafta sonu sürdü"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "It took him three weekends",
+    "meaning": "üç hafta sonu sürdü"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonu",
+   "note": null,
+   "form": "weekend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "It took him three weekends",
+    "meaning": "üç hafta sonu sürdü"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "bike",
+   "pos": "noun",
+   "wordId": "bike",
+   "sense": 0,
+   "context": "bisiklet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "ready",
+   "pos": "adjective",
+   "wordId": "ready",
+   "sense": 0,
+   "context": "hazır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "ride",
+   "pos": "verb",
+   "wordId": "ride",
+   "sense": 0,
+   "context": "(bisikletle) gidiyor",
+   "note": "*ride a bike to school* \"okula bisikletle gitmek\" demektir.",
+   "form": "ride + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (bisikleti)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (okula)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "grandfather",
+   "pos": "noun",
+   "wordId": "grandfather",
+   "sense": 0,
+   "context": "büyükbaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": "*be proud of someone* \"biriyle gurur duymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "proud of him",
+    "meaning": "onunla gurur duyan"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-le (onunla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "proud of him",
+    "meaning": "onunla gurur duyan"
+   }
+  },
+  {
+   "i": 81,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu (onunla)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 79,
+    "to": 81,
+    "text": "proud of him",
+    "meaning": "onunla gurur duyan"
+   }
+  }
+ ]
+}

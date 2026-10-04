@@ -1,0 +1,1143 @@
+{
+ "storyId": "story-b1-021",
+ "textHash": "b2a6018beacd",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Aynı şirkette beş yıl çalıştıktan sonra Laura'ya sonunda terfi teklif edildi."
+  },
+  {
+   "tr": "Müdürü ondan sekiz kişilik bir ekibi yönetmesini istedi."
+  },
+  {
+   "tr": "Heyecan verici bir haberdi ama Laura aynı zamanda endişeliydi."
+  },
+  {
+   "tr": "Daha önce hiç yönetici olmamıştı ve bazı iş arkadaşları ondan büyüktü."
+  },
+  {
+   "tr": "Yeni yöneticiler için kısa bir kursa katılmaya karar verdi."
+  },
+  {
+   "tr": "Şimdi, altı ay sonra, ekibi iyi bir uyum içinde çalışıyor ve Laura yeni görevinde kendine çok daha fazla güveniyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "After five years",
+    "meaning": "beş yıl sonra"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "After five years",
+    "meaning": "beş yıl sonra"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "After five years",
+    "meaning": "beş yıl sonra"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (şirkette)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*same* her zaman *the* ile kullanılır: *the same company* → aynı şirket.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "company",
+   "pos": "noun",
+   "wordId": "company",
+   "sense": 0,
+   "context": "şirket",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "Laura",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Laura",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "Edilgen yapı *was/were* + fiilin 3. hali ile kurulur. *Laura was offered a promotion* → Laura'ya terfi teklif edildi; İngilizcede teklifi alan kişi cümlenin öznesi olabilir.",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "was finally offered a promotion",
+    "meaning": "sonunda terfi teklif edildi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "was finally offered a promotion",
+    "meaning": "sonunda terfi teklif edildi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif edildi",
+   "note": null,
+   "form": "offer fiilinin 3. hali (offered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "was finally offered a promotion",
+    "meaning": "sonunda terfi teklif edildi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "was finally offered a promotion",
+    "meaning": "sonunda terfi teklif edildi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "promotion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "terfi",
+   "note": "*promotion* iş yerinde \"terfi\"dir; alışverişte \"promosyon, kampanya\" anlamına da gelir.",
+   "form": null,
+   "base": "terfi; promosyon",
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "was finally offered a promotion",
+    "meaning": "sonunda terfi teklif edildi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *her manager* → müdür**ü**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "müdür (yönetici)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "istedi",
+   "note": "*ask someone to do something* \"birinden bir şey yapmasını istemek\" demektir.",
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "asked her to lead",
+    "meaning": "yönetmesini istedi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ondan",
+   "note": "*her* burada nesnedir (\"onu, ona\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "asked her to lead",
+    "meaning": "yönetmesini istedi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yönetmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "asked her to lead",
+    "meaning": "yönetmesini istedi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "lead",
+   "pos": "verb",
+   "wordId": "lead",
+   "sense": 0,
+   "context": "yönetmek (önderlik etmek)",
+   "note": "*lead a team* \"bir ekibi yönetmek, ekibe liderlik etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "asked her to lead",
+    "meaning": "yönetmesini istedi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "a team of eight people",
+    "meaning": "sekiz kişilik bir ekip"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "a team of eight people",
+    "meaning": "sekiz kişilik bir ekip"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(-lik)",
+   "note": "*a team of eight people* \"sekiz kişilik bir ekip\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "a team of eight people",
+    "meaning": "sekiz kişilik bir ekip"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "eight",
+   "pos": "number",
+   "wordId": "eight",
+   "sense": 0,
+   "context": "sekiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "a team of eight people",
+    "meaning": "sekiz kişilik bir ekip"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": "*people* çoğul bir isimdir (\"insanlar, kişiler\"); tekili *person*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "a team of eight people",
+    "meaning": "sekiz kişilik bir ekip"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(bu)",
+   "note": "*it* burada az önce anlatılan durumu gösterir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "exciting",
+   "pos": "adjective",
+   "wordId": "exciting",
+   "sense": 0,
+   "context": "heyecan verici",
+   "note": "*exciting* heyecan veren şeyi anlatır; *excited* ise heyecanlanan kişiyi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "news",
+   "pos": "noun",
+   "wordId": "news",
+   "sense": 0,
+   "context": "haber",
+   "note": "*news* sonundaki *-s*'ye rağmen tekildir ve sayılamaz: *It was exciting news* (✗ an exciting news).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "Laura",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Laura",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "aynı zamanda (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "worried",
+   "pos": "adjective",
+   "wordId": "worried",
+   "sense": 0,
+   "context": "endişeli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had never* + fiilin 3. hali (past perfect) o ana kadar bir şeyin hiç olmadığını anlatır: *had never been a manager* → hiç yönetici olmamıştı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "had never been",
+    "meaning": "hiç olmamıştı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "had never been",
+    "meaning": "hiç olmamıştı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmamıştı",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "had never been",
+    "meaning": "hiç olmamıştı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Meslek ve görev söylerken *a/an* kullanılır: *be a manager*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "yönetici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "daha önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of* + belirli bir grup \"…-lerin bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "iş arkadaşları",
+   "note": null,
+   "form": "colleague'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "daha büyük (yaşça)",
+   "note": "*old* insanlar için \"yaşlı\"dır; karşılaştırmada *older than* \"-den büyük\" demektir.",
+   "form": "old sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "older than her",
+    "meaning": "ondan büyük"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "older than her",
+    "meaning": "ondan büyük"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ondan",
+   "note": "*than*'dan sonra günlük dilde nesne hali kullanılır: *older than her*; resmî dilde *older than she was* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "older than her",
+    "meaning": "ondan büyük"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (katılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "katılmak (almak)",
+   "note": "*take a course* \"bir kursa katılmak, kurs almak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "take a short course",
+    "meaning": "kısa bir kursa katılmak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "take a short course",
+    "meaning": "kısa bir kursa katılmak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "take a short course",
+    "meaning": "kısa bir kursa katılmak"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "take a short course",
+    "meaning": "kısa bir kursa katılmak"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "yöneticiler",
+   "note": null,
+   "form": "manager'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "six months later",
+    "meaning": "altı ay sonra"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "six months later",
+    "meaning": "altı ay sonra"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *six months later* → altı ay sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "six months later",
+    "meaning": "altı ay sonra"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "team",
+   "pos": "noun",
+   "wordId": "team",
+   "sense": 0,
+   "context": "ekip",
+   "note": "*team* grup bildiren bir isimdir; İngiliz İngilizcesinde çoğul fiille de kullanılabilir (*the team work*), burada tekil fiil almıştır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "works well together",
+    "meaning": "iyi bir uyum içinde çalışıyor"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "iyi",
+   "note": "*well* zarftır ve fiili niteler: *works well* → iyi çalışıyor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "works well together",
+    "meaning": "iyi bir uyum içinde çalışıyor"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte (uyum içinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "works well together",
+    "meaning": "iyi bir uyum içinde çalışıyor"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "Laura",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Laura",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir.",
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırmalardan önce *much* \"çok daha\" anlamı verir: *much more confident*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "much more confident",
+    "meaning": "kendine çok daha fazla güvenen"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "Uzun sıfatlar *more* ile karşılaştırılır: *more confident* → daha özgüvenli.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "much more confident",
+    "meaning": "kendine çok daha fazla güvenen"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "confident",
+   "pos": "adjective",
+   "wordId": "confident",
+   "sense": 0,
+   "context": "kendinden emin (özgüvenli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 73,
+    "text": "much more confident",
+    "meaning": "kendine çok daha fazla güvenen"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (görevinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "role",
+   "pos": "noun",
+   "wordId": "role",
+   "sense": 0,
+   "context": "görev (rol)",
+   "note": "*role*'ün temel anlamı \"rol\"dür; iş yerinde \"görev, pozisyon\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1096 @@
+{
+ "storyId": "story-b1-011",
+ "textHash": "748ebf3fc568",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Hannah geçen ilkbahardan beri haftada üç gün evden çalışıyor."
+  },
+  {
+   "tr": "İlk başta buna bayıldı çünkü ofise gitmek zorunda değildi."
+  },
+  {
+   "tr": "İşe rahat kıyafetlerle başlayabiliyor ve ulaşımdan para biriktirebiliyordu."
+  },
+  {
+   "tr": "Ancak birkaç ay sonra kendini yalnız hissetmeye başladı."
+  },
+  {
+   "tr": "İş arkadaşlarıyla sohbet etmeyi özledi."
+  },
+  {
+   "tr": "Artık cuma günleri evinin yakınındaki bir kafeye gidiyor."
+  },
+  {
+   "tr": "Orada çalışmak odaklanmasına yardımcı oluyor ve kendini o kadar yalnız hissetmiyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since* + başlangıç zamanı \"…-den beri\" demektir ve genellikle present perfect ile kullanılır; süre için ise *for* kullanılır: *for two years*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Since last spring",
+    "meaning": "geçen ilkbahardan beri"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Since last spring",
+    "meaning": "geçen ilkbahardan beri"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "spring",
+   "pos": "noun",
+   "wordId": "spring",
+   "sense": 0,
+   "context": "ilkbahar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Since last spring",
+    "meaning": "geçen ilkbahardan beri"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Hannah",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Hannah",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor; -dır)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) geçmişte başlayıp hâlâ süren durumu anlatır: *has worked since last spring* → geçen ilkbahardan beri çalışıyor. Burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "has worked from home",
+    "meaning": "evden çalışıyor (present perfect)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work fiilinin 3. hali (worked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "has worked from home",
+    "meaning": "evden çalışıyor (present perfect)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (evden)",
+   "note": "*work from home* \"evden çalışmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "has worked from home",
+    "meaning": "evden çalışıyor (present perfect)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "has worked from home",
+    "meaning": "evden çalışıyor (present perfect)"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "three days a week",
+    "meaning": "haftada üç gün"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "three days a week",
+    "meaning": "haftada üç gün"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (haftada)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir: *three days a week* → haftada üç gün.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "three days a week",
+    "meaning": "haftada üç gün"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "three days a week",
+    "meaning": "haftada üç gün"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir (burada *However* ile).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "bayıldı (çok sevdi)",
+   "note": null,
+   "form": "love + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (bunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "did not have to",
+    "meaning": "zorunda değildi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "did not have to",
+    "meaning": "zorunda değildi"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda (have to)",
+   "note": "*not have to* \"… zorunda olmamak, gerek olmamak\" demektir; *must not* (yasak) ile karıştırılmamalıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "did not have to",
+    "meaning": "zorunda değildi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gitmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "did not have to",
+    "meaning": "zorunda değildi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "travel",
+   "pos": "verb",
+   "wordId": "travel",
+   "sense": 0,
+   "context": "gitmek (yolculuk etmek)",
+   "note": "*travel to work* işe gidip gelmeyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (ofise)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebiliyordu",
+   "note": "*could*, *can*'in geçmiş halidir; geçmişteki bir imkânı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş",
+   "note": "*start work* \"işe başlamak\" demektir; *work* burada isimdir ve önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "ile (-le)",
+   "note": "Giysilerle *in* kullanılır: *in comfortable clothes* → rahat kıyafetlerle.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "rahat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafetler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "save",
+   "pos": "verb",
+   "wordId": "save",
+   "sense": 0,
+   "context": "biriktirmek (tasarruf etmek)",
+   "note": "*save money on something* \"bir şeyden para tasarruf etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-den (ulaşımdan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "transport",
+   "pos": "noun",
+   "wordId": "transport",
+   "sense": 0,
+   "context": "ulaşım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": "*However* önceki cümleye karşıt bir bilgi ekler; cümle başında genellikle virgülle kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "after a few months",
+    "meaning": "birkaç ay sonra"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "after a few months",
+    "meaning": "birkaç ay sonra"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": "*a few* \"birkaç\" demektir; *few* tek başına ise \"pek az\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "after a few months",
+    "meaning": "birkaç ay sonra"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 43,
+    "text": "after a few months",
+    "meaning": "birkaç ay sonra"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*begin to + fiil* \"… -meye başlamak\" demektir.",
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (hissetmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "lonely",
+   "pos": "adjective",
+   "wordId": "lonely",
+   "sense": 0,
+   "context": "yalnız",
+   "note": "*lonely* yalnızlıktan üzüntü duymayı anlatır; *alone* ise yalnızca \"tek başına\" olmak demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özledi",
+   "note": "*miss* \"özlemek\" ve \"kaçırmak\" demektir; *miss* + *-ing* \"… -meyi özlemek\" anlamındadır.",
+   "form": "miss + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "chat",
+   "pos": "verb",
+   "wordId": "chat",
+   "sense": 0,
+   "context": "sohbet etmek",
+   "note": null,
+   "form": "chat + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "iş arkadaşları",
+   "note": null,
+   "form": "colleague'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gidiyor",
+   "note": null,
+   "form": "go + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kafeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "café",
+   "pos": "noun",
+   "wordId": "cafe",
+   "sense": 0,
+   "context": "kafe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "near",
+   "pos": "preposition",
+   "wordId": "near",
+   "sense": 0,
+   "context": "yakınındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire (ev)",
+   "note": "*flat* İngiliz İngilizcesinde \"daire\" demektir; Amerikan İngilizcesinde *apartment* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(cuma günleri)",
+   "note": "Gün adı çoğul olunca \"her …\" anlamı verir: *on Fridays* → cuma günleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "on Fridays",
+    "meaning": "cuma günleri"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "Friday",
+   "pos": "noun",
+   "wordId": "friday",
+   "sense": 0,
+   "context": "cuma günleri",
+   "note": null,
+   "form": "Friday'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "on Fridays",
+    "meaning": "cuma günleri"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışmak",
+   "note": "*-ing* almış fiil isim gibi kullanılıp cümlenin öznesi olabilir: *Working there helps her* → Orada çalışmak ona yardımcı oluyor.",
+   "form": "work + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardımcı oluyor",
+   "note": "*help someone (to) do something* \"birinin bir şey yapmasına yardım etmek\" demektir; *to* atlanabilir.",
+   "form": "help + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "helps her concentrate",
+    "meaning": "odaklanmasına yardımcı oluyor"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "helps her concentrate",
+    "meaning": "odaklanmasına yardımcı oluyor"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "concentrate",
+   "pos": "verb",
+   "wordId": "concentrate",
+   "sense": 0,
+   "context": "odaklanmak (konsantre olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "helps her concentrate",
+    "meaning": "odaklanmasına yardımcı oluyor"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-miyor)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*not so* + sıfat \"o kadar … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "alone",
+   "pos": "adjective",
+   "wordId": "alone",
+   "sense": 0,
+   "context": "yalnız (tek başına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

@@ -1,0 +1,1161 @@
+{
+ "storyId": "story-b1-048",
+ "textHash": "596aa95bf713",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İki yıl önce Helen mahalledeki kütüphanede bir kitap kulübüne katıldı."
+  },
+  {
+   "tr": "Üyeler, hepsinin okuduğu bir kitabı tartışmak için her ayın ilk pazartesisi buluşuyor."
+  },
+  {
+   "tr": "Helen aynı hikaye hakkında farklı görüşler duymaktan keyif alıyor."
+  },
+  {
+   "tr": "Kulüp sayesinde bilim kurgu ve tarih gibi, normalde seçmeyeceği kitaplar okudu."
+  },
+  {
+   "tr": "Orada birkaç iyi arkadaş da edindi."
+  },
+  {
+   "tr": "Gelecek ay kitabı seçme sırası onda."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two years ago",
+    "meaning": "iki yıl önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Helen",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Helen",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": "*join a club* \"bir kulübe katılmak, üye olmak\" demektir; *join*'den sonra *to* gelmez.",
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": "Burada *book* isim olmasına rağmen *club*'ı niteler: *book club* → kitap kulübü.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "book club",
+    "meaning": "kitap kulübü"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "club",
+   "pos": "noun",
+   "wordId": "club",
+   "sense": 0,
+   "context": "kulüp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 7,
+    "text": "book club",
+    "meaning": "kitap kulübü"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (kütüphanede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "mahalledeki (yerel)",
+   "note": "*local* \"yerel, yakındaki\" demektir: *her local library* → yaşadığı yerdeki kütüphane.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "library",
+   "pos": "noun",
+   "wordId": "library",
+   "sense": 0,
+   "context": "kütüphane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "member",
+   "pos": "noun",
+   "wordId": "member",
+   "sense": 0,
+   "context": "üyeler",
+   "note": null,
+   "form": "member'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "buluşuyor",
+   "note": "*meet* \"tanışmak\" ve \"buluşmak, toplanmak\" demektir; burada \"buluşmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (pazartesi)",
+   "note": "Günlerden önce *on* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "Monday",
+   "pos": "noun",
+   "wordId": "monday",
+   "sense": 0,
+   "context": "pazartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ayın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "on the first Monday of every month",
+    "meaning": "her ayın ilk pazartesi günü"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to discuss a book* → bir kitabı tartışmak için.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "discuss",
+   "pos": "verb",
+   "wordId": "discuss",
+   "sense": 0,
+   "context": "tartışmak (konuşmak)",
+   "note": "*discuss something* \"bir şeyi tartışmak, konuşmak\" demektir; *discuss*'tan sonra *about* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "a book they have all read",
+    "meaning": "hepsinin okuduğu bir kitap"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": "*a book they have all read* kalıbında *that* atlanmıştır: *a book (that) they have all read*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "a book they have all read",
+    "meaning": "hepsinin okuduğu bir kitap"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dukları)",
+   "note": "Present perfect, buluşmadan önce tamamlanmış bir eylemi anlatır: *have all read* → hepsi okumuş.",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "a book they have all read",
+    "meaning": "hepsinin okuduğu bir kitap"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "hepsi",
+   "note": "*all* yardımcı fiil ile asıl fiilin arasına girebilir: *they have all read* → hepsi okumuş.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "a book they have all read",
+    "meaning": "hepsinin okuduğu bir kitap"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudukları",
+   "note": "*read*'in 3. hali de *read* yazılır ama \"red\" diye okunur.",
+   "form": "read fiilinin 3. hali (read, düzensiz — \"red\" diye okunur)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "a book they have all read",
+    "meaning": "hepsinin okuduğu bir kitap"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "Helen",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Helen",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "keyif alıyor",
+   "note": "*enjoy* + *-ing* \"… -mekten keyif almak\" demektir (✗ enjoy to hear).",
+   "form": "enjoy + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "enjoys hearing",
+    "meaning": "duymaktan keyif alıyor"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duymak",
+   "note": null,
+   "form": "hear + -ing",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "enjoys hearing",
+    "meaning": "duymaktan keyif alıyor"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "opinion",
+   "pos": "noun",
+   "wordId": "opinion",
+   "sense": 0,
+   "context": "görüşler (fikirler)",
+   "note": null,
+   "form": "opinion'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*same* her zaman *the* ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikaye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "thanks",
+   "pos": "noun",
+   "wordId": "thanks",
+   "sense": 1,
+   "context": "(thanks to: sayesinde)",
+   "note": "*thanks to* \"… sayesinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Thanks to the club",
+    "meaning": "kulüp sayesinde"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(thanks to: sayesinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Thanks to the club",
+    "meaning": "kulüp sayesinde"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Thanks to the club",
+    "meaning": "kulüp sayesinde"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "club",
+   "pos": "noun",
+   "wordId": "club",
+   "sense": 0,
+   "context": "kulüp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Thanks to the club",
+    "meaning": "kulüp sayesinde"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-du)",
+   "note": "Present perfect, ne zaman olduğu belirtilmeyen geçmiş deneyimleri anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okudu",
+   "note": null,
+   "form": "read fiilinin 3. hali (read, düzensiz — \"red\" diye okunur)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-ceği)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *books that she would not choose* → seçmeyeceği kitaplar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-mezdi)",
+   "note": "*would* burada genel bir eğilimi anlatır: *would not normally choose* → normalde seçmezdi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "would not normally choose",
+    "meaning": "normalde seçmezdi"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "would not normally choose",
+    "meaning": "normalde seçmezdi"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "normally",
+   "pos": "adverb",
+   "wordId": "normally",
+   "sense": 0,
+   "context": "normalde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "would not normally choose",
+    "meaning": "normalde seçmezdi"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 52,
+    "text": "would not normally choose",
+    "meaning": "normalde seçmezdi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "(such as: gibi)",
+   "note": "*such as* örnek verirken \"… gibi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "such as",
+    "meaning": "gibi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "such as",
+    "meaning": "gibi"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "science",
+   "pos": "noun",
+   "wordId": "science",
+   "sense": 0,
+   "context": "bilim",
+   "note": "*science fiction* \"bilim kurgu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "science fiction",
+    "meaning": "bilim kurgu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "fiction",
+   "pos": "noun",
+   "wordId": "fiction",
+   "sense": 0,
+   "context": "kurgu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "science fiction",
+    "meaning": "bilim kurgu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": "*history* \"tarih\" (geçmiş olaylar) demektir; takvimdeki tarih ise *date*'tir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-di)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (ayrıca)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "made some good friends",
+    "meaning": "birkaç iyi arkadaş edindi"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "edindi",
+   "note": "*make friends* \"arkadaş edinmek\" demektir.",
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "made some good friends",
+    "meaning": "birkaç iyi arkadaş edindi"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "made some good friends",
+    "meaning": "birkaç iyi arkadaş edindi"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "made some good friends",
+    "meaning": "birkaç iyi arkadaş edindi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "made some good friends",
+    "meaning": "birkaç iyi arkadaş edindi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "gelecek",
+   "note": "*next month* \"gelecek ay\" demektir; önüne *the* ya da *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is someone's turn to* + fiil \"… -me sırası birinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "turn",
+   "pos": "noun",
+   "wordId": "turn",
+   "sense": 1,
+   "context": "sıra",
+   "note": "*turn* fiil olarak \"dönmek\", isim olarak \"sıra\" demektir: *It is your turn* → Sıra sende.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-me (seçme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "it is her turn to choose",
+    "meaning": "seçme sırası onda"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

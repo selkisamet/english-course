@@ -1,0 +1,1135 @@
+{
+ "storyId": "story-b1-046",
+ "textHash": "cc24bc8f6da5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Omar şehirde yeni bir iş bulduktan sonra hızla bir daire bulması gerekti."
+  },
+  {
+   "tr": "Her gün internet sitelerine baktı ve iki haftada ondan fazla daire gezdi."
+  },
+  {
+   "tr": "Bazıları çok pahalıydı, diğerleri de ofisine çok uzaktı."
+  },
+  {
+   "tr": "Bir daire fotoğraflarda çok güzel görünüyordu ama gerçekte karanlık ve küçüktü."
+  },
+  {
+   "tr": "Sonunda işine yalnızca on dakika uzaklıkta, balkonlu ve aydınlık bir daire buldu."
+  },
+  {
+   "tr": "Sözleşmeyi aynı gün imzaladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": "*after* + cümle \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "he got a new job",
+    "meaning": "yeni bir iş buldu (get a job)"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "get",
+   "pos": "verb",
+   "wordId": "get",
+   "sense": 0,
+   "context": "buldu (aldı)",
+   "note": "*get a job* \"iş bulmak\" demektir.",
+   "form": "get fiilinin geçmiş zaman hali (got, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "he got a new job",
+    "meaning": "yeni bir iş buldu (get a job)"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "he got a new job",
+    "meaning": "yeni bir iş buldu (get a job)"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "he got a new job",
+    "meaning": "yeni bir iş buldu (get a job)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 5,
+    "text": "he got a new job",
+    "meaning": "yeni bir iş buldu (get a job)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (şehirde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "Omar",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Omar",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "gerekti (ihtiyacı vardı)",
+   "note": "*need to + fiil* \"… -mesi gerekmek\" demektir.",
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "needed to find",
+    "meaning": "bulması gerekti"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (bulmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "needed to find",
+    "meaning": "bulması gerekti"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "needed to find",
+    "meaning": "bulması gerekti"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": "*flat* İngiliz İngilizcesinde \"daire\" demektir; Amerikan İngilizcesinde *apartment* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "quickly",
+   "pos": "adverb",
+   "wordId": "quickly",
+   "sense": 0,
+   "context": "hızla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "baktı",
+   "note": null,
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "looked at",
+    "meaning": "baktı (look at)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (sitelere)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "looked at",
+    "meaning": "baktı (look at)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "website",
+   "pos": "noun",
+   "wordId": "website",
+   "sense": 0,
+   "context": "internet siteleri",
+   "note": null,
+   "form": "website'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "visit",
+   "pos": "verb",
+   "wordId": "visit",
+   "sense": 0,
+   "context": "gezdi (gördü)",
+   "note": null,
+   "form": "visit + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "more than ten flats",
+    "meaning": "ondan fazla daire"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "more than ten flats",
+    "meaning": "ondan fazla daire"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "more than ten flats",
+    "meaning": "ondan fazla daire"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": "flat'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "more than ten flats",
+    "meaning": "ondan fazla daire"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (iki haftada)",
+   "note": "*in* + süre bir işin ne kadar sürede yapıldığını anlatır: *in two weeks* → iki haftada.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "in two weeks",
+    "meaning": "iki haftada"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "in two weeks",
+    "meaning": "iki haftada"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "in two weeks",
+    "meaning": "iki haftada"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*Some … others …* \"Bazıları …, diğerleri …\" diye bir grubu ikiye ayırır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (çok)",
+   "note": "*too* + sıfat \"gereğinden fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "expensive",
+   "pos": "adjective",
+   "wordId": "expensive",
+   "sense": 0,
+   "context": "pahalı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "diğerleri",
+   "note": "*others* \"diğerleri, başkaları\" demektir; isim olmadan tek başına kullanılır.",
+   "form": "other'ın çoğulu (zamir olarak)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "too far from his office",
+    "meaning": "ofisine çok uzak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "uzak",
+   "note": "*far from* \"-den uzak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "too far from his office",
+    "meaning": "ofisine çok uzak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (ofisinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "too far from his office",
+    "meaning": "ofisine çok uzak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "too far from his office",
+    "meaning": "ofisine çok uzak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "office",
+   "pos": "noun",
+   "wordId": "office",
+   "sense": 0,
+   "context": "ofis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "too far from his office",
+    "meaning": "ofisine çok uzak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "görünüyordu",
+   "note": "*look* + sıfat \"… görünmek\" demektir.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "lovely",
+   "pos": "adjective",
+   "wordId": "lovely",
+   "sense": 0,
+   "context": "çok güzel (hoş)",
+   "note": "*lovely* \"-ly\" ile bitse de zarf değil, sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (fotoğraflarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "photo",
+   "pos": "noun",
+   "wordId": "photo",
+   "sense": 0,
+   "context": "fotoğraflar",
+   "note": null,
+   "form": "photo'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in reality: gerçekte)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "in reality",
+    "meaning": "gerçekte"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "reality",
+   "pos": "noun",
+   "wordId": "reality",
+   "sense": 0,
+   "context": "gerçek (gerçeklik)",
+   "note": "*in reality* \"gerçekte, aslında\" demektir; görünenin aksine olanı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "in reality",
+    "meaning": "gerçekte"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (daire)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "karanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "bright",
+   "pos": "adjective",
+   "wordId": "bright",
+   "sense": 0,
+   "context": "aydınlık",
+   "note": "*bright* \"parlak\" demektir; odalar ve evler için \"aydınlık, ışık alan\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (balkonlu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "balcony",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "balkon",
+   "note": null,
+   "form": null,
+   "base": "balkon",
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "only ten minutes from work",
+    "meaning": "işe yalnızca on dakika uzaklıkta"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "only ten minutes from work",
+    "meaning": "işe yalnızca on dakika uzaklıkta"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "minute",
+   "pos": "noun",
+   "wordId": "minute",
+   "sense": 0,
+   "context": "dakika",
+   "note": "Süre + *from* + yer \"…-e … uzaklıkta\" demektir: *ten minutes from work* → işe on dakika uzaklıkta.",
+   "form": "minute'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "only ten minutes from work",
+    "meaning": "işe yalnızca on dakika uzaklıkta"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (uzaklıkta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "only ten minutes from work",
+    "meaning": "işe yalnızca on dakika uzaklıkta"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "iş(yeri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "only ten minutes from work",
+    "meaning": "işe yalnızca on dakika uzaklıkta"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "sign",
+   "pos": "verb",
+   "wordId": "sign",
+   "sense": 1,
+   "context": "imzaladı",
+   "note": null,
+   "form": "sign + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "contract",
+   "pos": "noun",
+   "wordId": "contract",
+   "sense": 0,
+   "context": "sözleşme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the same day* \"aynı gün\" demektir; önüne *on* gelmeyebilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "the same day",
+    "meaning": "aynı gün"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "the same day",
+    "meaning": "aynı gün"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 78,
+    "text": "the same day",
+    "meaning": "aynı gün"
+   }
+  }
+ ]
+}

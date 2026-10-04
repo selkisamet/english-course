@@ -1,0 +1,1140 @@
+{
+ "storyId": "story-b1-036",
+ "textHash": "71aeecc6e785",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bay Kim emekli olduktan sonra boş zamanını nasıl geçireceğini bilemedi."
+  },
+  {
+   "tr": "Eşi resim yapmayı denemesini önerdi."
+  },
+  {
+   "tr": "İlk başta emin değildi çünkü okuldan beri hiç resim yapmamıştı."
+  },
+  {
+   "tr": "Yine de mahalledeki toplum merkezinde bir kursa katıldı."
+  },
+  {
+   "tr": "Renkleri karıştırmayı ve manzara resmi yapmayı öğrendi."
+  },
+  {
+   "tr": "Şimdi neredeyse her gün resim yapıyor ve bazı resimleri kasaba kütüphanesindeki küçük bir sergide gösterildi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": "*after* + cümle \"… -dikten sonra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "retire",
+   "pos": "verb",
+   "wordId": "retire",
+   "sense": 0,
+   "context": "emekli oldu",
+   "note": null,
+   "form": "retire + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Mr",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr* erkeklerin soyadından önce kullanılan unvandır; İngiliz İngilizcesinde noktasız, Amerikan İngilizcesinde *Mr.* yazılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Kim",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Kim",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "how to spend",
+    "meaning": "nasıl geçireceğini"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "*how to* + fiil \"nasıl …-ileceği\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "how to spend",
+    "meaning": "nasıl geçireceğini"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (geçirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "how to spend",
+    "meaning": "nasıl geçireceğini"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirmek",
+   "note": "*spend*'in temel anlamı \"(para) harcamak\"tır; zamanla \"geçirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "how to spend",
+    "meaning": "nasıl geçireceğini"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "boş",
+   "note": "*free*'nin \"ücretsiz\" anlamı yanında \"boş, serbest\" anlamı da vardır: *free time* → boş zaman.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "free time",
+    "meaning": "boş zaman"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "free time",
+    "meaning": "boş zaman"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "wife",
+   "pos": "noun",
+   "wordId": "wife",
+   "sense": 0,
+   "context": "eş (karısı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "önerdi",
+   "note": "*suggest that someone should do something* \"birinin bir şey yapmasını önermek\" demektir; *suggest someone to do* yanlıştır.",
+   "form": "suggest + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-mesini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": "*should* + fiil tavsiye bildirir: \"-meli, -se iyi olur\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "try",
+   "pos": "verb",
+   "wordId": "try",
+   "sense": 0,
+   "context": "denemek",
+   "note": "*try* + *-ing* \"bir şeyi (nasıl olduğunu görmek için) denemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "resim yapma",
+   "note": "*painting* \"resim yapma\" ve \"tablo, resim\" demektir; burada etkinliktir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "suggested that he should try",
+    "meaning": "denemesini önerdi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "At first",
+    "meaning": "ilk başta"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildi)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "sure",
+   "pos": "adjective",
+   "wordId": "sure",
+   "sense": 0,
+   "context": "emin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": "*had not* + fiilin 3. hali (past perfect) + *since* geçmişteki bir ana kadar olmayan bir şeyi anlatır: *had not painted since…* → … -den beri resim yapmamıştı.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resim yapmamıştı",
+   "note": "*paint* \"boyamak\" ve \"resim yapmak\" demektir.",
+   "form": "paint fiilinin 3. hali (painted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "-den beri",
+   "note": "*since* + cümle \"… -diğinden beri\" demektir: *since he was at school* → okuldan beri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (okulda)",
+   "note": "*at school* \"okulda; öğrenciyken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 37,
+    "text": "had not painted since he was at school",
+    "meaning": "okuldan beri resim yapmamıştı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "yine de (ancak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "join",
+   "pos": "verb",
+   "wordId": "join",
+   "sense": 0,
+   "context": "katıldı",
+   "note": "*join a class* \"bir kursa katılmak\" demektir; *join*'den sonra *to* gelmez.",
+   "form": "join + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "kurs (ders)",
+   "note": "*class* \"sınıf\" ve \"ders, kurs\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (merkezde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel (mahalledeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "topluluk (toplum)",
+   "note": "*community centre* bir mahallede kurs ve etkinliklerin yapıldığı \"toplum merkezi\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "community centre",
+    "meaning": "toplum merkezi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "centre",
+   "pos": "noun",
+   "wordId": "centre",
+   "sense": 0,
+   "context": "merkez",
+   "note": "*centre* İngiliz yazımıdır; Amerikan İngilizcesinde *center* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "community centre",
+    "meaning": "toplum merkezi"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrendi",
+   "note": null,
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "how to mix colours",
+    "meaning": "renkleri karıştırmayı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (karıştırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "how to mix colours",
+    "meaning": "renkleri karıştırmayı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "mix",
+   "pos": "verb",
+   "wordId": "mix",
+   "sense": 0,
+   "context": "karıştırmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "how to mix colours",
+    "meaning": "renkleri karıştırmayı"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "colour",
+   "pos": "noun",
+   "wordId": "colour",
+   "sense": 0,
+   "context": "renkler",
+   "note": "*colour* İngiliz yazımıdır; Amerikan İngilizcesinde *color* yazılır.",
+   "form": "colour'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "how to mix colours",
+    "meaning": "renkleri karıştırmayı"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resmini yapmak",
+   "note": "*and*'den sonra *how to* tekrar edilmez: *how to mix colours and paint landscapes*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "landscape",
+   "pos": "noun",
+   "wordId": "landscape",
+   "sense": 0,
+   "context": "manzaralar",
+   "note": null,
+   "form": "landscape'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "resim yapıyor",
+   "note": null,
+   "form": "paint + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of* + belirli bir grup \"…-lerin bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "picture",
+   "pos": "noun",
+   "wordId": "picture",
+   "sense": 0,
+   "context": "resimler",
+   "note": null,
+   "form": "picture'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "Present perfect edilgen yapı *have/has been* + fiilin 3. hali ile kurulur: *have been shown* → gösterildi.",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "have been shown",
+    "meaning": "gösterildi (present perfect, edilgen)"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "have been shown",
+    "meaning": "gösterildi (present perfect, edilgen)"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterildi (sergilendi)",
+   "note": null,
+   "form": "show fiilinin 3. hali (shown, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "have been shown",
+    "meaning": "gösterildi (present perfect, edilgen)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (sergide)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "exhibition",
+   "pos": "noun",
+   "wordId": "exhibition",
+   "sense": 0,
+   "context": "sergi",
+   "note": "*exhibition*'daki *h* okunmaz (\"eksibişın\").",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (kütüphanedeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": "Burada *town* isim olmasına rağmen *library*'yi niteler: *town library* → kasaba kütüphanesi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "town library",
+    "meaning": "kasaba kütüphanesi"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "library",
+   "pos": "noun",
+   "wordId": "library",
+   "sense": 0,
+   "context": "kütüphane",
+   "note": "*library* \"kütüphane\"dir; \"kitapçı\" ise *bookshop*'tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "town library",
+    "meaning": "kasaba kütüphanesi"
+   }
+  }
+ ]
+}

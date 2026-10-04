@@ -1,0 +1,1152 @@
+{
+ "storyId": "story-b1-025",
+ "textHash": "05e49d07418f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Michael büyük bir hastanede hemşire olarak çalışıyor ve bu ay gece vardiyasında çalışıyor."
+  },
+  {
+   "tr": "Akşam dokuzda başlayıp sabah yedide bitiriyor."
+  },
+  {
+   "tr": "Hastane gece daha sakin ama yine de yardıma ihtiyacı olan birçok hasta var."
+  },
+  {
+   "tr": "En zor kısmı gündüz uyumak, çünkü şehir çok gürültülü."
+  },
+  {
+   "tr": "Yatak odasını karanlık tutmak için kalın perdeler kullanıyor."
+  },
+  {
+   "tr": "İş yorucu olsa da insanlara yardım etmeyi çok sevdiğini söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Michael",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Michael",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": "Geniş zaman (*works*) kalıcı durumu anlatır: işi hemşireliktir.",
+   "form": "work + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "works as a nurse",
+    "meaning": "hemşire olarak çalışıyor"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": "Meslek ya da görev anlatırken *as* \"olarak\" demektir: *as a nurse* → hemşire olarak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "works as a nurse",
+    "meaning": "hemşire olarak çalışıyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(bir)",
+   "note": "Meslek söylerken *a/an* kullanılır: *work as a nurse*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "works as a nurse",
+    "meaning": "hemşire olarak çalışıyor"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "nurse",
+   "pos": "noun",
+   "wordId": "nurse",
+   "sense": 0,
+   "context": "hemşire",
+   "note": "*nurse* hem kadın hem erkek hemşire için kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "works as a nurse",
+    "meaning": "hemşire olarak çalışıyor"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hastanede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": "*this month* \"bu ay\" demektir; önüne *in* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*am/is/are* + *-ing* geçici bir durumu anlatır: *this month he is working night shifts* → bu ay gece vardiyasında çalışıyor (her zaman değil).",
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "is working night shifts",
+    "meaning": "gece vardiyasında çalışıyor"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": "work + -ing",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "is working night shifts",
+    "meaning": "gece vardiyasında çalışıyor"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": "Burada *night* isim olmasına rağmen *shifts*'i niteler: *night shifts* → gece vardiyaları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "is working night shifts",
+    "meaning": "gece vardiyasında çalışıyor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "shift",
+   "pos": "noun",
+   "wordId": "shift",
+   "sense": 0,
+   "context": "vardiyalar",
+   "note": null,
+   "form": "shift'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 16,
+    "text": "is working night shifts",
+    "meaning": "gece vardiyasında çalışıyor"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başlıyor",
+   "note": null,
+   "form": "start + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": "Saatlerden önce *at* kullanılır: *at nine* → saat dokuzda.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "at nine in the evening",
+    "meaning": "akşam dokuzda"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "nine",
+   "pos": "number",
+   "wordId": "nine",
+   "sense": 0,
+   "context": "dokuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "at nine in the evening",
+    "meaning": "akşam dokuzda"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(akşam)",
+   "note": "*in the evening* \"akşam\" demektir: *nine in the evening* → akşam dokuz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "at nine in the evening",
+    "meaning": "akşam dokuzda"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "at nine in the evening",
+    "meaning": "akşam dokuzda"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "at nine in the evening",
+    "meaning": "akşam dokuzda"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "finish",
+   "pos": "verb",
+   "wordId": "finish",
+   "sense": 0,
+   "context": "bitiriyor",
+   "note": null,
+   "form": "finish + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "seven",
+   "pos": "number",
+   "wordId": "seven",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(sabah)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastane",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "daha sakin",
+   "note": null,
+   "form": "quiet sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(gece)",
+   "note": "*night* ile *in* değil *at* kullanılır: *at night* → gece.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "at night",
+    "meaning": "gece"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "at night",
+    "meaning": "gece"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there are: var)",
+   "note": "*there are* + çoğul isim \"… var\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "there are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "var (there are)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "there are",
+    "meaning": "var"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "yine de (hâlâ)",
+   "note": "*still* burada \"yine de, buna rağmen\" anlamı katar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "patient",
+   "pos": "noun",
+   "wordId": "patient",
+   "sense": 0,
+   "context": "hastalar",
+   "note": "*patient* isim olarak \"hasta\", sıfat olarak \"sabırlı\" demektir.",
+   "form": "patient'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar: *patients who need help* → yardıma ihtiyacı olan hastalar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacı olan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "help",
+   "pos": "noun",
+   "wordId": "help",
+   "sense": 1,
+   "context": "yardım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir: *the hardest* → en zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "The hardest part",
+    "meaning": "en zor kısım"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "en zor",
+   "note": null,
+   "form": "hard sıfatının en üstünlük hali (-est)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "The hardest part",
+    "meaning": "en zor kısım"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "part",
+   "pos": "noun",
+   "wordId": "part",
+   "sense": 0,
+   "context": "kısım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "The hardest part",
+    "meaning": "en zor kısım"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": "*-ing* almış fiil isim gibi kullanılabilir: *The hardest part is sleeping* → En zor kısmı uyumak.",
+   "form": "sleep + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "boyunca (sırasında)",
+   "note": "*during the day* \"gündüz, gün boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "during the day",
+    "meaning": "gündüz"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "during the day",
+    "meaning": "gündüz"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "during the day",
+    "meaning": "gündüz"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "city",
+   "pos": "noun",
+   "wordId": "city",
+   "sense": 0,
+   "context": "şehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "çok (o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "noisy",
+   "pos": "adjective",
+   "wordId": "noisy",
+   "sense": 0,
+   "context": "gürültülü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanıyor",
+   "note": null,
+   "form": "use + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "thick",
+   "pos": "adjective",
+   "wordId": "thick",
+   "sense": 0,
+   "context": "kalın",
+   "note": "*thick* \"kalın\"dır; karşıtı *thin* (ince).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "curtain",
+   "pos": "noun",
+   "wordId": "curtain",
+   "sense": 0,
+   "context": "perdeler",
+   "note": null,
+   "form": "curtain'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir: *to keep his bedroom dark* → yatak odasını karanlık tutmak için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "to keep his bedroom dark",
+    "meaning": "yatak odasını karanlık tutmak için"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutmak",
+   "note": "*keep something* + sıfat \"bir şeyi … tutmak\" demektir: *keep the room dark* → odayı karanlık tutmak.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "to keep his bedroom dark",
+    "meaning": "yatak odasını karanlık tutmak için"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "to keep his bedroom dark",
+    "meaning": "yatak odasını karanlık tutmak için"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "bedroom",
+   "pos": "noun",
+   "wordId": "bedroom",
+   "sense": 0,
+   "context": "yatak odası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "to keep his bedroom dark",
+    "meaning": "yatak odasını karanlık tutmak için"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "dark",
+   "pos": "adjective",
+   "wordId": "dark",
+   "sense": 0,
+   "context": "karanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "to keep his bedroom dark",
+    "meaning": "yatak odasını karanlık tutmak için"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-e rağmen (-se de)",
+   "note": "*although* + cümle \"… -mesine rağmen, … -se de\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "tiring",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yorucu",
+   "note": "*tiring* yoran şeyi anlatır (\"yorucu\"); *tired* ise yorulan kişiyi (\"yorgun\").",
+   "form": null,
+   "base": "yorucu",
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "çok seviyor",
+   "note": "*love* + *-ing* \"… -meyi çok sevmek\" demektir.",
+   "form": "love + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım etmek",
+   "note": null,
+   "form": "help + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar(a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

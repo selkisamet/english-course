@@ -1,0 +1,1062 @@
+{
+ "storyId": "story-b1-019",
+ "textHash": "54b8c6904cb8",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bay ve Bayan Patel yirmi yıldır sokağımızda küçük bir bakkal işletiyor."
+  },
+  {
+   "tr": "Sabah yedide açıp gece onda kapatıyorlar."
+  },
+  {
+   "tr": "Çocukları okuldan sonra ve hafta sonları onlara yardım ediyor."
+  },
+  {
+   "tr": "Yakınlarda birkaç büyük süpermarket açılmış olmasına rağmen birçok kişi hâlâ onların dükkânını tercih ediyor."
+  },
+  {
+   "tr": "Patel'ler her müşteriyi adıyla tanıyor ve her zaman ailelerini soruyor."
+  },
+  {
+   "tr": "Biri parasını unutursa ertesi gün ödeyebiliyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Mr",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr* erkeklerin soyadından önce kullanılan unvandır; İngiliz İngilizcesinde noktasız, Amerikan İngilizcesinde *Mr.* yazılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "Mrs",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bayan",
+   "note": "*Mrs* evli kadınların soyadından önce kullanılan unvandır (\"Misiz\" diye okunur).",
+   "form": null,
+   "base": "Bayan (evli kadınlar için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Patel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Patel",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor; -dır)",
+   "note": "*have + fiilin 3. hali* (present perfect) + *for* süresi, geçmişte başlayıp hâlâ süren durumu anlatır: *have run … for twenty years* → yirmi yıldır işletiyorlar.",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "have run",
+    "meaning": "işletiyorlar (present perfect)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "işletiyor",
+   "note": "*run*'ın temel anlamı \"koşmak\"tır; bir işyeri için \"işletmek, yönetmek\" demektir.",
+   "form": "run fiilinin 3. hali (run, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "have run",
+    "meaning": "işletiyorlar (present perfect)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek (gıda)",
+   "note": "Burada *food* isim olmasına rağmen *shop*'u niteler: *food shop* → gıda dükkânı, bakkal.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "food shop",
+    "meaning": "bakkal, gıda dükkânı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "food shop",
+    "meaning": "bakkal, gıda dükkânı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sokağımızda)",
+   "note": "İngiliz İngilizcesinde *in the street*, Amerikan İngilizcesinde *on the street* denir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (yirmi yıldır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" (… yıldır) ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "for twenty years",
+    "meaning": "yirmi yıldır"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "twenty",
+   "pos": "number",
+   "wordId": "twenty",
+   "sense": 0,
+   "context": "yirmi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "for twenty years",
+    "meaning": "yirmi yıldır"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "for twenty years",
+    "meaning": "yirmi yıldır"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açıyorlar",
+   "note": "*open* sıfat olarak \"açık\", fiil olarak \"açmak; açılmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": "Saatlerden önce *at* kullanılır: *at seven* → saat yedide.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "seven",
+   "pos": "number",
+   "wordId": "seven",
+   "sense": 0,
+   "context": "yedi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(sabah)",
+   "note": "*in the morning* \"sabah, sabahleyin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "at seven in the morning",
+    "meaning": "sabah yedide"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapatıyorlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(saat …-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "at ten at night",
+    "meaning": "gece onda"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "ten",
+   "pos": "number",
+   "wordId": "ten",
+   "sense": 0,
+   "context": "on",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "at ten at night",
+    "meaning": "gece onda"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(gece)",
+   "note": "*night* ile *in* değil *at* kullanılır: *at night* → gece.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "at ten at night",
+    "meaning": "gece onda"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "at ten at night",
+    "meaning": "gece onda"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *their children* → çocuk**ları**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "help",
+   "pos": "verb",
+   "wordId": "help",
+   "sense": 0,
+   "context": "yardım ediyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": "*them*, *they*'in nesne halidir: \"onları, onlara\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": "*after school* \"okuldan sonra\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(hafta sonları)",
+   "note": "İngiliz İngilizcesinde *at weekends*, Amerikan İngilizcesinde *on weekends* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "at weekends",
+    "meaning": "hafta sonları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonları",
+   "note": null,
+   "form": "weekend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "at weekends",
+    "meaning": "hafta sonları"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "although",
+   "pos": "conjunction",
+   "wordId": "although",
+   "sense": 0,
+   "context": "-e rağmen",
+   "note": "*although* + cümle \"… -mesine rağmen\" demektir; aynı cümlede *but* kullanılmaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "several",
+   "pos": "determiner",
+   "wordId": "several",
+   "sense": 0,
+   "context": "birkaç",
+   "note": "*several* \"birkaç\" demektir; *a few*'dan biraz daha fazlasını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "supermarket",
+   "pos": "noun",
+   "wordId": "supermarket",
+   "sense": 0,
+   "context": "süpermarket",
+   "note": null,
+   "form": "supermarket'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": "Present perfect, yakın geçmişte olan ve etkisi süren olayları anlatır: *have opened nearby* → yakınlarda açıldı.",
+   "form": "have fiilinin çoğul hali (have)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "have opened",
+    "meaning": "açıldı (present perfect)"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "açıldı",
+   "note": null,
+   "form": "open fiilinin 3. hali (opened, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 43,
+    "text": "have opened",
+    "meaning": "açıldı (present perfect)"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "nearby",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yakınlarda",
+   "note": "*nearby* iki kelimenin birleşimidir: *near* (yakın) + *by* (yanında).",
+   "form": null,
+   "base": "yakında, yakınlarda",
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar (kişi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "prefer",
+   "pos": "verb",
+   "wordId": "prefer",
+   "sense": 0,
+   "context": "tercih ediyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + soyadı + *-s* bütün aileyi anlatır: *the Patels* → Patel ailesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "Patel",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Patel'ler",
+   "note": null,
+   "form": "Patel + -s (aile)",
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "tanıyor",
+   "note": "*know*'un temel anlamı \"bilmek\"tir; kişiler için \"tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by name: adıyla)",
+   "note": "*know someone by name* \"birini adıyla tanımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "by name",
+    "meaning": "adıyla"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "ad",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "by name",
+    "meaning": "adıyla"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "soruyor",
+   "note": "*ask about someone* \"birini sormak, hatırını sormak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "ask about",
+    "meaning": "-i sormak, hatırını sormak"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "ask about",
+    "meaning": "-i sormak, hatırını sormak"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların (müşterilerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aileler",
+   "note": null,
+   "form": "family'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "eğer (-se)",
+   "note": "*If* + geniş zaman, … *can* + fiil: gerçek bir olasılığı anlatır (birinci tip koşul cümlesi).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutursa",
+   "note": null,
+   "form": "forget + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "(kendi)",
+   "note": "*someone* gibi cinsiyeti belli olmayan kişiler için *their* ve *they* tekil anlamda kullanılabilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "o (kişi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "the next day",
+    "meaning": "ertesi gün"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1086 @@
+{
+ "storyId": "story-b1-016",
+ "textHash": "d5db36f43b7f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Rosa tavan arasını temizlerken, büyükannesine ait olmuş küçük bir günlük buldu."
+  },
+  {
+   "tr": "Günlük altmış yıldan daha uzun bir süre önce, büyükannesi bir gençken yazılmıştı."
+  },
+  {
+   "tr": "Rosa oturdu ve okumaya başladı."
+  },
+  {
+   "tr": "Büyükannesi okulunu, en yakın arkadaşını ve hoşlandığı bir çocuğu yazmıştı."
+  },
+  {
+   "tr": "Rosa hayatlarının ne kadar benzer olduğunu keşfedince şaşırdı."
+  },
+  {
+   "tr": "O akşam günlüğü annesine gösterdi ve birlikte hem güldüler hem ağladılar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* + süren eylem (*was cleaning*) \"… -ken\" demektir; araya giren kısa olay geçmiş zamanla anlatılır (*found*).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "was cleaning",
+    "meaning": "temizliyordu"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizliyordu",
+   "note": null,
+   "form": "clean + -ing",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 3,
+    "text": "was cleaning",
+    "meaning": "temizliyordu"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "attic",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tavan arası",
+   "note": null,
+   "form": null,
+   "base": "tavan arası",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "Rosa",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Rosa",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": null,
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "diary",
+   "pos": "noun",
+   "wordId": "diary",
+   "sense": 0,
+   "context": "günlük",
+   "note": "*diary* kişinin anılarını yazdığı \"günlük\"tür; *daily* ise \"günlük, her gün olan\" anlamında sıfattır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *a diary that had belonged to…* → …-e ait olmuş bir günlük.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştu)",
+   "note": "*had + fiilin 3. hali* (past perfect), geçmişteki bir olaydan daha önceki durumu anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "had belonged to",
+    "meaning": "-e ait olmuştu (belong to)"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "belong",
+   "pos": "verb",
+   "wordId": "belong",
+   "sense": 0,
+   "context": "ait olmuş",
+   "note": "*belong to someone* \"birine ait olmak\" demektir.",
+   "form": "belong fiilinin 3. hali (belonged, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "had belonged to",
+    "meaning": "-e ait olmuştu (belong to)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (büyükannesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "had belonged to",
+    "meaning": "-e ait olmuştu (belong to)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (günlük)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılmıştı)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur: *was written* → yazıldı (yazılmıştı).",
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "was written",
+    "meaning": "yazılmıştı (edilgen)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazılmış",
+   "note": null,
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "was written",
+    "meaning": "yazılmıştı (edilgen)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "more than sixty years ago",
+    "meaning": "altmış yıldan daha uzun süre önce"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "more than sixty years ago",
+    "meaning": "altmış yıldan daha uzun süre önce"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "sixty",
+   "pos": "number",
+   "wordId": "sixty",
+   "sense": 0,
+   "context": "altmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "more than sixty years ago",
+    "meaning": "altmış yıldan daha uzun süre önce"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "more than sixty years ago",
+    "meaning": "altmış yıldan daha uzun süre önce"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır: *sixty years ago* → altmış yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "more than sixty years ago",
+    "meaning": "altmış yıldan daha uzun süre önce"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ken)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "teenager",
+   "pos": "noun",
+   "wordId": "teenager",
+   "sense": 0,
+   "context": "genç (ergen)",
+   "note": "*teenager* 13 ile 19 yaş arası gençtir; sayıların sonundaki *-teen*'den gelir (thir**teen** … nine**teen**).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "Rosa",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Rosa",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturdu",
+   "note": "*sit down* \"oturmak\" demektir.",
+   "form": "sit fiilinin geçmiş zaman hali (sat, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "sat down",
+    "meaning": "oturdu (sit down)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "(sit down: oturmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "sat down",
+    "meaning": "oturdu (sit down)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "started reading",
+    "meaning": "okumaya başladı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okumak",
+   "note": null,
+   "form": "read + -ing",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "started reading",
+    "meaning": "okumaya başladı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": "*had written* (past perfect) Rosa'nın okumasından çok önce olan bir eylemi anlatır.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "had written",
+    "meaning": "yazmıştı (past perfect)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazmıştı",
+   "note": "*write about something* \"bir şey hakkında yazmak\" demektir.",
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "had written",
+    "meaning": "yazmıştı (past perfect)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okul",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en iyi (en yakın)",
+   "note": "*best friend* \"en yakın arkadaş\" demektir; *best*, *good*'un en üstünlük halidir.",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "best friend",
+    "meaning": "en yakın arkadaş"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 46,
+    "text": "best friend",
+    "meaning": "en yakın arkadaş"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "boy",
+   "pos": "noun",
+   "wordId": "boy",
+   "sense": 0,
+   "context": "çocuk (oğlan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": "*a boy she liked* kalıbında *that/who* atlanmıştır: *a boy (that) she liked* → hoşlandığı bir çocuk.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "like",
+   "pos": "verb",
+   "wordId": "like",
+   "sense": 1,
+   "context": "hoşlandığı",
+   "note": null,
+   "form": "like + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "Rosa",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Rosa",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": "*be surprised to* + fiil \"… -ince şaşırmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (keşfetmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfetmek (fark etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how* + sıfat \"ne kadar …\" demektir; cümle içinde kelime sırası düzdür: *how similar their lives were*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "how similar their lives were",
+    "meaning": "hayatlarının ne kadar benzer olduğu"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "similar",
+   "pos": "adjective",
+   "wordId": "similar",
+   "sense": 0,
+   "context": "benzer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "how similar their lives were",
+    "meaning": "hayatlarının ne kadar benzer olduğu"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "how similar their lives were",
+    "meaning": "hayatlarının ne kadar benzer olduğu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": "*life*'ın çoğulu *lives*'tır (f → ves).",
+   "form": "life'ın çoğulu (lives, f → ves)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "how similar their lives were",
+    "meaning": "hayatlarının ne kadar benzer olduğu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 61,
+    "text": "how similar their lives were",
+    "meaning": "hayatlarının ne kadar benzer olduğu"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "that",
+   "pos": "determiner",
+   "wordId": "that",
+   "sense": 0,
+   "context": "o",
+   "note": "*that evening* \"o akşam\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "That evening",
+    "meaning": "o akşam"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "That evening",
+    "meaning": "o akşam"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "show",
+   "pos": "verb",
+   "wordId": "show",
+   "sense": 0,
+   "context": "gösterdi",
+   "note": "*show something to someone* \"bir şeyi birine göstermek\" demektir.",
+   "form": "show + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "diary",
+   "pos": "noun",
+   "wordId": "diary",
+   "sense": 0,
+   "context": "günlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (annesine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "laugh",
+   "pos": "verb",
+   "wordId": "laugh",
+   "sense": 0,
+   "context": "güldüler",
+   "note": null,
+   "form": "laugh + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "cry",
+   "pos": "verb",
+   "wordId": "cry",
+   "sense": 0,
+   "context": "ağladılar",
+   "note": null,
+   "form": "cry'ın geçmiş zaman hali (y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

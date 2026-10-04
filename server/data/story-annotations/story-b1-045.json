@@ -1,0 +1,1154 @@
+{
+ "storyId": "story-b1-045",
+ "textHash": "602653e8a4f0",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Sophie biraz ek paraya ihtiyacı olan bir üniversite öğrencisi."
+  },
+  {
+   "tr": "Hayvanları çok sevdiği için mahallesindeki insanların köpeklerini gezdirmeyi teklif etti."
+  },
+  {
+   "tr": "Mahalledeki dükkâna küçük bir ilan astı ve kısa süre sonra beş aile onunla iletişime geçti."
+  },
+  {
+   "tr": "Şimdi köpekleri günde iki kez, derslerinden önce ve sonra gezdiriyor."
+  },
+  {
+   "tr": "Bu onu formda tutuyor ve kitaplarının parasını ödemeye yetecek kadar para kazanıyor."
+  },
+  {
+   "tr": "Tek sorun, yağmur yağarken bile dışarı çıkmak zorunda olması."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "Sophie",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Sophie",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*university* \"yu\" sesiyle başladığı için *an* değil *a* alır: *a university*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "university",
+   "pos": "noun",
+   "wordId": "university",
+   "sense": 0,
+   "context": "üniversite",
+   "note": "Burada *university* isim olmasına rağmen *student*'ı niteler: *university student* → üniversite öğrencisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "university student",
+    "meaning": "üniversite öğrencisi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenci",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "university student",
+    "meaning": "üniversite öğrencisi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "*who* ilgi zamiri olarak kişileri tanımlar: *a student who needed money* → paraya ihtiyacı olan bir öğrenci.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "who needed some extra money",
+    "meaning": "biraz ek paraya ihtiyacı olan"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "need",
+   "pos": "verb",
+   "wordId": "need",
+   "sense": 0,
+   "context": "ihtiyacı olan",
+   "note": null,
+   "form": "need + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "who needed some extra money",
+    "meaning": "biraz ek paraya ihtiyacı olan"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "biraz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "who needed some extra money",
+    "meaning": "biraz ek paraya ihtiyacı olan"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "extra",
+   "pos": "adjective",
+   "wordId": "extra",
+   "sense": 0,
+   "context": "ek (fazladan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "who needed some extra money",
+    "meaning": "biraz ek paraya ihtiyacı olan"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "who needed some extra money",
+    "meaning": "biraz ek paraya ihtiyacı olan"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-diği için (çünkü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "love",
+   "pos": "verb",
+   "wordId": "love",
+   "sense": 1,
+   "context": "çok seviyor",
+   "note": null,
+   "form": "love + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif etti",
+   "note": "*offer to do something* \"bir şeyi yapmayı teklif etmek\" demektir.",
+   "form": "offer + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "offered to walk dogs",
+    "meaning": "köpek gezdirmeyi teklif etti"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gezdirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "offered to walk dogs",
+    "meaning": "köpek gezdirmeyi teklif etti"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "gezdirmek",
+   "note": "*walk*'un temel anlamı \"yürümek\"tir; *walk a dog* \"köpeği gezdirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "offered to walk dogs",
+    "meaning": "köpek gezdirmeyi teklif etti"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpekler",
+   "note": null,
+   "form": "dog'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "offered to walk dogs",
+    "meaning": "köpek gezdirmeyi teklif etti"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (mahallesindeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "neighbourhood",
+   "pos": "noun",
+   "wordId": "neighbourhood",
+   "sense": 0,
+   "context": "mahalle",
+   "note": "*neighbourhood* İngiliz yazımıdır; Amerikan İngilizcesinde *neighborhood* yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "astı (koydu)",
+   "note": null,
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "notice",
+   "pos": "noun",
+   "wordId": "notice",
+   "sense": 1,
+   "context": "ilan (duyuru)",
+   "note": "*notice* isim olarak \"ilan, duyuru\", fiil olarak \"fark etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (dükkâna)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "mahalledeki (yerel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "soon",
+   "pos": "adverb",
+   "wordId": "soon",
+   "sense": 0,
+   "context": "kısa süre sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "five",
+   "pos": "number",
+   "wordId": "five",
+   "sense": 0,
+   "context": "beş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": "family'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "contact",
+   "pos": "verb",
+   "wordId": "contact",
+   "sense": 1,
+   "context": "iletişime geçti",
+   "note": "*contact someone* \"biriyle iletişime geçmek\" demektir; *contact*'tan sonra *with* gelmez.",
+   "form": "contact + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onunla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "gezdiriyor",
+   "note": null,
+   "form": "walk + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpekler",
+   "note": null,
+   "form": "dog'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "twice",
+   "pos": "adverb",
+   "wordId": "twice",
+   "sense": 0,
+   "context": "iki kez",
+   "note": "*twice a day* \"günde iki kez\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "twice a day",
+    "meaning": "günde iki kez"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (günde)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "twice a day",
+    "meaning": "günde iki kez"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "twice a day",
+    "meaning": "günde iki kez"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "lecture",
+   "pos": "noun",
+   "wordId": "lecture",
+   "sense": 0,
+   "context": "dersler",
+   "note": "*lecture* üniversitedeki \"ders\"tir; okulda daha çok *lesson* denir.",
+   "form": "lecture'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu",
+   "note": "*it* burada köpek gezdirme işini anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutuyor",
+   "note": "*keep someone* + sıfat \"birini … tutmak\" demektir: *keeps her fit* → onu formda tutuyor.",
+   "form": "keep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "keeps her fit",
+    "meaning": "onu formda tutuyor"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "keeps her fit",
+    "meaning": "onu formda tutuyor"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "fit",
+   "pos": "adjective",
+   "wordId": "fit",
+   "sense": 1,
+   "context": "formda",
+   "note": "*fit* sıfat olarak \"formda, sağlıklı\", fiil olarak \"(beden) uymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "keeps her fit",
+    "meaning": "onu formda tutuyor"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "earn",
+   "pos": "verb",
+   "wordId": "earn",
+   "sense": 0,
+   "context": "kazanıyor",
+   "note": "*earn* çalışarak \"para kazanmak\"tır.",
+   "form": "earn + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "enough",
+   "pos": "determiner",
+   "wordId": "enough",
+   "sense": 0,
+   "context": "yeterli (yetecek kadar)",
+   "note": "*enough* + isim + *to* + fiil \"… -meye yetecek kadar …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 63,
+    "text": "enough money to pay for",
+    "meaning": "… ödemeye yetecek kadar para"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "money",
+   "pos": "noun",
+   "wordId": "money",
+   "sense": 0,
+   "context": "para",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 63,
+    "text": "enough money to pay for",
+    "meaning": "… ödemeye yetecek kadar para"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 63,
+    "text": "enough money to pay for",
+    "meaning": "… ödemeye yetecek kadar para"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "pay",
+   "pos": "verb",
+   "wordId": "pay",
+   "sense": 0,
+   "context": "ödemek",
+   "note": "*pay for something* \"bir şeyin parasını ödemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 63,
+    "text": "enough money to pay for",
+    "meaning": "… ödemeye yetecek kadar para"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(pay for: -in parasını ödemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 63,
+    "text": "enough money to pay for",
+    "meaning": "… ödemeye yetecek kadar para"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitaplar",
+   "note": null,
+   "form": "book'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "only",
+   "pos": "adjective",
+   "wordId": "only",
+   "sense": 0,
+   "context": "tek",
+   "note": "*only* isimden önce sıfat olarak \"tek, biricik\" demektir: *the only problem* → tek sorun.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ması)",
+   "note": "*The problem is that…* \"Sorun şu ki …, sorun …-mesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda (has to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "has to go out",
+    "meaning": "dışarı çıkmak zorunda"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (çıkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "has to go out",
+    "meaning": "dışarı çıkmak zorunda"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "çıkmak (go out)",
+   "note": "*go out* \"dışarı çıkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "has to go out",
+    "meaning": "dışarı çıkmak zorunda"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "dışarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 75,
+    "text": "has to go out",
+    "meaning": "dışarı çıkmak zorunda"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": "*even when* \"-diğinde bile\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "even when it is raining",
+    "meaning": "yağmur yağarken bile"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "even when it is raining",
+    "meaning": "yağmur yağarken bile"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "even when it is raining",
+    "meaning": "yağmur yağarken bile"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "even when it is raining",
+    "meaning": "yağmur yağarken bile"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağıyor",
+   "note": null,
+   "form": "rain + -ing",
+   "base": null,
+   "phrase": {
+    "from": 76,
+    "to": 80,
+    "text": "even when it is raining",
+    "meaning": "yağmur yağarken bile"
+   }
+  }
+ ]
+}

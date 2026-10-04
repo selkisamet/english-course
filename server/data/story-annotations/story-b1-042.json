@@ -1,0 +1,1100 @@
+{
+ "storyId": "story-b1-042",
+ "textHash": "eba69b1ad2d6",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Komşularımız Johnson'lar her yaz bütün sokak için bir bahçe partisi verir."
+  },
+  {
+   "tr": "Bu yıl parti neredeyse yapılmıyordu çünkü hava tahmini yağmur yağacağını söylemişti."
+  },
+  {
+   "tr": "Bay Johnson ne olur ne olmaz diye büyük bir çadır kurdu."
+  },
+  {
+   "tr": "Sonunda öğleden sonra güneş çıktı ve kırktan fazla kişi geldi."
+  },
+  {
+   "tr": "Müzik, birçok farklı ülkeden yemekler ve çocuklar için oyunlar vardı."
+  },
+  {
+   "tr": "Herkes bunun şimdiye kadarki en güzel parti olduğu konusunda hemfikirdi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every summer",
+    "meaning": "her yaz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Every summer",
+    "meaning": "her yaz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": "*neighbour* İngiliz yazımıdır; Amerikan İngilizcesinde *neighbor* yazılır.",
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + soyadı + *-s* bütün aileyi anlatır: *the Johnsons* → Johnson ailesi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Johnson",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Johnson'lar",
+   "note": null,
+   "form": "Johnson + -s (aile)",
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "verir (düzenler)",
+   "note": "*have a party* \"parti vermek, düzenlemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": "Burada *garden* isim olmasına rağmen *party*'yi niteler: *garden party* → bahçe partisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "garden party",
+    "meaning": "bahçe partisi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "party",
+   "pos": "noun",
+   "wordId": "party",
+   "sense": 0,
+   "context": "parti",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 9,
+    "text": "garden party",
+    "meaning": "bahçe partisi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "the whole street",
+    "meaning": "bütün sokak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün",
+   "note": "*the whole* + tekil isim \"bütün …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "the whole street",
+    "meaning": "bütün sokak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 13,
+    "text": "the whole street",
+    "meaning": "bütün sokak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (parti)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "nearly",
+   "pos": "adverb",
+   "wordId": "nearly",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": "*nearly* \"neredeyse\" demektir; *almost* ile aynı anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "nearly did not happen",
+    "meaning": "neredeyse gerçekleşmiyordu"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mıyordu)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "nearly did not happen",
+    "meaning": "neredeyse gerçekleşmiyordu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "nearly did not happen",
+    "meaning": "neredeyse gerçekleşmiyordu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "happen",
+   "pos": "verb",
+   "wordId": "happen",
+   "sense": 0,
+   "context": "olmak (gerçekleşmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "nearly did not happen",
+    "meaning": "neredeyse gerçekleşmiyordu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "weather",
+   "pos": "noun",
+   "wordId": "weather",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "weather forecast",
+    "meaning": "hava tahmini"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "forecast",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tahmin",
+   "note": "*weather forecast* \"hava tahmini, hava durumu raporu\" demektir.",
+   "form": null,
+   "base": "tahmin (özellikle hava tahmini)",
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "weather forecast",
+    "meaning": "hava tahmini"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylemişti",
+   "note": null,
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Hava durumu anlatırken özne olarak *it* kullanılır: *it would rain* → yağmur yağacaktı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-acağını)",
+   "note": "Aktarılan sözde *will* → *would* olur: *\"It will rain\"* → *the forecast said it would rain*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "rain",
+   "pos": "verb",
+   "wordId": "rain",
+   "sense": 1,
+   "context": "yağmur yağmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "Mr",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Bay",
+   "note": "*Mr* erkeklerin soyadından önce kullanılan unvandır; İngiliz İngilizcesinde noktasız, Amerikan İngilizcesinde *Mr.* yazılır.",
+   "form": null,
+   "base": "Bay (erkekler için unvan)",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "Johnson",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Johnson",
+   "note": null,
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "kurdu",
+   "note": "*put*'un temel anlamı \"koymak\"tır; *put up a tent* \"çadır kurmak\" demektir.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "put up",
+    "meaning": "kurdu (put up)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(put up: kurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "put up",
+    "meaning": "kurdu (put up)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "tent",
+   "pos": "noun",
+   "wordId": "tent",
+   "sense": 0,
+   "context": "çadır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "just",
+   "pos": "adverb",
+   "wordId": "just",
+   "sense": 0,
+   "context": "(just in case: ne olur ne olmaz)",
+   "note": "*just in case* \"ne olur ne olmaz, her ihtimale karşı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(just in case)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "durum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "just in case",
+    "meaning": "ne olur ne olmaz diye"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in the end: sonunda)",
+   "note": "*in the end* \"sonunda, en sonunda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "end",
+   "pos": "noun",
+   "wordId": "end",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "In the end",
+    "meaning": "sonunda"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Tek olan şeylerden önce *the* kullanılır: *the sun*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "sun",
+   "pos": "noun",
+   "wordId": "sun",
+   "sense": 0,
+   "context": "güneş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "çıktı",
+   "note": "*come out* güneş için \"(bulutların arasından) çıkmak\" demektir.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "came out",
+    "meaning": "çıktı (come out)"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "dışarı (çıkmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 45,
+    "text": "came out",
+    "meaning": "çıktı (come out)"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(öğleden sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "afternoon",
+   "pos": "noun",
+   "wordId": "afternoon",
+   "sense": 0,
+   "context": "öğleden sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "more",
+   "pos": "determiner",
+   "wordId": "more",
+   "sense": 0,
+   "context": "fazla (daha çok)",
+   "note": "*more than* + sayı \"…-den fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": "*there was* listenin ilk öğesi tekil olduğu için tekil kullanılmıştır: *There was music, food…*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there was)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yemek(ler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (ülkeden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "birçok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "country",
+   "pos": "noun",
+   "wordId": "country",
+   "sense": 0,
+   "context": "ülkeler",
+   "note": null,
+   "form": "country'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "game",
+   "pos": "noun",
+   "wordId": "game",
+   "sense": 0,
+   "context": "oyunlar",
+   "note": null,
+   "form": "game'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "agree",
+   "pos": "verb",
+   "wordId": "agree",
+   "sense": 0,
+   "context": "hemfikirdi",
+   "note": "*agree that…* \"… konusunda hemfikir olmak\" demektir.",
+   "form": "agree + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (parti)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muş)",
+   "note": "*had been* (past perfect) aktarılan sözde zamanın geriye kaymasıyla oluşmuştur: *\"It has been the best party\"* → *they agreed that it had been the best party*.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "En üstünlük sıfatlarından önce *the* gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "best",
+   "sense": 0,
+   "context": "en güzel (en iyi)",
+   "note": "*best*, *good* sıfatının en üstünlük halidir (good → better → best).",
+   "form": "good sıfatının en üstünlük hali (best, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "party",
+   "pos": "noun",
+   "wordId": "party",
+   "sense": 0,
+   "context": "parti",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "(so far: şimdiye kadar)",
+   "note": "*so far* \"şimdiye kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "so far",
+    "meaning": "şimdiye kadar"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "(so far: şimdiye kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 77,
+    "to": 78,
+    "text": "so far",
+    "meaning": "şimdiye kadar"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1113 @@
+{
+ "storyId": "story-b1-041",
+ "textHash": "e3eb2aca0c8d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen kış Maria İspanyolca öğrenmeye karar verdi ama akşam kurslarına gidecek vakti yoktu."
+  },
+  {
+   "tr": "Onun yerine çevrimiçi bir kursa kaydoldu."
+  },
+  {
+   "tr": "Her akşam yemekten sonra dizüstü bilgisayarında kısa videolar izledi ve alıştırmalar yaptı."
+  },
+  {
+   "tr": "Haftada bir kez Meksikalı bir öğretmenle görüntülü ders yaptı."
+  },
+  {
+   "tr": "İlk başta başka öğrenciler olmadan tek başına çalışmayı zor buldu."
+  },
+  {
+   "tr": "Ancak altı ay sonra İspanyolca basit sohbetler yapabiliyordu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last winter",
+    "meaning": "geçen kış"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "winter",
+   "pos": "noun",
+   "wordId": "winter",
+   "sense": 0,
+   "context": "kış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last winter",
+    "meaning": "geçen kış"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Maria",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Maria",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (öğrenmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "Spanish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İspanyolca",
+   "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": "İspanyolca; İspanyol",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "vardı (vakti)",
+   "note": "*have time to + fiil* \"… -mek için vakti olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "vakit (zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gitmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "did not have time to go",
+    "meaning": "gitmeye vakti yoktu"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (kurslara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": "Burada *evening* isim olmasına rağmen *classes*'ı niteler: *evening classes* → akşam kursları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "evening classes",
+    "meaning": "akşam kursları"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "class",
+   "pos": "noun",
+   "wordId": "class",
+   "sense": 0,
+   "context": "kurslar (dersler)",
+   "note": null,
+   "form": "class'ın çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "evening classes",
+    "meaning": "akşam kursları"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "onun yerine",
+   "note": "*instead* cümle başında \"bunun yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "sign",
+   "pos": "verb",
+   "wordId": "sign",
+   "sense": 1,
+   "context": "kaydoldu",
+   "note": "*sign*'ın temel anlamı \"imzalamak\"tır; *sign up for* \"bir şeye kaydolmak\" demektir.",
+   "form": "sign + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(sign up: kaydolmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (kursa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "signed up for",
+    "meaning": "-e kaydoldu (sign up for)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an online course*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "online",
+   "pos": "adjective",
+   "wordId": "online",
+   "sense": 0,
+   "context": "çevrimiçi (internet üzerinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "course",
+   "pos": "noun",
+   "wordId": "course",
+   "sense": 0,
+   "context": "kurs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "after dinner",
+    "meaning": "akşam yemeğinden sonra"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "dinner",
+   "pos": "noun",
+   "wordId": "dinner",
+   "sense": 0,
+   "context": "akşam yemeği",
+   "note": "*after dinner* \"akşam yemeğinden sonra\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "after dinner",
+    "meaning": "akşam yemeğinden sonra"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "watch",
+   "pos": "verb",
+   "wordId": "watch",
+   "sense": 0,
+   "context": "izledi",
+   "note": null,
+   "form": "watch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "short",
+   "pos": "adjective",
+   "wordId": "short",
+   "sense": 0,
+   "context": "kısa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "videolar",
+   "note": null,
+   "form": "video'nun çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yaptı",
+   "note": "*do exercises* \"alıştırma yapmak\" demektir; ödev ve alıştırmalarla *do* kullanılır.",
+   "form": "do fiilinin geçmiş zaman hali (did, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "did exercises",
+    "meaning": "alıştırma yaptı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "exercise",
+   "pos": "noun",
+   "wordId": "exercise",
+   "sense": 0,
+   "context": "alıştırmalar",
+   "note": "*exercise* \"spor, egzersiz\" ve \"alıştırma\" demektir; burada \"alıştırma\"dır.",
+   "form": "exercise'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "did exercises",
+    "meaning": "alıştırma yaptı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (bilgisayarında)",
+   "note": "Bilgisayar ve telefon için *on* kullanılır: *on her laptop*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "laptop",
+   "pos": "noun",
+   "wordId": "laptop",
+   "sense": 0,
+   "context": "dizüstü bilgisayar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir kez",
+   "note": "*once a week* \"haftada bir kez\" demektir; *twice* \"iki kez\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "Once a week",
+    "meaning": "haftada bir kez"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "-de (haftada)",
+   "note": "Sıklık bildirirken *a* \"her … -de\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "Once a week",
+    "meaning": "haftada bir kez"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "Once a week",
+    "meaning": "haftada bir kez"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "yaptı (dersi oldu)",
+   "note": "*have a lesson* \"ders almak, dersi olmak\" demektir.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "video",
+   "pos": "noun",
+   "wordId": "video",
+   "sense": 0,
+   "context": "görüntülü (video)",
+   "note": "Burada *video* isim olmasına rağmen *lesson*'ı niteler: *video lesson* → görüntülü ders.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "video lesson",
+    "meaning": "görüntülü ders"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "lesson",
+   "pos": "noun",
+   "wordId": "lesson",
+   "sense": 0,
+   "context": "ders",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 47,
+    "text": "video lesson",
+    "meaning": "görüntülü ders"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "teacher",
+   "pos": "noun",
+   "wordId": "teacher",
+   "sense": 0,
+   "context": "öğretmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den (Meksikalı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "Mexico",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Meksika",
+   "note": null,
+   "form": null,
+   "base": "(ülke adı)",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "first",
+   "pos": "noun",
+   "wordId": "first",
+   "sense": 3,
+   "context": "ilk (başta)",
+   "note": "*at first* \"ilk başta\" demektir; genellikle sonra durumun değiştiğini haber verir (burada *However* ile).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*find it* + sıfat + *to* + fiil \"… -meyi … bulmak\" demektir: *found it hard to study* → çalışmayı zor buldu.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "found it hard to study",
+    "meaning": "çalışmayı zor buldu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada sonra gelen *to study…* yerine geçer.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "found it hard to study",
+    "meaning": "çalışmayı zor buldu"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "hard",
+   "pos": "adjective",
+   "wordId": "hard",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "found it hard to study",
+    "meaning": "çalışmayı zor buldu"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (çalışmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "found it hard to study",
+    "meaning": "çalışmayı zor buldu"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "çalışmak (ders çalışmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "found it hard to study",
+    "meaning": "çalışmayı zor buldu"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "tek başına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "başka (diğer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "student",
+   "pos": "noun",
+   "wordId": "student",
+   "sense": 0,
+   "context": "öğrenciler",
+   "note": null,
+   "form": "student'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "six",
+   "pos": "number",
+   "wordId": "six",
+   "sense": 0,
+   "context": "altı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "was able to",
+    "meaning": "-ebiliyordu (be able to)"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "able",
+   "pos": "adjective",
+   "wordId": "able",
+   "sense": 0,
+   "context": "-ebilir (muktedir)",
+   "note": "*be able to* + fiil \"… -ebilmek\" demektir; *can*'in yerine her zamanda kullanılabilir: *was able to* → -ebiliyordu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "was able to",
+    "meaning": "-ebiliyordu (be able to)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 72,
+    "text": "was able to",
+    "meaning": "-ebiliyordu (be able to)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "yapmak (sohbet)",
+   "note": "*have a conversation* \"sohbet etmek, konuşma yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "simple",
+   "pos": "adjective",
+   "wordId": "simple",
+   "sense": 0,
+   "context": "basit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbetler",
+   "note": null,
+   "form": "conversation'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(İspanyolca)",
+   "note": "Dillerle *in* kullanılır: *in Spanish* → İspanyolca (olarak).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "Spanish",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "İspanyolca",
+   "note": null,
+   "form": null,
+   "base": "İspanyolca; İspanyol",
+   "phrase": null
+  }
+ ]
+}

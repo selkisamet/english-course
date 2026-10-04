@@ -1,0 +1,1100 @@
+{
+ "storyId": "story-b1-031",
+ "textHash": "0ac1a734a609",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Geçen salı Emma telefonunu otobüsün zeminine düşürdü ve ekran kırıldı."
+  },
+  {
+   "tr": "Telefonu hâlâ kullanabiliyordu ama mesajlarını okumak zordu."
+  },
+  {
+   "tr": "Yeni bir telefon çok pahalıydı, bu yüzden bir tamirci aradı."
+  },
+  {
+   "tr": "Dükkândaki adam ekranı bir saat içinde değiştirebileceğini söyledi."
+  },
+  {
+   "tr": "Kırk sterlin tuttu; bu, beklediğinden çok daha ucuzdu."
+  },
+  {
+   "tr": "O zamandan beri telefonunu sağlam bir kılıfta tutuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "geçen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Tuesday",
+    "meaning": "geçen salı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Tuesday",
+   "pos": "noun",
+   "wordId": "tuesday",
+   "sense": 0,
+   "context": "salı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Last Tuesday",
+    "meaning": "geçen salı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "Emma",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Emma",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "drop",
+   "pos": "verb",
+   "wordId": "drop",
+   "sense": 0,
+   "context": "düşürdü",
+   "note": "*drop* \"düşürmek\" ve \"düşmek\" demektir; burada nesnesi olduğu için \"düşürmek\"tir.",
+   "form": "drop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (zemine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "floor",
+   "pos": "noun",
+   "wordId": "floor",
+   "sense": 0,
+   "context": "zemin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (otobüsün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "bus",
+   "pos": "noun",
+   "wordId": "bus",
+   "sense": 0,
+   "context": "otobüs",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "screen",
+   "pos": "noun",
+   "wordId": "screen",
+   "sense": 0,
+   "context": "ekran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "break",
+   "pos": "verb",
+   "wordId": "break",
+   "sense": 0,
+   "context": "kırıldı",
+   "note": "*break* \"kırmak\" ve \"kırılmak\" demektir; burada nesnesi yoktur, \"kırılmak\"tır.",
+   "form": "break fiilinin geçmiş zaman hali (broke, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebiliyordu",
+   "note": "*could*, *can*'in geçmiş halidir; geçmişteki bir imkânı anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": "*still* yardımcı fiilden sonra, asıl fiilden önce gelir: *could still use*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (telefonu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It is difficult to …* kalıbında *it* asıl özneyi sonraya bırakır: *it was difficult to read* → okumak zordu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (okumak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "to read her messages",
+    "meaning": "mesajlarını okumak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "to read her messages",
+    "meaning": "mesajlarını okumak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "to read her messages",
+    "meaning": "mesajlarını okumak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "message",
+   "pos": "noun",
+   "wordId": "message",
+   "sense": 0,
+   "context": "mesajlar",
+   "note": null,
+   "form": "message'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "to read her messages",
+    "meaning": "mesajlarını okumak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla (çok)",
+   "note": "*too* + sıfat \"gereğinden fazla\" demektir ve olumsuz bir anlam taşır: *too expensive* → (almak için) fazla pahalı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "too expensive",
+    "meaning": "fazla pahalı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "expensive",
+   "pos": "adjective",
+   "wordId": "expensive",
+   "sense": 0,
+   "context": "pahalı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "too expensive",
+    "meaning": "fazla pahalı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "aradı",
+   "note": "*look for something* \"bir şeyi aramak\" demektir; *look at* ise \"-e bakmak\"tır.",
+   "form": "look + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "looked for",
+    "meaning": "aradı (look for)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(look for: aramak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "looked for",
+    "meaning": "aradı (look for)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "repair",
+   "pos": "noun",
+   "wordId": "repair",
+   "sense": 1,
+   "context": "tamir",
+   "note": "Burada *repair* isim olmasına rağmen *shop*'u niteler: *repair shop* → tamir dükkânı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "repair shop",
+    "meaning": "tamirci, tamir dükkânı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "repair shop",
+    "meaning": "tamirci, tamir dükkânı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (dükkândaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*say* + cümle \"… olduğunu söylemek\" demektir; *that* çoğu zaman söylenmez.",
+   "form": "say fiilinin geçmiş zaman hali (said, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebileceğini",
+   "note": "Aktarılan sözde *can* → *could* olur: *\"I can replace it\"* → *he said he could replace it*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "değiştirmek",
+   "note": "*replace* bir şeyi yenisiyle \"değiştirmek, yerine koymak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "screen",
+   "pos": "noun",
+   "wordId": "screen",
+   "sense": 0,
+   "context": "ekran",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "içinde",
+   "note": "*in* + süre \"… içinde, … sonra\" demektir: *in an hour* → bir saat içinde.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "in an hour",
+    "meaning": "bir saat içinde"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*hour*'daki *h* okunmadığı için *a* değil *an* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "in an hour",
+    "meaning": "bir saat içinde"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 55,
+    "text": "in an hour",
+    "meaning": "bir saat içinde"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (tamir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "tuttu",
+   "note": "*cost* \"(fiyatı) tutmak\" demektir; geçmiş zaman hali de *cost*'tur.",
+   "form": "cost fiilinin geçmiş zaman hali (cost, düzensiz — değişmez)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "forty",
+   "pos": "number",
+   "wordId": "forty",
+   "sense": 0,
+   "context": "kırk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "pound",
+   "pos": "noun",
+   "wordId": "pound",
+   "sense": 0,
+   "context": "sterlin",
+   "note": null,
+   "form": "pound'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "bu (ki)",
+   "note": "Virgülden sonra gelen *which* önceki cümlenin tamamına ek bilgi verir: *…, which was much cheaper* → bu da çok daha ucuzdu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "cheap",
+   "pos": "adjective",
+   "wordId": "cheap",
+   "sense": 0,
+   "context": "daha ucuz",
+   "note": null,
+   "form": "cheap sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*had + fiilin 3. hali* (past perfect) daha önceki bir beklentiyi anlatır: *than she had expected* → beklediğinden.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "beklediği(nden)",
+   "note": null,
+   "form": "expect fiilinin 3. hali (expected, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "much cheaper than she had expected",
+    "meaning": "beklediğinden çok daha ucuz"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir ve present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 69,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*has* + fiilin 3. hali + *since* geçmişte başlayıp hâlâ süren bir alışkanlığı anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "has kept",
+    "meaning": "tutuyor (present perfect)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "tutuyor (saklıyor)",
+   "note": null,
+   "form": "keep fiilinin 3. hali (kept, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "has kept",
+    "meaning": "tutuyor (present perfect)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kılıfta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "strong",
+   "pos": "adjective",
+   "wordId": "strong",
+   "sense": 0,
+   "context": "sağlam (güçlü)",
+   "note": "*strong*'un temel anlamı \"güçlü\"dür; eşyalar için \"sağlam\" diye çevrilir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "case",
+   "pos": "noun",
+   "wordId": "case",
+   "sense": 0,
+   "context": "kılıf (kutu)",
+   "note": "*case* \"durum; dava\" demektir; eşyalar için \"kutu, kılıf\" anlamına da gelir: *phone case* → telefon kılıfı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

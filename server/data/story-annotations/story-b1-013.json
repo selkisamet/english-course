@@ -1,0 +1,1108 @@
+{
+ "storyId": "story-b1-013",
+ "textHash": "18bd864cf20d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Lucy her cumartesi sabahı kasabasının dışındaki bir hayvan barınağında gönüllü çalışıyor."
+  },
+  {
+   "tr": "Bunu iki yıldır yapıyor."
+  },
+  {
+   "tr": "Görevi köpekleri beslemek, kafeslerini temizlemek ve onları yürüyüşe çıkarmak."
+  },
+  {
+   "tr": "Hayvanların bazıları sokaklarda bulundu, bu yüzden insanlardan sık sık korkuyorlar."
+  },
+  {
+   "tr": "Lucy onlara karşı çok sabırlı."
+  },
+  {
+   "tr": "Bir köpek yeni bir yuva bulduğunda hem üzülüyor hem de gurur duyuyor."
+  },
+  {
+   "tr": "Gönüllü çalışmanın onu daha mutlu biri yaptığını söylüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Every Saturday morning",
+    "meaning": "her cumartesi sabahı"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "Saturday",
+   "pos": "noun",
+   "wordId": "saturday",
+   "sense": 0,
+   "context": "cumartesi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Every Saturday morning",
+    "meaning": "her cumartesi sabahı"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Every Saturday morning",
+    "meaning": "her cumartesi sabahı"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "volunteer",
+   "pos": "verb",
+   "wordId": "volunteer",
+   "sense": 1,
+   "context": "gönüllü çalışıyor",
+   "note": "*volunteer* isim olarak \"gönüllü\", fiil olarak \"gönüllü olmak, gönüllü çalışmak\" demektir.",
+   "form": "volunteer + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (barınakta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an animal*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "animal shelter",
+    "meaning": "hayvan barınağı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "shelter",
+   "pos": "noun",
+   "wordId": "shelter",
+   "sense": 0,
+   "context": "barınak",
+   "note": "*animal shelter* sahipsiz hayvanların bakıldığı \"hayvan barınağı\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "animal shelter",
+    "meaning": "hayvan barınağı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "outside",
+   "pos": "preposition",
+   "wordId": "outside",
+   "sense": 1,
+   "context": "dışındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*has/have been + -ing* (present perfect continuous) geçmişte başlayıp hâlâ süren bir eylemi anlatır: *has been doing this for two years* → bunu iki yıldır yapıyor.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapıyor",
+   "note": null,
+   "form": "do + -ing",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bunu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dır (iki yıldır)",
+   "note": "Süre bildiren *for*, present perfect ile Türkçedeki \"-dır/-dir\" (… yıldır) ekine karşılık gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 19,
+    "text": "has been doing this for two years",
+    "meaning": "bunu iki yıldır yapıyor"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": "İyelik bildirir; Türkçede ekle karşılanır: *her job* → görev**i**.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "job",
+   "pos": "noun",
+   "wordId": "job",
+   "sense": 0,
+   "context": "iş (görev)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (beslemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "feed",
+   "pos": "verb",
+   "wordId": "feed",
+   "sense": 0,
+   "context": "beslemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpekler",
+   "note": null,
+   "form": "dog'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "cage",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kafesler",
+   "note": null,
+   "form": "cage'in çoğulu",
+   "base": "kafes",
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "çıkarmak (götürmek)",
+   "note": "*take someone for a walk* \"birini yürüyüşe çıkarmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "take them for walks",
+    "meaning": "onları yürüyüşe çıkarmak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "take them for walks",
+    "meaning": "onları yürüyüşe çıkarmak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-e (yürüyüşe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "take them for walks",
+    "meaning": "onları yürüyüşe çıkarmak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "walk",
+   "pos": "noun",
+   "wordId": "walk",
+   "sense": 1,
+   "context": "yürüyüşler",
+   "note": null,
+   "form": "walk'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 34,
+    "text": "take them for walks",
+    "meaning": "onları yürüyüşe çıkarmak"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of the* + çoğul isim \"…-lerin bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Some of the animals",
+    "meaning": "hayvanların bazıları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Some of the animals",
+    "meaning": "hayvanların bazıları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Some of the animals",
+    "meaning": "hayvanların bazıları"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "animal",
+   "pos": "noun",
+   "wordId": "animal",
+   "sense": 0,
+   "context": "hayvanlar",
+   "note": null,
+   "form": "animal'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "Some of the animals",
+    "meaning": "hayvanların bazıları"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ndu)",
+   "note": "Geçmiş zamanda edilgen yapı *was/were* + fiilin 3. hali ile kurulur: *were found* → bulundu.",
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "were found",
+    "meaning": "bulundu (edilgen)"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulundu",
+   "note": null,
+   "form": "find fiilinin 3. hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "were found",
+    "meaning": "bulundu (edilgen)"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (sokaklarda)",
+   "note": "İngiliz İngilizcesinde *on the streets* \"sokaklarda (evsiz)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "street",
+   "pos": "noun",
+   "wordId": "street",
+   "sense": 0,
+   "context": "sokaklar",
+   "note": null,
+   "form": "street'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "so",
+   "pos": "conjunction",
+   "wordId": "so",
+   "sense": 1,
+   "context": "bu yüzden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-lar)",
+   "note": null,
+   "form": "be fiilinin çoğul, geniş zaman hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "frightened",
+   "pos": "adjective",
+   "wordId": "frightened",
+   "sense": 0,
+   "context": "korkmuş",
+   "note": "*be frightened of* \"-den korkmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "frightened of",
+    "meaning": "-den korkmuş"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (insanlardan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "frightened of",
+    "meaning": "-den korkmuş"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "Lucy",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lucy",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geniş zaman hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": "*patient* isim olarak \"hasta\", sıfat olarak \"sabırlı\" demektir; *be patient with* \"-e karşı sabırlı olmak\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-e karşı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar(a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "dog",
+   "pos": "noun",
+   "wordId": "dog",
+   "sense": 0,
+   "context": "köpek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulur",
+   "note": null,
+   "form": "find + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "home",
+   "pos": "noun",
+   "wordId": "home",
+   "sense": 0,
+   "context": "yuva (ev)",
+   "note": "*home* bir kişinin ya da hayvanın yaşadığı \"yuva\"dır; *house* ise bina olarak \"ev\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissediyor",
+   "note": null,
+   "form": "feel + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "sad",
+   "pos": "adjective",
+   "wordId": "sad",
+   "sense": 0,
+   "context": "üzgün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "aynı zamanda (da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "proud",
+   "pos": "adjective",
+   "wordId": "proud",
+   "sense": 0,
+   "context": "gururlu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylüyor",
+   "note": null,
+   "form": "say + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "volunteer",
+   "pos": "verb",
+   "wordId": "volunteer",
+   "sense": 1,
+   "context": "gönüllü çalışmak",
+   "note": "*-ing* almış fiil isim gibi kullanılıp cümlenin öznesi olabilir: *volunteering has made her…* → gönüllü çalışmak onu … yaptı.",
+   "form": "volunteer + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "Present perfect, geçmişteki bir olayın bugüne etkisini anlatır: *has made her happier* → onu daha mutlu yaptı (ve hâlâ öyle).",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "has made",
+    "meaning": "yaptı (present perfect)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yaptı",
+   "note": "*make someone* + sıfat/isim \"birini … yapmak\" demektir.",
+   "form": "make fiilinin 3. hali (made, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "has made",
+    "meaning": "yaptı (present perfect)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "happy",
+   "pos": "adjective",
+   "wordId": "happy",
+   "sense": 0,
+   "context": "daha mutlu",
+   "note": "*-y* ile biten sıfatlarda *y* → *i* olur: *happy → happier*.",
+   "form": "happy sıfatının karşılaştırma hali (y → ier)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi (biri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

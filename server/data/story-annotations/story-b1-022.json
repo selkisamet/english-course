@@ -1,0 +1,1181 @@
+{
+ "storyId": "story-b1-022",
+ "textHash": "874c2d6223e3",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Eve dönüş uçuşundan iki gün önce Tom pasaportunun kayıp olduğunu fark etti."
+  },
+  {
+   "tr": "Otel odasını ve çantalarını aradı ama hiçbir yerde bulamadı."
+  },
+  {
+   "tr": "Paniğe kapılmaya başladı."
+  },
+  {
+   "tr": "Otel resepsiyon görevlisi ona önce polise, sonra da büyükelçiliğine gitmesini söyledi."
+  },
+  {
+   "tr": "Büyükelçilikteki görevliler çok yardımseverdi."
+  },
+  {
+   "tr": "Ertesi sabah ona geçici bir pasaport verdiler ve Tom uçağına zamanında yetişti."
+  },
+  {
+   "tr": "Artık telefonunda her zaman pasaportunun bir kopyasını saklıyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two days before",
+    "meaning": "iki gün önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two days before",
+    "meaning": "iki gün önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "önce (-den önce)",
+   "note": "Süre + *before* + olay \"…-den … önce\" demektir: *two days before his flight* → uçuşundan iki gün önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Two days before",
+    "meaning": "iki gün önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "flight",
+   "pos": "noun",
+   "wordId": "flight",
+   "sense": 0,
+   "context": "uçuş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "flight home",
+    "meaning": "eve dönüş uçuşu"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve (dönüş)",
+   "note": "*flight home* \"eve dönüş uçuşu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "flight home",
+    "meaning": "eve dönüş uçuşu"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "Tom",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tom",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "realise",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "fark etti",
+   "note": "*realise* İngiliz yazımıdır; Amerikan İngilizcesinde *realize* yazılır. \"Gerçekleştirmek\" değil, \"farkına varmak\" anlamındadır.",
+   "form": "realise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "passport",
+   "pos": "noun",
+   "wordId": "passport",
+   "sense": 0,
+   "context": "pasaport",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "was missing",
+    "meaning": "kayıptı, ortada yoktu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "missing",
+   "pos": "adjective",
+   "wordId": "missing",
+   "sense": 0,
+   "context": "kayıp",
+   "note": "*be missing* \"kayıp olmak, ortada olmamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "was missing",
+    "meaning": "kayıptı, ortada yoktu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "search",
+   "pos": "verb",
+   "wordId": "search",
+   "sense": 1,
+   "context": "aradı",
+   "note": "*search a place* bir yeri \"aramak, karıştırmak\" demektir; aranan şey için *search for* kullanılır.",
+   "form": "search + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": "Burada *hotel* isim olmasına rağmen *room*'u niteler: *hotel room* → otel odası.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "bag",
+   "pos": "noun",
+   "wordId": "bag",
+   "sense": 0,
+   "context": "çantalar",
+   "note": null,
+   "form": "bag'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-emedi)",
+   "note": "*could*, *can*'in geçmiş halidir; *could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "could not find it anywhere",
+    "meaning": "hiçbir yerde bulamadı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "could not find it anywhere",
+    "meaning": "hiçbir yerde bulamadı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "could not find it anywhere",
+    "meaning": "hiçbir yerde bulamadı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (pasaportu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "could not find it anywhere",
+    "meaning": "hiçbir yerde bulamadı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "anywhere",
+   "pos": "adverb",
+   "wordId": "anywhere",
+   "sense": 0,
+   "context": "hiçbir yerde",
+   "note": "Olumsuz cümlede *anywhere* \"hiçbir yerde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 27,
+    "text": "could not find it anywhere",
+    "meaning": "hiçbir yerde bulamadı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (paniğe kapılmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "panic",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "paniğe kapılmak",
+   "note": "*panic* hem isim (\"panik\") hem fiil (\"paniğe kapılmak\") olarak kullanılır.",
+   "form": null,
+   "base": "panik; paniğe kapılmak",
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "receptionist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "resepsiyon görevlisi",
+   "note": "*-ist* eki \"o işi yapan kişi\" anlamı verir: *reception* (resepsiyon) → *receptionist*.",
+   "form": null,
+   "base": "resepsiyon görevlisi",
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": "*tell someone to do something* \"birine bir şey yapmasını söylemek\" demektir.",
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "told him to go",
+    "meaning": "gitmesini söyledi (tell someone to)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "told him to go",
+    "meaning": "gitmesini söyledi (tell someone to)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (gitmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "told him to go",
+    "meaning": "gitmesini söyledi (tell someone to)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "told him to go",
+    "meaning": "gitmesini söyledi (tell someone to)"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (polise)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the police* kurum olarak \"polis\"tir ve çoğul fiil alır: *the police are…*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "police",
+   "pos": "noun",
+   "wordId": "police",
+   "sense": 0,
+   "context": "polis",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (büyükelçiliğine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun (kendi ülkesinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "embassy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "büyükelçilik",
+   "note": null,
+   "form": null,
+   "base": "büyükelçilik",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "staff",
+   "pos": "noun",
+   "wordId": "staff",
+   "sense": 0,
+   "context": "personel (görevliler)",
+   "note": "*staff* bir yerde çalışan kişilerin tümüdür; burada çoğul fiil almıştır: *the staff were*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-deki (büyükelçilikteki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "embassy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "büyükelçilik",
+   "note": null,
+   "form": null,
+   "base": "büyükelçilik",
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "helpful",
+   "pos": "adjective",
+   "wordId": "helpful",
+   "sense": 0,
+   "context": "yardımsever",
+   "note": "*-ful* eki isimden sıfat yapar: *help* (yardım) → *helpful* (yardımsever, yararlı).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "give",
+   "pos": "verb",
+   "wordId": "give",
+   "sense": 0,
+   "context": "verdiler",
+   "note": null,
+   "form": "give fiilinin geçmiş zaman hali (gave, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an emergency passport*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "emergency",
+   "pos": "noun",
+   "wordId": "emergency",
+   "sense": 0,
+   "context": "acil durum (geçici)",
+   "note": "Burada *emergency* isim olmasına rağmen *passport*'u niteler: *emergency passport* → acil durumlarda verilen geçici pasaport.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "emergency passport",
+    "meaning": "geçici (acil durum) pasaport"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "passport",
+   "pos": "noun",
+   "wordId": "passport",
+   "sense": 0,
+   "context": "pasaport",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "emergency passport",
+    "meaning": "geçici (acil durum) pasaport"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next morning* \"ertesi sabah\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the next morning",
+    "meaning": "ertesi sabah"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "catch",
+   "pos": "verb",
+   "wordId": "catch",
+   "sense": 0,
+   "context": "yetişti",
+   "note": "*catch*'in temel anlamı \"yakalamak\"tır; uçak, tren, otobüs için \"yetişmek\" demektir.",
+   "form": "catch fiilinin geçmiş zaman hali (caught, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "caught his flight",
+    "meaning": "uçağına yetişti"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "caught his flight",
+    "meaning": "uçağına yetişti"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "flight",
+   "pos": "noun",
+   "wordId": "flight",
+   "sense": 0,
+   "context": "uçuş (uçak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 68,
+    "text": "caught his flight",
+    "meaning": "uçağına yetişti"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on time: zamanında)",
+   "note": "*on time* \"tam zamanında\", *in time* ise \"geç kalmadan, vaktinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "on time",
+    "meaning": "zamanında"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "on time",
+    "meaning": "zamanında"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık (şimdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "saklıyor (tutuyor)",
+   "note": null,
+   "form": "keep + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "a copy of his passport",
+    "meaning": "pasaportunun bir kopyası"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "copy",
+   "pos": "noun",
+   "wordId": "copy",
+   "sense": 0,
+   "context": "kopya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "a copy of his passport",
+    "meaning": "pasaportunun bir kopyası"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (pasaportunun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "a copy of his passport",
+    "meaning": "pasaportunun bir kopyası"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "a copy of his passport",
+    "meaning": "pasaportunun bir kopyası"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "passport",
+   "pos": "noun",
+   "wordId": "passport",
+   "sense": 0,
+   "context": "pasaport",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "a copy of his passport",
+    "meaning": "pasaportunun bir kopyası"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (telefonunda)",
+   "note": "Telefon ve bilgisayardaki bilgiler için *on* kullanılır: *on his phone*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 81,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 82,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

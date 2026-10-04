@@ -1,0 +1,1099 @@
+{
+ "storyId": "story-b1-023",
+ "textHash": "5b4164e6f1e6",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Birkaç yıl önce apartmanımızın arkasında boş bir arazi parçası vardı."
+  },
+  {
+   "tr": "Arazi çöple doluydu ve kimse orayı kullanmıyordu."
+  },
+  {
+   "tr": "Sonra bir grup komşu orayı bir bahçeye dönüştürmeye karar verdi."
+  },
+  {
+   "tr": "Alanı temizlediler, tahta kasalar yaptılar ve sebze ile çiçek diktiler."
+  },
+  {
+   "tr": "Şimdi her yaştan insan orada birlikte çalışıyor."
+  },
+  {
+   "tr": "Çocuklar yiyeceğin nasıl yetiştiğini öğreniyor, yaşlılar da temiz havanın tadını çıkarıyor."
+  },
+  {
+   "tr": "Bahçe mahallemizdeki insanları birbirine daha da yaklaştırdı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(a few: birkaç)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "A few years ago",
+    "meaning": "birkaç yıl önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "birkaç (a few)",
+   "note": "*a few* \"birkaç\" demektir; *few* tek başına ise \"pek az\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "A few years ago",
+    "meaning": "birkaç yıl önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "A few years ago",
+    "meaning": "birkaç yıl önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": "*ago* süreden sonra gelir ve geçmiş zamanla kullanılır: *a few years ago* → birkaç yıl önce.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "A few years ago",
+    "meaning": "birkaç yıl önce"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "(there was: vardı)",
+   "note": "*there is / there was* bir şeyin var olduğunu söyler; Türkçede \"var / vardı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "there was",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "vardı (there was)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "there was",
+    "meaning": "vardı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an empty piece*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "empty",
+   "pos": "adjective",
+   "wordId": "empty",
+   "sense": 0,
+   "context": "boş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "piece",
+   "pos": "noun",
+   "wordId": "piece",
+   "sense": 0,
+   "context": "parça",
+   "note": "*a piece of* sayılamayan şeyleri saymaya yarar: *a piece of land* → bir arazi parçası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "piece of land",
+    "meaning": "arazi parçası"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a piece of: bir parça)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "piece of land",
+    "meaning": "arazi parçası"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "land",
+   "pos": "noun",
+   "wordId": "land",
+   "sense": 0,
+   "context": "arazi",
+   "note": "*land* isim olarak \"kara; arazi, toprak\", fiil olarak \"(uçak) inmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 10,
+    "text": "piece of land",
+    "meaning": "arazi parçası"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "behind",
+   "pos": "preposition",
+   "wordId": "behind",
+   "sense": 0,
+   "context": "arkasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "block",
+   "pos": "noun",
+   "wordId": "block",
+   "sense": 0,
+   "context": "blok (bina)",
+   "note": "*block of flats* İngiliz İngilizcesinde \"apartman binası\" demektir; Amerikan İngilizcesinde *apartment building* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "block of flats",
+    "meaning": "apartman (binası)"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(block of flats: apartman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "block of flats",
+    "meaning": "apartman (binası)"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daireler",
+   "note": null,
+   "form": "flat'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "block of flats",
+    "meaning": "apartman (binası)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (arazi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "dolu",
+   "note": "*be full of* \"… ile dolu olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "full of",
+    "meaning": "ile dolu"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(full of: ile dolu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "full of",
+    "meaning": "ile dolu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "rubbish",
+   "pos": "noun",
+   "wordId": "rubbish",
+   "sense": 0,
+   "context": "çöp",
+   "note": "*rubbish* İngiliz İngilizcesinde \"çöp\" demektir; Amerikan İngilizcesinde *trash* ya da *garbage* denir. Sayılamaz.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "nobody",
+   "pos": "pronoun",
+   "wordId": "nobody",
+   "sense": 0,
+   "context": "hiç kimse",
+   "note": "*nobody* kendisi olumsuz anlam taşır; fiil olumlu kalır: *nobody used it* → kimse kullanmıyordu.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanmıyordu",
+   "note": null,
+   "form": "use + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (orayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup",
+   "note": "*a group of* + çoğul isim \"bir grup …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a group of: bir grup)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 28,
+    "text": "a group of",
+    "meaning": "bir grup"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşu",
+   "note": "*neighbour* İngiliz yazımıdır; Amerikan İngilizcesinde *neighbor* yazılır.",
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdi",
+   "note": "*decide to + fiil* \"… -meye karar vermek\" demektir.",
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (dönüştürmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "dönüştürmek",
+   "note": "*turn*'ün temel anlamı \"dönmek, çevirmek\"tir; *turn something into something* \"bir şeyi başka bir şeye dönüştürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "turn it into",
+    "meaning": "onu …-e dönüştürmek (turn into)"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (orayı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "turn it into",
+    "meaning": "onu …-e dönüştürmek (turn into)"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (bahçeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 34,
+    "text": "turn it into",
+    "meaning": "onu …-e dönüştürmek (turn into)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizlediler",
+   "note": null,
+   "form": "clean + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "area",
+   "pos": "noun",
+   "wordId": "area",
+   "sense": 0,
+   "context": "alan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "build",
+   "pos": "verb",
+   "wordId": "build",
+   "sense": 0,
+   "context": "yaptılar (inşa ettiler)",
+   "note": null,
+   "form": "build fiilinin geçmiş zaman hali (built, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "wooden",
+   "pos": "adjective",
+   "wordId": "wooden",
+   "sense": 0,
+   "context": "tahta (ahşap)",
+   "note": "*-en* eki bazı maddelerden sıfat yapar: *wood* (tahta) → *wooden* (tahtadan, ahşap).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "box",
+   "pos": "noun",
+   "wordId": "box",
+   "sense": 0,
+   "context": "kasalar (kutular)",
+   "note": null,
+   "form": "box'ın çoğulu (-es)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "plant",
+   "pos": "verb",
+   "wordId": "plant",
+   "sense": 1,
+   "context": "diktiler",
+   "note": "*plant* isim olarak \"bitki\", fiil olarak \"dikmek, ekmek\" demektir.",
+   "form": "plant + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "vegetable",
+   "pos": "noun",
+   "wordId": "vegetable",
+   "sense": 0,
+   "context": "sebzeler",
+   "note": null,
+   "form": "vegetable'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "flower",
+   "pos": "noun",
+   "wordId": "flower",
+   "sense": 0,
+   "context": "çiçekler",
+   "note": null,
+   "form": "flower'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "şimdi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (yaştan)",
+   "note": "*people of all ages* \"her yaştan insan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "of all ages",
+    "meaning": "her yaştan"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "her (bütün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "of all ages",
+    "meaning": "her yaştan"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "yaşlar",
+   "note": null,
+   "form": "age'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "of all ages",
+    "meaning": "her yaştan"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "work",
+   "pos": "verb",
+   "wordId": "work",
+   "sense": 0,
+   "context": "çalışıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "there",
+   "pos": "adverb",
+   "wordId": "there",
+   "sense": 0,
+   "context": "orada",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birlikte",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": "*children*, *child*'ın düzensiz çoğuludur (✗ childs).",
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğreniyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "nasıl",
+   "note": "Soru sözcüğü cümlenin içinde geçince kelime sırası düz cümle gibidir: *how food grows* (✗ how does food grow).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "food",
+   "pos": "noun",
+   "wordId": "food",
+   "sense": 0,
+   "context": "yiyecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "yetiştiğini (büyüdüğünü)",
+   "note": null,
+   "form": "grow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "daha yaşlı",
+   "note": "*older people* \"yaşlılar, yaşı ilerlemiş kişiler\" demektir; *old people*'dan daha kibar bir söyleyiştir.",
+   "form": "old sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "older people",
+    "meaning": "yaşlılar"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "older people",
+    "meaning": "yaşlılar"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "enjoy",
+   "pos": "verb",
+   "wordId": "enjoy",
+   "sense": 0,
+   "context": "tadını çıkarıyor",
+   "note": "*enjoy something* \"bir şeyin tadını çıkarmak, keyfini sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "fresh",
+   "pos": "adjective",
+   "wordId": "fresh",
+   "sense": 0,
+   "context": "temiz",
+   "note": "*fresh* yiyecekler için \"taze\", hava için \"temiz\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "air",
+   "pos": "noun",
+   "wordId": "air",
+   "sense": 0,
+   "context": "hava",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "garden",
+   "pos": "noun",
+   "wordId": "garden",
+   "sense": 0,
+   "context": "bahçe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dı)",
+   "note": "Present perfect, geçmişte başlayan bir değişimin bugüne etkisini anlatır: *has brought … closer together* → (artık) daha yakınlar.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "has brought",
+    "meaning": "getirdi (present perfect)"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "getirdi (yaklaştırdı)",
+   "note": "*bring people closer together* \"insanları birbirine yaklaştırmak\" demektir.",
+   "form": "bring fiilinin 3. hali (brought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 72,
+    "text": "has brought",
+    "meaning": "getirdi (present perfect)"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "neighbourhood",
+   "pos": "noun",
+   "wordId": "neighbourhood",
+   "sense": 0,
+   "context": "mahalle",
+   "note": "*-hood* eki bir topluluk ya da durum bildirir: *neighbour* (komşu) → *neighbourhood* (mahalle).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "close",
+   "pos": "adverb",
+   "wordId": "close",
+   "sense": 2,
+   "context": "daha yakın",
+   "note": null,
+   "form": "close'un karşılaştırma hali (-r)",
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "closer together",
+    "meaning": "birbirine daha yakın"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "together",
+   "pos": "adverb",
+   "wordId": "together",
+   "sense": 0,
+   "context": "birbirine (birlikte)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 76,
+    "text": "closer together",
+    "meaning": "birbirine daha yakın"
+   }
+  }
+ ]
+}

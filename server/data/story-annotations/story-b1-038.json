@@ -1,0 +1,1162 @@
+{
+ "storyId": "story-b1-038",
+ "textHash": "dad95da30b91",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tim ve Anna tatilleri için deniz manzaralı sessiz bir oda vaat eden bir otelde yer ayırttılar."
+  },
+  {
+   "tr": "Ancak vardıklarında odalarının bir gece kulübünün üstünde olduğunu fark ettiler."
+  },
+  {
+   "tr": "Müzik sabah dörde kadar sürdü ve uyuyamadılar."
+  },
+  {
+   "tr": "Ertesi gün müdüre şikâyet ettiler."
+  },
+  {
+   "tr": "Müdür özür diledi ve onları binanın diğer tarafında, en üst kattaki bir odaya geçirdi."
+  },
+  {
+   "tr": "Tatilin geri kalanı huzurlu ve dinlendirici geçti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "tatil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "Tim",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tim",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "Anna",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Anna",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "book",
+   "pos": "verb",
+   "wordId": "book",
+   "sense": 1,
+   "context": "yer ayırttılar",
+   "note": "*book* isim olarak \"kitap\", fiil olarak \"rezervasyon yapmak, yer ayırtmak\" demektir.",
+   "form": "book + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "booked a hotel",
+    "meaning": "bir otelde yer ayırttılar"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "booked a hotel",
+    "meaning": "bir otelde yer ayırttılar"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "booked a hotel",
+    "meaning": "bir otelde yer ayırttılar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*that* ilgi zamiri olarak bir ismi tanımlar: *a hotel that promised…* → … vaat eden bir otel.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "promise",
+   "pos": "verb",
+   "wordId": "promise",
+   "sense": 0,
+   "context": "vaat eden (söz veren)",
+   "note": null,
+   "form": "promise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-li (manzaralı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 17,
+    "text": "that promised a quiet room with a sea view",
+    "meaning": "deniz manzaralı sessiz bir oda vaat eden"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "sea",
+   "pos": "noun",
+   "wordId": "sea",
+   "sense": 0,
+   "context": "deniz",
+   "note": "Burada *sea* isim olmasına rağmen *view*'u niteler: *sea view* → deniz manzarası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "sea view",
+    "meaning": "deniz manzarası"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "view",
+   "pos": "noun",
+   "wordId": "view",
+   "sense": 0,
+   "context": "manzara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 17,
+    "text": "sea view",
+    "meaning": "deniz manzarası"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "vardılar",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "fark ettiler (keşfettiler)",
+   "note": "*discover* \"keşfetmek\" demektir; bir durum için \"fark etmek, öğrenmek\" anlamında kullanılır.",
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "above",
+   "pos": "preposition",
+   "wordId": "above",
+   "sense": 0,
+   "context": "üstünde",
+   "note": "*above* \"bir şeyin yukarısında\" demektir; *on* ise \"üzerine değerek\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "nightclub",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gece kulübü",
+   "note": "*nightclub* iki kelimenin birleşimidir: *night* (gece) + *club* (kulüp).",
+   "form": null,
+   "base": "gece kulübü",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "sürdü (devam etti)",
+   "note": null,
+   "form": "continue + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "until",
+   "pos": "preposition",
+   "wordId": "until",
+   "sense": 1,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "until four in the morning",
+    "meaning": "sabah dörde kadar"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dört",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "until four in the morning",
+    "meaning": "sabah dörde kadar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(sabah)",
+   "note": "*four in the morning* \"sabah dört, sabahın dördü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "until four in the morning",
+    "meaning": "sabah dörde kadar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "until four in the morning",
+    "meaning": "sabah dörde kadar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "morning",
+   "pos": "noun",
+   "wordId": "morning",
+   "sense": 0,
+   "context": "sabah",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "until four in the morning",
+    "meaning": "sabah dörde kadar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "(-emediler)",
+   "note": "*could*, *can*'in geçmiş halidir; *could not* + fiil geçmişte bir şeyi \"yapamamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "next",
+   "pos": "adjective",
+   "wordId": "next",
+   "sense": 0,
+   "context": "ertesi",
+   "note": "Geçmişi anlatırken *the next day* \"ertesi gün\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "The next day",
+    "meaning": "ertesi gün"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "complain",
+   "pos": "verb",
+   "wordId": "complain",
+   "sense": 0,
+   "context": "şikâyet ettiler",
+   "note": "*complain to someone (about something)* \"birine (bir şeyden) şikâyet etmek\" demektir.",
+   "form": "complain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "complained to",
+    "meaning": "-e şikâyet ettiler"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (müdüre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "complained to",
+    "meaning": "-e şikâyet ettiler"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "manager",
+   "pos": "noun",
+   "wordId": "manager",
+   "sense": 0,
+   "context": "müdür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "apologise",
+   "pos": "verb",
+   "wordId": "apologize",
+   "sense": 0,
+   "context": "özür diledi",
+   "note": "*apologise* İngiliz yazımıdır; Amerikan İngilizcesinde *apologize* yazılır.",
+   "form": "apologise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "geçirdi (taşıdı)",
+   "note": "*move someone to a room* birini \"başka bir odaya geçirmek, almak\" demektir.",
+   "form": "move + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (odaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (katta)",
+   "note": "Katlar için *on* kullanılır: *on the top floor* → en üst katta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the top floor",
+    "meaning": "en üst kat"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "top",
+   "pos": "adjective",
+   "wordId": "top",
+   "sense": 1,
+   "context": "en üst",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the top floor",
+    "meaning": "en üst kat"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "floor",
+   "pos": "noun",
+   "wordId": "floor",
+   "sense": 0,
+   "context": "kat",
+   "note": "*floor* \"zemin\" ve \"kat\" demektir; burada \"kat\"tır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "the top floor",
+    "meaning": "en üst kat"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (tarafında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "other",
+   "pos": "adjective",
+   "wordId": "other",
+   "sense": 0,
+   "context": "diğer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "side",
+   "pos": "noun",
+   "wordId": "side",
+   "sense": 0,
+   "context": "taraf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (binanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 70,
+    "text": "the other side of the building",
+    "meaning": "binanın diğer tarafı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "The rest of the holiday",
+    "meaning": "tatilin geri kalanı"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "rest",
+   "pos": "noun",
+   "wordId": "rest",
+   "sense": 0,
+   "context": "geri kalan",
+   "note": "*the rest of* \"…-in geri kalanı\" demektir; *rest* ayrıca \"dinlenme\" anlamına da gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "The rest of the holiday",
+    "meaning": "tatilin geri kalanı"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tatilin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "The rest of the holiday",
+    "meaning": "tatilin geri kalanı"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 71,
+    "to": 74,
+    "text": "The rest of the holiday",
+    "meaning": "tatilin geri kalanı"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "holiday",
+   "pos": "noun",
+   "wordId": "holiday",
+   "sense": 0,
+   "context": "tatil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(geçti)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "peaceful",
+   "pos": "adjective",
+   "wordId": "peaceful",
+   "sense": 0,
+   "context": "huzurlu",
+   "note": "*-ful* eki isimden sıfat yapar: *peace* (huzur, barış) → *peaceful* (huzurlu).",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 79,
+   "lemma": "relaxing",
+   "pos": "adjective",
+   "wordId": "relaxing",
+   "sense": 0,
+   "context": "dinlendirici",
+   "note": "*relaxing* dinlendiren şeyi, *relaxed* ise rahatlamış kişiyi anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

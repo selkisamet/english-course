@@ -1,0 +1,1062 @@
+{
+ "storyId": "story-b1-012",
+ "textHash": "599bcad4c094",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Marco Lizbon'a indiğinde bavulunu neredeyse bir saat bekledi ama bavul hiç gelmedi."
+  },
+  {
+   "tr": "Havayolu masasına gitti ve bir form doldurdu."
+  },
+  {
+   "tr": "Görevli, çantasının yanlışlıkla Madrid'e gönderilmiş olduğunu açıkladı."
+  },
+  {
+   "tr": "Marco bir diş fırçası, bir gömlek ve birkaç çift çorap almak zorunda kaldı."
+  },
+  {
+   "tr": "Neyse ki bavul iki gün sonra oteline ulaştı."
+  },
+  {
+   "tr": "O zamandan beri el bagajına her zaman yedek kıyafet koyuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "Marco",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Marco",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "land",
+   "pos": "verb",
+   "wordId": "land",
+   "sense": 1,
+   "context": "indi (uçakla)",
+   "note": "*land* isim olarak \"kara, arazi\", fiil olarak \"(uçak/yolcu) inmek\" demektir.",
+   "form": "land + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (Lizbon'a)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "Lisbon",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Lizbon",
+   "note": null,
+   "form": null,
+   "base": "(Portekiz'in başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (erkek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "bekledi",
+   "note": "*wait for something* \"bir şeyi beklemek\" demektir.",
+   "form": "wait + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(wait for: -i beklemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "suitcase",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bavul",
+   "note": "*suitcase* iki kelimenin birleşimidir: *suit* (takım elbise) + *case* (kutu, çanta).",
+   "form": null,
+   "base": "bavul, valiz",
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(boyunca)",
+   "note": "İlk *for* \"-i (beklemek)\", ikinci *for* ise süre bildirir: *for almost an hour* → neredeyse bir saat.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "*hour*'daki *h* okunmadığı için *a* değil *an* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 13,
+    "text": "waited for his suitcase for almost an hour",
+    "meaning": "bavulunu neredeyse bir saat bekledi"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bavul)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": "*never* kendisi olumsuz anlam taşır; fiil olumlu kalır: *it never appeared* → hiç gelmedi.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "görünmedi (gelmedi)",
+   "note": "*appear* \"görünmek, ortaya çıkmak\" demektir.",
+   "form": "appear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "go",
+   "pos": "verb",
+   "wordId": "go",
+   "sense": 0,
+   "context": "gitti",
+   "note": null,
+   "form": "go fiilinin geçmiş zaman hali (went, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (masasına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(Türkçede karşılığı yok)",
+   "note": "*the* belirli, bilinen bir şeyden söz edildiğini gösterir; Türkçede genellikle karşılığı yoktur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "airline",
+   "pos": "noun",
+   "wordId": "airline",
+   "sense": 0,
+   "context": "havayolu",
+   "note": "Burada *airline* isim olmasına rağmen *desk*'i niteler: *airline desk* → havayolu bankosu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "airline desk",
+    "meaning": "havayolu masası (bankosu)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "desk",
+   "pos": "noun",
+   "wordId": "desk",
+   "sense": 0,
+   "context": "masa (banko)",
+   "note": "*desk*'in temel anlamı \"çalışma masası\"dır; havaalanı ve otellerde \"banko, danışma\" anlamında kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 23,
+    "text": "airline desk",
+    "meaning": "havayolu masası (bankosu)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "doldurdu",
+   "note": "*fill in a form* \"form doldurmak\" demektir; Amerikan İngilizcesinde *fill out* da denir.",
+   "form": "fill + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "filled in",
+    "meaning": "doldurdu (fill in)"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "adverb",
+   "wordId": "in",
+   "sense": 1,
+   "context": "(fill in: doldurmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 26,
+    "text": "filled in",
+    "meaning": "doldurdu (fill in)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "form",
+   "pos": "noun",
+   "wordId": "form",
+   "sense": 0,
+   "context": "form",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "assistant",
+   "pos": "noun",
+   "wordId": "assistant",
+   "sense": 0,
+   "context": "görevli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "explain",
+   "pos": "verb",
+   "wordId": "explain",
+   "sense": 0,
+   "context": "açıkladı",
+   "note": null,
+   "form": "explain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": "*that* bağlaç olarak bir cümleyi bağlar; Türkçede \"-dığını\" ekiyle karşılanır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "bag",
+   "pos": "noun",
+   "wordId": "bag",
+   "sense": 0,
+   "context": "çanta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": "*had been* + fiilin 3. hali (past perfect edilgen), geçmişteki bir andan önce birine yapılmış işi anlatır: *had been sent* → gönderilmişti.",
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": "Edilgen yapı *be* + fiilin 3. hali ile kurulur; burada *be* 3. hali olan *been* biçimindedir.",
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "send",
+   "pos": "verb",
+   "wordId": "send",
+   "sense": 0,
+   "context": "gönderilmiş",
+   "note": null,
+   "form": "send fiilinin 3. hali (sent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "had been sent",
+    "meaning": "gönderilmişti (past perfect, edilgen)"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (Madrid'e)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "Madrid",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Madrid",
+   "note": null,
+   "form": null,
+   "base": "(İspanya'nın başkenti)",
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by mistake: yanlışlıkla)",
+   "note": "*by mistake* \"yanlışlıkla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "by mistake",
+    "meaning": "yanlışlıkla"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hata",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "by mistake",
+    "meaning": "yanlışlıkla"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "Marco",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Marco",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "zorunda kaldı (had to)",
+   "note": "*have to + fiil* \"… -mek zorunda olmak\" demektir; burada \"sahip olmak\" anlamı yoktur. Geçmiş hali *had to*'dur.",
+   "form": "have fiilinin geçmiş zaman hali (had, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had to buy",
+    "meaning": "almak zorunda kaldı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had to buy",
+    "meaning": "almak zorunda kaldı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "buy",
+   "pos": "verb",
+   "wordId": "buy",
+   "sense": 0,
+   "context": "almak (satın almak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "had to buy",
+    "meaning": "almak zorunda kaldı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "toothbrush",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "diş fırçası",
+   "note": "*toothbrush* iki kelimenin birleşimidir: *tooth* (diş) + *brush* (fırça).",
+   "form": null,
+   "base": "diş fırçası",
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "shirt",
+   "pos": "noun",
+   "wordId": "shirt",
+   "sense": 0,
+   "context": "gömlek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "birkaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "sock",
+   "pos": "noun",
+   "wordId": "sock",
+   "sense": 0,
+   "context": "çoraplar",
+   "note": null,
+   "form": "sock'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "luckily",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "neyse ki",
+   "note": "*-ly* eki sıfattan zarf yapar: *lucky* (şanslı) → *luckily* (neyse ki, şans eseri).",
+   "form": "lucky + -ly (y → ily)",
+   "base": "neyse ki, şans eseri",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "suitcase",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bavul",
+   "note": null,
+   "form": null,
+   "base": "bavul, valiz",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "ulaştı (geldi)",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-e (oteline)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "hotel",
+   "pos": "noun",
+   "wordId": "hotel",
+   "sense": 0,
+   "context": "otel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "two days later",
+    "meaning": "iki gün sonra"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": "day'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "two days later",
+    "meaning": "iki gün sonra"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": "Süre + *later* \"… sonra\" demektir: *two days later* → iki gün sonra.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "two days later",
+    "meaning": "iki gün sonra"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "since",
+   "pos": "preposition",
+   "wordId": "since",
+   "sense": 0,
+   "context": "-den beri",
+   "note": "*since then* \"o zamandan beri\" demektir ve present perfect ile kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "o zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "Since then",
+    "meaning": "o zamandan beri"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*has/have + fiilin 3. hali* (present perfect) geçmişte başlayıp bugüne kadar süren bir alışkanlığı anlatır.",
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "always",
+   "pos": "adverb",
+   "wordId": "always",
+   "sense": 0,
+   "context": "her zaman",
+   "note": "*always* gibi sıklık zarfları yardımcı fiil ile asıl fiilin arasına girer: *has always packed*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "pack",
+   "pos": "verb",
+   "wordId": "pack",
+   "sense": 0,
+   "context": "koyuyor (yerleştiriyor)",
+   "note": "*pack*'in temel anlamı \"bavul hazırlamak\"tır; bir şeyi çantaya \"koymak, yerleştirmek\" demektir.",
+   "form": "pack fiilinin 3. hali (packed, -ed)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "spare",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yedek",
+   "note": null,
+   "form": null,
+   "base": "yedek, fazladan",
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "clothes",
+   "pos": "noun",
+   "wordId": "clothes",
+   "sense": 0,
+   "context": "kıyafet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (bagajına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "el",
+   "note": "*hand luggage* uçağın içine yanınızda aldığınız \"el bagajı\"dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "hand luggage",
+    "meaning": "el bagajı"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "luggage",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bagaj",
+   "note": "*luggage* sayılamayan bir isimdir: *a luggage* ya da *luggages* denmez; *a piece of luggage* denir.",
+   "form": null,
+   "base": "bagaj, yolcu eşyası",
+   "phrase": {
+    "from": 73,
+    "to": 74,
+    "text": "hand luggage",
+    "meaning": "el bagajı"
+   }
+  }
+ ]
+}

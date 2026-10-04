@@ -1,0 +1,1107 @@
+{
+ "storyId": "story-b1-043",
+ "textHash": "e4065a14056c",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ocak ayında elektrik faturaları geldiğinde Brown ailesi çok şaşırdı."
+  },
+  {
+   "tr": "Fatura bir önceki yılın iki katıydı."
+  },
+  {
+   "tr": "Bazı değişiklikler yapmaya karar verdiler."
+  },
+  {
+   "tr": "Bir odadan çıkarken ışıkları kapattılar ve televizyonu bütün gece açık bırakmayı bıraktılar."
+  },
+  {
+   "tr": "Ayrıca kaloriferi açmak yerine kalın kazaklar giydiler."
+  },
+  {
+   "tr": "Üç ay sonra faturaları çok daha düşüktü."
+  },
+  {
+   "tr": "Çocuklar bile anne babalarına bir şeyleri kapatmalarını hatırlatmaya başladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-diğinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "their electricity bill",
+    "meaning": "elektrik faturaları"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "electricity",
+   "pos": "noun",
+   "wordId": "electricity",
+   "sense": 0,
+   "context": "elektrik",
+   "note": "Burada *electricity* isim olmasına rağmen *bill*'i niteler: *electricity bill* → elektrik faturası.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "their electricity bill",
+    "meaning": "elektrik faturaları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "bill",
+   "pos": "noun",
+   "wordId": "bill",
+   "sense": 0,
+   "context": "fatura",
+   "note": "*bill* \"fatura\" ve restoranda \"hesap\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "their electricity bill",
+    "meaning": "elektrik faturaları"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "geldi",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ocakta)",
+   "note": "Aylardan önce *in* kullanılır: *in January* → ocakta.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "January",
+   "pos": "noun",
+   "wordId": "january",
+   "sense": 0,
+   "context": "ocak",
+   "note": "Ay adları İngilizcede her zaman büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + soyadı + *family* \"… ailesi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "the Brown family",
+    "meaning": "Brown ailesi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "Brown",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Brown",
+   "note": "*brown* küçük harfle \"kahverengi\" demektir; burada bir soyadıdır.",
+   "form": null,
+   "base": "(soyadı)",
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "the Brown family",
+    "meaning": "Brown ailesi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": "İngiliz İngilizcesinde *family* gibi grup isimleri çoğul fiil alabilir: *the family were*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 9,
+    "text": "the Brown family",
+    "meaning": "Brown ailesi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, çoğul (were)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "very",
+   "pos": "adverb",
+   "wordId": "very",
+   "sense": 0,
+   "context": "çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "surprised",
+   "pos": "adjective",
+   "wordId": "surprised",
+   "sense": 0,
+   "context": "şaşırmış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (fatura)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "twice",
+   "pos": "adverb",
+   "wordId": "twice",
+   "sense": 0,
+   "context": "iki kat",
+   "note": "*twice as* + sıfat + *as* \"…-in iki katı\" demektir: *twice as high as* → iki katı yüksek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "(as … as: kadar)",
+   "note": "*as* + sıfat + *as* iki şeyi eşitlik bakımından karşılaştırır: *as high as* → kadar yüksek.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "high",
+   "pos": "adjective",
+   "wordId": "high",
+   "sense": 0,
+   "context": "yüksek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "(as … as: kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "before",
+   "pos": "adverb",
+   "wordId": "before",
+   "sense": 2,
+   "context": "önceki",
+   "note": "*the year before* \"bir önceki yıl\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "twice as high as the year before",
+    "meaning": "bir önceki yılın iki katı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "decide",
+   "pos": "verb",
+   "wordId": "decide",
+   "sense": 0,
+   "context": "karar verdiler",
+   "note": null,
+   "form": "decide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (yapmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "yapmak",
+   "note": "*make a change* \"değişiklik yapmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "make some changes",
+    "meaning": "bazı değişiklikler yapmak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "make some changes",
+    "meaning": "bazı değişiklikler yapmak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "change",
+   "pos": "noun",
+   "wordId": "change",
+   "sense": 1,
+   "context": "değişiklikler",
+   "note": null,
+   "form": "change'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "make some changes",
+    "meaning": "bazı değişiklikler yapmak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "switch",
+   "pos": "verb",
+   "wordId": "switch",
+   "sense": 0,
+   "context": "kapattılar",
+   "note": "*switch off* \"(elektrikli bir şeyi) kapatmak\", *switch on* \"açmak\" demektir.",
+   "form": "switch + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "switched off",
+    "meaning": "kapattılar (switch off)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "off",
+   "pos": "adverb",
+   "wordId": "off",
+   "sense": 0,
+   "context": "kapalı (switch off)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 30,
+    "text": "switched off",
+    "meaning": "kapattılar (switch off)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışıklar",
+   "note": null,
+   "form": "light'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ken (-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "çıktılar (ayrıldılar)",
+   "note": "*leave a room* \"bir odadan çıkmak\" demektir; *leave*'den sonra *from* gelmez.",
+   "form": "leave fiilinin geçmiş zaman hali (left, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "bıraktılar",
+   "note": "*stop* + *-ing* \"… -meyi bırakmak\" demektir.",
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakmak",
+   "note": "*leave something on* \"bir şeyi açık bırakmak\" demektir.",
+   "form": "leave + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "leaving the TV on",
+    "meaning": "televizyonu açık bırakmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "leaving the TV on",
+    "meaning": "televizyonu açık bırakmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "TV",
+   "pos": "noun",
+   "wordId": "tv",
+   "sense": 0,
+   "context": "televizyon",
+   "note": "*TV*, *television*'ın kısaltmasıdır ve büyük harfle yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "leaving the TV on",
+    "meaning": "televizyonu açık bırakmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "açık",
+   "note": "*on* zarf olarak cihazlar için \"açık, çalışır durumda\" demektir; tersi *off*'tur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "leaving the TV on",
+    "meaning": "televizyonu açık bırakmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "all",
+   "pos": "determiner",
+   "wordId": "all",
+   "sense": 0,
+   "context": "bütün",
+   "note": "*all night* \"bütün gece\" demektir; önüne *the* gelmez.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "all night",
+    "meaning": "bütün gece"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "gece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "all night",
+    "meaning": "bütün gece"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "ayrıca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "giydiler",
+   "note": "*put on* giysiler için \"giymek\" demektir.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz — değişmez)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "put on",
+    "meaning": "giydiler (put on)"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "(put on: giymek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "put on",
+    "meaning": "giydiler (put on)"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "warm",
+   "pos": "adjective",
+   "wordId": "warm",
+   "sense": 0,
+   "context": "kalın (sıcak tutan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "jumper",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kazaklar",
+   "note": "*jumper* İngiliz İngilizcesinde \"kazak\" demektir; Amerikan İngilizcesinde *sweater* denir.",
+   "form": "jumper'ın çoğulu",
+   "base": "kazak",
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "yerine",
+   "note": "*instead of* + *-ing* \"… -mek yerine\" demektir: *instead of turning up the heating* → kaloriferi açmak yerine.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "instead of",
+    "meaning": "yerine"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(instead of: yerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "instead of",
+    "meaning": "yerine"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "açmak (artırmak)",
+   "note": "*turn up* ısıtma ya da ses için \"açmak, artırmak\", *turn down* \"kısmak\" demektir.",
+   "form": "turn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "turning up",
+    "meaning": "açmak, artırmak (turn up)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "up",
+   "pos": "adverb",
+   "wordId": "up",
+   "sense": 0,
+   "context": "(turn up: açmak, artırmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "turning up",
+    "meaning": "açmak, artırmak (turn up)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "heating",
+   "pos": "noun",
+   "wordId": "heating",
+   "sense": 0,
+   "context": "kalorifer (ısıtma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "sonra (-den sonra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "ay",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "bill",
+   "pos": "noun",
+   "wordId": "bill",
+   "sense": 0,
+   "context": "fatura",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dü)",
+   "note": null,
+   "form": "be fiilinin geçmiş zaman hali, tekil (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "çok (çok daha)",
+   "note": "Karşılaştırma sıfatlarından önce *much* \"çok daha\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "low",
+   "pos": "adjective",
+   "wordId": "low",
+   "sense": 0,
+   "context": "daha düşük",
+   "note": null,
+   "form": "low sıfatının karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": "*even* şaşırtıcı bir bilgiyi vurgular: *The children even started…* → Çocuklar bile … başladı.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "start",
+   "pos": "verb",
+   "wordId": "start",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*start* + *-ing* \"… -meye başlamak\" demektir.",
+   "form": "start + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "remind",
+   "pos": "verb",
+   "wordId": "remind",
+   "sense": 0,
+   "context": "hatırlatmak",
+   "note": "*remind someone to do something* \"birine bir şeyi yapmayı hatırlatmak\" demektir.",
+   "form": "remind + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": null,
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (kapatmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "turn",
+   "pos": "verb",
+   "wordId": "turn",
+   "sense": 0,
+   "context": "kapatmak (turn off)",
+   "note": "*turn something off* \"bir şeyi kapatmak\" demektir; nesne *turn* ile *off* arasına girebilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "turn things off",
+    "meaning": "bir şeyleri kapatmak (turn off)"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şeyler",
+   "note": null,
+   "form": "thing'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "turn things off",
+    "meaning": "bir şeyleri kapatmak (turn off)"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "off",
+   "pos": "adverb",
+   "wordId": "off",
+   "sense": 0,
+   "context": "(turn off: kapatmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "turn things off",
+    "meaning": "bir şeyleri kapatmak (turn off)"
+   }
+  }
+ ]
+}
