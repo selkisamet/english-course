@@ -1,0 +1,1 @@
+# Mevcut yapıda ses olarak tarayıcının sesimi mi kullanıyor? Hikaye anlatılırken vurgulamalara dikkat ediliyor mu? Bir kaç farklı ses eklenebilir mi erkek veya kadın gibi?
