@@ -1,0 +1,1210 @@
+{
+ "storyId": "story-c2-049",
+ "textHash": "5c78835b657f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Nehirler, haritada net bir çizgi sunduğu için çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür."
+  },
+  {
+   "tr": "Oysa kıyılarında yaşayan insanlar için nehirler tarih boyunca bir engelden çok bir bağ olmuştur."
+  },
+  {
+   "tr": "Ticareti, fikirleri ve dilleri bir kıyıdan öbürüne taşımışlardır; karşılıklı kıyılardaki topluluklar da sık sık gelenekleri ve aile bağlarını paylaşmıştır."
+  },
+  {
+   "tr": "Bu nedenle bir nehrin tam ortasından siyasi bir sınır çizmek, coğrafyanın ve tarihin uzun zamandır birleştirdiği şeyi bölebilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "river",
+   "pos": "noun",
+   "wordId": "river",
+   "sense": 0,
+   "context": "nehirler",
+   "note": null,
+   "form": "river'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-müştür)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "serve",
+   "pos": "verb",
+   "wordId": "serve",
+   "sense": 0,
+   "context": "işlev görmüştür (hizmet etmiştir)",
+   "note": "*serve as something* \"… olarak işlev görmek, … görevi yapmak\" demektir.",
+   "form": "serve fiilinin 3. hali (served, -d)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "served as",
+    "meaning": "… olarak işlev gördü"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "served as",
+    "meaning": "… olarak işlev gördü"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "convenient",
+   "pos": "adjective",
+   "wordId": "convenient",
+   "sense": 0,
+   "context": "kullanışlı (elverişli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "border",
+   "pos": "noun",
+   "wordId": "border",
+   "sense": 0,
+   "context": "sınırlar",
+   "note": null,
+   "form": "border'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "nation",
+   "pos": "noun",
+   "wordId": "nation",
+   "sense": 0,
+   "context": "uluslar",
+   "note": null,
+   "form": "nation'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 8,
+    "text": "have often served as convenient borders between nations",
+    "meaning": "çoğu zaman uluslar arasında kullanışlı sınırlar olarak işlev görmüştür"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "sunarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil sebep ya da eşlik eden durumu anlatır.",
+   "form": "offer + -ing",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "clear",
+   "pos": "adjective",
+   "wordId": "clear",
+   "sense": 0,
+   "context": "net (açık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "line",
+   "pos": "noun",
+   "wordId": "line",
+   "sense": 0,
+   "context": "çizgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (haritada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "map",
+   "pos": "noun",
+   "wordId": "map",
+   "sense": 0,
+   "context": "harita",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "offering a clear line on the map",
+    "meaning": "haritada net bir çizgi sunarak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "who live along them",
+    "meaning": "kıyılarında yaşayan"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "live",
+   "pos": "verb",
+   "wordId": "live",
+   "sense": 0,
+   "context": "yaşayan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "who live along them",
+    "meaning": "kıyılarında yaşayan"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "along",
+   "pos": "preposition",
+   "wordId": "along",
+   "sense": 0,
+   "context": "boyunca (kıyılarında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "who live along them",
+    "meaning": "kıyılarında yaşayan"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (nehirler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 23,
+    "text": "who live along them",
+    "meaning": "kıyılarında yaşayan"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "river",
+   "pos": "noun",
+   "wordId": "river",
+   "sense": 0,
+   "context": "nehirler",
+   "note": null,
+   "form": "river'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştur)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "historically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tarih boyunca",
+   "note": "*-ly* eki sıfattan zarf yapar: *historical* → *historically*.",
+   "form": "historical + -ly (sıfattan zarf)",
+   "base": "tarihsel olarak, tarih boyunca",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmuştur",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "(… -den) çok",
+   "note": "*less A than B* \"A'dan çok B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "barrier",
+   "pos": "noun",
+   "wordId": "barrier",
+   "sense": 0,
+   "context": "engel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ (bağlantı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "less a barrier than a connection",
+    "meaning": "bir engelden çok bir bağ"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (nehirler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "carry",
+   "pos": "verb",
+   "wordId": "carry",
+   "sense": 0,
+   "context": "taşımışlardır",
+   "note": null,
+   "form": "carry'nin geçmiş zaman hali (carried, y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "trade",
+   "pos": "noun",
+   "wordId": "trade",
+   "sense": 0,
+   "context": "ticaret",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikirler",
+   "note": null,
+   "form": "idea'nın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "diller",
+   "note": null,
+   "form": "language'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": "*from one … to the other* \"birinden öbürüne\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "bank",
+   "pos": "noun",
+   "wordId": "bank",
+   "sense": 1,
+   "context": "kıyı",
+   "note": "*bank* \"banka\" demektir; nehirler için \"kıyı\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "öbürü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 45,
+    "text": "from one bank to the other",
+    "meaning": "bir kıyıdan öbürüne"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "community",
+   "pos": "noun",
+   "wordId": "community",
+   "sense": 0,
+   "context": "topluluklar",
+   "note": null,
+   "form": "community'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (kıyılardaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "on opposite shores",
+    "meaning": "karşılıklı kıyılarda"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "opposite",
+   "pos": "adjective",
+   "wordId": "opposite",
+   "sense": 0,
+   "context": "karşılıklı (karşı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "on opposite shores",
+    "meaning": "karşılıklı kıyılarda"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "shore",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kıyılar",
+   "note": "*shore* deniz, göl ya da nehrin \"kıyısı\"dır.",
+   "form": "shore'un çoğulu",
+   "base": "kıyı, sahil",
+   "phrase": {
+    "from": 48,
+    "to": 50,
+    "text": "on opposite shores",
+    "meaning": "karşılıklı kıyılarda"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmıştır",
+   "note": null,
+   "form": "share + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "custom",
+   "pos": "noun",
+   "wordId": "custom",
+   "sense": 0,
+   "context": "gelenekler",
+   "note": null,
+   "form": "custom'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "family ties",
+    "meaning": "aile bağları"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "tie",
+   "pos": "noun",
+   "wordId": "tie",
+   "sense": 1,
+   "context": "bağlar",
+   "note": "*tie* \"kravat\" ve \"bağ\" demektir: *family ties* → aile bağları.",
+   "form": "tie'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "family ties",
+    "meaning": "aile bağları"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "draw",
+   "pos": "verb",
+   "wordId": "draw",
+   "sense": 0,
+   "context": "çizmek",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Drawing a border…* → bir sınır çizmek.",
+   "form": "draw + -ing",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "Drawing a political border",
+    "meaning": "siyasi bir sınır çizmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "Drawing a political border",
+    "meaning": "siyasi bir sınır çizmek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "political",
+   "pos": "adjective",
+   "wordId": "political",
+   "sense": 0,
+   "context": "siyasi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "Drawing a political border",
+    "meaning": "siyasi bir sınır çizmek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "border",
+   "pos": "noun",
+   "wordId": "border",
+   "sense": 0,
+   "context": "sınır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "Drawing a political border",
+    "meaning": "siyasi bir sınır çizmek"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "down",
+   "pos": "preposition",
+   "wordId": "down",
+   "sense": 1,
+   "context": "boyunca (ortasından)",
+   "note": "*down the middle of something* \"bir şeyin tam ortasından (boydan boya)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "middle",
+   "pos": "noun",
+   "wordId": "middle",
+   "sense": 0,
+   "context": "orta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (nehrin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "river",
+   "pos": "noun",
+   "wordId": "river",
+   "sense": 0,
+   "context": "nehir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 66,
+    "text": "down the middle of a river",
+    "meaning": "bir nehrin tam ortasından"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "divide",
+   "pos": "verb",
+   "wordId": "divide",
+   "sense": 0,
+   "context": "bölmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -diği) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "geography",
+   "pos": "noun",
+   "wordId": "geography",
+   "sense": 0,
+   "context": "coğrafya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun zamandır",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "unite",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "birleştirdiği",
+   "note": "*unite* \"birleştirmek\" demektir; *united* sıfat olarak \"birleşik\" anlamındadır.",
+   "form": "unite fiilinin 3. hali (united, -d)",
+   "base": "birleştirmek, birleşmek",
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "what geography and history have long united",
+    "meaning": "coğrafyanın ve tarihin uzun zamandır birleştirdiği şey"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1272 @@
+{
+ "storyId": "story-c2-030",
+ "textHash": "b12ea4bf240c",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Anne babaları ölünce üç kardeşe, hiçbirinin bakımını karşılayamayacağı büyük bir ev miras kaldı."
+  },
+  {
+   "tr": "Evi satmak tek mantıklı seçenek gibi görünüyordu; ama her oda anılarla doluydu ve her eşya korunmak için yalvarıyor gibiydi."
+  },
+  {
+   "tr": "Aylarca kararı ertelediler ve hiçbirinin aslında istemediği mobilyalar yüzünden tartıştılar."
+  },
+  {
+   "tr": "Sonunda, korumak için mücadele ettikleri şeyin evin kendisi değil, onun bir zamanlar içinde barındırdığı aile olduğunu anladılar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-ince",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "When their parents died",
+    "meaning": "anne babaları ölünce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "When their parents died",
+    "meaning": "anne babaları ölünce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "parent",
+   "pos": "noun",
+   "wordId": "parent",
+   "sense": 0,
+   "context": "anne baba",
+   "note": null,
+   "form": "parent'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "When their parents died",
+    "meaning": "anne babaları ölünce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "öldü",
+   "note": null,
+   "form": "die + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "When their parents died",
+    "meaning": "anne babaları ölünce"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "the three siblings inherited",
+    "meaning": "üç kardeşe miras kaldı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "three",
+   "pos": "number",
+   "wordId": "three",
+   "sense": 0,
+   "context": "üç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "the three siblings inherited",
+    "meaning": "üç kardeşe miras kaldı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "sibling",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kardeşler",
+   "note": "*sibling* cinsiyet belirtmeden \"kardeş\" demektir.",
+   "form": "sibling'in çoğulu",
+   "base": "kardeş",
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "the three siblings inherited",
+    "meaning": "üç kardeşe miras kaldı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "inherit",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "miras kaldı (miras aldılar)",
+   "note": null,
+   "form": "inherit + -ed (geçmiş zaman)",
+   "base": "miras olarak almak",
+   "phrase": {
+    "from": 4,
+    "to": 7,
+    "text": "the three siblings inherited",
+    "meaning": "üç kardeşe miras kaldı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-eceği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 18,
+    "text": "that none of them could afford to maintain",
+    "meaning": "hiçbirinin bakımını karşılayamayacağı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "none",
+   "pos": "pronoun",
+   "wordId": "none",
+   "sense": 0,
+   "context": "hiçbiri",
+   "note": "*none of them* \"onların hiçbiri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 18,
+    "text": "that none of them could afford to maintain",
+    "meaning": "hiçbirinin bakımını karşılayamayacağı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 18,
+    "text": "that none of them could afford to maintain",
+    "meaning": "hiçbirinin bakımını karşılayamayacağı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 18,
+    "text": "that none of them could afford to maintain",
+    "meaning": "hiçbirinin bakımını karşılayamayacağı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "could afford to maintain",
+    "meaning": "bakımını karşılayabilirdi"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "afford",
+   "pos": "verb",
+   "wordId": "afford",
+   "sense": 0,
+   "context": "(parası) yetmek",
+   "note": "*can afford to do something* \"bir şeyi yapmaya gücü/parası yetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "could afford to maintain",
+    "meaning": "bakımını karşılayabilirdi"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "could afford to maintain",
+    "meaning": "bakımını karşılayabilirdi"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "maintain",
+   "pos": "verb",
+   "wordId": "maintain",
+   "sense": 0,
+   "context": "bakımını yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "could afford to maintain",
+    "meaning": "bakımını karşılayabilirdi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "sell",
+   "pos": "verb",
+   "wordId": "sell",
+   "sense": 0,
+   "context": "satmak",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Selling it* → onu satmak.",
+   "form": "sell + -ing",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (evi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "gibi görünüyordu",
+   "note": null,
+   "form": "seem + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "only",
+   "pos": "adjective",
+   "wordId": "only",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "sensible",
+   "pos": "adjective",
+   "wordId": "sensible",
+   "sense": 0,
+   "context": "mantıklı",
+   "note": "*sensible* \"mantıklı, akıllıca\" demektir; \"hassas\" anlamına gelmez (o *sensitive*'dir).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "option",
+   "pos": "noun",
+   "wordId": "option",
+   "sense": 0,
+   "context": "seçenek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 25,
+    "text": "Selling it seemed the only sensible option",
+    "meaning": "evi satmak tek mantıklı seçenek gibi görünüyordu"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "was saturated with memories",
+    "meaning": "anılarla doluydu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "saturated",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "dolu (doymuş)",
+   "note": "*saturated with something* \"bir şeyle tamamen dolmuş, doymuş\" demektir.",
+   "form": null,
+   "base": "doymuş, tamamen dolmuş",
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "was saturated with memories",
+    "meaning": "anılarla doluydu"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "was saturated with memories",
+    "meaning": "anılarla doluydu"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 32,
+    "text": "was saturated with memories",
+    "meaning": "anılarla doluydu"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "object",
+   "pos": "noun",
+   "wordId": "object",
+   "sense": 0,
+   "context": "eşya (nesne)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "gibiydi",
+   "note": "*seem to* + fiil \"… gibi görünmek\" demektir.",
+   "form": "seem + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "seemed to plead for preservation",
+    "meaning": "korunmak için yalvarıyor gibiydi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "seemed to plead for preservation",
+    "meaning": "korunmak için yalvarıyor gibiydi"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "plead",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalvarmak",
+   "note": "*plead for something* \"bir şey için yalvarmak\" demektir.",
+   "form": null,
+   "base": "yalvarmak",
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "seemed to plead for preservation",
+    "meaning": "korunmak için yalvarıyor gibiydi"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "seemed to plead for preservation",
+    "meaning": "korunmak için yalvarıyor gibiydi"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "preservation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "korunma",
+   "note": "*preserve* (korumak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "koruma, muhafaza",
+   "phrase": {
+    "from": 36,
+    "to": 40,
+    "text": "seemed to plead for preservation",
+    "meaning": "korunmak için yalvarıyor gibiydi"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(aylarca)",
+   "note": "*for* + süre \"… boyunca\" demektir: *for months* → aylarca.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "For months",
+    "meaning": "aylarca"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "month",
+   "pos": "noun",
+   "wordId": "month",
+   "sense": 0,
+   "context": "aylar",
+   "note": null,
+   "form": "month'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "For months",
+    "meaning": "aylarca"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "postpone",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ertelediler",
+   "note": null,
+   "form": "postpone + -d (geçmiş zaman)",
+   "base": "ertelemek",
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "postponed the decision",
+    "meaning": "kararı ertelediler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "postponed the decision",
+    "meaning": "kararı ertelediler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "karar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 46,
+    "text": "postponed the decision",
+    "meaning": "kararı ertelediler"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "quarrel",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "tartışarak",
+   "note": "*quarrel over something* \"bir şey yüzünden kavga etmek, tartışmak\" demektir.",
+   "form": "quarrel + -ing (İngiliz yazımında l ikilenir)",
+   "base": "tartışmak, kavga etmek",
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "quarrelling over furniture",
+    "meaning": "mobilyalar yüzünden tartışarak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "yüzünden (üzerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "quarrelling over furniture",
+    "meaning": "mobilyalar yüzünden tartışarak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "furniture",
+   "pos": "noun",
+   "wordId": "furniture",
+   "sense": 0,
+   "context": "mobilya",
+   "note": "*furniture* sayılamayan bir isimdir: *a piece of furniture* (✗ furnitures).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 49,
+    "text": "quarrelling over furniture",
+    "meaning": "mobilyalar yüzünden tartışarak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "none",
+   "pos": "pronoun",
+   "wordId": "none",
+   "sense": 0,
+   "context": "hiçbiri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "truly",
+   "pos": "adverb",
+   "wordId": "truly",
+   "sense": 0,
+   "context": "aslında (gerçekten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "want",
+   "pos": "verb",
+   "wordId": "want",
+   "sense": 0,
+   "context": "istemediği",
+   "note": null,
+   "form": "want + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "that none of them truly wanted",
+    "meaning": "hiçbirinin aslında istemediği"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anladılar",
+   "note": null,
+   "form": "understand fiilinin geçmiş zaman hali (understood, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -dikleri) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "struggle",
+   "pos": "verb",
+   "wordId": "struggle",
+   "sense": 0,
+   "context": "mücadele etmek",
+   "note": null,
+   "form": "struggle + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "korumak (elde tutmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 65,
+    "text": "what they were struggling to keep",
+    "meaning": "korumak için mücadele ettikleri şey"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "not the house itself but",
+    "meaning": "evin kendisi değil, …"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "not the house itself but",
+    "meaning": "evin kendisi değil, …"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "not the house itself but",
+    "meaning": "evin kendisi değil, …"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "itself",
+   "pos": "pronoun",
+   "wordId": "itself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "İsimden sonra gelen *itself* vurgu katar: *the house itself* → evin kendisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "not the house itself but",
+    "meaning": "evin kendisi değil, …"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "not the house itself but",
+    "meaning": "evin kendisi değil, …"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "family",
+   "pos": "noun",
+   "wordId": "family",
+   "sense": 0,
+   "context": "aile",
+   "note": "İsimden sonra *that* düşebilir: *the family (that) it had once contained*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ev)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "contain",
+   "pos": "verb",
+   "wordId": "contain",
+   "sense": 0,
+   "context": "barındırdığı (içerdiği)",
+   "note": null,
+   "form": "contain fiilinin 3. hali (contained, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 77,
+    "text": "the family it had once contained",
+    "meaning": "onun bir zamanlar barındırdığı aile"
+   }
+  }
+ ]
+}

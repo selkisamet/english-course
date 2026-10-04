@@ -1,0 +1,1291 @@
+{
+ "storyId": "story-c2-027",
+ "textHash": "60a926750de2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tasarımcılar uzun zamandır biçimin işlevi izleyip izlememesi gerektiğini tartışıyor."
+  },
+  {
+   "tr": "Katı işlevselciliğin savunucuları süslemenin dikkat dağıtıcı bir şey, hatta bir tür sahtekârlık olduğunu ileri sürer."
+  },
+  {
+   "tr": "Karşıtları ise insanoğlunun hiçbir zaman salt kullanışlılıkla yetinmediğini söyleyerek karşılık verir."
+  },
+  {
+   "tr": "Her kültürde insanlar, yemek tencerelerinden tarım aletlerine kadar en sıradan nesneleri bile süslemiştir; bu da güzellik arzusunun bir lüks değil, temel bir ihtiyaç olduğunu düşündürür."
+  },
+  {
+   "tr": "İyi tasarlanmış bir sandalye belki de hem bedeni desteklemeli hem de göze hoş gelmelidir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "designer",
+   "pos": "noun",
+   "wordId": "designer",
+   "sense": 0,
+   "context": "tasarımcılar",
+   "note": null,
+   "form": "designer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun zamandır",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "debate",
+   "pos": "verb",
+   "wordId": "debate",
+   "sense": 1,
+   "context": "tartışıyor",
+   "note": null,
+   "form": "debate fiilinin 3. hali (debated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 3,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "whether form should follow function",
+    "meaning": "biçimin işlevi izleyip izlememesi gerektiği"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "form",
+   "pos": "noun",
+   "wordId": "form",
+   "sense": 0,
+   "context": "biçim",
+   "note": "*form follows function* \"biçim işlevi izler\" mimarlık ve tasarımda bilinen bir ilkedir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "whether form should follow function",
+    "meaning": "biçimin işlevi izleyip izlememesi gerektiği"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "whether form should follow function",
+    "meaning": "biçimin işlevi izleyip izlememesi gerektiği"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "follow",
+   "pos": "verb",
+   "wordId": "follow",
+   "sense": 0,
+   "context": "izlemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "whether form should follow function",
+    "meaning": "biçimin işlevi izleyip izlememesi gerektiği"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "function",
+   "pos": "noun",
+   "wordId": "function",
+   "sense": 0,
+   "context": "işlev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 8,
+    "text": "whether form should follow function",
+    "meaning": "biçimin işlevi izleyip izlememesi gerektiği"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "advocate",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "savunucular",
+   "note": "*advocate* isim olarak \"savunucu\", fiil olarak \"savunmak\" demektir.",
+   "form": "advocate'in çoğulu",
+   "base": "savunucu, taraftar",
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Advocates of strict functionalism",
+    "meaning": "katı işlevselciliğin savunucuları"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Advocates of strict functionalism",
+    "meaning": "katı işlevselciliğin savunucuları"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "strict",
+   "pos": "adjective",
+   "wordId": "strict",
+   "sense": 0,
+   "context": "katı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Advocates of strict functionalism",
+    "meaning": "katı işlevselciliğin savunucuları"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "functionalism",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "işlevselcilik",
+   "note": "*function* (işlev) + *-al* + *-ism* (akım): yalnızca işleve önem veren tasarım anlayışı.",
+   "form": null,
+   "base": "işlevselcilik",
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "Advocates of strict functionalism",
+    "meaning": "katı işlevselciliğin savunucuları"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "maintain",
+   "pos": "verb",
+   "wordId": "maintain",
+   "sense": 0,
+   "context": "ileri sürer",
+   "note": "*maintain* \"sürdürmek\" demektir; *maintain that…* ise \"… olduğunu ileri sürmek, savunmak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "ornament",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "süsleme",
+   "note": null,
+   "form": null,
+   "base": "süs, süsleme",
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "a distraction",
+    "meaning": "dikkat dağıtıcı bir şey"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "distraction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dikkat dağıtıcı şey",
+   "note": null,
+   "form": null,
+   "base": "dikkat dağıtıcı şey",
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "a distraction",
+    "meaning": "dikkat dağıtıcı bir şey"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "even a kind of dishonesty",
+    "meaning": "hatta bir tür sahtekârlık"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "even a kind of dishonesty",
+    "meaning": "hatta bir tür sahtekârlık"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "even a kind of dishonesty",
+    "meaning": "hatta bir tür sahtekârlık"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a kind of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "even a kind of dishonesty",
+    "meaning": "hatta bir tür sahtekârlık"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "dishonesty",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sahtekârlık",
+   "note": "*dis-* (olumsuzluk) + *honesty* (dürüstlük): \"dürüst olmama\".",
+   "form": null,
+   "base": "sahtekârlık, dürüst olmama",
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "even a kind of dishonesty",
+    "meaning": "hatta bir tür sahtekârlık"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "opponent",
+   "pos": "noun",
+   "wordId": "opponent",
+   "sense": 0,
+   "context": "karşıtlar (rakipler)",
+   "note": null,
+   "form": "opponent'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "counter",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "karşılık verir",
+   "note": "*counter that…* bir görüşe \"… diyerek karşılık vermek, itiraz etmek\" demektir.",
+   "form": null,
+   "base": "karşılık vermek, itiraz etmek",
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": "*human beings* \"insanlar, insanoğlu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "human beings",
+    "meaning": "insanoğlu"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "being",
+   "pos": "noun",
+   "wordId": "being",
+   "sense": 0,
+   "context": "varlıklar",
+   "note": null,
+   "form": "being'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 29,
+    "text": "human beings",
+    "meaning": "insanoğlu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-medi)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmadı)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "satisfied",
+   "pos": "adjective",
+   "wordId": "satisfied",
+   "sense": 0,
+   "context": "yetinmiş (memnun)",
+   "note": "*be satisfied with something* \"bir şeyle yetinmek, memnun olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "mere",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "salt",
+   "note": "*mere* \"sadece, salt, -den ibaret\" demektir ve isimden önce gelir.",
+   "form": null,
+   "base": "salt, sadece, yalnızca",
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "utility",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kullanışlılık (fayda)",
+   "note": null,
+   "form": null,
+   "base": "fayda, kullanışlılık",
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "never been satisfied with mere utility",
+    "meaning": "hiçbir zaman salt kullanışlılıkla yetinmedi"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "across",
+   "pos": "preposition",
+   "wordId": "across",
+   "sense": 0,
+   "context": "(her kültürde)",
+   "note": "*across cultures* \"farklı kültürlerin hepsinde, kültürler boyunca\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "Across cultures",
+    "meaning": "her kültürde, kültürler boyunca"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "culture",
+   "pos": "noun",
+   "wordId": "culture",
+   "sense": 0,
+   "context": "kültürler",
+   "note": null,
+   "form": "culture'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 38,
+    "text": "Across cultures",
+    "meaning": "her kültürde, kültürler boyunca"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miştir)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "decorate",
+   "pos": "verb",
+   "wordId": "decorate",
+   "sense": 0,
+   "context": "süslemiştir",
+   "note": null,
+   "form": "decorate fiilinin 3. hali (decorated, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the humblest objects",
+    "meaning": "en sıradan nesneler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "humble",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "en sıradan",
+   "note": "*humble* \"alçakgönüllü\" ve eşyalar için \"basit, sıradan\" demektir.",
+   "form": "humble'ın en üstünlük hali (humblest, -st)",
+   "base": "alçakgönüllü; basit, sıradan",
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the humblest objects",
+    "meaning": "en sıradan nesneler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "object",
+   "pos": "noun",
+   "wordId": "object",
+   "sense": 0,
+   "context": "nesneler",
+   "note": null,
+   "form": "object'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the humblest objects",
+    "meaning": "en sıradan nesneler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": "*from A to B* \"A'dan B'ye kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "cooking",
+   "pos": "noun",
+   "wordId": "cooking",
+   "sense": 0,
+   "context": "yemek (pişirme)",
+   "note": "Burada *cooking* isim olarak *pots*'u niteler: *cooking pots* → yemek tencereleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "pot",
+   "pos": "noun",
+   "wordId": "pot",
+   "sense": 0,
+   "context": "tencereler",
+   "note": null,
+   "form": "pot'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "farming",
+   "pos": "noun",
+   "wordId": "farming",
+   "sense": 0,
+   "context": "tarım",
+   "note": "Burada *farming* isim olarak *tools*'u niteler: *farming tools* → tarım aletleri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "tool",
+   "pos": "noun",
+   "wordId": "tool",
+   "sense": 0,
+   "context": "aletler",
+   "note": null,
+   "form": "tool'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "from cooking pots to farming tools",
+    "meaning": "yemek tencerelerinden tarım aletlerine kadar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "düşündürür",
+   "note": "*suggest that…* \"… olduğunu düşündürmek, akla getirmek\" anlamına gelir.",
+   "form": "suggest + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "the desire for beauty",
+    "meaning": "güzellik arzusu"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "desire",
+   "pos": "noun",
+   "wordId": "desire",
+   "sense": 0,
+   "context": "arzu",
+   "note": "*the desire for something* \"bir şeye duyulan arzu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "the desire for beauty",
+    "meaning": "güzellik arzusu"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(… arzusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "the desire for beauty",
+    "meaning": "güzellik arzusu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "beauty",
+   "pos": "noun",
+   "wordId": "beauty",
+   "sense": 0,
+   "context": "güzellik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "the desire for beauty",
+    "meaning": "güzellik arzusu"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değil)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "luxury",
+   "pos": "noun",
+   "wordId": "luxury",
+   "sense": 0,
+   "context": "lüks",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "fundamental",
+   "pos": "adjective",
+   "wordId": "fundamental",
+   "sense": 0,
+   "context": "temel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "need",
+   "pos": "noun",
+   "wordId": "need",
+   "sense": 1,
+   "context": "ihtiyaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 64,
+    "text": "not a luxury but a fundamental need",
+    "meaning": "bir lüks değil, temel bir ihtiyaç"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "chair",
+   "pos": "noun",
+   "wordId": "chair",
+   "sense": 0,
+   "context": "sandalye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-mış)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "well designed",
+    "meaning": "iyi tasarlanmış"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "design",
+   "pos": "verb",
+   "wordId": "design",
+   "sense": 1,
+   "context": "tasarlanmış",
+   "note": null,
+   "form": "design fiilinin 3. hali (designed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 70,
+    "text": "well designed",
+    "meaning": "iyi tasarlanmış"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "perhaps",
+   "pos": "adverb",
+   "wordId": "perhaps",
+   "sense": 0,
+   "context": "belki de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 73,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "hem",
+   "note": "*both … and …* \"hem … hem (de) …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "support",
+   "pos": "verb",
+   "wordId": "support",
+   "sense": 0,
+   "context": "desteklemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "body",
+   "pos": "noun",
+   "wordId": "body",
+   "sense": 0,
+   "context": "beden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "(hem de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "delight",
+   "pos": "verb",
+   "wordId": "delight",
+   "sense": 0,
+   "context": "hoş gelmek (sevindirmek)",
+   "note": "*delight the eye* \"göze hoş gelmek, gözü okşamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  },
+  {
+   "i": 80,
+   "lemma": "eye",
+   "pos": "noun",
+   "wordId": "eye",
+   "sense": 0,
+   "context": "göz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 80,
+    "text": "both support the body and delight the eye",
+    "meaning": "hem bedeni desteklemeli hem göze hoş gelmeli"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1154 @@
+{
+ "storyId": "story-c2-029",
+ "textHash": "c8252cbcfe48",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Agnes seksen yaşında, arazisinin kenarı boyunca bir sıra meşe ağacı dikti."
+  },
+  {
+   "tr": "Meşelerin tam boylarına ulaşması kuşaklar sürdüğü ve Agnes onların gölgesinde asla oturamayacağı için komşuları şaşkına döndü."
+  },
+  {
+   "tr": "Neden zahmet ettiği sorulduğunda, yalnızca bir zamanlar birinin de onun için ağaç diktiğini söyledi."
+  },
+  {
+   "tr": "Meşeler artık evden daha uzun ve onu hiç tanımamış çocuklar her yaz onların altında oynuyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-de (yaşında)",
+   "note": "*at the age of* + sayı \"… yaşında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "At the age of eighty",
+    "meaning": "seksen yaşında"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "At the age of eighty",
+    "meaning": "seksen yaşında"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "yaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "At the age of eighty",
+    "meaning": "seksen yaşında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(the age of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "At the age of eighty",
+    "meaning": "seksen yaşında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "eighty",
+   "pos": "number",
+   "wordId": "eighty",
+   "sense": 0,
+   "context": "seksen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "At the age of eighty",
+    "meaning": "seksen yaşında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "Agnes",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Agnes",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "plant",
+   "pos": "verb",
+   "wordId": "plant",
+   "sense": 1,
+   "context": "dikti",
+   "note": null,
+   "form": "plant + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "a row of oak trees",
+    "meaning": "bir sıra meşe ağacı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "row",
+   "pos": "noun",
+   "wordId": "row",
+   "sense": 0,
+   "context": "sıra",
+   "note": "*a row of* \"bir sıra …\" demektir; *row* \"sıra\" anlamında \"rou\" diye okunur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "a row of oak trees",
+    "meaning": "bir sıra meşe ağacı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bir sıra …)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "a row of oak trees",
+    "meaning": "bir sıra meşe ağacı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "oak",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "meşe",
+   "note": "Burada *oak* isim olarak *trees*'i niteler: *oak trees* → meşe ağaçları.",
+   "form": null,
+   "base": "meşe",
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "a row of oak trees",
+    "meaning": "bir sıra meşe ağacı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaçlar",
+   "note": null,
+   "form": "tree'nin çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "a row of oak trees",
+    "meaning": "bir sıra meşe ağacı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "along",
+   "pos": "preposition",
+   "wordId": "along",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "edge",
+   "pos": "noun",
+   "wordId": "edge",
+   "sense": 0,
+   "context": "kenar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (arazisinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "land",
+   "pos": "noun",
+   "wordId": "land",
+   "sense": 0,
+   "context": "arazi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 17,
+    "text": "along the edge of her land",
+    "meaning": "arazisinin kenarı boyunca"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "neighbour",
+   "pos": "noun",
+   "wordId": "neighbour",
+   "sense": 0,
+   "context": "komşular",
+   "note": null,
+   "form": "neighbour'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dü)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "were puzzled",
+    "meaning": "şaşkına döndüler"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "puzzled",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşkın",
+   "note": "*puzzle* (bulmaca; şaşırtmak) kelimesinden türemiştir: \"anlam veremeyen, şaşkın\".",
+   "form": null,
+   "base": "şaşkın, anlam veremeyen",
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "were puzzled",
+    "meaning": "şaşkına döndüler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "oak",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "meşeler",
+   "note": null,
+   "form": "oak'ın çoğulu",
+   "base": "meşe",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürer",
+   "note": "*take* + süre \"… sürmek, … almak\" demektir: *take generations* → kuşaklar sürer.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "take generations",
+    "meaning": "kuşaklar sürer"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "generation",
+   "pos": "noun",
+   "wordId": "generation",
+   "sense": 0,
+   "context": "kuşaklar",
+   "note": null,
+   "form": "generation'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 25,
+    "text": "take generations",
+    "meaning": "kuşaklar sürer"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek (için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "reach",
+   "pos": "verb",
+   "wordId": "reach",
+   "sense": 0,
+   "context": "ulaşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "reach their full height",
+    "meaning": "tam boylarına ulaşmak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "reach their full height",
+    "meaning": "tam boylarına ulaşmak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "full",
+   "pos": "adjective",
+   "wordId": "full",
+   "sense": 0,
+   "context": "tam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "reach their full height",
+    "meaning": "tam boylarına ulaşmak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "height",
+   "pos": "noun",
+   "wordId": "height",
+   "sense": 0,
+   "context": "boy (yükseklik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "reach their full height",
+    "meaning": "tam boylarına ulaşmak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Agnes)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-eceği)",
+   "note": "*would* burada geçmişten bakıldığında geleceği anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "asla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "sit",
+   "pos": "verb",
+   "wordId": "sit",
+   "sense": 0,
+   "context": "oturmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (gölgesinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "shade",
+   "pos": "noun",
+   "wordId": "shade",
+   "sense": 0,
+   "context": "gölge",
+   "note": "*shade* güneşten korunan \"gölgelik yer\", *shadow* ise bir nesnenin düşürdüğü \"gölge\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 38,
+    "text": "would never sit in their shade",
+    "meaning": "onların gölgesinde asla oturamayacaktı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": "*When asked* = *When she was asked* (sorulduğunda); özne ve *was* düşmüştür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "When asked",
+    "meaning": "sorulduğunda"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sorulmak",
+   "note": null,
+   "form": "ask fiilinin 3. hali (asked, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "When asked",
+    "meaning": "sorulduğunda"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "why",
+   "pos": "adverb",
+   "wordId": "why",
+   "sense": 0,
+   "context": "neden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "why she bothered",
+    "meaning": "neden zahmet ettiği"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "why she bothered",
+    "meaning": "neden zahmet ettiği"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "bother",
+   "pos": "verb",
+   "wordId": "bother",
+   "sense": 0,
+   "context": "zahmet ettiği",
+   "note": "*bother* (to do something) \"(bir şeyi yapmak için) zahmet etmek, uğraşmak\" demektir.",
+   "form": "bother + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "why she bothered",
+    "meaning": "neden zahmet ettiği"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "reply",
+   "pos": "verb",
+   "wordId": "reply",
+   "sense": 0,
+   "context": "cevap verdi (söyledi)",
+   "note": null,
+   "form": "reply'ın geçmiş zaman hali (replied, y → ied)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "someone",
+   "pos": "pronoun",
+   "wordId": "someone",
+   "sense": 0,
+   "context": "biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had once planted",
+    "meaning": "bir zamanlar dikmişti"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had once planted",
+    "meaning": "bir zamanlar dikmişti"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "plant",
+   "pos": "verb",
+   "wordId": "plant",
+   "sense": 1,
+   "context": "dikmişti",
+   "note": null,
+   "form": "plant fiilinin 3. hali (planted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "had once planted",
+    "meaning": "bir zamanlar dikmişti"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "tree",
+   "pos": "noun",
+   "wordId": "tree",
+   "sense": 0,
+   "context": "ağaçlar",
+   "note": null,
+   "form": "tree'nin çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onun (için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "oak",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "meşeler",
+   "note": null,
+   "form": "oak'ın çoğulu",
+   "base": "meşe",
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "tall",
+   "pos": "adjective",
+   "wordId": "tall",
+   "sense": 0,
+   "context": "daha uzun",
+   "note": null,
+   "form": "tall + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "taller than the house",
+    "meaning": "evden daha uzun"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "taller than the house",
+    "meaning": "evden daha uzun"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "taller than the house",
+    "meaning": "evden daha uzun"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "house",
+   "pos": "noun",
+   "wordId": "house",
+   "sense": 0,
+   "context": "ev",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "taller than the house",
+    "meaning": "evden daha uzun"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "children who never met her",
+    "meaning": "onu hiç tanımamış çocuklar"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "children who never met her",
+    "meaning": "onu hiç tanımamış çocuklar"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "children who never met her",
+    "meaning": "onu hiç tanımamış çocuklar"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "meet",
+   "pos": "verb",
+   "wordId": "meet",
+   "sense": 0,
+   "context": "tanımamış (karşılaşmamış)",
+   "note": null,
+   "form": "meet fiilinin geçmiş zaman hali (met, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "children who never met her",
+    "meaning": "onu hiç tanımamış çocuklar"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 68,
+    "text": "children who never met her",
+    "meaning": "onu hiç tanımamış çocuklar"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "oynuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "beneath",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "altında",
+   "note": null,
+   "form": null,
+   "base": "altında, altına",
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (meşeler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "every summer",
+    "meaning": "her yaz"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "summer",
+   "pos": "noun",
+   "wordId": "summer",
+   "sense": 0,
+   "context": "yaz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "every summer",
+    "meaning": "her yaz"
+   }
+  }
+ ]
+}

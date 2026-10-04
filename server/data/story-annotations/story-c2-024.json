@@ -1,0 +1,1199 @@
+{
+ "storyId": "story-c2-024",
+ "textHash": "f7a236ded943",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Pek çok iş yerinde meşgul olmak bir onur nişanına dönüştü."
+  },
+  {
+   "tr": "İnsanlar, sanki tükenmişlik erdemin kanıtıymış gibi, taşan gelen kutularıyla ve uykusuz gecelerle övünüyor."
+  },
+  {
+   "tr": "Oysa giderek artan sayıda araştırma, aralıksız faaliyetin çoğu zaman hizmet etmesi beklenen yaratıcılığın ta kendisini baltaladığını gösteriyor."
+  },
+  {
+   "tr": "İçgörü genellikle zihnin serbestçe dolaşabildiği dinlenme anlarında gelir."
+  },
+  {
+   "tr": "Belki de çoğumuzun yapabileceği en verimli şey, ara sıra hiçbir şey yapmamaktır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (iş yerinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "In many workplaces",
+    "meaning": "pek çok iş yerinde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "In many workplaces",
+    "meaning": "pek çok iş yerinde"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "workplace",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iş yerleri",
+   "note": "*workplace* *work* (iş) ve *place* (yer) kelimelerinden oluşur.",
+   "form": "workplace'in çoğulu",
+   "base": "iş yeri",
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "In many workplaces",
+    "meaning": "pek çok iş yerinde"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "busyness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "meşguliyet",
+   "note": "*busy* (meşgul) + *-ness*: \"meşgul olma hali\"; *business* (iş) ile karıştırılmamalı.",
+   "form": null,
+   "base": "meşguliyet, meşgul olma",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dü)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüştü (oldu)",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a badge of honour",
+    "meaning": "bir onur nişanı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "badge",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "nişan (rozet)",
+   "note": "*a badge of honour* \"bir onur nişanı\", yani gurur duyulan bir şey demektir.",
+   "form": null,
+   "base": "rozet, nişan",
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a badge of honour",
+    "meaning": "bir onur nişanı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(onur nişanı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a badge of honour",
+    "meaning": "bir onur nişanı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "honour",
+   "pos": "noun",
+   "wordId": "honour",
+   "sense": 0,
+   "context": "onur",
+   "note": "İngiliz yazımı *honour*, Amerikan yazımı *honor*'dır; *h* okunmaz.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a badge of honour",
+    "meaning": "bir onur nişanı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "boast",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "övünüyor",
+   "note": "*boast of/about something* \"bir şeyle övünmek\" demektir.",
+   "form": null,
+   "base": "övünmek, böbürlenmek",
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "overflowing",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "taşan",
+   "note": "*overflow* (taşmak) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "taşan, dolup taşan",
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "inbox",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gelen kutuları",
+   "note": "*inbox* e-postalarda \"gelen kutusu\" demektir.",
+   "form": "inbox'ın çoğulu (-es)",
+   "base": "gelen kutusu",
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "sleepless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "uykusuz",
+   "note": "*-less* eki \"-sız\" anlamı katar: *sleep* → *sleepless* (uykusuz).",
+   "form": null,
+   "base": "uykusuz",
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "night",
+   "pos": "noun",
+   "wordId": "night",
+   "sense": 0,
+   "context": "geceler",
+   "note": null,
+   "form": "night'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 17,
+    "text": "boast of overflowing inboxes and sleepless nights",
+    "meaning": "taşan gelen kutularıyla ve uykusuz gecelerle övünmek"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "(as though: sanki)",
+   "note": "*as though* + geçmiş zaman \"sanki … -miş gibi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "as though",
+    "meaning": "sanki … gibi"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "though",
+   "pos": "conjunction",
+   "wordId": "though",
+   "sense": 0,
+   "context": "(as though)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 19,
+    "text": "as though",
+    "meaning": "sanki … gibi"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "exhaustion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tükenmişlik",
+   "note": "*exhaust* (tüketmek, çok yormak) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "bitkinlik, tükenmişlik",
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "as though exhaustion were proof of virtue",
+    "meaning": "sanki tükenmişlik erdemin kanıtıymış gibi"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-mış gibi)",
+   "note": "*as though* sonrasında gerçek olmayan durumlarda *was* yerine *were* kullanılabilir.",
+   "form": "be fiilinin geçmiş zaman hali (were, dilek kipi)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "as though exhaustion were proof of virtue",
+    "meaning": "sanki tükenmişlik erdemin kanıtıymış gibi"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "proof",
+   "pos": "noun",
+   "wordId": "proof",
+   "sense": 0,
+   "context": "kanıt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "as though exhaustion were proof of virtue",
+    "meaning": "sanki tükenmişlik erdemin kanıtıymış gibi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (erdemin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "as though exhaustion were proof of virtue",
+    "meaning": "sanki tükenmişlik erdemin kanıtıymış gibi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "virtue",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "erdem",
+   "note": null,
+   "form": null,
+   "base": "erdem",
+   "phrase": {
+    "from": 18,
+    "to": 24,
+    "text": "as though exhaustion were proof of virtue",
+    "meaning": "sanki tükenmişlik erdemin kanıtıymış gibi"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "a growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "grow",
+   "pos": "verb",
+   "wordId": "grow",
+   "sense": 0,
+   "context": "giderek artan",
+   "note": null,
+   "form": "grow + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "a growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "body",
+   "pos": "noun",
+   "wordId": "body",
+   "sense": 0,
+   "context": "(birikim)",
+   "note": "*a body of research* \"bir araştırma birikimi, bir dizi araştırma\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "a growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a body of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "a growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "a growing body of research",
+    "meaning": "giderek artan sayıda araştırma"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": null,
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "relentless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "aralıksız",
+   "note": "*relentless* \"durmak bilmeyen, aralıksız\" demektir.",
+   "form": null,
+   "base": "aralıksız, amansız",
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "relentless activity",
+    "meaning": "aralıksız faaliyet"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "activity",
+   "pos": "noun",
+   "wordId": "activity",
+   "sense": 0,
+   "context": "faaliyet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 34,
+    "text": "relentless activity",
+    "meaning": "aralıksız faaliyet"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "undermine",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "baltaladığını",
+   "note": null,
+   "form": "undermine + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "baltalamak, zayıflatmak",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "the very creativity",
+    "meaning": "yaratıcılığın ta kendisi"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "very",
+   "pos": "adjective",
+   "wordId": "very",
+   "sense": 1,
+   "context": "ta kendisi",
+   "note": "*the very* + isim \"tam da o, … ta kendisi\" anlamında vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "the very creativity",
+    "meaning": "yaratıcılığın ta kendisi"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "creativity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yaratıcılık",
+   "note": "*creative* (yaratıcı) sıfatından *-ity* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "yaratıcılık",
+   "phrase": {
+    "from": 37,
+    "to": 39,
+    "text": "the very creativity",
+    "meaning": "yaratıcılığın ta kendisi"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (faaliyet)",
+   "note": "İsimden sonra *that* düşebilir: *the creativity (that) it is supposed to serve*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(beklenen)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "is supposed to serve",
+    "meaning": "hizmet etmesi beklenir"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "suppose",
+   "pos": "verb",
+   "wordId": "suppose",
+   "sense": 0,
+   "context": "beklenen",
+   "note": "*be supposed to do something* \"bir şeyi yapması beklenmek, yapması gerekmek\" demektir.",
+   "form": "suppose fiilinin 3. hali (supposed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "is supposed to serve",
+    "meaning": "hizmet etmesi beklenir"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "is supposed to serve",
+    "meaning": "hizmet etmesi beklenir"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "serve",
+   "pos": "verb",
+   "wordId": "serve",
+   "sense": 0,
+   "context": "hizmet etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "is supposed to serve",
+    "meaning": "hizmet etmesi beklenir"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "insight",
+   "pos": "noun",
+   "wordId": "insight",
+   "sense": 0,
+   "context": "içgörü (kavrayış)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "genellikle",
+   "note": "*tend to* + fiil \"genellikle … -mek\" demektir.",
+   "form": "tend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "tends to arrive",
+    "meaning": "genellikle gelir"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "tends to arrive",
+    "meaning": "genellikle gelir"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "gelmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "tends to arrive",
+    "meaning": "genellikle gelir"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "during",
+   "pos": "preposition",
+   "wordId": "during",
+   "sense": 0,
+   "context": "sırasında (-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "period",
+   "pos": "noun",
+   "wordId": "period",
+   "sense": 0,
+   "context": "anlar (dönemler)",
+   "note": null,
+   "form": "period'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "periods of rest",
+    "meaning": "dinlenme anları"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(dinlenme anları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "periods of rest",
+    "meaning": "dinlenme anları"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "rest",
+   "pos": "noun",
+   "wordId": "rest",
+   "sense": 1,
+   "context": "dinlenme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "periods of rest",
+    "meaning": "dinlenme anları"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "when",
+   "pos": "pronoun",
+   "wordId": "when",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": "*when* bir zamanı tanımlar: *periods of rest, when the mind is free…* → zihnin serbest olduğu dinlenme anları.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "is free to wander",
+    "meaning": "serbestçe dolaşabilir"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "free",
+   "pos": "adjective",
+   "wordId": "free",
+   "sense": 0,
+   "context": "serbest",
+   "note": "*be free to do something* \"bir şeyi yapmakta özgür olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "is free to wander",
+    "meaning": "serbestçe dolaşabilir"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "is free to wander",
+    "meaning": "serbestçe dolaşabilir"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "wander",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dolaşmak",
+   "note": null,
+   "form": null,
+   "base": "dolaşmak, gezinmek; (zihin) dalmak",
+   "phrase": {
+    "from": 56,
+    "to": 59,
+    "text": "is free to wander",
+    "meaning": "serbestçe dolaşabilir"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "perhaps",
+   "pos": "adverb",
+   "wordId": "perhaps",
+   "sense": 0,
+   "context": "belki de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "the most productive thing",
+    "meaning": "en verimli şey"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "the most productive thing",
+    "meaning": "en verimli şey"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "productive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "verimli",
+   "note": "*produce* (üretmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "verimli, üretken",
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "the most productive thing",
+    "meaning": "en verimli şey"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şey",
+   "note": "İsimden sonra *that* düşebilir: *the most productive thing (that) many of us could do*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "the most productive thing",
+    "meaning": "en verimli şey"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "çoğu",
+   "note": "*many of us* \"çoğumuz\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "many of us",
+    "meaning": "çoğumuz"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "many of us",
+    "meaning": "çoğumuz"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "many of us",
+    "meaning": "çoğumuz"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebileceği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "occasionally",
+   "pos": "adverb",
+   "wordId": "occasionally",
+   "sense": 0,
+   "context": "ara sıra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "nothing",
+   "pos": "pronoun",
+   "wordId": "nothing",
+   "sense": 0,
+   "context": "hiçbir şey (yapmamak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "nothing at all",
+    "meaning": "hiçbir şey"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at all: hiç)",
+   "note": "*nothing at all* \"hiçbir şey, kesinlikle hiçbir şey\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "nothing at all",
+    "meaning": "hiçbir şey"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "(at all)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "nothing at all",
+    "meaning": "hiçbir şey"
+   }
+  }
+ ]
+}

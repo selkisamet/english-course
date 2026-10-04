@@ -1,0 +1,1131 @@
+{
+ "storyId": "story-c2-017",
+ "textHash": "251f51dd3e4e",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Harabeler, sağlam binaların nadiren erişebildiği tuhaf bir büyüleyicilik taşır."
+  },
+  {
+   "tr": "Yıkılmakta olan bir manastır ya da otlarla kaplı bir tapınak, hayal gücünü zamanın yarım bıraktığını tamamlamaya davet eder ve boş salonları kaybolmuş seslerle doldurur."
+  },
+  {
+   "tr": "Belki de harabeler, en güçlü tutkuların bile sonunda doğaya boyun eğdiğini düşündürerek bizi teselli eder."
+  },
+  {
+   "tr": "Onları seyrederken kendi geçiciliğimizle yüzleşiriz, ama bunu güvenli bir mesafeden, kurban olarak değil seyirci olarak yaparız."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "ruin",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "harabeler",
+   "note": "*ruins* çoğul olarak \"harabe, kalıntılar\" demektir; fiil olarak *ruin* \"mahvetmek\" anlamına gelir.",
+   "form": "ruin'in çoğulu",
+   "base": "harabe, yıkıntı",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "exert",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "taşır (uygular)",
+   "note": "*exert a fascination/influence* \"bir büyü/etki uygulamak\" demektir.",
+   "form": null,
+   "base": "uygulamak, sarf etmek",
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "exert a peculiar fascination",
+    "meaning": "tuhaf bir büyüleyicilik taşır"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "exert a peculiar fascination",
+    "meaning": "tuhaf bir büyüleyicilik taşır"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "peculiar",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "tuhaf",
+   "note": null,
+   "form": null,
+   "base": "tuhaf, garip; kendine özgü",
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "exert a peculiar fascination",
+    "meaning": "tuhaf bir büyüleyicilik taşır"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "fascination",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "büyüleyicilik (çekicilik)",
+   "note": "*fascinate* (büyülemek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "büyülenme, çekicilik",
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "exert a peculiar fascination",
+    "meaning": "tuhaf bir büyüleyicilik taşır"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "intact",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sağlam",
+   "note": "*intact* \"bozulmamış, sağlam, eksiksiz\" demektir.",
+   "form": null,
+   "base": "sağlam, bozulmamış",
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "intact buildings seldom match",
+    "meaning": "sağlam binaların nadiren erişebildiği"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "binalar",
+   "note": null,
+   "form": "building'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "intact buildings seldom match",
+    "meaning": "sağlam binaların nadiren erişebildiği"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "seldom",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "nadiren",
+   "note": null,
+   "form": null,
+   "base": "nadiren, seyrek",
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "intact buildings seldom match",
+    "meaning": "sağlam binaların nadiren erişebildiği"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "match",
+   "pos": "verb",
+   "wordId": "match",
+   "sense": 1,
+   "context": "erişebildiği (denk gelebildiği)",
+   "note": "*match something* \"bir şeye denk olmak, ona erişmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "intact buildings seldom match",
+    "meaning": "sağlam binaların nadiren erişebildiği"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "crumble",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yıkılmakta olan",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *a crumbling abbey* → yıkılmakta olan bir manastır.",
+   "form": "crumble + -ing (sondaki e düşer)",
+   "base": "ufalanmak, dökülmek, çökmek",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "A crumbling abbey",
+    "meaning": "yıkılmakta olan bir manastır"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "abbey",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "manastır",
+   "note": null,
+   "form": null,
+   "base": "manastır",
+   "phrase": {
+    "from": 11,
+    "to": 12,
+    "text": "A crumbling abbey",
+    "meaning": "yıkılmakta olan bir manastır"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an overgrown temple*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "overgrown",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "otlarla kaplı",
+   "note": "*over-* (aşırı) + *grown* (büyümüş): \"bitkilerle kaplanmış\".",
+   "form": null,
+   "base": "otlarla/bitkilerle kaplı",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "an overgrown temple",
+    "meaning": "otlarla kaplı bir tapınak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "temple",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tapınak",
+   "note": null,
+   "form": null,
+   "base": "tapınak",
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "an overgrown temple",
+    "meaning": "otlarla kaplı bir tapınak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet eder",
+   "note": "*invite someone to do something* \"birini bir şey yapmaya davet etmek\" demektir.",
+   "form": "invite + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "invites the imagination to complete",
+    "meaning": "hayal gücünü tamamlamaya davet eder"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "invites the imagination to complete",
+    "meaning": "hayal gücünü tamamlamaya davet eder"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "imagination",
+   "pos": "noun",
+   "wordId": "imagination",
+   "sense": 0,
+   "context": "hayal gücü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "invites the imagination to complete",
+    "meaning": "hayal gücünü tamamlamaya davet eder"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "invites the imagination to complete",
+    "meaning": "hayal gücünü tamamlamaya davet eder"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "complete",
+   "pos": "verb",
+   "wordId": "complete",
+   "sense": 1,
+   "context": "tamamlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 21,
+    "text": "invites the imagination to complete",
+    "meaning": "hayal gücünü tamamlamaya davet eder"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -diği) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "what time has left unfinished",
+    "meaning": "zamanın yarım bıraktığı şey"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "what time has left unfinished",
+    "meaning": "zamanın yarım bıraktığı şey"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "what time has left unfinished",
+    "meaning": "zamanın yarım bıraktığı şey"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakmak",
+   "note": "*leave something unfinished* \"bir şeyi yarım bırakmak\" demektir.",
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "what time has left unfinished",
+    "meaning": "zamanın yarım bıraktığı şey"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "unfinished",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yarım",
+   "note": "*un-* ön eki olumsuzluk katar: *finished* (bitmiş) → *unfinished* (bitmemiş).",
+   "form": null,
+   "base": "bitmemiş, yarım",
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "what time has left unfinished",
+    "meaning": "zamanın yarım bıraktığı şey"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "fill",
+   "pos": "verb",
+   "wordId": "fill",
+   "sense": 0,
+   "context": "doldurarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda yapılan bir eylemi anlatır.",
+   "form": "fill + -ing",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "empty",
+   "pos": "adjective",
+   "wordId": "empty",
+   "sense": 0,
+   "context": "boş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "hall",
+   "pos": "noun",
+   "wordId": "hall",
+   "sense": 0,
+   "context": "salonlar",
+   "note": null,
+   "form": "hall'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "vanished",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kaybolmuş",
+   "note": "*vanish* (kaybolmak) fiilinin 3. hali sıfat olarak kullanılmıştır.",
+   "form": null,
+   "base": "kaybolmuş, yok olmuş",
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "voice",
+   "pos": "noun",
+   "wordId": "voice",
+   "sense": 0,
+   "context": "sesler",
+   "note": null,
+   "form": "voice'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 32,
+    "text": "filling empty halls with vanished voices",
+    "meaning": "boş salonları kaybolmuş seslerle doldurarak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "perhaps",
+   "pos": "adverb",
+   "wordId": "perhaps",
+   "sense": 0,
+   "context": "belki de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "(ayrıca) de",
+   "note": "Virgüller arasındaki *too* \"ayrıca, aynı zamanda\" anlamı katar.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "ruin",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "harabeler",
+   "note": null,
+   "form": "ruin'in çoğulu",
+   "base": "harabe, yıkıntı",
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "console",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "teselli eder",
+   "note": "*console* fiil olarak \"teselli etmek\" demektir; isim olarak \"konsol\" anlamına gelir.",
+   "form": null,
+   "base": "teselli etmek, avutmak",
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "console us by suggesting",
+    "meaning": "düşündürerek bizi teselli eder"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bizi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "console us by suggesting",
+    "meaning": "düşündürerek bizi teselli eder"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "console us by suggesting",
+    "meaning": "düşündürerek bizi teselli eder"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "düşündürmek (ima etmek)",
+   "note": "*suggest that…* \"… olduğunu ima etmek, düşündürmek\" anlamına da gelir.",
+   "form": "suggest + -ing",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "console us by suggesting",
+    "meaning": "düşündürerek bizi teselli eder"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the mightiest ambitions",
+    "meaning": "en güçlü tutkular"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "mighty",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "en güçlü",
+   "note": "*mighty* \"güçlü, kudretli\" demektir ve edebî bir kelimedir.",
+   "form": "mighty'nin en üstünlük hali (mightiest, y → iest)",
+   "base": "güçlü, kudretli",
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the mightiest ambitions",
+    "meaning": "en güçlü tutkular"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "ambition",
+   "pos": "noun",
+   "wordId": "ambition",
+   "sense": 0,
+   "context": "tutkular (hırslar)",
+   "note": null,
+   "form": "ambition'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 44,
+    "text": "the mightiest ambitions",
+    "meaning": "en güçlü tutkular"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "yield",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "boyun eğmek",
+   "note": "*yield to something* \"bir şeye boyun eğmek, teslim olmak\" demektir.",
+   "form": null,
+   "base": "boyun eğmek, teslim olmak; vermek, üretmek",
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "yield to nature",
+    "meaning": "doğaya boyun eğmek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "yield to nature",
+    "meaning": "doğaya boyun eğmek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "nature",
+   "pos": "noun",
+   "wordId": "nature",
+   "sense": 0,
+   "context": "doğa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "yield to nature",
+    "meaning": "doğaya boyun eğmek"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*in* + *-ing* resmî dilde \"… -ken, … -erek\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "In contemplating them",
+    "meaning": "onları seyrederken"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "contemplate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "seyretmek (üzerine düşünmek)",
+   "note": "*contemplate* bir şeye \"uzun uzun bakmak, üzerine derin düşünmek\" demektir.",
+   "form": "contemplate + -ing (sondaki e düşer)",
+   "base": "seyretmek, üzerine düşünmek",
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "In contemplating them",
+    "meaning": "onları seyrederken"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları (harabeleri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 51,
+    "text": "In contemplating them",
+    "meaning": "onları seyrederken"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "confront",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yüzleşiriz",
+   "note": "*confront something* \"bir şeyle yüz yüze gelmek, yüzleşmek\" demektir.",
+   "form": null,
+   "base": "yüzleşmek, karşı karşıya gelmek",
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "confront our own impermanence",
+    "meaning": "kendi geçiciliğimizle yüzleşmek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "confront our own impermanence",
+    "meaning": "kendi geçiciliğimizle yüzleşmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "confront our own impermanence",
+    "meaning": "kendi geçiciliğimizle yüzleşmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "impermanence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "geçicilik",
+   "note": "*im-* (olumsuzluk) + *permanent* (kalıcı) + *-ence*: \"kalıcı olmama, geçicilik\".",
+   "form": null,
+   "base": "geçicilik, kalıcı olmama",
+   "phrase": {
+    "from": 53,
+    "to": 56,
+    "text": "confront our own impermanence",
+    "meaning": "kendi geçiciliğimizle yüzleşmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ama (yine de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yaparız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bunu",
+   "note": "*do so* \"bunu yapmak\" demektir ve önceki eylemin tekrarını önler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-den (mesafeden)",
+   "note": "*at a distance* \"uzaktan, belli bir mesafeden\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "at a comfortable distance",
+    "meaning": "güvenli bir mesafeden"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "at a comfortable distance",
+    "meaning": "güvenli bir mesafeden"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "güvenli (rahat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "at a comfortable distance",
+    "meaning": "güvenli bir mesafeden"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "distance",
+   "pos": "noun",
+   "wordId": "distance",
+   "sense": 0,
+   "context": "mesafe",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 64,
+    "text": "at a comfortable distance",
+    "meaning": "güvenli bir mesafeden"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "as spectators rather than victims",
+    "meaning": "kurban olarak değil seyirci olarak"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "spectator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "seyirciler",
+   "note": null,
+   "form": "spectator'ın çoğulu",
+   "base": "seyirci",
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "as spectators rather than victims",
+    "meaning": "kurban olarak değil seyirci olarak"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: … değil)",
+   "note": "*A rather than B* \"B değil A\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "as spectators rather than victims",
+    "meaning": "kurban olarak değil seyirci olarak"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "as spectators rather than victims",
+    "meaning": "kurban olarak değil seyirci olarak"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "victim",
+   "pos": "noun",
+   "wordId": "victim",
+   "sense": 0,
+   "context": "kurbanlar",
+   "note": null,
+   "form": "victim'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 69,
+    "text": "as spectators rather than victims",
+    "meaning": "kurban olarak değil seyirci olarak"
+   }
+  }
+ ]
+}

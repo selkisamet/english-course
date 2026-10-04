@@ -1,0 +1,1121 @@
+{
+ "storyId": "story-c2-040",
+ "textHash": "2b4e4740a2ae",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Çok sayıda insan belirsiz bir miktarı birbirinden bağımsız olarak tahmin ettiğinde, tahminlerinin ortalaması çoğu zaman şaşırtıcı derecede isabetli olur, hatta bazen tek bir uzmanın yargısından bile daha isabetlidir."
+  },
+  {
+   "tr": "Ancak bu olgu belirli koşullara bağlıdır."
+  },
+  {
+   "tr": "Bireyler görüşlerini farklı bilgi kaynakları kullanarak ayrı ayrı oluşturmalıdır."
+  },
+  {
+   "tr": "İnsanlar birbirini etkilemeye başladığında, hatalar birbirini dengelemek yerine pekiştirme eğilimine girer ve kalabalık tehlikeli derecede akılsızlaşabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "large",
+   "pos": "adjective",
+   "wordId": "large",
+   "sense": 0,
+   "context": "büyük (çok)",
+   "note": "*large numbers of* + çoğul isim \"çok sayıda …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "large numbers of people",
+    "meaning": "çok sayıda insan"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "sayı",
+   "note": null,
+   "form": "number'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "large numbers of people",
+    "meaning": "çok sayıda insan"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… sayıda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "large numbers of people",
+    "meaning": "çok sayıda insan"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 4,
+    "text": "large numbers of people",
+    "meaning": "çok sayıda insan"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "independently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "birbirinden bağımsız olarak",
+   "note": "*-ly* eki sıfattan zarf yapar: *independent* (bağımsız) → *independently*.",
+   "form": "independent + -ly (sıfattan zarf)",
+   "base": "bağımsız olarak",
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "estimate",
+   "pos": "verb",
+   "wordId": "estimate",
+   "sense": 0,
+   "context": "tahmin etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an uncertain quantity*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "uncertain",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "belirsiz",
+   "note": null,
+   "form": null,
+   "base": "emin olmayan, belirsiz",
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "quantity",
+   "pos": "noun",
+   "wordId": "quantity",
+   "sense": 0,
+   "context": "miktar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 9,
+    "text": "When large numbers of people independently estimate an uncertain quantity",
+    "meaning": "çok sayıda insan belirsiz bir miktarı bağımsız olarak tahmin ettiğinde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "the average of their guesses",
+    "meaning": "tahminlerinin ortalaması"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "average",
+   "pos": "noun",
+   "wordId": "average",
+   "sense": 1,
+   "context": "ortalama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "the average of their guesses",
+    "meaning": "tahminlerinin ortalaması"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tahminlerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "the average of their guesses",
+    "meaning": "tahminlerinin ortalaması"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "the average of their guesses",
+    "meaning": "tahminlerinin ortalaması"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "guess",
+   "pos": "noun",
+   "wordId": "guess",
+   "sense": 1,
+   "context": "tahminler",
+   "note": null,
+   "form": "guess'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 14,
+    "text": "the average of their guesses",
+    "meaning": "tahminlerinin ortalaması"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": null,
+   "form": "remarkable + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede, son derece",
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "remarkably accurate",
+    "meaning": "şaşırtıcı derecede isabetli"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "accurate",
+   "pos": "adjective",
+   "wordId": "accurate",
+   "sense": 0,
+   "context": "isabetli (doğru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "remarkably accurate",
+    "meaning": "şaşırtıcı derecede isabetli"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "wordId": "sometimes",
+   "sense": 0,
+   "context": "bazen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": "*more so than* \"… -den daha da öyle\" demektir; *so* önceki sıfatın (*accurate*) yerini tutar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "more so",
+    "meaning": "daha da (öyle)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "(öyle: isabetli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "more so",
+    "meaning": "daha da (öyle)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "yargı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (uzmanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "herhangi bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "single",
+   "pos": "adjective",
+   "wordId": "single",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "expert",
+   "pos": "noun",
+   "wordId": "expert",
+   "sense": 0,
+   "context": "uzman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "the judgement of any single expert",
+    "meaning": "tek bir uzmanın yargısı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "phenomenon",
+   "pos": "noun",
+   "wordId": "phenomenon",
+   "sense": 0,
+   "context": "olgu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "depend",
+   "pos": "verb",
+   "wordId": "depend",
+   "sense": 0,
+   "context": "bağlıdır",
+   "note": null,
+   "form": "depend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "depends on certain conditions",
+    "meaning": "belirli koşullara bağlıdır"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e (depend on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "depends on certain conditions",
+    "meaning": "belirli koşullara bağlıdır"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "certain",
+   "pos": "adjective",
+   "wordId": "certain",
+   "sense": 0,
+   "context": "belirli",
+   "note": "*certain* isimden önce \"belirli, bazı\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "depends on certain conditions",
+    "meaning": "belirli koşullara bağlıdır"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "condition'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "depends on certain conditions",
+    "meaning": "belirli koşullara bağlıdır"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "individual",
+   "pos": "noun",
+   "wordId": "individual",
+   "sense": 0,
+   "context": "bireyler",
+   "note": null,
+   "form": "individual'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "form",
+   "pos": "verb",
+   "wordId": "form",
+   "sense": 1,
+   "context": "oluşturmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "form their opinions separately",
+    "meaning": "görüşlerini ayrı ayrı oluşturmak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "form their opinions separately",
+    "meaning": "görüşlerini ayrı ayrı oluşturmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "opinion",
+   "pos": "noun",
+   "wordId": "opinion",
+   "sense": 0,
+   "context": "görüşler",
+   "note": null,
+   "form": "opinion'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "form their opinions separately",
+    "meaning": "görüşlerini ayrı ayrı oluşturmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "separately",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "ayrı ayrı",
+   "note": "*-ly* eki sıfattan zarf yapar: *separate* (ayrı) → *separately*.",
+   "form": "separate + -ly (sıfattan zarf)",
+   "base": "ayrı ayrı, ayrı olarak",
+   "phrase": {
+    "from": 38,
+    "to": 41,
+    "text": "form their opinions separately",
+    "meaning": "görüşlerini ayrı ayrı oluşturmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "kullanarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil eylemin nasıl yapıldığını anlatır.",
+   "form": "use + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "using diverse sources of information",
+    "meaning": "farklı bilgi kaynakları kullanarak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "diverse",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "farklı (çeşitli)",
+   "note": null,
+   "form": null,
+   "base": "çeşitli, farklı",
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "using diverse sources of information",
+    "meaning": "farklı bilgi kaynakları kullanarak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "source",
+   "pos": "noun",
+   "wordId": "source",
+   "sense": 0,
+   "context": "kaynaklar",
+   "note": null,
+   "form": "source'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "using diverse sources of information",
+    "meaning": "farklı bilgi kaynakları kullanarak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bilgi kaynakları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "using diverse sources of information",
+    "meaning": "farklı bilgi kaynakları kullanarak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "information",
+   "pos": "noun",
+   "wordId": "information",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "using diverse sources of information",
+    "meaning": "farklı bilgi kaynakları kullanarak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "once",
+   "pos": "conjunction",
+   "wordId": "once",
+   "sense": 1,
+   "context": "-ince (-dığında)",
+   "note": "*once* bağlaç olarak \"… -ir -mez, … -dığı anda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "influence",
+   "pos": "verb",
+   "wordId": "influence",
+   "sense": 1,
+   "context": "etkilemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "influence one another",
+    "meaning": "birbirini etkilemek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one another: birbiri)",
+   "note": "*one another* \"birbiri, birbirini\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "influence one another",
+    "meaning": "birbirini etkilemek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "(one another)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "influence one another",
+    "meaning": "birbirini etkilemek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "error",
+   "pos": "noun",
+   "wordId": "error",
+   "sense": 0,
+   "context": "hatalar",
+   "note": null,
+   "form": "error'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğiliminde",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "reinforce",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "pekiştirmek",
+   "note": null,
+   "form": null,
+   "base": "güçlendirmek, pekiştirmek",
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + fiil \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "balance",
+   "pos": "verb",
+   "wordId": "balance",
+   "sense": 1,
+   "context": "dengelemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 62,
+    "text": "tend to reinforce rather than balance each other",
+    "meaning": "birbirini dengelemek yerine pekiştirme eğilimindedir"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "(each other: birbiri)",
+   "note": "*each other* \"birbiri, birbirini\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "each other",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "(each other)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "each other",
+    "meaning": "birbiri"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "crowd",
+   "pos": "noun",
+   "wordId": "crowd",
+   "sense": 0,
+   "context": "kalabalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "(akılsız)laşmak (olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "become dangerously foolish",
+    "meaning": "tehlikeli derecede akılsızlaşmak"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "dangerously",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tehlikeli derecede",
+   "note": null,
+   "form": "dangerous + -ly (sıfattan zarf)",
+   "base": "tehlikeli biçimde",
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "become dangerously foolish",
+    "meaning": "tehlikeli derecede akılsızlaşmak"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "foolish",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "akılsız",
+   "note": "*fool* (aptal) isminden *-ish* ekiyle türemiştir.",
+   "form": null,
+   "base": "akılsız, aptalca",
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "become dangerously foolish",
+    "meaning": "tehlikeli derecede akılsızlaşmak"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1213 @@
+{
+ "storyId": "story-c2-041",
+ "textHash": "b078f22d2770",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İki dilli pek çok kişi, hangi dili konuştuklarına bağlı olarak kendilerini belli belirsiz farklı hissettiklerini söyler."
+  },
+  {
+   "tr": "Bir dilde daha resmî ve çekingen, ötekinde ise daha oyunbaz ya da daha açık sözlü olabilirler."
+  },
+  {
+   "tr": "Dilbilimciler bunu kısmen her dilin taşıdığı kültürel çağrışımlara, kısmen de o dilin öğrenildiği farklı ortamlara bağlıyor."
+  },
+  {
+   "tr": "Görünüşe göre yeni bir dil edinmek yalnızca kelime dağarcığına bir şeyler eklemek değildir."
+  },
+  {
+   "tr": "Bu, insanın kendisinin tanımadığı bir yüzüne de kapı aralayabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "pek çok",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Many bilingual people",
+    "meaning": "iki dilli pek çok kişi"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "bilingual",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "iki dilli",
+   "note": "*bi-* ön eki \"iki\" anlamı katar: *bi* + *lingual* (dille ilgili) → iki dilli.",
+   "form": null,
+   "base": "iki dilli",
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Many bilingual people",
+    "meaning": "iki dilli pek çok kişi"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "kişi (insan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "Many bilingual people",
+    "meaning": "iki dilli pek çok kişi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "söyler (bildirir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dıklarını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": "*feel* + sıfat \"kendini … hissetmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "feel subtly different",
+    "meaning": "belli belirsiz farklı hissetmek"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "subtly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "belli belirsiz",
+   "note": null,
+   "form": "subtle + -ly (sıfattan zarf)",
+   "base": "belli belirsiz, incelikle",
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "feel subtly different",
+    "meaning": "belli belirsiz farklı hissetmek"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "feel subtly different",
+    "meaning": "belli belirsiz farklı hissetmek"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "depend",
+   "pos": "verb",
+   "wordId": "depend",
+   "sense": 0,
+   "context": "bağlı olarak",
+   "note": "*depending on* \"… -e bağlı olarak\" demektir.",
+   "form": "depend + -ing",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "which",
+   "pos": "determiner",
+   "wordId": "which",
+   "sense": 1,
+   "context": "hangi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuştukları",
+   "note": null,
+   "form": "speak + -ing",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 15,
+    "text": "depending on which language they are speaking",
+    "meaning": "hangi dili konuştuklarına bağlı olarak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (dilde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*in one … in another* \"birinde … ötekinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "formal",
+   "pos": "adjective",
+   "wordId": "formal",
+   "sense": 0,
+   "context": "resmî",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "formal and reserved",
+    "meaning": "resmî ve çekingen"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "formal and reserved",
+    "meaning": "resmî ve çekingen"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "reserved",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "çekingen",
+   "note": "*reserved* kişiler için \"çekingen, duygularını belli etmeyen\" demektir; *reserve* fiili ise \"ayırtmak\" anlamındadır.",
+   "form": null,
+   "base": "çekingen, ağzı sıkı",
+   "phrase": {
+    "from": 23,
+    "to": 25,
+    "text": "formal and reserved",
+    "meaning": "resmî ve çekingen"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "ötekinde (bir başkasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "playful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "oyunbaz",
+   "note": "*play* (oynamak) + *-ful*: \"şakacı, oyunbaz\".",
+   "form": null,
+   "base": "şakacı, oyunbaz",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "playful or direct",
+    "meaning": "oyunbaz ya da açık sözlü"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "playful or direct",
+    "meaning": "oyunbaz ya da açık sözlü"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "direct",
+   "pos": "adjective",
+   "wordId": "direct",
+   "sense": 0,
+   "context": "açık sözlü (doğrudan)",
+   "note": "Kişiler için *direct* \"dolaysız, açık sözlü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "playful or direct",
+    "meaning": "oyunbaz ya da açık sözlü"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "linguist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dilbilimciler",
+   "note": null,
+   "form": "linguist'in çoğulu",
+   "base": "dilbilimci",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "attribute",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bağlıyor",
+   "note": "*attribute A to B* \"A'nın nedenini B'ye bağlamak\" demektir.",
+   "form": null,
+   "base": "atfetmek, -e bağlamak",
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "attribute this partly to",
+    "meaning": "bunu kısmen … bağlamak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bunu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "attribute this partly to",
+    "meaning": "bunu kısmen … bağlamak"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "partly",
+   "pos": "adverb",
+   "wordId": "partly",
+   "sense": 0,
+   "context": "kısmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "attribute this partly to",
+    "meaning": "bunu kısmen … bağlamak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 36,
+    "text": "attribute this partly to",
+    "meaning": "bunu kısmen … bağlamak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "cultural",
+   "pos": "adjective",
+   "wordId": "cultural",
+   "sense": 0,
+   "context": "kültürel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "the cultural associations each language carries",
+    "meaning": "her dilin taşıdığı kültürel çağrışımlar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "association",
+   "pos": "noun",
+   "wordId": "association",
+   "sense": 0,
+   "context": "çağrışımlar (bağlantılar)",
+   "note": "*association* \"dernek\" ve \"çağrışım, zihinsel bağlantı\" demektir.",
+   "form": "association'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "the cultural associations each language carries",
+    "meaning": "her dilin taşıdığı kültürel çağrışımlar"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": "İsimden sonra *that* düşebilir: *the associations (that) each language carries*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "the cultural associations each language carries",
+    "meaning": "her dilin taşıdığı kültürel çağrışımlar"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "the cultural associations each language carries",
+    "meaning": "her dilin taşıdığı kültürel çağrışımlar"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "carry",
+   "pos": "verb",
+   "wordId": "carry",
+   "sense": 0,
+   "context": "taşıdığı",
+   "note": null,
+   "form": "carry'nin 3. tekil şahıs hali (carries, y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "the cultural associations each language carries",
+    "meaning": "her dilin taşıdığı kültürel çağrışımlar"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "partly",
+   "pos": "adverb",
+   "wordId": "partly",
+   "sense": 0,
+   "context": "kısmen de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "context",
+   "pos": "noun",
+   "wordId": "context",
+   "sense": 0,
+   "context": "ortamlar (bağlamlar)",
+   "note": null,
+   "form": "context'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in which: -diği)",
+   "note": "Resmî dilde edat ilgi zamirinden önce gelir: *contexts in which it was learned* → öğrenildiği ortamlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (dil)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenildiği",
+   "note": null,
+   "form": "learn fiilinin 3. hali (learned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "contexts in which it was learned",
+    "meaning": "öğrenildiği ortamlar"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "acquire",
+   "pos": "verb",
+   "wordId": "acquire",
+   "sense": 0,
+   "context": "edinmek",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Acquiring a new language* → yeni bir dil edinmek.",
+   "form": "acquire + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Acquiring a new language",
+    "meaning": "yeni bir dil edinmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Acquiring a new language",
+    "meaning": "yeni bir dil edinmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Acquiring a new language",
+    "meaning": "yeni bir dil edinmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "Acquiring a new language",
+    "meaning": "yeni bir dil edinmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "Virgüller arasındaki *it seems* \"görünüşe göre, anlaşılan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "görünüyor",
+   "note": null,
+   "form": "seem + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 59,
+    "text": "it seems",
+    "meaning": "görünüşe göre"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mez)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "merely add vocabulary",
+    "meaning": "yalnızca kelime dağarcığına eklemek"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "add",
+   "pos": "verb",
+   "wordId": "add",
+   "sense": 0,
+   "context": "eklemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "merely add vocabulary",
+    "meaning": "yalnızca kelime dağarcığına eklemek"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "vocabulary",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kelime dağarcığı",
+   "note": null,
+   "form": null,
+   "base": "kelime dağarcığı, söz varlığı",
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "merely add vocabulary",
+    "meaning": "yalnızca kelime dağarcığına eklemek"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de (aynı zamanda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "open",
+   "pos": "verb",
+   "wordId": "open",
+   "sense": 1,
+   "context": "aralamak (açmak)",
+   "note": "*open the door to something* \"bir şeye kapı açmak, yol açmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "open the door to",
+    "meaning": "-e kapı aralamak"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "open the door to",
+    "meaning": "-e kapı aralamak"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "door",
+   "pos": "noun",
+   "wordId": "door",
+   "sense": 0,
+   "context": "kapı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "open the door to",
+    "meaning": "-e kapı aralamak"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "open the door to",
+    "meaning": "-e kapı aralamak"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an unfamiliar version*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "an unfamiliar version of oneself",
+    "meaning": "insanın kendisinin tanımadığı bir yüzü"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "unfamiliar",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "tanımadığı (yabancı)",
+   "note": null,
+   "form": null,
+   "base": "tanıdık olmayan, yabancı",
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "an unfamiliar version of oneself",
+    "meaning": "insanın kendisinin tanımadığı bir yüzü"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "version",
+   "pos": "noun",
+   "wordId": "version",
+   "sense": 0,
+   "context": "yüz (versiyon, biçim)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "an unfamiliar version of oneself",
+    "meaning": "insanın kendisinin tanımadığı bir yüzü"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "an unfamiliar version of oneself",
+    "meaning": "insanın kendisinin tanımadığı bir yüzü"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "oneself",
+   "pos": "pronoun",
+   "wordId": null,
+   "sense": null,
+   "context": "insanın kendisi",
+   "note": "*oneself* genel özne *one*'ın dönüşlü zamiridir: \"insanın kendisi\".",
+   "form": null,
+   "base": "insanın kendisi, kendi",
+   "phrase": {
+    "from": 72,
+    "to": 76,
+    "text": "an unfamiliar version of oneself",
+    "meaning": "insanın kendisinin tanımadığı bir yüzü"
+   }
+  }
+ ]
+}

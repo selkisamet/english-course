@@ -1,0 +1,1143 @@
+{
+ "storyId": "story-c2-013",
+ "textHash": "c26750925506",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bir ölçü hedef haline geldiği anda iyi bir ölçü olmaktan çıkar."
+  },
+  {
+   "tr": "Yalnızca bekleme sürelerine göre değerlendirilen hastaneler hastaları vaktinden önce taburcu edebilir; yalnızca sınav sonuçlarına göre değerlendirilen okullar da sınavın ötesinde pek az şey öğretebilir."
+  },
+  {
+   "tr": "Rakamlar iyileşirken asıl amaç sessizce solup gider."
+  },
+  {
+   "tr": "Bunların hiçbiri ölçmenin boşuna olduğu anlamına gelmez; yalnızca ölçmenin muhakemenin yerini almak yerine ona ışık tutması gerektiğini ima eder."
+  },
+  {
+   "tr": "Ne de olsa önemli olan her şey sayılamaz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "once",
+   "pos": "conjunction",
+   "wordId": "once",
+   "sense": 1,
+   "context": "-dığı anda (-ince)",
+   "note": "*once* bağlaç olarak \"… -ir -mez, … -dığı anda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "measure",
+   "pos": "noun",
+   "wordId": "measure",
+   "sense": 1,
+   "context": "ölçü",
+   "note": "*measure* isim olarak \"önlem\" ve \"ölçü, ölçüt\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "haline gelir",
+   "note": null,
+   "form": "become + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "target",
+   "pos": "noun",
+   "wordId": "target",
+   "sense": 0,
+   "context": "hedef",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Once a measure becomes a target",
+    "meaning": "bir ölçü hedef haline geldiği anda"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ölçü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "cease",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "(olmaktan) çıkar",
+   "note": "*cease to be* \"artık … olmamak, … olmaktan çıkmak\" demektir.",
+   "form": "cease + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "sona ermek, durmak, bırakmak",
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "measure",
+   "pos": "noun",
+   "wordId": "measure",
+   "sense": 1,
+   "context": "ölçü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 12,
+    "text": "ceases to be a good measure",
+    "meaning": "iyi bir ölçü olmaktan çıkar"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "hospital",
+   "pos": "noun",
+   "wordId": "hospital",
+   "sense": 0,
+   "context": "hastaneler",
+   "note": null,
+   "form": "hospital'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "Hospitals judged solely on waiting times",
+    "meaning": "yalnızca bekleme sürelerine göre değerlendirilen hastaneler"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "judge",
+   "pos": "verb",
+   "wordId": "judge",
+   "sense": 1,
+   "context": "değerlendirilen",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *hospitals judged on…* → … göre değerlendirilen hastaneler.",
+   "form": "judge fiilinin 3. hali (judged, -d)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "Hospitals judged solely on waiting times",
+    "meaning": "yalnızca bekleme sürelerine göre değerlendirilen hastaneler"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "solely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": null,
+   "form": "sole + -ly (sıfattan zarf)",
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "Hospitals judged solely on waiting times",
+    "meaning": "yalnızca bekleme sürelerine göre değerlendirilen hastaneler"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e göre",
+   "note": "*judge something on something* \"bir şeyi … temelinde değerlendirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "Hospitals judged solely on waiting times",
+    "meaning": "yalnızca bekleme sürelerine göre değerlendirilen hastaneler"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "wait",
+   "pos": "verb",
+   "wordId": "wait",
+   "sense": 0,
+   "context": "bekleme",
+   "note": null,
+   "form": "wait + -ing",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "waiting times",
+    "meaning": "bekleme süreleri"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "süreler",
+   "note": null,
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 18,
+    "text": "waiting times",
+    "meaning": "bekleme süreleri"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "discharge",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "taburcu etmek",
+   "note": "*discharge a patient* \"bir hastayı taburcu etmek\" demektir.",
+   "form": null,
+   "base": "taburcu etmek; boşaltmak",
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "discharge patients prematurely",
+    "meaning": "hastaları vaktinden önce taburcu etmek"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "patient",
+   "pos": "noun",
+   "wordId": "patient",
+   "sense": 0,
+   "context": "hastalar",
+   "note": null,
+   "form": "patient'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "discharge patients prematurely",
+    "meaning": "hastaları vaktinden önce taburcu etmek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "prematurely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "vaktinden önce",
+   "note": "*pre-* ön eki \"önce\" anlamı katar: *mature* (olgun) → *premature* (erken, vaktinden önce).",
+   "form": "premature + -ly (sıfattan zarf)",
+   "base": "erken, vaktinden önce",
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "discharge patients prematurely",
+    "meaning": "hastaları vaktinden önce taburcu etmek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve (de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "school",
+   "pos": "noun",
+   "wordId": "school",
+   "sense": 0,
+   "context": "okullar",
+   "note": null,
+   "form": "school'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "assess",
+   "pos": "verb",
+   "wordId": "assess",
+   "sense": 0,
+   "context": "değerlendirilen",
+   "note": null,
+   "form": "assess fiilinin 3. hali (assessed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "assessed purely on examination results",
+    "meaning": "yalnızca sınav sonuçlarına göre değerlendirilen"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "purely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": "*-ly* eki sıfattan zarf yapar: *pure* (saf) → *purely* (yalnızca, tamamen).",
+   "form": "pure + -ly (sıfattan zarf)",
+   "base": "yalnızca, tamamen",
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "assessed purely on examination results",
+    "meaning": "yalnızca sınav sonuçlarına göre değerlendirilen"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e göre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "assessed purely on examination results",
+    "meaning": "yalnızca sınav sonuçlarına göre değerlendirilen"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "examination",
+   "pos": "noun",
+   "wordId": "examination",
+   "sense": 0,
+   "context": "sınav",
+   "note": "*examination*, *exam*'in uzun ve resmî biçimidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "assessed purely on examination results",
+    "meaning": "yalnızca sınav sonuçlarına göre değerlendirilen"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "result",
+   "pos": "noun",
+   "wordId": "result",
+   "sense": 0,
+   "context": "sonuçlar",
+   "note": null,
+   "form": "result'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "assessed purely on examination results",
+    "meaning": "yalnızca sınav sonuçlarına göre değerlendirilen"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "teach",
+   "pos": "verb",
+   "wordId": "teach",
+   "sense": 0,
+   "context": "öğretmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "little",
+   "pos": "pronoun",
+   "wordId": "little",
+   "sense": 2,
+   "context": "pek az şey",
+   "note": "*little* (a olmadan) \"çok az şey, neredeyse hiçbir şey\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "little beyond the test",
+    "meaning": "sınavın ötesinde pek az şey"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "beyond",
+   "pos": "preposition",
+   "wordId": "beyond",
+   "sense": 0,
+   "context": "ötesinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "little beyond the test",
+    "meaning": "sınavın ötesinde pek az şey"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "little beyond the test",
+    "meaning": "sınavın ötesinde pek az şey"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "test",
+   "pos": "noun",
+   "wordId": "test",
+   "sense": 0,
+   "context": "sınav",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "little beyond the test",
+    "meaning": "sınavın ötesinde pek az şey"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "number",
+   "pos": "noun",
+   "wordId": "number",
+   "sense": 0,
+   "context": "rakamlar (sayılar)",
+   "note": null,
+   "form": "number'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "iyileşir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken (oysa)",
+   "note": "*while* burada iki durumu karşılaştırır: \"… -ken, öte yandan …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "the underlying purpose",
+    "meaning": "asıl amaç"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "underlying",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "asıl (temeldeki)",
+   "note": "*underlying* yüzeyde görünmeyen \"temel, asıl\" demektir.",
+   "form": null,
+   "base": "temeldeki, asıl, altta yatan",
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "the underlying purpose",
+    "meaning": "asıl amaç"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "purpose",
+   "pos": "noun",
+   "wordId": "purpose",
+   "sense": 0,
+   "context": "amaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "the underlying purpose",
+    "meaning": "asıl amaç"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "quietly",
+   "pos": "adverb",
+   "wordId": "quietly",
+   "sense": 0,
+   "context": "sessizce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "quietly withers",
+    "meaning": "sessizce solup gider"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "wither",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "solup gider",
+   "note": "*wither* bitkiler için \"solmak, kurumak\" demektir; mecazen \"zayıflayıp yok olmak\" anlamına gelir.",
+   "form": "wither + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "solmak, kurumak",
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "quietly withers",
+    "meaning": "sessizce solup gider"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "none",
+   "pos": "pronoun",
+   "wordId": "none",
+   "sense": 0,
+   "context": "hiçbiri",
+   "note": "*none of* + isim/zamir \"… -in hiçbiri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "None of this",
+    "meaning": "bunların hiçbiri"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (bunların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "None of this",
+    "meaning": "bunların hiçbiri"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "None of this",
+    "meaning": "bunların hiçbiri"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "imply",
+   "pos": "verb",
+   "wordId": "imply",
+   "sense": 0,
+   "context": "anlamına gelmek (ima etmek)",
+   "note": null,
+   "form": "imply'ın 3. tekil şahıs hali (implies, y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "measurement",
+   "pos": "noun",
+   "wordId": "measurement",
+   "sense": 0,
+   "context": "ölçme (ölçüm)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "futile",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "boşuna",
+   "note": "*futile* \"sonuçsuz, boşuna, beyhude\" demektir.",
+   "form": null,
+   "base": "boşuna, beyhude",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": "yalnızca, sadece",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğini)",
+   "note": "*merely that…* \"yalnızca … olduğunu (ima eder)\" demektir; fiil (*implies*) tekrar edilmemiştir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ölçme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should inform judgement",
+    "meaning": "muhakemeye ışık tutmalı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "inform",
+   "pos": "verb",
+   "wordId": "inform",
+   "sense": 0,
+   "context": "ışık tutmak (beslemek)",
+   "note": "*inform* \"bilgilendirmek\" demektir; *inform a decision/judgement* ise \"bir karara bilgi sağlayarak yön vermek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should inform judgement",
+    "meaning": "muhakemeye ışık tutmalı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "muhakeme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "should inform judgement",
+    "meaning": "muhakemeye ışık tutmalı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + fiil \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "rather than replace it",
+    "meaning": "onun yerini almak yerine"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "rather than replace it",
+    "meaning": "onun yerini almak yerine"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "yerini almak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "rather than replace it",
+    "meaning": "onun yerini almak yerine"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (muhakemeyi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "rather than replace it",
+    "meaning": "onun yerini almak yerine"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*Not everything …* \"her şey … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "Not everything that counts",
+    "meaning": "önemli olan her şey … değil"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "Not everything that counts",
+    "meaning": "önemli olan her şey … değil"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "Not everything that counts",
+    "meaning": "önemli olan her şey … değil"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "count",
+   "pos": "verb",
+   "wordId": "count",
+   "sense": 0,
+   "context": "önemli olan",
+   "note": "Cümlede söz oyunu vardır: *count* hem \"önemli olmak\" hem de \"saymak\" demektir.",
+   "form": "count + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "Not everything that counts",
+    "meaning": "önemli olan her şey … değil"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "(after all: ne de olsa)",
+   "note": "*after all* \"ne de olsa, sonuçta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "after all",
+    "meaning": "ne de olsa"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "all",
+   "pos": "pronoun",
+   "wordId": "all",
+   "sense": 1,
+   "context": "(after all)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 68,
+    "text": "after all",
+    "meaning": "ne de olsa"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "count",
+   "pos": "verb",
+   "wordId": "count",
+   "sense": 0,
+   "context": "sayılmak",
+   "note": null,
+   "form": "count fiilinin 3. hali (counted, -ed)",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

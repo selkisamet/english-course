@@ -1,0 +1,1185 @@
+{
+ "storyId": "story-c2-048",
+ "textHash": "bb4af755de58",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Minnettarlık çoğu zaman kendiliğinden gelen bir duygu, yolumuza iyi talih çıktığında doğal olarak beliren bir şey olarak görülür."
+  },
+  {
+   "tr": "Ancak araştırmalar, minnettarlığın bilinçli bir alışkanlık olarak da geliştirilebileceğini gösteriyor."
+  },
+  {
+   "tr": "Minnettar oldukları şeyleri düzenli olarak not eden insanlar daha mutlu olduklarını söyleme ve daha iyi uyuma eğilimindedir."
+  },
+  {
+   "tr": "Önemli olan şu ki bu uygulama zorlukları inkâr etmeyi gerektirmez."
+  },
+  {
+   "tr": "Yalnızca dikkati, gündelik şikâyetlerin gürültüsü içinde kolayca gözden kaçan şeyleri fark etmeye alıştırır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "gratitude",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "minnettarlık",
+   "note": null,
+   "form": null,
+   "base": "minnettarlık, şükran",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ülür)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "treat",
+   "pos": "verb",
+   "wordId": "treat",
+   "sense": 0,
+   "context": "görülür (muamele edilir)",
+   "note": "*treat something as something* \"bir şeyi … olarak görmek\" demektir.",
+   "form": "treat fiilinin 3. hali (treated, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "spontaneous",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kendiliğinden gelen",
+   "note": null,
+   "form": null,
+   "base": "kendiliğinden, plansız",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "emotion",
+   "pos": "noun",
+   "wordId": "emotion",
+   "sense": 0,
+   "context": "duygu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "often treated as a spontaneous emotion",
+    "meaning": "çoğu zaman kendiliğinden gelen bir duygu olarak görülür"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": "Virgülden sonra gelen *something that…* önceki ifadeyi açıklar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 17,
+    "text": "something that arises naturally when good fortune comes our way",
+    "meaning": "yolumuza iyi talih çıktığında doğal olarak beliren bir şey"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 17,
+    "text": "something that arises naturally when good fortune comes our way",
+    "meaning": "yolumuza iyi talih çıktığında doğal olarak beliren bir şey"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "arise",
+   "pos": "verb",
+   "wordId": "arise",
+   "sense": 0,
+   "context": "beliren (ortaya çıkan)",
+   "note": null,
+   "form": "arise + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 17,
+    "text": "something that arises naturally when good fortune comes our way",
+    "meaning": "yolumuza iyi talih çıktığında doğal olarak beliren bir şey"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "naturally",
+   "pos": "adverb",
+   "wordId": "naturally",
+   "sense": 0,
+   "context": "doğal olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 17,
+    "text": "something that arises naturally when good fortune comes our way",
+    "meaning": "yolumuza iyi talih çıktığında doğal olarak beliren bir şey"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 17,
+    "text": "something that arises naturally when good fortune comes our way",
+    "meaning": "yolumuza iyi talih çıktığında doğal olarak beliren bir şey"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "good",
+   "pos": "adjective",
+   "wordId": "good",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "good fortune",
+    "meaning": "iyi talih, şans"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "fortune",
+   "pos": "noun",
+   "wordId": "fortune",
+   "sense": 0,
+   "context": "talih (şans)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "good fortune",
+    "meaning": "iyi talih, şans"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "çıkar (gelir)",
+   "note": "*come someone's way* \"birinin yoluna çıkmak, başına gelmek\" demektir.",
+   "form": "come + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "comes our way",
+    "meaning": "yolumuza çıkar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "comes our way",
+    "meaning": "yolumuza çıkar"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yol",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 17,
+    "text": "comes our way",
+    "meaning": "yolumuza çıkar"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "research",
+   "pos": "noun",
+   "wordId": "research",
+   "sense": 0,
+   "context": "araştırma(lar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "gösteriyor",
+   "note": null,
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (minnettarlık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "can also be cultivated",
+    "meaning": "geliştirilebilir de"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "can also be cultivated",
+    "meaning": "geliştirilebilir de"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "can also be cultivated",
+    "meaning": "geliştirilebilir de"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "cultivate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "geliştirilmek",
+   "note": "*cultivate* \"(toprak) işlemek, yetiştirmek\" demektir; mecazen bir beceriyi ya da alışkanlığı \"geliştirmek\" anlamına gelir.",
+   "form": "cultivate fiilinin 3. hali (cultivated, -d)",
+   "base": "yetiştirmek; geliştirmek",
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "can also be cultivated",
+    "meaning": "geliştirilebilir de"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "a deliberate habit",
+    "meaning": "bilinçli bir alışkanlık"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "deliberate",
+   "pos": "adjective",
+   "wordId": "deliberate",
+   "sense": 0,
+   "context": "bilinçli (kasıtlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "a deliberate habit",
+    "meaning": "bilinçli bir alışkanlık"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "habit",
+   "pos": "noun",
+   "wordId": "habit",
+   "sense": 0,
+   "context": "alışkanlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 30,
+    "text": "a deliberate habit",
+    "meaning": "bilinçli bir alışkanlık"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "regularly",
+   "pos": "adverb",
+   "wordId": "regularly",
+   "sense": 0,
+   "context": "düzenli olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "note",
+   "pos": "verb",
+   "wordId": "note",
+   "sense": 1,
+   "context": "not eden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "thing",
+   "pos": "noun",
+   "wordId": "thing",
+   "sense": 0,
+   "context": "şeyler",
+   "note": null,
+   "form": "thing'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for which: … -dukları)",
+   "note": "*be thankful for something* \"bir şey için minnettar olmak\" demektir; resmî dilde edat ilgi zamirinden önce gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-dukları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmak)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "thankful",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "minnettar",
+   "note": "*thank* (teşekkür etmek) + *-ful*: \"minnettar\".",
+   "form": null,
+   "base": "minnettar, şükran dolu",
+   "phrase": {
+    "from": 33,
+    "to": 40,
+    "text": "regularly note things for which they are thankful",
+    "meaning": "minnettar oldukları şeyleri düzenli olarak not etmek"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğilimindedir",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "tend to report greater happiness",
+    "meaning": "daha mutlu olduklarını söyleme eğilimindedirler"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "tend to report greater happiness",
+    "meaning": "daha mutlu olduklarını söyleme eğilimindedirler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "söylemek (bildirmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "tend to report greater happiness",
+    "meaning": "daha mutlu olduklarını söyleme eğilimindedirler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "great",
+   "pos": "adjective",
+   "wordId": "great",
+   "sense": 0,
+   "context": "daha büyük (daha fazla)",
+   "note": null,
+   "form": "great + -er (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "tend to report greater happiness",
+    "meaning": "daha mutlu olduklarını söyleme eğilimindedirler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "happiness",
+   "pos": "noun",
+   "wordId": "happiness",
+   "sense": 0,
+   "context": "mutluluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 45,
+    "text": "tend to report greater happiness",
+    "meaning": "daha mutlu olduklarını söyleme eğilimindedirler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "sleep",
+   "pos": "verb",
+   "wordId": "sleep",
+   "sense": 0,
+   "context": "uyumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "sleep better",
+    "meaning": "daha iyi uyumak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "better",
+   "pos": "adverb",
+   "wordId": "better",
+   "sense": 1,
+   "context": "daha iyi",
+   "note": null,
+   "form": "well'in karşılaştırma hali (better, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 48,
+    "text": "sleep better",
+    "meaning": "daha iyi uyumak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "crucially",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "önemli olan şu ki",
+   "note": "*crucial* (çok önemli) sıfatından *-ly* ile zarf yapılmıştır; cümle başında \"en önemlisi\" anlamı verir.",
+   "form": "crucial + -ly (sıfattan zarf)",
+   "base": "en önemlisi, çok önemli olarak",
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "practice",
+   "pos": "noun",
+   "wordId": "practice",
+   "sense": 0,
+   "context": "uygulama",
+   "note": "*practice* \"alıştırma\" ve \"uygulama, alışkanlık\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mez)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "does not require denying hardship",
+    "meaning": "zorlukları inkâr etmeyi gerektirmez"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "does not require denying hardship",
+    "meaning": "zorlukları inkâr etmeyi gerektirmez"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "require",
+   "pos": "verb",
+   "wordId": "require",
+   "sense": 0,
+   "context": "gerektirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "does not require denying hardship",
+    "meaning": "zorlukları inkâr etmeyi gerektirmez"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "deny",
+   "pos": "verb",
+   "wordId": "deny",
+   "sense": 0,
+   "context": "inkâr etmek",
+   "note": null,
+   "form": "deny + -ing",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "does not require denying hardship",
+    "meaning": "zorlukları inkâr etmeyi gerektirmez"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "hardship",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "zorluk (sıkıntı)",
+   "note": "*hard* (zor) + *-ship*: \"sıkıntı, zor koşullar\".",
+   "form": null,
+   "base": "sıkıntı, zorluk",
+   "phrase": {
+    "from": 52,
+    "to": 56,
+    "text": "does not require denying hardship",
+    "meaning": "zorlukları inkâr etmeyi gerektirmez"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (uygulama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "alıştırır (eğitir)",
+   "note": null,
+   "form": "train + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "trains attention to notice",
+    "meaning": "dikkati fark etmeye alıştırır"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "trains attention to notice",
+    "meaning": "dikkati fark etmeye alıştırır"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "trains attention to notice",
+    "meaning": "dikkati fark etmeye alıştırır"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 62,
+    "text": "trains attention to notice",
+    "meaning": "dikkati fark etmeye alıştırır"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -en) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "what is easily overlooked",
+    "meaning": "kolayca gözden kaçan şey"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "what is easily overlooked",
+    "meaning": "kolayca gözden kaçan şey"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "easily",
+   "pos": "adverb",
+   "wordId": "easily",
+   "sense": 0,
+   "context": "kolayca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "what is easily overlooked",
+    "meaning": "kolayca gözden kaçan şey"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "overlook",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "gözden kaçan",
+   "note": "*overlook* \"gözden kaçırmak, görmezden gelmek\" demektir.",
+   "form": "overlook fiilinin 3. hali (overlooked, -ed)",
+   "base": "gözden kaçırmak",
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "what is easily overlooked",
+    "meaning": "kolayca gözden kaçan şey"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "amid",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "içinde (arasında)",
+   "note": "*amid* \"ortasında, arasında\" anlamında edebî bir edattır.",
+   "form": null,
+   "base": "ortasında, arasında",
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "noise",
+   "pos": "noun",
+   "wordId": "noise",
+   "sense": 0,
+   "context": "gürültü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (şikâyetlerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "daily",
+   "pos": "adjective",
+   "wordId": "daily",
+   "sense": 0,
+   "context": "gündelik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "complaint",
+   "pos": "noun",
+   "wordId": "complaint",
+   "sense": 0,
+   "context": "şikâyetler",
+   "note": null,
+   "form": "complaint'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "amid the noise of daily complaints",
+    "meaning": "gündelik şikâyetlerin gürültüsü içinde"
+   }
+  }
+ ]
+}

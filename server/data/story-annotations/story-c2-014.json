@@ -1,0 +1,1197 @@
+{
+ "storyId": "story-c2-014",
+ "textHash": "173851150c5b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yüzyıllar önce yapılmış bir fresk dökülmeye başladığında, restoratörler hassas bir ikilemle karşı karşıya kalır."
+  },
+  {
+   "tr": "Freski eski parlaklığına mı kavuşturmalılar, yoksa zamanın ona bahşettiği patinayı mı korumalılar?"
+  },
+  {
+   "tr": "Aşırı hevesli temizlik, zaman zaman başyapıtları yaratıcılarının amaçladığı inceliklerin ta kendisinden yoksun bıraktı."
+  },
+  {
+   "tr": "Bu nedenle koruma uzmanlarının çoğu artık en az müdahaleyi tercih ediyor; kaybolanlar hakkında modern bir tahmini dayatmaktansa ayakta kalanı sağlamlaştırmanın daha akıllıca olduğunu savunuyorlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "fresco",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "fresk",
+   "note": "*fresco* yaş sıva üzerine yapılan duvar resmidir.",
+   "form": null,
+   "base": "fresk",
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "paint",
+   "pos": "verb",
+   "wordId": "paint",
+   "sense": 0,
+   "context": "yapılmış (boyanmış)",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *a fresco painted centuries ago* → yüzyıllar önce yapılmış bir fresk.",
+   "form": "paint fiilinin 3. hali (painted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıllar",
+   "note": null,
+   "form": "century'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "ago",
+   "pos": "adverb",
+   "wordId": "ago",
+   "sense": 0,
+   "context": "önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladığında",
+   "note": null,
+   "form": "begin + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "crumble",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dökülmek (ufalanmak)",
+   "note": null,
+   "form": null,
+   "base": "ufalanmak, dökülmek, çökmek",
+   "phrase": {
+    "from": 0,
+    "to": 8,
+    "text": "When a fresco painted centuries ago begins to crumble",
+    "meaning": "yüzyıllar önce yapılmış bir fresk dökülmeye başladığında"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "restorer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "restoratörler",
+   "note": "*restore* (eski haline getirmek) fiilinden *-er* ekiyle türemiştir.",
+   "form": "restorer'ın çoğulu",
+   "base": "restoratör, onarımcı",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "karşı karşıya kalır",
+   "note": "*face a dilemma* \"bir ikilemle karşı karşıya kalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "face a delicate dilemma",
+    "meaning": "hassas bir ikilemle karşı karşıya kalmak"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "face a delicate dilemma",
+    "meaning": "hassas bir ikilemle karşı karşıya kalmak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "delicate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "hassas",
+   "note": "*delicate* \"narin, kırılgan\" ve \"hassas, dikkat gerektiren\" demektir.",
+   "form": null,
+   "base": "narin; hassas, nazik",
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "face a delicate dilemma",
+    "meaning": "hassas bir ikilemle karşı karşıya kalmak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "dilemma",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ikilem",
+   "note": null,
+   "form": null,
+   "base": "ikilem",
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "face a delicate dilemma",
+    "meaning": "hassas bir ikilemle karşı karşıya kalmak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": "Soru cümlesinde *should* özneden önce gelir: *Should they…?* → … -meliler mi?",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (restoratörler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "kavuşturmak (döndürmek)",
+   "note": "*return something to its original state* \"bir şeyi eski haline döndürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (freski)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "original",
+   "pos": "adjective",
+   "wordId": "original",
+   "sense": 0,
+   "context": "eski (asıl, ilk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "brilliance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "parlaklık",
+   "note": "*brilliant* (parlak) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "parlaklık; dahilik",
+   "phrase": {
+    "from": 16,
+    "to": 21,
+    "text": "return it to its original brilliance",
+    "meaning": "onu eski parlaklığına kavuşturmak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "yoksa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "preserve",
+   "pos": "verb",
+   "wordId": "preserve",
+   "sense": 0,
+   "context": "korumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "patina",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "patina",
+   "note": "*patina* eski nesnelerin yüzeyinde zamanla oluşan \"eskime izi, matlık\"tır.",
+   "form": null,
+   "base": "patina, eskime izi",
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "bestow",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bahşettiği",
+   "note": "*bestow something upon someone* \"birine bir şey bahşetmek, vermek\" demektir; edebî bir ifadedir.",
+   "form": "bestow fiilinin 3. hali (bestowed, -ed)",
+   "base": "bahşetmek, vermek",
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "upon",
+   "pos": "preposition",
+   "wordId": "upon",
+   "sense": 0,
+   "context": "-e (ona)",
+   "note": "*upon*, *on*'un daha resmî ve edebî karşılığıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "the patina that time has bestowed upon it",
+    "meaning": "zamanın ona bahşettiği patina"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "overzealous",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "aşırı hevesli",
+   "note": "*over-* ön eki \"aşırı\" anlamı katar: *zealous* (gayretli) → *overzealous*.",
+   "form": null,
+   "base": "aşırı hevesli, aşırı gayretli",
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "Overzealous cleaning",
+    "meaning": "aşırı hevesli temizlik"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "clean",
+   "pos": "verb",
+   "wordId": "clean",
+   "sense": 1,
+   "context": "temizlik",
+   "note": "Fiile *-ing* eklenerek isim gibi kullanılabilir: *cleaning* → temizlik.",
+   "form": "clean + -ing",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 33,
+    "text": "Overzealous cleaning",
+    "meaning": "aşırı hevesli temizlik"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-tı)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(on occasion: zaman zaman)",
+   "note": "*on occasion* \"zaman zaman, ara sıra\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "on occasion",
+    "meaning": "zaman zaman"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "occasion",
+   "pos": "noun",
+   "wordId": "occasion",
+   "sense": 0,
+   "context": "vesile (durum)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 36,
+    "text": "on occasion",
+    "meaning": "zaman zaman"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "strip",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yoksun bıraktı",
+   "note": "*strip something of something* \"bir şeyi bir şeyden arındırmak, yoksun bırakmak\" demektir.",
+   "form": "strip fiilinin 3. hali (stripped, son harf p ikilenir)",
+   "base": "soymak, arındırmak, yoksun bırakmak",
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "masterpiece",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "başyapıtlar",
+   "note": "*masterpiece* *master* (usta) ve *piece* (eser) kelimelerinden oluşur.",
+   "form": "masterpiece'in çoğulu",
+   "base": "başyapıt, şaheser",
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den (strip of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "very",
+   "pos": "adjective",
+   "wordId": "very",
+   "sense": 1,
+   "context": "ta kendisi",
+   "note": "*the very* + isim \"tam da o, … ta kendisi\" anlamında vurgu katar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "subtlety",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "incelikler",
+   "note": "*subtle* (ince, belli belirsiz) sıfatından türemiştir; *b* okunmaz.",
+   "form": "subtlety'nin çoğulu (y → ies)",
+   "base": "incelik, nüans",
+   "phrase": {
+    "from": 37,
+    "to": 42,
+    "text": "stripped masterpieces of the very subtleties",
+    "meaning": "başyapıtları inceliklerin ta kendisinden yoksun bıraktı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "their creators intended",
+    "meaning": "yaratıcılarının amaçladığı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "creator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yaratıcılar",
+   "note": "*create* (yaratmak) fiilinden *-or* ekiyle türemiştir.",
+   "form": "creator'ın çoğulu",
+   "base": "yaratıcı",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "their creators intended",
+    "meaning": "yaratıcılarının amaçladığı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "intend",
+   "pos": "verb",
+   "wordId": "intend",
+   "sense": 0,
+   "context": "amaçladığı",
+   "note": "İsimden sonra *that* düşebilir: *the subtleties (that) their creators intended*.",
+   "form": "intend + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "their creators intended",
+    "meaning": "yaratıcılarının amaçladığı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "consequently",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bu nedenle",
+   "note": null,
+   "form": "consequent + -ly (sıfattan zarf)",
+   "base": "sonuç olarak, bu nedenle",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "most",
+   "pos": "determiner",
+   "wordId": "most",
+   "sense": 0,
+   "context": "çoğu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "conservator",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "koruma uzmanları",
+   "note": "*conservator* sanat eserlerini koruyan ve onaran uzmandır.",
+   "form": "conservator'ın çoğulu",
+   "base": "koruma uzmanı, konservatör",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "favour",
+   "pos": "verb",
+   "wordId": "favour",
+   "sense": 1,
+   "context": "tercih ediyor",
+   "note": "*favour* fiil olarak \"yeğlemek, tercih etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "favour minimal intervention",
+    "meaning": "en az müdahaleyi tercih etmek"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "minimal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "en az",
+   "note": null,
+   "form": null,
+   "base": "en az, asgari",
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "favour minimal intervention",
+    "meaning": "en az müdahaleyi tercih etmek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "intervention",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "müdahale",
+   "note": "*intervene* (müdahale etmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "müdahale",
+   "phrase": {
+    "from": 50,
+    "to": 52,
+    "text": "favour minimal intervention",
+    "meaning": "en az müdahaleyi tercih etmek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı anda yapılan bir eylemi anlatır: *arguing that…* → … olduğunu savunarak.",
+   "form": "argue + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it is wiser to A than to B* \"B yerine A yapmak daha akıllıcadır\" demektir; *it* boş öznedir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "wise",
+   "pos": "adjective",
+   "wordId": "wise",
+   "sense": 0,
+   "context": "daha akıllıca",
+   "note": null,
+   "form": "wise + -r (karşılaştırma)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "stabilise",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "sağlamlaştırmak",
+   "note": "*stable* (sağlam, dengeli) sıfatından türemiş bir fiildir; Amerikan yazımı *stabilize*'dır.",
+   "form": null,
+   "base": "sağlamlaştırmak, dengelemek",
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -an) şey",
+   "note": "*what survives* \"ayakta kalan şey\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "survive",
+   "pos": "verb",
+   "wordId": "survive",
+   "sense": 0,
+   "context": "ayakta kalan (günümüze ulaşan)",
+   "note": null,
+   "form": "survive + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 61,
+    "text": "it is wiser to stabilise what survives",
+    "meaning": "ayakta kalanı sağlamlaştırmak daha akıllıca"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-mektense",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "impose",
+   "pos": "verb",
+   "wordId": "impose",
+   "sense": 0,
+   "context": "dayatmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "modern",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "guess",
+   "pos": "noun",
+   "wordId": "guess",
+   "sense": 1,
+   "context": "tahmin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 67,
+    "text": "than to impose a modern guess",
+    "meaning": "modern bir tahmini dayatmaktansa"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -an) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "what has been lost",
+    "meaning": "kaybolanlar"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muş)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "what has been lost",
+    "meaning": "kaybolanlar"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ul-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "what has been lost",
+    "meaning": "kaybolanlar"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "lose",
+   "pos": "verb",
+   "wordId": "lose",
+   "sense": 0,
+   "context": "kaybolan",
+   "note": null,
+   "form": "lose fiilinin 3. hali (lost, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "what has been lost",
+    "meaning": "kaybolanlar"
+   }
+  }
+ ]
+}

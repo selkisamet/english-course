@@ -1,0 +1,1087 @@
+{
+ "storyId": "story-c2-022",
+ "textHash": "2e11da0253fc",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İnternetteki anonimlik iki ucu keskin bir kılıçtır."
+  },
+  {
+   "tr": "Muhaliflerin korkmadan konuşmasına olanak tanır ve insanların hiçbir zaman açıkça anlatmayacakları acı deneyimleri konuşabilmesini sağlar."
+  },
+  {
+   "tr": "Ne var ki aynı özgürlük, hiçbir yaptırımla karşılaşmayacaklarından emin olarak taciz eden ve aldatanları da korur."
+  },
+  {
+   "tr": "Bu nedenle anonimliği tamamen kaldırma girişimleri, zalimlerle birlikte savunmasızlara da zarar verir; pek çok kişi bunu fazlasıyla yüksek bir bedel olarak görüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "anonymity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "anonimlik",
+   "note": "*anonymous* (adı belirtilmemiş) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "anonimlik, kimliğin gizli kalması",
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Anonymity on the internet",
+    "meaning": "internetteki anonimlik"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (internetteki)",
+   "note": "*on the internet* \"internette\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Anonymity on the internet",
+    "meaning": "internetteki anonimlik"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Anonymity on the internet",
+    "meaning": "internetteki anonimlik"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "internet",
+   "pos": "noun",
+   "wordId": "internet",
+   "sense": 0,
+   "context": "internet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Anonymity on the internet",
+    "meaning": "internetteki anonimlik"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "cut",
+   "pos": "verb",
+   "wordId": "cut",
+   "sense": 0,
+   "context": "(iki yönlüdür)",
+   "note": "*cut both ways* \"iki ucu keskin bir kılıç olmak, hem iyi hem kötü sonuçları olmak\" demektir.",
+   "form": "cut + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "cuts both ways",
+    "meaning": "iki ucu keskin bir kılıçtır (iki yönlü etkisi var)"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "both",
+   "pos": "determiner",
+   "wordId": "both",
+   "sense": 0,
+   "context": "her iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "cuts both ways",
+    "meaning": "iki ucu keskin bir kılıçtır (iki yönlü etkisi var)"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "yön (yol)",
+   "note": null,
+   "form": "way'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "cuts both ways",
+    "meaning": "iki ucu keskin bir kılıçtır (iki yönlü etkisi var)"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (anonimlik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "olanak tanır",
+   "note": null,
+   "form": "allow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows dissidents to speak",
+    "meaning": "muhaliflerin konuşmasına olanak tanır"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "dissident",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "muhalifler",
+   "note": "*dissident* özellikle baskıcı bir yönetime karşı çıkan \"muhalif\" kişidir.",
+   "form": "dissident'ın çoğulu",
+   "base": "muhalif",
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows dissidents to speak",
+    "meaning": "muhaliflerin konuşmasına olanak tanır"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows dissidents to speak",
+    "meaning": "muhaliflerin konuşmasına olanak tanır"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 11,
+    "text": "allows dissidents to speak",
+    "meaning": "muhaliflerin konuşmasına olanak tanır"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden (-sız)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "without fear",
+    "meaning": "korkmadan"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "fear",
+   "pos": "noun",
+   "wordId": "fear",
+   "sense": 0,
+   "context": "korku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 13,
+    "text": "without fear",
+    "meaning": "korkmadan"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "enable",
+   "pos": "verb",
+   "wordId": "enable",
+   "sense": 0,
+   "context": "sağlar (olanak verir)",
+   "note": "*enable someone to do something* \"birinin bir şeyi yapmasını mümkün kılmak\" demektir.",
+   "form": "enable + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "enables people to discuss",
+    "meaning": "insanların konuşabilmesini sağlar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "enables people to discuss",
+    "meaning": "insanların konuşabilmesini sağlar"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "enables people to discuss",
+    "meaning": "insanların konuşabilmesini sağlar"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "discuss",
+   "pos": "verb",
+   "wordId": "discuss",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 18,
+    "text": "enables people to discuss",
+    "meaning": "insanların konuşabilmesini sağlar"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "painful",
+   "pos": "adjective",
+   "wordId": "painful",
+   "sense": 0,
+   "context": "acı (verici)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "painful experiences",
+    "meaning": "acı deneyimler"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": "İsimden sonra *that* düşebilir: *experiences (that) they would never disclose*.",
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "painful experiences",
+    "meaning": "acı deneyimler"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-mazlardı)",
+   "note": "*would never* \"asla … -mezdi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "would never disclose publicly",
+    "meaning": "hiçbir zaman açıkça anlatmazlardı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "would never disclose publicly",
+    "meaning": "hiçbir zaman açıkça anlatmazlardı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "disclose",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "anlatmak (açığa vurmak)",
+   "note": "*disclose* gizli bir şeyi \"açıklamak, ifşa etmek\" demektir.",
+   "form": null,
+   "base": "açıklamak, ifşa etmek",
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "would never disclose publicly",
+    "meaning": "hiçbir zaman açıkça anlatmazlardı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "publicly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "açıkça (herkesin önünde)",
+   "note": "*-ly* eki sıfattan zarf yapar: *public* → *publicly*.",
+   "form": "public + -ly (sıfattan zarf)",
+   "base": "herkesin önünde, açıkça",
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "would never disclose publicly",
+    "meaning": "hiçbir zaman açıkça anlatmazlardı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ne var ki (ama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "freedom",
+   "pos": "noun",
+   "wordId": "freedom",
+   "sense": 0,
+   "context": "özgürlük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "shelter",
+   "pos": "verb",
+   "wordId": "shelter",
+   "sense": 1,
+   "context": "korur (barındırır)",
+   "note": null,
+   "form": "shelter + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -enler)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "harass",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "taciz eden",
+   "note": null,
+   "form": null,
+   "base": "taciz etmek, rahatsız etmek",
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "deceive",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aldatan",
+   "note": null,
+   "form": null,
+   "base": "aldatmak, kandırmak",
+   "phrase": {
+    "from": 30,
+    "to": 35,
+    "text": "shelters those who harass and deceive",
+    "meaning": "taciz eden ve aldatanları korur"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "secure",
+   "pos": "adjective",
+   "wordId": "secure",
+   "sense": 1,
+   "context": "emin",
+   "note": "*secure in the knowledge that…* \"… olduğunu bilmenin rahatlığıyla, … olduğundan emin\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "secure in the knowledge",
+    "meaning": "… olduğundan emin olarak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(secure in)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "secure in the knowledge",
+    "meaning": "… olduğundan emin olarak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "secure in the knowledge",
+    "meaning": "… olduğundan emin olarak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "knowledge",
+   "pos": "noun",
+   "wordId": "knowledge",
+   "sense": 0,
+   "context": "bilgi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "secure in the knowledge",
+    "meaning": "… olduğundan emin olarak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceklerinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "will",
+   "pos": "modal verb",
+   "wordId": "will",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "karşılaşmak",
+   "note": "*face consequences* \"sonuçlarına katlanmak, yaptırımla karşılaşmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "face no consequences",
+    "meaning": "hiçbir yaptırımla karşılaşmamak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiçbir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "face no consequences",
+    "meaning": "hiçbir yaptırımla karşılaşmamak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "consequence",
+   "pos": "noun",
+   "wordId": "consequence",
+   "sense": 0,
+   "context": "yaptırımlar (sonuçlar)",
+   "note": null,
+   "form": "consequence'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "face no consequences",
+    "meaning": "hiçbir yaptırımla karşılaşmamak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "attempt",
+   "pos": "noun",
+   "wordId": "attempt",
+   "sense": 0,
+   "context": "girişimler",
+   "note": null,
+   "form": "attempt'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "Attempts to abolish anonymity",
+    "meaning": "anonimliği kaldırma girişimleri"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-me (kaldırma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "Attempts to abolish anonymity",
+    "meaning": "anonimliği kaldırma girişimleri"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "abolish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kaldırmak",
+   "note": "*abolish* bir yasa ya da uygulamayı \"tamamen kaldırmak\" demektir.",
+   "form": null,
+   "base": "kaldırmak, ortadan kaldırmak",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "Attempts to abolish anonymity",
+    "meaning": "anonimliği kaldırma girişimleri"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "anonymity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "anonimlik",
+   "note": null,
+   "form": null,
+   "base": "anonimlik, kimliğin gizli kalması",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "Attempts to abolish anonymity",
+    "meaning": "anonimliği kaldırma girişimleri"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "entirely",
+   "pos": "adverb",
+   "wordId": "entirely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-ecek)",
+   "note": "*would* burada olası bir sonucu anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "harm",
+   "pos": "verb",
+   "wordId": "harm",
+   "sense": 1,
+   "context": "zarar vermek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + sıfat bir grubun tamamını anlatır: *the vulnerable* → savunmasızlar, *the cruel* → zalimler.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "vulnerable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "savunmasızlar",
+   "note": null,
+   "form": null,
+   "base": "savunmasız, korunmasız",
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "along",
+   "pos": "adverb",
+   "wordId": "along",
+   "sense": 1,
+   "context": "(along with: ile birlikte)",
+   "note": "*along with* \"ile birlikte\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "along with",
+    "meaning": "ile birlikte"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "along with",
+    "meaning": "ile birlikte"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "cruel",
+   "pos": "adjective",
+   "wordId": "cruel",
+   "sense": 0,
+   "context": "zalimler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Virgülden sonra gelen *a price that…* önceki cümlenin tamamını açıklar: \"bu, … bir bedeldir\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "bedel (fiyat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "pek çok kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "consider",
+   "pos": "verb",
+   "wordId": "consider",
+   "sense": 0,
+   "context": "görüyor (saymak)",
+   "note": "*consider something* + sıfat \"bir şeyi … olarak görmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "far",
+   "pos": "adverb",
+   "wordId": "far",
+   "sense": 0,
+   "context": "fazlasıyla (çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "too",
+   "pos": "adverb",
+   "wordId": "too",
+   "sense": 0,
+   "context": "fazla",
+   "note": "*far too* + sıfat \"fazlasıyla, aşırı …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "high",
+   "pos": "adjective",
+   "wordId": "high",
+   "sense": 0,
+   "context": "yüksek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 67,
+    "text": "a price that many consider far too high",
+    "meaning": "pek çoklarının fazlasıyla yüksek gördüğü bir bedel"
+   }
+  }
+ ]
+}

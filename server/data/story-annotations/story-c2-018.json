@@ -1,0 +1,1208 @@
+{
+ "storyId": "story-c2-018",
+ "textHash": "5b07d4b5e852",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İnsanlık tarihinin büyük bölümünde zaman güneşe, mevsimlere ve kilise çanlarının çalmasına göre kabaca ölçülürdü."
+  },
+  {
+   "tr": "Kesin ve standart saatleri talep eden herhangi bir filozof değil, demiryoluydu; çünkü trenler onlarca farklı yerel saate göre güvenli biçimde işleyemezdi."
+  },
+  {
+   "tr": "Böylece dakiklik kişisel bir erdemden ekonomik bir zorunluluğa dönüştü."
+  },
+  {
+   "tr": "Bugün onun disiplinine o kadar alışkınız ki ne kadar yakın bir zamanda ve ne kadar keyfî biçimde dayatıldığını nadiren fark ederiz."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca (-de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "most",
+   "pos": "pronoun",
+   "wordId": "most",
+   "sense": 1,
+   "context": "büyük bölümü",
+   "note": "*most of* + isim \"… -in çoğu, büyük bölümü\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan(lık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "For most of human history",
+    "meaning": "insanlık tarihinin büyük bölümünde"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ülürdü)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "was measured loosely",
+    "meaning": "kabaca ölçülürdü"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "measure",
+   "pos": "verb",
+   "wordId": "measure",
+   "sense": 0,
+   "context": "ölçülürdü",
+   "note": null,
+   "form": "measure fiilinin 3. hali (measured, -d)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "was measured loosely",
+    "meaning": "kabaca ölçülürdü"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "loosely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kabaca",
+   "note": "*loose* (gevşek) sıfatından *-ly* ile zarf yapılmıştır: \"kesin olmayan biçimde, kabaca\".",
+   "form": "loose + -ly (sıfattan zarf)",
+   "base": "kabaca, gevşek biçimde",
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "was measured loosely",
+    "meaning": "kabaca ölçülürdü"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-e göre (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "sun",
+   "pos": "noun",
+   "wordId": "sun",
+   "sense": 0,
+   "context": "güneş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "season",
+   "pos": "noun",
+   "wordId": "season",
+   "sense": 0,
+   "context": "mevsimler",
+   "note": null,
+   "form": "season'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the ringing of church bells",
+    "meaning": "kilise çanlarının çalması"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "ring",
+   "pos": "verb",
+   "wordId": "ring",
+   "sense": 1,
+   "context": "çalma",
+   "note": "*ringing* isim olarak \"(zil, çan) çalma\" demektir.",
+   "form": "ring + -ing (isim olarak)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the ringing of church bells",
+    "meaning": "kilise çanlarının çalması"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (çanların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the ringing of church bells",
+    "meaning": "kilise çanlarının çalması"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "church",
+   "pos": "noun",
+   "wordId": "church",
+   "sense": 0,
+   "context": "kilise",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the ringing of church bells",
+    "meaning": "kilise çanlarının çalması"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "bell",
+   "pos": "noun",
+   "wordId": "bell",
+   "sense": 0,
+   "context": "çanlar",
+   "note": null,
+   "form": "bell'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the ringing of church bells",
+    "meaning": "kilise çanlarının çalması"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*It was … that …* (vurgu cümlesi) aradaki bölümü öne çıkarır: *It was the railway that demanded…* → … talep eden demiryoluydu.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "It was the railway … that",
+    "meaning": "… olan demiryoluydu (vurgu cümlesi)"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-du)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "It was the railway … that",
+    "meaning": "… olan demiryoluydu (vurgu cümlesi)"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "It was the railway … that",
+    "meaning": "… olan demiryoluydu (vurgu cümlesi)"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "railway",
+   "pos": "noun",
+   "wordId": "railway",
+   "sense": 0,
+   "context": "demiryolu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "It was the railway … that",
+    "meaning": "… olan demiryoluydu (vurgu cümlesi)"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: … değil)",
+   "note": "*A rather than B* \"B değil A\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "rather than any philosopher",
+    "meaning": "herhangi bir filozof değil"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "rather than any philosopher",
+    "meaning": "herhangi bir filozof değil"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "herhangi bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "rather than any philosopher",
+    "meaning": "herhangi bir filozof değil"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "philosopher",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "filozof",
+   "note": "*philosophy* (felsefe) isminden *-er* ekiyle türemiştir.",
+   "form": null,
+   "base": "filozof",
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "rather than any philosopher",
+    "meaning": "herhangi bir filozof değil"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": "*It was … that* kalıbındaki *that* vurgulanan bölümü cümlenin geri kalanına bağlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 28,
+    "text": "It was the railway … that",
+    "meaning": "… olan demiryoluydu (vurgu cümlesi)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "demand",
+   "pos": "verb",
+   "wordId": "demand",
+   "sense": 1,
+   "context": "talep eden",
+   "note": null,
+   "form": "demand + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "precise",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kesin",
+   "note": null,
+   "form": null,
+   "base": "kesin, tam, hassas",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "precise and standardised clocks",
+    "meaning": "kesin ve standart saatler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "precise and standardised clocks",
+    "meaning": "kesin ve standart saatler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "standardise",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "standart",
+   "note": "*standard* (standart) isminden türemiş fiilin 3. hali sıfat gibi kullanılmıştır: \"her yerde aynı olan\".",
+   "form": "standardise fiilinin 3. hali (standardised, -d)",
+   "base": "standart hale getirmek",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "precise and standardised clocks",
+    "meaning": "kesin ve standart saatler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "clock",
+   "pos": "noun",
+   "wordId": "clock",
+   "sense": 0,
+   "context": "saatler",
+   "note": null,
+   "form": "clock'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "precise and standardised clocks",
+    "meaning": "kesin ve standart saatler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "çünkü (-dığı için)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "trenler",
+   "note": null,
+   "form": "train'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilmek (-emezdi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "işlemek",
+   "note": "*run* tren ve otobüsler için \"sefer yapmak, işlemek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "run safely",
+    "meaning": "güvenli biçimde işlemek"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "safely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "güvenli biçimde",
+   "note": "*-ly* eki sıfattan zarf yapar: *safe* (güvenli) → *safely*.",
+   "form": "safe + -ly (sıfattan zarf)",
+   "base": "güvenli biçimde",
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "run safely",
+    "meaning": "güvenli biçimde işlemek"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(-e göre)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "dozen",
+   "pos": "determiner",
+   "wordId": "dozen",
+   "sense": 1,
+   "context": "onlarca",
+   "note": "*dozens of* + çoğul isim \"onlarca …\" demektir; *a dozen* ise \"bir düzine (12)\" anlamındadır.",
+   "form": "dozen'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "dozens of local times",
+    "meaning": "onlarca yerel saat"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(dozens of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "dozens of local times",
+    "meaning": "onlarca yerel saat"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yerel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "dozens of local times",
+    "meaning": "onlarca yerel saat"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "saatler",
+   "note": "*local time* \"yerel saat\" demektir.",
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 44,
+    "text": "dozens of local times",
+    "meaning": "onlarca yerel saat"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "punctuality",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dakiklik",
+   "note": "*punctual* (dakik) sıfatından *-ity* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "dakiklik",
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "thus",
+   "pos": "adverb",
+   "wordId": "thus",
+   "sense": 0,
+   "context": "böylece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "evolve",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dönüştü (evrildi)",
+   "note": "*evolve from A into B* \"A'dan B'ye evrilmek, dönüşmek\" demektir.",
+   "form": "evolve + -d (geçmiş zaman)",
+   "base": "evrilmek, gelişmek",
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "personal",
+   "pos": "adjective",
+   "wordId": "personal",
+   "sense": 0,
+   "context": "kişisel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "virtue",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "erdem",
+   "note": null,
+   "form": null,
+   "base": "erdem",
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an economic necessity*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "economic",
+   "pos": "adjective",
+   "wordId": "economic",
+   "sense": 0,
+   "context": "ekonomik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "necessity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "zorunluluk",
+   "note": null,
+   "form": null,
+   "base": "zorunluluk, gereklilik",
+   "phrase": {
+    "from": 47,
+    "to": 55,
+    "text": "evolved from a personal virtue into an economic necessity",
+    "meaning": "kişisel bir erdemden ekonomik bir zorunluluğa dönüştü"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ız)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "o kadar",
+   "note": "*so* + sıfat + *that* … \"o kadar … ki …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "accustomed",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "alışkın",
+   "note": "*be accustomed to something* \"bir şeye alışkın olmak\" demektir; *be used to*'nun resmî karşılığıdır.",
+   "form": null,
+   "base": "alışkın",
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (dakikliğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "discipline",
+   "pos": "noun",
+   "wordId": "discipline",
+   "sense": 0,
+   "context": "disiplin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "ki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "so accustomed to its discipline that",
+    "meaning": "onun disiplinine o kadar alışkınız ki"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "rarely",
+   "pos": "adverb",
+   "wordId": "rarely",
+   "sense": 0,
+   "context": "nadiren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "notice",
+   "pos": "verb",
+   "wordId": "notice",
+   "sense": 0,
+   "context": "fark ederiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "how recently, and how arbitrarily",
+    "meaning": "ne kadar yakın zamanda ve ne kadar keyfî biçimde"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "recently",
+   "pos": "adverb",
+   "wordId": "recently",
+   "sense": 0,
+   "context": "yakın zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "how recently, and how arbitrarily",
+    "meaning": "ne kadar yakın zamanda ve ne kadar keyfî biçimde"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "how recently, and how arbitrarily",
+    "meaning": "ne kadar yakın zamanda ve ne kadar keyfî biçimde"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "how recently, and how arbitrarily",
+    "meaning": "ne kadar yakın zamanda ve ne kadar keyfî biçimde"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "arbitrarily",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "keyfî biçimde",
+   "note": "*arbitrary* (keyfî, rastgele) sıfatından *-ly* ile zarf yapılmıştır (y → i).",
+   "form": "arbitrary + -ly (sıfattan zarf)",
+   "base": "keyfî olarak, rastgele",
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "how recently, and how arbitrarily",
+    "meaning": "ne kadar yakın zamanda ve ne kadar keyfî biçimde"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (dakiklik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "it was imposed",
+    "meaning": "dayatıldı"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıldı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "it was imposed",
+    "meaning": "dayatıldı"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "impose",
+   "pos": "verb",
+   "wordId": "impose",
+   "sense": 0,
+   "context": "dayatıldığı",
+   "note": null,
+   "form": "impose fiilinin 3. hali (imposed, -d)",
+   "base": null,
+   "phrase": {
+    "from": 73,
+    "to": 75,
+    "text": "it was imposed",
+    "meaning": "dayatıldı"
+   }
+  }
+ ]
+}

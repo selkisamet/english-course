@@ -1,0 +1,1165 @@
+{
+ "storyId": "story-c2-031",
+ "textHash": "febf76cfcb91",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Seri üretim çağında sabırlı zanaatkâr, adeta bir aykırılığa dönüştü."
+  },
+  {
+   "tr": "El yapımı bir sandalyenin tamamlanması haftalar sürebilir ve fabrikada üretilen benzerinden kat kat pahalıya mal olabilir; yine de değeri kısmen ölçülemeyen bir şeyde yatar: on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme."
+  },
+  {
+   "tr": "Bu tür beceriler kaybolduğunda nadiren herhangi bir kılavuza kaydedilir."
+  },
+  {
+   "tr": "Onlara sahip olan son kişiyle birlikte sessizce yok olup giderler."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (çağında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In an age of mass production",
+    "meaning": "seri üretim çağında"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an age*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In an age of mass production",
+    "meaning": "seri üretim çağında"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "age",
+   "pos": "noun",
+   "wordId": "age",
+   "sense": 0,
+   "context": "çağ",
+   "note": "*age*'in temel anlamı \"yaş\"tır; burada \"çağ, devir\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In an age of mass production",
+    "meaning": "seri üretim çağında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… çağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "In an age of mass production",
+    "meaning": "seri üretim çağında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "mass",
+   "pos": "adjective",
+   "wordId": "mass",
+   "sense": 1,
+   "context": "seri (kitlesel)",
+   "note": "*mass production* \"seri üretim, kitlesel üretim\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "mass production",
+    "meaning": "seri üretim"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "production",
+   "pos": "noun",
+   "wordId": "production",
+   "sense": 0,
+   "context": "üretim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 5,
+    "text": "mass production",
+    "meaning": "seri üretim"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "patient",
+   "pos": "adjective",
+   "wordId": "patient",
+   "sense": 1,
+   "context": "sabırlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "the patient craftsman",
+    "meaning": "sabırlı zanaatkâr"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "craftsman",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "zanaatkâr",
+   "note": "*craft* (zanaat) + *man*: elle ustalık gerektiren işler yapan kişi.",
+   "form": null,
+   "base": "zanaatkâr, usta",
+   "phrase": {
+    "from": 7,
+    "to": 8,
+    "text": "the patient craftsman",
+    "meaning": "sabırlı zanaatkâr"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dü)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüştü (oldu)",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "(adeta)",
+   "note": "*something of a/an* + isim \"bir tür …, adeta …\" demektir ve ifadeyi yumuşatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(something of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "anomaly",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "aykırılık",
+   "note": "*anomaly* olağan düzene uymayan şey, \"anormallik, aykırılık\" demektir.",
+   "form": null,
+   "base": "anormallik, aykırılık",
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "has become something of an anomaly",
+    "meaning": "adeta bir aykırılığa dönüştü"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "handmade",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "el yapımı",
+   "note": "*hand* (el) + *made* (yapılmış): \"el yapımı\".",
+   "form": null,
+   "base": "el yapımı",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "chair",
+   "pos": "noun",
+   "wordId": "chair",
+   "sense": 0,
+   "context": "sandalye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "may take weeks to complete",
+    "meaning": "tamamlanması haftalar sürebilir"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "take",
+   "pos": "verb",
+   "wordId": "take",
+   "sense": 0,
+   "context": "sürmek",
+   "note": "*take* + süre + *to* + fiil \"… -mek … sürmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "may take weeks to complete",
+    "meaning": "tamamlanması haftalar sürebilir"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "haftalar",
+   "note": null,
+   "form": "week'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "may take weeks to complete",
+    "meaning": "tamamlanması haftalar sürebilir"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "may take weeks to complete",
+    "meaning": "tamamlanması haftalar sürebilir"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "complete",
+   "pos": "verb",
+   "wordId": "complete",
+   "sense": 1,
+   "context": "tamamlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 22,
+    "text": "may take weeks to complete",
+    "meaning": "tamamlanması haftalar sürebilir"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "cost",
+   "pos": "verb",
+   "wordId": "cost",
+   "sense": 1,
+   "context": "mal olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "many",
+   "pos": "determiner",
+   "wordId": "many",
+   "sense": 0,
+   "context": "(kat kat)",
+   "note": "*many times more than* \"… -den kat kat fazla\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "kat (kez)",
+   "note": null,
+   "form": "time'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazla",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "factory",
+   "pos": "noun",
+   "wordId": "factory",
+   "sense": 0,
+   "context": "fabrika",
+   "note": "Burada *factory* isim olmasına rağmen *equivalent*'ı niteler: *its factory equivalent* → fabrikada üretilen benzeri.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "equivalent",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "benzeri (eşdeğeri)",
+   "note": null,
+   "form": null,
+   "base": "karşılık, eşdeğer",
+   "phrase": {
+    "from": 24,
+    "to": 31,
+    "text": "cost many times more than its factory equivalent",
+    "meaning": "fabrikadaki benzerinden kat kat pahalıya mal olmak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "yine de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "value",
+   "pos": "noun",
+   "wordId": "value",
+   "sense": 0,
+   "context": "değer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "value lies partly in what",
+    "meaning": "değeri kısmen … şeyde yatar"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 0,
+   "context": "yatar",
+   "note": "*lie in something* \"(değer, sebep) bir şeyde yatmak\" demektir.",
+   "form": "lie + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "value lies partly in what",
+    "meaning": "değeri kısmen … şeyde yatar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "partly",
+   "pos": "adverb",
+   "wordId": "partly",
+   "sense": 0,
+   "context": "kısmen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "value lies partly in what",
+    "meaning": "değeri kısmen … şeyde yatar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "value lies partly in what",
+    "meaning": "değeri kısmen … şeyde yatar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -en) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "value lies partly in what",
+    "meaning": "değeri kısmen … şeyde yatar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "cannot be measured",
+    "meaning": "ölçülemez"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ül-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "cannot be measured",
+    "meaning": "ölçülemez"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "measure",
+   "pos": "verb",
+   "wordId": "measure",
+   "sense": 0,
+   "context": "ölçülmek",
+   "note": null,
+   "form": "measure fiilinin 3. hali (measured, -d)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "cannot be measured",
+    "meaning": "ölçülemez"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "accumulated",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "biriktirilmiş",
+   "note": "*accumulate* (biriktirmek) fiilinin 3. hali sıfat olarak kullanılmıştır.",
+   "form": null,
+   "base": "birikmiş, biriktirilmiş",
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "muhakeme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (ellerin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "hand",
+   "pos": "noun",
+   "wordId": "hand",
+   "sense": 0,
+   "context": "eller",
+   "note": null,
+   "form": "hand'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "train",
+   "pos": "verb",
+   "wordId": "train",
+   "sense": 1,
+   "context": "eğitilmiş",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *hands trained over decades* → on yıllar boyunca eğitilmiş eller.",
+   "form": "train fiilinin 3. hali (trained, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıllar",
+   "note": null,
+   "form": "decade'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 49,
+    "text": "the accumulated judgement of hands trained over decades",
+    "meaning": "on yıllar boyunca eğitilmiş ellerin biriktirdiği muhakeme"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "skill",
+   "pos": "noun",
+   "wordId": "skill",
+   "sense": 0,
+   "context": "beceriler",
+   "note": null,
+   "form": "skill'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "disappear",
+   "pos": "verb",
+   "wordId": "disappear",
+   "sense": 0,
+   "context": "kaybolduğunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (beceriler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ilir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "are seldom recorded",
+    "meaning": "nadiren kaydedilir"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "seldom",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "nadiren",
+   "note": null,
+   "form": null,
+   "base": "nadiren, seyrek",
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "are seldom recorded",
+    "meaning": "nadiren kaydedilir"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "record",
+   "pos": "verb",
+   "wordId": "record",
+   "sense": 1,
+   "context": "kaydedilir",
+   "note": null,
+   "form": "record fiilinin 3. hali (recorded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "are seldom recorded",
+    "meaning": "nadiren kaydedilir"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (kılavuza)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "any",
+   "pos": "determiner",
+   "wordId": "any",
+   "sense": 0,
+   "context": "herhangi bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "manual",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kılavuz",
+   "note": null,
+   "form": null,
+   "base": "kılavuz, el kitabı",
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "vanish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yok olup giderler",
+   "note": null,
+   "form": null,
+   "base": "kaybolmak, yok olmak",
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "vanish quietly",
+    "meaning": "sessizce yok olur"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "quietly",
+   "pos": "adverb",
+   "wordId": "quietly",
+   "sense": 0,
+   "context": "sessizce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "vanish quietly",
+    "meaning": "sessizce yok olur"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "along",
+   "pos": "adverb",
+   "wordId": "along",
+   "sense": 1,
+   "context": "(along with: ile birlikte)",
+   "note": "*along with* \"ile birlikte\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "along with",
+    "meaning": "ile birlikte"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "along with",
+    "meaning": "ile birlikte"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "last",
+   "pos": "determiner",
+   "wordId": "last",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "possess",
+   "pos": "verb",
+   "wordId": "possess",
+   "sense": 0,
+   "context": "sahip olan",
+   "note": null,
+   "form": "possess + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "the last person who possessed them",
+    "meaning": "onlara sahip olan son kişi"
+   }
+  }
+ ]
+}

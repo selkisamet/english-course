@@ -1,0 +1,1194 @@
+{
+ "storyId": "story-c2-016",
+ "textHash": "cd174c68121b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Popüler kültür, başkaları şaşkınlıkla izlerken ani bir ilhamla aydınlanan yalnız dâhi imgesine büyük değer verir."
+  },
+  {
+   "tr": "Ancak biyografiler daha az romantik bir hikâye anlatır."
+  },
+  {
+   "tr": "Neredeyse her ünlü buluşun ardında yıllarca süren titiz bir emek, sayısız başarısızlık ve meslektaşlarla öncüllerin çoğu zaman adı anılmayan katkıları yatar."
+  },
+  {
+   "tr": "Başarıyı yalnızca doğuştan gelen parlak bir zekâya bağlamak sadece yanlış değildir."
+  },
+  {
+   "tr": "Bu aynı zamanda, nadir bir yetenek olmadan azmin hiçbir işe yaramadığına yanlışlıkla inananların cesaretini de kırabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "popular",
+   "pos": "adjective",
+   "wordId": "popular",
+   "sense": 0,
+   "context": "popüler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Popular culture",
+    "meaning": "popüler kültür"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "culture",
+   "pos": "noun",
+   "wordId": "culture",
+   "sense": 0,
+   "context": "kültür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Popular culture",
+    "meaning": "popüler kültür"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "cherish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "büyük değer verir",
+   "note": "*cherish* bir şeyi \"çok sevmek, el üstünde tutmak\" demektir.",
+   "form": "cherish + -es (geniş zaman, 3. tekil şahıs)",
+   "base": "değer vermek, sevgiyle saklamak",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "image",
+   "pos": "noun",
+   "wordId": "image",
+   "sense": 0,
+   "context": "imge (imaj)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… imgesi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "solitary",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnız",
+   "note": "*solitary* \"yalnız, tek başına\" demektir ve edebî bir kelimedir.",
+   "form": null,
+   "base": "yalnız, tek başına",
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "genius",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "dâhi",
+   "note": null,
+   "form": null,
+   "base": "dâhi; dehâ",
+   "phrase": {
+    "from": 3,
+    "to": 8,
+    "text": "the image of the solitary genius",
+    "meaning": "yalnız dâhi imgesi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "strike",
+   "pos": "verb",
+   "wordId": "strike",
+   "sense": 0,
+   "context": "aydınlanan (çarpılan)",
+   "note": "*be struck by* \"… tarafından vurulmak\" demektir; mecazen *struck by inspiration* \"ilham gelmiş, aydınlanmış\" anlamına gelir.",
+   "form": "strike fiilinin 3. hali (struck, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "struck by sudden inspiration",
+    "meaning": "ani bir ilhamla aydınlanan"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile (tarafından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "struck by sudden inspiration",
+    "meaning": "ani bir ilhamla aydınlanan"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "sudden",
+   "pos": "adjective",
+   "wordId": "sudden",
+   "sense": 0,
+   "context": "ani",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "struck by sudden inspiration",
+    "meaning": "ani bir ilhamla aydınlanan"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "inspiration",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ilham",
+   "note": null,
+   "form": null,
+   "base": "ilham",
+   "phrase": {
+    "from": 9,
+    "to": 12,
+    "text": "struck by sudden inspiration",
+    "meaning": "ani bir ilhamla aydınlanan"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "while others look on in bewilderment",
+    "meaning": "başkaları şaşkınlıkla izlerken"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkaları",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "while others look on in bewilderment",
+    "meaning": "başkaları şaşkınlıkla izlerken"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "look",
+   "pos": "verb",
+   "wordId": "look",
+   "sense": 0,
+   "context": "izlemek",
+   "note": "*look on* \"(karışmadan) seyretmek, izlemek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "look on",
+    "meaning": "seyretmek, izlemek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "on",
+   "pos": "adverb",
+   "wordId": "on",
+   "sense": 1,
+   "context": "(look on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "look on",
+    "meaning": "seyretmek, izlemek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-le (şaşkınlıkla)",
+   "note": "*in* + duygu ismi \"… içinde, … -le\" demektir: *in bewilderment* → şaşkınlıkla.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "while others look on in bewilderment",
+    "meaning": "başkaları şaşkınlıkla izlerken"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "bewilderment",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşkınlık",
+   "note": "*bewilder* (şaşırtmak) fiilinden *-ment* ekiyle türemiştir.",
+   "form": null,
+   "base": "şaşkınlık, hayret",
+   "phrase": {
+    "from": 13,
+    "to": 18,
+    "text": "while others look on in bewilderment",
+    "meaning": "başkaları şaşkınlıkla izlerken"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "biography",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "biyografiler",
+   "note": null,
+   "form": "biography'nin çoğulu (y → ies)",
+   "base": "biyografi, yaşam öyküsü",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "anlatır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "a less romantic story",
+    "meaning": "daha az romantik bir hikâye"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "a less romantic story",
+    "meaning": "daha az romantik bir hikâye"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "romantic",
+   "pos": "adjective",
+   "wordId": "romantic",
+   "sense": 0,
+   "context": "romantik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "a less romantic story",
+    "meaning": "daha az romantik bir hikâye"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikâye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "a less romantic story",
+    "meaning": "daha az romantik bir hikâye"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "behind",
+   "pos": "preposition",
+   "wordId": "behind",
+   "sense": 0,
+   "context": "ardında",
+   "note": "Yer bildiren ifade cümle başına gelince fiil özneden önce gelebilir: *Behind every breakthrough lie years of labour* (= *Years of labour lie behind…*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "celebrate",
+   "pos": "verb",
+   "wordId": "celebrate",
+   "sense": 0,
+   "context": "ünlü (takdir edilen)",
+   "note": "*celebrate* \"kutlamak\" demektir; *celebrated* sıfat olarak \"ünlü, takdir edilen\" anlamına gelir.",
+   "form": "celebrate fiilinin 3. hali (celebrated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "breakthrough",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "buluş (atılım)",
+   "note": "*breakthrough* bilimde \"çığır açan buluş, önemli ilerleme\" demektir.",
+   "form": null,
+   "base": "çığır açan buluş, atılım",
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 0,
+   "context": "yatar",
+   "note": "*lie behind something* \"bir şeyin ardında yatmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "Behind almost every celebrated breakthrough lie",
+    "meaning": "neredeyse her ünlü buluşun ardında … yatar (devrik yapı)"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "years of painstaking labour",
+    "meaning": "yıllarca süren titiz emek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(yıllarca süren)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "years of painstaking labour",
+    "meaning": "yıllarca süren titiz emek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "painstaking",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "titiz (zahmetli)",
+   "note": "*painstaking* çok özen ve emek isteyen demektir.",
+   "form": null,
+   "base": "titiz, zahmetli",
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "years of painstaking labour",
+    "meaning": "yıllarca süren titiz emek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "labour",
+   "pos": "noun",
+   "wordId": "labour",
+   "sense": 0,
+   "context": "emek",
+   "note": "İngiliz yazımı *labour*, Amerikan yazımı *labor*'dır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 35,
+    "text": "years of painstaking labour",
+    "meaning": "yıllarca süren titiz emek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "countless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sayısız",
+   "note": null,
+   "form": null,
+   "base": "sayısız",
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "failure",
+   "pos": "noun",
+   "wordId": "failure",
+   "sense": 0,
+   "context": "başarısızlıklar",
+   "note": null,
+   "form": "failure'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "often unacknowledged contributions",
+    "meaning": "çoğu zaman adı anılmayan katkılar"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "unacknowledged",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "adı anılmayan",
+   "note": "*un-* (olumsuzluk) + *acknowledged* (kabul edilmiş, takdir edilmiş).",
+   "form": null,
+   "base": "takdir edilmemiş, adı anılmamış",
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "often unacknowledged contributions",
+    "meaning": "çoğu zaman adı anılmayan katkılar"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "contribution",
+   "pos": "noun",
+   "wordId": "contribution",
+   "sense": 0,
+   "context": "katkılar",
+   "note": null,
+   "form": "contribution'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 40,
+    "to": 42,
+    "text": "often unacknowledged contributions",
+    "meaning": "çoğu zaman adı anılmayan katkılar"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "meslektaşlar",
+   "note": null,
+   "form": "colleague'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "predecessor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "öncüller (selefler)",
+   "note": "*predecessor* bir işte ya da alanda \"daha önce gelen kişi, selef\" demektir.",
+   "form": "predecessor'ın çoğulu",
+   "base": "selef, öncül",
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": "Cümle başındaki *To* + fiil cümlenin öznesi olabilir: *To attribute… is not…* → … bağlamak … değildir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "attribute",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bağlamak (atfetmek)",
+   "note": null,
+   "form": null,
+   "base": "atfetmek, -e bağlamak",
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "achievement",
+   "pos": "noun",
+   "wordId": "achievement",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "innate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "doğuştan gelen",
+   "note": null,
+   "form": null,
+   "base": "doğuştan, içten gelen",
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "brilliance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "parlak zekâ",
+   "note": "*brilliance* \"parlaklık\" ve kişiler için \"dâhilik, parlak zekâ\" demektir.",
+   "form": null,
+   "base": "parlaklık; dahilik",
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": "İsimden sonra gelen *alone* \"yalnızca, tek başına\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 53,
+    "text": "To attribute achievement to innate brilliance alone",
+    "meaning": "başarıyı yalnızca doğuştan gelen parlak zekâya bağlamak"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "not merely inaccurate",
+    "meaning": "sadece yanlış değil"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "merely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sadece",
+   "note": null,
+   "form": null,
+   "base": "yalnızca, sadece",
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "not merely inaccurate",
+    "meaning": "sadece yanlış değil"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "inaccurate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yanlış",
+   "note": "*in-* ön eki olumsuzluk katar: *accurate* (doğru) → *inaccurate* (yanlış, hatalı).",
+   "form": null,
+   "base": "yanlış, hatalı",
+   "phrase": {
+    "from": 55,
+    "to": 57,
+    "text": "not merely inaccurate",
+    "meaning": "sadece yanlış değil"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "aynı zamanda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "discourage",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "cesaretini kırmak",
+   "note": "*discourage someone* \"birinin cesaretini kırmak\" demektir.",
+   "form": null,
+   "base": "caydırmak, cesaretini kırmak",
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -anlar)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "those who mistakenly believe",
+    "meaning": "yanlışlıkla inananlar"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "those who mistakenly believe",
+    "meaning": "yanlışlıkla inananlar"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "mistakenly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "yanlışlıkla",
+   "note": "*mistaken* (yanılmış) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "mistaken + -ly (sıfattan zarf)",
+   "base": "yanlışlıkla, hatalı olarak",
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "those who mistakenly believe",
+    "meaning": "yanlışlıkla inananlar"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "believe",
+   "pos": "verb",
+   "wordId": "believe",
+   "sense": 0,
+   "context": "inanan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "persistence",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "azim (sebat)",
+   "note": "*persist* (sebat etmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "azim, sebat",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "count",
+   "pos": "verb",
+   "wordId": "count",
+   "sense": 0,
+   "context": "(hiçbir) işe yaramaz",
+   "note": "*count for nothing* \"hiçbir değeri olmamak, hiçbir işe yaramamak\" demektir.",
+   "form": "count + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "counts for nothing",
+    "meaning": "hiçbir işe yaramaz"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(count for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "counts for nothing",
+    "meaning": "hiçbir işe yaramaz"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "nothing",
+   "pos": "pronoun",
+   "wordId": "nothing",
+   "sense": 0,
+   "context": "hiçbir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "counts for nothing",
+    "meaning": "hiçbir işe yaramaz"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "olmadan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "a rare gift",
+    "meaning": "nadir bir yetenek"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "rare",
+   "pos": "adjective",
+   "wordId": "rare",
+   "sense": 0,
+   "context": "nadir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "a rare gift",
+    "meaning": "nadir bir yetenek"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "gift",
+   "pos": "noun",
+   "wordId": "gift",
+   "sense": 0,
+   "context": "yetenek",
+   "note": "*gift* \"hediye\" demektir; *a gift for something* ise \"doğuştan yetenek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 74,
+    "text": "a rare gift",
+    "meaning": "nadir bir yetenek"
+   }
+  }
+ ]
+}

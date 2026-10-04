@@ -1,0 +1,1155 @@
+{
+ "storyId": "story-c2-011",
+ "textHash": "12f6dc4403ea",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Örtmece nadiren göründüğü kadar masumdur."
+  },
+  {
+   "tr": "İşten çıkarmalara yeniden yapılanma, sivillerin ölümüne de yan hasar dendiğinde dil gerçeği anlatmayı bırakır ve onun yerine gerçeği yumuşatmaya başlar."
+  },
+  {
+   "tr": "Yazarlar uzun zamandır bu tür kaçamakların düşüncenin kendisini yozlaştırdığı konusunda uyarıyor, çünkü açıkça adı konamayan bir şey neredeyse hiç sorgulanamaz."
+  },
+  {
+   "tr": "Bu nedenle uyanıklık büyük ideolojilerle değil, tam olarak ne demek istediğini söyleme gibi mütevazı bir disiplinle başlar."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "euphemism",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "örtmece",
+   "note": "*euphemism* hoş olmayan bir şeyi daha yumuşak sözcüklerle anlatmaktır: *pass away* (vefat etmek) = *die*.",
+   "form": null,
+   "base": "örtmece, yumuşatılmış ifade",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dur)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "seldom",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "nadiren",
+   "note": "*seldom*, *rarely*'nin daha edebî karşılığıdır.",
+   "form": null,
+   "base": "nadiren, seyrek",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "seldom as innocent as it appears",
+    "meaning": "nadiren göründüğü kadar masum"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "as",
+   "pos": "adverb",
+   "wordId": "as",
+   "sense": 1,
+   "context": "(… kadar)",
+   "note": "*as* + sıfat + *as* \"… kadar …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "as … as",
+    "meaning": "… kadar"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "innocent",
+   "pos": "adjective",
+   "wordId": "innocent",
+   "sense": 0,
+   "context": "masum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "as … as",
+    "meaning": "… kadar"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 5,
+    "text": "as … as",
+    "meaning": "… kadar"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (örtmece)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "seldom as innocent as it appears",
+    "meaning": "nadiren göründüğü kadar masum"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "appear",
+   "pos": "verb",
+   "wordId": "appear",
+   "sense": 0,
+   "context": "göründüğü",
+   "note": null,
+   "form": "appear + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "seldom as innocent as it appears",
+    "meaning": "nadiren göründüğü kadar masum"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "dismissal",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "işten çıkarmalar",
+   "note": "*dismiss* (işten çıkarmak) fiilinden türemiş bir isimdir.",
+   "form": "dismissal'ın çoğulu",
+   "base": "işten çıkarma",
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "are rebranded as restructuring",
+    "meaning": "yeniden yapılanma olarak adlandırılır"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "rebrand",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "(yeniden) adlandırılmak",
+   "note": "*rebrand* bir şeye \"yeni bir ad ya da imaj vermek\" demektir.",
+   "form": "rebrand fiilinin 3. hali (rebranded, -ed)",
+   "base": "yeniden adlandırmak, imajını değiştirmek",
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "are rebranded as restructuring",
+    "meaning": "yeniden yapılanma olarak adlandırılır"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "are rebranded as restructuring",
+    "meaning": "yeniden yapılanma olarak adlandırılır"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "restructuring",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden yapılanma",
+   "note": "*re-* (yeniden) + *structure* (yapı): bir kurumun \"yeniden yapılandırılması\".",
+   "form": null,
+   "base": "yeniden yapılanma",
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "are rebranded as restructuring",
+    "meaning": "yeniden yapılanma olarak adlandırılır"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the loss of civilian life",
+    "meaning": "sivillerin ölümü (sivil can kaybı)"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "loss",
+   "pos": "noun",
+   "wordId": "loss",
+   "sense": 0,
+   "context": "kayıp",
+   "note": "*the loss of life* \"can kaybı, ölüm\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the loss of civilian life",
+    "meaning": "sivillerin ölümü (sivil can kaybı)"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(can kaybı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the loss of civilian life",
+    "meaning": "sivillerin ölümü (sivil can kaybı)"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "civilian",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "sivil",
+   "note": null,
+   "form": null,
+   "base": "sivil",
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the loss of civilian life",
+    "meaning": "sivillerin ölümü (sivil can kaybı)"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "can (hayat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the loss of civilian life",
+    "meaning": "sivillerin ölümü (sivil can kaybı)"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "collateral",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yan",
+   "note": "*collateral damage* askerî dilde sivillerin ölümü ya da zarar görmesi için kullanılan bir örtmecedir.",
+   "form": null,
+   "base": "ikincil, yan",
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "collateral damage",
+    "meaning": "yan hasar"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "damage",
+   "pos": "noun",
+   "wordId": "damage",
+   "sense": 0,
+   "context": "hasar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "collateral damage",
+    "meaning": "yan hasar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "cease",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bırakır (artık … -mez)",
+   "note": "*cease to do something* \"bir şeyi yapmayı bırakmak\" demektir; *stop*'un resmî karşılığıdır.",
+   "form": "cease + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "sona ermek, durmak, bırakmak",
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "ceases to describe reality",
+    "meaning": "gerçeği anlatmayı bırakır"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "ceases to describe reality",
+    "meaning": "gerçeği anlatmayı bırakır"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "describe",
+   "pos": "verb",
+   "wordId": "describe",
+   "sense": 0,
+   "context": "anlatmak (betimlemek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "ceases to describe reality",
+    "meaning": "gerçeği anlatmayı bırakır"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "reality",
+   "pos": "noun",
+   "wordId": "reality",
+   "sense": 0,
+   "context": "gerçek (gerçeklik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 27,
+    "text": "ceases to describe reality",
+    "meaning": "gerçeği anlatmayı bırakır"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlar",
+   "note": null,
+   "form": "begin + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "begins instead to soften it",
+    "meaning": "onun yerine onu yumuşatmaya başlar"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "onun yerine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "begins instead to soften it",
+    "meaning": "onun yerine onu yumuşatmaya başlar"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "begins instead to soften it",
+    "meaning": "onun yerine onu yumuşatmaya başlar"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "soften",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yumuşatmak",
+   "note": "*-en* eki sıfattan fiil yapar: *soft* (yumuşak) → *soften* (yumuşatmak); *t* okunmaz (\"sofın\").",
+   "form": null,
+   "base": "yumuşatmak",
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "begins instead to soften it",
+    "meaning": "onun yerine onu yumuşatmaya başlar"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (gerçeği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "begins instead to soften it",
+    "meaning": "onun yerine onu yumuşatmaya başlar"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "writer",
+   "pos": "noun",
+   "wordId": "writer",
+   "sense": 0,
+   "context": "yazarlar",
+   "note": null,
+   "form": "writer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "have long warned",
+    "meaning": "uzun zamandır uyarıyor"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun zamandır",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir: *have long warned*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "have long warned",
+    "meaning": "uzun zamandır uyarıyor"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıyor",
+   "note": null,
+   "form": "warn fiilinin 3. hali (warned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "have long warned",
+    "meaning": "uzun zamandır uyarıyor"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığı konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "evasion",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kaçamaklar",
+   "note": "*evade* (kaçmak, geçiştirmek) fiilinden türemiş bir isimdir.",
+   "form": "evasion'ın çoğulu",
+   "base": "kaçamak, kaçınma",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "corrupt",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yozlaştırmak",
+   "note": "*corrupt* fiil olarak \"bozmak, yozlaştırmak\", sıfat olarak \"yozlaşmış, rüşvetçi\" demektir.",
+   "form": null,
+   "base": "bozmak, yozlaştırmak",
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "corrupt thought itself",
+    "meaning": "düşüncenin kendisini yozlaştırmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "thought",
+   "pos": "noun",
+   "wordId": "thought",
+   "sense": 0,
+   "context": "düşünce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "corrupt thought itself",
+    "meaning": "düşüncenin kendisini yozlaştırmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "itself",
+   "pos": "pronoun",
+   "wordId": "itself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "İsimden sonra gelen *itself* vurgu katar: *thought itself* → düşüncenin kendisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "corrupt thought itself",
+    "meaning": "düşüncenin kendisini yozlaştırmak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "çünkü (-dığı için)",
+   "note": "*since* bağlaç olarak \"-dığından beri\" ve \"-dığı için\" anlamlarına gelir; burada sebep bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -an) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "what cannot be named plainly",
+    "meaning": "açıkça adı konamayan şey"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "what cannot be named plainly",
+    "meaning": "açıkça adı konamayan şey"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "what cannot be named plainly",
+    "meaning": "açıkça adı konamayan şey"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "name",
+   "pos": "verb",
+   "wordId": "name",
+   "sense": 1,
+   "context": "adı konmak",
+   "note": null,
+   "form": "name fiilinin 3. hali (named, -d)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "what cannot be named plainly",
+    "meaning": "açıkça adı konamayan şey"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "plainly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "açıkça",
+   "note": "*plain* (açık, sade) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "plain + -ly (sıfattan zarf)",
+   "base": "açıkça, dolaysız olarak",
+   "phrase": {
+    "from": 45,
+    "to": 49,
+    "text": "what cannot be named plainly",
+    "meaning": "açıkça adı konamayan şey"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "can scarcely be questioned",
+    "meaning": "neredeyse hiç sorgulanamaz"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "scarcely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "neredeyse hiç",
+   "note": "*scarcely* \"zar zor, neredeyse hiç\" demektir ve olumsuz anlam taşır.",
+   "form": null,
+   "base": "neredeyse hiç, zar zor",
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "can scarcely be questioned",
+    "meaning": "neredeyse hiç sorgulanamaz"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "can scarcely be questioned",
+    "meaning": "neredeyse hiç sorgulanamaz"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "question",
+   "pos": "verb",
+   "wordId": "question",
+   "sense": 1,
+   "context": "sorgulanmak",
+   "note": null,
+   "form": "question fiilinin 3. hali (questioned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "can scarcely be questioned",
+    "meaning": "neredeyse hiç sorgulanamaz"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "vigilance",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "uyanıklık",
+   "note": "*vigilance* tehlikelere karşı \"tetikte olma, uyanıklık\" demektir.",
+   "form": null,
+   "base": "uyanıklık, tetikte olma",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlar",
+   "note": null,
+   "form": "begin + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not with A but with B* \"A ile değil, B ile\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 62,
+    "text": "not with … but with",
+    "meaning": "… ile değil, … ile"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 62,
+    "text": "not with … but with",
+    "meaning": "… ile değil, … ile"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "grand",
+   "pos": "adjective",
+   "wordId": "grand",
+   "sense": 0,
+   "context": "büyük (görkemli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "grand ideologies",
+    "meaning": "büyük ideolojiler"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "ideology",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ideolojiler",
+   "note": null,
+   "form": "ideology'nin çoğulu (y → ies)",
+   "base": "ideoloji",
+   "phrase": {
+    "from": 59,
+    "to": 60,
+    "text": "grand ideologies",
+    "meaning": "büyük ideolojiler"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 62,
+    "text": "not with … but with",
+    "meaning": "… ile değil, … ile"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 62,
+    "text": "not with … but with",
+    "meaning": "… ile değil, … ile"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "modest",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mütevazı",
+   "note": null,
+   "form": null,
+   "base": "mütevazı; az, düşük",
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "modest discipline",
+    "meaning": "mütevazı disiplin"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "discipline",
+   "pos": "noun",
+   "wordId": "discipline",
+   "sense": 0,
+   "context": "disiplin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "modest discipline",
+    "meaning": "mütevazı disiplin"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… -me disiplini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "say",
+   "pos": "verb",
+   "wordId": "say",
+   "sense": 0,
+   "context": "söylemek",
+   "note": null,
+   "form": "say + -ing",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "saying exactly what one means",
+    "meaning": "tam olarak ne demek istediğini söylemek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "exactly",
+   "pos": "adverb",
+   "wordId": "exactly",
+   "sense": 0,
+   "context": "tam olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "saying exactly what one means",
+    "meaning": "tam olarak ne demek istediğini söylemek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "ne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "saying exactly what one means",
+    "meaning": "tam olarak ne demek istediğini söylemek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insan (kişi)",
+   "note": "*one* resmî dilde genel olarak \"insan, kişi\" anlamında özne olabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "saying exactly what one means",
+    "meaning": "tam olarak ne demek istediğini söylemek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "mean",
+   "pos": "verb",
+   "wordId": "mean",
+   "sense": 0,
+   "context": "demek istemek",
+   "note": null,
+   "form": "mean + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "saying exactly what one means",
+    "meaning": "tam olarak ne demek istediğini söylemek"
+   }
+  }
+ ]
+}

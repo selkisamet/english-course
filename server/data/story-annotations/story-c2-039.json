@@ -1,0 +1,1094 @@
+{
+ "storyId": "story-c2-039",
+ "textHash": "bd241df6587b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "İşitmesi zayıflamaya başladığında kemancı, kariyerinin bittiğinden korktu."
+  },
+  {
+   "tr": "Bir süre artık fark edemediği hatalardan utandığı için sahneye çıkmayı reddetti."
+  },
+  {
+   "tr": "Sonra kendisinden genç bir meslektaşı onu küçük bir kilisede bir kez daha çalmaya ikna etti."
+  },
+  {
+   "tr": "Durumundan habersiz olan dinleyiciler onu derin bir sessizlik içinde dinledi."
+  },
+  {
+   "tr": "Konserden sonra yaşlı bir kadın ona hiçbir zaman bu kadar şefkatle çalınmış bir müzik duymadığını söyledi."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "-dığında (-dıkça)",
+   "note": "*as* bağlaç olarak \"… -dığı sırada, -dıkça\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "hearing",
+   "pos": "noun",
+   "wordId": "hearing",
+   "sense": 0,
+   "context": "işitme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladı",
+   "note": null,
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "fail",
+   "pos": "verb",
+   "wordId": "fail",
+   "sense": 0,
+   "context": "zayıflamak",
+   "note": "*fail* \"başarısız olmak\" demektir; görme, işitme gibi yetiler için \"zayıflamak, işlemez hale gelmek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "As his hearing began to fail",
+    "meaning": "işitmesi zayıflamaya başladığında"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "violinist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kemancı",
+   "note": "*violin* (keman) + *-ist* (o işi yapan kişi).",
+   "form": null,
+   "base": "kemancı",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "fear",
+   "pos": "verb",
+   "wordId": "fear",
+   "sense": 1,
+   "context": "korktu",
+   "note": "*fear that…* \"… olmasından korkmak\" demektir.",
+   "form": "fear + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "his career was over",
+    "meaning": "kariyeri bitmişti"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "career",
+   "pos": "noun",
+   "wordId": "career",
+   "sense": 0,
+   "context": "kariyer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "his career was over",
+    "meaning": "kariyeri bitmişti"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-di)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "his career was over",
+    "meaning": "kariyeri bitmişti"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "over",
+   "pos": "adverb",
+   "wordId": "over",
+   "sense": 1,
+   "context": "bitmiş",
+   "note": "*be over* \"bitmiş, sona ermiş olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "his career was over",
+    "meaning": "kariyeri bitmişti"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for a while: bir süre)",
+   "note": "*for a while* \"bir süre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "while",
+   "pos": "noun",
+   "wordId": "while",
+   "sense": 1,
+   "context": "süre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "For a while",
+    "meaning": "bir süre"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "refuse",
+   "pos": "verb",
+   "wordId": "refuse",
+   "sense": 0,
+   "context": "reddetti",
+   "note": null,
+   "form": "refuse + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "refused to perform",
+    "meaning": "sahneye çıkmayı reddetti"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "refused to perform",
+    "meaning": "sahneye çıkmayı reddetti"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "perform",
+   "pos": "verb",
+   "wordId": "perform",
+   "sense": 0,
+   "context": "sahneye çıkmak",
+   "note": "*perform* müzisyenler için \"sahneye çıkmak, çalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 20,
+    "text": "refused to perform",
+    "meaning": "sahneye çıkmayı reddetti"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "ashamed",
+   "pos": "adjective",
+   "wordId": "ashamed",
+   "sense": 0,
+   "context": "utanmış",
+   "note": "*be ashamed of something* \"bir şeyden utanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "ashamed of the mistakes",
+    "meaning": "hatalardan utanarak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "ashamed of the mistakes",
+    "meaning": "hatalardan utanarak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "ashamed of the mistakes",
+    "meaning": "hatalardan utanarak"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hatalar",
+   "note": "İsimden sonra *that* düşebilir: *the mistakes (that) he could no longer detect*.",
+   "form": "mistake'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 24,
+    "text": "ashamed of the mistakes",
+    "meaning": "hatalardan utanarak"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "he could no longer detect",
+    "meaning": "artık fark edemediği"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "could",
+   "pos": "modal verb",
+   "wordId": "could",
+   "sense": 0,
+   "context": "-ebilmek (-emediği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "he could no longer detect",
+    "meaning": "artık fark edemediği"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "(no longer: artık … değil)",
+   "note": "*no longer* \"artık … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "he could no longer detect",
+    "meaning": "artık fark edemediği"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "(no longer)",
+   "note": null,
+   "form": "long'un karşılaştırma hali (-er)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "he could no longer detect",
+    "meaning": "artık fark edemediği"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "detect",
+   "pos": "verb",
+   "wordId": "detect",
+   "sense": 0,
+   "context": "fark etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "he could no longer detect",
+    "meaning": "artık fark edemediği"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "young",
+   "pos": "adjective",
+   "wordId": "young",
+   "sense": 0,
+   "context": "(daha) genç",
+   "note": null,
+   "form": "young + -er (karşılaştırma)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "colleague",
+   "pos": "noun",
+   "wordId": "colleague",
+   "sense": 0,
+   "context": "meslektaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "persuade",
+   "pos": "verb",
+   "wordId": "persuade",
+   "sense": 0,
+   "context": "ikna etti",
+   "note": "*persuade someone to do something* \"birini bir şeyi yapmaya ikna etmek\" demektir.",
+   "form": "persuade + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "persuaded him to play",
+    "meaning": "onu çalmaya ikna etti"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "persuaded him to play",
+    "meaning": "onu çalmaya ikna etti"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "persuaded him to play",
+    "meaning": "onu çalmaya ikna etti"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalmak",
+   "note": "*play* müzik için \"çalmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 37,
+    "text": "persuaded him to play",
+    "meaning": "onu çalmaya ikna etti"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir kez",
+   "note": "*once more* \"bir kez daha\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "once more",
+    "meaning": "bir kez daha"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "once more",
+    "meaning": "bir kez daha"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (kilisede)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "church",
+   "pos": "noun",
+   "wordId": "church",
+   "sense": 0,
+   "context": "kilise",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "audience",
+   "pos": "noun",
+   "wordId": "audience",
+   "sense": 0,
+   "context": "dinleyiciler",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "unaware",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "habersiz",
+   "note": "*un-* (olumsuzluk) + *aware* (farkında): \"farkında olmayan\".",
+   "form": null,
+   "base": "habersiz, farkında olmayan",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "unaware of his condition",
+    "meaning": "durumundan habersiz"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "unaware of his condition",
+    "meaning": "durumundan habersiz"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "unaware of his condition",
+    "meaning": "durumundan habersiz"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "condition",
+   "pos": "noun",
+   "wordId": "condition",
+   "sense": 0,
+   "context": "durum",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "unaware of his condition",
+    "meaning": "durumundan habersiz"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "listen",
+   "pos": "verb",
+   "wordId": "listen",
+   "sense": 0,
+   "context": "dinledi",
+   "note": null,
+   "form": "listen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "in absolute silence",
+    "meaning": "derin (mutlak) bir sessizlik içinde"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "absolute",
+   "pos": "adjective",
+   "wordId": "absolute",
+   "sense": 0,
+   "context": "derin (mutlak)",
+   "note": "*in absolute silence* \"çıt çıkmadan, tam bir sessizlik içinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "in absolute silence",
+    "meaning": "derin (mutlak) bir sessizlik içinde"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "in absolute silence",
+    "meaning": "derin (mutlak) bir sessizlik içinde"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "afterwards",
+   "pos": "adverb",
+   "wordId": "afterwards",
+   "sense": 0,
+   "context": "(konserden) sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an elderly woman*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "elderly",
+   "pos": "adjective",
+   "wordId": "elderly",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyledi",
+   "note": null,
+   "form": "tell fiilinin geçmiş zaman hali (told, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "him",
+   "pos": "pronoun",
+   "wordId": "him",
+   "sense": 0,
+   "context": "ona",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (kadın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "had never heard music played",
+    "meaning": "hiç … çalınmış müzik duymamıştı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "had never heard music played",
+    "meaning": "hiç … çalınmış müzik duymamıştı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "hear",
+   "pos": "verb",
+   "wordId": "hear",
+   "sense": 0,
+   "context": "duymamış",
+   "note": "*hear something done* \"bir şeyin yapıldığını duymak\" demektir: *heard music played* → çalınan müzik duydu.",
+   "form": "hear fiilinin 3. hali (heard, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "had never heard music played",
+    "meaning": "hiç … çalınmış müzik duymamıştı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "music",
+   "pos": "noun",
+   "wordId": "music",
+   "sense": 0,
+   "context": "müzik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "had never heard music played",
+    "meaning": "hiç … çalınmış müzik duymamıştı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "play",
+   "pos": "verb",
+   "wordId": "play",
+   "sense": 0,
+   "context": "çalınmış",
+   "note": null,
+   "form": "play fiilinin 3. hali (played, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 66,
+    "text": "had never heard music played",
+    "meaning": "hiç … çalınmış müzik duymamıştı"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le (şefkatle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "with such tenderness",
+    "meaning": "bu kadar şefkatle"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu kadar",
+   "note": "*such* + isim \"böyle bir, bu kadar …\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "with such tenderness",
+    "meaning": "bu kadar şefkatle"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "tenderness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şefkat",
+   "note": "*tender* (şefkatli) + *-ness*.",
+   "form": null,
+   "base": "şefkat, sevecenlik",
+   "phrase": {
+    "from": 67,
+    "to": 69,
+    "text": "with such tenderness",
+    "meaning": "bu kadar şefkatle"
+   }
+  }
+ ]
+}

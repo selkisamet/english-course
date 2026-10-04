@@ -1,0 +1,1266 @@
+{
+ "storyId": "story-c2-023",
+ "textHash": "1c37b0818b0b",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tarih yalnızca kazananlar tarafından değil, kayıtları tesadüfen günümüze ulaşanlar tarafından da yazılır."
+  },
+  {
+   "tr": "Arşivler memurların mektuplarını ve tüccarların hesaplarını korurken, hizmetkârların, işçilerin ve okuma yazma bilmeyenlerin deneyimleri neredeyse iz bırakmadan kaybolur."
+  },
+  {
+   "tr": "Bu kayıp sesleri geri kazanmak isteyen tarihçiler, mevcut belgeleri alışılmadık bir özenle okumalı; yalnızca laf arasında değinilen ya da bilerek dışarıda bırakılan şeyleri aramalıdır."
+  },
+  {
+   "tr": "Tarihçilere göre arşivin sessizlikleri başlı başına bir tür kanıttır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "history",
+   "pos": "noun",
+   "wordId": "history",
+   "sense": 0,
+   "context": "tarih",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "is written",
+    "meaning": "yazılır"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazılır",
+   "note": null,
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 2,
+    "text": "is written",
+    "meaning": "yazılır"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not only … but (also) …* \"yalnızca … değil, … da\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "victor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kazananlar",
+   "note": "*victor* \"galip, kazanan\" demektir; *victory* (zafer) ile aynı köktendir.",
+   "form": "victor'ın çoğulu",
+   "base": "galip, kazanan",
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (da)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 9,
+    "text": "not only by the victors but by",
+    "meaning": "yalnızca kazananlar tarafından değil, … tarafından da"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -enler)",
+   "note": "*those whose* + isim \"… -i … olanlar\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 15,
+    "text": "those whose records happened to survive",
+    "meaning": "kayıtları tesadüfen günümüze ulaşanlar"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "whose",
+   "pos": "determiner",
+   "wordId": "whose",
+   "sense": 0,
+   "context": "(-in)",
+   "note": "*whose* ilgi zamiri olarak iyelik bildirir: *those whose records survived* → kayıtları günümüze ulaşanlar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 15,
+    "text": "those whose records happened to survive",
+    "meaning": "kayıtları tesadüfen günümüze ulaşanlar"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "record",
+   "pos": "noun",
+   "wordId": "record",
+   "sense": 0,
+   "context": "kayıtlar",
+   "note": null,
+   "form": "record'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 15,
+    "text": "those whose records happened to survive",
+    "meaning": "kayıtları tesadüfen günümüze ulaşanlar"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "happen",
+   "pos": "verb",
+   "wordId": "happen",
+   "sense": 0,
+   "context": "tesadüfen",
+   "note": "*happen to do something* \"bir şeyi tesadüfen yapmak, öyle denk gelmek\" demektir.",
+   "form": "happen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "happened to survive",
+    "meaning": "tesadüfen günümüze ulaştı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "happened to survive",
+    "meaning": "tesadüfen günümüze ulaştı"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "survive",
+   "pos": "verb",
+   "wordId": "survive",
+   "sense": 0,
+   "context": "günümüze ulaşmak (ayakta kalmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "happened to survive",
+    "meaning": "tesadüfen günümüze ulaştı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "archive",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "arşivler",
+   "note": "*archive*'deki *ch* \"k\" diye okunur (\"arkayv\").",
+   "form": "archive'in çoğulu",
+   "base": "arşiv",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "preserve",
+   "pos": "verb",
+   "wordId": "preserve",
+   "sense": 0,
+   "context": "korur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektuplar",
+   "note": null,
+   "form": "letter'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (memurların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "official",
+   "pos": "noun",
+   "wordId": "official",
+   "sense": 1,
+   "context": "memurlar (yetkililer)",
+   "note": null,
+   "form": "official'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "account",
+   "pos": "noun",
+   "wordId": "account",
+   "sense": 0,
+   "context": "hesaplar",
+   "note": "*accounts* burada tüccarların tuttuğu \"hesap kayıtları\" demektir.",
+   "form": "account'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (tüccarların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "merchant",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tüccarlar",
+   "note": null,
+   "form": "merchant'ın çoğulu",
+   "base": "tüccar",
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "preserve the letters of officials and the accounts of merchants",
+    "meaning": "memurların mektuplarını ve tüccarların hesaplarını korur"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": "*while* burada iki durumu karşılaştırır: \"… -ken, öte yandan …\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": null,
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "servant",
+   "pos": "noun",
+   "wordId": "servant",
+   "sense": 0,
+   "context": "hizmetkârlar",
+   "note": null,
+   "form": "servant'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "labourer",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "işçiler",
+   "note": "*labour* (emek) isminden türemiştir; özellikle bedenen çalışan işçidir.",
+   "form": "labourer'ın çoğulu",
+   "base": "işçi, amele",
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + sıfat bir grubun tamamını anlatır: *the illiterate* → okuma yazma bilmeyenler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "the illiterate",
+    "meaning": "okuma yazma bilmeyenler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "illiterate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "okuma yazma bilmeyenler",
+   "note": "*il-* (olumsuzluk) + *literate* (okuryazar): \"okuma yazma bilmeyen\".",
+   "form": null,
+   "base": "okuma yazma bilmeyen",
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "the illiterate",
+    "meaning": "okuma yazma bilmeyenler"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "vanish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kaybolur",
+   "note": null,
+   "form": null,
+   "base": "kaybolmak, yok olmak",
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "vanish almost without trace",
+    "meaning": "neredeyse iz bırakmadan kaybolur"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "vanish almost without trace",
+    "meaning": "neredeyse iz bırakmadan kaybolur"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden (-sız)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "vanish almost without trace",
+    "meaning": "neredeyse iz bırakmadan kaybolur"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "trace",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "iz",
+   "note": "*without (a) trace* \"iz bırakmadan\" demektir.",
+   "form": null,
+   "base": "iz",
+   "phrase": {
+    "from": 36,
+    "to": 39,
+    "text": "vanish almost without trace",
+    "meaning": "neredeyse iz bırakmadan kaybolur"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "historian",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tarihçiler",
+   "note": "*history* (tarih) isminden *-ian* ekiyle türemiştir.",
+   "form": "historian'ın çoğulu",
+   "base": "tarihçi",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "wish",
+   "pos": "verb",
+   "wordId": "wish",
+   "sense": 0,
+   "context": "isteyen",
+   "note": "*wish to do something* \"bir şeyi yapmak istemek\" demektir ve *want*'tan daha resmîdir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "recover",
+   "pos": "verb",
+   "wordId": "recover",
+   "sense": 0,
+   "context": "geri kazanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "lost",
+   "pos": "adjective",
+   "wordId": "lost",
+   "sense": 0,
+   "context": "kayıp",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "voice",
+   "pos": "noun",
+   "wordId": "voice",
+   "sense": 0,
+   "context": "sesler",
+   "note": null,
+   "form": "voice'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "wish to recover these lost voices",
+    "meaning": "bu kayıp sesleri geri kazanmak istemek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okumak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "exist",
+   "pos": "verb",
+   "wordId": "exist",
+   "sense": 0,
+   "context": "mevcut",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *existing documents* → mevcut belgeler.",
+   "form": "exist + -ing",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "existing documents",
+    "meaning": "mevcut belgeler"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "document",
+   "pos": "noun",
+   "wordId": "document",
+   "sense": 0,
+   "context": "belgeler",
+   "note": null,
+   "form": "document'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "existing documents",
+    "meaning": "mevcut belgeler"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le (özenle)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "with unusual care",
+    "meaning": "alışılmadık bir özenle"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "unusual",
+   "pos": "adjective",
+   "wordId": "unusual",
+   "sense": 0,
+   "context": "alışılmadık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "with unusual care",
+    "meaning": "alışılmadık bir özenle"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "care",
+   "pos": "noun",
+   "wordId": "care",
+   "sense": 0,
+   "context": "özen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "with unusual care",
+    "meaning": "alışılmadık bir özenle"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "search",
+   "pos": "verb",
+   "wordId": "search",
+   "sense": 1,
+   "context": "arayarak",
+   "note": "*search for something* \"bir şeyi aramak\" demektir.",
+   "form": "search + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(search for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -en) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "what was mentioned",
+    "meaning": "değinilen şey"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "what was mentioned",
+    "meaning": "değinilen şey"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "mention",
+   "pos": "verb",
+   "wordId": "mention",
+   "sense": 0,
+   "context": "değinilen",
+   "note": null,
+   "form": "mention fiilinin 3. hali (mentioned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 59,
+    "text": "what was mentioned",
+    "meaning": "değinilen şey"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in passing: laf arasında)",
+   "note": "*in passing* \"laf arasında, geçerken\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "in passing",
+    "meaning": "laf arasında"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "pass",
+   "pos": "verb",
+   "wordId": "pass",
+   "sense": 0,
+   "context": "(laf arasında)",
+   "note": null,
+   "form": "pass + -ing",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "in passing",
+    "meaning": "laf arasında"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "deliberately",
+   "pos": "adverb",
+   "wordId": "deliberately",
+   "sense": 0,
+   "context": "bilerek (kasten)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "deliberately left out",
+    "meaning": "bilerek dışarıda bırakılmış"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "(dışarıda) bırakılmış",
+   "note": "*leave something out* \"bir şeyi dışarıda bırakmak, atlamak\" demektir.",
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "deliberately left out",
+    "meaning": "bilerek dışarıda bırakılmış"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "out",
+   "pos": "adverb",
+   "wordId": "out",
+   "sense": 0,
+   "context": "(leave out)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 66,
+    "text": "deliberately left out",
+    "meaning": "bilerek dışarıda bırakılmış"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "silence",
+   "pos": "noun",
+   "wordId": "silence",
+   "sense": 0,
+   "context": "sessizlikler",
+   "note": null,
+   "form": "silence'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (arşivin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "archive",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "arşiv",
+   "note": null,
+   "form": null,
+   "base": "arşiv",
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (tarihçiler)",
+   "note": "Virgüller arasındaki *they argue* \"onlara göre, savundukları üzere\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "they argue",
+    "meaning": "onlara göre"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 73,
+    "text": "they argue",
+    "meaning": "onlara göre"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 75,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "başlı başına (kendileri)",
+   "note": "Fiilden sonra gelen *themselves* vurgu katar: \"kendi başlarına, başlı başına\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "themselves a kind of evidence",
+    "meaning": "başlı başına bir tür kanıt"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "themselves a kind of evidence",
+    "meaning": "başlı başına bir tür kanıt"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "themselves a kind of evidence",
+    "meaning": "başlı başına bir tür kanıt"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a kind of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "themselves a kind of evidence",
+    "meaning": "başlı başına bir tür kanıt"
+   }
+  },
+  {
+   "i": 79,
+   "lemma": "evidence",
+   "pos": "noun",
+   "wordId": "evidence",
+   "sense": 0,
+   "context": "kanıt",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 75,
+    "to": 79,
+    "text": "themselves a kind of evidence",
+    "meaning": "başlı başına bir tür kanıt"
+   }
+  }
+ ]
+}

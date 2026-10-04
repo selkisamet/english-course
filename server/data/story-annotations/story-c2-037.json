@@ -1,0 +1,1122 @@
+{
+ "storyId": "story-c2-037",
+ "textHash": "df81500a4912",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Şöhret bir zamanlar olağanüstü başarının ödülüydü."
+  },
+  {
+   "tr": "Bugün ise neredeyse bir gecede, çoğu zaman yetenekle pek ilgisi olmayan nedenlerle elde edilebiliyor."
+  },
+  {
+   "tr": "Ancak ani bir ünlülüğe kavuşanlar çoğu zaman bunun ağır bir bedeli olduğunu keşfeder."
+  },
+  {
+   "tr": "Her hareket didik didik incelenir, her hata büyütülür ve mahremiyet uzak bir anıya dönüşür."
+  },
+  {
+   "tr": "Tanınmak için çabalayanların çoğu, sonunda bir zamanlar yük olarak gördükleri adsızlığı özler halde bulur kendini."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "fame",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şöhret",
+   "note": "*famous* (ünlü) sıfatının isim halidir.",
+   "form": null,
+   "base": "şöhret, ün",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "reward",
+   "pos": "noun",
+   "wordId": "reward",
+   "sense": 0,
+   "context": "ödül",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-in (karşılığı)",
+   "note": "*a reward for something* \"bir şeyin ödülü, karşılığı\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "exceptional",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "olağanüstü",
+   "note": "*exception* (istisna) isminden türemiştir: \"istisnai, olağanüstü\".",
+   "form": null,
+   "base": "olağanüstü, istisnai",
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "achievement",
+   "pos": "noun",
+   "wordId": "achievement",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 7,
+    "text": "once the reward for exceptional achievement",
+    "meaning": "bir zamanlar olağanüstü başarının ödülü"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "today",
+   "pos": "adverb",
+   "wordId": "today",
+   "sense": 0,
+   "context": "bugün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (şöhret)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "can be acquired",
+    "meaning": "elde edilebilir"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "can be acquired",
+    "meaning": "elde edilebilir"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "acquire",
+   "pos": "verb",
+   "wordId": "acquire",
+   "sense": 0,
+   "context": "elde edilmek (edinilmek)",
+   "note": null,
+   "form": "acquire fiilinin 3. hali (acquired, -d)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "can be acquired",
+    "meaning": "elde edilebilir"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "almost overnight",
+    "meaning": "neredeyse bir gecede"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "overnight",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bir gecede",
+   "note": "*overnight* \"bir gecede, birdenbire\" demektir.",
+   "form": null,
+   "base": "bir gecede, birdenbire",
+   "phrase": {
+    "from": 13,
+    "to": 14,
+    "text": "almost overnight",
+    "meaning": "neredeyse bir gecede"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(… nedenlerle)",
+   "note": "*for reasons* \"… nedenlerle\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 24,
+    "text": "for reasons that have little to do with talent",
+    "meaning": "yetenekle pek ilgisi olmayan nedenlerle"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "reason",
+   "pos": "noun",
+   "wordId": "reason",
+   "sense": 0,
+   "context": "nedenler",
+   "note": null,
+   "form": "reason'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 24,
+    "text": "for reasons that have little to do with talent",
+    "meaning": "yetenekle pek ilgisi olmayan nedenlerle"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 24,
+    "text": "for reasons that have little to do with talent",
+    "meaning": "yetenekle pek ilgisi olmayan nedenlerle"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "(ilgisi) olmak",
+   "note": "*have little to do with something* \"bir şeyle pek ilgisi olmamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "have little to do with",
+    "meaning": "ile pek ilgisi olmamak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "little",
+   "pos": "pronoun",
+   "wordId": "little",
+   "sense": 2,
+   "context": "pek az (şey)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "have little to do with",
+    "meaning": "ile pek ilgisi olmamak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(to do with)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "have little to do with",
+    "meaning": "ile pek ilgisi olmamak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "(to do with: ilgisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "have little to do with",
+    "meaning": "ile pek ilgisi olmamak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 23,
+    "text": "have little to do with",
+    "meaning": "ile pek ilgisi olmamak"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "talent",
+   "pos": "noun",
+   "wordId": "talent",
+   "sense": 0,
+   "context": "yetenek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 24,
+    "text": "for reasons that have little to do with talent",
+    "meaning": "yetenekle pek ilgisi olmayan nedenlerle"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… -enler)",
+   "note": "*those who* + fiil \"… -enler\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "those who attain sudden celebrity",
+    "meaning": "ani bir ünlülüğe kavuşanlar"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "those who attain sudden celebrity",
+    "meaning": "ani bir ünlülüğe kavuşanlar"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "attain",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kavuşan (ulaşan)",
+   "note": "*attain* resmî dilde \"ulaşmak, elde etmek\" demektir.",
+   "form": null,
+   "base": "ulaşmak, elde etmek",
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "those who attain sudden celebrity",
+    "meaning": "ani bir ünlülüğe kavuşanlar"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "sudden",
+   "pos": "adjective",
+   "wordId": "sudden",
+   "sense": 0,
+   "context": "ani",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "those who attain sudden celebrity",
+    "meaning": "ani bir ünlülüğe kavuşanlar"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "celebrity",
+   "pos": "noun",
+   "wordId": "celebrity",
+   "sense": 0,
+   "context": "ünlülük (şöhret)",
+   "note": "*celebrity* \"ünlü kişi\" ve sayılamayan biçimde \"ünlülük, şöhret\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "those who attain sudden celebrity",
+    "meaning": "ani bir ünlülüğe kavuşanlar"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "çoğu zaman (sık sık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfeder",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (ünlülük)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "carry",
+   "pos": "verb",
+   "wordId": "carry",
+   "sense": 0,
+   "context": "(bedeli) var (taşır)",
+   "note": "*carry a price* \"bir bedeli olmak\" demektir.",
+   "form": "carry'nin 3. tekil şahıs hali (carries, y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "carries a heavy price",
+    "meaning": "ağır bir bedeli var"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "carries a heavy price",
+    "meaning": "ağır bir bedeli var"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "heavy",
+   "pos": "adjective",
+   "wordId": "heavy",
+   "sense": 0,
+   "context": "ağır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "carries a heavy price",
+    "meaning": "ağır bir bedeli var"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "price",
+   "pos": "noun",
+   "wordId": "price",
+   "sense": 0,
+   "context": "bedel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 38,
+    "text": "carries a heavy price",
+    "meaning": "ağır bir bedeli var"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Every gesture is scrutinised",
+    "meaning": "her hareket didik didik incelenir"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "gesture",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "hareket (jest)",
+   "note": "*gesture* el, yüz ya da beden \"hareketi, jest\" demektir.",
+   "form": null,
+   "base": "jest, hareket",
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Every gesture is scrutinised",
+    "meaning": "her hareket didik didik incelenir"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Every gesture is scrutinised",
+    "meaning": "her hareket didik didik incelenir"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "scrutinise",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "didik didik incelenir",
+   "note": "*scrutinise* bir şeyi \"en ince ayrıntısına kadar incelemek\" demektir; Amerikan yazımı *scrutinize*'dır.",
+   "form": "scrutinise fiilinin 3. hali (scrutinised, -d)",
+   "base": "didik didik incelemek",
+   "phrase": {
+    "from": 39,
+    "to": 42,
+    "text": "Every gesture is scrutinised",
+    "meaning": "her hareket didik didik incelenir"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "every mistake magnified",
+    "meaning": "her hata büyütülür"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "mistake",
+   "pos": "noun",
+   "wordId": "mistake",
+   "sense": 0,
+   "context": "hata",
+   "note": "*every mistake magnified* = *every mistake is magnified*; tekrar etmemek için *is* düşmüştür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "every mistake magnified",
+    "meaning": "her hata büyütülür"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "magnify",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "büyütülür",
+   "note": "*magnify* \"büyütmek, abartmak\" demektir.",
+   "form": "magnify fiilinin 3. hali (magnified, y → ied)",
+   "base": "büyütmek, abartmak",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "every mistake magnified",
+    "meaning": "her hata büyütülür"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "privacy",
+   "pos": "noun",
+   "wordId": "privacy",
+   "sense": 0,
+   "context": "mahremiyet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüşür",
+   "note": null,
+   "form": "become + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "becomes a distant memory",
+    "meaning": "uzak bir anıya dönüşür"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "becomes a distant memory",
+    "meaning": "uzak bir anıya dönüşür"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "distant",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "uzak",
+   "note": null,
+   "form": null,
+   "base": "uzak",
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "becomes a distant memory",
+    "meaning": "uzak bir anıya dönüşür"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 51,
+    "text": "becomes a distant memory",
+    "meaning": "uzak bir anıya dönüşür"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "many",
+   "pos": "pronoun",
+   "wordId": "many",
+   "sense": 1,
+   "context": "çoğu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "Many who sought recognition",
+    "meaning": "tanınmak için çabalayanların çoğu"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "Many who sought recognition",
+    "meaning": "tanınmak için çabalayanların çoğu"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "seek",
+   "pos": "verb",
+   "wordId": "seek",
+   "sense": 0,
+   "context": "(için) çabalayan (arayan)",
+   "note": "*seek* \"aramak, peşinde olmak\" demektir.",
+   "form": "seek fiilinin geçmiş zaman hali (sought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "Many who sought recognition",
+    "meaning": "tanınmak için çabalayanların çoğu"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "recognition",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tanınmak",
+   "note": "*recognise* (tanımak) fiilinden türemiştir: \"tanınma, takdir edilme\".",
+   "form": null,
+   "base": "tanınma, takdir",
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "Many who sought recognition",
+    "meaning": "tanınmak için çabalayanların çoğu"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulur",
+   "note": "*find oneself* + *-ing* \"kendini … -erken bulmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "find themselves wishing for",
+    "meaning": "kendilerini … özlerken bulurlar"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendilerini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "find themselves wishing for",
+    "meaning": "kendilerini … özlerken bulurlar"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "wish",
+   "pos": "verb",
+   "wordId": "wish",
+   "sense": 0,
+   "context": "özlemek (istemek)",
+   "note": "*wish for something* \"bir şeyi istemek, dilemek\" demektir.",
+   "form": "wish + -ing",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "find themselves wishing for",
+    "meaning": "kendilerini … özlerken bulurlar"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(wish for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "find themselves wishing for",
+    "meaning": "kendilerini … özlerken bulurlar"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "anonymity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "adsızlık (tanınmamak)",
+   "note": null,
+   "form": null,
+   "base": "anonimlik, kimliğin gizli kalması",
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": "İsimden sonra *that* düşebilir: *the anonymity (that) they once regarded…*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "once",
+   "pos": "adverb",
+   "wordId": "once",
+   "sense": 0,
+   "context": "bir zamanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "regard",
+   "pos": "verb",
+   "wordId": "regard",
+   "sense": 0,
+   "context": "gördükleri",
+   "note": "*regard A as B* \"A'yı B olarak görmek\" demektir.",
+   "form": "regard + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "burden",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yük",
+   "note": null,
+   "form": null,
+   "base": "yük, külfet",
+   "phrase": {
+    "from": 63,
+    "to": 68,
+    "text": "they once regarded as a burden",
+    "meaning": "bir zamanlar yük olarak gördükleri"
+   }
+  }
+ ]
+}

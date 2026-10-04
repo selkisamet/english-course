@@ -1,0 +1,1160 @@
+{
+ "storyId": "story-c2-042",
+ "textHash": "d730db6b7757",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yazı yaygınlaşmadan çok önce hatipler, uzun konuşmaları tanıdık bir bina hayal edip her fikri belirli bir odaya yerleştirerek ezberlerdi."
+  },
+  {
+   "tr": "Konuşmayı hatırlamak için zihinlerinde binanın içinde yürüyüp fikirleri sırayla toplamaları yeterliydi."
+  },
+  {
+   "tr": "Bu kadim teknik şaşırtıcı derecede etkili olmayı sürdürüyor ve günümüzün hafıza şampiyonları hâlâ ona güveniyor."
+  },
+  {
+   "tr": "Tekniğin başarısı, insan hafızasının temelde mekânsal olduğunu, bir listeden çok bir manzara gibi düzenlendiğini düşündürüyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "çok (uzun zaman)",
+   "note": "*long before* \"… -den çok önce\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Long before writing was common",
+    "meaning": "yazı yaygınlaşmadan çok önce"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "before",
+   "pos": "conjunction",
+   "wordId": "before",
+   "sense": 1,
+   "context": "-meden önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Long before writing was common",
+    "meaning": "yazı yaygınlaşmadan çok önce"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "writing",
+   "pos": "noun",
+   "wordId": "writing",
+   "sense": 0,
+   "context": "yazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Long before writing was common",
+    "meaning": "yazı yaygınlaşmadan çok önce"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olmadan)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Long before writing was common",
+    "meaning": "yazı yaygınlaşmadan çok önce"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "common",
+   "pos": "adjective",
+   "wordId": "common",
+   "sense": 0,
+   "context": "yaygın",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Long before writing was common",
+    "meaning": "yazı yaygınlaşmadan çok önce"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "speaker",
+   "pos": "noun",
+   "wordId": "speaker",
+   "sense": 0,
+   "context": "hatipler (konuşmacılar)",
+   "note": null,
+   "form": "speaker'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "memorise",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ezberlerdi",
+   "note": "*memory* (hafıza) ile aynı köktendir; Amerikan yazımı *memorize*'dır.",
+   "form": "memorise + -d (geçmiş zaman)",
+   "base": "ezberlemek",
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "memorised lengthy speeches",
+    "meaning": "uzun konuşmaları ezberlerdi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "lengthy",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": "uzun, uzun soluklu",
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "memorised lengthy speeches",
+    "meaning": "uzun konuşmaları ezberlerdi"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşmalar",
+   "note": null,
+   "form": "speech'in çoğulu (-es)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "memorised lengthy speeches",
+    "meaning": "uzun konuşmaları ezberlerdi"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "by imagining a familiar building",
+    "meaning": "tanıdık bir bina hayal ederek"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "imagine",
+   "pos": "verb",
+   "wordId": "imagine",
+   "sense": 0,
+   "context": "hayal etmek",
+   "note": null,
+   "form": "imagine + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "by imagining a familiar building",
+    "meaning": "tanıdık bir bina hayal ederek"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "by imagining a familiar building",
+    "meaning": "tanıdık bir bina hayal ederek"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "familiar",
+   "pos": "adjective",
+   "wordId": "familiar",
+   "sense": 0,
+   "context": "tanıdık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "by imagining a familiar building",
+    "meaning": "tanıdık bir bina hayal ederek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "by imagining a familiar building",
+    "meaning": "tanıdık bir bina hayal ederek"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "place",
+   "pos": "verb",
+   "wordId": "place",
+   "sense": 1,
+   "context": "yerleştirmek",
+   "note": null,
+   "form": "place + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (odaya)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "particular",
+   "pos": "adjective",
+   "wordId": "particular",
+   "sense": 0,
+   "context": "belirli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "placing each idea in a particular room",
+    "meaning": "her fikri belirli bir odaya yerleştirerek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "Cümle başındaki *To* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "To recall the speech",
+    "meaning": "konuşmayı hatırlamak için"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "recall",
+   "pos": "verb",
+   "wordId": "recall",
+   "sense": 0,
+   "context": "hatırlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "To recall the speech",
+    "meaning": "konuşmayı hatırlamak için"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "To recall the speech",
+    "meaning": "konuşmayı hatırlamak için"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "speech",
+   "pos": "noun",
+   "wordId": "speech",
+   "sense": 0,
+   "context": "konuşma",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 25,
+    "text": "To recall the speech",
+    "meaning": "konuşmayı hatırlamak için"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "yalnızca (sadece)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürüdüler",
+   "note": null,
+   "form": "walk + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "içinde (içinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "building",
+   "pos": "noun",
+   "wordId": "building",
+   "sense": 0,
+   "context": "bina",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (zihinlerinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihinler",
+   "note": null,
+   "form": "mind'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "walked through the building in their minds",
+    "meaning": "zihinlerinde binanın içinde yürüdüler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "collect",
+   "pos": "verb",
+   "wordId": "collect",
+   "sense": 0,
+   "context": "toplayarak",
+   "note": null,
+   "form": "collect + -ing",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "collecting the ideas in order",
+    "meaning": "fikirleri sırayla toplayarak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "collecting the ideas in order",
+    "meaning": "fikirleri sırayla toplayarak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "idea",
+   "pos": "noun",
+   "wordId": "idea",
+   "sense": 0,
+   "context": "fikirler",
+   "note": null,
+   "form": "idea'nın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "collecting the ideas in order",
+    "meaning": "fikirleri sırayla toplayarak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in order: sırayla)",
+   "note": "*in order* \"sırayla, düzenli olarak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "in order",
+    "meaning": "sırayla"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "sıra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "in order",
+    "meaning": "sırayla"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "ancient",
+   "pos": "adjective",
+   "wordId": "ancient",
+   "sense": 0,
+   "context": "kadim (çok eski)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "ancient technique",
+    "meaning": "kadim teknik"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "technique",
+   "pos": "noun",
+   "wordId": "technique",
+   "sense": 0,
+   "context": "teknik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "ancient technique",
+    "meaning": "kadim teknik"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "olmayı sürdürüyor",
+   "note": null,
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "remains remarkably effective",
+    "meaning": "şaşırtıcı derecede etkili olmayı sürdürüyor"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "şaşırtıcı derecede",
+   "note": null,
+   "form": "remarkable + -ly (sıfattan zarf)",
+   "base": "şaşırtıcı derecede, son derece",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "remains remarkably effective",
+    "meaning": "şaşırtıcı derecede etkili olmayı sürdürüyor"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "effective",
+   "pos": "adjective",
+   "wordId": "effective",
+   "sense": 0,
+   "context": "etkili",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "remains remarkably effective",
+    "meaning": "şaşırtıcı derecede etkili olmayı sürdürüyor"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "modern",
+   "pos": "adjective",
+   "wordId": "modern",
+   "sense": 0,
+   "context": "günümüzün (modern)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "hafıza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "memory champions",
+    "meaning": "hafıza şampiyonları"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "champion",
+   "pos": "noun",
+   "wordId": "champion",
+   "sense": 0,
+   "context": "şampiyonlar",
+   "note": null,
+   "form": "champion'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 48,
+    "to": 49,
+    "text": "memory champions",
+    "meaning": "hafıza şampiyonları"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "rely",
+   "pos": "verb",
+   "wordId": "rely",
+   "sense": 0,
+   "context": "güveniyor",
+   "note": "*rely on something* \"bir şeye güvenmek, dayanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "rely on",
+    "meaning": "-e güvenmek"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "rely on",
+    "meaning": "-e güvenmek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "ona (tekniğe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun (tekniğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "düşündürüyor",
+   "note": "*suggest that…* \"… olduğunu düşündürmek, akla getirmek\" anlamına gelir.",
+   "form": "suggest + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "human",
+   "pos": "adjective",
+   "wordId": "human",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "hafıza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "fundamentally",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "temelde",
+   "note": "*fundamental* (temel) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "fundamental + -ly (sıfattan zarf)",
+   "base": "temelde, esasen",
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "fundamentally spatial",
+    "meaning": "temelde mekânsal"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "spatial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mekânsal",
+   "note": "*space* (alan, uzay) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "mekânsal, uzamsal",
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "fundamentally spatial",
+    "meaning": "temelde mekânsal"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "organize",
+   "pos": "verb",
+   "wordId": "organize",
+   "sense": 0,
+   "context": "düzenlenmiş",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *organised less like a list…* → bir listeden çok … gibi düzenlenmiş.",
+   "form": "organise (İngiliz yazımı) fiilinin 3. hali (organised, -d)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "(… -den) çok",
+   "note": "*less like A than like B* \"A'dan çok B gibi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "list",
+   "pos": "noun",
+   "wordId": "list",
+   "sense": 0,
+   "context": "liste",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "landscape",
+   "pos": "noun",
+   "wordId": "landscape",
+   "sense": 0,
+   "context": "manzara",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 71,
+    "text": "less like a list than like a landscape",
+    "meaning": "bir listeden çok bir manzara gibi"
+   }
+  }
+ ]
+}

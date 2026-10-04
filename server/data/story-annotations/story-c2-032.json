@@ -1,0 +1,1131 @@
+{
+ "storyId": "story-c2-032",
+ "textHash": "89b2ecb2e6d6",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Tarihî şahsiyetleri kendi çağımızın ahlaki inançlarını paylaşmadıkları için kınamak cazip gelebilir."
+  },
+  {
+   "tr": "Ancak bu tür yargılar, ne kadar tatmin edici olursa olsun, açığa çıkardığından fazlasını gizleme tehlikesi taşır."
+  },
+  {
+   "tr": "İnsanların neden öyle davrandığını anlamak için tarihçiler, onların seçimlerini biçimlendiren varsayımları ve kısıtlamaları yeniden kurmak zorundadır."
+  },
+  {
+   "tr": "Bu, zulmü ya da adaletsizliği mazur görmek anlamına gelmez."
+  },
+  {
+   "tr": "Gelecek kuşakların bir gün bizim kesinliklerimizi de aynı sertlikle yargılayabileceğini kabul etmek anlamına gelir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*it* burada asıl özneyi (*to condemn…*) sona bırakan \"boş özne\"dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "It is tempting to condemn",
+    "meaning": "kınamak cazip gelir"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "It is tempting to condemn",
+    "meaning": "kınamak cazip gelir"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "tempting",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "cazip",
+   "note": "*tempt* (cezbetmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "cazip, çekici",
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "It is tempting to condemn",
+    "meaning": "kınamak cazip gelir"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "It is tempting to condemn",
+    "meaning": "kınamak cazip gelir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "condemn",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kınamak",
+   "note": "*condemn*'deki *n* okunmaz (\"kındem\").",
+   "form": null,
+   "base": "kınamak, mahkûm etmek",
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "It is tempting to condemn",
+    "meaning": "kınamak cazip gelir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "historical",
+   "pos": "adjective",
+   "wordId": "historical",
+   "sense": 0,
+   "context": "tarihî",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "historical figures",
+    "meaning": "tarihî şahsiyetler"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "figure",
+   "pos": "noun",
+   "wordId": "figure",
+   "sense": 0,
+   "context": "şahsiyetler (figürler)",
+   "note": "*figure* \"rakam\" demektir; kişiler için \"önemli şahsiyet\" anlamına gelir: *historical figures* → tarihî şahsiyetler.",
+   "form": "figure'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 6,
+    "text": "historical figures",
+    "meaning": "tarihî şahsiyetler"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "-dıkları için",
+   "note": "*condemn someone for* + *-ing* \"birini … -diği için kınamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "fail",
+   "pos": "verb",
+   "wordId": "fail",
+   "sense": 0,
+   "context": "-memek (başaramamak)",
+   "note": "*fail to do something* \"bir şeyi yapmamak, yapamamak\" demektir.",
+   "form": "fail + -ing",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "moral",
+   "pos": "adjective",
+   "wordId": "moral",
+   "sense": 0,
+   "context": "ahlaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "conviction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "inançlar",
+   "note": "*conviction* \"güçlü inanç, kanaat\" ve \"mahkûmiyet\" demektir; burada ilk anlamdadır.",
+   "form": "conviction'ın çoğulu",
+   "base": "inanç, kanaat; mahkûmiyet",
+   "phrase": {
+    "from": 7,
+    "to": 13,
+    "text": "for failing to share the moral convictions",
+    "meaning": "ahlaki inançları paylaşmadıkları için"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (çağımızın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "of our own era",
+    "meaning": "kendi çağımızın"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "of our own era",
+    "meaning": "kendi çağımızın"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "of our own era",
+    "meaning": "kendi çağımızın"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "era",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "çağ",
+   "note": null,
+   "form": null,
+   "base": "çağ, devir",
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "of our own era",
+    "meaning": "kendi çağımızın"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "judgement",
+   "pos": "noun",
+   "wordId": "judgement",
+   "sense": 0,
+   "context": "yargılar",
+   "note": null,
+   "form": "judgement'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*however* + sıfat \"ne kadar … olursa olsun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "however satisfying",
+    "meaning": "ne kadar tatmin edici olursa olsun"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "satisfy",
+   "pos": "verb",
+   "wordId": "satisfy",
+   "sense": 0,
+   "context": "tatmin edici",
+   "note": "*satisfying* sıfat olarak \"tatmin edici, doyurucu\" demektir.",
+   "form": "satisfy + -ing (sıfat olarak)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "however satisfying",
+    "meaning": "ne kadar tatmin edici olursa olsun"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "risk",
+   "pos": "verb",
+   "wordId": "risk",
+   "sense": 1,
+   "context": "tehlikesi taşır",
+   "note": "*risk* + *-ing* \"… -me tehlikesi taşımak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "obscure",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "gizlemek (örtmek)",
+   "note": "*obscure* fiil olarak \"gizlemek, belirsizleştirmek\" demektir.",
+   "form": "obscure + -ing (sondaki e düşer)",
+   "base": "gizlemek, örtmek, belirsizleştirmek",
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "daha fazlası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (yargılar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "reveal",
+   "pos": "verb",
+   "wordId": "reveal",
+   "sense": 0,
+   "context": "açığa çıkarmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 28,
+    "text": "risk obscuring more than they reveal",
+    "meaning": "açığa çıkardığından fazlasını gizleme tehlikesi taşır"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "Cümle başındaki *To* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "why",
+   "pos": "adverb",
+   "wordId": "why",
+   "sense": 0,
+   "context": "neden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "act",
+   "pos": "verb",
+   "wordId": "act",
+   "sense": 0,
+   "context": "davrandı",
+   "note": null,
+   "form": "act + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "(öyle)",
+   "note": "*act as they did* \"yaptıkları gibi davranmak\", yani \"öyle davranmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(yaptıkları)",
+   "note": "*did* burada fiili tekrarlamamak için kullanılır: *as they did* = *as they acted*.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "why people acted as they did",
+    "meaning": "insanların neden öyle davrandığı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "historian",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tarihçiler",
+   "note": null,
+   "form": "historian'ın çoğulu",
+   "base": "tarihçi",
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "zorundadır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "reconstruct",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden kurmak",
+   "note": null,
+   "form": null,
+   "base": "yeniden oluşturmak, yeniden kurmak",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "reconstruct the assumptions and constraints",
+    "meaning": "varsayımları ve kısıtlamaları yeniden kurmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "reconstruct the assumptions and constraints",
+    "meaning": "varsayımları ve kısıtlamaları yeniden kurmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "assumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varsayımlar",
+   "note": null,
+   "form": "assumption'ın çoğulu",
+   "base": "varsayım",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "reconstruct the assumptions and constraints",
+    "meaning": "varsayımları ve kısıtlamaları yeniden kurmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "reconstruct the assumptions and constraints",
+    "meaning": "varsayımları ve kısıtlamaları yeniden kurmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "constraint",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kısıtlamalar",
+   "note": null,
+   "form": "constraint'in çoğulu",
+   "base": "kısıtlama, sınırlama",
+   "phrase": {
+    "from": 39,
+    "to": 43,
+    "text": "reconstruct the assumptions and constraints",
+    "meaning": "varsayımları ve kısıtlamaları yeniden kurmak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "shape",
+   "pos": "verb",
+   "wordId": "shape",
+   "sense": 1,
+   "context": "biçimlendiren",
+   "note": null,
+   "form": "shape + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "choice",
+   "pos": "noun",
+   "wordId": "choice",
+   "sense": 0,
+   "context": "seçimler",
+   "note": null,
+   "form": "choice'un çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mez)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "mean",
+   "pos": "verb",
+   "wordId": "mean",
+   "sense": 0,
+   "context": "anlamına gelmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "excuse",
+   "pos": "verb",
+   "wordId": "excuse",
+   "sense": 1,
+   "context": "mazur görmek",
+   "note": "*excuse* fiil olarak \"mazur görmek, affetmek\" demektir; *x* \"ks\" değil \"gz\" sesine yakın okunur (\"ikskyuz\").",
+   "form": "excuse + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "cruelty",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "zulüm (zalimlik)",
+   "note": "*cruel* (zalim) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "zulüm, zalimlik",
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "injustice",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "adaletsizlik",
+   "note": "*in-* (olumsuzluk) + *justice* (adalet).",
+   "form": null,
+   "base": "adaletsizlik",
+   "phrase": {
+    "from": 49,
+    "to": 55,
+    "text": "does not mean excusing cruelty or injustice",
+    "meaning": "zulmü ya da adaletsizliği mazur görmek anlamına gelmez"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "mean",
+   "pos": "verb",
+   "wordId": "mean",
+   "sense": 0,
+   "context": "anlamına gelir",
+   "note": null,
+   "form": "mean + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "recognize",
+   "pos": "verb",
+   "wordId": "recognize",
+   "sense": 0,
+   "context": "kabul etmek",
+   "note": "*recognize* \"tanımak\" demektir; bir gerçeği \"kabul etmek, farkına varmak\" anlamına da gelir.",
+   "form": "recognise (İngiliz yazımı) + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-eceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "future",
+   "pos": "adjective",
+   "wordId": "future",
+   "sense": 1,
+   "context": "gelecek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "future generations",
+    "meaning": "gelecek kuşaklar"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "generation",
+   "pos": "noun",
+   "wordId": "generation",
+   "sense": 0,
+   "context": "kuşaklar",
+   "note": null,
+   "form": "generation'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 61,
+    "text": "future generations",
+    "meaning": "gelecek kuşaklar"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": "*one day* \"bir gün (gelecekte ya da geçmişte)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "one day",
+    "meaning": "bir gün"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "day",
+   "pos": "noun",
+   "wordId": "day",
+   "sense": 0,
+   "context": "gün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 64,
+    "text": "one day",
+    "meaning": "bir gün"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "judge",
+   "pos": "verb",
+   "wordId": "judge",
+   "sense": 1,
+   "context": "yargılamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "certainty",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kesinlikler (emin olduklarımız)",
+   "note": "*certain* (emin) sıfatından türemiş bir isimdir.",
+   "form": "certainty'nin çoğulu (y → ies)",
+   "base": "kesinlik, kesin inanç",
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with equal severity",
+    "meaning": "aynı sertlikle"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "equal",
+   "pos": "adjective",
+   "wordId": "equal",
+   "sense": 0,
+   "context": "aynı (eşit)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with equal severity",
+    "meaning": "aynı sertlikle"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "severity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sertlik",
+   "note": "*severe* (sert, şiddetli) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "sertlik, şiddet",
+   "phrase": {
+    "from": 68,
+    "to": 70,
+    "text": "with equal severity",
+    "meaning": "aynı sertlikle"
+   }
+  }
+ ]
+}

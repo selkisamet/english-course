@@ -1,0 +1,1167 @@
+{
+ "storyId": "story-c2-035",
+ "textHash": "478d2d89bd4f",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yüzyıllardır süren bilimsel ilerlemeye rağmen mitler dünyayı anlama biçimimizi şekillendirmeyi sürdürüyor."
+  },
+  {
+   "tr": "Varlıklarını, insanlar onları gerçeğin kendisi sandığı için değil, bilimin cevaplayamadığı sorulara, yani anlam, amaç ve aidiyet sorularına eğildikleri için sürdürürler."
+  },
+  {
+   "tr": "Karanlığa inip dönüşmüş olarak geri dönen bir kahramanın miti, neredeyse herkesin er geç yaşadığı deneyimlere seslenir."
+  },
+  {
+   "tr": "Bu anlamda mitler ilkel açıklamalardan çok, kalıcı bilgelik biçimleridir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "despite",
+   "pos": "preposition",
+   "wordId": "despite",
+   "sense": 0,
+   "context": "-e rağmen",
+   "note": "*despite* + isim \"… -e rağmen\" demektir; *of* almaz (✗ despite of).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Despite centuries of scientific progress",
+    "meaning": "yüzyıllardır süren bilimsel ilerlemeye rağmen"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "century",
+   "pos": "noun",
+   "wordId": "century",
+   "sense": 0,
+   "context": "yüzyıllar",
+   "note": null,
+   "form": "century'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Despite centuries of scientific progress",
+    "meaning": "yüzyıllardır süren bilimsel ilerlemeye rağmen"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… süren)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Despite centuries of scientific progress",
+    "meaning": "yüzyıllardır süren bilimsel ilerlemeye rağmen"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "scientific",
+   "pos": "adjective",
+   "wordId": "scientific",
+   "sense": 0,
+   "context": "bilimsel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Despite centuries of scientific progress",
+    "meaning": "yüzyıllardır süren bilimsel ilerlemeye rağmen"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "progress",
+   "pos": "noun",
+   "wordId": "progress",
+   "sense": 0,
+   "context": "ilerleme",
+   "note": "*progress* sayılamayan bir isimdir: *some progress* (✗ a progress).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "Despite centuries of scientific progress",
+    "meaning": "yüzyıllardır süren bilimsel ilerlemeye rağmen"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "myth",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mitler",
+   "note": null,
+   "form": "myth'in çoğulu",
+   "base": "mit, efsane",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "sürdürüyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "continue to shape",
+    "meaning": "şekillendirmeyi sürdürür"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "continue to shape",
+    "meaning": "şekillendirmeyi sürdürür"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "shape",
+   "pos": "verb",
+   "wordId": "shape",
+   "sense": 1,
+   "context": "şekillendirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "continue to shape",
+    "meaning": "şekillendirmeyi sürdürür"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "biçim (yol)",
+   "note": "*the way we understand* \"anlama biçimimiz\" demektir; *way*'den sonra *that/in which* düşmüştür.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "world",
+   "pos": "noun",
+   "wordId": "world",
+   "sense": 0,
+   "context": "dünya",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 14,
+    "text": "the way we understand the world",
+    "meaning": "dünyayı anlama biçimimiz"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (mitler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "endure",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "varlıklarını sürdürürler",
+   "note": "*endure* \"dayanmak\" ve \"uzun süre var olmak, sürmek\" demektir.",
+   "form": null,
+   "base": "dayanmak; sürmek, kalıcı olmak",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not because … but because …* \"… için değil, … için\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "mistake",
+   "pos": "verb",
+   "wordId": "mistake",
+   "sense": 1,
+   "context": "sanmak",
+   "note": "*mistake A for B* \"A'yı yanlışlıkla B sanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "mistake them for literal truth",
+    "meaning": "onları gerçeğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "mistake them for literal truth",
+    "meaning": "onları gerçeğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(mistake for)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 24,
+    "text": "mistake them for literal truth",
+    "meaning": "onları gerçeğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "literal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kelimesi kelimesine",
+   "note": "*literal* \"harfi harfine, mecaz olmayan\" demektir.",
+   "form": null,
+   "base": "kelimesi kelimesine, gerçek anlamda",
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "literal truth",
+    "meaning": "kelimesi kelimesine gerçek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "truth",
+   "pos": "noun",
+   "wordId": "truth",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "literal truth",
+    "meaning": "kelimesi kelimesine gerçek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dıkları için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 26,
+    "text": "not because … but because",
+    "meaning": "… için değil, … için"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar (mitler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "address",
+   "pos": "verb",
+   "wordId": "address",
+   "sense": 1,
+   "context": "eğilmek (ele almak)",
+   "note": "*address a question* \"bir soruyu ele almak, bir soruya eğilmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": null,
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "science",
+   "pos": "noun",
+   "wordId": "science",
+   "sense": 0,
+   "context": "bilim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "answer",
+   "pos": "verb",
+   "wordId": "answer",
+   "sense": 1,
+   "context": "cevaplamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 33,
+    "text": "address questions that science cannot answer",
+    "meaning": "bilimin cevaplayamadığı sorulara eğilmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "sorular",
+   "note": "Virgülden sonra tekrarlanan *questions of…* önceki ifadeyi açıklar: \"yani … soruları\".",
+   "form": "question'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… soruları)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "meaning",
+   "pos": "noun",
+   "wordId": "meaning",
+   "sense": 0,
+   "context": "anlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "purpose",
+   "pos": "noun",
+   "wordId": "purpose",
+   "sense": 0,
+   "context": "amaç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "belong",
+   "pos": "verb",
+   "wordId": "belong",
+   "sense": 0,
+   "context": "aidiyet",
+   "note": "*belonging* isim olarak \"aidiyet\" demektir.",
+   "form": "belong + -ing (isim olarak)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 39,
+    "text": "questions of meaning, purpose and belonging",
+    "meaning": "anlam, amaç ve aidiyet soruları"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "myth",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mit",
+   "note": null,
+   "form": null,
+   "base": "mit, efsane",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "(… -in miti) hakkında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "hero",
+   "pos": "noun",
+   "wordId": "hero",
+   "sense": 0,
+   "context": "kahraman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "descend",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "inen",
+   "note": "*descend* \"inmek, alçalmak\" demektir; *ascend* \"yükselmek\" anlamındadır.",
+   "form": "descend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "inmek",
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "descends into darkness",
+    "meaning": "karanlığa iner"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e (karanlığa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "descends into darkness",
+    "meaning": "karanlığa iner"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "darkness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "karanlık",
+   "note": "*-ness* eki sıfattan isim yapar: *dark* → *darkness*.",
+   "form": null,
+   "base": "karanlık",
+   "phrase": {
+    "from": 46,
+    "to": 48,
+    "text": "descends into darkness",
+    "meaning": "karanlığa iner"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "geri dönen",
+   "note": null,
+   "form": "return + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "returns transformed",
+    "meaning": "dönüşmüş olarak geri döner"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "transform",
+   "pos": "verb",
+   "wordId": "transform",
+   "sense": 0,
+   "context": "dönüşmüş (olarak)",
+   "note": "Fiilin 3. hali bir durumu anlatabilir: *returns transformed* → dönüşmüş olarak geri döner.",
+   "form": "transform fiilinin 3. hali (transformed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "returns transformed",
+    "meaning": "dönüşmüş olarak geri döner"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "speak",
+   "pos": "verb",
+   "wordId": "speak",
+   "sense": 0,
+   "context": "seslenir",
+   "note": "*speak to something* \"bir şeye seslenmek, bir şeyle doğrudan ilgili olmak\" anlamına da gelir.",
+   "form": "speak + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "speaks to experiences",
+    "meaning": "deneyimlere seslenir"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "speaks to experiences",
+    "meaning": "deneyimlere seslenir"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": null,
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 54,
+    "text": "speaks to experiences",
+    "meaning": "deneyimlere seslenir"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "everyone",
+   "pos": "pronoun",
+   "wordId": "everyone",
+   "sense": 0,
+   "context": "herkes",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "eventually",
+   "pos": "adverb",
+   "wordId": "eventually",
+   "sense": 0,
+   "context": "er geç (sonunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "face",
+   "pos": "verb",
+   "wordId": "face",
+   "sense": 1,
+   "context": "yaşadığı (karşılaştığı)",
+   "note": null,
+   "form": "face + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in this sense: bu anlamda)",
+   "note": "*in this sense* \"bu anlamda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "In this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "In this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "anlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 62,
+    "text": "In this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "myth",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mitler",
+   "note": null,
+   "form": "myth'in çoğulu",
+   "base": "mit, efsane",
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "(… -den) çok",
+   "note": "*less A than B* \"A'dan çok B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "less primitive explanations than",
+    "meaning": "ilkel açıklamalardan çok"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "primitive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ilkel",
+   "note": null,
+   "form": null,
+   "base": "ilkel",
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "less primitive explanations than",
+    "meaning": "ilkel açıklamalardan çok"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "explanation",
+   "pos": "noun",
+   "wordId": "explanation",
+   "sense": 0,
+   "context": "açıklamalar",
+   "note": null,
+   "form": "explanation'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "less primitive explanations than",
+    "meaning": "ilkel açıklamalardan çok"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "enduring",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kalıcı",
+   "note": null,
+   "form": null,
+   "base": "kalıcı, süregelen",
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "enduring forms of wisdom",
+    "meaning": "kalıcı bilgelik biçimleri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "form",
+   "pos": "noun",
+   "wordId": "form",
+   "sense": 0,
+   "context": "biçimler",
+   "note": null,
+   "form": "form'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "enduring forms of wisdom",
+    "meaning": "kalıcı bilgelik biçimleri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bilgelik biçimi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "enduring forms of wisdom",
+    "meaning": "kalıcı bilgelik biçimleri"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "wisdom",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bilgelik",
+   "note": null,
+   "form": null,
+   "base": "bilgelik",
+   "phrase": {
+    "from": 69,
+    "to": 72,
+    "text": "enduring forms of wisdom",
+    "meaning": "kalıcı bilgelik biçimleri"
+   }
+  }
+ ]
+}

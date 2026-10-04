@@ -1819,6 +1819,286 @@
       "level": "C1",
       "text": "Since the first satellite was launched, thousands of objects have been sent into orbit around the Earth. Many of them are no longer functioning, and collisions have broken some into countless smaller pieces. This space debris travels at extremely high speeds, so even a tiny fragment can seriously damage a working satellite. As more and more satellites are launched, experts warn that the problem could become critical unless effective methods of removing debris are developed.",
       "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-011",
+      "title": "The Weight of Words",
+      "level": "C2",
+      "text": "Euphemism is seldom as innocent as it appears. When dismissals are rebranded as restructuring and the loss of civilian life as collateral damage, language ceases to describe reality and begins instead to soften it. Writers have long warned that such evasions corrupt thought itself, since what cannot be named plainly can scarcely be questioned. Vigilance, therefore, begins not with grand ideologies but with the modest discipline of saying exactly what one means.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-012",
+      "title": "The Map and the Territory",
+      "level": "C2",
+      "text": "Every map is, by necessity, a lie told in the service of truth. To be useful, it must omit almost everything: the texture of the soil, the smell of the rain, the lives unfolding behind each window. The danger arises when we forget this and begin to mistake the representation for the reality it simplifies. Economic models, opinion polls and even our memories are maps of this kind, indispensable yet perpetually incomplete.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-013",
+      "title": "The Tyranny of Metrics",
+      "level": "C2",
+      "text": "Once a measure becomes a target, it ceases to be a good measure. Hospitals judged solely on waiting times may discharge patients prematurely, and schools assessed purely on examination results may teach little beyond the test. The numbers improve, while the underlying purpose quietly withers. None of this implies that measurement is futile, merely that it should inform judgement rather than replace it. Not everything that counts, after all, can be counted.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-014",
+      "title": "The Ethics of Restoration",
+      "level": "C2",
+      "text": "When a fresco painted centuries ago begins to crumble, restorers face a delicate dilemma. Should they return it to its original brilliance, or preserve the patina that time has bestowed upon it? Overzealous cleaning has, on occasion, stripped masterpieces of the very subtleties their creators intended. Consequently, most conservators now favour minimal intervention, arguing that it is wiser to stabilise what survives than to impose a modern guess about what has been lost.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-015",
+      "title": "The Unreliable Narrator",
+      "level": "C2",
+      "text": "Some of the most memorable novels are narrated by characters whose account of events cannot be trusted. Gradually, the reader begins to detect inconsistencies, omissions and flattering interpretations, and is thus compelled to reconstruct the truth from the gaps in the story. This technique does more than create suspense. It reminds us, rather uncomfortably, that our own narratives about ourselves may be equally selective, shaped less by what happened than by what we can bear to remember.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-016",
+      "title": "The Myth of Genius",
+      "level": "C2",
+      "text": "Popular culture cherishes the image of the solitary genius, struck by sudden inspiration while others look on in bewilderment. Biographies, however, tell a less romantic story. Behind almost every celebrated breakthrough lie years of painstaking labour, countless failures and the often unacknowledged contributions of colleagues and predecessors. To attribute achievement to innate brilliance alone is not merely inaccurate. It may also discourage those who mistakenly believe that persistence counts for nothing without a rare gift.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-017",
+      "title": "The Allure of Ruins",
+      "level": "C2",
+      "text": "Ruins exert a peculiar fascination that intact buildings seldom match. A crumbling abbey or an overgrown temple invites the imagination to complete what time has left unfinished, filling empty halls with vanished voices. Perhaps, too, ruins console us by suggesting that even the mightiest ambitions eventually yield to nature. In contemplating them, we confront our own impermanence, yet we do so at a comfortable distance, as spectators rather than victims.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-018",
+      "title": "The Invention of Punctuality",
+      "level": "C2",
+      "text": "For most of human history, time was measured loosely by the sun, the seasons and the ringing of church bells. It was the railway, rather than any philosopher, that demanded precise and standardised clocks, since trains could not run safely on dozens of local times. Punctuality thus evolved from a personal virtue into an economic necessity. Today we are so accustomed to its discipline that we rarely notice how recently, and how arbitrarily, it was imposed.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-019",
+      "title": "The Unsent Letters",
+      "level": "C2",
+      "text": "After her grandmother died, Mira discovered a bundle of letters hidden beneath the lining of an old suitcase. Each was addressed to the same man, yet none had ever been posted. The letters spanned four decades, their tone shifting from passionate longing to a tender, almost amused resignation. Mira never learned who he was. Nevertheless, she came to understand that the woman she had known so well had harboured an entire inner life that no one had suspected.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-020",
+      "title": "The Comfort of Ritual",
+      "level": "C2",
+      "text": "Rituals, whether religious, familial or entirely private, persist even in societies that pride themselves on rationality. Anthropologists suggest that their enduring appeal lies precisely in their apparent pointlessness. By performing a fixed sequence of actions, people impose a sense of order on circumstances that would otherwise feel chaotic or overwhelming. Thus the athlete who touches the same wall before every race is not necessarily superstitious, but may simply be calming a restless mind.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-021",
+      "title": "The Gift of Forgetting",
+      "level": "C2",
+      "text": "We tend to regard forgetting as a failure of memory, an unfortunate flaw in an otherwise remarkable system. Some neuroscientists, however, contend that forgetting is an active and essential process. By discarding trivial details, the brain is able to extract general patterns and adapt to changing circumstances. A mind that retained everything would, paradoxically, be overwhelmed by detail and incapable of abstraction. Forgetting, in this light, is less a weakness than a form of wisdom.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-022",
+      "title": "The Masks We Wear Online",
+      "level": "C2",
+      "text": "Anonymity on the internet cuts both ways. It allows dissidents to speak without fear and enables people to discuss painful experiences they would never disclose publicly. Yet the same freedom shelters those who harass and deceive, secure in the knowledge that they will face no consequences. Attempts to abolish anonymity entirely would therefore harm the vulnerable along with the cruel, a price that many consider far too high.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-023",
+      "title": "The Silence of the Archive",
+      "level": "C2",
+      "text": "History is written not only by the victors but by those whose records happened to survive. Archives preserve the letters of officials and the accounts of merchants, while the experiences of servants, labourers and the illiterate vanish almost without trace. Historians who wish to recover these lost voices must read existing documents with unusual care, searching for what was mentioned only in passing or deliberately left out. The silences of the archive, they argue, are themselves a kind of evidence.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-024",
+      "title": "The Cult of Productivity",
+      "level": "C2",
+      "text": "In many workplaces, busyness has become a badge of honour. People boast of overflowing inboxes and sleepless nights, as though exhaustion were proof of virtue. Yet a growing body of research suggests that relentless activity often undermines the very creativity it is supposed to serve. Insight tends to arrive during periods of rest, when the mind is free to wander. Perhaps the most productive thing many of us could do is, occasionally, nothing at all.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-025",
+      "title": "The Illusion of Objectivity",
+      "level": "C2",
+      "text": "Journalists are often urged to be objective, to report events without allowing their own views to intrude. Yet every report involves choices about which facts to include, whose voices to quote and what to place in the opening paragraph. These decisions, however conscientious, inevitably reflect particular assumptions. Some editors therefore argue that transparency is a more honest ideal than neutrality: rather than pretending to have no perspective, reporters should make their methods and limitations clear.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-026",
+      "title": "The Return",
+      "level": "C2",
+      "text": "After thirty years abroad, Tomas returned to the village where he had been born, expecting to feel that he had finally come home. Instead, he felt like a stranger. The bakery had become a mobile phone shop, his childhood friends had moved away, and even the local accent sounded unfamiliar. Only gradually did he realise that the place he had missed existed only in his memory, preserved precisely because he had left.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-027",
+      "title": "Beauty and Usefulness",
+      "level": "C2",
+      "text": "Designers have long debated whether form should follow function. Advocates of strict functionalism maintain that ornament is a distraction, even a kind of dishonesty. Their opponents counter that human beings have never been satisfied with mere utility. Across cultures, people have decorated the humblest objects, from cooking pots to farming tools, suggesting that the desire for beauty is not a luxury but a fundamental need. A chair that is well designed, perhaps, should both support the body and delight the eye.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-028",
+      "title": "The Seduction of Certainty",
+      "level": "C2",
+      "text": "Uncertainty is profoundly uncomfortable, and many of us will accept a confident falsehood rather than tolerate an honest doubt. Politicians, advertisers and charismatic commentators understand this weakness well, offering simple answers to questions that are genuinely complex. Learning to admit ignorance, and to remain at ease with that admission, is therefore not a sign of weakness. It is, on the contrary, the beginning of serious thought.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-029",
+      "title": "The Gardener's Patience",
+      "level": "C2",
+      "text": "At the age of eighty, Agnes planted a row of oak trees along the edge of her land. Her neighbours were puzzled, since oaks take generations to reach their full height and she would never sit in their shade. When asked why she bothered, she simply replied that someone had once planted trees for her. The oaks are now taller than the house, and children who never met her play beneath them every summer.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-030",
+      "title": "The Weight of Inheritance",
+      "level": "C2",
+      "text": "When their parents died, the three siblings inherited a large house that none of them could afford to maintain. Selling it seemed the only sensible option, yet each room was saturated with memories, and every object seemed to plead for preservation. For months they postponed the decision, quarrelling over furniture that none of them truly wanted. Eventually they understood that what they were struggling to keep was not the house itself but the family it had once contained.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-031",
+      "title": "The Vanishing Craft",
+      "level": "C2",
+      "text": "In an age of mass production, the patient craftsman has become something of an anomaly. A handmade chair may take weeks to complete and cost many times more than its factory equivalent, yet its value lies partly in what cannot be measured: the accumulated judgement of hands trained over decades. When such skills disappear, they are seldom recorded in any manual. They vanish quietly, along with the last person who possessed them.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-032",
+      "title": "Judging the Past",
+      "level": "C2",
+      "text": "It is tempting to condemn historical figures for failing to share the moral convictions of our own era. Yet such judgements, however satisfying, risk obscuring more than they reveal. To understand why people acted as they did, historians must reconstruct the assumptions and constraints that shaped their choices. This does not mean excusing cruelty or injustice. It means recognising that future generations may one day judge our certainties with equal severity.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-033",
+      "title": "The Kindness of Small Lies",
+      "level": "C2",
+      "text": "Moral philosophers have long debated whether lying is ever justified. In everyday life, however, most people tell small untruths without hesitation, praising a disappointing meal or pretending to be delighted with an unwanted gift. Such lies, some argue, make social life run smoothly, sparing feelings at little cost. Others warn that habitual dishonesty, however minor, gradually erodes trust, since a person known to lie kindly may also be suspected of lying cruelly.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-034",
+      "title": "The Lighthouse Keeper",
+      "level": "C2",
+      "text": "For thirty years, Edmund kept the lighthouse on a remote island, climbing the narrow stairs each evening to light the lamp that guided ships past the rocks. When the light was finally automated, he was offered a comfortable flat on the mainland. He declined. Visitors who asked whether he felt lonely received the same quiet reply: he had never been alone, since every passing ship had been a kind of conversation.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-035",
+      "title": "The Persistence of Myth",
+      "level": "C2",
+      "text": "Despite centuries of scientific progress, myths continue to shape the way we understand the world. They endure not because people mistake them for literal truth, but because they address questions that science cannot answer, questions of meaning, purpose and belonging. A myth about a hero who descends into darkness and returns transformed speaks to experiences that almost everyone eventually faces. In this sense, myths are less primitive explanations than enduring forms of wisdom.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-036",
+      "title": "Solitude and Loneliness",
+      "level": "C2",
+      "text": "Solitude and loneliness are frequently confused, yet they describe profoundly different experiences. Loneliness is the painful awareness of a gap between the connection we desire and the connection we have. Solitude, by contrast, is chosen, a deliberate withdrawal that allows reflection, creativity and rest. A person may feel desperately lonely in a crowded room, while another finds deep contentment walking alone through a silent forest.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-037",
+      "title": "The Price of Fame",
+      "level": "C2",
+      "text": "Fame was once the reward for exceptional achievement. Today it can be acquired almost overnight, often for reasons that have little to do with talent. Yet those who attain sudden celebrity frequently discover that it carries a heavy price. Every gesture is scrutinised, every mistake magnified, and privacy becomes a distant memory. Many who sought recognition eventually find themselves wishing for the anonymity they once regarded as a burden.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-038",
+      "title": "The Limits of Language",
+      "level": "C2",
+      "text": "Some experiences seem to resist words altogether. Grief, wonder and intense physical pain are notoriously difficult to describe, and attempts to do so often feel inadequate or even false. Poets have responded to this challenge not by abandoning language but by stretching it, using metaphor and rhythm to suggest what cannot be stated directly. Perhaps the most powerful writing, therefore, is that which acknowledges its own limits while still reaching towards the inexpressible.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-039",
+      "title": "The Old Violinist",
+      "level": "C2",
+      "text": "As his hearing began to fail, the violinist feared that his career was over. For a while he refused to perform, ashamed of the mistakes he could no longer detect. Then a younger colleague persuaded him to play once more in a small church. The audience, unaware of his condition, listened in absolute silence. Afterwards, an elderly woman told him that she had never heard music played with such tenderness.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-040",
+      "title": "The Wisdom of Crowds",
+      "level": "C2",
+      "text": "When large numbers of people independently estimate an uncertain quantity, the average of their guesses is often remarkably accurate, sometimes more so than the judgement of any single expert. This phenomenon, however, depends on certain conditions. Individuals must form their opinions separately, using diverse sources of information. Once people begin to influence one another, errors tend to reinforce rather than balance each other, and the crowd can become dangerously foolish.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-041",
+      "title": "A Second Self",
+      "level": "C2",
+      "text": "Many bilingual people report that they feel subtly different depending on which language they are speaking. In one language they may be more formal and reserved, in another more playful or direct. Linguists attribute this partly to the cultural associations each language carries and partly to the different contexts in which it was learned. Acquiring a new language, it seems, does not merely add vocabulary. It may also open the door to an unfamiliar version of oneself.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-042",
+      "title": "The Memory Palace",
+      "level": "C2",
+      "text": "Long before writing was common, speakers memorised lengthy speeches by imagining a familiar building and placing each idea in a particular room. To recall the speech, they simply walked through the building in their minds, collecting the ideas in order. This ancient technique remains remarkably effective, and modern memory champions still rely on it. Its success suggests that human memory is fundamentally spatial, organised less like a list than like a landscape.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-043",
+      "title": "The Last Bookshop",
+      "level": "C2",
+      "text": "When the only bookshop in town announced that it would close, few residents expected anyone to intervene. Within a week, however, a group of regular customers had formed a cooperative, each contributing a modest sum to keep the business alive. Volunteers now run the counter at weekends, and the shop hosts readings, chess evenings and a story hour for children. It has become, as one member put it, less a shop than a meeting place for the whole town.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-044",
+      "title": "The Quiet Poison of Envy",
+      "level": "C2",
+      "text": "Unlike anger, which tends to announce itself loudly, envy usually operates in secret. Few people readily admit to resenting the success of friends, yet the feeling is almost universal. Psychologists distinguish between malicious envy, which wishes to see others brought down, and a more benign form that motivates people to improve themselves. Learning to recognise which kind one is experiencing may be the first step towards transforming a corrosive emotion into a constructive one.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-045",
+      "title": "The Value of Ambiguity",
+      "level": "C2",
+      "text": "Works of art that can be interpreted in only one way rarely hold our attention for long. The paintings and novels that endure are often those that resist a single meaning, inviting each generation to discover something new in them. Ambiguity, in this sense, is not a flaw but a source of vitality. It leaves room for the viewer or reader to participate, transforming passive consumption into an active process of interpretation.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-046",
+      "title": "The Ship of Theseus",
+      "level": "C2",
+      "text": "An ancient puzzle asks whether a ship whose planks have been replaced one by one, until none of the original wood remains, is still the same ship. The question may sound trivial, yet it touches on a profound problem. Our own bodies continually replace their cells, and our beliefs and memories change over the decades. If identity does not reside in our physical material, philosophers ask, where exactly does it lie?",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-047",
+      "title": "The Stranger on the Train",
+      "level": "C2",
+      "text": "On a long journey north, Clara found herself sharing a table with an elderly stranger who was reading a book of poetry. They began talking, hesitantly at first, then with surprising openness. By the time the train arrived, she had confided doubts she had never expressed to anyone, and he had urged her to pursue the career she had abandoned. They never exchanged names. Years later, she still wonders whether he knows how much that conversation changed her life.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-048",
+      "title": "The Discipline of Gratitude",
+      "level": "C2",
+      "text": "Gratitude is often treated as a spontaneous emotion, something that arises naturally when good fortune comes our way. Research suggests, however, that it can also be cultivated as a deliberate habit. People who regularly note things for which they are thankful tend to report greater happiness and sleep better. Crucially, the practice does not require denying hardship. It simply trains attention to notice what is easily overlooked amid the noise of daily complaints.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-049",
+      "title": "Rivers and Borders",
+      "level": "C2",
+      "text": "Rivers have often served as convenient borders between nations, offering a clear line on the map. Yet for the people who live along them, rivers have historically been less a barrier than a connection. They carried trade, ideas and languages from one bank to the other, and communities on opposite shores frequently shared customs and family ties. Drawing a political border down the middle of a river can therefore divide what geography and history have long united.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "story-c2-050",
+      "title": "The Final Chapter",
+      "level": "C2",
+      "text": "When the novelist died, she left behind a manuscript that stopped abruptly in the middle of the final chapter. Her daughter, who had never written fiction, spent two years studying her notes before attempting to complete the book. Critics were divided. Some praised the smooth transition, while others insisted that an unfinished work should remain unfinished. The daughter herself admitted that she had not so much ended the story as continued a long conversation with her mother.",
+      "createdAt": "2026-01-21T09:30:00.000Z"
     }
   ]
 }

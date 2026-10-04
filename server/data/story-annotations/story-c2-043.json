@@ -1,0 +1,1259 @@
+{
+ "storyId": "story-c2-043",
+ "textHash": "09ae8e1f06b1",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kasabadaki tek kitapçı kapanacağını duyurduğunda, sakinlerin pek azı birinin araya gireceğini bekliyordu."
+  },
+  {
+   "tr": "Ancak bir hafta içinde düzenli müşterilerden oluşan bir grup, her biri işletmeyi ayakta tutmak için mütevazı bir miktar katkıda bulunarak bir kooperatif kurmuştu."
+  },
+  {
+   "tr": "Artık hafta sonları tezgâhta gönüllüler çalışıyor; dükkân okuma etkinliklerine, satranç akşamlarına ve çocuklar için bir masal saatine ev sahipliği yapıyor."
+  },
+  {
+   "tr": "Bir üyenin dediği gibi, burası bir dükkândan çok bütün kasabanın buluşma yerine dönüştü."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "only",
+   "pos": "adjective",
+   "wordId": "only",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "bookshop",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kitapçı",
+   "note": "*bookshop* *book* (kitap) ve *shop* (dükkân) kelimelerinden oluşur; Amerikan İngilizcesinde *bookstore* denir.",
+   "form": null,
+   "base": "kitapçı (dükkân)",
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (kasabadaki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "announce",
+   "pos": "verb",
+   "wordId": "announce",
+   "sense": 0,
+   "context": "duyurdu",
+   "note": null,
+   "form": "announce + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 6,
+    "text": "When the only bookshop in town announced",
+    "meaning": "kasabadaki tek kitapçı duyurduğunda"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-acağını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kitapçı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-acak)",
+   "note": "Aktarılan sözde *will* → *would* olur.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "close",
+   "pos": "verb",
+   "wordId": "close",
+   "sense": 0,
+   "context": "kapanmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 11,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "pek az",
+   "note": "*few* (a olmadan) \"çok az, neredeyse hiç\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "resident",
+   "pos": "noun",
+   "wordId": "resident",
+   "sense": 0,
+   "context": "sakinler",
+   "note": null,
+   "form": "resident'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "bekliyordu",
+   "note": "*expect someone to do something* \"birinin bir şey yapmasını beklemek\" demektir.",
+   "form": "expect + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "anyone",
+   "pos": "pronoun",
+   "wordId": "anyone",
+   "sense": 0,
+   "context": "biri (herhangi biri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "intervene",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "araya girmek (müdahale etmek)",
+   "note": null,
+   "form": null,
+   "base": "müdahale etmek, araya girmek",
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "few residents expected anyone to intervene",
+    "meaning": "sakinlerin pek azı birinin araya gireceğini bekliyordu"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "within",
+   "pos": "preposition",
+   "wordId": "within",
+   "sense": 0,
+   "context": "içinde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "week",
+   "pos": "noun",
+   "wordId": "week",
+   "sense": 0,
+   "context": "hafta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 19,
+    "text": "Within a week",
+    "meaning": "bir hafta içinde"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "a group of regular customers",
+    "meaning": "düzenli müşterilerden oluşan bir grup"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "group",
+   "pos": "noun",
+   "wordId": "group",
+   "sense": 0,
+   "context": "grup",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "a group of regular customers",
+    "meaning": "düzenli müşterilerden oluşan bir grup"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… -den oluşan)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "a group of regular customers",
+    "meaning": "düzenli müşterilerden oluşan bir grup"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "regular",
+   "pos": "adjective",
+   "wordId": "regular",
+   "sense": 0,
+   "context": "düzenli",
+   "note": "*regular customers* \"düzenli, devamlı müşteriler\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "a group of regular customers",
+    "meaning": "düzenli müşterilerden oluşan bir grup"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "customer",
+   "pos": "noun",
+   "wordId": "customer",
+   "sense": 0,
+   "context": "müşteriler",
+   "note": null,
+   "form": "customer'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "a group of regular customers",
+    "meaning": "düzenli müşterilerden oluşan bir grup"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştu)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had formed a cooperative",
+    "meaning": "bir kooperatif kurmuştu"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "form",
+   "pos": "verb",
+   "wordId": "form",
+   "sense": 1,
+   "context": "kurmuştu (oluşturmuştu)",
+   "note": null,
+   "form": "form fiilinin 3. hali (formed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had formed a cooperative",
+    "meaning": "bir kooperatif kurmuştu"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had formed a cooperative",
+    "meaning": "bir kooperatif kurmuştu"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "cooperative",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kooperatif",
+   "note": null,
+   "form": null,
+   "base": "kooperatif",
+   "phrase": {
+    "from": 26,
+    "to": 29,
+    "text": "had formed a cooperative",
+    "meaning": "bir kooperatif kurmuştu"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "her biri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "each contributing a modest sum",
+    "meaning": "her biri mütevazı bir miktar katkıda bulunarak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "contribute",
+   "pos": "verb",
+   "wordId": "contribute",
+   "sense": 0,
+   "context": "katkıda bulunarak",
+   "note": "Virgülden sonra gelen *each contributing…* yapısı aynı anda gerçekleşen bir durumu anlatır.",
+   "form": "contribute + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "each contributing a modest sum",
+    "meaning": "her biri mütevazı bir miktar katkıda bulunarak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "each contributing a modest sum",
+    "meaning": "her biri mütevazı bir miktar katkıda bulunarak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "modest",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "mütevazı",
+   "note": null,
+   "form": null,
+   "base": "mütevazı; az, düşük",
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "each contributing a modest sum",
+    "meaning": "her biri mütevazı bir miktar katkıda bulunarak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "sum",
+   "pos": "noun",
+   "wordId": "sum",
+   "sense": 0,
+   "context": "miktar (para)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "each contributing a modest sum",
+    "meaning": "her biri mütevazı bir miktar katkıda bulunarak"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "to keep the business alive",
+    "meaning": "işletmeyi ayakta tutmak için"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "(ayakta) tutmak",
+   "note": "*keep something alive* \"bir şeyi ayakta tutmak, yaşatmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "to keep the business alive",
+    "meaning": "işletmeyi ayakta tutmak için"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "to keep the business alive",
+    "meaning": "işletmeyi ayakta tutmak için"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "business",
+   "pos": "noun",
+   "wordId": "business",
+   "sense": 0,
+   "context": "işletme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "to keep the business alive",
+    "meaning": "işletmeyi ayakta tutmak için"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "alive",
+   "pos": "adjective",
+   "wordId": "alive",
+   "sense": 0,
+   "context": "ayakta (canlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 39,
+    "text": "to keep the business alive",
+    "meaning": "işletmeyi ayakta tutmak için"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "volunteer",
+   "pos": "noun",
+   "wordId": "volunteer",
+   "sense": 0,
+   "context": "gönüllüler",
+   "note": null,
+   "form": "volunteer'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "now",
+   "pos": "adverb",
+   "wordId": "now",
+   "sense": 0,
+   "context": "artık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "(tezgâhta) çalışıyor (işletiyor)",
+   "note": "*run* \"koşmak\" ve \"işletmek, yürütmek\" demektir; burada ikinci anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "run the counter at weekends",
+    "meaning": "hafta sonları tezgâhta çalışmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "run the counter at weekends",
+    "meaning": "hafta sonları tezgâhta çalışmak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "counter",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tezgâh",
+   "note": "*counter* dükkânlarda müşteriye hizmet verilen \"tezgâh\"tır.",
+   "form": null,
+   "base": "tezgâh",
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "run the counter at weekends",
+    "meaning": "hafta sonları tezgâhta çalışmak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(hafta sonları)",
+   "note": "İngiliz İngilizcesinde *at weekends*, Amerikan İngilizcesinde *on weekends* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "run the counter at weekends",
+    "meaning": "hafta sonları tezgâhta çalışmak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "weekend",
+   "pos": "noun",
+   "wordId": "weekend",
+   "sense": 0,
+   "context": "hafta sonları",
+   "note": null,
+   "form": "weekend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 46,
+    "text": "run the counter at weekends",
+    "meaning": "hafta sonları tezgâhta çalışmak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "host",
+   "pos": "verb",
+   "wordId": "host",
+   "sense": 1,
+   "context": "ev sahipliği yapıyor",
+   "note": null,
+   "form": "host + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "hosts readings",
+    "meaning": "okuma etkinliklerine ev sahipliği yapar"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "reading",
+   "pos": "noun",
+   "wordId": "reading",
+   "sense": 0,
+   "context": "okuma etkinlikleri",
+   "note": "*reading* burada bir yazarın ya da okurların eserlerden bölümler okuduğu \"okuma etkinliği\"dir.",
+   "form": "reading'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 51,
+    "text": "hosts readings",
+    "meaning": "okuma etkinliklerine ev sahipliği yapar"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "chess",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "satranç",
+   "note": null,
+   "form": null,
+   "base": "satranç",
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "chess evenings",
+    "meaning": "satranç akşamları"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşamlar",
+   "note": null,
+   "form": "evening'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "chess evenings",
+    "meaning": "satranç akşamları"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "masal (hikâye)",
+   "note": "*story hour* çocuklara hikâye okunan etkinlik saatidir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "story hour",
+    "meaning": "masal saati"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "hour",
+   "pos": "noun",
+   "wordId": "hour",
+   "sense": 0,
+   "context": "saat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "story hour",
+    "meaning": "masal saati"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "child",
+   "pos": "noun",
+   "wordId": "child",
+   "sense": 0,
+   "context": "çocuklar",
+   "note": null,
+   "form": "child'ın çoğulu (children, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "burası (dükkân)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dü)",
+   "note": null,
+   "form": "have fiilinin 3. tekil şahıs hali (has)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüştü",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "(… dediği) gibi",
+   "note": "*as someone put it* \"birinin dediği gibi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "as one member put it",
+    "meaning": "bir üyenin dediği gibi"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "as one member put it",
+    "meaning": "bir üyenin dediği gibi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "member",
+   "pos": "noun",
+   "wordId": "member",
+   "sense": 0,
+   "context": "üye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "as one member put it",
+    "meaning": "bir üyenin dediği gibi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "put",
+   "pos": "verb",
+   "wordId": "put",
+   "sense": 0,
+   "context": "(dediği)",
+   "note": "*put* \"koymak\" demektir; *put it* ise bir düşünceyi \"ifade etmek, söylemek\" anlamına gelir.",
+   "form": "put fiilinin geçmiş zaman hali (put, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "as one member put it",
+    "meaning": "bir üyenin dediği gibi"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "(onu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 67,
+    "text": "as one member put it",
+    "meaning": "bir üyenin dediği gibi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "(… -den) çok",
+   "note": "*less A than B* \"A'dan çok B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "meeting",
+   "pos": "noun",
+   "wordId": "meeting",
+   "sense": 0,
+   "context": "buluşma",
+   "note": "*meeting place* \"buluşma yeri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yer",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 74,
+    "text": "less a shop than a meeting place",
+    "meaning": "bir dükkândan çok bir buluşma yeri"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için (-in)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 76,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "whole",
+   "pos": "adjective",
+   "wordId": "whole",
+   "sense": 0,
+   "context": "bütün",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 78,
+   "lemma": "town",
+   "pos": "noun",
+   "wordId": "town",
+   "sense": 0,
+   "context": "kasaba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

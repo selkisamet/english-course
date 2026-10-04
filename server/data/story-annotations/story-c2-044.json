@@ -1,0 +1,1194 @@
+{
+ "storyId": "story-c2-044",
+ "textHash": "711507c8c425",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kendini yüksek sesle belli etme eğiliminde olan öfkenin aksine, kıskançlık genellikle gizlice işler."
+  },
+  {
+   "tr": "Pek az insan arkadaşlarının başarısına içerlediğini kolayca itiraf eder; oysa bu duygu neredeyse evrenseldir."
+  },
+  {
+   "tr": "Psikologlar, başkalarının alaşağı edildiğini görmek isteyen kötü niyetli kıskançlık ile insanları kendilerini geliştirmeye yönelten daha zararsız bir biçimi birbirinden ayırır."
+  },
+  {
+   "tr": "İnsanın hangi türü yaşadığını fark etmeyi öğrenmesi, yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmenin ilk adımı olabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "unlike",
+   "pos": "preposition",
+   "wordId": "unlike",
+   "sense": 0,
+   "context": "-in aksine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Unlike anger",
+    "meaning": "öfkenin aksine"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "anger",
+   "pos": "noun",
+   "wordId": "anger",
+   "sense": 0,
+   "context": "öfke",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Unlike anger",
+    "meaning": "öfkenin aksine"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "Virgülden sonra gelen *which* cümlesi isim hakkında ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğiliminde",
+   "note": null,
+   "form": "tend + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 7,
+    "text": "tends to announce itself loudly",
+    "meaning": "kendini yüksek sesle belli etme eğilimindedir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 7,
+    "text": "tends to announce itself loudly",
+    "meaning": "kendini yüksek sesle belli etme eğilimindedir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "announce",
+   "pos": "verb",
+   "wordId": "announce",
+   "sense": 0,
+   "context": "belli etmek (duyurmak)",
+   "note": "*announce itself* \"kendini açıkça belli etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 7,
+    "text": "tends to announce itself loudly",
+    "meaning": "kendini yüksek sesle belli etme eğilimindedir"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "itself",
+   "pos": "pronoun",
+   "wordId": "itself",
+   "sense": 0,
+   "context": "kendini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 7,
+    "text": "tends to announce itself loudly",
+    "meaning": "kendini yüksek sesle belli etme eğilimindedir"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "loudly",
+   "pos": "adverb",
+   "wordId": "loudly",
+   "sense": 0,
+   "context": "yüksek sesle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 7,
+    "text": "tends to announce itself loudly",
+    "meaning": "kendini yüksek sesle belli etme eğilimindedir"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "envy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kıskançlık (haset)",
+   "note": "*envy* başkasının sahip olduğu bir şeyi isteme duygusudur; *jealousy* ise daha çok sevilen birini kaybetme korkusudur.",
+   "form": null,
+   "base": "kıskançlık, haset, gıpta",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "usually",
+   "pos": "adverb",
+   "wordId": "usually",
+   "sense": 0,
+   "context": "genellikle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "operate",
+   "pos": "verb",
+   "wordId": "operate",
+   "sense": 0,
+   "context": "işler",
+   "note": "*operate* \"çalıştırmak\" demektir; burada \"işlemek, faaliyet göstermek\" anlamındadır.",
+   "form": "operate + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "operates in secret",
+    "meaning": "gizlice işler"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in secret: gizlice)",
+   "note": "*in secret* \"gizlice\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "operates in secret",
+    "meaning": "gizlice işler"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "secret",
+   "pos": "noun",
+   "wordId": "secret",
+   "sense": 1,
+   "context": "gizlilik (sır)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "operates in secret",
+    "meaning": "gizlice işler"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "few",
+   "pos": "determiner",
+   "wordId": "few",
+   "sense": 0,
+   "context": "pek az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "readily",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kolayca (çekinmeden)",
+   "note": "*ready* (hazır) sıfatından *-ly* ile zarf yapılmıştır (y → i): \"kolayca, isteyerek\".",
+   "form": "ready + -ly (sıfattan zarf)",
+   "base": "kolayca, isteyerek",
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "admit",
+   "pos": "verb",
+   "wordId": "admit",
+   "sense": 0,
+   "context": "itiraf eder",
+   "note": "*admit to* + *-ing* \"… -diğini itiraf etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "(admit to)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "resent",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "içerlemek",
+   "note": "*resent something* \"bir şeye içerlemek, kızmak\" demektir.",
+   "form": "resent + -ing",
+   "base": "içerlemek, gücenmek",
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "success",
+   "pos": "noun",
+   "wordId": "success",
+   "sense": 0,
+   "context": "başarı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (arkadaşlarının)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 22,
+    "text": "readily admit to resenting the success of friends",
+    "meaning": "arkadaşlarının başarısına içerlediğini kolayca itiraf etmek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "feeling",
+   "pos": "noun",
+   "wordId": "feeling",
+   "sense": 0,
+   "context": "duygu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "almost universal",
+    "meaning": "neredeyse evrensel"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "universal",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "evrensel",
+   "note": null,
+   "form": null,
+   "base": "evrensel",
+   "phrase": {
+    "from": 27,
+    "to": 28,
+    "text": "almost universal",
+    "meaning": "neredeyse evrensel"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "psychologist",
+   "pos": "noun",
+   "wordId": "psychologist",
+   "sense": 0,
+   "context": "psikologlar",
+   "note": null,
+   "form": "psychologist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "distinguish",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ayırır (ayırt eder)",
+   "note": "*distinguish between A and B* \"A ile B'yi birbirinden ayırmak\" demektir.",
+   "form": null,
+   "base": "ayırt etmek",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "distinguish between malicious envy",
+    "meaning": "kötü niyetli kıskançlığı ayırt etmek"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "(arasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "distinguish between malicious envy",
+    "meaning": "kötü niyetli kıskançlığı ayırt etmek"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "malicious",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kötü niyetli",
+   "note": null,
+   "form": null,
+   "base": "kötü niyetli",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "distinguish between malicious envy",
+    "meaning": "kötü niyetli kıskançlığı ayırt etmek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "envy",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kıskançlık",
+   "note": null,
+   "form": null,
+   "base": "kıskançlık, haset, gıpta",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "distinguish between malicious envy",
+    "meaning": "kötü niyetli kıskançlığı ayırt etmek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "wish",
+   "pos": "verb",
+   "wordId": "wish",
+   "sense": 0,
+   "context": "isteyen",
+   "note": null,
+   "form": "wish + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 40,
+    "text": "wishes to see others brought down",
+    "meaning": "başkalarının alaşağı edildiğini görmek ister"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 40,
+    "text": "wishes to see others brought down",
+    "meaning": "başkalarının alaşağı edildiğini görmek ister"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "see",
+   "pos": "verb",
+   "wordId": "see",
+   "sense": 0,
+   "context": "görmek",
+   "note": "*see someone* + fiilin 3. hali \"birinin … -ildiğini görmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 40,
+    "text": "wishes to see others brought down",
+    "meaning": "başkalarının alaşağı edildiğini görmek ister"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "başkaları",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 40,
+    "text": "wishes to see others brought down",
+    "meaning": "başkalarının alaşağı edildiğini görmek ister"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "bring",
+   "pos": "verb",
+   "wordId": "bring",
+   "sense": 0,
+   "context": "(alaşağı) edilmiş",
+   "note": "*bring someone down* \"birini alaşağı etmek, düşürmek\" demektir.",
+   "form": "bring fiilinin 3. hali (brought, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "brought down",
+    "meaning": "alaşağı edilmiş"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "down",
+   "pos": "adverb",
+   "wordId": "down",
+   "sense": 0,
+   "context": "aşağı (bring down)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 40,
+    "text": "brought down",
+    "meaning": "alaşağı edilmiş"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a more benign form",
+    "meaning": "daha zararsız bir biçim"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "benign",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "zararsız",
+   "note": "*benign* \"zararsız, iyi huylu\" demektir; *g* okunmaz (\"binayn\").",
+   "form": null,
+   "base": "zararsız, iyi huylu",
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a more benign form",
+    "meaning": "daha zararsız bir biçim"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "form",
+   "pos": "noun",
+   "wordId": "form",
+   "sense": 0,
+   "context": "biçim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "a more benign form",
+    "meaning": "daha zararsız bir biçim"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "motivate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yönelten (motive eden)",
+   "note": "*motivate someone to do something* \"birini bir şeyi yapmaya yöneltmek\" demektir.",
+   "form": "motivate + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "motive etmek, isteklendirmek",
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "motivates people to improve themselves",
+    "meaning": "insanları kendilerini geliştirmeye yöneltir"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "motivates people to improve themselves",
+    "meaning": "insanları kendilerini geliştirmeye yöneltir"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "motivates people to improve themselves",
+    "meaning": "insanları kendilerini geliştirmeye yöneltir"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "improve",
+   "pos": "verb",
+   "wordId": "improve",
+   "sense": 0,
+   "context": "geliştirmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "motivates people to improve themselves",
+    "meaning": "insanları kendilerini geliştirmeye yöneltir"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendilerini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 51,
+    "text": "motivates people to improve themselves",
+    "meaning": "insanları kendilerini geliştirmeye yöneltir"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrenmek",
+   "note": "Fiile *-ing* eklenerek cümlenin öznesi yapılabilir: *Learning to recognise…* → fark etmeyi öğrenmek.",
+   "form": "learn + -ing",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "recognize",
+   "pos": "verb",
+   "wordId": "recognize",
+   "sense": 0,
+   "context": "fark etmek (tanımak)",
+   "note": "İngiliz yazımında *recognise*, Amerikan yazımında *recognize* yazılır.",
+   "form": "recognise (İngiliz yazımı)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "which",
+   "pos": "determiner",
+   "wordId": "which",
+   "sense": 1,
+   "context": "hangi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "insan (kişi)",
+   "note": "*one* resmî dilde genel olarak \"insan, kişi\" anlamında özne olabilir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "experience",
+   "pos": "verb",
+   "wordId": "experience",
+   "sense": 1,
+   "context": "yaşadığı",
+   "note": null,
+   "form": "experience + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 59,
+    "text": "Learning to recognise which kind one is experiencing",
+    "meaning": "hangi türü yaşadığını fark etmeyi öğrenmek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "the first step",
+    "meaning": "ilk adım"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "first",
+   "pos": "determiner",
+   "wordId": "first",
+   "sense": 0,
+   "context": "ilk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "the first step",
+    "meaning": "ilk adım"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "step",
+   "pos": "noun",
+   "wordId": "step",
+   "sense": 0,
+   "context": "adım",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "the first step",
+    "meaning": "ilk adım"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "towards",
+   "pos": "preposition",
+   "wordId": "towards",
+   "sense": 0,
+   "context": "-e doğru (… -menin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "transform",
+   "pos": "verb",
+   "wordId": "transform",
+   "sense": 0,
+   "context": "dönüştürmek",
+   "note": "*transform A into B* \"A'yı B'ye dönüştürmek\" demektir.",
+   "form": "transform + -ing",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "corrosive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yıkıcı (aşındırıcı)",
+   "note": "*corrode* (aşındırmak) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "aşındırıcı, yıkıcı",
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "emotion",
+   "pos": "noun",
+   "wordId": "emotion",
+   "sense": 0,
+   "context": "duygu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "constructive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yapıcı",
+   "note": "*construct* (inşa etmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "yapıcı",
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(duygu)",
+   "note": "*one* daha önce geçen ismin tekrarını önler: *a constructive one* = *a constructive emotion*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 73,
+    "text": "transforming a corrosive emotion into a constructive one",
+    "meaning": "yıkıcı bir duyguyu yapıcı bir duyguya dönüştürmek"
+   }
+  }
+ ]
+}

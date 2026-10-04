@@ -1,0 +1,1158 @@
+{
+ "storyId": "story-c2-034",
+ "textHash": "1ac87d37db83",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Edmund otuz yıl boyunca uzak bir adadaki deniz fenerinin bekçiliğini yaptı; her akşam dar merdivenleri tırmanıp gemilere kayalıkların yanından geçerken yol gösteren lambayı yaktı."
+  },
+  {
+   "tr": "Fener sonunda otomatik hale getirildiğinde, ona anakarada konforlu bir daire teklif edildi."
+  },
+  {
+   "tr": "Teklifi geri çevirdi."
+  },
+  {
+   "tr": "Yalnız hissedip hissetmediğini soran ziyaretçiler hep aynı sakin cevabı aldı: hiçbir zaman yalnız olmamıştı, çünkü yanından geçen her gemi bir tür sohbet olmuştu."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "boyunca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For thirty years",
+    "meaning": "otuz yıl boyunca"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For thirty years",
+    "meaning": "otuz yıl boyunca"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "For thirty years",
+    "meaning": "otuz yıl boyunca"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "Edmund",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Edmund",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "keep",
+   "pos": "verb",
+   "wordId": "keep",
+   "sense": 0,
+   "context": "bekçiliğini yaptı (işletti)",
+   "note": "*keep a lighthouse* \"bir deniz fenerinin bakımını ve işletmesini üstlenmek\" demektir; bunu yapan kişi *lighthouse keeper*'dır.",
+   "form": "keep fiilinin geçmiş zaman hali (kept, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "kept the lighthouse",
+    "meaning": "deniz fenerinin bekçiliğini yaptı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "kept the lighthouse",
+    "meaning": "deniz fenerinin bekçiliğini yaptı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "lighthouse",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "deniz feneri",
+   "note": "*lighthouse* *light* (ışık) ve *house* (ev) kelimelerinden oluşur.",
+   "form": null,
+   "base": "deniz feneri",
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "kept the lighthouse",
+    "meaning": "deniz fenerinin bekçiliğini yaptı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (adada)",
+   "note": "Adalar için *on* kullanılır: *on an island* → bir adada.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "on a remote island",
+    "meaning": "uzak bir adada"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "on a remote island",
+    "meaning": "uzak bir adada"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "remote",
+   "pos": "adjective",
+   "wordId": "remote",
+   "sense": 0,
+   "context": "uzak (ücra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "on a remote island",
+    "meaning": "uzak bir adada"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "island",
+   "pos": "noun",
+   "wordId": "island",
+   "sense": 0,
+   "context": "ada",
+   "note": "*island*'daki *s* okunmaz (\"aylınd\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "on a remote island",
+    "meaning": "uzak bir adada"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "climb",
+   "pos": "verb",
+   "wordId": "climb",
+   "sense": 0,
+   "context": "tırmanarak",
+   "note": "Virgülden sonra gelen *-ing*'li fiil aynı dönemde yapılan bir eylemi anlatır.",
+   "form": "climb + -ing",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "climbing the narrow stairs",
+    "meaning": "dar merdivenleri tırmanarak"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "climbing the narrow stairs",
+    "meaning": "dar merdivenleri tırmanarak"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "narrow",
+   "pos": "adjective",
+   "wordId": "narrow",
+   "sense": 0,
+   "context": "dar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "climbing the narrow stairs",
+    "meaning": "dar merdivenleri tırmanarak"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "stair",
+   "pos": "noun",
+   "wordId": "stair",
+   "sense": 0,
+   "context": "merdivenler",
+   "note": "*stairs* bir binanın içindeki \"merdiven\"dir; taşınabilir merdiven *ladder*'dır.",
+   "form": "stair'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 14,
+    "text": "climbing the narrow stairs",
+    "meaning": "dar merdivenleri tırmanarak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "each evening",
+    "meaning": "her akşam"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "evening",
+   "pos": "noun",
+   "wordId": "evening",
+   "sense": 0,
+   "context": "akşam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 16,
+    "text": "each evening",
+    "meaning": "her akşam"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "*to* + fiil amaç bildirir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "to light the lamp",
+    "meaning": "lambayı yakmak için"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "light",
+   "pos": "verb",
+   "wordId": "light",
+   "sense": 2,
+   "context": "yakmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "to light the lamp",
+    "meaning": "lambayı yakmak için"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "to light the lamp",
+    "meaning": "lambayı yakmak için"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "lamp",
+   "pos": "noun",
+   "wordId": "lamp",
+   "sense": 0,
+   "context": "lamba",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "to light the lamp",
+    "meaning": "lambayı yakmak için"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "guide",
+   "pos": "verb",
+   "wordId": "guide",
+   "sense": 1,
+   "context": "yol gösteren",
+   "note": null,
+   "form": "guide + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "guided ships past the rocks",
+    "meaning": "gemilere kayalıkların yanından geçerken yol gösterdi"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "ship",
+   "pos": "noun",
+   "wordId": "ship",
+   "sense": 0,
+   "context": "gemiler",
+   "note": null,
+   "form": "ship'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "guided ships past the rocks",
+    "meaning": "gemilere kayalıkların yanından geçerken yol gösterdi"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "past",
+   "pos": "preposition",
+   "wordId": "past",
+   "sense": 2,
+   "context": "yanından (geçerek)",
+   "note": "*guide ships past the rocks* \"gemileri kayalıkların yanından güvenle geçirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "guided ships past the rocks",
+    "meaning": "gemilere kayalıkların yanından geçerken yol gösterdi"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "guided ships past the rocks",
+    "meaning": "gemilere kayalıkların yanından geçerken yol gösterdi"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "rock",
+   "pos": "noun",
+   "wordId": "rock",
+   "sense": 0,
+   "context": "kayalıklar",
+   "note": null,
+   "form": "rock'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "guided ships past the rocks",
+    "meaning": "gemilere kayalıkların yanından geçerken yol gösterdi"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "fener (ışık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "was finally automated",
+    "meaning": "sonunda otomatik hale getirildi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "was finally automated",
+    "meaning": "sonunda otomatik hale getirildi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "automate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "otomatik hale getirildi",
+   "note": "*automate* bir işi insan yerine makineye yaptırmak demektir.",
+   "form": "automate fiilinin 3. hali (automated, -d)",
+   "base": "otomatikleştirmek",
+   "phrase": {
+    "from": 30,
+    "to": 32,
+    "text": "was finally automated",
+    "meaning": "sonunda otomatik hale getirildi"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (ona)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ildi)",
+   "note": "*he was offered a flat* \"ona bir daire teklif edildi\" demektir; İngilizcede teklifi alan kişi edilgen cümlenin öznesi olabilir.",
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "was offered",
+    "meaning": "teklif edildi (ona)"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "offer",
+   "pos": "verb",
+   "wordId": "offer",
+   "sense": 0,
+   "context": "teklif edildi",
+   "note": null,
+   "form": "offer fiilinin 3. hali (offered, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 35,
+    "text": "was offered",
+    "meaning": "teklif edildi (ona)"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "comfortable",
+   "pos": "adjective",
+   "wordId": "comfortable",
+   "sense": 0,
+   "context": "konforlu (rahat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "flat",
+   "pos": "noun",
+   "wordId": "flat",
+   "sense": 0,
+   "context": "daire",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (anakarada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "mainland",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "anakara",
+   "note": "*mainland* adalara göre \"anakara\" demektir.",
+   "form": null,
+   "base": "anakara",
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "a comfortable flat on the mainland",
+    "meaning": "anakarada konforlu bir daire"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "decline",
+   "pos": "verb",
+   "wordId": "decline",
+   "sense": 0,
+   "context": "geri çevirdi (reddetti)",
+   "note": "*decline* \"azalmak\" ve bir teklifi kibarca \"reddetmek, geri çevirmek\" demektir.",
+   "form": "decline + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "visitor",
+   "pos": "noun",
+   "wordId": "visitor",
+   "sense": 0,
+   "context": "ziyaretçiler",
+   "note": null,
+   "form": "visitor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "soran",
+   "note": null,
+   "form": "ask + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "lonely",
+   "pos": "adjective",
+   "wordId": "lonely",
+   "sense": 0,
+   "context": "yalnız",
+   "note": "*lonely* \"yalnız ve mutsuz\" demektir; sadece \"tek başına\" anlamı için *alone* kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 50,
+    "text": "who asked whether he felt lonely",
+    "meaning": "yalnız hissedip hissetmediğini soran"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "receive",
+   "pos": "verb",
+   "wordId": "receive",
+   "sense": 0,
+   "context": "aldı",
+   "note": null,
+   "form": "receive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "the same quiet reply",
+    "meaning": "aynı sakin cevap"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "the same quiet reply",
+    "meaning": "aynı sakin cevap"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "quiet",
+   "pos": "adjective",
+   "wordId": "quiet",
+   "sense": 0,
+   "context": "sakin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "the same quiet reply",
+    "meaning": "aynı sakin cevap"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "reply",
+   "pos": "noun",
+   "wordId": "reply",
+   "sense": 1,
+   "context": "cevap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 55,
+    "text": "the same quiet reply",
+    "meaning": "aynı sakin cevap"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "had never been alone",
+    "meaning": "hiçbir zaman yalnız olmamıştı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "had never been alone",
+    "meaning": "hiçbir zaman yalnız olmamıştı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmamıştı",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "had never been alone",
+    "meaning": "hiçbir zaman yalnız olmamıştı"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "alone",
+   "pos": "adjective",
+   "wordId": "alone",
+   "sense": 0,
+   "context": "yalnız (tek başına)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 60,
+    "text": "had never been alone",
+    "meaning": "hiçbir zaman yalnız olmamıştı"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "every passing ship",
+    "meaning": "yanından geçen her gemi"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "pass",
+   "pos": "verb",
+   "wordId": "pass",
+   "sense": 0,
+   "context": "(yanından) geçen",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *every passing ship* → geçen her gemi.",
+   "form": "pass + -ing",
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "every passing ship",
+    "meaning": "yanından geçen her gemi"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "ship",
+   "pos": "noun",
+   "wordId": "ship",
+   "sense": 0,
+   "context": "gemi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "every passing ship",
+    "meaning": "yanından geçen her gemi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştu)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmuştu",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "a kind of conversation",
+    "meaning": "bir tür sohbet"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "a kind of conversation",
+    "meaning": "bir tür sohbet"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(a kind of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "a kind of conversation",
+    "meaning": "bir tür sohbet"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 70,
+    "text": "a kind of conversation",
+    "meaning": "bir tür sohbet"
+   }
+  }
+ ]
+}

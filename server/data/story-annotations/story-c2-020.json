@@ -1,0 +1,1167 @@
+{
+ "storyId": "story-c2-020",
+ "textHash": "11454813ba1d",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ritüeller, ister dinî, ister ailevi, isterse tamamen kişisel olsun, akılcılıkla övünen toplumlarda bile varlığını sürdürür."
+  },
+  {
+   "tr": "Antropologlar, onların süregelen çekiciliğinin tam da görünüşteki anlamsızlıklarında yattığını ileri sürüyor."
+  },
+  {
+   "tr": "İnsanlar sabit bir eylem dizisini yerine getirerek, aksi halde kaotik ya da bunaltıcı gelecek koşullara bir düzen duygusu katarlar."
+  },
+  {
+   "tr": "Dolayısıyla her yarıştan önce aynı duvara dokunan sporcu illa batıl inançlı değildir; belki de yalnızca huzursuz bir zihni sakinleştiriyordur."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "ritual",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ritüeller",
+   "note": null,
+   "form": "ritual'ın çoğulu",
+   "base": "ritüel, tören",
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "ister",
+   "note": "*whether A, B or C* \"ister A, ister B, isterse C olsun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "religious",
+   "pos": "adjective",
+   "wordId": "religious",
+   "sense": 0,
+   "context": "dinî",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "familial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "ailevi",
+   "note": "*family* (aile) isminden türemiş resmî bir sıfattır.",
+   "form": null,
+   "base": "ailevi, aileyle ilgili",
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da (isterse)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "entirely",
+   "pos": "adverb",
+   "wordId": "entirely",
+   "sense": 0,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "private",
+   "pos": "adjective",
+   "wordId": "private",
+   "sense": 0,
+   "context": "kişisel (özel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "whether religious, familial or entirely private",
+    "meaning": "ister dinî, ister ailevi, isterse tamamen kişisel"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "persist",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "varlığını sürdürür",
+   "note": null,
+   "form": null,
+   "base": "sebat etmek, ısrarla sürdürmek; sürmek",
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "persist even in societies",
+    "meaning": "toplumlarda bile sürer"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "persist even in societies",
+    "meaning": "toplumlarda bile sürer"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (toplumlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "persist even in societies",
+    "meaning": "toplumlarda bile sürer"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "society",
+   "pos": "noun",
+   "wordId": "society",
+   "sense": 0,
+   "context": "toplumlar",
+   "note": null,
+   "form": "society'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "persist even in societies",
+    "meaning": "toplumlarda bile sürer"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "pride",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "övünmek",
+   "note": "*pride oneself on something* \"bir şeyle övünmek, gurur duymak\" demektir.",
+   "form": null,
+   "base": "(pride oneself on) -le övünmek",
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "pride themselves on rationality",
+    "meaning": "akılcılıkla övünmek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "wordId": "themselves",
+   "sense": 0,
+   "context": "kendileri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "pride themselves on rationality",
+    "meaning": "akılcılıkla övünmek"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-le (pride oneself on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "pride themselves on rationality",
+    "meaning": "akılcılıkla övünmek"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "rationality",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "akılcılık",
+   "note": "*rational* (akılcı) sıfatından *-ity* ekiyle isim yapılmıştır.",
+   "form": null,
+   "base": "akılcılık, rasyonellik",
+   "phrase": {
+    "from": 12,
+    "to": 15,
+    "text": "pride themselves on rationality",
+    "meaning": "akılcılıkla övünmek"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "anthropologist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "antropologlar",
+   "note": null,
+   "form": "anthropologist'in çoğulu",
+   "base": "antropolog, insanbilimci",
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "ileri sürüyor",
+   "note": "*suggest that…* \"… olduğunu ileri sürmek, öne sürmek\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "enduring",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "süregelen",
+   "note": "*endure* (dayanmak, sürmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "kalıcı, süregelen",
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "enduring appeal",
+    "meaning": "süregelen çekicilik"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "appeal",
+   "pos": "noun",
+   "wordId": "appeal",
+   "sense": 0,
+   "context": "çekicilik (cazibe)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 21,
+    "text": "enduring appeal",
+    "meaning": "süregelen çekicilik"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 0,
+   "context": "yatar",
+   "note": "*lie in something* \"(neden) bir şeyde yatmak\" demektir.",
+   "form": "lie + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "lies precisely in",
+    "meaning": "tam da … -de yatar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "precisely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tam da",
+   "note": "*precise* (kesin) sıfatından *-ly* ile zarf yapılmıştır; vurgu için \"tam da\" anlamı verir.",
+   "form": "precise + -ly (sıfattan zarf)",
+   "base": "tam olarak, tam da",
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "lies precisely in",
+    "meaning": "tam da … -de yatar"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "lies precisely in",
+    "meaning": "tam da … -de yatar"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "apparent",
+   "pos": "adjective",
+   "wordId": "apparent",
+   "sense": 0,
+   "context": "görünüşteki",
+   "note": "*apparent* \"açık, belli\" ve \"görünürdeki, gerçekte öyle olmayabilecek\" demektir; burada ikinci anlamdadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "apparent pointlessness",
+    "meaning": "görünüşteki anlamsızlık"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "pointlessness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "anlamsızlık",
+   "note": "*point* (amaç) + *-less* (-sız) + *-ness*: \"amaçsızlık, anlamsızlık\".",
+   "form": null,
+   "base": "anlamsızlık, amaçsızlık",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "apparent pointlessness",
+    "meaning": "görünüşteki anlamsızlık"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "perform",
+   "pos": "verb",
+   "wordId": "perform",
+   "sense": 0,
+   "context": "yerine getirmek",
+   "note": null,
+   "form": "perform + -ing",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "fixed",
+   "pos": "adjective",
+   "wordId": "fixed",
+   "sense": 0,
+   "context": "sabit",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "sequence",
+   "pos": "noun",
+   "wordId": "sequence",
+   "sense": 0,
+   "context": "dizi (sıra)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(eylem dizisi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "action",
+   "pos": "noun",
+   "wordId": "action",
+   "sense": 0,
+   "context": "eylemler",
+   "note": null,
+   "form": "action'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 28,
+    "to": 34,
+    "text": "By performing a fixed sequence of actions",
+    "meaning": "sabit bir eylem dizisini yerine getirerek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insanlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "impose",
+   "pos": "verb",
+   "wordId": "impose",
+   "sense": 0,
+   "context": "katarlar (dayatırlar)",
+   "note": "*impose order on something* \"bir şeye düzen getirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "duygu (his)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(düzen duygusu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "order",
+   "pos": "noun",
+   "wordId": "order",
+   "sense": 0,
+   "context": "düzen",
+   "note": "*order* \"sipariş; emir\" ve \"düzen, sıra\" demektir; burada \"düzen\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "circumstance",
+   "pos": "noun",
+   "wordId": "circumstance",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "circumstance'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 42,
+    "text": "impose a sense of order on circumstances",
+    "meaning": "koşullara bir düzen duygusu katmak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-ecek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-irdi)",
+   "note": "*would otherwise* \"aksi halde … -irdi\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "otherwise",
+   "pos": "adverb",
+   "wordId": "otherwise",
+   "sense": 0,
+   "context": "aksi halde",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "gelmek (hissettirmek)",
+   "note": "*feel* + sıfat bir durum için \"… gibi gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "chaotic",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "kaotik",
+   "note": "*chaos* (kaos) isminden türemiş bir sıfattır; *ch* \"k\" diye okunur.",
+   "form": null,
+   "base": "kaotik, karmakarışık",
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "overwhelming",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "bunaltıcı",
+   "note": null,
+   "form": null,
+   "base": "bunaltıcı, ezici",
+   "phrase": {
+    "from": 44,
+    "to": 49,
+    "text": "would otherwise feel chaotic or overwhelming",
+    "meaning": "aksi halde kaotik ya da bunaltıcı gelirdi"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "thus",
+   "pos": "adverb",
+   "wordId": "thus",
+   "sense": 0,
+   "context": "dolayısıyla (böylece)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "athlete",
+   "pos": "noun",
+   "wordId": "athlete",
+   "sense": 0,
+   "context": "sporcu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "touch",
+   "pos": "verb",
+   "wordId": "touch",
+   "sense": 0,
+   "context": "dokunan",
+   "note": null,
+   "form": "touch + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "wall",
+   "pos": "noun",
+   "wordId": "wall",
+   "sense": 0,
+   "context": "duvar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-den önce",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "before every race",
+    "meaning": "her yarıştan önce"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "before every race",
+    "meaning": "her yarıştan önce"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "race",
+   "pos": "noun",
+   "wordId": "race",
+   "sense": 0,
+   "context": "yarış",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 58,
+    "to": 60,
+    "text": "before every race",
+    "meaning": "her yarıştan önce"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(değildir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "not necessarily superstitious",
+    "meaning": "illa batıl inançlı değil"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "necessarily",
+   "pos": "adverb",
+   "wordId": "necessarily",
+   "sense": 0,
+   "context": "illa (zorunlu olarak)",
+   "note": "*not necessarily* \"illa ki … değil, her zaman … değil\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "not necessarily superstitious",
+    "meaning": "illa batıl inançlı değil"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "superstitious",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "batıl inançlı",
+   "note": "*superstition* (batıl inanç) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "batıl inançlı",
+   "phrase": {
+    "from": 62,
+    "to": 64,
+    "text": "not necessarily superstitious",
+    "meaning": "illa batıl inançlı değil"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (belki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "simply",
+   "pos": "adverb",
+   "wordId": "simply",
+   "sense": 0,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": "*may be* + *-ing* şu anda olması muhtemel bir eylemi anlatır: \"… -iyor olabilir\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "calm",
+   "pos": "verb",
+   "wordId": "calm",
+   "sense": 1,
+   "context": "sakinleştiriyor",
+   "note": null,
+   "form": "calm + -ing",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "restless",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "huzursuz",
+   "note": "*rest* (dinlenme) + *-less* (-sız): \"huzursuz, yerinde duramayan\".",
+   "form": null,
+   "base": "huzursuz, kıpır kıpır",
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 72,
+    "text": "may simply be calming a restless mind",
+    "meaning": "belki de yalnızca huzursuz bir zihni sakinleştiriyordur"
+   }
+  }
+ ]
+}

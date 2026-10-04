@@ -1,0 +1,1267 @@
+{
+ "storyId": "story-c2-047",
+ "textHash": "676491a4640a",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Kuzeye doğru uzun bir yolculukta Clara, kendini şiir kitabı okuyan yaşlı bir yabancıyla aynı masayı paylaşırken buldu."
+  },
+  {
+   "tr": "Konuşmaya başladılar; ilk başta çekinerek, sonra şaşırtıcı bir içtenlikle."
+  },
+  {
+   "tr": "Tren varana kadar Clara, kimseye anlatmadığı kuşkularını ona açmış, adam da onu bıraktığı mesleğin peşinden gitmeye teşvik etmişti."
+  },
+  {
+   "tr": "Birbirlerine adlarını hiç söylemediler."
+  },
+  {
+   "tr": "Yıllar sonra Clara hâlâ, o sohbetin hayatını ne kadar değiştirdiğini adamın bilip bilmediğini merak ediyor."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "-de (yolculukta)",
+   "note": "*on a journey* \"bir yolculukta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "On a long journey north",
+    "meaning": "kuzeye doğru uzun bir yolculukta"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "On a long journey north",
+    "meaning": "kuzeye doğru uzun bir yolculukta"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "On a long journey north",
+    "meaning": "kuzeye doğru uzun bir yolculukta"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "journey",
+   "pos": "noun",
+   "wordId": "journey",
+   "sense": 0,
+   "context": "yolculuk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "On a long journey north",
+    "meaning": "kuzeye doğru uzun bir yolculukta"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "north",
+   "pos": "adverb",
+   "wordId": "north",
+   "sense": 2,
+   "context": "kuzeye (doğru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 4,
+    "text": "On a long journey north",
+    "meaning": "kuzeye doğru uzun bir yolculukta"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "Clara",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Clara",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "buldu",
+   "note": "*find oneself* + *-ing* \"kendini … -erken bulmak\" demektir.",
+   "form": "find fiilinin geçmiş zaman hali (found, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "found herself sharing a table",
+    "meaning": "kendini bir masayı paylaşırken buldu"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "herself",
+   "pos": "pronoun",
+   "wordId": "herself",
+   "sense": 0,
+   "context": "kendini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "found herself sharing a table",
+    "meaning": "kendini bir masayı paylaşırken buldu"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "share",
+   "pos": "verb",
+   "wordId": "share",
+   "sense": 0,
+   "context": "paylaşırken",
+   "note": null,
+   "form": "share + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "found herself sharing a table",
+    "meaning": "kendini bir masayı paylaşırken buldu"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "found herself sharing a table",
+    "meaning": "kendini bir masayı paylaşırken buldu"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "table",
+   "pos": "noun",
+   "wordId": "table",
+   "sense": 0,
+   "context": "masa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 10,
+    "text": "found herself sharing a table",
+    "meaning": "kendini bir masayı paylaşırken buldu"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 12,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an elderly stranger*.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "elderly",
+   "pos": "adjective",
+   "wordId": "elderly",
+   "sense": 0,
+   "context": "yaşlı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "stranger",
+   "pos": "noun",
+   "wordId": "stranger",
+   "sense": 0,
+   "context": "yabancı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-yordu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "read",
+   "pos": "verb",
+   "wordId": "read",
+   "sense": 0,
+   "context": "okuyan",
+   "note": null,
+   "form": "read + -ing",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "a book of poetry",
+    "meaning": "bir şiir kitabı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "a book of poetry",
+    "meaning": "bir şiir kitabı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(şiir kitabı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "a book of poetry",
+    "meaning": "bir şiir kitabı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "poetry",
+   "pos": "noun",
+   "wordId": "poetry",
+   "sense": 0,
+   "context": "şiir",
+   "note": "*poetry* sayılamayan bir isimdir ve genel olarak \"şiir\"i anlatır; tek bir şiir *a poem*'dir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 18,
+    "to": 21,
+    "text": "a book of poetry",
+    "meaning": "bir şiir kitabı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başladılar",
+   "note": null,
+   "form": "begin fiilinin geçmiş zaman hali (began, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "began talking",
+    "meaning": "konuşmaya başladılar"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "talk",
+   "pos": "verb",
+   "wordId": "talk",
+   "sense": 0,
+   "context": "konuşmak",
+   "note": null,
+   "form": "talk + -ing",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 24,
+    "text": "began talking",
+    "meaning": "konuşmaya başladılar"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "hesitantly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çekinerek",
+   "note": "*hesitant* (tereddütlü) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "hesitant + -ly (sıfattan zarf)",
+   "base": "tereddütle, çekinerek",
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "hesitantly at first",
+    "meaning": "ilk başta çekinerek"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "(at first: ilk başta)",
+   "note": "*at first* \"ilk başta\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "hesitantly at first",
+    "meaning": "ilk başta çekinerek"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "first",
+   "pos": "adverb",
+   "wordId": "first",
+   "sense": 2,
+   "context": "ilk başta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 27,
+    "text": "hesitantly at first",
+    "meaning": "ilk başta çekinerek"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "then",
+   "pos": "adverb",
+   "wordId": "then",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-le",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "with surprising openness",
+    "meaning": "şaşırtıcı bir içtenlikle"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "surprising",
+   "pos": "adjective",
+   "wordId": "surprising",
+   "sense": 0,
+   "context": "şaşırtıcı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "with surprising openness",
+    "meaning": "şaşırtıcı bir içtenlikle"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "openness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "içtenlik (açıklık)",
+   "note": "*open* (açık) + *-ness*: \"açık yüreklilik, içtenlik\".",
+   "form": null,
+   "base": "açıklık, içtenlik",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "with surprising openness",
+    "meaning": "şaşırtıcı bir içtenlikle"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by the time: -e kadar)",
+   "note": "*by the time* + cümle \"… -diği zamana kadar\" demektir; ana cümle genellikle past perfect olur.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "time",
+   "pos": "noun",
+   "wordId": "time",
+   "sense": 0,
+   "context": "zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "train",
+   "pos": "noun",
+   "wordId": "train",
+   "sense": 0,
+   "context": "tren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "arrive",
+   "pos": "verb",
+   "wordId": "arrive",
+   "sense": 0,
+   "context": "vardı",
+   "note": null,
+   "form": "arrive + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "By the time the train arrived",
+    "meaning": "tren varana kadar"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Clara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "had confided doubts",
+    "meaning": "kuşkularını açmıştı"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "confide",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "açmıştı",
+   "note": "*confide something to someone* \"birine sır vermek, içini açmak\" demektir.",
+   "form": "confide fiilinin 3. hali (confided, -d)",
+   "base": "sır vermek, içini açmak",
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "had confided doubts",
+    "meaning": "kuşkularını açmıştı"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "doubt",
+   "pos": "noun",
+   "wordId": "doubt",
+   "sense": 0,
+   "context": "kuşkular",
+   "note": "İsimden sonra *that* düşebilir: *doubts (that) she had never expressed*.",
+   "form": "doubt'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "had confided doubts",
+    "meaning": "kuşkularını açmıştı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-madığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "express",
+   "pos": "verb",
+   "wordId": "express",
+   "sense": 0,
+   "context": "anlatmadığı (dile getirmediği)",
+   "note": null,
+   "form": "express fiilinin 3. hali (expressed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "anyone",
+   "pos": "pronoun",
+   "wordId": "anyone",
+   "sense": 0,
+   "context": "kimse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 47,
+    "text": "she had never expressed to anyone",
+    "meaning": "kimseye anlatmadığı"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (adam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mişti)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "had urged her to pursue",
+    "meaning": "peşinden gitmeye teşvik etmişti"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "urge",
+   "pos": "verb",
+   "wordId": "urge",
+   "sense": 0,
+   "context": "teşvik etmişti",
+   "note": "*urge someone to do something* \"birini bir şeyi yapmaya ısrarla teşvik etmek\" demektir.",
+   "form": "urge fiilinin 3. hali (urged, -d)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "had urged her to pursue",
+    "meaning": "peşinden gitmeye teşvik etmişti"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "her",
+   "pos": "pronoun",
+   "wordId": "her",
+   "sense": 0,
+   "context": "onu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "had urged her to pursue",
+    "meaning": "peşinden gitmeye teşvik etmişti"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "had urged her to pursue",
+    "meaning": "peşinden gitmeye teşvik etmişti"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "pursue",
+   "pos": "verb",
+   "wordId": "pursue",
+   "sense": 0,
+   "context": "peşinden gitmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "had urged her to pursue",
+    "meaning": "peşinden gitmeye teşvik etmişti"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "the career she had abandoned",
+    "meaning": "bıraktığı meslek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "career",
+   "pos": "noun",
+   "wordId": "career",
+   "sense": 0,
+   "context": "meslek (kariyer)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "the career she had abandoned",
+    "meaning": "bıraktığı meslek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "the career she had abandoned",
+    "meaning": "bıraktığı meslek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "the career she had abandoned",
+    "meaning": "bıraktığı meslek"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "abandon",
+   "pos": "verb",
+   "wordId": "abandon",
+   "sense": 0,
+   "context": "bıraktığı",
+   "note": null,
+   "form": "abandon fiilinin 3. hali (abandoned, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "the career she had abandoned",
+    "meaning": "bıraktığı meslek"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "never exchanged names",
+    "meaning": "adlarını hiç paylaşmadılar"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "exchange",
+   "pos": "verb",
+   "wordId": "exchange",
+   "sense": 1,
+   "context": "(paylaşmadılar)",
+   "note": "*exchange names* \"birbirine adını söylemek, isim alışverişi yapmak\" demektir.",
+   "form": "exchange + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "never exchanged names",
+    "meaning": "adlarını hiç paylaşmadılar"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "name",
+   "pos": "noun",
+   "wordId": "name",
+   "sense": 0,
+   "context": "adlar",
+   "note": null,
+   "form": "name'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 63,
+    "text": "never exchanged names",
+    "meaning": "adlarını hiç paylaşmadılar"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıllar",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "Years later",
+    "meaning": "yıllar sonra"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "later",
+   "pos": "adverb",
+   "wordId": "later",
+   "sense": 0,
+   "context": "sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "Years later",
+    "meaning": "yıllar sonra"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Clara)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "wonder",
+   "pos": "verb",
+   "wordId": "wonder",
+   "sense": 0,
+   "context": "merak ediyor",
+   "note": "*wonder whether…* \"… -ip -mediğini merak etmek\" demektir.",
+   "form": "wonder + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 70,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (adam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 71,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilmek",
+   "note": null,
+   "form": "know + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 72,
+   "lemma": "how",
+   "pos": "adverb",
+   "wordId": "how",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*how much* \"ne kadar\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "(ne) kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "that",
+   "pos": "determiner",
+   "wordId": "that",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değiştirdiğini",
+   "note": null,
+   "form": "change + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 77,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  },
+  {
+   "i": 78,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 72,
+    "to": 78,
+    "text": "how much that conversation changed her life",
+    "meaning": "o sohbetin hayatını ne kadar değiştirdiği"
+   }
+  }
+ ]
+}

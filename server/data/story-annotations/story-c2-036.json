@@ -1,0 +1,1026 @@
+{
+ "storyId": "story-c2-036",
+ "textHash": "6ff762b23655",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yalnız kalmak ile yalnızlık çekmek sık sık birbirine karıştırılır, oysa bu ikisi birbirinden derinden farklı deneyimleri anlatır."
+  },
+  {
+   "tr": "Yalnızlık, istediğimiz bağ ile sahip olduğumuz bağ arasındaki boşluğun acı veren farkındalığıdır."
+  },
+  {
+   "tr": "Yalnız kalmak ise tam tersine seçilmiş bir şeydir; düşünmeye, yaratıcılığa ve dinlenmeye olanak tanıyan bilinçli bir geri çekiliştir."
+  },
+  {
+   "tr": "Biri kalabalık bir odada çaresizce yalnız hissedebilirken, bir başkası sessiz bir ormanda tek başına yürürken derin bir huzur bulabilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "solitude",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnız kalmak (yalnızlık)",
+   "note": "*solitude* insanın isteyerek seçtiği, huzurlu \"yalnız kalma\" halidir.",
+   "form": null,
+   "base": "(isteyerek) yalnız kalma, inziva",
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile (ve)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "loneliness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık (çekmek)",
+   "note": "*loneliness* istenmeyen, acı veren \"yalnızlık duygusu\"dur.",
+   "form": null,
+   "base": "yalnızlık",
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "frequently",
+   "pos": "adverb",
+   "wordId": "frequently",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "confuse",
+   "pos": "verb",
+   "wordId": "confuse",
+   "sense": 0,
+   "context": "karıştırılır",
+   "note": "*confuse A with B* \"A'yı B ile karıştırmak\" demektir.",
+   "form": "confuse fiilinin 3. hali (confused, -d)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Solitude and loneliness are frequently confused",
+    "meaning": "yalnız kalmak ile yalnızlık sık sık karıştırılır"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "they",
+   "pos": "pronoun",
+   "wordId": "they",
+   "sense": 0,
+   "context": "onlar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "describe",
+   "pos": "verb",
+   "wordId": "describe",
+   "sense": 0,
+   "context": "anlatır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "profoundly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "derinden",
+   "note": null,
+   "form": "profound + -ly (sıfattan zarf)",
+   "base": "derinden, son derece",
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "profoundly different experiences",
+    "meaning": "derinden farklı deneyimler"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "different",
+   "pos": "adjective",
+   "wordId": "different",
+   "sense": 0,
+   "context": "farklı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "profoundly different experiences",
+    "meaning": "derinden farklı deneyimler"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": null,
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "profoundly different experiences",
+    "meaning": "derinden farklı deneyimler"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "loneliness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnızlık",
+   "note": null,
+   "form": null,
+   "base": "yalnızlık",
+   "phrase": null
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "painful",
+   "pos": "adjective",
+   "wordId": "painful",
+   "sense": 0,
+   "context": "acı veren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the painful awareness of a gap",
+    "meaning": "bir boşluğun acı veren farkındalığı"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "awareness",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "farkındalık",
+   "note": "*aware* (farkında) sıfatından *-ness* ekiyle türemiştir.",
+   "form": null,
+   "base": "farkındalık",
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the painful awareness of a gap",
+    "meaning": "bir boşluğun acı veren farkındalığı"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (boşluğun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the painful awareness of a gap",
+    "meaning": "bir boşluğun acı veren farkındalığı"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the painful awareness of a gap",
+    "meaning": "bir boşluğun acı veren farkındalığı"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "gap",
+   "pos": "noun",
+   "wordId": "gap",
+   "sense": 0,
+   "context": "boşluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 19,
+    "text": "the painful awareness of a gap",
+    "meaning": "bir boşluğun acı veren farkındalığı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "between",
+   "pos": "preposition",
+   "wordId": "between",
+   "sense": 0,
+   "context": "arasında",
+   "note": "*between A and B* \"A ile B arasında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ",
+   "note": "İsimden sonra *that* düşebilir: *the connection (that) we desire* → istediğimiz bağ.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "desire",
+   "pos": "verb",
+   "wordId": "desire",
+   "sense": 1,
+   "context": "istediğimiz (arzuladığımız)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "connection",
+   "pos": "noun",
+   "wordId": "connection",
+   "sense": 0,
+   "context": "bağ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "sahip olduğumuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 29,
+    "text": "between the connection we desire and the connection we have",
+    "meaning": "istediğimiz bağ ile sahip olduğumuz bağ arasında"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "solitude",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalnız kalmak",
+   "note": null,
+   "form": null,
+   "base": "(isteyerek) yalnız kalma, inziva",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by contrast: buna karşılık)",
+   "note": "*by contrast* \"buna karşılık, tam tersine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "by contrast",
+    "meaning": "tam tersine, buna karşılık"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "contrast",
+   "pos": "noun",
+   "wordId": "contrast",
+   "sense": 0,
+   "context": "karşıtlık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 32,
+    "text": "by contrast",
+    "meaning": "tam tersine, buna karşılık"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "choose",
+   "pos": "verb",
+   "wordId": "choose",
+   "sense": 0,
+   "context": "seçilmiş",
+   "note": null,
+   "form": "choose fiilinin 3. hali (chosen, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Virgülden sonra gelen *a deliberate withdrawal…* önceki ifadeyi açıklar.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "a deliberate withdrawal",
+    "meaning": "bilinçli bir geri çekiliş"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "deliberate",
+   "pos": "adjective",
+   "wordId": "deliberate",
+   "sense": 0,
+   "context": "bilinçli (kasıtlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "a deliberate withdrawal",
+    "meaning": "bilinçli bir geri çekiliş"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "withdrawal",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "geri çekiliş",
+   "note": "*withdraw* (geri çekilmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "geri çekilme; (para) çekme",
+   "phrase": {
+    "from": 35,
+    "to": 37,
+    "text": "a deliberate withdrawal",
+    "meaning": "bilinçli bir geri çekiliş"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "olanak tanıyan",
+   "note": null,
+   "form": "allow + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "reflection",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "düşünme (tefekkür)",
+   "note": "*reflection* \"yansıma\" ve \"derin düşünme\" demektir; burada ikinci anlamdadır.",
+   "form": null,
+   "base": "yansıma; derin düşünme",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "creativity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yaratıcılık",
+   "note": null,
+   "form": null,
+   "base": "yaratıcılık",
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "rest",
+   "pos": "noun",
+   "wordId": "rest",
+   "sense": 1,
+   "context": "dinlenme",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi (biri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "may feel desperately lonely",
+    "meaning": "çaresizce yalnız hissedebilir"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "may feel desperately lonely",
+    "meaning": "çaresizce yalnız hissedebilir"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "desperately",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "çaresizce",
+   "note": "*desperate* (çaresiz) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "desperate + -ly (sıfattan zarf)",
+   "base": "çaresizce, umutsuzca",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "may feel desperately lonely",
+    "meaning": "çaresizce yalnız hissedebilir"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "lonely",
+   "pos": "adjective",
+   "wordId": "lonely",
+   "sense": 0,
+   "context": "yalnız",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "may feel desperately lonely",
+    "meaning": "çaresizce yalnız hissedebilir"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (odada)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "a crowded room",
+    "meaning": "kalabalık bir oda"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "crowded",
+   "pos": "adjective",
+   "wordId": "crowded",
+   "sense": 0,
+   "context": "kalabalık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "a crowded room",
+    "meaning": "kalabalık bir oda"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "oda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 53,
+    "text": "a crowded room",
+    "meaning": "kalabalık bir oda"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken (öte yandan)",
+   "note": "*while* burada iki durumu karşılaştırır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "another",
+   "pos": "pronoun",
+   "wordId": "another",
+   "sense": 1,
+   "context": "bir başkası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "find",
+   "pos": "verb",
+   "wordId": "find",
+   "sense": 0,
+   "context": "bulur",
+   "note": null,
+   "form": "find + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "finds deep contentment",
+    "meaning": "derin bir huzur bulur"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "deep",
+   "pos": "adjective",
+   "wordId": "deep",
+   "sense": 0,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "finds deep contentment",
+    "meaning": "derin bir huzur bulur"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "contentment",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "huzur (memnuniyet)",
+   "note": "*content* (halinden memnun) sıfatından *-ment* ekiyle türemiştir.",
+   "form": null,
+   "base": "huzur, halinden memnun olma",
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "finds deep contentment",
+    "meaning": "derin bir huzur bulur"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "walk",
+   "pos": "verb",
+   "wordId": "walk",
+   "sense": 0,
+   "context": "yürürken",
+   "note": null,
+   "form": "walk + -ing",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "alone",
+   "pos": "adverb",
+   "wordId": "alone",
+   "sense": 1,
+   "context": "tek başına",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "through",
+   "pos": "preposition",
+   "wordId": "through",
+   "sense": 0,
+   "context": "içinde (içinden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "silent",
+   "pos": "adjective",
+   "wordId": "silent",
+   "sense": 0,
+   "context": "sessiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "forest",
+   "pos": "noun",
+   "wordId": "forest",
+   "sense": 0,
+   "context": "orman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "walking alone through a silent forest",
+    "meaning": "sessiz bir ormanda tek başına yürürken"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "storyId": "story-c2-050",
+ "textHash": "a9014f481729",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Romancı öldüğünde, son bölümün ortasında aniden kesilen bir el yazması bıraktı."
+  },
+  {
+   "tr": "Daha önce hiç kurgu yazmamış olan kızı, kitabı tamamlamaya girişmeden önce iki yıl boyunca annesinin notlarını inceledi."
+  },
+  {
+   "tr": "Eleştirmenler ikiye bölündü."
+  },
+  {
+   "tr": "Bazıları geçişin pürüzsüzlüğünü övdü, diğerleri ise yarım kalmış bir eserin yarım kalması gerektiğinde ısrar etti."
+  },
+  {
+   "tr": "Kızı ise hikâyeyi bitirmekten çok annesiyle uzun bir sohbeti sürdürdüğünü itiraf etti."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "novelist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "romancı",
+   "note": "*novel* (roman) + *-ist*: \"romancı\".",
+   "form": null,
+   "base": "romancı",
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "öldü",
+   "note": null,
+   "form": "die + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (romancı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "left behind",
+    "meaning": "geride bıraktı"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bıraktı",
+   "note": "*leave something behind* \"bir şeyi geride bırakmak\" demektir.",
+   "form": "leave fiilinin geçmiş zaman hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "left behind",
+    "meaning": "geride bıraktı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "behind",
+   "pos": "adverb",
+   "wordId": "behind",
+   "sense": 1,
+   "context": "geride",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "left behind",
+    "meaning": "geride bıraktı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "manuscript",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "el yazması",
+   "note": "*manu-* \"el\" ve *script* \"yazı\" anlamına gelir; basılmamış metin demektir.",
+   "form": null,
+   "base": "el yazması, müsvedde",
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "stopped abruptly",
+    "meaning": "aniden kesildi"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "stop",
+   "pos": "verb",
+   "wordId": "stop",
+   "sense": 0,
+   "context": "kesilen (duran)",
+   "note": null,
+   "form": "stop + -ed (geçmiş zaman, son harf p ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "stopped abruptly",
+    "meaning": "aniden kesildi"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "abruptly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "aniden",
+   "note": "*abrupt* (ani, beklenmedik) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "abrupt + -ly (sıfattan zarf)",
+   "base": "aniden, birdenbire",
+   "phrase": {
+    "from": 9,
+    "to": 11,
+    "text": "stopped abruptly",
+    "meaning": "aniden kesildi"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (ortasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "middle",
+   "pos": "noun",
+   "wordId": "middle",
+   "sense": 0,
+   "context": "orta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (bölümün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "final",
+   "pos": "adjective",
+   "wordId": "final",
+   "sense": 0,
+   "context": "son",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "chapter",
+   "pos": "noun",
+   "wordId": "chapter",
+   "sense": 0,
+   "context": "bölüm",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 18,
+    "text": "in the middle of the final chapter",
+    "meaning": "son bölümün ortasında"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "daughter",
+   "pos": "noun",
+   "wordId": "daughter",
+   "sense": 0,
+   "context": "kızı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "(-an)",
+   "note": "Virgüller arasındaki *who* cümlesi kişi hakkında ek bilgi verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "who had never written fiction",
+    "meaning": "hiç kurgu yazmamış olan"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamış)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "who had never written fiction",
+    "meaning": "hiç kurgu yazmamış olan"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "who had never written fiction",
+    "meaning": "hiç kurgu yazmamış olan"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "write",
+   "pos": "verb",
+   "wordId": "write",
+   "sense": 0,
+   "context": "yazmamış",
+   "note": null,
+   "form": "write fiilinin 3. hali (written, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "who had never written fiction",
+    "meaning": "hiç kurgu yazmamış olan"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "fiction",
+   "pos": "noun",
+   "wordId": "fiction",
+   "sense": 0,
+   "context": "kurgu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 25,
+    "text": "who had never written fiction",
+    "meaning": "hiç kurgu yazmamış olan"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "spend",
+   "pos": "verb",
+   "wordId": "spend",
+   "sense": 0,
+   "context": "geçirdi",
+   "note": "*spend time* + *-ing* \"zamanı … -erek geçirmek\" demektir.",
+   "form": "spend fiilinin geçmiş zaman hali (spent, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "two",
+   "pos": "number",
+   "wordId": "two",
+   "sense": 0,
+   "context": "iki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "study",
+   "pos": "verb",
+   "wordId": "study",
+   "sense": 1,
+   "context": "incelemek",
+   "note": "*study* \"ders çalışmak\" ve bir şeyi \"dikkatle incelemek\" demektir.",
+   "form": "study + -ing",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun (annesinin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "note",
+   "pos": "noun",
+   "wordId": "note",
+   "sense": 0,
+   "context": "notlar",
+   "note": null,
+   "form": "note'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 31,
+    "text": "spent two years studying her notes",
+    "meaning": "iki yıl boyunca notlarını inceledi"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "before",
+   "pos": "preposition",
+   "wordId": "before",
+   "sense": 0,
+   "context": "-meden önce",
+   "note": "*before* + *-ing* \"… -meden önce\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "attempt",
+   "pos": "verb",
+   "wordId": "attempt",
+   "sense": 1,
+   "context": "girişmek (denemek)",
+   "note": null,
+   "form": "attempt + -ing",
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "complete",
+   "pos": "verb",
+   "wordId": "complete",
+   "sense": 1,
+   "context": "tamamlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "book",
+   "pos": "noun",
+   "wordId": "book",
+   "sense": 0,
+   "context": "kitap",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 37,
+    "text": "before attempting to complete the book",
+    "meaning": "kitabı tamamlamaya girişmeden önce"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "critic",
+   "pos": "noun",
+   "wordId": "critic",
+   "sense": 0,
+   "context": "eleştirmenler",
+   "note": null,
+   "form": "critic'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "Critics were divided",
+    "meaning": "eleştirmenler ikiye bölündü"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ndü)",
+   "note": null,
+   "form": "be fiilinin çoğul, geçmiş zaman hali (were)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "Critics were divided",
+    "meaning": "eleştirmenler ikiye bölündü"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "divide",
+   "pos": "verb",
+   "wordId": "divide",
+   "sense": 0,
+   "context": "bölündü",
+   "note": "*be divided* kişiler için \"görüş ayrılığına düşmek, ikiye bölünmek\" demektir.",
+   "form": "divide fiilinin 3. hali (divided, -d)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 40,
+    "text": "Critics were divided",
+    "meaning": "eleştirmenler ikiye bölündü"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "praise",
+   "pos": "verb",
+   "wordId": "praise",
+   "sense": 1,
+   "context": "övdü",
+   "note": null,
+   "form": "praise + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "the smooth transition",
+    "meaning": "pürüzsüz geçiş"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "smooth",
+   "pos": "adjective",
+   "wordId": "smooth",
+   "sense": 0,
+   "context": "pürüzsüz (sorunsuz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "the smooth transition",
+    "meaning": "pürüzsüz geçiş"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "transition",
+   "pos": "noun",
+   "wordId": "transition",
+   "sense": 0,
+   "context": "geçiş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 45,
+    "text": "the smooth transition",
+    "meaning": "pürüzsüz geçiş"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken (ise)",
+   "note": "*while* burada iki görüşü karşılaştırır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "diğerleri",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "insist",
+   "pos": "verb",
+   "wordId": "insist",
+   "sense": 0,
+   "context": "ısrar etti",
+   "note": null,
+   "form": "insist + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-diğinde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an unfinished work*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "unfinished",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yarım kalmış",
+   "note": null,
+   "form": null,
+   "base": "bitmemiş, yarım",
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "eser",
+   "note": "*work* sanatta \"eser, yapıt\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kalmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "unfinished",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yarım",
+   "note": null,
+   "form": null,
+   "base": "bitmemiş, yarım",
+   "phrase": {
+    "from": 50,
+    "to": 55,
+    "text": "an unfinished work should remain unfinished",
+    "meaning": "yarım kalmış bir eser yarım kalmalı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "daughter",
+   "pos": "noun",
+   "wordId": "daughter",
+   "sense": 0,
+   "context": "kızı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "The daughter herself",
+    "meaning": "kızının kendisi"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "herself",
+   "pos": "pronoun",
+   "wordId": "herself",
+   "sense": 0,
+   "context": "kendisi",
+   "note": "İsimden sonra gelen *herself* vurgu katar: *the daughter herself* → kızının kendisi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "The daughter herself",
+    "meaning": "kızının kendisi"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "admit",
+   "pos": "verb",
+   "wordId": "admit",
+   "sense": 0,
+   "context": "itiraf etti",
+   "note": null,
+   "form": "admit + -ed (geçmiş zaman, son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-düğünü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-müştü)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "(değil)",
+   "note": "*not so much A as B* \"A'dan çok B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "(o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "much",
+   "pos": "adverb",
+   "wordId": "much",
+   "sense": 2,
+   "context": "(çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "end",
+   "pos": "verb",
+   "wordId": "end",
+   "sense": 1,
+   "context": "bitirmek",
+   "note": null,
+   "form": "end fiilinin 3. hali (ended, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikâye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "as",
+   "pos": "conjunction",
+   "wordId": "as",
+   "sense": 2,
+   "context": "(… -den çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 69,
+    "text": "not so much … as",
+    "meaning": "… -den çok"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "continue",
+   "pos": "verb",
+   "wordId": "continue",
+   "sense": 0,
+   "context": "sürdürmek",
+   "note": null,
+   "form": "continue fiilinin 3. hali (continued, -d)",
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "long",
+   "pos": "adjective",
+   "wordId": "long",
+   "sense": 0,
+   "context": "uzun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "conversation",
+   "pos": "noun",
+   "wordId": "conversation",
+   "sense": 0,
+   "context": "sohbet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "mother",
+   "pos": "noun",
+   "wordId": "mother",
+   "sense": 0,
+   "context": "anne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 70,
+    "to": 76,
+    "text": "continued a long conversation with her mother",
+    "meaning": "annesiyle uzun bir sohbeti sürdürdü"
+   }
+  }
+ ]
+}

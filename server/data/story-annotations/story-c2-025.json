@@ -1,0 +1,1196 @@
+{
+ "storyId": "story-c2-025",
+ "textHash": "28d6e622d0a2",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Gazetecilere sık sık nesnel olmaları, olayları kendi görüşlerinin araya girmesine izin vermeden aktarmaları öğütlenir."
+  },
+  {
+   "tr": "Oysa her haber; hangi gerçeklerin yer alacağı, kimin sözlerinin alıntılanacağı ve giriş paragrafına neyin konacağı konusunda seçimler içerir."
+  },
+  {
+   "tr": "Bu kararlar, ne kadar özenle verilirse verilsin, kaçınılmaz olarak belirli varsayımları yansıtır."
+  },
+  {
+   "tr": "Bu nedenle bazı editörler, şeffaflığın tarafsızlıktan daha dürüst bir ideal olduğunu savunuyor: muhabirler hiçbir bakış açıları yokmuş gibi davranmak yerine yöntemlerini ve sınırlılıklarını açıkça ortaya koymalı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "journalist",
+   "pos": "noun",
+   "wordId": "journalist",
+   "sense": 0,
+   "context": "gazeteciler",
+   "note": null,
+   "form": "journalist'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ilir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "sık sık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "urge",
+   "pos": "verb",
+   "wordId": "urge",
+   "sense": 0,
+   "context": "öğütlenir (teşvik edilir)",
+   "note": "*be urged to do something* \"bir şeyi yapmaya ısrarla teşvik edilmek\" demektir.",
+   "form": "urge fiilinin 3. hali (urged, -d)",
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "objective",
+   "pos": "adjective",
+   "wordId": "objective",
+   "sense": 1,
+   "context": "nesnel",
+   "note": "*objective* sıfat olarak \"nesnel, tarafsız\", isim olarak \"hedef\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 1,
+    "to": 6,
+    "text": "are often urged to be objective",
+    "meaning": "sık sık nesnel olmaları öğütlenir"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": "Virgülden sonra gelen *to report…* önceki ifadeyi açıklar: \"yani … aktarmak\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "report",
+   "pos": "verb",
+   "wordId": "report",
+   "sense": 1,
+   "context": "aktarmak (haber vermek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "olaylar",
+   "note": null,
+   "form": "event'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "allow",
+   "pos": "verb",
+   "wordId": "allow",
+   "sense": 0,
+   "context": "izin vermek",
+   "note": null,
+   "form": "allow + -ing",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "view",
+   "pos": "noun",
+   "wordId": "view",
+   "sense": 0,
+   "context": "görüşler",
+   "note": null,
+   "form": "view'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mesine",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "intrude",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "araya girmek",
+   "note": "*intrude* istenmeyen bir şekilde \"araya girmek, karışmak\" demektir.",
+   "form": null,
+   "base": "araya girmek, izinsiz girmek",
+   "phrase": {
+    "from": 10,
+    "to": 16,
+    "text": "without allowing their own views to intrude",
+    "meaning": "kendi görüşlerinin araya girmesine izin vermeden"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "oysa",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "report",
+   "pos": "noun",
+   "wordId": "report",
+   "sense": 0,
+   "context": "haber",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "involve",
+   "pos": "verb",
+   "wordId": "involve",
+   "sense": 0,
+   "context": "içerir",
+   "note": null,
+   "form": "involve + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "choice",
+   "pos": "noun",
+   "wordId": "choice",
+   "sense": 0,
+   "context": "seçimler",
+   "note": null,
+   "form": "choice'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "choices about",
+    "meaning": "… konusunda seçimler"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "konusunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "choices about",
+    "meaning": "… konusunda seçimler"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "which",
+   "pos": "determiner",
+   "wordId": "which",
+   "sense": 1,
+   "context": "hangi",
+   "note": "Soru kelimesi + *to* + fiil \"… -eceği\" anlamı verir: *which facts to include* → hangi gerçeklerin yer alacağı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "which facts to include",
+    "meaning": "hangi gerçeklerin yer alacağı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "fact",
+   "pos": "noun",
+   "wordId": "fact",
+   "sense": 0,
+   "context": "gerçekler",
+   "note": null,
+   "form": "fact'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "which facts to include",
+    "meaning": "hangi gerçeklerin yer alacağı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-acağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "which facts to include",
+    "meaning": "hangi gerçeklerin yer alacağı"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "include",
+   "pos": "verb",
+   "wordId": "include",
+   "sense": 0,
+   "context": "yer vermek (dahil etmek)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 23,
+    "to": 26,
+    "text": "which facts to include",
+    "meaning": "hangi gerçeklerin yer alacağı"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "whose",
+   "pos": "determiner",
+   "wordId": "whose",
+   "sense": 0,
+   "context": "kimin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "whose voices to quote",
+    "meaning": "kimin sözlerinin alıntılanacağı"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "voice",
+   "pos": "noun",
+   "wordId": "voice",
+   "sense": 0,
+   "context": "sözler (sesler)",
+   "note": "*voice* burada mecazen \"görüş, söz\" anlamındadır.",
+   "form": "voice'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "whose voices to quote",
+    "meaning": "kimin sözlerinin alıntılanacağı"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-acağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "whose voices to quote",
+    "meaning": "kimin sözlerinin alıntılanacağı"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "quote",
+   "pos": "verb",
+   "wordId": "quote",
+   "sense": 0,
+   "context": "alıntılamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "whose voices to quote",
+    "meaning": "kimin sözlerinin alıntılanacağı"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "ne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-acağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "place",
+   "pos": "verb",
+   "wordId": "place",
+   "sense": 1,
+   "context": "koymak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-e (paragrafa)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "opening",
+   "pos": "noun",
+   "wordId": "opening",
+   "sense": 0,
+   "context": "giriş (açılış)",
+   "note": "Burada *opening* isim olarak *paragraph*'ı niteler: *the opening paragraph* → giriş paragrafı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "paragraph",
+   "pos": "noun",
+   "wordId": "paragraph",
+   "sense": 0,
+   "context": "paragraf",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 32,
+    "to": 38,
+    "text": "what to place in the opening paragraph",
+    "meaning": "giriş paragrafına neyin konacağı"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": "this'in çoğulu (these)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "decision",
+   "pos": "noun",
+   "wordId": "decision",
+   "sense": 0,
+   "context": "kararlar",
+   "note": null,
+   "form": "decision'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*however* + sıfat \"ne kadar … olursa olsun\" demektir: *however conscientious* → ne kadar özenli olursa olsun.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "however conscientious",
+    "meaning": "ne kadar özenle verilirse verilsin"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "conscientious",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "özenli (vicdanlı)",
+   "note": "*conscientious* işini dikkatle ve sorumlulukla yapan demektir; *conscience* (vicdan) ile aynı köktendir.",
+   "form": null,
+   "base": "özenli, titiz, vicdanlı",
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "however conscientious",
+    "meaning": "ne kadar özenle verilirse verilsin"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "inevitably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kaçınılmaz olarak",
+   "note": "*inevitable* (kaçınılmaz) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "inevitable + -ly (sıfattan zarf)",
+   "base": "kaçınılmaz olarak",
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "inevitably reflect particular assumptions",
+    "meaning": "kaçınılmaz olarak belirli varsayımları yansıtır"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "reflect",
+   "pos": "verb",
+   "wordId": "reflect",
+   "sense": 0,
+   "context": "yansıtır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "inevitably reflect particular assumptions",
+    "meaning": "kaçınılmaz olarak belirli varsayımları yansıtır"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "particular",
+   "pos": "adjective",
+   "wordId": "particular",
+   "sense": 0,
+   "context": "belirli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "inevitably reflect particular assumptions",
+    "meaning": "kaçınılmaz olarak belirli varsayımları yansıtır"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "assumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "varsayımlar",
+   "note": null,
+   "form": "assumption'ın çoğulu",
+   "base": "varsayım",
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "inevitably reflect particular assumptions",
+    "meaning": "kaçınılmaz olarak belirli varsayımları yansıtır"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "editor",
+   "pos": "noun",
+   "wordId": "editor",
+   "sense": 0,
+   "context": "editörler",
+   "note": null,
+   "form": "editor'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "transparency",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "şeffaflık",
+   "note": "*transparent* (şeffaf) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "şeffaflık",
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "more",
+   "pos": "adverb",
+   "wordId": "more",
+   "sense": 2,
+   "context": "daha",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "honest",
+   "pos": "adjective",
+   "wordId": "honest",
+   "sense": 0,
+   "context": "dürüst",
+   "note": "*honest*'teki *h* okunmaz, bu yüzden *an honest person* denir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "ideal",
+   "pos": "noun",
+   "wordId": "ideal",
+   "sense": 1,
+   "context": "ideal (ülkü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "neutrality",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tarafsızlık",
+   "note": "*neutral* (tarafsız) sıfatından *-ity* ekiyle türemiştir.",
+   "form": null,
+   "base": "tarafsızlık",
+   "phrase": {
+    "from": 54,
+    "to": 59,
+    "text": "a more honest ideal than neutrality",
+    "meaning": "tarafsızlıktan daha dürüst bir ideal"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "(rather than: yerine)",
+   "note": "*rather than* + *-ing* \"… -mek yerine\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "(rather than)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "pretend",
+   "pos": "verb",
+   "wordId": "pretend",
+   "sense": 0,
+   "context": "-miş gibi davranmak",
+   "note": "*pretend to do something* \"bir şeyi yapıyormuş gibi davranmak\" demektir.",
+   "form": "pretend + -ing",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "have",
+   "pos": "verb",
+   "wordId": "have",
+   "sense": 0,
+   "context": "sahip olmak (olmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiçbir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "perspective",
+   "pos": "noun",
+   "wordId": "perspective",
+   "sense": 0,
+   "context": "bakış açısı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "rather than pretending to have no perspective",
+    "meaning": "hiçbir bakış açısı yokmuş gibi davranmak yerine"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "reporter",
+   "pos": "noun",
+   "wordId": "reporter",
+   "sense": 0,
+   "context": "muhabirler",
+   "note": null,
+   "form": "reporter'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "should",
+   "pos": "modal verb",
+   "wordId": "should",
+   "sense": 0,
+   "context": "-meli",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 69,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "ortaya koymak",
+   "note": "*make something clear* \"bir şeyi açıkça ortaya koymak, netleştirmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "method",
+   "pos": "noun",
+   "wordId": "method",
+   "sense": 0,
+   "context": "yöntemler",
+   "note": null,
+   "form": "method'un çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "limitation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sınırlılıklar",
+   "note": "*limit* (sınır) kelimesinden türemiş bir isimdir; bir yöntemin \"eksik yanları, sınırları\" demektir.",
+   "form": "limitation'ın çoğulu",
+   "base": "sınırlılık, kısıtlama",
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "clear",
+   "pos": "adjective",
+   "wordId": "clear",
+   "sense": 0,
+   "context": "açık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 69,
+    "to": 74,
+    "text": "make their methods and limitations clear",
+    "meaning": "yöntemlerini ve sınırlılıklarını açıkça ortaya koymak"
+   }
+  }
+ ]
+}

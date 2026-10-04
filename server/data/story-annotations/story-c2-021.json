@@ -1,0 +1,1214 @@
+{
+ "storyId": "story-c2-021",
+ "textHash": "d9f7cd053f43",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Unutmayı hafızanın bir başarısızlığı, aksi halde olağanüstü olan bir sistemin talihsiz bir kusuru olarak görme eğilimindeyiz."
+  },
+  {
+   "tr": "Ancak bazı sinirbilimciler unutmanın etkin ve vazgeçilmez bir süreç olduğunu savunuyor."
+  },
+  {
+   "tr": "Beyin önemsiz ayrıntıları atarak genel örüntüleri çıkarabilir ve değişen koşullara uyum sağlayabilir."
+  },
+  {
+   "tr": "Her şeyi aklında tutan bir zihin, işin tuhafı, ayrıntılar altında ezilir ve soyutlama yapamaz hale gelirdi."
+  },
+  {
+   "tr": "Bu açıdan bakıldığında unutmak bir zayıflıktan çok bir bilgelik biçimidir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to regard",
+    "meaning": "… olarak görme eğilimindeyiz"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "tend",
+   "pos": "verb",
+   "wordId": "tend",
+   "sense": 0,
+   "context": "eğilimindeyiz",
+   "note": "*tend to* + fiil \"… -me eğiliminde olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to regard",
+    "meaning": "… olarak görme eğilimindeyiz"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to regard",
+    "meaning": "… olarak görme eğilimindeyiz"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "regard",
+   "pos": "verb",
+   "wordId": "regard",
+   "sense": 0,
+   "context": "görmek (saymak)",
+   "note": "*regard A as B* \"A'yı B olarak görmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "We tend to regard",
+    "meaning": "… olarak görme eğilimindeyiz"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutmak",
+   "note": "Fiile *-ing* eklenerek isim gibi kullanılabilir: *forgetting* → unutma.",
+   "form": "forget + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "as",
+   "pos": "preposition",
+   "wordId": "as",
+   "sense": 0,
+   "context": "olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "failure",
+   "pos": "noun",
+   "wordId": "failure",
+   "sense": 0,
+   "context": "başarısızlık (arıza)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (hafızanın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "hafıza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 9,
+    "text": "forgetting as a failure of memory",
+    "meaning": "unutmayı hafızanın bir başarısızlığı olarak"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Virgülden sonra gelen *an unfortunate flaw…* önceki ismi açıklar (açıklayıcı ek).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "an unfortunate flaw",
+    "meaning": "talihsiz bir kusur"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "unfortunate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "talihsiz",
+   "note": "*un-* (olumsuzluk) + *fortunate* (şanslı): \"şanssız, talihsiz\".",
+   "form": null,
+   "base": "talihsiz, şanssız",
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "an unfortunate flaw",
+    "meaning": "talihsiz bir kusur"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "flaw",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kusur",
+   "note": null,
+   "form": null,
+   "base": "kusur, hata",
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "an unfortunate flaw",
+    "meaning": "talihsiz bir kusur"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (sistemde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "an otherwise remarkable system",
+    "meaning": "aksi halde olağanüstü bir sistem"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "otherwise",
+   "pos": "adverb",
+   "wordId": "otherwise",
+   "sense": 0,
+   "context": "aksi halde (bunun dışında)",
+   "note": "Sıfattan önce *otherwise* \"bu bir yana, geri kalanıyla\" anlamı verir: *an otherwise remarkable system* → bu kusur dışında olağanüstü bir sistem.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "an otherwise remarkable system",
+    "meaning": "aksi halde olağanüstü bir sistem"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "remarkable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "olağanüstü",
+   "note": null,
+   "form": null,
+   "base": "dikkat çekici, olağanüstü",
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "an otherwise remarkable system",
+    "meaning": "aksi halde olağanüstü bir sistem"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "system",
+   "pos": "noun",
+   "wordId": "system",
+   "sense": 0,
+   "context": "sistem",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "an otherwise remarkable system",
+    "meaning": "aksi halde olağanüstü bir sistem"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "neuroscientist",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sinirbilimciler",
+   "note": "*neuro-* ön eki \"sinir\" anlamı katar: *neuro* + *scientist* → sinirbilimci.",
+   "form": "neuroscientist'in çoğulu",
+   "base": "sinirbilimci",
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "contend",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "savunuyor",
+   "note": "*contend that…* \"… olduğunu ileri sürmek, savunmak\" demektir.",
+   "form": null,
+   "base": "ileri sürmek, savunmak",
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutmak",
+   "note": null,
+   "form": "forget + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an active process*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "an active and essential process",
+    "meaning": "etkin ve vazgeçilmez bir süreç"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "active",
+   "pos": "adjective",
+   "wordId": "active",
+   "sense": 0,
+   "context": "etkin (aktif)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "an active and essential process",
+    "meaning": "etkin ve vazgeçilmez bir süreç"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "an active and essential process",
+    "meaning": "etkin ve vazgeçilmez bir süreç"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "essential",
+   "pos": "adjective",
+   "wordId": "essential",
+   "sense": 0,
+   "context": "vazgeçilmez (çok önemli)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "an active and essential process",
+    "meaning": "etkin ve vazgeçilmez bir süreç"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "process",
+   "pos": "noun",
+   "wordId": "process",
+   "sense": 0,
+   "context": "süreç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 29,
+    "text": "an active and essential process",
+    "meaning": "etkin ve vazgeçilmez bir süreç"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "By discarding trivial details",
+    "meaning": "önemsiz ayrıntıları atarak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "discard",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "atmak",
+   "note": "*discard* işe yaramayan bir şeyi \"atmak, bir kenara bırakmak\" demektir.",
+   "form": "discard + -ing",
+   "base": "atmak, elden çıkarmak",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "By discarding trivial details",
+    "meaning": "önemsiz ayrıntıları atarak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "trivial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "önemsiz",
+   "note": null,
+   "form": null,
+   "base": "önemsiz, değersiz",
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "By discarding trivial details",
+    "meaning": "önemsiz ayrıntıları atarak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "ayrıntılar",
+   "note": null,
+   "form": "detail'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 33,
+    "text": "By discarding trivial details",
+    "meaning": "önemsiz ayrıntıları atarak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "brain",
+   "pos": "noun",
+   "wordId": "brain",
+   "sense": 0,
+   "context": "beyin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-ebilir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "is able to",
+    "meaning": "-ebilir"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "able",
+   "pos": "adjective",
+   "wordId": "able",
+   "sense": 0,
+   "context": "-ebilir",
+   "note": "*be able to* + fiil \"… -ebilmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "is able to",
+    "meaning": "-ebilir"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 38,
+    "text": "is able to",
+    "meaning": "-ebilir"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "extract",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "çıkarmak",
+   "note": "*extract* bir şeyi bir bütünden \"çekip çıkarmak\" demektir.",
+   "form": null,
+   "base": "çıkarmak, elde etmek",
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "extract general patterns",
+    "meaning": "genel örüntüler çıkarmak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "general",
+   "pos": "adjective",
+   "wordId": "general",
+   "sense": 0,
+   "context": "genel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "extract general patterns",
+    "meaning": "genel örüntüler çıkarmak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "pattern",
+   "pos": "noun",
+   "wordId": "pattern",
+   "sense": 0,
+   "context": "örüntüler",
+   "note": null,
+   "form": "pattern'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 39,
+    "to": 41,
+    "text": "extract general patterns",
+    "meaning": "genel örüntüler çıkarmak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "adapt",
+   "pos": "verb",
+   "wordId": "adapt",
+   "sense": 0,
+   "context": "uyum sağlamak",
+   "note": "*adapt to something* \"bir şeye uyum sağlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "adapt to changing circumstances",
+    "meaning": "değişen koşullara uyum sağlamak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "adapt to changing circumstances",
+    "meaning": "değişen koşullara uyum sağlamak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değişen",
+   "note": "İsimden önce gelen *-ing*'li fiil sıfat gibi kullanılır: *changing circumstances* → değişen koşullar.",
+   "form": "change + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "adapt to changing circumstances",
+    "meaning": "değişen koşullara uyum sağlamak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "circumstance",
+   "pos": "noun",
+   "wordId": "circumstance",
+   "sense": 0,
+   "context": "koşullar",
+   "note": null,
+   "form": "circumstance'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "adapt to changing circumstances",
+    "meaning": "değişen koşullara uyum sağlamak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "A mind that retained everything",
+    "meaning": "her şeyi aklında tutan bir zihin"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "mind",
+   "pos": "noun",
+   "wordId": "mind",
+   "sense": 0,
+   "context": "zihin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "A mind that retained everything",
+    "meaning": "her şeyi aklında tutan bir zihin"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "A mind that retained everything",
+    "meaning": "her şeyi aklında tutan bir zihin"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "retain",
+   "pos": "verb",
+   "wordId": "retain",
+   "sense": 0,
+   "context": "(aklında) tutan",
+   "note": "Koşul anlamı taşıyan bu yapıda geçmiş zaman (*retained*) gerçek olmayan bir durumu anlatır.",
+   "form": "retain + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 50,
+    "text": "A mind that retained everything",
+    "meaning": "her şeyi aklında tutan bir zihin"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "would",
+   "pos": "modal verb",
+   "wordId": "would",
+   "sense": 0,
+   "context": "(-irdi)",
+   "note": "*would* burada hayalî bir durumun sonucunu anlatır: \"… olurdu\".",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 53,
+   "lemma": "paradoxically",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "işin tuhafı",
+   "note": null,
+   "form": "paradoxical + -ly (sıfattan zarf)",
+   "base": "paradoks olarak, işin tuhafı",
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılır)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "be overwhelmed by detail",
+    "meaning": "ayrıntılar altında ezilmek"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "overwhelm",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "ezilmek (bunalmak)",
+   "note": null,
+   "form": "overwhelm fiilinin 3. hali (overwhelmed, -ed)",
+   "base": "bunaltmak, altında ezmek",
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "be overwhelmed by detail",
+    "meaning": "ayrıntılar altında ezilmek"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(… altında) tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "be overwhelmed by detail",
+    "meaning": "ayrıntılar altında ezilmek"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "detail",
+   "pos": "noun",
+   "wordId": "detail",
+   "sense": 0,
+   "context": "ayrıntı(lar)",
+   "note": "*detail* sayılamayan biçimde de kullanılır: *overwhelmed by detail* → ayrıntılar altında ezilmiş.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 57,
+    "text": "be overwhelmed by detail",
+    "meaning": "ayrıntılar altında ezilmek"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "incapable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yapamaz (yeteneksiz)",
+   "note": "*be incapable of something* \"bir şeyi yapamamak, -den aciz olmak\" demektir.",
+   "form": null,
+   "base": "yapamayan, aciz",
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "incapable of abstraction",
+    "meaning": "soyutlama yapamaz"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(incapable of)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "incapable of abstraction",
+    "meaning": "soyutlama yapamaz"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "abstraction",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "soyutlama",
+   "note": "*abstract* (soyut) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "soyutlama",
+   "phrase": {
+    "from": 59,
+    "to": 61,
+    "text": "incapable of abstraction",
+    "meaning": "soyutlama yapamaz"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutmak",
+   "note": null,
+   "form": "forget + -ing (son harf t ikilenir)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in this light: bu açıdan)",
+   "note": "*in this light* \"bu açıdan bakıldığında\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "in this light",
+    "meaning": "bu açıdan bakıldığında"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "in this light",
+    "meaning": "bu açıdan bakıldığında"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "light",
+   "pos": "noun",
+   "wordId": "light",
+   "sense": 0,
+   "context": "ışık (açı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 65,
+    "text": "in this light",
+    "meaning": "bu açıdan bakıldığında"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "(… -den) çok",
+   "note": "*less A than B* \"A'dan çok B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "weakness",
+   "pos": "noun",
+   "wordId": "weakness",
+   "sense": 0,
+   "context": "zayıflık",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "form",
+   "pos": "noun",
+   "wordId": "form",
+   "sense": 0,
+   "context": "biçim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bilgelik biçimi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "wisdom",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bilgelik",
+   "note": "*wise* (bilge) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "bilgelik",
+   "phrase": {
+    "from": 67,
+    "to": 74,
+    "text": "less a weakness than a form of wisdom",
+    "meaning": "bir zayıflıktan çok bir bilgelik biçimi"
+   }
+  }
+ ]
+}

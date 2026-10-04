@@ -1,0 +1,1095 @@
+{
+ "storyId": "story-c2-012",
+ "textHash": "5819cb2a2e78",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Her harita, zorunlu olarak, gerçeğin hizmetinde söylenmiş bir yalandır."
+  },
+  {
+   "tr": "İşe yarayabilmesi için neredeyse her şeyi dışarıda bırakmak zorundadır: toprağın dokusunu, yağmurun kokusunu, her pencerenin ardında yaşanan hayatları."
+  },
+  {
+   "tr": "Tehlike, bunu unutup temsili, onun basitleştirdiği gerçekliğin kendisi sandığımızda ortaya çıkar."
+  },
+  {
+   "tr": "Ekonomik modeller, kamuoyu yoklamaları, hatta anılarımız bile bu türden haritalardır; vazgeçilmezdirler ama her zaman eksiktirler."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "every",
+   "pos": "determiner",
+   "wordId": "every",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "map",
+   "pos": "noun",
+   "wordId": "map",
+   "sense": 0,
+   "context": "harita",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 3,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(by necessity: zorunlu olarak)",
+   "note": "*by necessity* \"zorunlu olarak, kaçınılmaz biçimde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "by necessity",
+    "meaning": "zorunlu olarak"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "necessity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "zorunluluk",
+   "note": "*necessary* (gerekli) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "zorunluluk, gereklilik",
+   "phrase": {
+    "from": 3,
+    "to": 4,
+    "text": "by necessity",
+    "meaning": "zorunlu olarak"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "a lie told",
+    "meaning": "söylenmiş bir yalan"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "lie",
+   "pos": "noun",
+   "wordId": "lie",
+   "sense": 2,
+   "context": "yalan",
+   "note": "*lie* \"uzanmak\" ve \"yalan söylemek\" fiillerinin yanında isim olarak \"yalan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "a lie told",
+    "meaning": "söylenmiş bir yalan"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söylenmiş",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *a lie told* → söylenmiş bir yalan.",
+   "form": "tell fiilinin 3. hali (told, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 7,
+    "text": "a lie told",
+    "meaning": "söylenmiş bir yalan"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in the service of: hizmetinde)",
+   "note": "*in the service of something* \"bir şeyin hizmetinde, bir şey uğruna\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "in the service of truth",
+    "meaning": "gerçeğin hizmetinde"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "in the service of truth",
+    "meaning": "gerçeğin hizmetinde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "service",
+   "pos": "noun",
+   "wordId": "service",
+   "sense": 0,
+   "context": "hizmet",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "in the service of truth",
+    "meaning": "gerçeğin hizmetinde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (gerçeğin)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "in the service of truth",
+    "meaning": "gerçeğin hizmetinde"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "truth",
+   "pos": "noun",
+   "wordId": "truth",
+   "sense": 0,
+   "context": "gerçek (hakikat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 8,
+    "to": 12,
+    "text": "in the service of truth",
+    "meaning": "gerçeğin hizmetinde"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": "Cümle başındaki *To* + fiil amaç bildirir: *To be useful* → işe yarayabilmek için.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "To be useful",
+    "meaning": "işe yarayabilmek için"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "To be useful",
+    "meaning": "işe yarayabilmek için"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "useful",
+   "pos": "adjective",
+   "wordId": "useful",
+   "sense": 0,
+   "context": "işe yarar (yararlı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 13,
+    "to": 15,
+    "text": "To be useful",
+    "meaning": "işe yarayabilmek için"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (harita)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 17,
+   "lemma": "must",
+   "pos": "modal verb",
+   "wordId": "must",
+   "sense": 0,
+   "context": "zorundadır",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "must omit almost everything",
+    "meaning": "neredeyse her şeyi dışarıda bırakmak zorunda"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "omit",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "dışarıda bırakmak",
+   "note": "*omit* \"atlamak, dahil etmemek\" demektir.",
+   "form": null,
+   "base": "dışarıda bırakmak, atlamak",
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "must omit almost everything",
+    "meaning": "neredeyse her şeyi dışarıda bırakmak zorunda"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "must omit almost everything",
+    "meaning": "neredeyse her şeyi dışarıda bırakmak zorunda"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "everything",
+   "pos": "pronoun",
+   "wordId": "everything",
+   "sense": 0,
+   "context": "her şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 17,
+    "to": 20,
+    "text": "must omit almost everything",
+    "meaning": "neredeyse her şeyi dışarıda bırakmak zorunda"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "texture",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "doku",
+   "note": null,
+   "form": null,
+   "base": "doku",
+   "phrase": null
+  },
+  {
+   "i": 23,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (toprağın)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "soil",
+   "pos": "noun",
+   "wordId": "soil",
+   "sense": 0,
+   "context": "toprak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "smell",
+   "pos": "noun",
+   "wordId": "smell",
+   "sense": 1,
+   "context": "koku",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (yağmurun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "rain",
+   "pos": "noun",
+   "wordId": "rain",
+   "sense": 0,
+   "context": "yağmur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayatlar",
+   "note": null,
+   "form": "life'ın çoğulu (lives, f → ves)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "unfold",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yaşanan",
+   "note": "*unfold* \"açılmak\" demektir; olaylar için \"yaşanmak, gelişmek\" anlamına gelir.",
+   "form": "unfold + -ing",
+   "base": "açılmak; gelişmek, yaşanmak",
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "behind",
+   "pos": "preposition",
+   "wordId": "behind",
+   "sense": 0,
+   "context": "ardında (arkasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "window",
+   "pos": "noun",
+   "wordId": "window",
+   "sense": 0,
+   "context": "pencere",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 36,
+    "text": "the lives unfolding behind each window",
+    "meaning": "her pencerenin ardında yaşanan hayatlar"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "danger",
+   "pos": "noun",
+   "wordId": "danger",
+   "sense": 0,
+   "context": "tehlike",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "The danger arises",
+    "meaning": "tehlike ortaya çıkar"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "arise",
+   "pos": "verb",
+   "wordId": "arise",
+   "sense": 0,
+   "context": "ortaya çıkar",
+   "note": null,
+   "form": "arise + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "The danger arises",
+    "meaning": "tehlike ortaya çıkar"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "when",
+   "pos": "conjunction",
+   "wordId": "when",
+   "sense": 2,
+   "context": "-dığımızda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "forget",
+   "pos": "verb",
+   "wordId": "forget",
+   "sense": 0,
+   "context": "unutmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "this",
+   "pos": "pronoun",
+   "wordId": "this",
+   "sense": 1,
+   "context": "bunu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "mistake",
+   "pos": "verb",
+   "wordId": "mistake",
+   "sense": 1,
+   "context": "sanmak (karıştırmak)",
+   "note": "*mistake A for B* \"A'yı yanlışlıkla B sanmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "representation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "temsil",
+   "note": "*represent* (temsil etmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "temsil, betimleme",
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(mistake for: … sanmak)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "reality",
+   "pos": "noun",
+   "wordId": "reality",
+   "sense": 0,
+   "context": "gerçeklik",
+   "note": "İsimden sonra *that* düşebilir: *the reality (that) it simplifies* → onun basitleştirdiği gerçeklik.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 47,
+    "to": 52,
+    "text": "mistake the representation for the reality",
+    "meaning": "temsili gerçekliğin kendisi sanmak"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (temsil)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "simplify",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "basitleştirdiği",
+   "note": "*simple* (basit) sıfatından türemiş bir fiildir.",
+   "form": "simplify'ın 3. tekil şahıs hali (simplifies, y → ies)",
+   "base": "basitleştirmek",
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "economic",
+   "pos": "adjective",
+   "wordId": "economic",
+   "sense": 0,
+   "context": "ekonomik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "Economic models",
+    "meaning": "ekonomik modeller"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "model",
+   "pos": "noun",
+   "wordId": "model",
+   "sense": 0,
+   "context": "modeller",
+   "note": null,
+   "form": "model'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 56,
+    "text": "Economic models",
+    "meaning": "ekonomik modeller"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "opinion",
+   "pos": "noun",
+   "wordId": "opinion",
+   "sense": 0,
+   "context": "kamuoyu (görüş)",
+   "note": "*opinion poll* \"kamuoyu yoklaması, anket\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "opinion polls",
+    "meaning": "kamuoyu yoklamaları"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "poll",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yoklamalar (anketler)",
+   "note": null,
+   "form": "poll'un çoğulu",
+   "base": "anket, kamuoyu yoklaması",
+   "phrase": {
+    "from": 57,
+    "to": 58,
+    "text": "opinion polls",
+    "meaning": "kamuoyu yoklamaları"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta … bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 64,
+   "lemma": "map",
+   "pos": "noun",
+   "wordId": "map",
+   "sense": 0,
+   "context": "haritalar",
+   "note": null,
+   "form": "map'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 65,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(… türden)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "of this kind",
+    "meaning": "bu türden"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "of this kind",
+    "meaning": "bu türden"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "kind",
+   "pos": "noun",
+   "wordId": "kind",
+   "sense": 0,
+   "context": "tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 65,
+    "to": 67,
+    "text": "of this kind",
+    "meaning": "bu türden"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "indispensable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "vazgeçilmez",
+   "note": "*in-* (olumsuzluk) + *dispense with* (-sız yapmak) + *-able*: \"onsuz olunamaz\".",
+   "form": null,
+   "base": "vazgeçilmez",
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "indispensable yet perpetually incomplete",
+    "meaning": "vazgeçilmez ama her zaman eksik"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ama (yine de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "indispensable yet perpetually incomplete",
+    "meaning": "vazgeçilmez ama her zaman eksik"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "perpetually",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "her zaman (sürekli)",
+   "note": "*perpetual* (sürekli, daimi) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "perpetual + -ly (sıfattan zarf)",
+   "base": "sürekli, daima",
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "indispensable yet perpetually incomplete",
+    "meaning": "vazgeçilmez ama her zaman eksik"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "incomplete",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "eksik",
+   "note": "*in-* ön eki olumsuzluk katar: *complete* (tam) → *incomplete* (eksik).",
+   "form": null,
+   "base": "eksik, tamamlanmamış",
+   "phrase": {
+    "from": 68,
+    "to": 71,
+    "text": "indispensable yet perpetually incomplete",
+    "meaning": "vazgeçilmez ama her zaman eksik"
+   }
+  }
+ ]
+}

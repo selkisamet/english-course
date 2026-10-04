@@ -1,0 +1,1240 @@
+{
+ "storyId": "story-c2-015",
+ "textHash": "843ee25c46f5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "En akılda kalıcı romanların bazıları, olayları anlatışına güvenilemeyen karakterler tarafından anlatılır."
+  },
+  {
+   "tr": "Okur yavaş yavaş tutarsızlıkları, atlanan noktaları ve anlatıcıyı iyi gösteren yorumları fark etmeye başlar ve böylece gerçeği hikâyedeki boşluklardan yeniden kurmak zorunda kalır."
+  },
+  {
+   "tr": "Bu teknik, gerilim yaratmaktan fazlasını yapar."
+  },
+  {
+   "tr": "Oldukça rahatsız edici bir biçimde, kendimiz hakkındaki anlatılarımızın da aynı derecede seçici olabileceğini; olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenebileceğini hatırlatır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "*some of the* + çoğul isim \"… -lerin bazıları\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "memorable",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "akılda kalıcı",
+   "note": "*memory* (hafıza) ile aynı kökten gelir: \"hatırlanmaya değer\".",
+   "form": null,
+   "base": "akılda kalıcı, unutulmaz",
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "novel",
+   "pos": "noun",
+   "wordId": "novel",
+   "sense": 0,
+   "context": "romanlar",
+   "note": null,
+   "form": "novel'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 5,
+    "text": "Some of the most memorable novels",
+    "meaning": "en akılda kalıcı romanların bazıları"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "are narrated by",
+    "meaning": "… tarafından anlatılır"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "narrate",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "anlatılır",
+   "note": "*narrate* bir hikâyeyi \"anlatmak\" demektir; anlatan kişi *narrator*'dır.",
+   "form": "narrate fiilinin 3. hali (narrated, -d)",
+   "base": "anlatmak (hikâye)",
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "are narrated by",
+    "meaning": "… tarafından anlatılır"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 8,
+    "text": "are narrated by",
+    "meaning": "… tarafından anlatılır"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "character",
+   "pos": "noun",
+   "wordId": "character",
+   "sense": 0,
+   "context": "karakterler",
+   "note": null,
+   "form": "character'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "whose",
+   "pos": "determiner",
+   "wordId": "whose",
+   "sense": 0,
+   "context": "(-in … -i)",
+   "note": "*whose* ilgi zamiri olarak iyelik bildirir: *characters whose account cannot be trusted* → anlatışına güvenilemeyen karakterler.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "whose account of events",
+    "meaning": "olayları anlatışı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "account",
+   "pos": "noun",
+   "wordId": "account",
+   "sense": 0,
+   "context": "anlatış (anlatım)",
+   "note": "*account* \"hesap\" ve \"anlatım, açıklama\" demektir: *an account of events* → olayların anlatımı.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "whose account of events",
+    "meaning": "olayları anlatışı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (olayların)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "whose account of events",
+    "meaning": "olayları anlatışı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "event",
+   "pos": "noun",
+   "wordId": "event",
+   "sense": 0,
+   "context": "olaylar",
+   "note": null,
+   "form": "event'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 13,
+    "text": "whose account of events",
+    "meaning": "olayları anlatışı"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "cannot be trusted",
+    "meaning": "güvenilemez"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "cannot be trusted",
+    "meaning": "güvenilemez"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "trust",
+   "pos": "verb",
+   "wordId": "trust",
+   "sense": 1,
+   "context": "güvenilmek",
+   "note": null,
+   "form": "trust fiilinin 3. hali (trusted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 16,
+    "text": "cannot be trusted",
+    "meaning": "güvenilemez"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "reader",
+   "pos": "noun",
+   "wordId": "reader",
+   "sense": 0,
+   "context": "okur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "begin",
+   "pos": "verb",
+   "wordId": "begin",
+   "sense": 0,
+   "context": "başlar",
+   "note": null,
+   "form": "begin + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "begins to detect",
+    "meaning": "fark etmeye başlar"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "begins to detect",
+    "meaning": "fark etmeye başlar"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "detect",
+   "pos": "verb",
+   "wordId": "detect",
+   "sense": 0,
+   "context": "fark etmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 20,
+    "to": 22,
+    "text": "begins to detect",
+    "meaning": "fark etmeye başlar"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "inconsistency",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tutarsızlıklar",
+   "note": "*in-* (olumsuzluk) + *consistent* (tutarlı) + *-cy*: \"tutarsızlık\".",
+   "form": "inconsistency'nin çoğulu (y → ies)",
+   "base": "tutarsızlık",
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "omission",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "atlanan noktalar",
+   "note": "*omit* (atlamak) fiilinden türemiş bir isimdir.",
+   "form": "omission'ın çoğulu",
+   "base": "atlama, eksik bırakılan şey",
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "flattering",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "(anlatıcıyı) iyi gösteren",
+   "note": "*flatter* (iltifat etmek, pohpohlamak) fiilinden türemiştir: birini olduğundan iyi gösteren.",
+   "form": null,
+   "base": "iltifat eden, olduğundan iyi gösteren",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "flattering interpretations",
+    "meaning": "(anlatıcıyı) iyi gösteren yorumlar"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "interpretation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yorumlar",
+   "note": "*interpret* (yorumlamak) fiilinden türemiş bir isimdir.",
+   "form": "interpretation'ın çoğulu",
+   "base": "yorum",
+   "phrase": {
+    "from": 26,
+    "to": 27,
+    "text": "flattering interpretations",
+    "meaning": "(anlatıcıyı) iyi gösteren yorumlar"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "is thus compelled to reconstruct",
+    "meaning": "böylece yeniden kurmak zorunda kalır"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "thus",
+   "pos": "adverb",
+   "wordId": "thus",
+   "sense": 0,
+   "context": "böylece",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "is thus compelled to reconstruct",
+    "meaning": "böylece yeniden kurmak zorunda kalır"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "compel",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "zorunda kalır",
+   "note": "*be compelled to do something* \"bir şeyi yapmak zorunda kalmak\" demektir.",
+   "form": "compel fiilinin 3. hali (compelled, son harf l ikilenir)",
+   "base": "zorlamak, mecbur etmek",
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "is thus compelled to reconstruct",
+    "meaning": "böylece yeniden kurmak zorunda kalır"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "is thus compelled to reconstruct",
+    "meaning": "böylece yeniden kurmak zorunda kalır"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "reconstruct",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "yeniden kurmak",
+   "note": null,
+   "form": null,
+   "base": "yeniden oluşturmak, yeniden kurmak",
+   "phrase": {
+    "from": 29,
+    "to": 33,
+    "text": "is thus compelled to reconstruct",
+    "meaning": "böylece yeniden kurmak zorunda kalır"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "truth",
+   "pos": "noun",
+   "wordId": "truth",
+   "sense": 0,
+   "context": "gerçek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "gap",
+   "pos": "noun",
+   "wordId": "gap",
+   "sense": 0,
+   "context": "boşluklar",
+   "note": null,
+   "form": "gap'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-deki (hikâyedeki)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "story",
+   "pos": "noun",
+   "wordId": "story",
+   "sense": 0,
+   "context": "hikâye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 41,
+    "text": "from the gaps in the story",
+    "meaning": "hikâyedeki boşluklardan"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 43,
+   "lemma": "technique",
+   "pos": "noun",
+   "wordId": "technique",
+   "sense": 0,
+   "context": "teknik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapar",
+   "note": "*do more than* + fiil \"… -mekten fazlasını yapmak\" demektir.",
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "does more than create suspense",
+    "meaning": "gerilim yaratmaktan fazlasını yapar"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "more",
+   "pos": "pronoun",
+   "wordId": "more",
+   "sense": 1,
+   "context": "fazlası",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "does more than create suspense",
+    "meaning": "gerilim yaratmaktan fazlasını yapar"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "does more than create suspense",
+    "meaning": "gerilim yaratmaktan fazlasını yapar"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "create",
+   "pos": "verb",
+   "wordId": "create",
+   "sense": 0,
+   "context": "yaratmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "does more than create suspense",
+    "meaning": "gerilim yaratmaktan fazlasını yapar"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "suspense",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "gerilim (merak)",
+   "note": "*suspense* okuru \"ne olacak\" diye meraklandıran gerilimdir.",
+   "form": null,
+   "base": "gerilim, heyecanlı bekleyiş",
+   "phrase": {
+    "from": 44,
+    "to": 48,
+    "text": "does more than create suspense",
+    "meaning": "gerilim yaratmaktan fazlasını yapar"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (bu teknik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "remind",
+   "pos": "verb",
+   "wordId": "remind",
+   "sense": 0,
+   "context": "hatırlatır",
+   "note": "*remind someone that…* \"birine … olduğunu hatırlatmak\" demektir.",
+   "form": "remind + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "us",
+   "pos": "pronoun",
+   "wordId": "us",
+   "sense": 0,
+   "context": "bize",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 52,
+   "lemma": "rather",
+   "pos": "adverb",
+   "wordId": "rather",
+   "sense": 0,
+   "context": "oldukça",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "rather uncomfortably",
+    "meaning": "oldukça rahatsız edici bir biçimde"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "uncomfortably",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "rahatsız edici bir biçimde",
+   "note": "*un-* (olumsuzluk) + *comfortable* + *-ly*.",
+   "form": "uncomfortable + -ly (sıfattan zarf)",
+   "base": "rahatsız edici biçimde",
+   "phrase": {
+    "from": 52,
+    "to": 53,
+    "text": "rather uncomfortably",
+    "meaning": "oldukça rahatsız edici bir biçimde"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-ceğini)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "our own narratives about ourselves",
+    "meaning": "kendimiz hakkındaki anlatılarımız"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "our own narratives about ourselves",
+    "meaning": "kendimiz hakkındaki anlatılarımız"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "narrative",
+   "pos": "noun",
+   "wordId": "narrative",
+   "sense": 0,
+   "context": "anlatılar",
+   "note": null,
+   "form": "narrative'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "our own narratives about ourselves",
+    "meaning": "kendimiz hakkındaki anlatılarımız"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "about",
+   "pos": "preposition",
+   "wordId": "about",
+   "sense": 0,
+   "context": "hakkındaki",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "our own narratives about ourselves",
+    "meaning": "kendimiz hakkındaki anlatılarımız"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "ourselves",
+   "pos": "pronoun",
+   "wordId": "ourselves",
+   "sense": 0,
+   "context": "kendimiz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 59,
+    "text": "our own narratives about ourselves",
+    "meaning": "kendimiz hakkındaki anlatılarımız"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "equally",
+   "pos": "adverb",
+   "wordId": "equally",
+   "sense": 0,
+   "context": "aynı derecede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "equally selective",
+    "meaning": "aynı derecede seçici"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "selective",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "seçici",
+   "note": "*select* (seçmek) fiilinden türemiş bir sıfattır.",
+   "form": null,
+   "base": "seçici",
+   "phrase": {
+    "from": 62,
+    "to": 63,
+    "text": "equally selective",
+    "meaning": "aynı derecede seçici"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "shape",
+   "pos": "verb",
+   "wordId": "shape",
+   "sense": 1,
+   "context": "biçimlenmiş",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *shaped by…* → … ile biçimlenmiş.",
+   "form": "shape fiilinin 3. hali (shaped, -d)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "less",
+   "pos": "adverb",
+   "wordId": "less",
+   "sense": 2,
+   "context": "daha az",
+   "note": "*less by A than by B* \"A'dan çok B ile\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "tarafından (ile)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -an) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "happen",
+   "pos": "verb",
+   "wordId": "happen",
+   "sense": 0,
+   "context": "olup biten",
+   "note": null,
+   "form": "happen + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "than",
+   "pos": "conjunction",
+   "wordId": "than",
+   "sense": 0,
+   "context": "-den (çok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "ile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -diğimiz) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "we",
+   "pos": "pronoun",
+   "wordId": "we",
+   "sense": 0,
+   "context": "biz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 76,
+    "text": "shaped less by what happened than by what we can bear to remember",
+    "meaning": "olup bitenden çok, hatırlamaya katlanabildiklerimizle biçimlenmiş"
+   }
+  },
+  {
+   "i": 74,
+   "lemma": "bear",
+   "pos": "verb",
+   "wordId": "bear",
+   "sense": 1,
+   "context": "katlanmak",
+   "note": "*can bear to do something* \"bir şeyi yapmaya katlanabilmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "bear to remember",
+    "meaning": "hatırlamaya katlanmak"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "bear to remember",
+    "meaning": "hatırlamaya katlanmak"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "remember",
+   "pos": "verb",
+   "wordId": "remember",
+   "sense": 0,
+   "context": "hatırlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 76,
+    "text": "bear to remember",
+    "meaning": "hatırlamaya katlanmak"
+   }
+  }
+ ]
+}

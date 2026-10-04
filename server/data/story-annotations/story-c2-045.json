@@ -1,0 +1,1135 @@
+{
+ "storyId": "story-c2-045",
+ "textHash": "957122cced29",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yalnızca tek bir şekilde yorumlanabilen sanat eserleri dikkatimizi nadiren uzun süre çekebilir."
+  },
+  {
+   "tr": "Kalıcı olan tablolar ve romanlar çoğu zaman tek bir anlama direnen, her kuşağı onlarda yeni bir şey keşfetmeye davet eden eserlerdir."
+  },
+  {
+   "tr": "Bu anlamda belirsizlik bir kusur değil, bir canlılık kaynağıdır."
+  },
+  {
+   "tr": "İzleyiciye ya da okura katılım için yer bırakır ve edilgen bir tüketimi etkin bir yorumlama sürecine dönüştürür."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "work",
+   "pos": "noun",
+   "wordId": "work",
+   "sense": 1,
+   "context": "eserler",
+   "note": "*work* \"iş\" demektir; sanatta \"eser, yapıt\" anlamına gelir ve bu anlamda sayılabilir: *works of art* → sanat eserleri.",
+   "form": "work'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Works of art",
+    "meaning": "sanat eserleri"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(sanat eseri)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Works of art",
+    "meaning": "sanat eserleri"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "art",
+   "pos": "noun",
+   "wordId": "art",
+   "sense": 0,
+   "context": "sanat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Works of art",
+    "meaning": "sanat eserleri"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "Works of art",
+    "meaning": "sanat eserleri"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "can",
+   "pos": "modal verb",
+   "wordId": "can",
+   "sense": 0,
+   "context": "-ebilen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "can be interpreted",
+    "meaning": "yorumlanabilir"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "can be interpreted",
+    "meaning": "yorumlanabilir"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "interpret",
+   "pos": "verb",
+   "wordId": "interpret",
+   "sense": 0,
+   "context": "yorumlanmak",
+   "note": null,
+   "form": "interpret fiilinin 3. hali (interpreted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 4,
+    "to": 6,
+    "text": "can be interpreted",
+    "meaning": "yorumlanabilir"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(… şekilde)",
+   "note": "*in one way* \"tek bir şekilde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "in only one way",
+    "meaning": "yalnızca tek bir şekilde"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "in only one way",
+    "meaning": "yalnızca tek bir şekilde"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "one",
+   "pos": "determiner",
+   "wordId": "one",
+   "sense": 1,
+   "context": "tek (bir)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "in only one way",
+    "meaning": "yalnızca tek bir şekilde"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "way",
+   "pos": "noun",
+   "wordId": "way",
+   "sense": 0,
+   "context": "şekil (yol)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 10,
+    "text": "in only one way",
+    "meaning": "yalnızca tek bir şekilde"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "rarely",
+   "pos": "adverb",
+   "wordId": "rarely",
+   "sense": 0,
+   "context": "nadiren",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "hold",
+   "pos": "verb",
+   "wordId": "hold",
+   "sense": 0,
+   "context": "çekmek (tutmak)",
+   "note": "*hold someone's attention* \"birinin ilgisini çekmeye devam etmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "attention",
+   "pos": "noun",
+   "wordId": "attention",
+   "sense": 0,
+   "context": "dikkat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "(for long: uzun süre)",
+   "note": "*for long* \"uzun süre\" demektir ve genellikle olumsuz ya da soru cümlelerinde kullanılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun süre",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 11,
+    "to": 16,
+    "text": "rarely hold our attention for long",
+    "meaning": "dikkatimizi nadiren uzun süre çeker"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 18,
+   "lemma": "painting",
+   "pos": "noun",
+   "wordId": "painting",
+   "sense": 0,
+   "context": "tablolar",
+   "note": null,
+   "form": "painting'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 20,
+   "lemma": "novel",
+   "pos": "noun",
+   "wordId": "novel",
+   "sense": 0,
+   "context": "romanlar",
+   "note": null,
+   "form": "novel'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 21,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "that endure",
+    "meaning": "kalıcı olan"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "endure",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kalıcı olan (yaşayan)",
+   "note": null,
+   "form": null,
+   "base": "dayanmak; sürmek, kalıcı olmak",
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "that endure",
+    "meaning": "kalıcı olan"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(… olanlar)",
+   "note": "*those that* \"… olanlar\" demektir.",
+   "form": "that'in çoğulu (those)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-en)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 27,
+   "lemma": "resist",
+   "pos": "verb",
+   "wordId": "resist",
+   "sense": 0,
+   "context": "direnen",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "resist a single meaning",
+    "meaning": "tek bir anlama direnmek"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "resist a single meaning",
+    "meaning": "tek bir anlama direnmek"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "single",
+   "pos": "adjective",
+   "wordId": "single",
+   "sense": 0,
+   "context": "tek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "resist a single meaning",
+    "meaning": "tek bir anlama direnmek"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "meaning",
+   "pos": "noun",
+   "wordId": "meaning",
+   "sense": 0,
+   "context": "anlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 27,
+    "to": 30,
+    "text": "resist a single meaning",
+    "meaning": "tek bir anlama direnmek"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "invite",
+   "pos": "verb",
+   "wordId": "invite",
+   "sense": 0,
+   "context": "davet eden",
+   "note": "*invite someone to do something* \"birini bir şey yapmaya davet etmek\" demektir.",
+   "form": "invite + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "inviting each generation to discover",
+    "meaning": "her kuşağı keşfetmeye davet ederek"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "each",
+   "pos": "determiner",
+   "wordId": "each",
+   "sense": 0,
+   "context": "her",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "inviting each generation to discover",
+    "meaning": "her kuşağı keşfetmeye davet ederek"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "generation",
+   "pos": "noun",
+   "wordId": "generation",
+   "sense": 0,
+   "context": "kuşak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "inviting each generation to discover",
+    "meaning": "her kuşağı keşfetmeye davet ederek"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "inviting each generation to discover",
+    "meaning": "her kuşağı keşfetmeye davet ederek"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "keşfetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 31,
+    "to": 35,
+    "text": "inviting each generation to discover",
+    "meaning": "her kuşağı keşfetmeye davet ederek"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "something",
+   "pos": "pronoun",
+   "wordId": "something",
+   "sense": 0,
+   "context": "bir şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "new",
+   "pos": "adjective",
+   "wordId": "new",
+   "sense": 0,
+   "context": "yeni",
+   "note": "Sıfat *something*'den sonra gelir: *something new* → yeni bir şey.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (onlarda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 39,
+   "lemma": "them",
+   "pos": "pronoun",
+   "wordId": "them",
+   "sense": 0,
+   "context": "onlar (eserler)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "ambiguity",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "belirsizlik (çok anlamlılık)",
+   "note": "*ambiguous* (birden fazla anlama gelebilen) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "belirsizlik, çok anlamlılık",
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "(in this sense: bu anlamda)",
+   "note": "*in this sense* \"bu anlamda\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "in this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "in this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "sense",
+   "pos": "noun",
+   "wordId": "sense",
+   "sense": 0,
+   "context": "anlam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 43,
+    "text": "in this sense",
+    "meaning": "bu anlamda"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dir)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not A but B* \"A değil, B\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "flaw",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kusur",
+   "note": null,
+   "form": null,
+   "base": "kusur, hata",
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "source",
+   "pos": "noun",
+   "wordId": "source",
+   "sense": 0,
+   "context": "kaynak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(canlılık kaynağı)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "vitality",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "canlılık",
+   "note": "*vital* (hayati) sıfatından türemiş bir isimdir.",
+   "form": null,
+   "base": "canlılık, dirilik",
+   "phrase": {
+    "from": 45,
+    "to": 52,
+    "text": "not a flaw but a source of vitality",
+    "meaning": "bir kusur değil, bir canlılık kaynağı"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (belirsizlik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 54,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "bırakır",
+   "note": "*leave room for something* \"bir şeye yer bırakmak\" demektir.",
+   "form": "leave + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "leaves room",
+    "meaning": "yer bırakır"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "room",
+   "pos": "noun",
+   "wordId": "room",
+   "sense": 0,
+   "context": "yer",
+   "note": "*room* \"oda\" ve sayılamayan biçimde \"yer, alan\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 54,
+    "to": 55,
+    "text": "leaves room",
+    "meaning": "yer bırakır"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "for",
+   "pos": "preposition",
+   "wordId": "for",
+   "sense": 0,
+   "context": "için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 57,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 58,
+   "lemma": "viewer",
+   "pos": "noun",
+   "wordId": "viewer",
+   "sense": 0,
+   "context": "izleyici",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "reader",
+   "pos": "noun",
+   "wordId": "reader",
+   "sense": 0,
+   "context": "okur",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 62,
+   "lemma": "participate",
+   "pos": "verb",
+   "wordId": "participate",
+   "sense": 0,
+   "context": "katılmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 63,
+   "lemma": "transform",
+   "pos": "verb",
+   "wordId": "transform",
+   "sense": 0,
+   "context": "dönüştürerek",
+   "note": null,
+   "form": "transform + -ing",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "passive",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "edilgen",
+   "note": null,
+   "form": null,
+   "base": "edilgen, pasif",
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "consumption",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tüketim",
+   "note": null,
+   "form": null,
+   "base": "tüketim",
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "into",
+   "pos": "preposition",
+   "wordId": "into",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an active process*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "active",
+   "pos": "adjective",
+   "wordId": "active",
+   "sense": 0,
+   "context": "etkin",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "process",
+   "pos": "noun",
+   "wordId": "process",
+   "sense": 0,
+   "context": "süreç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(yorumlama süreci)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "interpretation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yorumlama",
+   "note": null,
+   "form": null,
+   "base": "yorum",
+   "phrase": {
+    "from": 63,
+    "to": 71,
+    "text": "transforming passive consumption into an active process of interpretation",
+    "meaning": "edilgen tüketimi etkin bir yorumlama sürecine dönüştürerek"
+   }
+  }
+ ]
+}

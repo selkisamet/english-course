@@ -1,0 +1,1270 @@
+{
+ "storyId": "story-c2-019",
+ "textHash": "3224f1c2c4a6",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Büyükannesi öldükten sonra Mira, eski bir bavulun astarının altına saklanmış bir deste mektup buldu."
+  },
+  {
+   "tr": "Hepsi aynı adama yazılmıştı, ancak hiçbiri postaya verilmemişti."
+  },
+  {
+   "tr": "Mektuplar kırk yılı kapsıyordu; tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe doğru değişiyordu."
+  },
+  {
+   "tr": "Mira o adamın kim olduğunu hiçbir zaman öğrenemedi."
+  },
+  {
+   "tr": "Yine de çok iyi tanıdığı bu kadının, kimsenin tahmin etmediği koca bir iç dünya taşıdığını anlamaya başladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "conjunction",
+   "wordId": "after",
+   "sense": 1,
+   "context": "-dikten sonra",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After her grandmother died",
+    "meaning": "büyükannesi öldükten sonra"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "her",
+   "pos": "determiner",
+   "wordId": "her",
+   "sense": 1,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After her grandmother died",
+    "meaning": "büyükannesi öldükten sonra"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "grandmother",
+   "pos": "noun",
+   "wordId": "grandmother",
+   "sense": 0,
+   "context": "büyükanne",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After her grandmother died",
+    "meaning": "büyükannesi öldükten sonra"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "die",
+   "pos": "verb",
+   "wordId": "die",
+   "sense": 0,
+   "context": "öldü",
+   "note": null,
+   "form": "die + -d (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After her grandmother died",
+    "meaning": "büyükannesi öldükten sonra"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "Mira",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mira",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "discover",
+   "pos": "verb",
+   "wordId": "discover",
+   "sense": 0,
+   "context": "buldu (keşfetti)",
+   "note": null,
+   "form": "discover + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a bundle of letters",
+    "meaning": "bir deste mektup"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "bundle",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "deste",
+   "note": "*a bundle of* \"bir deste, bir tomar\" demektir.",
+   "form": null,
+   "base": "deste, tomar, demet",
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a bundle of letters",
+    "meaning": "bir deste mektup"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "(bir deste)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a bundle of letters",
+    "meaning": "bir deste mektup"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektuplar",
+   "note": null,
+   "form": "letter'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 6,
+    "to": 9,
+    "text": "a bundle of letters",
+    "meaning": "bir deste mektup"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "hide",
+   "pos": "verb",
+   "wordId": "hide",
+   "sense": 0,
+   "context": "saklanmış",
+   "note": "İsimden sonra gelen fiilin 3. hali edilgen anlam taşır: *letters hidden beneath…* → … altına saklanmış mektuplar.",
+   "form": "hide fiilinin 3. hali (hidden, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "beneath",
+   "pos": "preposition",
+   "wordId": null,
+   "sense": null,
+   "context": "altına",
+   "note": "*beneath*, *under*'ın daha edebî karşılığıdır.",
+   "form": null,
+   "base": "altında, altına",
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "lining",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "astar",
+   "note": "*lining* bir bavulun ya da giysinin iç yüzündeki \"astar\"dır.",
+   "form": null,
+   "base": "astar",
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-in (bavulun)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an old suitcase*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "old",
+   "pos": "adjective",
+   "wordId": "old",
+   "sense": 0,
+   "context": "eski",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "suitcase",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bavul",
+   "note": null,
+   "form": null,
+   "base": "bavul, valiz",
+   "phrase": {
+    "from": 10,
+    "to": 17,
+    "text": "hidden beneath the lining of an old suitcase",
+    "meaning": "eski bir bavulun astarının altına saklanmış"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "each",
+   "pos": "pronoun",
+   "wordId": "each",
+   "sense": 1,
+   "context": "her biri (hepsi)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ılmıştı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "address",
+   "pos": "verb",
+   "wordId": "address",
+   "sense": 1,
+   "context": "yazılmıştı (adreslenmişti)",
+   "note": "*be addressed to someone* bir mektubun \"birine yazılmış, birine gönderilmek üzere adreslenmiş\" olması demektir.",
+   "form": "address fiilinin 3. hali (addressed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (adama)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "man",
+   "pos": "noun",
+   "wordId": "man",
+   "sense": 0,
+   "context": "adam",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 24,
+    "text": "was addressed to the same man",
+    "meaning": "aynı adama yazılmıştı"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak (yine de)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "none",
+   "pos": "pronoun",
+   "wordId": "none",
+   "sense": 0,
+   "context": "hiçbiri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "none had ever been posted",
+    "meaning": "hiçbiri postaya verilmemişti"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mamıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "none had ever been posted",
+    "meaning": "hiçbiri postaya verilmemişti"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "ever",
+   "pos": "adverb",
+   "wordId": "ever",
+   "sense": 0,
+   "context": "hiç",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "none had ever been posted",
+    "meaning": "hiçbiri postaya verilmemişti"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "none had ever been posted",
+    "meaning": "hiçbiri postaya verilmemişti"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "post",
+   "pos": "verb",
+   "wordId": "post",
+   "sense": 1,
+   "context": "postaya verilmek",
+   "note": "İngiliz İngilizcesinde *post a letter* \"mektubu postaya vermek\" demektir; Amerikan İngilizcesinde *mail* kullanılır.",
+   "form": "post fiilinin 3. hali (posted, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 30,
+    "text": "none had ever been posted",
+    "meaning": "hiçbiri postaya verilmemişti"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "letter",
+   "pos": "noun",
+   "wordId": "letter",
+   "sense": 0,
+   "context": "mektuplar",
+   "note": null,
+   "form": "letter'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "span",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "kapsıyordu",
+   "note": "*span* bir zaman dilimini \"kapsamak, boyunca sürmek\" demektir.",
+   "form": "span fiilinin geçmiş zaman hali (spanned, son harf n ikilenir)",
+   "base": "kapsamak, boyunca uzanmak",
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "spanned four decades",
+    "meaning": "kırk yılı kapsıyordu"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "four",
+   "pos": "number",
+   "wordId": "four",
+   "sense": 0,
+   "context": "dört",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "spanned four decades",
+    "meaning": "kırk yılı kapsıyordu"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıllar",
+   "note": "*four decades* \"dört on yıl\", yani kırk yıl demektir.",
+   "form": "decade'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 33,
+    "to": 35,
+    "text": "spanned four decades",
+    "meaning": "kırk yılı kapsıyordu"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 37,
+   "lemma": "tone",
+   "pos": "noun",
+   "wordId": "tone",
+   "sense": 0,
+   "context": "ton",
+   "note": "Virgülden sonra gelen *their tone shifting…* yapısı ek bilgi verir: \"tonları değişerek\".",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "shift",
+   "pos": "verb",
+   "wordId": "shift",
+   "sense": 1,
+   "context": "değişerek",
+   "note": null,
+   "form": "shift + -ing",
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "from",
+   "pos": "preposition",
+   "wordId": "from",
+   "sense": 0,
+   "context": "-den",
+   "note": "*from A to B* \"A'dan B'ye\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "passionate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "tutkulu",
+   "note": "*passion* (tutku) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "tutkulu, ateşli",
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "passionate longing",
+    "meaning": "tutkulu özlem"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "longing",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "özlem",
+   "note": "*longing* derin bir \"özlem, hasret\" demektir.",
+   "form": null,
+   "base": "özlem, hasret",
+   "phrase": {
+    "from": 40,
+    "to": 41,
+    "text": "passionate longing",
+    "meaning": "tutkulu özlem"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "tender",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "şefkatli",
+   "note": null,
+   "form": null,
+   "base": "şefkatli, sevecen; yumuşak",
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "almost",
+   "pos": "adverb",
+   "wordId": "almost",
+   "sense": 0,
+   "context": "neredeyse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "amused",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "eğlenen (hafifçe gülümseyen)",
+   "note": "*amused* bir şeyi \"eğlenceli bulan, tebessüm eden\" demektir.",
+   "form": null,
+   "base": "eğlenmiş, hoşuna gitmiş",
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "resignation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "kabulleniş",
+   "note": "*resignation* \"istifa\" ve \"kaderini kabullenme, teslimiyet\" demektir; burada ikinci anlamdadır.",
+   "form": null,
+   "base": "kabullenme, teslimiyet; istifa",
+   "phrase": {
+    "from": 37,
+    "to": 47,
+    "text": "their tone shifting from passionate longing to a tender, almost amused resignation",
+    "meaning": "tonları tutkulu bir özlemden şefkatli, neredeyse eğlenen bir kabullenişe değişerek"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "Mira",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Mira",
+   "note": null,
+   "form": null,
+   "base": "(kadın adı)",
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "never",
+   "pos": "adverb",
+   "wordId": "never",
+   "sense": 0,
+   "context": "hiçbir zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "learn",
+   "pos": "verb",
+   "wordId": "learn",
+   "sense": 0,
+   "context": "öğrendi",
+   "note": null,
+   "form": "learn + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "learned who he was",
+    "meaning": "kim olduğunu öğrendi"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "who",
+   "pos": "pronoun",
+   "wordId": "who",
+   "sense": 0,
+   "context": "kim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "learned who he was",
+    "meaning": "kim olduğunu öğrendi"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o (adam)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "learned who he was",
+    "meaning": "kim olduğunu öğrendi"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olduğunu)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs, geçmiş zaman hali (was)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 53,
+    "text": "learned who he was",
+    "meaning": "kim olduğunu öğrendi"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "nevertheless",
+   "pos": "adverb",
+   "wordId": "nevertheless",
+   "sense": 0,
+   "context": "yine de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Mira)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "başladı",
+   "note": "*come to* + fiil \"zamanla … -meye başlamak\" demektir: *came to understand* → anlamaya başladı.",
+   "form": "come fiilinin geçmiş zaman hali (came, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "came to understand",
+    "meaning": "anlamaya başladı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-meye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "came to understand",
+    "meaning": "anlamaya başladı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "understand",
+   "pos": "verb",
+   "wordId": "understand",
+   "sense": 0,
+   "context": "anlamak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 58,
+    "text": "came to understand",
+    "meaning": "anlamaya başladı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığını)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "woman",
+   "pos": "noun",
+   "wordId": "woman",
+   "sense": 0,
+   "context": "kadın",
+   "note": "İsimden sonra *that/whom* düşebilir: *the woman (whom) she had known* → tanıdığı kadın.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "she",
+   "pos": "pronoun",
+   "wordId": "she",
+   "sense": 0,
+   "context": "o (Mira)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "tanıdığı",
+   "note": null,
+   "form": "know fiilinin 3. hali (known, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "çok (o kadar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "well",
+   "pos": "adverb",
+   "wordId": "well",
+   "sense": 0,
+   "context": "iyi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 60,
+    "to": 66,
+    "text": "the woman she had known so well",
+    "meaning": "çok iyi tanıdığı kadın"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 68,
+   "lemma": "harbour",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "taşımıştı (saklamıştı)",
+   "note": "*harbour* isim olarak \"liman\", fiil olarak bir duyguyu ya da sırrı \"içinde taşımak, saklamak\" demektir.",
+   "form": "harbour fiilinin 3. hali (harboured, -ed)",
+   "base": "(içinde) taşımak, beslemek, saklamak",
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "harboured an entire inner life",
+    "meaning": "koca bir iç dünya taşımıştı"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an entire life*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "harboured an entire inner life",
+    "meaning": "koca bir iç dünya taşımıştı"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "entire",
+   "pos": "adjective",
+   "wordId": "entire",
+   "sense": 0,
+   "context": "koca (bütün)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "harboured an entire inner life",
+    "meaning": "koca bir iç dünya taşımıştı"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "inner",
+   "pos": "adjective",
+   "wordId": "inner",
+   "sense": 0,
+   "context": "iç",
+   "note": "*inner life* \"iç dünya, ruhsal hayat\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "harboured an entire inner life",
+    "meaning": "koca bir iç dünya taşımıştı"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "dünya (hayat)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 68,
+    "to": 72,
+    "text": "harboured an entire inner life",
+    "meaning": "koca bir iç dünya taşımıştı"
+   }
+  },
+  {
+   "i": 73,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 74,
+   "lemma": "no",
+   "pos": "determiner",
+   "wordId": "no",
+   "sense": 1,
+   "context": "hiç",
+   "note": "*no one* \"hiç kimse\" demektir ve ayrı yazılır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "no one",
+    "meaning": "hiç kimse"
+   }
+  },
+  {
+   "i": 75,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "kimse",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 74,
+    "to": 75,
+    "text": "no one",
+    "meaning": "hiç kimse"
+   }
+  },
+  {
+   "i": 76,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mediği)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 77,
+   "lemma": "suspect",
+   "pos": "verb",
+   "wordId": "suspect",
+   "sense": 0,
+   "context": "tahmin etmek (sezmek)",
+   "note": null,
+   "form": "suspect fiilinin 3. hali (suspected, -ed)",
+   "base": null,
+   "phrase": null
+  }
+ ]
+}

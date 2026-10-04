@@ -1,0 +1,1192 @@
+{
+ "storyId": "story-c2-038",
+ "textHash": "08e444242ad5",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Bazı deneyimler sözcüklere tamamen direniyor gibidir."
+  },
+  {
+   "tr": "Yası, hayranlığı ve yoğun bedensel acıyı anlatmak bilindiği üzere son derece zordur ve bunu yapma girişimleri çoğu zaman yetersiz, hatta sahte gelir."
+  },
+  {
+   "tr": "Şairler bu zorluğa dili terk ederek değil, onu zorlayarak karşılık vermiştir; doğrudan söylenemeyeni sezdirmek için mecaz ve ritimden yararlanırlar."
+  },
+  {
+   "tr": "Bu nedenle belki de en güçlü yazı, kendi sınırlarını kabul ederken yine de anlatılamaz olana doğru uzanan yazıdır."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "some",
+   "pos": "determiner",
+   "wordId": "some",
+   "sense": 0,
+   "context": "bazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 1,
+   "lemma": "experience",
+   "pos": "noun",
+   "wordId": "experience",
+   "sense": 0,
+   "context": "deneyimler",
+   "note": null,
+   "form": "experience'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 2,
+   "lemma": "seem",
+   "pos": "verb",
+   "wordId": "seem",
+   "sense": 0,
+   "context": "gibidir",
+   "note": "*seem to* + fiil \"… gibi görünmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 6,
+    "text": "seem to resist words altogether",
+    "meaning": "sözcüklere tamamen direniyor gibi"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 6,
+    "text": "seem to resist words altogether",
+    "meaning": "sözcüklere tamamen direniyor gibi"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "resist",
+   "pos": "verb",
+   "wordId": "resist",
+   "sense": 0,
+   "context": "direnmek",
+   "note": "*resist words* burada \"sözcüklerle anlatılmaya direnmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 6,
+    "text": "seem to resist words altogether",
+    "meaning": "sözcüklere tamamen direniyor gibi"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "word",
+   "pos": "noun",
+   "wordId": "word",
+   "sense": 0,
+   "context": "sözcükler",
+   "note": null,
+   "form": "word'ün çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 6,
+    "text": "seem to resist words altogether",
+    "meaning": "sözcüklere tamamen direniyor gibi"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "altogether",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tamamen",
+   "note": null,
+   "form": null,
+   "base": "tamamen, büsbütün",
+   "phrase": {
+    "from": 2,
+    "to": 6,
+    "text": "seem to resist words altogether",
+    "meaning": "sözcüklere tamamen direniyor gibi"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "grief",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yas (keder)",
+   "note": "*grief* özellikle birinin ölümünden sonra duyulan derin \"keder, yas\"tır.",
+   "form": null,
+   "base": "keder, yas",
+   "phrase": null
+  },
+  {
+   "i": 8,
+   "lemma": "wonder",
+   "pos": "noun",
+   "wordId": "wonder",
+   "sense": 1,
+   "context": "hayranlık (hayret)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 9,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 10,
+   "lemma": "intense",
+   "pos": "adjective",
+   "wordId": "intense",
+   "sense": 0,
+   "context": "yoğun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "intense physical pain",
+    "meaning": "yoğun bedensel acı"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "bedensel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "intense physical pain",
+    "meaning": "yoğun bedensel acı"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "pain",
+   "pos": "noun",
+   "wordId": "pain",
+   "sense": 0,
+   "context": "acı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "intense physical pain",
+    "meaning": "yoğun bedensel acı"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin çoğul hali (are)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "notoriously",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "bilindiği üzere",
+   "note": null,
+   "form": "notorious + -ly (sıfattan zarf)",
+   "base": "(kötü anlamda) herkesçe bilindiği üzere",
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "notoriously difficult to describe",
+    "meaning": "anlatması bilindiği üzere son derece zor"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "difficult",
+   "pos": "adjective",
+   "wordId": "difficult",
+   "sense": 0,
+   "context": "zor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "notoriously difficult to describe",
+    "meaning": "anlatması bilindiği üzere son derece zor"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "(-mak)",
+   "note": "Sıfat + *to* + fiil \"… -mesi … olan\" demektir: *difficult to describe* → anlatması zor.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "notoriously difficult to describe",
+    "meaning": "anlatması bilindiği üzere son derece zor"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "describe",
+   "pos": "verb",
+   "wordId": "describe",
+   "sense": 0,
+   "context": "anlatmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 17,
+    "text": "notoriously difficult to describe",
+    "meaning": "anlatması bilindiği üzere son derece zor"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 19,
+   "lemma": "attempt",
+   "pos": "noun",
+   "wordId": "attempt",
+   "sense": 0,
+   "context": "girişimler",
+   "note": null,
+   "form": "attempt'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "attempts to do so",
+    "meaning": "bunu yapma girişimleri"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-me (yapma)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "attempts to do so",
+    "meaning": "bunu yapma girişimleri"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "do",
+   "pos": "verb",
+   "wordId": "do",
+   "sense": 0,
+   "context": "yapmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "attempts to do so",
+    "meaning": "bunu yapma girişimleri"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "so",
+   "pos": "adverb",
+   "wordId": "so",
+   "sense": 0,
+   "context": "bunu",
+   "note": "*do so* \"bunu yapmak\" demektir ve önceki eylemin tekrarını önler: *to do so* = *to describe them*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 22,
+    "text": "attempts to do so",
+    "meaning": "bunu yapma girişimleri"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "often",
+   "pos": "adverb",
+   "wordId": "often",
+   "sense": 0,
+   "context": "çoğu zaman",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "gelir (hissettirir)",
+   "note": "*feel* + sıfat bir şey için \"… gibi gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "feel inadequate or even false",
+    "meaning": "yetersiz, hatta sahte gelir"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "inadequate",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yetersiz",
+   "note": "*in-* (olumsuzluk) + *adequate* (yeterli).",
+   "form": null,
+   "base": "yetersiz",
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "feel inadequate or even false",
+    "meaning": "yetersiz, hatta sahte gelir"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "(hatta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "feel inadequate or even false",
+    "meaning": "yetersiz, hatta sahte gelir"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "hatta",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "feel inadequate or even false",
+    "meaning": "yetersiz, hatta sahte gelir"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "false",
+   "pos": "adjective",
+   "wordId": "false",
+   "sense": 0,
+   "context": "sahte (yanlış)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 24,
+    "to": 28,
+    "text": "feel inadequate or even false",
+    "meaning": "yetersiz, hatta sahte gelir"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "poet",
+   "pos": "noun",
+   "wordId": "poet",
+   "sense": 0,
+   "context": "şairler",
+   "note": null,
+   "form": "poet'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miştir)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "have responded to this challenge",
+    "meaning": "bu zorluğa karşılık verdiler"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "respond",
+   "pos": "verb",
+   "wordId": "respond",
+   "sense": 0,
+   "context": "karşılık vermiştir",
+   "note": "*respond to something* \"bir şeye karşılık vermek\" demektir.",
+   "form": "respond fiilinin 3. hali (responded, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "have responded to this challenge",
+    "meaning": "bu zorluğa karşılık verdiler"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "have responded to this challenge",
+    "meaning": "bu zorluğa karşılık verdiler"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "this",
+   "pos": "determiner",
+   "wordId": "this",
+   "sense": 0,
+   "context": "bu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "have responded to this challenge",
+    "meaning": "bu zorluğa karşılık verdiler"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "challenge",
+   "pos": "noun",
+   "wordId": "challenge",
+   "sense": 0,
+   "context": "zorluk",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 30,
+    "to": 34,
+    "text": "have responded to this challenge",
+    "meaning": "bu zorluğa karşılık verdiler"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "değil",
+   "note": "*not by A but by B* \"A ile değil, B ile\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": "*by* + *-ing* bir şeyin nasıl yapıldığını anlatır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "abandon",
+   "pos": "verb",
+   "wordId": "abandon",
+   "sense": 0,
+   "context": "terk etmek",
+   "note": null,
+   "form": "abandon + -ing",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "language",
+   "pos": "noun",
+   "wordId": "language",
+   "sense": 0,
+   "context": "dil",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "but",
+   "pos": "conjunction",
+   "wordId": "but",
+   "sense": 0,
+   "context": "(… değil) ama",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "-erek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "stretch",
+   "pos": "verb",
+   "wordId": "stretch",
+   "sense": 0,
+   "context": "zorlamak (germek)",
+   "note": "*stretch* \"germek, esnetmek\" demektir; mecazen dilin sınırlarını \"zorlamak\" anlamına gelir.",
+   "form": "stretch + -ing",
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "onu (dili)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 35,
+    "to": 42,
+    "text": "not by abandoning language but by stretching it",
+    "meaning": "dili terk ederek değil, onu zorlayarak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "use",
+   "pos": "verb",
+   "wordId": "use",
+   "sense": 0,
+   "context": "yararlanarak (kullanarak)",
+   "note": null,
+   "form": "use + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "using metaphor and rhythm",
+    "meaning": "mecaz ve ritimden yararlanarak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "metaphor",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "mecaz",
+   "note": null,
+   "form": null,
+   "base": "mecaz, eğretileme",
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "using metaphor and rhythm",
+    "meaning": "mecaz ve ritimden yararlanarak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "using metaphor and rhythm",
+    "meaning": "mecaz ve ritimden yararlanarak"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "rhythm",
+   "pos": "noun",
+   "wordId": "rhythm",
+   "sense": 0,
+   "context": "ritim",
+   "note": "*rhythm*'daki *h*'ler okunmaz (\"ridım\").",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 46,
+    "text": "using metaphor and rhythm",
+    "meaning": "mecaz ve ritimden yararlanarak"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "suggest",
+   "pos": "verb",
+   "wordId": "suggest",
+   "sense": 0,
+   "context": "sezdirmek (ima etmek)",
+   "note": "*suggest* \"önermek\" demektir; burada \"dolaylı olarak hissettirmek, ima etmek\" anlamındadır.",
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "what",
+   "pos": "pronoun",
+   "wordId": "what",
+   "sense": 0,
+   "context": "(… -en) şey",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 53,
+    "text": "what cannot be stated directly",
+    "meaning": "doğrudan söylenemeyen"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "cannot",
+   "pos": "modal verb",
+   "wordId": "cannot",
+   "sense": 0,
+   "context": "-emez",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 53,
+    "text": "what cannot be stated directly",
+    "meaning": "doğrudan söylenemeyen"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-n-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 53,
+    "text": "what cannot be stated directly",
+    "meaning": "doğrudan söylenemeyen"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "state",
+   "pos": "verb",
+   "wordId": "state",
+   "sense": 2,
+   "context": "söylenmek (ifade edilmek)",
+   "note": null,
+   "form": "state fiilinin 3. hali (stated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 53,
+    "text": "what cannot be stated directly",
+    "meaning": "doğrudan söylenemeyen"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "directly",
+   "pos": "adverb",
+   "wordId": "directly",
+   "sense": 0,
+   "context": "doğrudan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 49,
+    "to": 53,
+    "text": "what cannot be stated directly",
+    "meaning": "doğrudan söylenemeyen"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "perhaps",
+   "pos": "adverb",
+   "wordId": "perhaps",
+   "sense": 0,
+   "context": "belki de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 55,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "the most powerful writing",
+    "meaning": "en güçlü yazı"
+   }
+  },
+  {
+   "i": 56,
+   "lemma": "most",
+   "pos": "adverb",
+   "wordId": "most",
+   "sense": 2,
+   "context": "en",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "the most powerful writing",
+    "meaning": "en güçlü yazı"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "powerful",
+   "pos": "adjective",
+   "wordId": "powerful",
+   "sense": 0,
+   "context": "güçlü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "the most powerful writing",
+    "meaning": "en güçlü yazı"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "writing",
+   "pos": "noun",
+   "wordId": "writing",
+   "sense": 0,
+   "context": "yazı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 55,
+    "to": 58,
+    "text": "the most powerful writing",
+    "meaning": "en güçlü yazı"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "therefore",
+   "pos": "adverb",
+   "wordId": "therefore",
+   "sense": 0,
+   "context": "bu nedenle",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 60,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(-dır)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 61,
+   "lemma": "that",
+   "pos": "pronoun",
+   "wordId": "that",
+   "sense": 1,
+   "context": "o",
+   "note": "*that which* \"… olan şey, o ki\" anlamında resmî bir yapıdır.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "that which",
+    "meaning": "o ki, … olan"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "which",
+   "pos": "pronoun",
+   "wordId": "which",
+   "sense": 0,
+   "context": "(-an)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 62,
+    "text": "that which",
+    "meaning": "o ki, … olan"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "acknowledge",
+   "pos": "verb",
+   "wordId": "acknowledge",
+   "sense": 0,
+   "context": "kabul eden",
+   "note": null,
+   "form": "acknowledge + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "acknowledges its own limits",
+    "meaning": "kendi sınırlarını kabul eder"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "its",
+   "pos": "determiner",
+   "wordId": "its",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "acknowledges its own limits",
+    "meaning": "kendi sınırlarını kabul eder"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "acknowledges its own limits",
+    "meaning": "kendi sınırlarını kabul eder"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "limit",
+   "pos": "noun",
+   "wordId": "limit",
+   "sense": 0,
+   "context": "sınırlar",
+   "note": null,
+   "form": "limit'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 63,
+    "to": 66,
+    "text": "acknowledges its own limits",
+    "meaning": "kendi sınırlarını kabul eder"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "while",
+   "pos": "conjunction",
+   "wordId": "while",
+   "sense": 0,
+   "context": "-ken",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "yine de (hâlâ)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "reach",
+   "pos": "verb",
+   "wordId": "reach",
+   "sense": 0,
+   "context": "uzanmak",
+   "note": null,
+   "form": "reach + -ing",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "towards",
+   "pos": "preposition",
+   "wordId": "towards",
+   "sense": 0,
+   "context": "-e doğru",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": "*the* + sıfat soyut bir kavramı anlatabilir: *the inexpressible* → anlatılamaz olan.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  },
+  {
+   "i": 72,
+   "lemma": "inexpressible",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "anlatılamaz olan",
+   "note": "*in-* (olumsuzluk) + *express* (ifade etmek) + *-ible* (-ebilir).",
+   "form": null,
+   "base": "anlatılamaz, ifade edilemez",
+   "phrase": {
+    "from": 67,
+    "to": 72,
+    "text": "while still reaching towards the inexpressible",
+    "meaning": "yine de anlatılamaz olana doğru uzanırken"
+   }
+  }
+ ]
+}

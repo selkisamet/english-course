@@ -1,0 +1,1143 @@
+{
+ "storyId": "story-c2-046",
+ "textHash": "d3cafd1cd485",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Eski bir bilmece, tahtaları tek tek değiştirilen ve sonunda asıl tahtadan hiçbir parçası kalmayan bir geminin hâlâ aynı gemi olup olmadığını sorar."
+  },
+  {
+   "tr": "Soru önemsiz gibi görünebilir, ancak derin bir soruna değinir."
+  },
+  {
+   "tr": "Bedenlerimiz hücrelerini sürekli yeniler, inançlarımız ve anılarımız da on yıllar içinde değişir."
+  },
+  {
+   "tr": "Filozofların sorduğu gibi, kimlik fiziksel maddemizde bulunmuyorsa tam olarak nerede bulunur?"
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an ancient puzzle*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "An ancient puzzle",
+    "meaning": "eski bir bilmece"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "ancient",
+   "pos": "adjective",
+   "wordId": "ancient",
+   "sense": 0,
+   "context": "eski (antik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "An ancient puzzle",
+    "meaning": "eski bir bilmece"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "puzzle",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "bilmece",
+   "note": "*puzzle* \"bulmaca, bilmece; çözülmesi zor sorun\" demektir.",
+   "form": null,
+   "base": "bilmece, bulmaca",
+   "phrase": {
+    "from": 0,
+    "to": 2,
+    "text": "An ancient puzzle",
+    "meaning": "eski bir bilmece"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sorar",
+   "note": null,
+   "form": "ask + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 4,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediğini",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 6,
+   "lemma": "ship",
+   "pos": "noun",
+   "wordId": "ship",
+   "sense": 0,
+   "context": "gemi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 7,
+   "lemma": "whose",
+   "pos": "determiner",
+   "wordId": "whose",
+   "sense": 0,
+   "context": "(-nin … -leri)",
+   "note": "*whose* ilgi zamiri olarak iyelik bildirir: *a ship whose planks…* → tahtaları … olan bir gemi.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "whose planks have been replaced",
+    "meaning": "tahtaları değiştirilmiş"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "plank",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tahtalar (kalaslar)",
+   "note": null,
+   "form": "plank'in çoğulu",
+   "base": "kalas, tahta",
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "whose planks have been replaced",
+    "meaning": "tahtaları değiştirilmiş"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-miş)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "whose planks have been replaced",
+    "meaning": "tahtaları değiştirilmiş"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "whose planks have been replaced",
+    "meaning": "tahtaları değiştirilmiş"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "değiştirilmek",
+   "note": null,
+   "form": "replace fiilinin 3. hali (replaced, -d)",
+   "base": null,
+   "phrase": {
+    "from": 7,
+    "to": 11,
+    "text": "whose planks have been replaced",
+    "meaning": "tahtaları değiştirilmiş"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one by one: tek tek)",
+   "note": "*one by one* \"tek tek, birer birer\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "one by one",
+    "meaning": "tek tek"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "by",
+   "pos": "preposition",
+   "wordId": "by",
+   "sense": 0,
+   "context": "(one by one)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "one by one",
+    "meaning": "tek tek"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "one",
+   "pos": "pronoun",
+   "wordId": "one",
+   "sense": 2,
+   "context": "(one by one)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 12,
+    "to": 14,
+    "text": "one by one",
+    "meaning": "tek tek"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "until",
+   "pos": "conjunction",
+   "wordId": "until",
+   "sense": 0,
+   "context": "-ene kadar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "none",
+   "pos": "pronoun",
+   "wordId": "none",
+   "sense": 0,
+   "context": "hiçbiri",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "original",
+   "pos": "adjective",
+   "wordId": "original",
+   "sense": 0,
+   "context": "asıl (ilk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "wood",
+   "pos": "noun",
+   "wordId": "wood",
+   "sense": 0,
+   "context": "tahta (ahşap)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "remain",
+   "pos": "verb",
+   "wordId": "remain",
+   "sense": 0,
+   "context": "kalmak",
+   "note": null,
+   "form": "remain + -s (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 15,
+    "to": 21,
+    "text": "until none of the original wood remains",
+    "meaning": "asıl tahtadan hiçbir şey kalmayana kadar"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "(olup olmadığı)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "is still the same ship",
+    "meaning": "hâlâ aynı gemi midir"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "still",
+   "pos": "adverb",
+   "wordId": "still",
+   "sense": 0,
+   "context": "hâlâ",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "is still the same ship",
+    "meaning": "hâlâ aynı gemi midir"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "is still the same ship",
+    "meaning": "hâlâ aynı gemi midir"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "same",
+   "pos": "adjective",
+   "wordId": "same",
+   "sense": 0,
+   "context": "aynı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "is still the same ship",
+    "meaning": "hâlâ aynı gemi midir"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "ship",
+   "pos": "noun",
+   "wordId": "ship",
+   "sense": 0,
+   "context": "gemi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 26,
+    "text": "is still the same ship",
+    "meaning": "hâlâ aynı gemi midir"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 28,
+   "lemma": "question",
+   "pos": "noun",
+   "wordId": "question",
+   "sense": 0,
+   "context": "soru",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 29,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "may sound trivial",
+    "meaning": "önemsiz gibi görünebilir"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "sound",
+   "pos": "verb",
+   "wordId": "sound",
+   "sense": 1,
+   "context": "gibi görünmek (kulağa gelmek)",
+   "note": "*sound* + sıfat \"kulağa … gelmek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "may sound trivial",
+    "meaning": "önemsiz gibi görünebilir"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "trivial",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "önemsiz",
+   "note": null,
+   "form": null,
+   "base": "önemsiz, değersiz",
+   "phrase": {
+    "from": 29,
+    "to": 31,
+    "text": "may sound trivial",
+    "meaning": "önemsiz gibi görünebilir"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "yet",
+   "pos": "conjunction",
+   "wordId": "yet",
+   "sense": 1,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (soru)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "touch",
+   "pos": "verb",
+   "wordId": "touch",
+   "sense": 0,
+   "context": "değinir",
+   "note": "*touch on something* \"bir konuya değinmek\" demektir.",
+   "form": "touch + -es (geniş zaman, 3. tekil şahıs)",
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "touches on a profound problem",
+    "meaning": "derin bir soruna değinir"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "on",
+   "pos": "preposition",
+   "wordId": "on",
+   "sense": 0,
+   "context": "(touch on)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "touches on a profound problem",
+    "meaning": "derin bir soruna değinir"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "touches on a profound problem",
+    "meaning": "derin bir soruna değinir"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "profound",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "derin",
+   "note": null,
+   "form": null,
+   "base": "derin, köklü",
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "touches on a profound problem",
+    "meaning": "derin bir soruna değinir"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "problem",
+   "pos": "noun",
+   "wordId": "problem",
+   "sense": 0,
+   "context": "sorun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 38,
+    "text": "touches on a profound problem",
+    "meaning": "derin bir soruna değinir"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 40,
+   "lemma": "own",
+   "pos": "adjective",
+   "wordId": "own",
+   "sense": 0,
+   "context": "kendi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "body",
+   "pos": "noun",
+   "wordId": "body",
+   "sense": 0,
+   "context": "bedenler",
+   "note": null,
+   "form": "body'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 42,
+   "lemma": "continually",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sürekli",
+   "note": "*continual* (sürekli) sıfatından *-ly* ile zarf yapılmıştır.",
+   "form": "continual + -ly (sıfattan zarf)",
+   "base": "sürekli, durmadan",
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "continually replace their cells",
+    "meaning": "hücrelerini sürekli yeniler"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "replace",
+   "pos": "verb",
+   "wordId": "replace",
+   "sense": 0,
+   "context": "yeniler (yerine yenisini koyar)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "continually replace their cells",
+    "meaning": "hücrelerini sürekli yeniler"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "their",
+   "pos": "determiner",
+   "wordId": "their",
+   "sense": 0,
+   "context": "onların",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "continually replace their cells",
+    "meaning": "hücrelerini sürekli yeniler"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "cell",
+   "pos": "noun",
+   "wordId": "cell",
+   "sense": 0,
+   "context": "hücreler",
+   "note": null,
+   "form": "cell'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 42,
+    "to": 45,
+    "text": "continually replace their cells",
+    "meaning": "hücrelerini sürekli yeniler"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 47,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 48,
+   "lemma": "belief",
+   "pos": "noun",
+   "wordId": "belief",
+   "sense": 0,
+   "context": "inançlar",
+   "note": null,
+   "form": "belief'in çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "anılar",
+   "note": null,
+   "form": "memory'nin çoğulu (y → ies)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "change",
+   "pos": "verb",
+   "wordId": "change",
+   "sense": 0,
+   "context": "değişir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "change over the decades",
+    "meaning": "on yıllar içinde değişir"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "over",
+   "pos": "preposition",
+   "wordId": "over",
+   "sense": 0,
+   "context": "içinde (boyunca)",
+   "note": "*over the years/decades* \"yıllar/on yıllar içinde\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "change over the decades",
+    "meaning": "on yıllar içinde değişir"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "change over the decades",
+    "meaning": "on yıllar içinde değişir"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "decade",
+   "pos": "noun",
+   "wordId": "decade",
+   "sense": 0,
+   "context": "on yıllar",
+   "note": null,
+   "form": "decade'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 51,
+    "to": 54,
+    "text": "change over the decades",
+    "meaning": "on yıllar içinde değişir"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "if",
+   "pos": "conjunction",
+   "wordId": "if",
+   "sense": 0,
+   "context": "-se",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "identity",
+   "pos": "noun",
+   "wordId": "identity",
+   "sense": 0,
+   "context": "kimlik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(-mıyor)",
+   "note": null,
+   "form": "do fiilinin 3. tekil şahıs hali (does)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "not",
+   "pos": "adverb",
+   "wordId": "not",
+   "sense": 0,
+   "context": "-me (olumsuzluk)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "reside",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "bulunmak",
+   "note": "*reside* \"ikamet etmek\" demektir; soyut şeyler için \"bulunmak, yer almak\" anlamına gelir.",
+   "form": null,
+   "base": "oturmak, ikamet etmek; bulunmak",
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (maddemizde)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "our",
+   "pos": "determiner",
+   "wordId": "our",
+   "sense": 0,
+   "context": "bizim",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "physical",
+   "pos": "adjective",
+   "wordId": "physical",
+   "sense": 0,
+   "context": "fiziksel",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "material",
+   "pos": "noun",
+   "wordId": "material",
+   "sense": 0,
+   "context": "madde (malzeme)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 63,
+    "text": "If identity does not reside in our physical material",
+    "meaning": "kimlik fiziksel maddemizde bulunmuyorsa"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "philosopher",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "filozoflar",
+   "note": "Virgüller arasındaki *philosophers ask* \"filozofların sorduğu gibi\" demektir.",
+   "form": "philosopher'ın çoğulu",
+   "base": "filozof, felsefeci",
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "philosophers ask",
+    "meaning": "filozofların sorduğu gibi"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "ask",
+   "pos": "verb",
+   "wordId": "ask",
+   "sense": 0,
+   "context": "sorar",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 64,
+    "to": 65,
+    "text": "philosophers ask",
+    "meaning": "filozofların sorduğu gibi"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "where",
+   "pos": "adverb",
+   "wordId": "where",
+   "sense": 0,
+   "context": "nerede",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "where exactly does it lie",
+    "meaning": "tam olarak nerede bulunur"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "exactly",
+   "pos": "adverb",
+   "wordId": "exactly",
+   "sense": 0,
+   "context": "tam olarak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "where exactly does it lie",
+    "meaning": "tam olarak nerede bulunur"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(soru)",
+   "note": "Soru cümlesinde *does* özneden önce gelir: *where does it lie?*",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "where exactly does it lie",
+    "meaning": "tam olarak nerede bulunur"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "it",
+   "pos": "pronoun",
+   "wordId": "it",
+   "sense": 0,
+   "context": "o (kimlik)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "where exactly does it lie",
+    "meaning": "tam olarak nerede bulunur"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 0,
+   "context": "bulunur (yatar)",
+   "note": "*lie* \"uzanmak, yatmak\" demektir; soyut şeyler için \"bulunmak, yatmak\" anlamına gelir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 70,
+    "text": "where exactly does it lie",
+    "meaning": "tam olarak nerede bulunur"
+   }
+  }
+ ]
+}

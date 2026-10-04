@@ -1,0 +1,1175 @@
+{
+ "storyId": "story-c2-033",
+ "textHash": "026df90d4e69",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Ahlak felsefecileri, yalan söylemenin hiç haklı görülüp görülemeyeceğini uzun zamandır tartışıyor."
+  },
+  {
+   "tr": "Ancak gündelik hayatta çoğu insan, hayal kırıklığı yaratan bir yemeği överek ya da istenmeyen bir hediyeye çok sevinmiş gibi yaparak hiç tereddüt etmeden küçük yalanlar söyler."
+  },
+  {
+   "tr": "Bazılarına göre bu tür yalanlar toplumsal hayatın sorunsuz işlemesini sağlar ve az bir bedelle insanların duygularını incitmekten korur."
+  },
+  {
+   "tr": "Diğerleri ise ne kadar küçük olursa olsun, alışkanlık haline gelen sahtekârlığın güveni yavaş yavaş aşındırdığı konusunda uyarıyor; çünkü iyilik olsun diye yalan söylediği bilinen biri, kötülük olsun diye de yalan söylemekten şüphelenilebilir."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "moral",
+   "pos": "adjective",
+   "wordId": "moral",
+   "sense": 0,
+   "context": "ahlak (ahlaki)",
+   "note": "*moral philosophers* \"ahlak felsefecileri\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Moral philosophers",
+    "meaning": "ahlak felsefecileri"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "philosopher",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "felsefeciler",
+   "note": null,
+   "form": "philosopher'ın çoğulu",
+   "base": "filozof, felsefeci",
+   "phrase": {
+    "from": 0,
+    "to": 1,
+    "text": "Moral philosophers",
+    "meaning": "ahlak felsefecileri"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-yor)",
+   "note": null,
+   "form": "have (çoğul)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "long",
+   "pos": "adverb",
+   "wordId": "long",
+   "sense": 1,
+   "context": "uzun zamandır",
+   "note": "*long* zarf olarak yardımcı fiilden sonra \"uzun zamandır\" anlamı verir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "debate",
+   "pos": "verb",
+   "wordId": "debate",
+   "sense": 1,
+   "context": "tartışıyor",
+   "note": null,
+   "form": "debate fiilinin 3. hali (debated, -d)",
+   "base": null,
+   "phrase": {
+    "from": 2,
+    "to": 4,
+    "text": "have long debated",
+    "meaning": "uzun zamandır tartışıyor"
+   }
+  },
+  {
+   "i": 5,
+   "lemma": "whether",
+   "pos": "conjunction",
+   "wordId": "whether",
+   "sense": 0,
+   "context": "-ip -mediği",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "whether lying is ever justified",
+    "meaning": "yalan söylemenin hiç haklı olup olamayacağı"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 1,
+   "context": "yalan söylemek",
+   "note": "*lie* \"uzanmak\" ve \"yalan söylemek\" anlamında iki ayrı fiildir; yalan anlamındaki fiilin *-ing* hali *lying*'dir.",
+   "form": "lie + -ing (lying, ie → y)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "whether lying is ever justified",
+    "meaning": "yalan söylemenin hiç haklı olup olamayacağı"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-ıl-)",
+   "note": null,
+   "form": "be fiilinin 3. tekil şahıs hali (is)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "whether lying is ever justified",
+    "meaning": "yalan söylemenin hiç haklı olup olamayacağı"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "ever",
+   "pos": "adverb",
+   "wordId": "ever",
+   "sense": 0,
+   "context": "hiç (hiçbir zaman)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "whether lying is ever justified",
+    "meaning": "yalan söylemenin hiç haklı olup olamayacağı"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "justify",
+   "pos": "verb",
+   "wordId": "justify",
+   "sense": 0,
+   "context": "haklı görülmek",
+   "note": null,
+   "form": "justify fiilinin 3. hali (justified, y → ied)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 9,
+    "text": "whether lying is ever justified",
+    "meaning": "yalan söylemenin hiç haklı olup olamayacağı"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hayatta)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "In everyday life",
+    "meaning": "gündelik hayatta"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "everyday",
+   "pos": "adjective",
+   "wordId": "everyday",
+   "sense": 0,
+   "context": "gündelik",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "In everyday life",
+    "meaning": "gündelik hayatta"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 10,
+    "to": 12,
+    "text": "In everyday life",
+    "meaning": "gündelik hayatta"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ancak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 14,
+   "lemma": "most",
+   "pos": "determiner",
+   "wordId": "most",
+   "sense": 0,
+   "context": "çoğu",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 15,
+   "lemma": "people",
+   "pos": "noun",
+   "wordId": "people",
+   "sense": 0,
+   "context": "insan",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 16,
+   "lemma": "tell",
+   "pos": "verb",
+   "wordId": "tell",
+   "sense": 0,
+   "context": "söyler",
+   "note": "*tell a lie* \"yalan söylemek\" demektir (✗ say a lie).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "tell small untruths",
+    "meaning": "küçük yalanlar söylemek"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "small",
+   "pos": "adjective",
+   "wordId": "small",
+   "sense": 0,
+   "context": "küçük",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "tell small untruths",
+    "meaning": "küçük yalanlar söylemek"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "untruth",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "yalanlar",
+   "note": "*un-* (olumsuzluk) + *truth* (gerçek): \"gerçek olmayan söz\", *lie*'nin kibar karşılığı.",
+   "form": "untruth'un çoğulu",
+   "base": "yalan, gerçek dışı söz",
+   "phrase": {
+    "from": 16,
+    "to": 18,
+    "text": "tell small untruths",
+    "meaning": "küçük yalanlar söylemek"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "without",
+   "pos": "preposition",
+   "wordId": "without",
+   "sense": 0,
+   "context": "-meden",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "without hesitation",
+    "meaning": "tereddüt etmeden"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "hesitation",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "tereddüt",
+   "note": "*hesitate* (tereddüt etmek) fiilinden türemiş bir isimdir.",
+   "form": null,
+   "base": "tereddüt, duraksama",
+   "phrase": {
+    "from": 19,
+    "to": 20,
+    "text": "without hesitation",
+    "meaning": "tereddüt etmeden"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "praise",
+   "pos": "verb",
+   "wordId": "praise",
+   "sense": 1,
+   "context": "överek",
+   "note": null,
+   "form": "praise + -ing (sondaki e düşer)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 22,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "a disappointing meal",
+    "meaning": "hayal kırıklığı yaratan bir yemek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "disappointing",
+   "pos": "adjective",
+   "wordId": "disappointing",
+   "sense": 0,
+   "context": "hayal kırıklığı yaratan",
+   "note": "*disappointing* (hayal kırıklığı yaratan şey), *disappointed* ise \"hayal kırıklığına uğramış (kişi)\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "a disappointing meal",
+    "meaning": "hayal kırıklığı yaratan bir yemek"
+   }
+  },
+  {
+   "i": 24,
+   "lemma": "meal",
+   "pos": "noun",
+   "wordId": "meal",
+   "sense": 0,
+   "context": "yemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 22,
+    "to": 24,
+    "text": "a disappointing meal",
+    "meaning": "hayal kırıklığı yaratan bir yemek"
+   }
+  },
+  {
+   "i": 25,
+   "lemma": "or",
+   "pos": "conjunction",
+   "wordId": "or",
+   "sense": 0,
+   "context": "ya da",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 26,
+   "lemma": "pretend",
+   "pos": "verb",
+   "wordId": "pretend",
+   "sense": 0,
+   "context": "-miş gibi yaparak",
+   "note": "*pretend to be* + sıfat \"… gibi görünmeye çalışmak, … -miş gibi yapmak\" demektir.",
+   "form": "pretend + -ing",
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "be",
+   "pos": "verb",
+   "wordId": "be",
+   "sense": 0,
+   "context": "olmak",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "delighted",
+   "pos": "adjective",
+   "wordId": "delighted",
+   "sense": 0,
+   "context": "çok sevinmiş",
+   "note": "*be delighted with something* \"bir şeyden çok memnun olmak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 30,
+   "lemma": "with",
+   "pos": "preposition",
+   "wordId": "with",
+   "sense": 0,
+   "context": "-e (hediyeye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 31,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": "Sesli harfle başlayan kelimelerden önce *a* yerine *an* kullanılır: *an unwanted gift*.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 32,
+   "lemma": "unwanted",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "istenmeyen",
+   "note": null,
+   "form": null,
+   "base": "istenmeyen",
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 33,
+   "lemma": "gift",
+   "pos": "noun",
+   "wordId": "gift",
+   "sense": 0,
+   "context": "hediye",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 26,
+    "to": 33,
+    "text": "pretending to be delighted with an unwanted gift",
+    "meaning": "istenmeyen bir hediyeye çok sevinmiş gibi yaparak"
+   }
+  },
+  {
+   "i": 34,
+   "lemma": "such",
+   "pos": "determiner",
+   "wordId": "such",
+   "sense": 0,
+   "context": "bu tür",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 35,
+   "lemma": "lie",
+   "pos": "noun",
+   "wordId": "lie",
+   "sense": 2,
+   "context": "yalanlar",
+   "note": null,
+   "form": "lie'ın çoğulu",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 36,
+   "lemma": "some",
+   "pos": "pronoun",
+   "wordId": "some",
+   "sense": 1,
+   "context": "bazıları",
+   "note": "Virgüller arasındaki *some argue* \"bazılarına göre\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "some argue",
+    "meaning": "bazılarına göre"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "argue",
+   "pos": "verb",
+   "wordId": "argue",
+   "sense": 0,
+   "context": "savunuyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 36,
+    "to": 37,
+    "text": "some argue",
+    "meaning": "bazılarına göre"
+   }
+  },
+  {
+   "i": 38,
+   "lemma": "make",
+   "pos": "verb",
+   "wordId": "make",
+   "sense": 0,
+   "context": "sağlar",
+   "note": "*make something do something* \"bir şeyin … yapmasını sağlamak\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "make social life run smoothly",
+    "meaning": "toplumsal hayatın sorunsuz işlemesini sağlamak"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "social",
+   "pos": "adjective",
+   "wordId": "social",
+   "sense": 0,
+   "context": "toplumsal (sosyal)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "make social life run smoothly",
+    "meaning": "toplumsal hayatın sorunsuz işlemesini sağlamak"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "life",
+   "pos": "noun",
+   "wordId": "life",
+   "sense": 0,
+   "context": "hayat",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "make social life run smoothly",
+    "meaning": "toplumsal hayatın sorunsuz işlemesini sağlamak"
+   }
+  },
+  {
+   "i": 41,
+   "lemma": "run",
+   "pos": "verb",
+   "wordId": "run",
+   "sense": 0,
+   "context": "işlemek",
+   "note": "*run smoothly* \"sorunsuz işlemek, aksamadan yürümek\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "make social life run smoothly",
+    "meaning": "toplumsal hayatın sorunsuz işlemesini sağlamak"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "smoothly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "sorunsuz",
+   "note": "*-ly* eki sıfattan zarf yapar: *smooth* (pürüzsüz) → *smoothly* (sorunsuzca).",
+   "form": "smooth + -ly (sıfattan zarf)",
+   "base": "sorunsuzca, pürüzsüzce",
+   "phrase": {
+    "from": 38,
+    "to": 42,
+    "text": "make social life run smoothly",
+    "meaning": "toplumsal hayatın sorunsuz işlemesini sağlamak"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "spare",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "(incitmekten) koruyarak",
+   "note": "*spare someone's feelings* \"birinin duygularını incitmemek\" demektir.",
+   "form": "spare + -ing (sondaki e düşer)",
+   "base": "esirgemek; (duygularını) incitmemek",
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "sparing feelings",
+    "meaning": "duyguları incitmekten koruyarak"
+   }
+  },
+  {
+   "i": 44,
+   "lemma": "feeling",
+   "pos": "noun",
+   "wordId": "feeling",
+   "sense": 0,
+   "context": "duygular",
+   "note": null,
+   "form": "feeling'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 43,
+    "to": 44,
+    "text": "sparing feelings",
+    "meaning": "duyguları incitmekten koruyarak"
+   }
+  },
+  {
+   "i": 45,
+   "lemma": "at",
+   "pos": "preposition",
+   "wordId": "at",
+   "sense": 0,
+   "context": "-le (bedelle)",
+   "note": "*at little cost* \"az bir bedelle, ucuza\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "at little cost",
+    "meaning": "az bir bedelle"
+   }
+  },
+  {
+   "i": 46,
+   "lemma": "little",
+   "pos": "determiner",
+   "wordId": "little",
+   "sense": 1,
+   "context": "az",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "at little cost",
+    "meaning": "az bir bedelle"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "cost",
+   "pos": "noun",
+   "wordId": "cost",
+   "sense": 0,
+   "context": "bedel (maliyet)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 45,
+    "to": 47,
+    "text": "at little cost",
+    "meaning": "az bir bedelle"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "other",
+   "pos": "pronoun",
+   "wordId": "other",
+   "sense": 1,
+   "context": "diğerleri",
+   "note": null,
+   "form": "other'ın çoğulu (others)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 49,
+   "lemma": "warn",
+   "pos": "verb",
+   "wordId": "warn",
+   "sense": 0,
+   "context": "uyarıyor",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 50,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-dığı konusunda)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 51,
+   "lemma": "habitual",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "alışkanlık haline gelen",
+   "note": "*habit* (alışkanlık) isminden türemiş bir sıfattır.",
+   "form": null,
+   "base": "alışkanlık haline gelmiş, olağan",
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "habitual dishonesty",
+    "meaning": "alışkanlık haline gelen sahtekârlık"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "dishonesty",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "sahtekârlık",
+   "note": null,
+   "form": null,
+   "base": "sahtekârlık, dürüst olmama",
+   "phrase": {
+    "from": 51,
+    "to": 52,
+    "text": "habitual dishonesty",
+    "meaning": "alışkanlık haline gelen sahtekârlık"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "however",
+   "pos": "adverb",
+   "wordId": "however",
+   "sense": 0,
+   "context": "ne kadar",
+   "note": "*however* + sıfat \"ne kadar … olursa olsun\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "however minor",
+    "meaning": "ne kadar küçük olursa olsun"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "minor",
+   "pos": "adjective",
+   "wordId": "minor",
+   "sense": 0,
+   "context": "küçük (önemsiz)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 53,
+    "to": 54,
+    "text": "however minor",
+    "meaning": "ne kadar küçük olursa olsun"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "erode",
+   "pos": "verb",
+   "wordId": null,
+   "sense": null,
+   "context": "aşındırır",
+   "note": "*erode* toprağın ya da kayanın \"aşınması\" demektir; mecazen güven gibi şeyler için de kullanılır.",
+   "form": "erode + -s (geniş zaman, 3. tekil şahıs)",
+   "base": "aşındırmak, aşınmak",
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "erodes trust",
+    "meaning": "güveni aşındırır"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "trust",
+   "pos": "noun",
+   "wordId": "trust",
+   "sense": 0,
+   "context": "güven",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 57,
+    "text": "erodes trust",
+    "meaning": "güveni aşındırır"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "since",
+   "pos": "conjunction",
+   "wordId": "since",
+   "sense": 1,
+   "context": "çünkü",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 59,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "person",
+   "pos": "noun",
+   "wordId": "person",
+   "sense": 0,
+   "context": "kişi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "know",
+   "pos": "verb",
+   "wordId": "know",
+   "sense": 0,
+   "context": "bilinen",
+   "note": "*be known to do something* \"bir şeyi yaptığı bilinmek\" demektir.",
+   "form": "know fiilinin 3. hali (known, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 1,
+   "context": "yalan söylemek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "kindly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "iyilik olsun diye (iyi niyetle)",
+   "note": "*-ly* eki sıfattan zarf yapar: *kind* (iyi kalpli) → *kindly* (iyi niyetle).",
+   "form": "kind + -ly (sıfattan zarf)",
+   "base": "nazikçe, iyi niyetle",
+   "phrase": {
+    "from": 59,
+    "to": 64,
+    "text": "a person known to lie kindly",
+    "meaning": "iyilik olsun diye yalan söylediği bilinen biri"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "may",
+   "pos": "modal verb",
+   "wordId": "may",
+   "sense": 0,
+   "context": "-ebilir (olasılık)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 66,
+   "lemma": "also",
+   "pos": "adverb",
+   "wordId": "also",
+   "sense": 0,
+   "context": "de",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 67,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-il-)",
+   "note": null,
+   "form": "be (yalın hali)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "be suspected of lying cruelly",
+    "meaning": "kötülük olsun diye yalan söylemekten şüphelenilmek"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "suspect",
+   "pos": "verb",
+   "wordId": "suspect",
+   "sense": 0,
+   "context": "şüphelenilmek",
+   "note": "*be suspected of* + *-ing* \"… -mekten şüphelenilmek\" demektir.",
+   "form": "suspect fiilinin 3. hali (suspected, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "be suspected of lying cruelly",
+    "meaning": "kötülük olsun diye yalan söylemekten şüphelenilmek"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "of",
+   "pos": "preposition",
+   "wordId": "of",
+   "sense": 0,
+   "context": "-den",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "be suspected of lying cruelly",
+    "meaning": "kötülük olsun diye yalan söylemekten şüphelenilmek"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "lie",
+   "pos": "verb",
+   "wordId": "lie",
+   "sense": 1,
+   "context": "yalan söylemek",
+   "note": null,
+   "form": "lie + -ing (lying, ie → y)",
+   "base": null,
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "be suspected of lying cruelly",
+    "meaning": "kötülük olsun diye yalan söylemekten şüphelenilmek"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "cruelly",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "kötülük olsun diye (acımasızca)",
+   "note": null,
+   "form": "cruel + -ly (sıfattan zarf)",
+   "base": "acımasızca, zalimce",
+   "phrase": {
+    "from": 67,
+    "to": 71,
+    "text": "be suspected of lying cruelly",
+    "meaning": "kötülük olsun diye yalan söylemekten şüphelenilmek"
+   }
+  }
+ ]
+}

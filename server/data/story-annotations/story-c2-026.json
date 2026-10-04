@@ -1,0 +1,1175 @@
+{
+ "storyId": "story-c2-026",
+ "textHash": "b0dde975f1f4",
+ "source": "manual",
+ "sentences": [
+  {
+   "tr": "Yurt dışında geçen otuz yılın ardından Tomas, sonunda evine döndüğünü hissetmeyi umarak doğduğu köye geri geldi."
+  },
+  {
+   "tr": "Oysa kendini bir yabancı gibi hissetti."
+  },
+  {
+   "tr": "Fırın bir cep telefonu dükkânına dönüşmüştü, çocukluk arkadaşları başka yerlere taşınmıştı ve yöresel ağız bile kulağına yabancı geliyordu."
+  },
+  {
+   "tr": "Özlediği yerin yalnızca hafızasında var olduğunu, üstelik tam da oradan ayrıldığı için korunabildiğini ancak yavaş yavaş anladı."
+  }
+ ],
+ "tokens": [
+  {
+   "i": 0,
+   "lemma": "after",
+   "pos": "preposition",
+   "wordId": "after",
+   "sense": 0,
+   "context": "-den sonra (ardından)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After thirty years abroad",
+    "meaning": "yurt dışında geçen otuz yılın ardından"
+   }
+  },
+  {
+   "i": 1,
+   "lemma": "thirty",
+   "pos": "number",
+   "wordId": "thirty",
+   "sense": 0,
+   "context": "otuz",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After thirty years abroad",
+    "meaning": "yurt dışında geçen otuz yılın ardından"
+   }
+  },
+  {
+   "i": 2,
+   "lemma": "year",
+   "pos": "noun",
+   "wordId": "year",
+   "sense": 0,
+   "context": "yıl",
+   "note": null,
+   "form": "year'ın çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After thirty years abroad",
+    "meaning": "yurt dışında geçen otuz yılın ardından"
+   }
+  },
+  {
+   "i": 3,
+   "lemma": "abroad",
+   "pos": "adverb",
+   "wordId": "abroad",
+   "sense": 0,
+   "context": "yurt dışında",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 0,
+    "to": 3,
+    "text": "After thirty years abroad",
+    "meaning": "yurt dışında geçen otuz yılın ardından"
+   }
+  },
+  {
+   "i": 4,
+   "lemma": "Tomas",
+   "pos": "proper noun",
+   "wordId": null,
+   "sense": null,
+   "context": "Tomas",
+   "note": null,
+   "form": null,
+   "base": "(erkek adı)",
+   "phrase": null
+  },
+  {
+   "i": 5,
+   "lemma": "return",
+   "pos": "verb",
+   "wordId": "return",
+   "sense": 0,
+   "context": "döndü",
+   "note": null,
+   "form": "return + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "returned to the village",
+    "meaning": "köye döndü"
+   }
+  },
+  {
+   "i": 6,
+   "lemma": "to",
+   "pos": "preposition",
+   "wordId": "to",
+   "sense": 0,
+   "context": "-e (köye)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "returned to the village",
+    "meaning": "köye döndü"
+   }
+  },
+  {
+   "i": 7,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "returned to the village",
+    "meaning": "köye döndü"
+   }
+  },
+  {
+   "i": 8,
+   "lemma": "village",
+   "pos": "noun",
+   "wordId": "village",
+   "sense": 0,
+   "context": "köy",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 5,
+    "to": 8,
+    "text": "returned to the village",
+    "meaning": "köye döndü"
+   }
+  },
+  {
+   "i": 9,
+   "lemma": "where",
+   "pos": "conjunction",
+   "wordId": "where",
+   "sense": 1,
+   "context": "(-duğu)",
+   "note": "*where* bir yeri tanımlar: *the village where he had been born* → doğduğu köy.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "where he had been born",
+    "meaning": "doğduğu"
+   }
+  },
+  {
+   "i": 10,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "where he had been born",
+    "meaning": "doğduğu"
+   }
+  },
+  {
+   "i": 11,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-muştu)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "where he had been born",
+    "meaning": "doğduğu"
+   }
+  },
+  {
+   "i": 12,
+   "lemma": "be",
+   "pos": "auxiliary verb",
+   "wordId": "be",
+   "sense": 1,
+   "context": "(-)",
+   "note": "*be born* \"doğmak\" demektir ve İngilizcede edilgen yapıyla kurulur.",
+   "form": "be fiilinin 3. hali (been)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "where he had been born",
+    "meaning": "doğduğu"
+   }
+  },
+  {
+   "i": 13,
+   "lemma": "born",
+   "pos": "verb",
+   "wordId": "born",
+   "sense": 0,
+   "context": "doğmuştu",
+   "note": null,
+   "form": "bear fiilinin 3. hali (born)",
+   "base": null,
+   "phrase": {
+    "from": 9,
+    "to": 13,
+    "text": "where he had been born",
+    "meaning": "doğduğu"
+   }
+  },
+  {
+   "i": 14,
+   "lemma": "expect",
+   "pos": "verb",
+   "wordId": "expect",
+   "sense": 0,
+   "context": "umarak (bekleyerek)",
+   "note": "*expect to do something* \"bir şeyi yapmayı ummak, beklemek\" demektir.",
+   "form": "expect + -ing",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 15,
+   "lemma": "to",
+   "pos": "infinitive marker",
+   "wordId": "to",
+   "sense": 1,
+   "context": "-mek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 16,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetmek",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 17,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-düğünü)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 18,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 19,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-müştü)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 20,
+   "lemma": "finally",
+   "pos": "adverb",
+   "wordId": "finally",
+   "sense": 0,
+   "context": "sonunda",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 14,
+    "to": 22,
+    "text": "expecting to feel that he had finally come home",
+    "meaning": "sonunda evine döndüğünü hissetmeyi umarak"
+   }
+  },
+  {
+   "i": 21,
+   "lemma": "come",
+   "pos": "verb",
+   "wordId": "come",
+   "sense": 0,
+   "context": "dönmek (gelmek)",
+   "note": "*come home* \"eve dönmek, yuvaya gelmek\" demektir.",
+   "form": "come fiilinin 3. hali (come, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "come home",
+    "meaning": "eve dönmek"
+   }
+  },
+  {
+   "i": 22,
+   "lemma": "home",
+   "pos": "adverb",
+   "wordId": "home",
+   "sense": 1,
+   "context": "eve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 21,
+    "to": 22,
+    "text": "come home",
+    "meaning": "eve dönmek"
+   }
+  },
+  {
+   "i": 23,
+   "lemma": "instead",
+   "pos": "adverb",
+   "wordId": "instead",
+   "sense": 0,
+   "context": "oysa (bunun yerine)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 24,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 25,
+   "lemma": "feel",
+   "pos": "verb",
+   "wordId": "feel",
+   "sense": 0,
+   "context": "hissetti",
+   "note": "*feel like* + isim \"kendini … gibi hissetmek\" demektir.",
+   "form": "feel fiilinin geçmiş zaman hali (felt, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "felt like a stranger",
+    "meaning": "kendini bir yabancı gibi hissetti"
+   }
+  },
+  {
+   "i": 26,
+   "lemma": "like",
+   "pos": "preposition",
+   "wordId": "like",
+   "sense": 0,
+   "context": "gibi",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "felt like a stranger",
+    "meaning": "kendini bir yabancı gibi hissetti"
+   }
+  },
+  {
+   "i": 27,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "felt like a stranger",
+    "meaning": "kendini bir yabancı gibi hissetti"
+   }
+  },
+  {
+   "i": 28,
+   "lemma": "stranger",
+   "pos": "noun",
+   "wordId": "stranger",
+   "sense": 0,
+   "context": "yabancı",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 25,
+    "to": 28,
+    "text": "felt like a stranger",
+    "meaning": "kendini bir yabancı gibi hissetti"
+   }
+  },
+  {
+   "i": 29,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 30,
+   "lemma": "bakery",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "fırın",
+   "note": "*bake* (fırında pişirmek) fiilinden türemiştir; ekmek satılan dükkândır.",
+   "form": null,
+   "base": "fırın (dükkân)",
+   "phrase": null
+  },
+  {
+   "i": 31,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-müştü)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 32,
+   "lemma": "become",
+   "pos": "verb",
+   "wordId": "become",
+   "sense": 0,
+   "context": "dönüşmüştü",
+   "note": null,
+   "form": "become fiilinin 3. hali (become, düzensiz)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 33,
+   "lemma": "a, an",
+   "pos": "indefinite article",
+   "wordId": "a-an",
+   "sense": 0,
+   "context": "bir",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 34,
+   "lemma": "mobile",
+   "pos": "adjective",
+   "wordId": "mobile",
+   "sense": 0,
+   "context": "cep (mobil)",
+   "note": "*mobile phone* \"cep telefonu\" demektir.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "mobile phone shop",
+    "meaning": "cep telefonu dükkânı"
+   }
+  },
+  {
+   "i": 35,
+   "lemma": "phone",
+   "pos": "noun",
+   "wordId": "phone",
+   "sense": 0,
+   "context": "telefon",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "mobile phone shop",
+    "meaning": "cep telefonu dükkânı"
+   }
+  },
+  {
+   "i": 36,
+   "lemma": "shop",
+   "pos": "noun",
+   "wordId": "shop",
+   "sense": 0,
+   "context": "dükkân",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 34,
+    "to": 36,
+    "text": "mobile phone shop",
+    "meaning": "cep telefonu dükkânı"
+   }
+  },
+  {
+   "i": 37,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 38,
+   "lemma": "childhood",
+   "pos": "noun",
+   "wordId": "childhood",
+   "sense": 0,
+   "context": "çocukluk",
+   "note": "Burada *childhood* isim olmasına rağmen *friends*'i niteler: *childhood friends* → çocukluk arkadaşları.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "childhood friends",
+    "meaning": "çocukluk arkadaşları"
+   }
+  },
+  {
+   "i": 39,
+   "lemma": "friend",
+   "pos": "noun",
+   "wordId": "friend",
+   "sense": 0,
+   "context": "arkadaşlar",
+   "note": null,
+   "form": "friend'in çoğulu",
+   "base": null,
+   "phrase": {
+    "from": 38,
+    "to": 39,
+    "text": "childhood friends",
+    "meaning": "çocukluk arkadaşları"
+   }
+  },
+  {
+   "i": 40,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-mıştı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 41,
+   "lemma": "move",
+   "pos": "verb",
+   "wordId": "move",
+   "sense": 0,
+   "context": "taşınmıştı",
+   "note": "*move away* \"başka bir yere taşınmak\" demektir.",
+   "form": "move fiilinin 3. hali (moved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "moved away",
+    "meaning": "başka yere taşındı"
+   }
+  },
+  {
+   "i": 42,
+   "lemma": "away",
+   "pos": "adverb",
+   "wordId": "away",
+   "sense": 0,
+   "context": "(başka yere)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 41,
+    "to": 42,
+    "text": "moved away",
+    "meaning": "başka yere taşındı"
+   }
+  },
+  {
+   "i": 43,
+   "lemma": "and",
+   "pos": "conjunction",
+   "wordId": "and",
+   "sense": 0,
+   "context": "ve",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 44,
+   "lemma": "even",
+   "pos": "adverb",
+   "wordId": "even",
+   "sense": 0,
+   "context": "bile",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 45,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 46,
+   "lemma": "local",
+   "pos": "adjective",
+   "wordId": "local",
+   "sense": 0,
+   "context": "yöresel (yerel)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "local accent sounded unfamiliar",
+    "meaning": "yöresel ağız yabancı geliyordu"
+   }
+  },
+  {
+   "i": 47,
+   "lemma": "accent",
+   "pos": "noun",
+   "wordId": null,
+   "sense": null,
+   "context": "ağız (aksan)",
+   "note": "*accent* bir bölgeye özgü \"konuşma biçimi, şive\" demektir.",
+   "form": null,
+   "base": "aksan, şive",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "local accent sounded unfamiliar",
+    "meaning": "yöresel ağız yabancı geliyordu"
+   }
+  },
+  {
+   "i": 48,
+   "lemma": "sound",
+   "pos": "verb",
+   "wordId": "sound",
+   "sense": 1,
+   "context": "geliyordu",
+   "note": "*sound* + sıfat \"kulağa … gelmek\" demektir.",
+   "form": "sound + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "local accent sounded unfamiliar",
+    "meaning": "yöresel ağız yabancı geliyordu"
+   }
+  },
+  {
+   "i": 49,
+   "lemma": "unfamiliar",
+   "pos": "adjective",
+   "wordId": null,
+   "sense": null,
+   "context": "yabancı",
+   "note": "*un-* (olumsuzluk) + *familiar* (tanıdık): \"tanıdık olmayan\".",
+   "form": null,
+   "base": "tanıdık olmayan, yabancı",
+   "phrase": {
+    "from": 46,
+    "to": 49,
+    "text": "local accent sounded unfamiliar",
+    "meaning": "yöresel ağız yabancı geliyordu"
+   }
+  },
+  {
+   "i": 50,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "ancak",
+   "note": "*Only* + zarf cümle başına gelince devrik yapı kullanılır: *Only gradually did he realise…* (= *He realised only gradually…*).",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "Only gradually did he realise",
+    "meaning": "ancak yavaş yavaş anladı (devrik yapı)"
+   }
+  },
+  {
+   "i": 51,
+   "lemma": "gradually",
+   "pos": "adverb",
+   "wordId": "gradually",
+   "sense": 0,
+   "context": "yavaş yavaş",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "Only gradually did he realise",
+    "meaning": "ancak yavaş yavaş anladı (devrik yapı)"
+   }
+  },
+  {
+   "i": 52,
+   "lemma": "do",
+   "pos": "auxiliary verb",
+   "wordId": "do",
+   "sense": 1,
+   "context": "(devrik yapı)",
+   "note": "Devrik yapıda geçmiş zamanda *did* özneden önce gelir.",
+   "form": "do fiilinin geçmiş zaman hali (did)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "Only gradually did he realise",
+    "meaning": "ancak yavaş yavaş anladı (devrik yapı)"
+   }
+  },
+  {
+   "i": 53,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "Only gradually did he realise",
+    "meaning": "ancak yavaş yavaş anladı (devrik yapı)"
+   }
+  },
+  {
+   "i": 54,
+   "lemma": "realize",
+   "pos": "verb",
+   "wordId": "realize",
+   "sense": 0,
+   "context": "anladı (fark etti)",
+   "note": "İngiliz yazımında *realise*, Amerikan yazımında *realize* yazılır.",
+   "form": "realise (İngiliz yazımı)",
+   "base": null,
+   "phrase": {
+    "from": 50,
+    "to": 54,
+    "text": "Only gradually did he realise",
+    "meaning": "ancak yavaş yavaş anladı (devrik yapı)"
+   }
+  },
+  {
+   "i": 55,
+   "lemma": "that",
+   "pos": "conjunction",
+   "wordId": "that",
+   "sense": 2,
+   "context": "(-duğunu)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": null
+  },
+  {
+   "i": 56,
+   "lemma": "the",
+   "pos": "definite article",
+   "wordId": "the",
+   "sense": 0,
+   "context": "(karşılığı yok)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "the place he had missed",
+    "meaning": "özlediği yer"
+   }
+  },
+  {
+   "i": 57,
+   "lemma": "place",
+   "pos": "noun",
+   "wordId": "place",
+   "sense": 0,
+   "context": "yer",
+   "note": "İsimden sonra *that* düşebilir: *the place (that) he had missed* → özlediği yer.",
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "the place he had missed",
+    "meaning": "özlediği yer"
+   }
+  },
+  {
+   "i": 58,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "the place he had missed",
+    "meaning": "özlediği yer"
+   }
+  },
+  {
+   "i": 59,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-diği)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "the place he had missed",
+    "meaning": "özlediği yer"
+   }
+  },
+  {
+   "i": 60,
+   "lemma": "miss",
+   "pos": "verb",
+   "wordId": "miss",
+   "sense": 0,
+   "context": "özlediği",
+   "note": null,
+   "form": "miss fiilinin 3. hali (missed, -ed)",
+   "base": null,
+   "phrase": {
+    "from": 56,
+    "to": 60,
+    "text": "the place he had missed",
+    "meaning": "özlediği yer"
+   }
+  },
+  {
+   "i": 61,
+   "lemma": "exist",
+   "pos": "verb",
+   "wordId": "exist",
+   "sense": 0,
+   "context": "var olduğunu",
+   "note": null,
+   "form": "exist + -ed (geçmiş zaman)",
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "existed only in his memory",
+    "meaning": "yalnızca hafızasında vardı"
+   }
+  },
+  {
+   "i": 62,
+   "lemma": "only",
+   "pos": "adverb",
+   "wordId": "only",
+   "sense": 1,
+   "context": "yalnızca",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "existed only in his memory",
+    "meaning": "yalnızca hafızasında vardı"
+   }
+  },
+  {
+   "i": 63,
+   "lemma": "in",
+   "pos": "preposition",
+   "wordId": "in",
+   "sense": 0,
+   "context": "-de (hafızasında)",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "existed only in his memory",
+    "meaning": "yalnızca hafızasında vardı"
+   }
+  },
+  {
+   "i": 64,
+   "lemma": "his",
+   "pos": "determiner",
+   "wordId": "his",
+   "sense": 0,
+   "context": "onun",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "existed only in his memory",
+    "meaning": "yalnızca hafızasında vardı"
+   }
+  },
+  {
+   "i": 65,
+   "lemma": "memory",
+   "pos": "noun",
+   "wordId": "memory",
+   "sense": 0,
+   "context": "hafıza",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 61,
+    "to": 65,
+    "text": "existed only in his memory",
+    "meaning": "yalnızca hafızasında vardı"
+   }
+  },
+  {
+   "i": 66,
+   "lemma": "preserve",
+   "pos": "verb",
+   "wordId": "preserve",
+   "sense": 0,
+   "context": "korunmuş",
+   "note": "Fiilin 3. hali sıfat gibi kullanılabilir: *preserved* → korunmuş.",
+   "form": "preserve fiilinin 3. hali (preserved, -d)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  },
+  {
+   "i": 67,
+   "lemma": "precisely",
+   "pos": "adverb",
+   "wordId": null,
+   "sense": null,
+   "context": "tam da",
+   "note": null,
+   "form": "precise + -ly (sıfattan zarf)",
+   "base": "tam olarak, tam da",
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  },
+  {
+   "i": 68,
+   "lemma": "because",
+   "pos": "conjunction",
+   "wordId": "because",
+   "sense": 0,
+   "context": "-dığı için",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  },
+  {
+   "i": 69,
+   "lemma": "he",
+   "pos": "pronoun",
+   "wordId": "he",
+   "sense": 0,
+   "context": "o",
+   "note": null,
+   "form": null,
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  },
+  {
+   "i": 70,
+   "lemma": "have",
+   "pos": "auxiliary verb",
+   "wordId": "have",
+   "sense": 1,
+   "context": "(-dığı)",
+   "note": null,
+   "form": "have fiilinin geçmiş zaman hali (had)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  },
+  {
+   "i": 71,
+   "lemma": "leave",
+   "pos": "verb",
+   "wordId": "leave",
+   "sense": 0,
+   "context": "ayrıldığı",
+   "note": null,
+   "form": "leave fiilinin 3. hali (left, düzensiz)",
+   "base": null,
+   "phrase": {
+    "from": 66,
+    "to": 71,
+    "text": "preserved precisely because he had left",
+    "meaning": "tam da ayrıldığı için korunmuş"
+   }
+  }
+ ]
+}
