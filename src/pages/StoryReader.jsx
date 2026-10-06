@@ -1,27 +1,33 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, Check, Gauge, Languages, Lightbulb, Play, Square, X } from 'lucide-react'
+import { ArrowLeft, ArrowRight, AudioLines, Check, Gauge, Languages, Lightbulb, Play, Square, X } from 'lucide-react'
 import WordPanel from '../components/WordPanel'
-import { fetchAnnotations, fetchStories, translateText } from '../utils/api'
+import { fetchAnnotations, fetchStories, fetchStoryAudio, translateText } from '../utils/api'
 import { cleanWord, LEVEL_NAMES, readingMinutes, splitSentences, wordCount } from '../utils/format'
 import { readAloud } from '../utils/readAloud'
 import { canSpeak, speak, stopSpeaking } from '../utils/speech'
+import { playStoryAudio } from '../utils/storyAudioPlayer'
 import {
   getFlag,
   getReadStories,
+  getStoryVoice,
   isStoryRead,
   setFlag,
   setLastStoryId,
+  setStoryVoice,
   toggleStoryRead
 } from '../utils/storyProgress'
 import page from '../styles/page.module.css'
 import styles from './StoryReader.module.css'
 
+// rate: cihaz sesi, audioRate: önceden üretilmiş seslendirme (doğal konuşma hızında kaydedildi)
 const SPEEDS = [
-  { rate: 0.65, label: 'Yavaş' },
-  { rate: 0.85, label: 'Normal' },
-  { rate: 1, label: 'Hızlı' }
+  { rate: 0.65, audioRate: 0.75, label: 'Yavaş' },
+  { rate: 0.85, audioRate: 0.9, label: 'Normal' },
+  { rate: 1, audioRate: 1, label: 'Hızlı' }
 ]
+
+const VOICE_LABELS = { female: 'Kadın sesi', male: 'Erkek sesi' }
 
 // Kelimeyi baştaki/sondaki noktalama işaretlerinden ayır
 const splitToken = (token) => token.match(/^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$/).slice(1)
@@ -86,6 +92,8 @@ function Reader({ id }) {
   const [speakingIndex, setSpeakingIndex] = useState(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [speed, setSpeed] = useState(1)
+  const [storyAudio, setStoryAudio] = useState(null)
+  const [voice, setVoice] = useState(getStoryVoice)
 
   const [translation, setTranslation] = useState({ status: 'idle', text: '' })
   const [showTranslation, setShowTranslation] = useState(false)
@@ -99,6 +107,8 @@ function Reader({ id }) {
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
     fetchAnnotations(id).then(setAnnotations)
+    setStoryAudio(null)
+    fetchStoryAudio(id).then(setStoryAudio)
     setLastStoryId(id)
     return () => {
       clearTimeout(restartRef.current)
@@ -111,6 +121,14 @@ function Reader({ id }) {
   const { tokens, offsets, spans, sentenceOf, sentenceIndexOf } = useStoryText(story?.text)
   // İşaretleme metinle uyuşmuyorsa (ör. kelime sayısı farklı) kullanılmaz
   const annotation = annotations?.tokens?.length === tokens.length ? annotations : null
+  // Seslendirme de kelime sayısı tutuyorsa kullanılır; yoksa cihazın sesi okur
+  const audioVoices = useMemo(() => {
+    const voices = storyAudio?.storyId === id ? storyAudio.voices : null
+    return Object.fromEntries(Object.entries(voices || {}).filter(([, v]) => v.starts?.length === tokens.length))
+  }, [storyAudio, id, tokens.length])
+  const voiceKeys = Object.keys(VOICE_LABELS).filter((k) => audioVoices[k])
+  const activeVoice = audioVoices[voice] ? voice : voiceKeys[0]
+  const canListen = canSpeak || voiceKeys.length > 0
 
   const nextStory = useMemo(() => {
     if (!stories || !story) return null
@@ -171,25 +189,46 @@ function Reader({ id }) {
     setSpeakingIndex(null)
   }
 
-  const startPlayback = ({ speedIndex = speed, from = 0 } = {}) => {
+  const startPlayback = ({ speedIndex = speed, from = 0, voiceKey = activeVoice, deviceOnly = false } = {}) => {
     readerRef.current?.stop()
     wordRef.current = from
-    const reader = readAloud({
-      sentences: spans,
-      offsets,
-      rate: SPEEDS[speedIndex].rate,
-      startIndex: from,
-      onWord: (index) => {
-        wordRef.current = index
-        setSpeakingIndex(index)
-      },
-      onDone: () => {
-        if (readerRef.current !== reader) return
-        readerRef.current = null
-        setIsPlaying(false)
-        setSpeakingIndex(null)
-      }
-    })
+    const onWord = (index) => {
+      wordRef.current = index
+      setSpeakingIndex(index)
+    }
+    const finish = (reader) => {
+      if (readerRef.current !== reader) return
+      readerRef.current = null
+      setIsPlaying(false)
+      setSpeakingIndex(null)
+    }
+
+    const recorded = !deviceOnly && audioVoices[voiceKey]
+    if (!recorded && !canSpeak) return
+
+    const reader = recorded
+      ? playStoryAudio({
+          url: recorded.url,
+          starts: recorded.starts,
+          rate: SPEEDS[speedIndex].audioRate,
+          startIndex: from,
+          onWord,
+          onDone: () => finish(reader),
+          // Ses dosyası açılamadıysa (ör. çevrimdışı) cihazın sesiyle oku
+          onError: () => {
+            if (readerRef.current !== reader) return
+            if (canSpeak) startPlayback({ speedIndex, from: wordRef.current, deviceOnly: true })
+            else finish(reader)
+          }
+        })
+      : readAloud({
+          sentences: spans,
+          offsets,
+          rate: SPEEDS[speedIndex].rate,
+          startIndex: from,
+          onWord,
+          onDone: () => finish(reader)
+        })
     readerRef.current = reader
     setIsPlaying(true)
     setSelected(null)
@@ -201,6 +240,8 @@ function Reader({ id }) {
     const next = (speed + 1) % SPEEDS.length
     setSpeed(next)
     if (!isPlaying) return
+    // Kayıtlı seslendirmenin hızı kesmeden değişir
+    if (readerRef.current?.setRate) return readerRef.current.setRate(SPEEDS[next].audioRate)
 
     const from = wordRef.current
     readerRef.current?.stop()
@@ -208,6 +249,14 @@ function Reader({ id }) {
     // Bazı mobil tarayıcılar iptalden hemen sonraki okumayı yutuyor; kısa bir ara ver
     clearTimeout(restartRef.current)
     restartRef.current = setTimeout(() => startPlayback({ speedIndex: next, from }), 120)
+  }
+
+  // Okuma sürerken ses değişirse aynı kelimeden yeni sesle devam edilir
+  const cycleVoice = () => {
+    const next = voiceKeys[(voiceKeys.indexOf(activeVoice) + 1) % voiceKeys.length]
+    setVoice(next)
+    setStoryVoice(next)
+    if (isPlaying && readerRef.current?.setRate) startPlayback({ from: wordRef.current, voiceKey: next })
   }
 
   // ---------- Çeviri ve tamamlama ----------
@@ -276,7 +325,7 @@ function Reader({ id }) {
               </header>
 
               <div className={styles.toolbar}>
-                {canSpeak && (
+                {canListen && (
                   <>
                     <button
                       className={`btn ${isPlaying ? 'btn-secondary' : 'btn-primary'}`}
@@ -289,6 +338,12 @@ function Reader({ id }) {
                       <Gauge size={18} />
                       {SPEEDS[speed].label}
                     </button>
+                    {voiceKeys.length > 1 && (
+                      <button className="btn btn-ghost" onClick={cycleVoice} aria-label="Okuyan ses">
+                        <AudioLines size={18} />
+                        {VOICE_LABELS[activeVoice]}
+                      </button>
+                    )}
                   </>
                 )}
                 <button

@@ -50,10 +50,28 @@ export function fetchAnnotations(storyId) {
   return annotationCache.get(storyId)
 }
 
+// Hikayenin önceden üretilmiş seslendirmesi (ses adresi ve her kelimenin başladığı milisaniye).
+// Seslendirmesi olmayan hikayede null: okuyucu cihazın sesini kullanır.
+const audioCache = new Map()
+export function fetchStoryAudio(storyId) {
+  if (!audioCache.has(storyId)) {
+    const promise = apiFetch(`/api/stories/${encodeURIComponent(storyId)}/audio`)
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((audio) => {
+        if (!audio) audioCache.delete(storyId)
+        return audio
+      })
+    audioCache.set(storyId, promise)
+  }
+  return audioCache.get(storyId)
+}
+
 /** Çıkışta: bellekteki içerik önbelleklerini boşalt */
 export function clearApiCaches() {
   storiesPromise = null
   annotationCache.clear()
+  audioCache.clear()
 }
 
 export const translateText = (text) =>

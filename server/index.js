@@ -15,6 +15,7 @@ import { getCachedSentence, setCachedSentence } from './sentenceCache.js'
 import { getAllStories, getStoryById, createStory, updateStory, deleteStory } from './storyManager.js'
 import { authMiddleware, verifyPassword } from './authMiddleware.js'
 import { deleteAnnotation, getAnnotationForClient, readAnnotation, writeAnnotation } from './annotationStore.js'
+import { getStoryAudioForClient } from './storyAudio.js'
 import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './storyAnnotator.js'
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
@@ -308,6 +309,22 @@ app.get('/api/stories/:id', (req, res) => {
       error: 'Failed to get story',
       message: error.message
     })
+  }
+})
+
+// Hikayenin önceden üretilmiş seslendirmeleri ve kelime zamanlamaları
+app.get('/api/stories/:id/audio', (req, res) => {
+  try {
+    const story = getStoryById(req.params.id)
+    if (!story) return res.status(404).json({ error: 'Story not found' })
+
+    const audio = getStoryAudioForClient(story)
+    if (!audio) return res.status(404).json({ error: 'Audio not found' })
+
+    res.json(audio)
+  } catch (error) {
+    console.error('Get audio error:', error)
+    res.status(500).json({ error: 'Failed to get audio', message: error.message })
   }
 })
 

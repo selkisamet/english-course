@@ -18,10 +18,10 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
-            // Kelime işaretlemeleri: yeni hazırlanmış ya da düzeltilmiş olanı hemen göster,
-            // çevrimdışıyken önbellekteki kullanılır
+            // Kelime işaretlemeleri ve ses zamanlamaları: yeni hazırlanmış ya da düzeltilmiş olanı
+            // hemen göster, çevrimdışıyken önbellekteki kullanılır
             urlPattern: ({ url, request }) =>
-              request.method === 'GET' && /^\/api\/stories\/[^/]+\/annotations$/.test(url.pathname),
+              request.method === 'GET' && /^\/api\/stories\/[^/]+\/(annotations|audio)$/.test(url.pathname),
             handler: 'NetworkFirst',
             options: { cacheName: 'annotations', networkTimeoutSeconds: 4 }
           },

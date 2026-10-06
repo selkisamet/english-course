@@ -5,6 +5,7 @@ import { notifyChange } from './changes'
 const READ_KEY = 'readStories'
 const LAST_KEY = 'selectedStoryId'
 const LEVEL_KEY = 'preferredLevel'
+const VOICE_KEY = 'storyVoice'
 
 const read = (key, fallback) => {
   try {
@@ -58,6 +59,11 @@ export function setPreferredLevel(level) {
   notifyChange('settings')
 }
 
+// Hikaye seslendirmesinde seçilen ses: 'female' | 'male'
+export const getStoryVoice = () => read(VOICE_KEY, 'female')
+
+export const setStoryVoice = (voice) => write(VOICE_KEY, voice)
+
 export const getFlag = (key) => read(`flag:${key}`, false)
 
 export function setFlag(key) {
@@ -88,5 +94,5 @@ export function applyRemote({ settings, readStoryIds }) {
 
 /** Çıkışta: bu cihazdaki okuma ilerlemesini ve tercihleri siler */
 export function clearLocalStoryProgress() {
-  ;[READ_KEY, LAST_KEY, LEVEL_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
+  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
 }
