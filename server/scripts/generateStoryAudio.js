@@ -24,8 +24,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 dotenv.config({ path: path.join(__dirname, '..', '..', '.env.local') })
 
 const VOICES = {
-  female: process.env.AZURE_VOICE_FEMALE || 'en-US-AvaNeural',
-  male: process.env.AZURE_VOICE_MALE || 'en-US-AndrewNeural'
+  female: process.env.AZURE_VOICE_FEMALE || 'en-US-EmmaMultilingualNeural',
+  male: process.env.AZURE_VOICE_MALE || 'en-US-BrianMultilingualNeural'
 }
 
 // Ücretsiz katman dakikada 20 isteğe izin verir; aralarda pay bırak
@@ -203,7 +203,8 @@ async function main() {
             throw new Error(`kelime zamanlarının yalnızca ${matched}/${total} tanesi eşleşti`)
           }
 
-          const filePath = `${key}/${story.id}-${hash}.mp3`
+          // Ses adı adreste: ses değişince eski dosya önbellekten çalınmaz
+          const filePath = `${key}/${story.id}-${hash}-${voiceName.replace(/^en-US-|Neural$/g, '').toLowerCase()}.mp3`
           const { error } = await supabase.storage
             .from(AUDIO_BUCKET)
             .upload(filePath, audio, { contentType: 'audio/mpeg', upsert: true, cacheControl: '31536000' })
