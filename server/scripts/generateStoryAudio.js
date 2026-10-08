@@ -38,7 +38,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
  * Azure'un kelime sınırlarını hikayenin kelimeleriyle (tokenize) eşleştirir.
  * Dönen dizi: her kelimenin sesteki başlangıç zamanı (ms), artan sırada.
  * @param {string} text
- * @param {{textOffset:number, wordLength:number, text:string, ms:number}[]} boundaries
+ * @param {{textOffset:number, wordLength:number, text:string, ms:number, durationMs?:number}[]} boundaries
  */
 export function alignBoundaries(text, boundaries) {
   const { tokens, offsets } = tokenize(text)
@@ -73,6 +73,15 @@ export function alignBoundaries(text, boundaries) {
     if (i < 0 || i < last) continue
     if (starts[i] === null) starts[i] = b.ms
     last = i
+    // Azure "1:00 PM" gibi ifadeleri tek sınır olarak bildirir: kapsadığı sonraki kelimelere
+    // sınırın süresini harf konumuna göre paylaştır
+    const spanEnd = b.textOffset + b.wordLength
+    if (b.textOffset >= 0 && b.durationMs) {
+      for (let j = i + 1; j < tokens.length && offsets[j] < spanEnd; j++) {
+        if (starts[j] === null) starts[j] = b.ms + (b.durationMs * (offsets[j] - b.textOffset)) / b.wordLength
+        last = j
+      }
+    }
   }
 
   const matched = starts.filter((s) => s !== null).length
@@ -101,7 +110,13 @@ async function synthesize(sdk, text, voiceName) {
   const boundaries = []
   synthesizer.wordBoundary = (_, e) => {
     if (e.boundaryType !== sdk.SpeechSynthesisBoundaryType.Word) return
-    boundaries.push({ textOffset: e.textOffset, wordLength: e.wordLength, text: e.text, ms: e.audioOffset / TICKS_PER_MS })
+    boundaries.push({
+      textOffset: e.textOffset,
+      wordLength: e.wordLength,
+      text: e.text,
+      ms: e.audioOffset / TICKS_PER_MS,
+      durationMs: e.duration / TICKS_PER_MS
+    })
   }
 
   try {
