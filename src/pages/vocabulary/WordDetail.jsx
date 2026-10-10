@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { ArrowLeft, Layers, Volume2 } from 'lucide-react'
-import { fetchWord } from '../../utils/api'
+import { ArrowLeft, ArrowRight, Check, Layers, Volume2 } from 'lucide-react'
+import { HighlightedSentence } from '../../components/WordPanel'
+import { fetchWord, fetchWordStories } from '../../utils/api'
 import { capitalize, formatTr, STATUS_LABELS, translatePOS } from '../../utils/format'
 import { speak } from '../../utils/speech'
 import { getTimeUntilReview } from '../../utils/spacedRepetition'
+import { getReadStories } from '../../utils/storyProgress'
 import { getWordProgress } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
 import styles from './WordDetail.module.css'
@@ -17,6 +19,19 @@ function WordDetail() {
   const [word, setWord] = useState(location.state?.word?.id === id ? location.state.word : null)
   const [error, setError] = useState(false)
   const progress = getWordProgress(id)
+  const [stories, setStories] = useState(null)
+
+  // Kelimenin geçtiği hikayeler (bağlantı yoksa bölüm gösterilmez)
+  useEffect(() => {
+    let active = true
+    setStories(null)
+    fetchWordStories(id)
+      .then((list) => active && setStories(list))
+      .catch(() => active && setStories([]))
+    return () => {
+      active = false
+    }
+  }, [id])
 
   useEffect(() => {
     if (word?.id === id) return
@@ -55,6 +70,7 @@ function WordDetail() {
   }
 
   const [main] = word.senses
+  const readIds = new Set(getReadStories())
 
   return (
     <div className={page.page}>
@@ -111,6 +127,34 @@ function WordDetail() {
             ))}
           </ol>
         </section>
+
+        {stories?.length > 0 && (
+          <section className={styles.section}>
+            <h2 className="eyebrow">{stories.length} hikayede geçiyor</h2>
+            <ul className={styles.stories}>
+              {stories.map((st) => (
+                <li key={st.storyId}>
+                  <Link to={`/story/${st.storyId}?word=${encodeURIComponent(word.id)}`} className={styles.story}>
+                    <span className={styles.storyHead}>
+                      <span className={`badge badge-${st.level.toLowerCase()}`}>{st.level}</span>
+                      <strong>{st.title}</strong>
+                      {readIds.has(st.storyId) && (
+                        <span className={styles.storyRead}>
+                          <Check size={14} strokeWidth={3} /> Okundu
+                        </span>
+                      )}
+                    </span>
+                    <span className={styles.storySentence}>
+                      <HighlightedSentence sentence={st.sentence} word={st.form} />
+                    </span>
+                    {st.translation && <span className={styles.storyTr}>{formatTr(st.translation)}</span>}
+                    <ArrowRight size={16} className={styles.storyArrow} />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {progress?.reviewCount > 0 && (
           <section className={styles.section}>

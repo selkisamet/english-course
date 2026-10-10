@@ -543,6 +543,32 @@
   color: var(--warning);
 }
 
+.trophy[data-tone='story'] {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+/* Mini test puanı: dolu kısım doğru cevap oranı */
+.scoreRing {
+  display: grid;
+  place-items: center;
+  width: 112px;
+  height: 112px;
+  border-radius: var(--radius-pill);
+  background: conic-gradient(var(--violet) 0 var(--score), var(--surface-2) var(--score) 360deg);
+}
+
+.scoreRing strong {
+  display: grid;
+  place-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-pill);
+  background: var(--bg);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
 .resultGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -16,6 +16,7 @@ import { getAllStories, getStoryById, createStory, updateStory, deleteStory } fr
 import { authMiddleware, verifyPassword } from './authMiddleware.js'
 import { deleteAnnotation, getAnnotationForClient, readAnnotation, writeAnnotation } from './annotationStore.js'
 import { getStoryAudioForClient } from './storyAudio.js'
+import { getStoriesForWord } from './storyWordIndex.js'
 import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './storyAnnotator.js'
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
@@ -483,6 +484,11 @@ app.get('/api/vocabulary/words', (req, res) => {
 })
 
 // Get word by ID
+// Kelimenin geçtiği hikayeler ve cümleleri
+app.get('/api/vocabulary/words/:id/stories', (req, res) => {
+  res.json(getStoriesForWord(req.params.id))
+})
+
 // Kelime çalışması: bütün kelimelerin türü ve anlamları (yanlış seçenekler için)
 app.get('/api/vocabulary/pool', (req, res) => {
   res.json(getWordPool())

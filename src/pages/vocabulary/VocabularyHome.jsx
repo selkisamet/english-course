@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, CircleCheck, Flame, Layers, PartyPopper, Search, Target } from 'lucide-react'
+import { ArrowRight, BookOpen, CircleCheck, Flame, Layers, PartyPopper, Search, Target } from 'lucide-react'
 import { LEVEL_NAMES, VOCAB_LEVELS } from '../../utils/format'
 import {
   DAILY_NEW_OPTIONS,
@@ -9,7 +9,7 @@ import {
   setDailyNewWords,
   setPreferredLevel
 } from '../../utils/storyProgress'
-import { getTodayPlan } from '../../utils/studySession'
+import { getTodayPlan, nextStoryWords } from '../../utils/studySession'
 import { getProgress, getProgressStats, getTodayStudy } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
 import styles from './VocabularyHome.module.css'
@@ -65,6 +65,17 @@ function VocabularyHome() {
   const reviewCount = plan.reviews.length
   const nothingLeft = reviewCount === 0 && newCount === 0
 
+  // Yeni kelimelerin kaçı sıradaki hikayeden gelecek
+  const [fromStory, setFromStory] = useState(null)
+  useEffect(() => {
+    let active = true
+    const wanted = Math.max(0, newCount - plan.saved.length)
+    nextStoryWords(wanted).then(({ story, words }) => active && setFromStory(story && words.length ? { story, count: words.length } : null))
+    return () => {
+      active = false
+    }
+  }, [newCount, plan])
+
   const handleLevel = (next) => {
     setLevel(next)
     setPreferredLevel(next)
@@ -110,6 +121,15 @@ function VocabularyHome() {
                 Yaklaşık {estimateMinutes(reviewCount, newCount)} dakika
                 {plan.reviewTotal > reviewCount && ` · ${plan.reviewTotal - reviewCount} tekrar sonraki oturuma kalacak`}
               </p>
+              {fromStory && (
+                <p className={styles.fromStory}>
+                  <BookOpen size={18} />
+                  <span>
+                    Yeni kelimelerin {fromStory.count} tanesi sıradaki hikayende geçiyor:{' '}
+                    <strong>{fromStory.story.title}</strong>. Önce kelimeleri öğren, sonra hikayede tanı.
+                  </span>
+                </p>
+              )}
               <DailyGoal learned={learnedToday} goal={dailyNew} />
               <Link to="/vocabulary/study" className={`btn btn-lg btn-block ${styles.todayBtn}`}>
                 Başla <ArrowRight size={18} />

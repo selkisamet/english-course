@@ -19,12 +19,18 @@ export function readAnnotation(storyId) {
   }
 }
 
+// İşaretlemeler her değiştiğinde artar; türetilmiş dizinler (kelime → hikayeler) buna bakar
+let version = 0
+export const getAnnotationVersion = () => version
+
 export function writeAnnotation(annotation) {
+  version++
   fs.mkdirSync(ANN_DIR, { recursive: true })
   fs.writeFileSync(fileOf(annotation.storyId), JSON.stringify(annotation, null, 1) + '\n', 'utf8')
 }
 
 export function deleteAnnotation(storyId) {
+  version++
   fs.rmSync(fileOf(storyId), { force: true })
 }
 

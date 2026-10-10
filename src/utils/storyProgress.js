@@ -65,6 +65,19 @@ export const getStoryVoice = () => read(VOICE_KEY, 'female')
 
 export const setStoryVoice = (voice) => write(VOICE_KEY, voice)
 
+// "Okumadan önce" kartı atlanan hikayeler (yalnızca bu cihazda)
+const PREP_SKIPPED_KEY = 'prepSkipped'
+export const isPrepSkipped = (storyId) => read(PREP_SKIPPED_KEY, []).includes(storyId)
+export function skipPrep(storyId) {
+  const list = read(PREP_SKIPPED_KEY, [])
+  if (!list.includes(storyId)) write(PREP_SKIPPED_KEY, [...list, storyId].slice(-500))
+}
+
+// Okurken çalışılan kelimelerin metinde işaretlenmesi (varsayılan: açık)
+const SHOW_STUDIED_KEY = 'showStudiedWords'
+export const getShowStudied = () => read(SHOW_STUDIED_KEY, true)
+export const setShowStudied = (value) => write(SHOW_STUDIED_KEY, value)
+
 // Kelime çalışmasında günde kaç yeni kelime öğretileceği
 export const DAILY_NEW_OPTIONS = [5, 10, 15, 20]
 export const getDailyNewWords = () => {
@@ -109,5 +122,5 @@ export function applyRemote({ settings, readStoryIds }) {
 
 /** Çıkışta: bu cihazdaki okuma ilerlemesini ve tercihleri siler */
 export function clearLocalStoryProgress() {
-  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, DAILY_NEW_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
+  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, DAILY_NEW_KEY, PREP_SKIPPED_KEY, SHOW_STUDIED_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
 }

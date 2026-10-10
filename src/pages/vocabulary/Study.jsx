@@ -60,7 +60,10 @@ function Example({ example, word }) {
 // ---------- Yeni kelime tanıtımı ----------
 
 function Intro({ info, entry, oxford, onLearned, onKnown }) {
-  const storyContext = entry?.sentence ? entry : null
+  // Hikayedeki anlam ana anlamın aynısıysa ve not yoksa kutu gösterilmez (yerine tanım gelir)
+  const sameMeaning =
+    entry?.translation?.toLocaleLowerCase('tr-TR').trim() === info.meaning.toLocaleLowerCase('tr-TR').trim()
+  const storyContext = entry?.sentence && (!sameMeaning || entry.note) ? entry : null
   const otherSenses = oxford ? oxford.senses.filter((s) => s.translation !== info.meaning).slice(0, 3) : []
   return (
     <>
@@ -358,6 +361,85 @@ function Summary({ session, onMore }) {
   )
 }
 
+function PrepSummary({ session, storyId, wordsById }) {
+  const words = [...session.seen].map((id) => wordsById[id]).filter(Boolean)
+  return (
+    <div className={styles.summary}>
+      <span className={styles.trophy} data-tone="story">
+        <BookOpen size={32} />
+      </span>
+      <div>
+        <h1>Hikayeye hazırsın!</h1>
+        <p className="muted">
+          {words.length} kelimeyi çalıştın. Okurken bunlar hikayede işaretli görünecek.
+        </p>
+      </div>
+      {words.length > 0 && (
+        <section className={styles.weak}>
+          <ul>
+            {words.map((w) => (
+              <li key={w.wordId}>
+                <strong>{w.word}</strong>
+                <span>{formatTr(shortMeaning(w.meaning))}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="muted">Bu kelimeler tekrar takvimine eklendi.</p>
+        </section>
+      )}
+      <div className={styles.summaryActions}>
+        <Link to={`/story/${storyId}`} replace className="btn btn-primary btn-lg btn-block">Hikayeyi oku</Link>
+      </div>
+    </div>
+  )
+}
+
+function QuizSummary({ session, storyId, storyTitle, nextStory }) {
+  const { graded, wrong } = session
+  const correct = graded.filter((g) => g.ok).length
+  const total = graded.length
+  const percent = total ? correct / total : 0
+  return (
+    <div className={styles.summary}>
+      <div className={styles.scoreRing} style={{ '--score': `${Math.round(percent * 360)}deg` }}>
+        <strong>
+          {correct}/{total}
+        </strong>
+      </div>
+      <div>
+        <h1>{percent >= 0.8 ? 'Harika!' : percent >= 0.5 ? 'İyi gidiyorsun!' : 'Biraz daha pratik'}</h1>
+        <p className="muted">
+          “{storyTitle}” hikayesinin kelimelerinden {correct} tanesini ilk denemede bildin.
+        </p>
+      </div>
+      {wrong.length > 0 && (
+        <section className={styles.weak}>
+          <h2 className={styles.weakTitle}>{wrong.length > 1 ? 'Tekrar edeceğimiz kelimeler' : 'Tekrar edeceğimiz kelime'}</h2>
+          <ul>
+            {wrong.map((w) => (
+              <li key={w.wordId}>
+                <strong>{w.word}</strong>
+                <span>{formatTr(shortMeaning(w.meaning))}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <p className="muted">Sonuçlar kelimelerin tekrar takvimine işlendi.</p>
+      <div className={styles.summaryActions}>
+        {nextStory && (
+          <Link to={`/story/${nextStory.id}`} replace className="btn btn-primary btn-lg btn-block">
+            Sıradaki hikaye: {nextStory.title}
+          </Link>
+        )}
+        <Link to={`/story/${storyId}`} replace className={`btn btn-lg btn-block ${styles.outline}`}>
+          Hikayeye dön
+        </Link>
+      </div>
+    </div>
+  )
+}
+
 // ---------- Oturum ----------
 
 const emptySession = () => ({ seen: new Set(), graded: [], gradedIds: new Set(), newWords: 0, wrong: [] })
@@ -367,6 +449,10 @@ function Study() {
   const navigate = useNavigate()
   const customQueue = location.state?.queue
   const extraNew = location.state?.extraNew || 0
+  // mode: 'prep' (okumadan önce) | 'quiz' (hikaye sonrası mini test) | yok (günlük çalışma)
+  const mode = location.state?.mode || null
+  const story = location.state?.story || null
+  const contexts = location.state?.contexts || null
 
   const [steps, setSteps] = useState(null)
   const [pool, setPool] = useState(null)
@@ -381,6 +467,7 @@ function Study() {
   const [result, setResult] = useState(null) // { result, other }
   const [session, setSession] = useState(emptySession)
   const [done, setDone] = useState(false)
+  const [summaryWords, setSummaryWords] = useState({})
 
   // Oturum listesi ve kelime verisi
   useEffect(() => {
@@ -398,13 +485,13 @@ function Study() {
       .then(([queue, words]) => {
         if (!active) return
         setPool(words)
-        setSteps(planSteps(queue))
+        setSteps(planSteps(queue, { intros: mode !== 'quiz' }))
       })
       .catch(() => active && setError('Kelimeler yüklenemedi. Bağlantını kontrol edip tekrar dene.'))
     return () => {
       active = false
     }
-  }, [customQueue, extraNew, retry])
+  }, [customQueue, extraNew, mode, retry])
 
   const step = steps?.[index]
 
@@ -428,7 +515,10 @@ function Study() {
   const info = useMemo(() => {
     if (!ready) return null
     if (!entry && !oxford) return null
-    return describeWord(entry || { wordId: step.wordId, word: step.word }, oxford)
+    // Hikayeden gelen kelimede o hikayenin cümlesi ve anlamı kullanılır
+    const context = contexts?.[step.wordId]
+    const base = entry || { wordId: step.wordId, word: step.word }
+    return describeWord(context ? { ...base, ...context } : base, oxford)
     // entry her adımda yeniden okunur; bilgi adım değişince yenilenir
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, step, oxford])
@@ -456,7 +546,8 @@ function Study() {
   // Sorunun üretilmesi (adım başına bir kez)
   useEffect(() => {
     if (!info || step.kind !== 'quiz' || exercise) return
-    for (const type of exerciseTypesFor(entry, { retry: step.retry })) {
+    const types = mode === 'quiz' && !step.retry ? ['cloze', 'meaning'] : exerciseTypesFor(entry, { retry: step.retry })
+    for (const type of types) {
       const built = buildExercise(type, info, pool)
       if (built) return setExercise(built)
     }
@@ -465,15 +556,21 @@ function Study() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [info, step, exercise])
 
-  const markSeen = (wordId) => setSession((s) => ({ ...s, seen: new Set(s.seen).add(wordId) }))
+  const markSeen = (wordId) => {
+    setSession((s) => ({ ...s, seen: new Set(s.seen).add(wordId) }))
+    if (info) setSummaryWords((m) => ({ ...m, [wordId]: { wordId, word: info.word, meaning: info.meaning } }))
+  }
 
   // İlk cevap kelimenin takvimini belirler; aynı oturumdaki tekrarlar yalnızca pekiştirme
   const answer = (outcome, other) => {
     setResult({ result: outcome, other })
     markSeen(step.wordId)
     if (!session.gradedIds.has(step.wordId)) {
-      const current = getWordProgress(step.wordId) || createNewWordProgress(step.wordId, info.word)
-      saveWordProgress(step.wordId, info.word, reviewEntry(current, GRADES[outcome]))
+      const saved = getWordProgress(step.wordId)
+      const current = saved || createNewWordProgress(step.wordId, info.word)
+      // Hikayeden ilk kez gelen kelime, hikayedeki bağlamıyla birlikte kaydedilir
+      const context = !saved && contexts?.[step.wordId]
+      saveWordProgress(step.wordId, info.word, { ...(context || {}), ...reviewEntry(current, GRADES[outcome]) })
       logDailyStudy({ answers: 1, correct: outcome === 'bad' ? 0 : 1 })
       setSession((s) => ({
         ...s,
@@ -550,7 +647,7 @@ function Study() {
     return () => window.removeEventListener('keydown', onKey)
   })
 
-  const close = () => navigate(location.key === 'default' ? '/vocabulary' : -1)
+  const close = () => navigate(location.key === 'default' ? (story ? `/story/${story.id}` : '/vocabulary') : -1)
 
   if (error) {
     return (
@@ -579,6 +676,14 @@ function Study() {
         </div>
       </div>
     )
+  }
+
+  if (done && mode === 'prep') {
+    return <PrepSummary session={session} storyId={story.id} wordsById={summaryWords} />
+  }
+
+  if (done && mode === 'quiz') {
+    return <QuizSummary session={session} storyId={story.id} storyTitle={story.title} nextStory={story.next} />
   }
 
   if (done) {

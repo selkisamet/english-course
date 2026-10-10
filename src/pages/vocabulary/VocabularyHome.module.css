@@ -68,6 +68,22 @@
   transition: width 0.4s var(--ease);
 }
 
+.fromStory {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--on-primary) 12%, transparent);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.fromStory svg {
+  flex: none;
+  margin-top: 1px;
+}
+
 .todayBtn {
   margin-top: 4px;
   background: var(--on-primary);

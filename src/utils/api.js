@@ -93,6 +93,9 @@ export const fetchWords = (params) =>
 
 export const fetchWord = (id) => request(`/api/vocabulary/words/${encodeURIComponent(id)}`)
 
+// Kelimenin geçtiği hikayeler ve o hikayedeki cümlesi
+export const fetchWordStories = (id) => request(`/api/vocabulary/words/${encodeURIComponent(id)}/stories`)
+
 // Bütün kelimelerin türü ve anlamları: alıştırmalarda yanlış seçenek üretmek için
 let poolPromise = null
 export function fetchWordPool() {

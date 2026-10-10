@@ -177,6 +177,8 @@ export function buildExercise(type, info, pool, random = Math.random) {
     const found = info.example && findInSentence(info.example.text, info.example.form)
     // Birden çok kelimelik cevapta tek kelimelik seçenekler cevabı ele verir
     if (!found || /\s/.test(found.match)) return null
+    // Çekimli biçim ("left") yalın seçenekler ("visit") arasında cevabı ele verir
+    if (found.match.toLowerCase() !== info.word.toLowerCase()) return null
     const answer = found.match
     // Seçenekler cümledeki biçimle aynı yazılsın (büyük harfle başlıyorsa onlar da)
     const capital = /^\p{Lu}/u.test(answer)

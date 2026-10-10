@@ -1,15 +1,22 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, AudioLines, Check, Gauge, Languages, Lightbulb, Play, Square, X } from 'lucide-react'
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { ArrowLeft, ArrowRight, AudioLines, Check, Gauge, Highlighter, Languages, Lightbulb, Play, Sparkles, Square, Target, X } from 'lucide-react'
 import WordPanel from '../components/WordPanel'
 import { fetchAnnotations, fetchStories, fetchStoryAudio, translateText } from '../utils/api'
-import { cleanWord, LEVEL_NAMES, readingMinutes, splitSentences, wordCount } from '../utils/format'
+import { cleanWord, LEVEL_NAMES, readingMinutes, wordCount } from '../utils/format'
+import { analyzeStoryText } from '../utils/storyText'
+import { entryIdOf, PREP_MIN, prepWords, quizWords, storyWords, studiedIds, toStudyState } from '../utils/storyWords'
 import { readAloud } from '../utils/readAloud'
 import { canSpeak, speak, stopSpeaking } from '../utils/speech'
 import { playStoryAudio } from '../utils/storyAudioPlayer'
+import { updateWordProgress } from '../utils/vocabularyStorage'
 import {
   getFlag,
   getReadStories,
+  getShowStudied,
+  isPrepSkipped,
+  setShowStudied,
+  skipPrep,
   getStoryVoice,
   isStoryRead,
   setFlag,
@@ -32,50 +39,7 @@ const VOICE_LABELS = { female: 'Kadın sesi', male: 'Erkek sesi' }
 // Kelimeyi baştaki/sondaki noktalama işaretlerinden ayır
 const splitToken = (token) => token.match(/^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$/).slice(1)
 
-function useStoryText(text) {
-  return useMemo(() => {
-    if (!text) return { tokens: [], offsets: [], spans: [], sentenceOf: () => '', sentenceIndexOf: () => 0 }
-
-    const tokens = text.split(/\s+/).filter(Boolean)
-    let pos = 0
-    const offsets = tokens.map((t) => {
-      const i = text.indexOf(t, pos)
-      pos = i + t.length
-      return i
-    })
-
-    const sentences = splitSentences(text)
-    pos = 0
-    const starts = sentences.map((s) => {
-      const i = text.indexOf(s, pos)
-      pos = i + s.length
-      return i
-    })
-
-    const sentenceIndexOf = (index) => {
-      const offset = offsets[index]
-      let found = 0
-      starts.forEach((start, j) => {
-        if (start <= offset) found = j
-      })
-      return found
-    }
-    const sentenceOf = (index) => sentences[sentenceIndexOf(index)]
-
-    // Sesli okuma için her cümlenin kelime aralığı (yalnızca noktalamadan oluşan parçalar atlanır)
-    const spans = sentences
-      .map((sentence, j) => {
-        const end = starts[j] + sentence.length
-        const inside = offsets.map((o, t) => [o, t]).filter(([o]) => o >= starts[j] && o < end)
-        return inside.length
-          ? { text: sentence, start: starts[j], first: inside[0][1], last: inside[inside.length - 1][1] }
-          : null
-      })
-      .filter(Boolean)
-
-    return { tokens, offsets, spans, sentenceOf, sentenceIndexOf }
-  }, [text])
-}
+const useStoryText = (text) => useMemo(() => analyzeStoryText(text), [text])
 
 function StoryReader() {
   const { id } = useParams()
@@ -118,7 +82,8 @@ function Reader({ id }) {
   }, [id])
 
   const story = stories?.find((s) => s.id === id)
-  const { tokens, offsets, spans, sentenceOf, sentenceIndexOf } = useStoryText(story?.text)
+  const storyText = useStoryText(story?.text)
+  const { tokens, offsets, spans, sentenceOf, sentenceIndexOf } = storyText
   // İşaretleme metinle uyuşmuyorsa (ör. kelime sayısı farklı) kullanılmaz
   const annotation = annotations?.tokens?.length === tokens.length ? annotations : null
   // Seslendirme de kelime sayısı tutuyorsa kullanılır; yoksa cihazın sesi okur
@@ -129,6 +94,62 @@ function Reader({ id }) {
   const voiceKeys = Object.keys(VOICE_LABELS).filter((k) => audioVoices[k])
   const activeVoice = audioVoices[voice] ? voice : voiceKeys[0]
   const canListen = canSpeak || voiceKeys.length > 0
+
+  const words = useMemo(() => (annotation ? storyWords(annotation, storyText) : []), [annotation, storyText])
+  const prep = useMemo(() => (story ? prepWords(words, story.level) : []), [words, story])
+  const quiz = useMemo(() => (story && isRead ? quizWords(words, story.level) : []), [words, story, isRead])
+  const studied = useMemo(() => studiedIds(words), [words])
+  const [prepSkipped, setPrepSkipped] = useState(() => isPrepSkipped(id))
+  const [showStudied, setShowStudiedState] = useState(getShowStudied)
+  const showPrep = !isRead && !prepSkipped && prep.length >= PREP_MIN
+
+  // Her kelimenin ilerleme kaydındaki kimliği (yalnızca çalışılabilen kelimeler)
+  const idAt = useMemo(() => {
+    const ids = new Set(words.map((w) => w.wordId))
+    return (annotation?.tokens || []).map((t) => (t?.lemma && ids.has(entryIdOf(t)) ? entryIdOf(t) : null))
+  }, [annotation, words])
+
+  // Kelime sayfasından gelindiyse o kelime vurgulanır
+  const [searchParams] = useSearchParams()
+  const focusWord = searchParams.get('word')
+  const focusIndexes = useMemo(
+    () => (focusWord && annotation ? annotation.tokens.map((t, i) => (t?.base?.wordId === focusWord ? i : -1)).filter((i) => i >= 0) : []),
+    [focusWord, annotation]
+  )
+  useEffect(() => {
+    if (!focusIndexes.length) return
+    document.querySelector(`[data-token="${focusIndexes[0]}"]`)?.scrollIntoView({ block: 'center', behavior: 'smooth' })
+  }, [focusIndexes])
+
+  const startPrep = () => {
+    // Kelimeler hikayedeki bağlamlarıyla kaydedilir; tanıtım kartında bu cümle görünür
+    prep.forEach((w) => updateWordProgress(w.wordId, w.word, w.context))
+    // Hikayeye bir kez hazırlanıldı: kart bu hikayede yeniden gösterilmez
+    skipPrep(id)
+    navigate('/vocabulary/study', {
+      state: { mode: 'prep', ...toStudyState(prep), story: { id: story.id, title: story.title } }
+    })
+  }
+
+  const handleSkipPrep = () => {
+    skipPrep(id)
+    setPrepSkipped(true)
+  }
+
+  const startQuiz = () => {
+    navigate('/vocabulary/study', {
+      state: {
+        mode: 'quiz',
+        ...toStudyState(quiz),
+        story: { id: story.id, title: story.title, next: nextStory ? { id: nextStory.id, title: nextStory.title } : null }
+      }
+    })
+  }
+
+  const toggleStudied = () => {
+    setShowStudied(!showStudied)
+    setShowStudiedState(!showStudied)
+  }
 
   const nextStory = useMemo(() => {
     if (!stories || !story) return null
@@ -355,7 +376,43 @@ function Reader({ id }) {
                   <Languages size={18} />
                   Türkçe
                 </button>
+                {studied.size > 0 && (
+                  <button
+                    className={`btn btn-ghost ${styles.toggle}`}
+                    onClick={toggleStudied}
+                    aria-pressed={showStudied}
+                    title={showStudied ? 'Çalıştığın kelimelerin işaretini kaldır' : 'Çalıştığın kelimeleri işaretle'}
+                  >
+                    <Highlighter size={18} />
+                    Kelimelerim
+                  </button>
+                )}
               </div>
+
+              {showPrep && (
+                <section className={styles.prep} aria-label="Okumadan önce">
+                  <p className={styles.prepEyebrow}>
+                    <Sparkles size={16} /> Okumadan önce
+                  </p>
+                  <p className={styles.prepTitle}>Bu hikayede henüz çalışmadığın {prep.length} kelime var.</p>
+                  <ul className={styles.prepWords}>
+                    {prep.map((w) => (
+                      <li key={w.wordId}>
+                        {w.word}
+                        {w.level && <small>{w.level}</small>}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className={styles.prepActions}>
+                    <button className="btn btn-primary" onClick={startPrep}>
+                      Önce kelimeleri çalış · 1 dk
+                    </button>
+                    <button className={`btn ${styles.prepSkip}`} onClick={handleSkipPrep}>
+                      Atla
+                    </button>
+                  </div>
+                </section>
+              )}
 
               {showHint && (
                 <div className={styles.hint}>
@@ -380,7 +437,14 @@ function Reader({ id }) {
                   const phrase = selected && annotation?.tokens[selected.index]?.phrase
                   const inSelection =
                     selected?.index === index || (phrase && index >= phrase.from && index <= phrase.to)
-                  const state = inSelection ? 'selected' : speakingIndex === index ? 'speaking' : undefined
+                  const state = inSelection
+                    ? 'selected'
+                    : speakingIndex === index
+                      ? 'speaking'
+                      : focusIndexes.includes(index)
+                        ? 'focus'
+                        : undefined
+                  const known = showStudied && idAt[index] && studied.has(idAt[index])
                   return (
                     <span key={index}>
                       {before}
@@ -388,6 +452,8 @@ function Reader({ id }) {
                         <span
                           className={styles.word}
                           data-state={state}
+                          data-known={known || undefined}
+                          data-token={index}
                           onClick={() => handleWordClick(index)}
                         >
                           {core}
@@ -422,6 +488,20 @@ function Reader({ id }) {
                   <Check size={18} strokeWidth={3} />
                   {isRead ? 'Okundu' : 'Hikayeyi bitirdim'}
                 </button>
+                {isRead && quiz.length > 0 && (
+                  <section className={styles.quizCard} aria-label="Mini test">
+                    <span className={styles.quizIcon}>
+                      <Target size={20} />
+                    </span>
+                    <div>
+                      <p className={styles.quizTitle}>Kelimeleri pekiştir</p>
+                      <p className={styles.quizText}>Bu hikayenin cümleleriyle {quiz.length} soru · 1 dk</p>
+                    </div>
+                    <button className={`btn btn-block ${styles.quizStart}`} onClick={startQuiz}>
+                      Mini teste başla
+                    </button>
+                  </section>
+                )}
                 {isRead && nextStory && (
                   <Link to={`/story/${nextStory.id}`} className={styles.next}>
                     <span>

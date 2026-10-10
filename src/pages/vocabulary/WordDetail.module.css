@@ -184,3 +184,72 @@
     width: auto;
   }
 }
+
+/* ---------- Geçtiği hikayeler ---------- */
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.story {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 40px 14px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  transition: border-color 0.15s ease;
+}
+
+.story:hover {
+  border-color: var(--text-subtle);
+}
+
+.storyHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.storyRead {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.storySentence {
+  font-family: var(--font-read);
+  line-height: 1.55;
+}
+
+.storySentence mark {
+  background: var(--highlight-soft);
+  color: inherit;
+  border-bottom: 2px solid var(--highlight);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.storyTr {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.storyArrow {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+  color: var(--text-subtle);
+}
