@@ -10,7 +10,7 @@ import {
   setPreferredLevel
 } from '../../utils/storyProgress'
 import { getTodayPlan } from '../../utils/studySession'
-import { getProgress, getProgressStats } from '../../utils/vocabularyStorage'
+import { getProgress, getProgressStats, getTodayStudy } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
 import styles from './VocabularyHome.module.css'
 
@@ -31,6 +31,24 @@ function recentAccuracy() {
   return answers ? Math.round((correct / answers) * 100) : null
 }
 
+/** Günlük yeni kelime hedefi: bugün kaç tanesi öğrenildi */
+function DailyGoal({ learned, goal }) {
+  const percent = Math.min(100, Math.round((learned / goal) * 100))
+  return (
+    <div className={styles.goal}>
+      <div className={styles.goalText}>
+        <span>Günlük yeni kelime hedefi</span>
+        <strong>
+          {learned}/{goal}
+        </strong>
+      </div>
+      <div className={styles.goalBar} role="progressbar" aria-label="Günlük yeni kelime hedefi" aria-valuenow={learned} aria-valuemax={goal}>
+        <div style={{ width: `${percent}%` }} />
+      </div>
+    </div>
+  )
+}
+
 function VocabularyHome() {
   // Hikaye seviyesi C1/C2 olabilir; kelime listesi B2'de biter
   const [level, setLevel] = useState(() => {
@@ -42,6 +60,7 @@ function VocabularyHome() {
   const stats = useMemo(getProgressStats, [])
   const accuracy = useMemo(recentAccuracy, [])
   const plan = useMemo(getTodayPlan, [dailyNew])
+  const learnedToday = useMemo(() => getTodayStudy().newWords, [])
   const newCount = plan.newLeft
   const reviewCount = plan.reviews.length
   const nothingLeft = reviewCount === 0 && newCount === 0
@@ -74,6 +93,7 @@ function VocabularyHome() {
               </span>
               <h2>Bugünkü çalışmanı bitirdin</h2>
               <p>Yarın tekrar zamanı gelen kelimeler burada olacak. İstersen birkaç yeni kelime daha öğrenebilirsin.</p>
+              <DailyGoal learned={learnedToday} goal={dailyNew} />
               <Link to="/vocabulary/study" state={{ extraNew: 5 }} className={`btn btn-lg btn-block ${styles.todayBtn}`}>
                 5 yeni kelime daha <ArrowRight size={18} />
               </Link>
@@ -90,6 +110,7 @@ function VocabularyHome() {
                 Yaklaşık {estimateMinutes(reviewCount, newCount)} dakika
                 {plan.reviewTotal > reviewCount && ` · ${plan.reviewTotal - reviewCount} tekrar sonraki oturuma kalacak`}
               </p>
+              <DailyGoal learned={learnedToday} goal={dailyNew} />
               <Link to="/vocabulary/study" className={`btn btn-lg btn-block ${styles.todayBtn}`}>
                 Başla <ArrowRight size={18} />
               </Link>

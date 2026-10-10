@@ -37,6 +37,37 @@
   font-size: 0.95rem;
 }
 
+.goal {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.goalText {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.goalText span {
+  opacity: 0.85;
+}
+
+.goalBar {
+  height: 6px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--on-primary) 25%, transparent);
+  overflow: hidden;
+}
+
+.goalBar div {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--on-primary);
+  transition: width 0.4s var(--ease);
+}
+
 .todayBtn {
   margin-top: 4px;
   background: var(--on-primary);

@@ -583,6 +583,9 @@ function Study() {
   }
 
   const progress = steps ? (index / steps.length) * 100 : 0
+  // Sayaç adımları değil kelimeleri sayar (yeni kelimede tanıtım + soru iki adımdır)
+  const wordIds = steps ? [...new Set(steps.map((s) => s.wordId))] : []
+  const finishedWords = wordIds.filter((id) => steps.findLastIndex((s) => s.wordId === id) < index).length
 
   return (
     <div className={styles.study}>
@@ -593,7 +596,9 @@ function Study() {
         <div className={styles.bar} role="progressbar" aria-label="İlerleme" aria-valuenow={index} aria-valuemax={steps?.length || 0}>
           <div className={styles.barFill} style={{ width: `${progress}%` }} />
         </div>
-        <span className={styles.count}>{steps ? `${index + 1}/${steps.length}` : ''}</span>
+        <span className={styles.count} title="Tamamlanan kelime">
+          {steps ? `${finishedWords}/${wordIds.length}` : ''}
+        </span>
       </header>
 
       {!info || (step.kind === 'quiz' && !exercise) ? (
