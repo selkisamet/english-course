@@ -1,280 +1,588 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Layers, Trophy, Volume2, X } from 'lucide-react'
+import { BookOpen, Check, CircleAlert, Layers, Trophy, Volume2, X } from 'lucide-react'
 import { HighlightedSentence, RichText } from '../../components/WordPanel'
-import { fetchWord } from '../../utils/api'
-import { capitalize, formatTr, translatePOS } from '../../utils/format'
+import { fetchWord, fetchWordPool } from '../../utils/api'
+import { buildExercise, checkTyped, describeWord, shortMeaning } from '../../utils/exercises'
+import { capitalize, formatTr, translatePOS, VOCAB_LEVELS } from '../../utils/format'
 import { speak } from '../../utils/speech'
-import {
-  calculateNextReview,
-  DIFFICULTY,
-  getTimeUntilReview,
-  updateWordProgress as applyReview
-} from '../../utils/spacedRepetition'
+import { GRADE, reviewEntry } from '../../utils/srs'
+import { buildTodayQueue, exerciseTypesFor, planSteps } from '../../utils/studySession'
+import { getPreferredLevel } from '../../utils/storyProgress'
 import {
   createNewWordProgress,
   getWordProgress,
-  getWordsDueForReview,
+  logDailyStudy,
   removeWordProgress,
   updateWordProgress as saveWordProgress
 } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
 import styles from './Study.module.css'
 
-const SESSION_LIMIT = 20
-
-const RATINGS = [
-  { key: '1', difficulty: DIFFICULTY.HARD, label: 'Bilmiyorum', tone: 'hard' },
-  { key: '2', difficulty: DIFFICULTY.MEDIUM, label: 'Zor', tone: 'medium' },
-  { key: '3', difficulty: DIFFICULTY.EASY, label: 'Biliyorum', tone: 'easy' }
-]
-
-const initialQueue = (state) => {
-  if (state?.queue?.length) return state.queue
-  return getWordsDueForReview()
-    .slice(0, SESSION_LIMIT)
-    .map(({ wordId, word }) => ({ wordId, word }))
+const TYPE_LABELS = {
+  meaning: 'Anlamını seç',
+  listen: 'Dinle ve seç',
+  toEnglish: 'İngilizcesini seç',
+  cloze: 'Boşluğu doldur',
+  typing: 'Yazarak cevapla'
 }
 
-function Example({ english, turkish, label, highlight }) {
+const GRADES = { ok: GRADE.GOOD, almost: GRADE.HARD, bad: GRADE.AGAIN }
+
+// Yanlış bilinen kelime bu kadar adım sonra yeniden sorulur
+const RETRY_GAP = 3
+// Aynı oturumda en fazla bu kadar yeniden sorulur; kalanı tekrar takvimine bırakılır
+const MAX_RETRIES = 2
+
+const isStoryOnly = (wordId) => wordId.startsWith('story:')
+
+function SpeakButton({ text, label = 'Dinle', size = 20, className = 'icon-btn icon-btn-soft' }) {
+  return (
+    <button type="button" className={className} onClick={() => speak(text, { rate: 0.85 })} aria-label={label}>
+      <Volume2 size={size} />
+    </button>
+  )
+}
+
+function Example({ example, word }) {
+  if (!example?.text) return null
   return (
     <div className={styles.example}>
-      {label && <p className={`eyebrow ${styles.exampleLabel}`}>{label}</p>}
       <p>
-        {highlight ? <HighlightedSentence sentence={english} word={highlight} /> : english}
-        <button
-          className={styles.inlineSpeak}
-          onClick={() => speak(english)}
-          aria-label="Örnek cümleyi dinle"
-        >
-          <Volume2 size={16} />
-        </button>
+        <HighlightedSentence sentence={example.text} word={example.form || word} />
+        <SpeakButton text={example.text} label="Örnek cümleyi dinle" size={16} className={styles.inlineSpeak} />
       </p>
-      {turkish && <p className={styles.exampleTr}>{formatTr(turkish)}</p>}
+      {example.tr && <p className={styles.exampleTr}>{formatTr(example.tr)}</p>}
     </div>
   )
 }
 
-function CardBack({ info }) {
-  if (!info || info.loading) {
-    return (
-      <div className={styles.back}>
-        <div className="skeleton" style={{ height: 32, width: '60%' }} />
-      </div>
-    )
-  }
+// ---------- Yeni kelime tanıtımı ----------
 
-  if (info.story) {
-    const { story } = info
-    // İşaretli hikayeden kaydedilen kelime: önce temel anlam, altında hikayedeki anlamı
-    if (story.base) {
-      return (
-        <div className={styles.back}>
-          <p className={styles.translation}>{formatTr(story.base)}</p>
-          {story.pos && <span className="badge">{translatePOS(story.pos)}</span>}
-          <div className={styles.inStory}>
-            <p className={`eyebrow ${styles.exampleLabel}`}>Hikayedeki anlamı</p>
-            <p className={styles.inStoryText}>{formatTr(story.translation)}</p>
-            {story.note && (
-              <p className={styles.inStoryNote}>
-                <RichText text={story.note} />
-              </p>
-            )}
-          </div>
-          <Example
-            english={story.sentence}
-            turkish={story.sentenceTranslation}
-            label="Hikayede gördüğün cümle"
-            highlight={story.highlight}
-          />
+function Intro({ info, entry, oxford, onLearned, onKnown }) {
+  const storyContext = entry?.sentence ? entry : null
+  const otherSenses = oxford ? oxford.senses.filter((s) => s.translation !== info.meaning).slice(0, 3) : []
+  return (
+    <>
+      <main className={styles.stage}>
+        <span className={styles.chip} data-tone="new">Yeni kelime</span>
+        <div className={styles.wordRow}>
+          <h1 className={styles.word}>{info.word}</h1>
+          <SpeakButton text={info.word} />
         </div>
-      )
-    }
-    return (
-      <div className={styles.back}>
-        <p className={styles.translation}>{formatTr(story.translation) || '—'}</p>
-        {story.pos && <span className="badge">{translatePOS(story.pos)}</span>}
-        <Example
-          english={story.sentence}
-          turkish={story.sentenceTranslation}
-          label="Hikayede gördüğün cümle"
-          highlight={story.highlight}
+        <div className={styles.card}>
+          <div className={styles.badges}>
+            {info.pos && <span className="badge">{translatePOS(info.pos)}</span>}
+            {info.level && <span className="badge">{info.level}</span>}
+          </div>
+          <p className={styles.meaning}>{formatTr(info.meaning)}</p>
+          {storyContext ? (
+            <div className={styles.inStory}>
+              <p className={styles.inStoryLabel}>
+                <BookOpen size={16} /> Hikayedeki anlamı
+              </p>
+              <p className={styles.inStoryText}>{formatTr(storyContext.translation)}</p>
+              {storyContext.note && (
+                <p className={styles.inStoryNote}>
+                  <RichText text={storyContext.note} />
+                </p>
+              )}
+            </div>
+          ) : (
+            oxford && mainDefinition(oxford, info) && <p className={styles.definition}>{mainDefinition(oxford, info)}</p>
+          )}
+          <Example example={info.example} word={info.word} />
+          {otherSenses.length > 0 && (
+            <ul className={styles.otherSenses} aria-label="Diğer anlamları">
+              {otherSenses.map((s) => (
+                <li key={`${s.pos}-${s.translation}`}>
+                  <span className="badge">{translatePOS(s.pos)}</span>
+                  {formatTr(s.translation)}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </main>
+      <footer className={styles.actions}>
+        <button className="btn btn-primary btn-lg btn-block" onClick={onLearned}>
+          Öğrendim, devam
+        </button>
+        <button className={`btn btn-lg btn-block ${styles.outline}`} onClick={onKnown}>
+          Bu kelimeyi zaten biliyorum
+        </button>
+      </footer>
+    </>
+  )
+}
+
+const mainDefinition = (oxford, info) => {
+  const sense = oxford.senses.find((s) => s.pos === info.pos) || oxford.senses[0]
+  return sense?.definition ? capitalize(sense.definition) : ''
+}
+
+// ---------- Sorular ----------
+
+function Options({ exercise, picked, answered, onPick, english }) {
+  return (
+    <div className={exercise.type === 'cloze' ? styles.optionGrid : styles.options}>
+      {exercise.options.map((option, i) => {
+        let state
+        if (answered) state = i === exercise.answer ? 'ok' : i === picked ? 'bad' : 'dim'
+        return (
+          <button
+            key={option}
+            className={styles.option}
+            data-state={state}
+            data-english={english || undefined}
+            onClick={() => onPick(i)}
+            disabled={answered}
+          >
+            {exercise.type !== 'cloze' && <span className={styles.key}>{i + 1}</span>}
+            {english ? option : formatTr(option)}
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+function Question({ exercise, picked, answered, typed, setTyped, onPick, onSubmitTyped, onGiveUp }) {
+  const { type } = exercise
+  const inputRef = useRef(null)
+
+  useEffect(() => {
+    if (type === 'listen') speak(exercise.word, { rate: 0.85 })
+    if (type === 'typing') inputRef.current?.focus()
+  }, [exercise, type])
+
+  return (
+    <main className={styles.stage}>
+      <span className={styles.chip}>{TYPE_LABELS[type]}</span>
+
+      {type === 'meaning' && (
+        <>
+          <p className={styles.ask}>Bu kelimenin anlamı ne?</p>
+          <div className={styles.wordRow}>
+            <h1 className={styles.word}>{exercise.word}</h1>
+            <SpeakButton text={exercise.word} />
+          </div>
+        </>
+      )}
+
+      {type === 'listen' && (
+        <>
+          <p className={styles.ask}>Duyduğun kelimenin anlamı ne?</p>
+          <button className={styles.bigSpeak} onClick={() => speak(exercise.word, { rate: 0.85 })} aria-label="Kelimeyi tekrar dinle">
+            <Volume2 size={44} />
+          </button>
+          {answered && <h1 className={`${styles.word} ${styles.center}`}>{exercise.word}</h1>}
+        </>
+      )}
+
+      {(type === 'toEnglish' || type === 'typing') && (
+        <>
+          <p className={styles.ask}>{type === 'typing' ? 'Bu kelimenin İngilizcesini yaz.' : 'İngilizcesi hangisi?'}</p>
+          <h1 className={styles.prompt}>{formatTr(exercise.meaning)}</h1>
+          {exercise.pos && <span className="badge">{translatePOS(exercise.pos)}</span>}
+        </>
+      )}
+
+      {type === 'cloze' && (
+        <>
+          <p className={styles.ask}>Cümleyi tamamlayan kelimeyi seç.</p>
+          <div className={styles.clozeCard}>
+            <p className={styles.sentence}>
+              {exercise.before}
+              <span className={styles.blank}>{answered ? exercise.options[exercise.answer] : ' '}</span>
+              {exercise.after}
+            </p>
+            {exercise.translation && <p className={styles.exampleTr}>{formatTr(exercise.translation)}</p>}
+          </div>
+        </>
+      )}
+
+      {type === 'typing' ? (
+        <form
+          className={styles.typingForm}
+          onSubmit={(e) => {
+            e.preventDefault()
+            if (!answered && typed.trim()) onSubmitTyped()
+          }}
+        >
+          <label className={styles.ask} htmlFor="typed-answer">Cevabın</label>
+          <input
+            id="typed-answer"
+            ref={inputRef}
+            className={styles.field}
+            value={typed}
+            onChange={(e) => setTyped(e.target.value)}
+            readOnly={answered}
+            autoComplete="off"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
+            placeholder="İngilizcesini yaz…"
+            lang="en"
+          />
+          {!answered && (
+            <div className={styles.typingActions}>
+              <button type="submit" className="btn btn-primary btn-lg btn-block" disabled={!typed.trim()}>
+                Kontrol et
+              </button>
+              <button type="button" className={`btn btn-lg btn-block ${styles.outline}`} onClick={onGiveUp}>
+                Bilmiyorum
+              </button>
+            </div>
+          )}
+        </form>
+      ) : (
+        <Options
+          exercise={exercise}
+          picked={picked}
+          answered={answered}
+          onPick={onPick}
+          english={type === 'toEnglish' || type === 'cloze'}
         />
-      </div>
-    )
+      )}
+    </main>
+  )
+}
+
+function Feedback({ result, exercise, info, other, willRetry, onNext }) {
+  const nextRef = useRef(null)
+  useEffect(() => nextRef.current?.focus(), [])
+
+  const correctText =
+    exercise.type === 'meaning' || exercise.type === 'listen'
+      ? `${exercise.word} = ${formatTr(exercise.options[exercise.answer])}`
+      : exercise.type === 'typing'
+        ? exercise.accepted[0]
+        : `${exercise.word} = ${formatTr(shortMeaning(exercise.meaning))}`
+
+  let title = 'Doğru!'
+  let line = ''
+  if (result === 'bad') {
+    title = 'Doğru cevap:'
+    line = correctText
+  } else if (result === 'almost') {
+    title = 'Neredeyse!'
+    line = `Doğru yazımı: ${exercise.accepted[0]}. Bunu doğru saydık.`
+  } else if (other) {
+    line = `“${other}” de bu anlama gelir. Sorduğumuz kelime: ${exercise.accepted[0]}`
   }
 
-  if (info.senses) {
-    const [main, ...others] = info.senses
-    return (
-      <div className={styles.back}>
-        <p className={styles.translation}>{formatTr(main.translation)}</p>
-        <span className="badge">{translatePOS(main.pos)}</span>
-        <p className={styles.definition}>{capitalize(main.definition)}</p>
-        <Example english={main.example} turkish={main.exampleTranslation} />
-        {others.length > 0 && (
-          <ul className={styles.otherSenses}>
-            {others.map((s) => (
-              <li key={`${s.pos}-${s.homonym || ''}-${s.note || ''}`}>
-                <span className="badge">{translatePOS(s.pos)}</span>
-                {formatTr(s.translation)}
+  return (
+    <section className={styles.feedback} data-result={result} aria-live="polite">
+      <p className={styles.feedbackHead}>
+        <span className={styles.feedbackIcon}>{result === 'bad' ? <X size={18} strokeWidth={3} /> : <Check size={18} strokeWidth={3} />}</span>
+        {title}
+      </p>
+      {line && <p className={styles.feedbackLine}>{line}</p>}
+      <Example example={info.example} word={info.word} />
+      {result === 'bad' && (
+        <p className={styles.retryNote}>
+          {willRetry ? 'Bu kelime birazdan yeniden sorulacak.' : 'Bu kelimeyi yarın yeniden soracağız.'}
+        </p>
+      )}
+      <button ref={nextRef} className={`btn btn-lg btn-block ${styles.next}`} data-result={result} onClick={onNext}>
+        Devam
+      </button>
+    </section>
+  )
+}
+
+// ---------- Özet ----------
+
+function Summary({ session, onMore }) {
+  const { seen, graded, newWords, wrong } = session
+  const correct = graded.filter((g) => g.ok).length
+  return (
+    <div className={styles.summary}>
+      <span className={styles.trophy}>
+        <Trophy size={32} />
+      </span>
+      <div>
+        <h1>Bugünkü çalışma tamam!</h1>
+        <p className="muted">Tekrar zamanı gelen kelimeleri sana yine hatırlatacağız.</p>
+      </div>
+
+      <div className={styles.resultGrid}>
+        <div>
+          <strong>{seen.size}</strong>
+          <span>kelime</span>
+        </div>
+        <div>
+          <strong>{graded.length ? `%${Math.round((correct / graded.length) * 100)}` : '—'}</strong>
+          <span>ilk denemede doğru</span>
+        </div>
+        <div>
+          <strong>{newWords}</strong>
+          <span>yeni kelime</span>
+        </div>
+      </div>
+
+      {wrong.length > 0 && (
+        <section className={styles.weak}>
+          <h2 className={styles.weakTitle}>Zorlandığın kelimeler</h2>
+          <ul>
+            {wrong.map((w) => (
+              <li key={w.wordId}>
+                <strong>{w.word}</strong>
+                <span>{formatTr(shortMeaning(w.meaning))}</span>
               </li>
             ))}
           </ul>
-        )}
-      </div>
-    )
-  }
-
-  return (
-    <div className={styles.back}>
-      {info.fallback ? (
-        <p className={styles.translation}>{formatTr(info.fallback)}</p>
-      ) : (
-        <p className="muted">Bu kelimenin anlamı bulunamadı.</p>
+          <p className="muted">Bu kelimeler önümüzdeki günlerde daha sık sorulacak.</p>
+        </section>
       )}
+
+      <div className={styles.summaryActions}>
+        <Link to="/vocabulary" className="btn btn-primary btn-lg btn-block">Kelimelere dön</Link>
+        {onMore && (
+          <button className={`btn btn-lg btn-block ${styles.outline}`} onClick={onMore}>
+            5 yeni kelime daha
+          </button>
+        )}
+        <Link to="/" className="btn btn-ghost btn-block">Hikaye oku</Link>
+      </div>
     </div>
   )
 }
 
-const nextReviewLabel = (wordId, difficulty) => {
-  const reviewCount = (getWordProgress(wordId)?.reviewCount || 0) + 1
-  return getTimeUntilReview(calculateNextReview({ reviewCount }, difficulty)).description
-}
+// ---------- Oturum ----------
+
+const emptySession = () => ({ seen: new Set(), graded: [], gradedIds: new Set(), newWords: 0, wrong: [] })
 
 function Study() {
   const location = useLocation()
   const navigate = useNavigate()
-  const [queue] = useState(() => initialQueue(location.state))
-  const [index, setIndex] = useState(0)
-  const [flipped, setFlipped] = useState(false)
-  const [results, setResults] = useState({ easy: 0, medium: 0, hard: 0 })
-  const [done, setDone] = useState(false)
+  const customQueue = location.state?.queue
+  const extraNew = location.state?.extraNew || 0
+
+  const [steps, setSteps] = useState(null)
+  const [pool, setPool] = useState(null)
   const [details, setDetails] = useState({})
+  const [error, setError] = useState('')
+  const [retry, setRetry] = useState(0)
 
-  const current = queue[index]
-  const info = current ? details[current.wordId] : null
+  const [index, setIndex] = useState(0)
+  const [exercise, setExercise] = useState(null)
+  const [picked, setPicked] = useState(null)
+  const [typed, setTyped] = useState('')
+  const [result, setResult] = useState(null) // { result, other }
+  const [session, setSession] = useState(emptySession)
+  const [done, setDone] = useState(false)
 
-  const loadDetails = useCallback((item) => {
-    const set = (value) => setDetails((prev) => ({ ...prev, [item.wordId]: value }))
-    const saved = getWordProgress(item.wordId)
-
-    // Hikayeden kaydedilen kelime: hikayede karşılaşılan anlamı göster
-    if (saved?.sentence) {
-      set({
-        story: {
-          translation: saved.translation,
-          base: saved.base,
-          note: saved.note,
-          pos: saved.pos,
-          sentence: saved.sentence,
-          sentenceTranslation: saved.sentenceTranslation,
-          highlight: saved.surface
-        }
+  // Oturum listesi ve kelime verisi
+  useEffect(() => {
+    let active = true
+    setError('')
+    // "5 yeni kelime daha" aynı sayfada yeni bir oturum başlatır
+    setSteps(null)
+    setIndex(0)
+    setExercise(null)
+    setResult(null)
+    setDone(false)
+    setSession(emptySession())
+    const level = VOCAB_LEVELS.includes(getPreferredLevel()) ? getPreferredLevel() : 'A1'
+    Promise.all([customQueue?.length ? customQueue : buildTodayQueue(level, extraNew), fetchWordPool()])
+      .then(([queue, words]) => {
+        if (!active) return
+        setPool(words)
+        setSteps(planSteps(queue))
       })
-      return
+      .catch(() => active && setError('Kelimeler yüklenemedi. Bağlantını kontrol edip tekrar dene.'))
+    return () => {
+      active = false
     }
+  }, [customQueue, extraNew, retry])
 
-    // Kelime listesindeki kelime: doğrulanmış bütün anlamları
-    set({ loading: true })
-    fetchWord(item.wordId)
-      .then((word) => set({ senses: word.senses }))
-      .catch(() => set(saved?.translation ? { fallback: saved.translation } : { orphan: true }))
-  }, [])
+  const step = steps?.[index]
 
+  // Şimdiki ve sonraki kelimenin listedeki kaydı
   useEffect(() => {
-    ;[queue[index], queue[index + 1]].forEach((item) => {
-      if (item && !details[item.wordId]) loadDetails(item)
+    if (!steps) return
+    ;[steps[index], steps[index + 1]].forEach((s) => {
+      if (!s || s.wordId in details) return
+      if (isStoryOnly(s.wordId)) return setDetails((d) => ({ ...d, [s.wordId]: null }))
+      setDetails((d) => ({ ...d, [s.wordId]: undefined }))
+      fetchWord(s.wordId)
+        .then((word) => setDetails((d) => ({ ...d, [s.wordId]: word })))
+        .catch(() => setDetails((d) => ({ ...d, [s.wordId]: null })))
     })
-  }, [index, queue, details, loadDetails])
+  }, [steps, index, details])
 
-  // Eski sürümden kalan, kelime listesinde artık olmayan ve anlamı bilinmeyen
-  // kelimeyi gösterme: ilerlemeden kaldır ve sıradakine geç
-  useEffect(() => {
-    if (!info?.orphan) return
-    removeWordProgress(current.wordId)
-    if (index + 1 < queue.length) setIndex(index + 1)
-    else setDone(true)
-  }, [info, current, index, queue.length])
+  const oxford = step ? details[step.wordId] : undefined
+  const ready = step && oxford !== undefined && pool
+  const entry = step ? getWordProgress(step.wordId) : null
 
-  const rate = useCallback(
-    (difficulty) => {
-      if (!current) return
-      const existing =
-        getWordProgress(current.wordId) || createNewWordProgress(current.wordId, current.word)
-      saveWordProgress(current.wordId, current.word, applyReview(existing, difficulty))
-      setResults((r) => ({ ...r, [difficulty]: r[difficulty] + 1 }))
+  const info = useMemo(() => {
+    if (!ready) return null
+    if (!entry && !oxford) return null
+    return describeWord(entry || { wordId: step.wordId, word: step.word }, oxford)
+    // entry her adımda yeniden okunur; bilgi adım değişince yenilenir
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready, step, oxford])
 
-      if (index + 1 < queue.length) {
-        setIndex(index + 1)
-        setFlipped(false)
-      } else {
-        setDone(true)
-      }
+  const goNext = useCallback(
+    (nextSteps = steps) => {
+      setPicked(null)
+      setTyped('')
+      setResult(null)
+      setExercise(null)
+      if (index + 1 >= nextSteps.length) setDone(true)
+      else setIndex(index + 1)
     },
-    [current, index, queue.length]
+    [index, steps]
   )
 
+  // Anlamı bilinmeyen (eski sürümden kalmış) kelime: ilerlemeden kaldır ve geç
   useEffect(() => {
-    if (done) return
+    if (ready && !info) {
+      removeWordProgress(step.wordId)
+      goNext()
+    }
+  }, [ready, info, step, goNext])
+
+  // Sorunun üretilmesi (adım başına bir kez)
+  useEffect(() => {
+    if (!info || step.kind !== 'quiz' || exercise) return
+    for (const type of exerciseTypesFor(entry, { retry: step.retry })) {
+      const built = buildExercise(type, info, pool)
+      if (built) return setExercise(built)
+    }
+    // Hiçbir soru üretilemezse (çok nadir) bu adımı atla
+    goNext()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [info, step, exercise])
+
+  const markSeen = (wordId) => setSession((s) => ({ ...s, seen: new Set(s.seen).add(wordId) }))
+
+  // İlk cevap kelimenin takvimini belirler; aynı oturumdaki tekrarlar yalnızca pekiştirme
+  const answer = (outcome, other) => {
+    setResult({ result: outcome, other })
+    markSeen(step.wordId)
+    if (!session.gradedIds.has(step.wordId)) {
+      const current = getWordProgress(step.wordId) || createNewWordProgress(step.wordId, info.word)
+      saveWordProgress(step.wordId, info.word, reviewEntry(current, GRADES[outcome]))
+      logDailyStudy({ answers: 1, correct: outcome === 'bad' ? 0 : 1 })
+      setSession((s) => ({
+        ...s,
+        gradedIds: new Set(s.gradedIds).add(step.wordId),
+        graded: [...s.graded, { wordId: step.wordId, ok: outcome !== 'bad' }]
+      }))
+    }
+    if (outcome === 'bad') {
+      setSession((s) =>
+        s.wrong.some((w) => w.wordId === step.wordId)
+          ? s
+          : { ...s, wrong: [...s.wrong, { wordId: step.wordId, word: info.word, meaning: info.meaning }] }
+      )
+    }
+  }
+
+  const pick = (i) => {
+    if (result) return
+    setPicked(i)
+    answer(i === exercise.answer ? 'ok' : 'bad')
+  }
+
+  const submitTyped = () => {
+    const { result: outcome, other } = checkTyped(exercise, typed)
+    answer(outcome, other)
+  }
+
+  const willRetry = Boolean(step) && steps.filter((s) => s.wordId === step.wordId && s.retry).length < MAX_RETRIES
+
+  const next = () => {
+    if (result?.result === 'bad' && willRetry) {
+      // Yanlış bilinen kelime birkaç adım sonra yeniden sorulur
+      const copy = [...steps]
+      copy.splice(Math.min(copy.length, index + 1 + RETRY_GAP), 0, { wordId: step.wordId, word: step.word, kind: 'quiz', retry: true })
+      setSteps(copy)
+      goNext(copy)
+    } else {
+      goNext()
+    }
+  }
+
+  const learned = () => {
+    if (!getWordProgress(step.wordId)) saveWordProgress(step.wordId, info.word, {})
+    logDailyStudy({ newWords: 1 })
+    setSession((s) => ({ ...s, newWords: s.newWords + 1 }))
+    markSeen(step.wordId)
+    goNext()
+  }
+
+  const known = () => {
+    const current = getWordProgress(step.wordId) || createNewWordProgress(step.wordId, info.word)
+    saveWordProgress(step.wordId, info.word, reviewEntry(current, GRADE.EASY))
+    logDailyStudy({ newWords: 1 })
+    markSeen(step.wordId)
+    // Bilinen kelimenin bekleyen sorusu oturumdan çıkar
+    const copy = steps.filter((s, i) => i <= index || !(s.wordId === step.wordId && s.kind === 'quiz'))
+    setSteps(copy)
+    goNext(copy)
+  }
+
+  // Klavye: 1–4 seçenek, Enter devam
+  useEffect(() => {
+    if (done || !step) return
     const onKey = (e) => {
-      if ((e.key === ' ' || e.key === 'Enter') && !flipped) {
+      if (e.target instanceof HTMLInputElement) return
+      if (step.kind === 'intro' && e.key === 'Enter' && info) {
         e.preventDefault()
-        setFlipped(true)
-      } else if (flipped) {
-        const rating = RATINGS.find((r) => r.key === e.key)
-        if (rating) rate(rating.difficulty)
+        learned()
+      } else if (exercise && !result && exercise.options && /^[1-4]$/.test(e.key)) {
+        pick(Number(e.key) - 1)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [flipped, rate, done])
+  })
 
   const close = () => navigate(location.key === 'default' ? '/vocabulary' : -1)
 
-  if (queue.length === 0) {
+  if (error) {
+    return (
+      <div className={page.page}>
+        <div className={page.empty}>
+          <span className={page.emptyIcon}>
+            <CircleAlert size={24} />
+          </span>
+          <p className={page.emptyTitle}>{error}</p>
+          <button className="btn btn-primary" onClick={() => setRetry((n) => n + 1)}>Tekrar dene</button>
+        </div>
+      </div>
+    )
+  }
+
+  if (steps && steps.length === 0) {
     return (
       <div className={page.page}>
         <div className={page.empty}>
           <span className={page.emptyIcon}>
             <Layers size={24} />
           </span>
-          <p className={page.emptyTitle}>Şu an tekrar edilecek kelime yok</p>
-          <p>Yeni kelimeler öğrenerek başla ya da hikayelerden kelime kaydet.</p>
-          <Link to="/vocabulary" className="btn btn-primary">Yeni kelime öğren</Link>
+          <p className={page.emptyTitle}>Bugünlük çalışacak kelime kalmadı</p>
+          <p>Yarın tekrar zamanı gelen kelimeler burada olacak.</p>
+          <Link to="/vocabulary" className="btn btn-primary">Kelimelere dön</Link>
         </div>
       </div>
     )
   }
 
   if (done) {
-    const total = results.easy + results.medium + results.hard
     return (
-      <div className={styles.summary}>
-        <span className={styles.trophy}>
-          <Trophy size={32} />
-        </span>
-        <h1>Oturum tamamlandı!</h1>
-        <p className="muted">{total} kelime çalıştın. Tekrar zamanı gelince sana hatırlatacağız.</p>
-
-        <div className={styles.resultGrid}>
-          {RATINGS.slice().reverse().map((r) => (
-            <div key={r.tone} className={styles.result} data-tone={r.tone}>
-              <strong>{results[r.difficulty]}</strong>
-              <span>{r.label}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className={styles.summaryActions}>
-          <Link to="/vocabulary" className="btn btn-primary btn-lg btn-block">Kelimelere dön</Link>
-          <Link to="/" className="btn btn-ghost btn-block">Hikaye oku</Link>
-        </div>
-      </div>
+      <Summary
+        session={session}
+        onMore={customQueue ? null : () => navigate('/vocabulary/study', { replace: true, state: { extraNew: 5 } })}
+      />
     )
   }
 
-  const progress = (index / queue.length) * 100
+  const progress = steps ? (index / steps.length) * 100 : 0
 
   return (
     <div className={styles.study}>
@@ -282,74 +590,44 @@ function Study() {
         <button className="icon-btn" onClick={close} aria-label="Çalışmayı bitir">
           <X size={22} />
         </button>
-        <div className={styles.bar} role="progressbar" aria-valuenow={index} aria-valuemax={queue.length}>
+        <div className={styles.bar} role="progressbar" aria-label="İlerleme" aria-valuenow={index} aria-valuemax={steps?.length || 0}>
           <div className={styles.barFill} style={{ width: `${progress}%` }} />
         </div>
-        <span className={styles.count}>
-          {index + 1}/{queue.length}
-        </span>
+        <span className={styles.count}>{steps ? `${index + 1}/${steps.length}` : ''}</span>
       </header>
 
-      <main className={styles.stage}>
-        <div
-          key={current.wordId}
-          className={styles.card}
-          data-flipped={flipped}
-          onClick={() => !flipped && setFlipped(true)}
-          role={flipped ? undefined : 'button'}
-          tabIndex={flipped ? undefined : 0}
-          aria-label={flipped ? undefined : 'Kartı çevir'}
-        >
-          <div className={styles.front}>
-            <span className="eyebrow">{flipped ? 'İngilizce' : 'Bu kelimenin anlamı ne?'}</span>
-            <div className={styles.wordRow}>
-              <h1 className={styles.word}>{current.word}</h1>
-              <button
-                className="icon-btn icon-btn-soft"
-                onClick={(e) => {
-                  e.stopPropagation()
-                  speak(current.word, { rate: 0.8 })
-                }}
-                aria-label="Dinle"
-              >
-                <Volume2 size={20} />
-              </button>
-            </div>
-          </div>
-
-          {flipped && <CardBack info={info} />}
-
-          {!flipped && <span className={styles.tapHint}>Cevabı görmek için dokun</span>}
+      {!info || (step.kind === 'quiz' && !exercise) ? (
+        <main className={styles.stage}>
+          <div className="skeleton" style={{ height: 28, width: 120 }} />
+          <div className="skeleton" style={{ height: 48, width: '60%' }} />
+          <div className="skeleton" style={{ height: 220 }} />
+        </main>
+      ) : step.kind === 'intro' ? (
+        <Intro key={index} info={info} entry={entry} oxford={oxford} onLearned={learned} onKnown={known} />
+      ) : (
+        <div key={index} className={styles.questionWrap}>
+          <Question
+            exercise={exercise}
+            picked={picked}
+            answered={Boolean(result)}
+            typed={typed}
+            setTyped={setTyped}
+            onPick={pick}
+            onSubmitTyped={submitTyped}
+            onGiveUp={() => answer('bad')}
+          />
+          {result && (
+            <Feedback
+              result={result.result}
+              other={result.other}
+              exercise={exercise}
+              info={info}
+              willRetry={willRetry}
+              onNext={next}
+            />
+          )}
         </div>
-      </main>
-
-      <footer className={styles.actions}>
-        {!flipped ? (
-          <button className="btn btn-primary btn-lg btn-block" onClick={() => setFlipped(true)}>
-            Cevabı göster
-          </button>
-        ) : (
-          <>
-            <p className={styles.prompt}>Ne kadar iyi biliyordun?</p>
-            <div className={styles.ratings}>
-              {RATINGS.map((r) => (
-                <button
-                  key={r.key}
-                  className={styles.rating}
-                  data-tone={r.tone}
-                  onClick={() => rate(r.difficulty)}
-                >
-                  <strong>{r.label}</strong>
-                  <small>{nextReviewLabel(current.wordId, r.difficulty)}</small>
-                </button>
-              ))}
-            </div>
-          </>
-        )}
-        <p className={styles.keys}>
-          {flipped ? 'Kısayol: 1 · 2 · 3' : 'Kısayol: Boşluk tuşu'}
-        </p>
-      </footer>
+      )}
     </div>
   )
 }

@@ -56,6 +56,20 @@ export function getAllWords(options = {}) {
   }
 }
 
+// Alıştırmalarda yanlış seçenek üretmek için bütün kelimelerin yalnızca türü ve anlamı
+let poolCache = null
+export function getWordPool() {
+  if (!poolCache) {
+    poolCache = loadOxford3000().words.map((w) => ({
+      id: w.id,
+      word: w.word,
+      level: w.level,
+      senses: w.senses.map((s) => ({ pos: s.pos, translation: s.translation }))
+    }))
+  }
+  return poolCache
+}
+
 export function getWordById(id) {
   return loadOxford3000().words.find((word) => word.id === id) || null
 }

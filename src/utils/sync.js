@@ -23,6 +23,17 @@ const readQueue = () => {
     return emptyQueue()
   }
 }
+function mergeDaily(a = {}, b = {}) {
+  const merged = { ...a }
+  for (const [day, counts] of Object.entries(b)) {
+    const mine = merged[day] || {}
+    merged[day] = Object.fromEntries(
+      [...new Set([...Object.keys(mine), ...Object.keys(counts)])].map((k) => [k, Math.max(mine[k] || 0, counts[k] || 0)])
+    )
+  }
+  return merged
+}
+
 const emptyQueue = () => ({ words: [], removed: [], read: [], unread: [], settings: false, all: false })
 const writeQueue = (q) => localStorage.setItem(QUEUE_KEY, JSON.stringify(q))
 const addUnique = (list, value) => (list.includes(value) ? list : [...list, value])
@@ -44,6 +55,8 @@ function enqueue(type, detail) {
     q[remove] = q[remove].filter((id) => id !== detail.storyId)
   } else if (type === 'settings') {
     q.settings = true
+    // Kullanıcının seçtiği tercih (seviye, günlük yeni kelime): hesaba yazılana kadar yerel kazanır
+    if (detail?.prefs) q.prefs = true
   }
   writeQueue(q)
   clearTimeout(timer)
@@ -100,6 +113,7 @@ export function flush() {
         read: [...new Set([...q.read, ...current.read])],
         unread: [...new Set([...q.unread, ...current.unread])],
         settings: q.settings || current.settings,
+        prefs: q.prefs || current.prefs,
         all: q.all || current.all
       })
       console.warn('Sync failed, will retry:', error.message)
@@ -135,8 +149,12 @@ async function pull() {
   const localStats = getProgress().stats
   const useRemoteStats =
     remoteStats && (remoteStats.lastStudyDate || '') >= (localStats.lastStudyDate || '')
-  applyRemoteWords(newer, useRemoteStats ? remoteStats : null)
-  applyRemote({ settings: settings.data?.data, readStoryIds: read.map((r) => r.story_id) })
+  // Günlük çalışma kaydı iki cihazda da tutulmuş olabilir: gün gün büyük olanı al
+  const daily = mergeDaily(localStats.daily, remoteStats?.daily)
+  applyRemoteWords(newer, { ...(useRemoteStats ? remoteStats : localStats), daily })
+  // Hesaba henüz yazılmamış bir tercih değişikliği varsa hesaptaki eski tercih onu ezmesin
+  const pendingPrefs = readQueue().prefs
+  applyRemote({ settings: pendingPrefs ? null : settings.data?.data, readStoryIds: read.map((r) => r.story_id) })
 
   // Yerelde olup hesapta olmayanlar ya da yerelde daha yeni olanlar hesaba yazılır
   const q = readQueue()

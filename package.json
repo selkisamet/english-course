@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.30.3",
+    "ts-fsrs": "^5.4.2",
     "wink-eng-lite-web-model": "^1.8.1",
     "wink-nlp": "^1.14.3"
   },

@@ -20,7 +20,7 @@ import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './sto
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
 import { deleteAccount, requireAccess, requireUser } from './userAuth.js'
-import { getAllWords, getWordById, getStats, getAvailableLevels } from './vocabularyManager.js'
+import { getAllWords, getWordById, getWordPool, getStats, getAvailableLevels } from './vocabularyManager.js'
 
 // .env.local dosyasını yükle
 dotenv.config({ path: '.env.local' })
@@ -483,6 +483,11 @@ app.get('/api/vocabulary/words', (req, res) => {
 })
 
 // Get word by ID
+// Kelime çalışması: bütün kelimelerin türü ve anlamları (yanlış seçenekler için)
+app.get('/api/vocabulary/pool', (req, res) => {
+  res.json(getWordPool())
+})
+
 app.get('/api/vocabulary/words/:id', (req, res) => {
   try {
     const { id } = req.params

@@ -9,7 +9,7 @@ import {
   getReadStories,
   setPreferredLevel
 } from '../utils/storyProgress'
-import { getWordsDueForReview } from '../utils/vocabularyStorage'
+import { getTodayPlan } from '../utils/studySession'
 import page from '../styles/page.module.css'
 import styles from './Home.module.css'
 
@@ -19,7 +19,8 @@ function Home() {
   const [level, setLevel] = useState(getPreferredLevel() || 'A1')
 
   const readIds = useMemo(() => new Set(getReadStories()), [])
-  const dueCount = useMemo(() => getWordsDueForReview().length, [])
+  const plan = useMemo(getTodayPlan, [])
+  const dueCount = plan.reviewTotal
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
@@ -94,7 +95,11 @@ function Home() {
           <span className={styles.reviewText}>
             <strong>{dueCount > 0 ? `${dueCount} kelime tekrarı bekliyor` : 'Kelime çalış'}</strong>
             <small>
-              {dueCount > 0 ? 'Unutmadan önce birkaç dakika ayır' : 'Yeni kelimeler öğren, kartlarla tekrar et'}
+              {dueCount > 0
+                ? 'Unutmadan önce birkaç dakika ayır'
+                : plan.newLeft > 0
+                  ? `Bugün ${plan.newLeft} yeni kelime seni bekliyor`
+                  : 'Bugünlük kelime çalışmanı bitirdin'}
             </small>
           </span>
           <ArrowRight size={18} className={styles.reviewArrow} />

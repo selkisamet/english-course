@@ -6,6 +6,7 @@ const READ_KEY = 'readStories'
 const LAST_KEY = 'selectedStoryId'
 const LEVEL_KEY = 'preferredLevel'
 const VOICE_KEY = 'storyVoice'
+const DAILY_NEW_KEY = 'dailyNewWords'
 
 const read = (key, fallback) => {
   try {
@@ -56,13 +57,25 @@ export const getPreferredLevel = () => read(LEVEL_KEY, null)
 
 export function setPreferredLevel(level) {
   write(LEVEL_KEY, level)
-  notifyChange('settings')
+  notifyChange('settings', { prefs: true })
 }
 
 // Hikaye seslendirmesinde seçilen ses: 'female' | 'male'
 export const getStoryVoice = () => read(VOICE_KEY, 'female')
 
 export const setStoryVoice = (voice) => write(VOICE_KEY, voice)
+
+// Kelime çalışmasında günde kaç yeni kelime öğretileceği
+export const DAILY_NEW_OPTIONS = [5, 10, 15, 20]
+export const getDailyNewWords = () => {
+  const value = read(DAILY_NEW_KEY, 10)
+  return DAILY_NEW_OPTIONS.includes(value) ? value : 10
+}
+
+export function setDailyNewWords(count) {
+  write(DAILY_NEW_KEY, count)
+  notifyChange('settings', { prefs: true })
+}
 
 export const getFlag = (key) => read(`flag:${key}`, false)
 
@@ -80,6 +93,7 @@ export function getSettings() {
   return {
     lastStoryId: getLastStoryId(),
     preferredLevel: getPreferredLevel(),
+    dailyNewWords: getDailyNewWords(),
     flags: flagKeys().map((k) => k.slice(5))
   }
 }
@@ -88,11 +102,12 @@ export function getSettings() {
 export function applyRemote({ settings, readStoryIds }) {
   if (settings?.lastStoryId) write(LAST_KEY, settings.lastStoryId)
   if (settings?.preferredLevel) write(LEVEL_KEY, settings.preferredLevel)
+  if (DAILY_NEW_OPTIONS.includes(settings?.dailyNewWords)) write(DAILY_NEW_KEY, settings.dailyNewWords)
   settings?.flags?.forEach((flag) => write(`flag:${flag}`, true))
   if (readStoryIds) write(READ_KEY, [...new Set([...getReadStories(), ...readStoryIds])])
 }
 
 /** Çıkışta: bu cihazdaki okuma ilerlemesini ve tercihleri siler */
 export function clearLocalStoryProgress() {
-  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
+  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, DAILY_NEW_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
 }

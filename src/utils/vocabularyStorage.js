@@ -161,6 +161,36 @@ function updateGlobalStats(progress) {
   }
 }
 
+// ---------- Günlük çalışma kaydı (ilerleme grafikleri ve günlük plan için) ----------
+
+const DAILY_DAYS = 365
+
+/** Yerel saate göre gün: "2026-10-10" */
+export const localDay = (date = new Date()) => {
+  const d = new Date(date.getTime() - date.getTimezoneOffset() * 60000)
+  return d.toISOString().slice(0, 10)
+}
+
+/**
+ * Bugünün sayaçlarını artırır.
+ * @param {{answers?:number, correct?:number, newWords?:number}} counts
+ */
+export function logDailyStudy(counts) {
+  const progress = getProgress()
+  const daily = { ...(progress.stats.daily || {}) }
+  const today = localDay()
+  const day = { answers: 0, correct: 0, newWords: 0, ...daily[today] }
+  for (const [key, value] of Object.entries(counts)) day[key] = (day[key] || 0) + value
+  daily[today] = day
+  // Yalnızca son bir yıl tutulur
+  const keep = Object.keys(daily).sort().slice(-DAILY_DAYS)
+  progress.stats.daily = Object.fromEntries(keep.map((k) => [k, daily[k]]))
+  saveProgress(progress)
+  notifyChange('settings')
+}
+
+export const getTodayStudy = () => ({ answers: 0, correct: 0, newWords: 0, ...getProgress().stats.daily?.[localDay()] })
+
 // Get words by status
 export function getWordsByStatus(status) {
   const progress = getProgress()

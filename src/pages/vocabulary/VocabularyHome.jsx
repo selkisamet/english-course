@@ -1,48 +1,59 @@
 import { useMemo, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { ArrowRight, CircleCheck, Flame, Layers, Search, Sparkles } from 'lucide-react'
-import { pickNewWords } from '../../utils/api'
+import { Link } from 'react-router-dom'
+import { ArrowRight, CircleCheck, Flame, Layers, PartyPopper, Search, Target } from 'lucide-react'
 import { LEVEL_NAMES, VOCAB_LEVELS } from '../../utils/format'
-import { getPreferredLevel, setPreferredLevel } from '../../utils/storyProgress'
-import { getProgressStats, getWordsDueForReview } from '../../utils/vocabularyStorage'
+import {
+  DAILY_NEW_OPTIONS,
+  getDailyNewWords,
+  getPreferredLevel,
+  setDailyNewWords,
+  setPreferredLevel
+} from '../../utils/storyProgress'
+import { getTodayPlan } from '../../utils/studySession'
+import { getProgress, getProgressStats } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
 import styles from './VocabularyHome.module.css'
 
-const NEW_WORD_COUNT = 10
+// Bir cevap ortalama ~15 sn; yeni kelimede tanıtım + soru
+const estimateMinutes = (reviews, fresh) => Math.max(1, Math.round((reviews * 15 + fresh * 35) / 60))
+
+/** Son 30 günde ilk denemede doğru cevap oranı */
+function recentAccuracy() {
+  const daily = getProgress().stats.daily || {}
+  const since = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10)
+  let answers = 0
+  let correct = 0
+  for (const [day, counts] of Object.entries(daily)) {
+    if (day < since) continue
+    answers += counts.answers || 0
+    correct += counts.correct || 0
+  }
+  return answers ? Math.round((correct / answers) * 100) : null
+}
 
 function VocabularyHome() {
-  const navigate = useNavigate()
   // Hikaye seviyesi C1/C2 olabilir; kelime listesi B2'de biter
   const [level, setLevel] = useState(() => {
     const preferred = getPreferredLevel() || 'A1'
     return VOCAB_LEVELS.includes(preferred) ? preferred : 'B2'
   })
-  const [starting, setStarting] = useState(false)
-  const [error, setError] = useState('')
+  const [dailyNew, setDailyNew] = useState(getDailyNewWords)
 
   const stats = useMemo(getProgressStats, [])
-  const dueCount = useMemo(() => getWordsDueForReview().length, [])
+  const accuracy = useMemo(recentAccuracy, [])
+  const plan = useMemo(getTodayPlan, [dailyNew])
+  const newCount = plan.newLeft
+  const reviewCount = plan.reviews.length
+  const nothingLeft = reviewCount === 0 && newCount === 0
 
   const handleLevel = (next) => {
     setLevel(next)
     setPreferredLevel(next)
   }
 
-  const startNewWords = async () => {
-    setStarting(true)
-    setError('')
-    try {
-      const queue = await pickNewWords(level, NEW_WORD_COUNT)
-      if (queue.length === 0) {
-        setError('Bu seviyede yeni kelime kalmadı. Bir üst seviyeyi dene.')
-        return
-      }
-      navigate('/vocabulary/study', { state: { queue } })
-    } catch {
-      setError('Kelimeler yüklenemedi. Bağlantını kontrol et.')
-    } finally {
-      setStarting(false)
-    }
+  const handleDailyNew = (count) => {
+    setDailyNew(count)
+    setDailyNewWords(count)
   }
 
   return (
@@ -50,56 +61,70 @@ function VocabularyHome() {
       <header className={page.header}>
         <h1 className={page.title}>Kelimeler</h1>
         <p className={page.subtitle}>
-          Oxford 3000 listesinden öğren, aralıklı tekrarla kalıcı hale getir.
+          Oxford 3000 listesinden öğren, akılda kalsın diye doğru zamanda tekrar et.
         </p>
       </header>
 
       <div className={styles.grid}>
-        {dueCount > 0 && (
-          <section className={styles.due}>
-            <span className={styles.dueIcon}>
-              <Layers size={22} />
-            </span>
-            <div className={styles.dueText}>
-              <h2>{dueCount} kelime tekrar bekliyor</h2>
-              <p>Unutma eğrisini kırmanın en iyi zamanı şimdi.</p>
-            </div>
-            <Link to="/vocabulary/study" className="btn btn-primary btn-lg">
-              Tekrara başla <ArrowRight size={18} />
-            </Link>
-          </section>
-        )}
+        <section className={styles.today} data-done={nothingLeft || undefined}>
+          {nothingLeft ? (
+            <>
+              <span className={styles.todayEyebrow}>
+                <PartyPopper size={16} /> Bugünlük tamam
+              </span>
+              <h2>Bugünkü çalışmanı bitirdin</h2>
+              <p>Yarın tekrar zamanı gelen kelimeler burada olacak. İstersen birkaç yeni kelime daha öğrenebilirsin.</p>
+              <Link to="/vocabulary/study" state={{ extraNew: 5 }} className={`btn btn-lg btn-block ${styles.todayBtn}`}>
+                5 yeni kelime daha <ArrowRight size={18} />
+              </Link>
+            </>
+          ) : (
+            <>
+              <span className={styles.todayEyebrow}>Bugünkü çalışman</span>
+              <h2>
+                {[reviewCount > 0 && `${reviewCount} tekrar`, newCount > 0 && `${newCount} yeni kelime`]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </h2>
+              <p>
+                Yaklaşık {estimateMinutes(reviewCount, newCount)} dakika
+                {plan.reviewTotal > reviewCount && ` · ${plan.reviewTotal - reviewCount} tekrar sonraki oturuma kalacak`}
+              </p>
+              <Link to="/vocabulary/study" className={`btn btn-lg btn-block ${styles.todayBtn}`}>
+                Başla <ArrowRight size={18} />
+              </Link>
+            </>
+          )}
+        </section>
 
-        <section className={`card ${styles.learn}`}>
-          <div className={styles.learnHead}>
-            <span className={styles.learnIcon}>
-              <Sparkles size={20} />
-            </span>
-            <div>
-              <h2>Yeni kelime öğren</h2>
-              <p className="muted">Seviyeni seç, {NEW_WORD_COUNT} kelimelik kısa bir set başlat.</p>
-            </div>
+        <section className={`card ${styles.settings}`}>
+          <div>
+            <h2 className={styles.settingTitle}>Yeni kelimeler</h2>
+            <p className="muted">Seviyeni ve günde kaç yeni kelime öğrenmek istediğini seç.</p>
           </div>
 
           <div className={styles.levels} role="group" aria-label="Seviye seç">
             {VOCAB_LEVELS.map((l) => (
-              <button
-                key={l}
-                className={styles.level}
-                aria-pressed={l === level}
-                onClick={() => handleLevel(l)}
-              >
+              <button key={l} className={styles.level} aria-pressed={l === level} onClick={() => handleLevel(l)}>
                 <strong>{l}</strong>
                 <small>{LEVEL_NAMES[l]}</small>
               </button>
             ))}
           </div>
 
-          {error && <p className={styles.error}>{error}</p>}
-
-          <button className={`btn btn-lg btn-block ${styles.start}`} onClick={startNewWords} disabled={starting}>
-            {starting ? 'Hazırlanıyor…' : `${level} seviyesinden ${NEW_WORD_COUNT} kelime başlat`}
-          </button>
+          <div>
+            <p className={styles.segLabel} id="daily-new-label">Günlük yeni kelime</p>
+            <div className={styles.seg} role="group" aria-labelledby="daily-new-label">
+              {DAILY_NEW_OPTIONS.map((n) => (
+                <button key={n} aria-pressed={n === dailyNew} onClick={() => handleDailyNew(n)}>
+                  {n}
+                </button>
+              ))}
+            </div>
+            <p className={styles.segHint}>
+              Tekrarlar her gün zamanı gelen kelimelerden oluşur; bu ayar yalnızca yeni kelime sayısını belirler.
+            </p>
+          </div>
         </section>
       </div>
 
@@ -115,11 +140,19 @@ function VocabularyHome() {
             <strong>{stats.statusCounts.mastered}</strong>
             <span>öğrenildi</span>
           </div>
-          <div className={styles.stat}>
-            <Layers size={18} className={styles.layers} />
-            <strong>{stats.totalWords}</strong>
-            <span>kelimen</span>
-          </div>
+          {accuracy !== null ? (
+            <div className={styles.stat}>
+              <Target size={18} className={styles.layers} />
+              <strong>%{accuracy}</strong>
+              <span title="Son 30 gün, ilk denemede doğru">doğruluk</span>
+            </div>
+          ) : (
+            <div className={styles.stat}>
+              <Layers size={18} className={styles.layers} />
+              <strong>{stats.totalWords}</strong>
+              <span>kelimen</span>
+            </div>
+          )}
         </div>
       </section>
 

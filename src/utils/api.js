@@ -93,6 +93,18 @@ export const fetchWords = (params) =>
 
 export const fetchWord = (id) => request(`/api/vocabulary/words/${encodeURIComponent(id)}`)
 
+// Bütün kelimelerin türü ve anlamları: alıştırmalarda yanlış seçenek üretmek için
+let poolPromise = null
+export function fetchWordPool() {
+  if (!poolPromise) {
+    poolPromise = request('/api/vocabulary/pool').catch((error) => {
+      poolPromise = null
+      throw error
+    })
+  }
+  return poolPromise
+}
+
 // Oxford 3000 içinde metindeki kelimeyle eşleşen kaydı bul (yoksa null)
 export async function findOxfordWord(word) {
   try {

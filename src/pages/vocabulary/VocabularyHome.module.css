@@ -3,12 +3,12 @@
   gap: 14px;
 }
 
-/* ---------- Tekrar ---------- */
+/* ---------- Bugünkü çalışma ---------- */
 
-.due {
+.today {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   padding: 22px;
   border-radius: var(--radius-lg);
   background: var(--primary);
@@ -16,61 +16,89 @@
   box-shadow: var(--shadow-md);
 }
 
-.dueIcon {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius);
-  background: color-mix(in srgb, var(--on-primary) 18%, transparent);
-}
-
-.dueText h2 {
-  font-size: 1.35rem;
-}
-
-.dueText p {
-  margin-top: 4px;
+.todayEyebrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   opacity: 0.85;
 }
 
-.due :global(.btn-primary) {
+.today h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.today p {
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.todayBtn {
+  margin-top: 4px;
   background: var(--on-primary);
   color: var(--primary);
 }
 
-/* ---------- Yeni kelime ---------- */
+.todayBtn:hover {
+  opacity: 0.92;
+}
 
-.learn {
+/* ---------- Yeni kelime ayarları ---------- */
+
+.settings {
   display: flex;
   flex-direction: column;
   gap: 18px;
   padding: 22px;
 }
 
-.learnHead {
-  display: flex;
-  gap: 14px;
-}
-
-.learnHead h2 {
+.settingTitle {
   font-size: 1.15rem;
 }
 
-.learnHead p {
+.settings > div > p {
   margin-top: 2px;
   font-size: 0.9rem;
 }
 
-.learnIcon {
+.segLabel {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.seg {
   display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  border-radius: var(--radius);
-  background: var(--highlight-soft);
-  color: var(--warning);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  padding: 4px;
+  border-radius: 12px;
+  background: var(--surface-2);
+}
+
+.seg button {
+  min-height: 40px;
+  border-radius: 9px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.seg button[aria-pressed='true'] {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+
+.segHint {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
 }
 
 .levels {
@@ -113,20 +141,6 @@
 
 .level[aria-pressed='true'] small {
   color: var(--primary);
-}
-
-.start {
-  background: var(--text);
-  color: var(--bg);
-}
-
-.start:hover:not(:disabled) {
-  opacity: 0.9;
-}
-
-.error {
-  color: var(--danger);
-  font-size: 0.9rem;
 }
 
 /* ---------- İstatistik ---------- */
@@ -204,28 +218,21 @@
 }
 
 @media (min-width: 900px) {
-  .grid:has(.due) {
+  .grid {
     grid-template-columns: 1fr 1fr;
   }
 
-  .due {
-    justify-content: space-between;
+  .today {
+    justify-content: center;
     padding: 28px;
   }
 
-  .due :global(.btn) {
+  .todayBtn {
     align-self: flex-start;
+    width: auto;
   }
 
-  .learn {
+  .settings {
     padding: 28px;
-  }
-
-  .levels {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .grid:has(.due) .levels {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
