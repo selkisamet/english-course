@@ -121,6 +121,12 @@ function Reader({ id }) {
     document.querySelector(`[data-token="${focusIndexes[0]}"]`)?.scrollIntoView({ block: 'center', behavior: 'smooth' })
   }, [focusIndexes])
 
+  // Seçili kelimenin cümlesinin seslendirmedeki kelime aralığı
+  const sentenceRef = (index) => {
+    const span = spans.find((sp) => sp.first <= index && index <= sp.last)
+    return span ? { storyId: id, from: span.first, to: span.last } : null
+  }
+
   const startPrep = () => {
     // Kelimeler hikayedeki bağlamlarıyla kaydedilir; tanıtım kartında bu cümle görünür
     prep.forEach((w) => updateWordProgress(w.wordId, w.word, w.context))
@@ -524,6 +530,7 @@ function Reader({ id }) {
               sentence={selected.sentence}
               annotation={annotation?.tokens[selected.index] || null}
               sentenceTr={annotation?.sentences[sentenceIndexOf(selected.index)]?.tr}
+              storyRef={sentenceRef(selected.index)}
               onClose={() => setSelected(null)}
             />
           ) : (

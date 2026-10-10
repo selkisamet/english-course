@@ -130,7 +130,12 @@ export function describeWord(entry, oxford) {
     units: oxford ? unitsOfWord(oxford) : meaningUnits(meaning),
     inOxford: Boolean(oxford),
     example: entry.sentence
-      ? { text: entry.sentence, tr: entry.sentenceTranslation, form: entry.surface }
+      ? {
+          text: entry.sentence,
+          tr: entry.sentenceTranslation,
+          form: entry.surface,
+          story: entry.storyId ? { storyId: entry.storyId, from: entry.sentenceFrom, to: entry.sentenceTo } : null
+        }
       : sense?.example
         ? { text: sense.example, tr: sense.exampleTranslation, form: oxford.word }
         : null

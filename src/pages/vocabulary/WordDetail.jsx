@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight, Check, Layers, Volume2 } from 'lucide-react'
 import { HighlightedSentence } from '../../components/WordPanel'
 import { fetchWord, fetchWordStories } from '../../utils/api'
 import { capitalize, formatTr, STATUS_LABELS, translatePOS } from '../../utils/format'
-import { speak } from '../../utils/speech'
+import { clipFor, playClip, stopClip, wordClip } from '../../utils/clips'
 import { getTimeUntilReview } from '../../utils/spacedRepetition'
 import { getReadStories } from '../../utils/storyProgress'
 import { getWordProgress } from '../../utils/vocabularyStorage'
@@ -20,6 +20,7 @@ function WordDetail() {
   const [error, setError] = useState(false)
   const progress = getWordProgress(id)
   const [stories, setStories] = useState(null)
+  useEffect(() => stopClip, [])
 
   // Kelimenin geçtiği hikayeler (bağlantı yoksa bölüm gösterilmez)
   useEffect(() => {
@@ -90,7 +91,7 @@ function WordDetail() {
 
         <div className={styles.wordRow}>
           <h1 className={styles.word}>{word.word}</h1>
-          <button className="icon-btn icon-btn-soft" onClick={() => speak(word.word, { rate: 0.8 })} aria-label="Dinle">
+          <button className="icon-btn icon-btn-soft" onClick={() => playClip(wordClip(word, main.pos), word.word)} aria-label="Dinle">
             <Volume2 size={22} />
           </button>
         </div>
@@ -119,7 +120,7 @@ function WordDetail() {
                     <p className={styles.exEn}>{sense.example}</p>
                     <p className={styles.exTr}>{formatTr(sense.exampleTranslation)}</p>
                   </div>
-                  <button className="icon-btn" onClick={() => speak(sense.example)} aria-label="Örnek cümleyi dinle">
+                  <button className="icon-btn" onClick={() => playClip(clipFor(sense.audio, 'example'), sense.example)} aria-label="Örnek cümleyi dinle">
                     <Volume2 size={18} />
                   </button>
                 </div>

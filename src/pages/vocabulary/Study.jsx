@@ -1,11 +1,11 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { BookOpen, Check, CircleAlert, Layers, Trophy, Volume2, X } from 'lucide-react'
 import { HighlightedSentence, RichText } from '../../components/WordPanel'
 import { fetchWord, fetchWordPool } from '../../utils/api'
 import { buildExercise, checkTyped, describeWord, shortMeaning } from '../../utils/exercises'
 import { capitalize, formatTr, translatePOS, VOCAB_LEVELS } from '../../utils/format'
-import { speak } from '../../utils/speech'
+import { exampleClip, playClip, stopClip, storySentenceClip, wordClip } from '../../utils/clips'
 import { GRADE, reviewEntry } from '../../utils/srs'
 import { buildTodayQueue, exerciseTypesFor, planSteps } from '../../utils/studySession'
 import { getPreferredLevel } from '../../utils/storyProgress'
@@ -36,9 +36,13 @@ const MAX_RETRIES = 2
 
 const isStoryOnly = (wordId) => wordId.startsWith('story:')
 
-function SpeakButton({ text, label = 'Dinle', size = 20, className = 'icon-btn icon-btn-soft' }) {
+// Şimdiki kelimenin seslendirmeleri: { word, example } (yoksa cihaz sesi okur)
+const ClipsContext = createContext({ word: null, example: null })
+
+function SpeakButton({ text, kind, label = 'Dinle', size = 20, className = 'icon-btn icon-btn-soft' }) {
+  const clips = useContext(ClipsContext)
   return (
-    <button type="button" className={className} onClick={() => speak(text, { rate: 0.85 })} aria-label={label}>
+    <button type="button" className={className} onClick={() => playClip(kind ? clips[kind] : null, text)} aria-label={label}>
       <Volume2 size={size} />
     </button>
   )
@@ -50,7 +54,7 @@ function Example({ example, word }) {
     <div className={styles.example}>
       <p>
         <HighlightedSentence sentence={example.text} word={example.form || word} />
-        <SpeakButton text={example.text} label="Örnek cümleyi dinle" size={16} className={styles.inlineSpeak} />
+        <SpeakButton text={example.text} kind="example" label="Örnek cümleyi dinle" size={16} className={styles.inlineSpeak} />
       </p>
       {example.tr && <p className={styles.exampleTr}>{formatTr(example.tr)}</p>}
     </div>
@@ -71,7 +75,7 @@ function Intro({ info, entry, oxford, onLearned, onKnown }) {
         <span className={styles.chip} data-tone="new">Yeni kelime</span>
         <div className={styles.wordRow}>
           <h1 className={styles.word}>{info.word}</h1>
-          <SpeakButton text={info.word} />
+          <SpeakButton text={info.word} kind="word" />
         </div>
         <div className={styles.card}>
           <div className={styles.badges}>
@@ -161,9 +165,11 @@ function Options({ exercise, picked, answered, onPick, english }) {
 function Question({ exercise, picked, answered, typed, setTyped, onPick, onSubmitTyped, onGiveUp }) {
   const { type } = exercise
   const inputRef = useRef(null)
+  const clips = useContext(ClipsContext)
+  const sayWord = () => playClip(clips.word, exercise.word)
 
   useEffect(() => {
-    if (type === 'listen') speak(exercise.word, { rate: 0.85 })
+    if (type === 'listen') sayWord()
     if (type === 'typing') inputRef.current?.focus()
   }, [exercise, type])
 
@@ -176,7 +182,7 @@ function Question({ exercise, picked, answered, typed, setTyped, onPick, onSubmi
           <p className={styles.ask}>Bu kelimenin anlamı ne?</p>
           <div className={styles.wordRow}>
             <h1 className={styles.word}>{exercise.word}</h1>
-            <SpeakButton text={exercise.word} />
+            <SpeakButton text={exercise.word} kind="word" />
           </div>
         </>
       )}
@@ -184,7 +190,7 @@ function Question({ exercise, picked, answered, typed, setTyped, onPick, onSubmi
       {type === 'listen' && (
         <>
           <p className={styles.ask}>Duyduğun kelimenin anlamı ne?</p>
-          <button className={styles.bigSpeak} onClick={() => speak(exercise.word, { rate: 0.85 })} aria-label="Kelimeyi tekrar dinle">
+          <button className={styles.bigSpeak} onClick={sayWord} aria-label="Kelimeyi tekrar dinle">
             <Volume2 size={44} />
           </button>
           {answered && <h1 className={`${styles.word} ${styles.center}`}>{exercise.word}</h1>}
@@ -523,6 +529,24 @@ function Study() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, step, oxford])
 
+  const [clips, setClips] = useState({ word: null, example: null })
+  useEffect(() => {
+    if (!info) return
+    let active = true
+    const ex = info.example
+    setClips({ word: wordClip(oxford, info.pos), example: ex && !ex.story ? exampleClip(oxford, ex.text) : null })
+    // Hikaye cümlesi hikayenin kendi seslendirmesinden çalınır
+    if (ex?.story) {
+      storySentenceClip(ex.story)
+        .then((clip) => active && setClips((c) => ({ ...c, example: clip })))
+        .catch(() => {})
+    }
+    return () => {
+      active = false
+    }
+  }, [info, oxford])
+  useEffect(() => stopClip, [])
+
   const goNext = useCallback(
     (nextSteps = steps) => {
       setPicked(null)
@@ -701,6 +725,7 @@ function Study() {
   const finishedWords = wordIds.filter((id) => steps.findLastIndex((s) => s.wordId === id) < index).length
 
   return (
+    <ClipsContext.Provider value={clips}>
     <div className={styles.study}>
       <header className={styles.top}>
         <button className="icon-btn" onClick={close} aria-label="Çalışmayı bitir">
@@ -747,6 +772,7 @@ function Study() {
         </div>
       )}
     </div>
+    </ClipsContext.Provider>
   )
 }
 

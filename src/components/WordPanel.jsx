@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, BookmarkCheck, BookmarkPlus, Volume2, X } from 'lucide-react'
-import { analyzeWord, findOxfordWord } from '../utils/api'
+import { analyzeWord, fetchWord, findOxfordWord } from '../utils/api'
+import { playClip, storySentenceClip, wordClip } from '../utils/clips'
 import { formatTr, translatePOS } from '../utils/format'
-import { speak } from '../utils/speech'
 import { findWordByText, setWordContext, updateWordProgress } from '../utils/vocabularyStorage'
 import styles from './WordPanel.module.css'
 
@@ -26,15 +26,21 @@ export function RichText({ text }) {
   })
 }
 
-function SentenceBlock({ sentence, translation, highlight }) {
+function SentenceBlock({ sentence, translation, highlight, storyRef }) {
   if (!sentence) return null
+  // Hikaye cümlesi hikayenin kendi seslendirmesinden çalınır; yoksa cihaz sesi okur
+  const play = () => {
+    storySentenceClip(storyRef)
+      .catch(() => null)
+      .then((clip) => playClip(clip, sentence))
+  }
   return (
     <section className={styles.context}>
       <div className={styles.contextHead}>
         <span className="eyebrow">Cümle</span>
         <button
           className="icon-btn"
-          onClick={() => speak(sentence, { rate: 0.85 })}
+          onClick={play}
           aria-label="Cümleyi dinle"
           title="Cümleyi dinle"
         >
@@ -51,7 +57,7 @@ function SentenceBlock({ sentence, translation, highlight }) {
 
 // ---------- Doğrulanmış işaretleme: temel anlam + bu cümledeki anlam ----------
 
-function AnnotatedMeaning({ word, token, sentence, sentenceTr }) {
+function AnnotatedMeaning({ word, token, sentence, sentenceTr, storyRef }) {
   const { base, lemma, pos, context, note, form, phrase } = token
   const isName = pos === 'proper noun'
 
@@ -114,14 +120,14 @@ function AnnotatedMeaning({ word, token, sentence, sentenceTr }) {
         </Link>
       )}
 
-      <SentenceBlock sentence={sentence} translation={sentenceTr} highlight={phrase?.text || word} />
+      <SentenceBlock sentence={sentence} translation={sentenceTr} highlight={phrase?.text || word} storyRef={storyRef} />
     </>
   )
 }
 
 // ---------- İşaretlemesi olmayan hikaye: otomatik çeviri ----------
 
-function AutoMeaning({ word, data }) {
+function AutoMeaning({ word, data, storyRef }) {
   return (
     <>
       <div className={styles.meanings}>
@@ -133,18 +139,34 @@ function AutoMeaning({ word, data }) {
           </span>
         </div>
       </div>
-      <SentenceBlock sentence={data.sentence} translation={data.contextTranslation} highlight={word} />
+      <SentenceBlock sentence={data.sentence} translation={data.contextTranslation} highlight={word} storyRef={storyRef} />
     </>
   )
 }
 
-function WordPanel({ word, sentence, annotation, sentenceTr, onClose }) {
+function WordPanel({ word, sentence, annotation, sentenceTr, storyRef, onClose }) {
   const [data, setData] = useState(null)
   const [status, setStatus] = useState(annotation ? 'done' : 'loading')
   const [saved, setSaved] = useState(false)
   const [saving, setSaving] = useState(false)
 
   const lemma = (annotation?.lemma || data?.nlp?.root || word).toLowerCase()
+
+  const [clip, setClip] = useState(null)
+  const baseId = annotation?.base?.wordId
+  const sameForm = annotation?.base?.word?.toLowerCase() === word.toLowerCase()
+  useEffect(() => {
+    let active = true
+    setClip(null)
+    if (baseId && sameForm) {
+      fetchWord(baseId)
+        .then((w) => active && setClip(wordClip(w, annotation.base.pos)))
+        .catch(() => {})
+    }
+    return () => {
+      active = false
+    }
+  }, [baseId, sameForm, annotation])
 
   // Hikayede karşılaşılan anlam; kart tekrarında temel anlamla birlikte gösterilir
   const storyContext = annotation
@@ -155,7 +177,9 @@ function WordPanel({ word, sentence, annotation, sentenceTr, onClose }) {
         note: annotation.note,
         surface: annotation.phrase?.text || word,
         sentence,
-        sentenceTranslation: sentenceTr
+        sentenceTranslation: sentenceTr,
+        // Kelime çalışmasında cümle hikayenin kendi sesiyle çalınabilsin
+        ...(storyRef && { storyId: storyRef.storyId, sentenceFrom: storyRef.from, sentenceTo: storyRef.to })
       }
     : {
         translation: data?.translation || '',
@@ -219,7 +243,7 @@ function WordPanel({ word, sentence, annotation, sentenceTr, onClose }) {
       <header className={styles.head}>
         <div className={styles.titleRow}>
           <h2 className={styles.word}>{word}</h2>
-          <button className="icon-btn icon-btn-soft" onClick={() => speak(word, { rate: 0.8 })} aria-label="Kelimeyi dinle">
+          <button className="icon-btn icon-btn-soft" onClick={() => playClip(clip, word)} aria-label="Kelimeyi dinle">
             <Volume2 size={20} />
           </button>
         </div>
@@ -246,9 +270,9 @@ function WordPanel({ word, sentence, annotation, sentenceTr, onClose }) {
 
         {status === 'done' &&
           (annotation ? (
-            <AnnotatedMeaning word={word} token={annotation} sentence={sentence} sentenceTr={sentenceTr} />
+            <AnnotatedMeaning word={word} token={annotation} sentence={sentence} sentenceTr={sentenceTr} storyRef={storyRef} />
           ) : (
-            <AutoMeaning word={word} data={data} />
+            <AutoMeaning word={word} data={data} storyRef={storyRef} />
           ))}
       </div>
 

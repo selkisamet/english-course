@@ -17,6 +17,7 @@ import { authMiddleware, verifyPassword } from './authMiddleware.js'
 import { deleteAnnotation, getAnnotationForClient, readAnnotation, writeAnnotation } from './annotationStore.js'
 import { getStoryAudioForClient } from './storyAudio.js'
 import { getStoriesForWord } from './storyWordIndex.js'
+import { withWordAudio } from './vocabAudio.js'
 import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './storyAnnotator.js'
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
@@ -503,7 +504,7 @@ app.get('/api/vocabulary/words/:id', (req, res) => {
       return res.status(404).json({ error: 'Word not found' })
     }
 
-    res.json(word)
+    res.json(withWordAudio(word))
   } catch (error) {
     console.error('Get word error:', error)
     res.status(500).json({

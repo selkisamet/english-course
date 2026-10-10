@@ -38,6 +38,7 @@ export function storyWords(annotation, text) {
     const wordId = entryIdOf(token)
     if (words.has(wordId)) return
     const sentenceIndex = text.sentenceIndexOf(index)
+    const span = text.spans.find((sp) => sp.first <= index && index <= sp.last)
     words.set(wordId, {
       wordId,
       word: token.base?.word || token.lemma,
@@ -52,7 +53,11 @@ export function storyWords(annotation, text) {
         note: token.note,
         surface: cleanWord(text.tokens[index] || ''),
         sentence: text.sentenceOf(index),
-        sentenceTranslation: annotation.sentences[sentenceIndex]?.tr || ''
+        sentenceTranslation: annotation.sentences[sentenceIndex]?.tr || '',
+        // Cümlenin hikaye seslendirmesindeki yeri (kelime çalışmasında hikayenin kendi sesiyle çalınır)
+        storyId: annotation.storyId,
+        sentenceFrom: span?.first ?? index,
+        sentenceTo: span?.last ?? index
       }
     })
   })
