@@ -1,0 +1,194 @@
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 18px;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- İşler ---------- */
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+}
+
+.task {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.check {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  color: var(--on-primary);
+}
+
+.task[data-done='true'] .check {
+  background: var(--primary);
+}
+
+.taskBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  padding-top: 3px;
+}
+
+.taskTitle {
+  font-size: 0.975rem;
+  font-weight: 600;
+}
+
+.task[data-done='true'] .taskTitle {
+  color: var(--text-muted);
+}
+
+.taskDetail {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bar {
+  height: 6px;
+  margin-top: 6px;
+  border-radius: var(--radius-pill);
+  background: var(--chart-track);
+  overflow: hidden;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--primary);
+}
+
+.allDone {
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--primary-soft);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ---------- Bu hafta ---------- */
+
+.week {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.weekHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weekTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.weekLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.weekLink:hover {
+  text-decoration: underline;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  list-style: none;
+}
+
+.days li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.dayName {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.days li[data-today='true'] .dayName {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.days li[data-future='true'] .dayName {
+  color: var(--text-subtle);
+}
+
+.dot {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--on-primary);
+}
+
+.days li[data-active='true'] .dot {
+  background: var(--primary);
+}
+
+.days li[data-today='true'][data-active='false'] .dot {
+  background: var(--primary-soft);
+  box-shadow: inset 0 0 0 2px var(--primary);
+}
+
+.days li[data-future='true'] .dot {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--border);
+}
+
+.hint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}

@@ -1,5 +1,30 @@
 /* ---------- Bugün ---------- */
 
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.streak {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--warning-soft);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.streak svg {
+  color: var(--warning);
+}
+
 .today {
   display: grid;
   gap: 12px;
@@ -57,11 +82,13 @@ a.hero:hover {
 }
 
 .heroFooter {
+  /* Masaüstünde kart plan kadar uzar; alt satır en altta kalır */
+  margin-top: auto;
+  padding-top: 6px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 6px;
 }
 
 .heroMeta {
@@ -79,54 +106,6 @@ a.hero:hover {
   color: var(--primary);
   font-weight: 700;
   font-size: 0.9rem;
-}
-
-.review {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 16px 18px;
-  border-radius: var(--radius-lg);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  transition: border-color 0.15s ease, transform 0.2s var(--ease);
-}
-
-.review:hover {
-  border-color: var(--primary);
-  transform: translateY(-2px);
-}
-
-.reviewIcon {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  border-radius: var(--radius);
-  background: var(--highlight-soft);
-  color: var(--warning);
-}
-
-.reviewText {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-width: 0;
-}
-
-.reviewText strong {
-  font-size: 0.975rem;
-}
-
-.reviewText small {
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
-
-.reviewArrow {
-  color: var(--text-subtle);
-  flex-shrink: 0;
 }
 
 /* ---------- Kütüphane ---------- */
@@ -230,7 +209,7 @@ a.hero:hover {
 
 @media (min-width: 900px) {
   .today {
-    grid-template-columns: 1.6fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
     align-items: stretch;
   }
 
@@ -240,21 +219,6 @@ a.hero:hover {
 
   .heroTitle {
     font-size: 2rem;
-  }
-
-  .review {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 24px;
-  }
-
-  .reviewText strong {
-    font-size: 1.1rem;
-  }
-
-  .reviewArrow {
-    align-self: flex-end;
   }
 
   .grid {

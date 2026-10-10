@@ -1,6 +1,7 @@
 // Okunan hikayeler ve kullanıcı tercihleri (localStorage)
 
 import { notifyChange } from './changes'
+import { logDailyStudy } from './vocabularyStorage'
 
 const READ_KEY = 'readStories'
 const LAST_KEY = 'selectedStoryId'
@@ -34,6 +35,8 @@ export function toggleStoryRead(id) {
   const next = list.includes(id) ? list.filter((x) => x !== id) : [...list, id]
   write(READ_KEY, next)
   notifyChange('read', { storyId: id, read: next.includes(id) })
+  // Günlük plan ve seri için: bugün okunan hikaye
+  if (next.includes(id)) logDailyStudy({ stories: 1 })
   return next.includes(id)
 }
 

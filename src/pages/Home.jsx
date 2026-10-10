@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, BookOpen, Check, Clock, Layers, Sparkles } from 'lucide-react'
+import { ArrowRight, BookOpen, Check, Clock, Flame, Sparkles } from 'lucide-react'
+import DailyPlan from '../components/DailyPlan'
 import { fetchStories } from '../utils/api'
 import { LEVELS, LEVEL_NAMES, readingMinutes } from '../utils/format'
 import {
@@ -9,7 +10,7 @@ import {
   getReadStories,
   setPreferredLevel
 } from '../utils/storyProgress'
-import { getTodayPlan } from '../utils/studySession'
+import { getStreak } from '../utils/activity'
 import page from '../styles/page.module.css'
 import styles from './Home.module.css'
 
@@ -19,8 +20,7 @@ function Home() {
   const [level, setLevel] = useState(getPreferredLevel() || 'A1')
 
   const readIds = useMemo(() => new Set(getReadStories()), [])
-  const plan = useMemo(getTodayPlan, [])
-  const dueCount = plan.reviewTotal
+  const { streak } = useMemo(() => getStreak(), [])
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
@@ -50,12 +50,21 @@ function Home() {
 
   return (
     <div className={page.page}>
-      <header className={page.header}>
-        <h1 className={page.title}>Bugün ne öğreniyoruz?</h1>
-        <p className={page.subtitle}>Kısa bir hikaye oku, bilmediğin kelimeye dokun, tekrar et.</p>
+      <header className={`${page.header} ${styles.header}`}>
+        <div>
+          <h1 className={page.title}>Bugün ne öğreniyoruz?</h1>
+          <p className={page.subtitle}>Kısa bir hikaye oku, bilmediğin kelimeye dokun, tekrar et.</p>
+        </div>
+        {streak > 0 && (
+          <span className={styles.streak}>
+            <Flame size={16} aria-hidden="true" /> {streak} gün seri
+          </span>
+        )}
       </header>
 
       <section className={styles.today} aria-label="Bugün">
+        <DailyPlan nextStory={nextStory?.story} />
+
         {stories === null && !error ? (
           <div className={`skeleton ${styles.heroSkeleton}`} />
         ) : nextStory ? (
@@ -85,25 +94,6 @@ function Home() {
           </div>
         )}
 
-        <Link
-          to={dueCount > 0 ? '/vocabulary/study' : '/vocabulary'}
-          className={styles.review}
-        >
-          <span className={styles.reviewIcon}>
-            <Layers size={22} />
-          </span>
-          <span className={styles.reviewText}>
-            <strong>{dueCount > 0 ? `${dueCount} kelime tekrarı bekliyor` : 'Kelime çalış'}</strong>
-            <small>
-              {dueCount > 0
-                ? 'Unutmadan önce birkaç dakika ayır'
-                : plan.newLeft > 0
-                  ? `Bugün ${plan.newLeft} yeni kelime seni bekliyor`
-                  : 'Bugünlük kelime çalışmanı bitirdin'}
-            </small>
-          </span>
-          <ArrowRight size={18} className={styles.reviewArrow} />
-        </Link>
       </section>
 
       <section className={page.section}>

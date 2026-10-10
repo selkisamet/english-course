@@ -19,6 +19,12 @@
   --primary-soft: #e3f1eb;
   --on-primary: #ffffff;
 
+  /* Grafiklerde tek seri rengi (renk testi: açık zeminde geçti) */
+  --chart-1: #16825c;
+  --chart-track: #e3f1eb;
+  --chart-grid: #efede7;
+  --chart-axis: #d6d2c8;
+
   --highlight: #ffd866;
   --highlight-soft: #fff1bf;
 
@@ -68,6 +74,11 @@
     --primary-hover: #56c79c;
     --primary-soft: #1c3a2f;
     --on-primary: #0f1a15;
+
+    --chart-1: #2fa07a;
+    --chart-track: #22362e;
+    --chart-grid: #2a2c27;
+    --chart-axis: #45473f;
 
     --highlight: #e9c45a;
     --highlight-soft: #3d3417;

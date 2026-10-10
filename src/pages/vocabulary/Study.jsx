@@ -6,7 +6,7 @@ import { fetchWord, fetchWordPool } from '../../utils/api'
 import { buildExercise, checkTyped, describeWord, shortMeaning } from '../../utils/exercises'
 import { capitalize, formatTr, translatePOS, VOCAB_LEVELS } from '../../utils/format'
 import { exampleClip, playClip, stopClip, storySentenceClip, wordClip } from '../../utils/clips'
-import { GRADE, reviewEntry } from '../../utils/srs'
+import { GRADE, isNewWord, reviewEntry } from '../../utils/srs'
 import { buildTodayQueue, exerciseTypesFor, planSteps } from '../../utils/studySession'
 import { getPreferredLevel } from '../../utils/storyProgress'
 import {
@@ -595,7 +595,9 @@ function Study() {
       // Hikayeden ilk kez gelen kelime, hikayedeki bağlamıyla birlikte kaydedilir
       const context = !saved && contexts?.[step.wordId]
       saveWordProgress(step.wordId, info.word, { ...(context || {}), ...reviewEntry(current, GRADES[outcome]) })
-      logDailyStudy({ answers: 1, correct: outcome === 'bad' ? 0 : 1 })
+      // Daha önce çalışılmış kelimenin sorusu tekrar sayılır (ana sayfadaki günlük plan için)
+      const review = saved && !isNewWord(saved) ? 1 : 0
+      logDailyStudy({ answers: 1, correct: outcome === 'bad' ? 0 : 1, reviews: review })
       setSession((s) => ({
         ...s,
         gradedIds: new Set(s.gradedIds).add(step.wordId),

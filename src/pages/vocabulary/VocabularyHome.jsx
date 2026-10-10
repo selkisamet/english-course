@@ -9,6 +9,7 @@ import {
   setDailyNewWords,
   setPreferredLevel
 } from '../../utils/storyProgress'
+import { getStreak } from '../../utils/activity'
 import { getTodayPlan, nextStoryWords } from '../../utils/studySession'
 import { getProgress, getProgressStats, getTodayStudy } from '../../utils/vocabularyStorage'
 import page from '../../styles/page.module.css'
@@ -58,6 +59,7 @@ function VocabularyHome() {
   const [dailyNew, setDailyNew] = useState(getDailyNewWords)
 
   const stats = useMemo(getProgressStats, [])
+  const { streak } = useMemo(() => getStreak(), [])
   const accuracy = useMemo(recentAccuracy, [])
   const plan = useMemo(getTodayPlan, [dailyNew])
   const learnedToday = useMemo(() => getTodayStudy().newWords, [])
@@ -173,7 +175,7 @@ function VocabularyHome() {
         <div className={styles.stats}>
           <div className={styles.stat}>
             <Flame size={18} className={styles.flame} />
-            <strong>{stats.currentStreak || 0}</strong>
+            <strong>{streak}</strong>
             <span>gün seri</span>
           </div>
           <div className={styles.stat}>

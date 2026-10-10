@@ -1,0 +1,260 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.seg {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.seg button {
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.seg button[aria-pressed='true'] {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+
+.caption {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 14px;
+}
+
+/* ---------- Grafik ---------- */
+
+.plot {
+  display: flex;
+  gap: 8px;
+}
+
+.yAxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  min-width: 22px;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.yAxis span:first-child {
+  transform: translateY(-6px);
+}
+
+.yAxis span:last-child {
+  transform: translateY(6px);
+}
+
+.area {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.grid {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.grid span {
+  border-top: 1px solid var(--chart-grid);
+}
+
+.grid span:last-child {
+  border-top-color: var(--chart-axis);
+}
+
+.bars {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  height: 150px;
+}
+
+/* Dokunma alanı çubuktan büyük: sütunun tamamı */
+.col {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.col:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+}
+
+.bar {
+  width: min(22px, calc(100% - 4px));
+  border-radius: 4px 4px 0 0;
+  background: var(--chart-1);
+  transition: height 0.3s var(--ease);
+}
+
+.col[data-active='true'] {
+  background: var(--surface-2);
+}
+
+.xAxis {
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  margin-top: 6px;
+  height: 16px;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+}
+
+.xAxis span {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Taşan etiket kenara doğru değil, içeri doğru uzar */
+.xAxis span[data-align='start'] {
+  justify-content: flex-start;
+}
+
+.xAxis span[data-align='end'] {
+  justify-content: flex-end;
+}
+
+.xAxis span[data-today='true'] {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.tip {
+  position: absolute;
+  top: 0;
+  left: var(--x);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: var(--shadow-md);
+  z-index: 1;
+}
+
+.tip[data-align='start'] {
+  transform: translateX(-12px);
+}
+
+.tip[data-align='end'] {
+  transform: translateX(calc(-100% + 12px));
+}
+
+.tip strong {
+  font-weight: 700;
+}
+
+.empty {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+
+/* ---------- Tablo ---------- */
+
+.tableWrap {
+  max-height: 320px;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: right;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+}
+
+.table th:first-child {
+  text-align: left;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.table tbody th {
+  font-weight: 600;
+}
+
+.table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.toggle {
+  align-self: flex-start;
+  min-height: 36px;
+  margin-top: 10px;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.toggle:hover {
+  text-decoration: underline;
+}
