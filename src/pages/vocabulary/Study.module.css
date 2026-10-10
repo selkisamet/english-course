@@ -299,6 +299,15 @@
 }
 
 .definition {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--text-muted);
+}
+
+.definitionTr {
+  font-size: 0.9rem;
+  font-style: italic;
   color: var(--text-muted);
 }
 

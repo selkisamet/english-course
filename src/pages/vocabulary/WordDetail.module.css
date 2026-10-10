@@ -98,8 +98,17 @@
 }
 
 .senseDef {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   color: var(--text-muted);
   font-size: 0.95rem;
+}
+
+.senseDefTr {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--text-muted);
 }
 
 .example {

@@ -89,7 +89,7 @@ function Intro({ info, entry, oxford, onLearned, onKnown }) {
               )}
             </div>
           ) : (
-            oxford && mainDefinition(oxford, info) && <p className={styles.definition}>{mainDefinition(oxford, info)}</p>
+            oxford && <Definition sense={definitionSense(oxford, info)} />
           )}
           <Example example={info.example} word={info.word} />
           {otherSenses.length > 0 && (
@@ -116,9 +116,17 @@ function Intro({ info, entry, oxford, onLearned, onKnown }) {
   )
 }
 
-const mainDefinition = (oxford, info) => {
-  const sense = oxford.senses.find((s) => s.pos === info.pos) || oxford.senses[0]
-  return sense?.definition ? capitalize(sense.definition) : ''
+const definitionSense = (oxford, info) => oxford.senses.find((s) => s.pos === info.pos) || oxford.senses[0]
+
+// İngilizce tanım ve altında Türkçesi
+function Definition({ sense }) {
+  if (!sense?.definition) return null
+  return (
+    <div className={styles.definition}>
+      <p lang="en">{capitalize(sense.definition)}</p>
+      {sense.definitionTranslation && <p className={styles.definitionTr}>{capitalize(sense.definitionTranslation)}</p>}
+    </div>
+  )
 }
 
 // ---------- Sorular ----------

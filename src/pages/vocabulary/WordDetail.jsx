@@ -92,7 +92,12 @@ function WordDetail() {
                   <span className={`badge badge-${sense.level.toLowerCase()}`}>{sense.level}</span>
                 </div>
                 <p className={styles.senseTr}>{formatTr(sense.translation)}</p>
-                <p className={styles.senseDef}>{capitalize(sense.definition)}</p>
+                <div className={styles.senseDef}>
+                  <p lang="en">{capitalize(sense.definition)}</p>
+                  {sense.definitionTranslation && (
+                    <p className={styles.senseDefTr}>{capitalize(sense.definitionTranslation)}</p>
+                  )}
+                </div>
                 <div className={styles.example}>
                   <div>
                     <p className={styles.exEn}>{sense.example}</p>

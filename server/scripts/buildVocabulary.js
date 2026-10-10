@@ -3,6 +3,7 @@
 //   Liste, tür ve seviyeler: server/data/vocabulary/oxford3000-list.json
 //     (Oxford University Press'in yayımladığı "The Oxford 3000 by CEFR level" PDF'inden)
 //   Türkçe karşılık, tanım ve örnekler: server/data/vocabulary/content.tsv
+//   Tanımların Türkçesi: server/data/vocabulary/definitions-tr.tsv
 //
 // Çıktı: server/data/oxford3000.json
 // Kullanım: node server/scripts/buildVocabulary.js
@@ -15,6 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, '..', 'data')
 const LIST_FILE = path.join(DATA_DIR, 'vocabulary', 'oxford3000-list.json')
 const CONTENT_FILE = path.join(DATA_DIR, 'vocabulary', 'content.tsv')
+const DEFINITIONS_TR_FILE = path.join(DATA_DIR, 'vocabulary', 'definitions-tr.tsv')
 const OUTPUT_FILE = path.join(DATA_DIR, 'oxford3000.json')
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2']
@@ -33,6 +35,20 @@ for (const [i, line] of lines.slice(1).entries()) {
   if (rest.length || !exampleTr) throw new Error(`content.tsv satır ${i + 2}: 5 sütun olmalı`)
   if (content.has(key)) throw new Error(`content.tsv: tekrar eden anahtar ${key}`)
   content.set(key, { tr, definition, example, exampleTr })
+}
+
+// Her tanımın Türkçesi zorunlu
+const definitionTr = new Map()
+const trLines = fs.readFileSync(DEFINITIONS_TR_FILE, 'utf8').split(/\r?\n/).filter(Boolean)
+for (const [i, line] of trLines.slice(1).entries()) {
+  const [key, tr, ...rest] = line.split('\t')
+  if (rest.length || !tr) throw new Error(`definitions-tr.tsv satır ${i + 2}: 2 sütun olmalı`)
+  if (!content.has(key)) throw new Error(`definitions-tr.tsv: content.tsv'de olmayan anahtar ${key}`)
+  definitionTr.set(key, tr)
+}
+const untranslated = [...content.keys()].filter((k) => !definitionTr.has(k))
+if (untranslated.length) {
+  throw new Error(`Türkçesi eksik ${untranslated.length} tanım var, ör. ${untranslated.slice(0, 5).join(', ')}`)
 }
 
 const missing = list.entries.filter((e) => !content.has(keyOf(e)))
@@ -64,6 +80,7 @@ for (const entry of list.entries) {
     ...(entry.sense && { note: entry.sense }),
     translation: c.tr,
     definition: c.definition,
+    definitionTranslation: definitionTr.get(keyOf(entry)),
     example: c.example,
     exampleTranslation: c.exampleTr
   })
