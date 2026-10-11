@@ -5,18 +5,18 @@ import {
   fetchReminderPrefs,
   markReminderOffered,
   pushPermission,
-  REMINDER_HOURS,
+  formatReminderTime,
+  parseReminderTime,
   saveReminderPrefs,
   shouldOfferReminder
 } from '../utils/reminders'
+import { TimeField } from './ReminderSettings'
 import styles from './ReminderSettings.module.css'
-
-const hourLabel = (h) => `${String(h).padStart(2, '0')}:00`
 
 /** İlk kelime çalışmasından sonra (yalnızca telefon uygulamasında) bir kez sorulur */
 function ReminderPrompt() {
   const [visible, setVisible] = useState(false)
-  const [hour, setHour] = useState(19)
+  const [time, setTime] = useState('19:00')
   const [busy, setBusy] = useState(false)
   const [result, setResult] = useState(null)
 
@@ -26,7 +26,7 @@ function ReminderPrompt() {
     Promise.all([fetchReminderPrefs(), pushPermission()])
       .then(([prefs, permission]) => {
         if (prefs.pushAvailable && (!prefs.pushEnabled || permission === 'prompt')) {
-          setHour(prefs.hour)
+          setTime(formatReminderTime(prefs.hour, prefs.minute))
           setVisible(true)
         } else markReminderOffered()
       })
@@ -36,13 +36,16 @@ function ReminderPrompt() {
   if (!visible) return null
 
   const accept = async () => {
+    const parsed = parseReminderTime(time)
+    if (!parsed) return
     setBusy(true)
     markReminderOffered()
     try {
       const granted = await enablePushOnDevice()
       if (granted) {
-        await saveReminderPrefs({ pushEnabled: true, hour })
-        setResult(`Tamam! O gün çalışmadıysan saat ${hourLabel(hour)}'da hatırlatacağız.`)
+        await saveReminderPrefs({ pushEnabled: true, ...parsed })
+        // Saate ek getirilmez ("07:45'te" / "19:30'da" okunuşa göre değişir)
+        setResult(`Tamam! Hatırlatma saatin: ${time}. O gün çalışmadıysan bildirim gelecek.`)
       } else {
         setResult('Bildirim izni verilmedi. İstersen sonra Hesabım bölümünden açabilirsin.')
       }
@@ -80,14 +83,11 @@ function ReminderPrompt() {
           </p>
         </div>
       </div>
-      <div className={styles.hourGrid} role="group" aria-label="Hatırlatma saati">
-        {REMINDER_HOURS.map((h) => (
-          <button key={h} type="button" aria-pressed={hour === h} onClick={() => setHour(h)}>
-            {hourLabel(h)}
-          </button>
-        ))}
+      <div className={styles.row}>
+        <label className={styles.rowTitle} htmlFor="reminder-offer-time">Saat</label>
+        <TimeField id="reminder-offer-time" value={time} onChange={setTime} disabled={busy} />
       </div>
-      <button type="button" className="btn btn-primary btn-lg btn-block" onClick={accept} disabled={busy}>
+      <button type="button" className="btn btn-primary btn-lg btn-block" onClick={accept} disabled={busy || !parseReminderTime(time)}>
         Evet, hatırlat
       </button>
       <button type="button" className="btn btn-ghost btn-block" onClick={decline} disabled={busy}>

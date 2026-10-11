@@ -101,14 +101,16 @@ function Login() {
     }
     run(async () => {
       if (tab === 'signin') {
-        const { error: err } = await supabase.auth.signInWithPassword({ email: email.trim(), password })
+        const { data, error: err } = await supabase.auth.signInWithPassword({ email: email.trim(), password })
         if (err) throw err
+        // Hesabın şifresi olduğu işaretlenir (Hesabım'da şifre bölümü yalnızca bu hesaplarda görünür)
+        if (!data.user?.user_metadata?.has_password) supabase.auth.updateUser({ data: { has_password: true } }).catch(() => {})
         return
       }
       const { data, error: err } = await supabase.auth.signUp({
         email: email.trim(),
         password,
-        options: { emailRedirectTo: webOrigin }
+        options: { emailRedirectTo: webOrigin, data: { has_password: true } }
       })
       if (err) throw err
       // Kayıtlı e-posta: Supabase hata yerine kimliksiz bir kullanıcı döner ve e-posta göndermez

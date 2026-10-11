@@ -1,16 +1,30 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { isNative } from '../utils/platform'
 import {
   enablePushOnDevice,
   fetchReminderPrefs,
+  formatReminderTime,
+  parseReminderTime,
   pushPermission,
-  REMINDER_HOURS,
   saveReminderPrefs,
   sendTestNotification
 } from '../utils/reminders'
 import styles from './ReminderSettings.module.css'
 
-const hourLabel = (h) => `${String(h).padStart(2, '0')}:00`
+/** Saat seçimi (telefonda sistemin saat seçicisi açılır) */
+export function TimeField({ value, onChange, disabled, id }) {
+  return (
+    <input
+      id={id}
+      type="time"
+      className={styles.time}
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+      disabled={disabled}
+      required
+    />
+  )
+}
 
 function Switch({ checked, onChange, label, disabled }) {
   return (
@@ -39,9 +53,18 @@ function ReminderSettings({ email }) {
   const [permission, setPermission] = useState('unsupported')
   const [message, setMessage] = useState('')
 
+  const [time, setTime] = useState('')
+  const saveTimer = useRef(null)
+
   useEffect(() => {
-    fetchReminderPrefs().then(setPrefs).catch(() => setFailed(true))
+    fetchReminderPrefs()
+      .then((p) => {
+        setPrefs(p)
+        setTime(formatReminderTime(p.hour, p.minute))
+      })
+      .catch(() => setFailed(true))
     pushPermission().then(setPermission).catch(() => {})
+    return () => clearTimeout(saveTimer.current)
   }, [])
 
   const showPush = prefs?.pushAvailable
@@ -60,6 +83,15 @@ function ReminderSettings({ email }) {
     } finally {
       setBusy(false)
     }
+  }
+
+  // Saat yazılırken her tuşta değil, kısa bir duraklamadan sonra kaydedilir
+  const changeTime = (value) => {
+    setTime(value)
+    clearTimeout(saveTimer.current)
+    const parsed = parseReminderTime(value)
+    if (!parsed || (parsed.hour === prefs.hour && parsed.minute === prefs.minute)) return
+    saveTimer.current = setTimeout(() => update(parsed), 700)
   }
 
   // Telefonda: izin iste ve bu telefonu kaydet. İzin verilmezse false.
@@ -144,7 +176,7 @@ function ReminderSettings({ email }) {
         <div className={styles.row}>
           <div className={styles.rowText}>
             <span className={styles.rowTitle}>E-posta</span>
-            <span className={styles.rowDetail}>{email}</span>
+            <span className={styles.rowDetail} data-nowrap title={email}>{email}</span>
           </div>
           <Switch
             checked={prefs.emailEnabled}
@@ -156,20 +188,11 @@ function ReminderSettings({ email }) {
       )}
 
       <div className={styles.hours}>
-        <span className={styles.rowTitle} id="reminder-hour">Saat</span>
-        <div className={styles.hourGrid} role="group" aria-labelledby="reminder-hour">
-          {REMINDER_HOURS.map((h) => (
-            <button
-              key={h}
-              type="button"
-              aria-pressed={prefs.hour === h}
-              onClick={() => update({ hour: h })}
-              disabled={busy}
-            >
-              {hourLabel(h)}
-            </button>
-          ))}
+        <div className={styles.row}>
+          <label className={styles.rowTitle} htmlFor="reminder-time">Saat</label>
+          <TimeField id="reminder-time" value={time} onChange={changeTime} />
         </div>
+        <p className={styles.note}>Hatırlatma seçtiğin saatten sonraki birkaç dakika içinde gelir.</p>
         {both && (
           <p className={styles.note}>
             İkisi de açık: e-posta, bildirimden 1 saat sonra gider; o arada çalışırsan gönderilmez.

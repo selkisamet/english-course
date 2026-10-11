@@ -5,7 +5,18 @@ import { PushNotifications } from '@capacitor/push-notifications'
 import { apiFetch } from './api'
 import { isNative } from './platform'
 
-export const REMINDER_HOURS = [9, 13, 19, 21]
+// Hatırlatma saati "HH:MM" olarak gösterilir ve girilir
+export const formatReminderTime = (hour, minute = 0) =>
+  `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`
+
+/** "07:45" → { hour: 7, minute: 45 }; geçersizse null */
+export function parseReminderTime(value) {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(value || '')
+  if (!m) return null
+  const hour = Number(m[1])
+  const minute = Number(m[2])
+  return hour <= 23 && minute <= 59 ? { hour, minute } : null
+}
 
 const TOKEN_KEY = 'pushToken'
 const PROMPT_KEY = 'reminderPromptShown'

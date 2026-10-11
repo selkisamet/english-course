@@ -34,7 +34,7 @@ function ResetPassword() {
     if (password !== repeat) return setError('Şifreler aynı değil.')
     setBusy(true)
     setError('')
-    const { error: err } = await supabase.auth.updateUser({ password })
+    const { error: err } = await supabase.auth.updateUser({ password, data: { has_password: true } })
     setBusy(false)
     if (err) return setError(authErrorMessage(err))
     clearRecovery()

@@ -12,7 +12,9 @@ import styles from './Account.module.css'
 const formatDate = (iso) =>
   new Date(iso).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })
 
-const PROVIDERS = { google: 'Google', email: 'E-posta' }
+// Supabase e-posta kodu ve şifreyi aynı 'email' yöntemi sayar; şifreli hesaplar user_metadata.has_password ile ayrılır
+const providerLabel = (provider, hasPassword) =>
+  provider === 'google' ? 'Google' : provider === 'email' ? (hasPassword ? 'E-posta ve şifre' : 'E-posta kodu') : provider
 
 function Membership() {
   const { profile, hasAccess, daysLeft, isTrial } = useAuth()
@@ -48,9 +50,9 @@ function ProfileCard() {
       <h2 className={styles.cardTitle}>Profil</h2>
       <dl className={styles.facts}>
         <dt>E-posta</dt>
-        <dd>{user.email}</dd>
+        <dd className={styles.nowrap} title={user.email}>{user.email}</dd>
         <dt>Giriş yöntemi</dt>
-        <dd>{providers.map((p) => PROVIDERS[p] || p).join(', ') || '—'}</dd>
+        <dd>{providers.map((p) => providerLabel(p, user.user_metadata?.has_password)).join(', ') || '—'}</dd>
       </dl>
       <form className={styles.inline} onSubmit={save}>
         <label className={styles.field}>
@@ -73,7 +75,7 @@ function PasswordCard() {
     e.preventDefault()
     if (password.length < MIN_PASSWORD) return setMessage(`Şifre en az ${MIN_PASSWORD} karakter olmalı.`)
     setBusy(true)
-    const { error } = await supabase.auth.updateUser({ password })
+    const { error } = await supabase.auth.updateUser({ password, data: { has_password: true } })
     setBusy(false)
     setMessage(error ? authErrorMessage(error) : 'Şifren güncellendi.')
     if (!error) setPassword('')
@@ -81,8 +83,7 @@ function PasswordCard() {
 
   return (
     <section className={styles.card}>
-      <h2 className={styles.cardTitle}>Şifre</h2>
-      <p className="muted">Google ya da e-posta koduyla giriş yapıyorsan şifre belirlemen gerekmez.</p>
+      <h2 className={styles.cardTitle}>Şifreyi değiştir</h2>
       <form className={styles.inline} onSubmit={save}>
         <label className={styles.field}>
           <span>Yeni şifre</span>
@@ -137,6 +138,7 @@ function DangerZone() {
 
 function Account() {
   const { user, profile, signOut } = useAuth()
+  const hasPassword = Boolean(user.user_metadata?.has_password)
 
   return (
     <div className={page.page}>
@@ -148,7 +150,7 @@ function Account() {
         <Membership />
         <ReminderSettings email={user.email} />
         <ProfileCard />
-        <PasswordCard />
+        {hasPassword && <PasswordCard />}
         <button type="button" className="btn btn-secondary btn-block" onClick={signOut}>
           <LogOut size={18} /> Çıkış yap
         </button>

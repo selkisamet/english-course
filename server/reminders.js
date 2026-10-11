@@ -11,8 +11,9 @@ import { getAllStories } from './storyManager.js'
 import { supabaseAdmin as db } from './userAuth.js'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
-// Saat geçtikten sonra bu kadar saat içinde gönderilir (zamanlayıcı gecikse de gün kaçmasın)
-const SEND_WINDOW_HOURS = 3
+// Saat geçtikten sonra bu kadar dakika içinde gönderilir (zamanlayıcı gecikse de gün kaçmasın)
+const SEND_WINDOW_MINUTES = 180
+const LAST_MINUTE_OF_DAY = 23 * 60 + 59
 const WEB_URL = (process.env.PUBLIC_WEB_URL || 'https://english-course-qlsk.onrender.com').replace(/\/$/, '')
 
 // ---------- Firebase ----------
@@ -46,7 +47,7 @@ export const emailAvailable = () => Boolean(process.env.RESEND_API_KEY && proces
 
 // ---------- Tercihler ve bildirim kimlikleri ----------
 
-const DEFAULT_PREFS = { push_enabled: false, email_enabled: false, hour: 19, timezone: 'Europe/Istanbul' }
+const DEFAULT_PREFS = { push_enabled: false, email_enabled: false, hour: 19, minute: 0, timezone: 'Europe/Istanbul' }
 
 const isValidTimezone = (tz) => {
   try {
@@ -66,6 +67,7 @@ export async function getPrefs(userId) {
     pushEnabled: prefs.push_enabled,
     emailEnabled: prefs.email_enabled,
     hour: prefs.hour,
+    minute: prefs.minute,
     timezone: prefs.timezone,
     devices: count || 0,
     pushAvailable: pushAvailable(),
@@ -73,11 +75,12 @@ export async function getPrefs(userId) {
   }
 }
 
-export async function savePrefs(userId, { pushEnabled, emailEnabled, hour, timezone }) {
+export async function savePrefs(userId, { pushEnabled, emailEnabled, hour, minute, timezone }) {
   const row = { user_id: userId, updated_at: new Date().toISOString() }
   if (typeof pushEnabled === 'boolean') row.push_enabled = pushEnabled
   if (typeof emailEnabled === 'boolean') row.email_enabled = emailEnabled
   if (Number.isInteger(hour) && hour >= 0 && hour <= 23) row.hour = hour
+  if (Number.isInteger(minute) && minute >= 0 && minute <= 59) row.minute = minute
   if (typeof timezone === 'string' && isValidTimezone(timezone)) row.timezone = timezone
   const { error } = await db.from('reminder_prefs').upsert(row)
   if (error) throw error
@@ -109,12 +112,14 @@ function localNow(timezone, now = new Date()) {
       month: '2-digit',
       day: '2-digit',
       hour: '2-digit',
+      minute: '2-digit',
       hourCycle: 'h23'
     })
       .formatToParts(now)
       .map((p) => [p.type, p.value])
   )
-  return { day: `${parts.year}-${parts.month}-${parts.day}`, hour: Number(parts.hour) }
+  // Gün içindeki dakika (0–1439)
+  return { day: `${parts.year}-${parts.month}-${parts.day}`, minutes: Number(parts.hour) * 60 + Number(parts.minute) }
 }
 
 const shiftDay = (day, n) => {
@@ -261,12 +266,13 @@ export async function runReminders(now = new Date()) {
   const stats = { checked: prefs.length, pushes: 0, emails: 0, errors: 0 }
   for (const p of prefs) {
     try {
-      const { day, hour } = localNow(p.timezone, now)
-      const inWindow = (target) => hour >= target && hour < target + SEND_WINDOW_HOURS
+      const { day, minutes } = localNow(p.timezone, now)
+      const inWindow = (target) => minutes >= target && minutes < target + SEND_WINDOW_MINUTES
+      const pushAt = p.hour * 60 + (p.minute || 0)
       // İkisi de açıksa e-posta bildirimden 1 saat sonra gider; o arada çalışılırsa gitmez
-      const emailHour = p.push_enabled ? Math.min(p.hour + 1, 23) : p.hour
-      const pushDue = p.push_enabled && p.last_push_day !== day && inWindow(p.hour)
-      const emailDue = p.email_enabled && p.last_email_day !== day && inWindow(emailHour)
+      const emailAt = p.push_enabled ? Math.min(pushAt + 60, LAST_MINUTE_OF_DAY) : pushAt
+      const pushDue = p.push_enabled && p.last_push_day !== day && inWindow(pushAt)
+      const emailDue = p.email_enabled && p.last_email_day !== day && inWindow(emailAt)
       if (!pushDue && !emailDue) continue
 
       // Deneme süresi ya da aboneliği bitmiş kullanıcıya hatırlatma gitmez
