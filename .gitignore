@@ -32,3 +32,6 @@ dist-ssr
 
 # Claude Code yerel ayarları (kişisel, depoya girmemeli)
 .claude/settings.local.json
+
+# Firebase sunucu anahtarı (gizli, depoya girmemeli)
+firebase-service-account.json

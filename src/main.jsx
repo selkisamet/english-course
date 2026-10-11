@@ -18,11 +18,13 @@ import Legal from './pages/Legal'
 import { AuthProvider } from './auth/AuthProvider'
 import RequireAuth from './auth/RequireAuth'
 import { setupNativeShell } from './utils/nativeShell'
+import { setupPushNotifications } from './utils/reminders'
 import { initializeProgress } from './utils/vocabularyStorage'
 import './styles/global.css'
 
 initializeProgress()
 setupNativeShell()
+setupPushNotifications()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

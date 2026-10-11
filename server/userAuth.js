@@ -16,6 +16,9 @@ const admin =
       })
     : null
 
+/** Sunucu modüllerinin (hatırlatmalar) kullandığı yetkili istemci; yapılandırılmadıysa null */
+export const supabaseAdmin = admin
+
 if (!admin) console.warn('SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY tanımlı değil: içerik uç noktaları kapalı')
 
 const bearer = (req) => {

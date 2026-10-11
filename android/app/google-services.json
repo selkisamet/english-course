@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923886527637",
+    "project_id": "english-course-12439",
+    "storage_bucket": "english-course-12439.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923886527637:android:f4962f6703051ebc1ce79c",
+        "android_client_info": {
+          "package_name": "com.englishcourse.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrEXCXQsryoJmKzu1R0qOrmW_pCwnkrss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

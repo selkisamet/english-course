@@ -3,6 +3,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import path from 'path'
 import fs from 'fs'
+import crypto from 'crypto'
 import { fileURLToPath } from 'url'
 import { analyzeWord, extractSentence } from './nlpAnalyzer.js'
 import {
@@ -22,6 +23,7 @@ import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './sto
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
 import { deleteAccount, requireAccess, requireUser } from './userAuth.js'
+import { getPrefs, removeToken, runReminders, savePrefs, saveToken, sendTestPush } from './reminders.js'
 import { getAllWords, getWordById, getWordPool, getStats, getAvailableLevels } from './vocabularyManager.js'
 
 // .env.local dosyasını yükle
@@ -47,6 +49,71 @@ app.delete('/api/account', requireUser, async (req, res) => {
   } catch (error) {
     console.error('Delete account error:', error)
     res.status(500).json({ error: 'Hesap silinemedi' })
+  }
+})
+
+// ---------- Günlük hatırlatmalar ----------
+
+const remindersError = (res, error, message) => {
+  console.error(message, error.message)
+  res.status(500).json({ error: message })
+}
+
+app.get('/api/reminders', requireUser, async (req, res) => {
+  try {
+    res.json(await getPrefs(req.userId))
+  } catch (error) {
+    remindersError(res, error, 'Hatırlatma ayarları alınamadı')
+  }
+})
+
+app.put('/api/reminders', requireUser, async (req, res) => {
+  try {
+    res.json(await savePrefs(req.userId, req.body || {}))
+  } catch (error) {
+    remindersError(res, error, 'Hatırlatma ayarları kaydedilemedi')
+  }
+})
+
+app.post('/api/push-tokens', requireUser, async (req, res) => {
+  try {
+    await saveToken(req.userId, req.body?.token, req.body?.platform)
+    res.json({ ok: true })
+  } catch (error) {
+    remindersError(res, error, 'Bildirim kimliği kaydedilemedi')
+  }
+})
+
+app.delete('/api/push-tokens', requireUser, async (req, res) => {
+  try {
+    await removeToken(req.userId, req.body?.token)
+    res.json({ ok: true })
+  } catch (error) {
+    remindersError(res, error, 'Bildirim kimliği silinemedi')
+  }
+})
+
+app.post('/api/reminders/test', requireUser, async (req, res) => {
+  try {
+    const sent = await sendTestPush(req.userId)
+    res.json({ sent })
+  } catch (error) {
+    remindersError(res, error, 'Deneme bildirimi gönderilemedi')
+  }
+})
+
+// Zamanlayıcı (GitHub Actions) 15 dakikada bir çağırır; CRON_SECRET ile korunur
+app.post('/api/cron/reminders', async (req, res) => {
+  const secret = process.env.CRON_SECRET
+  const given = Buffer.from(req.headers.authorization || '')
+  const expected = Buffer.from(`Bearer ${secret}`)
+  if (!secret || given.length !== expected.length || !crypto.timingSafeEqual(given, expected)) {
+    return res.status(401).json({ error: 'Yetkisiz' })
+  }
+  try {
+    res.json(await runReminders())
+  } catch (error) {
+    remindersError(res, error, 'Hatırlatmalar gönderilemedi')
   }
 })
 

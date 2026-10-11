@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { supabase } from '../utils/supabase'
 import { endSync, startSync } from '../utils/sync'
 import { clearApiCaches } from '../utils/api'
+import { forgetPushDevice, refreshPushRegistration } from '../utils/reminders'
 
 const AuthContext = createContext(null)
 const PROFILE_KEY = 'profileCache' // çevrimdışıyken son bilinen erişim durumu
@@ -54,6 +55,7 @@ export function AuthProvider({ children }) {
       setProfile(readCachedProfile(userId))
       await Promise.all([loadProfile(userId), withTimeout(startSync(userId), SYNC_TIMEOUT)])
       setStatus('ready')
+      refreshPushRegistration()
     },
     [loadProfile]
   )
@@ -89,11 +91,13 @@ export function AuthProvider({ children }) {
   }, [loadProfile])
 
   const signOut = useCallback(async () => {
+    // Oturum kapanmadan önce: bu telefon artık bu hesaba bildirim almasın
+    await forgetPushDevice()
     await endSync()
     localStorage.removeItem(PROFILE_KEY)
     clearApiCaches()
     if ('caches' in window) {
-      await Promise.all(['stories', 'annotations', 'vocabulary'].map((name) => caches.delete(name)))
+      await Promise.all(['stories', 'annotations', 'vocabulary', 'api-offline'].map((name) => caches.delete(name)))
     }
     await supabase.auth.signOut()
   }, [])

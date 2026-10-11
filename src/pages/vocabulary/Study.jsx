@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { BookOpen, Check, CircleAlert, Layers, Trophy, Volume2, X } from 'lucide-react'
+import ReminderPrompt from '../../components/ReminderPrompt'
 import { HighlightedSentence, RichText } from '../../components/WordPanel'
 import { fetchWord, fetchWordPool } from '../../utils/api'
 import { buildExercise, checkTyped, describeWord, shortMeaning } from '../../utils/exercises'
@@ -353,6 +354,8 @@ function Summary({ session, onMore }) {
           <p className="muted">Bu kelimeler önümüzdeki günlerde daha sık sorulacak.</p>
         </section>
       )}
+
+      <ReminderPrompt />
 
       <div className={styles.summaryActions}>
         <Link to="/vocabulary" className="btn btn-primary btn-lg btn-block">Kelimelere dön</Link>

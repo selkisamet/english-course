@@ -4,6 +4,7 @@ import { LogOut, Trash2 } from 'lucide-react'
 import { supabase } from '../utils/supabase'
 import { apiFetch } from '../utils/api'
 import { useAuth } from '../auth/AuthProvider'
+import ReminderSettings from '../components/ReminderSettings'
 import { authErrorMessage, MIN_PASSWORD } from '../auth/errors'
 import page from '../styles/page.module.css'
 import styles from './Account.module.css'
@@ -135,7 +136,7 @@ function DangerZone() {
 }
 
 function Account() {
-  const { profile, signOut } = useAuth()
+  const { user, profile, signOut } = useAuth()
 
   return (
     <div className={page.page}>
@@ -145,6 +146,7 @@ function Account() {
 
       <div className={styles.stack}>
         <Membership />
+        <ReminderSettings email={user.email} />
         <ProfileCard />
         <PasswordCard />
         <button type="button" className="btn btn-secondary btn-block" onClick={signOut}>

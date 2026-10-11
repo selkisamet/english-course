@@ -1,0 +1,25 @@
+# Günlük hatırlatmaları tetikler: sunucu, saati gelmiş ve o gün çalışmamış kullanıcılara
+# bildirim / e-posta gönderir (server/reminders.js). GitHub zamanlanmış işleri birkaç dakika
+# geciktirebilir; sunucu saat geçtikten sonraki 3 saat içinde gönderdiği için gün kaçmaz.
+name: Günlük hatırlatmalar
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Hatırlatmaları gönder
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          APP_URL: ${{ vars.APP_URL || 'https://english-course-qlsk.onrender.com' }}
+        run: |
+          # Gizli anahtar henüz eklenmediyse (kurulum sürerken) hata vermeden atla
+          if [ -z "$CRON_SECRET" ]; then echo "CRON_SECRET tanımlı değil, atlanıyor"; exit 0; fi
+          # Uyuyan sunucu ilk istekte uyanır; bu yüzden birkaç kez denenir
+          curl --fail-with-body --silent --show-error --retry 3 --retry-delay 20 --retry-all-errors \
+            --max-time 120 -X POST -H "Authorization: Bearer $CRON_SECRET" "$APP_URL/api/cron/reminders"

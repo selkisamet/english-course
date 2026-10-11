@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yalnızca hata ayıklama derlemesi: bilgisayardaki yerel sunucuya (adb reverse ile localhost)
+     şifresiz bağlantı izni. Mağaza (release) sürümüne girmez. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:networkSecurityConfig="@xml/network_security_config" />
+</manifest>
