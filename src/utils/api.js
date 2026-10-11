@@ -1,12 +1,13 @@
 import { getProgress } from './vocabularyStorage'
 import { slugify, VOCAB_LEVELS } from './format'
 import { getAccessToken } from './supabase'
+import { fetchWithOfflineCache } from './platform'
 
 /** Oturum belirteciyle istek. Erişim süresi dolduysa uygulamaya haber verir (kilit ekranı). */
 export async function apiFetch(url, options = {}) {
   const token = await getAccessToken()
   const headers = { ...options.headers, ...(token ? { Authorization: `Bearer ${token}` } : {}) }
-  const response = await fetch(url, { ...options, headers })
+  const response = await fetchWithOfflineCache(url, { ...options, headers })
   if (response.status === 403) {
     const body = await response.clone().json().catch(() => null)
     if (body?.code === 'access_expired') window.dispatchEvent(new Event('access-expired'))

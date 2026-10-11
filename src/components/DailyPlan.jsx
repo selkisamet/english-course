@@ -44,15 +44,15 @@ function DailyPlan({ nextStory }) {
   const learned = Math.min(today.newWords, goal)
   const storyDone = (today.stories || 0) > 0
 
+  // Bugün tekrar zamanı gelen kelime yoksa ve tekrar yapılmadıysa bu iş plana girmez
+  // (yapılmamış bir iş "tamamlandı" sayılmasın)
+  const hasReviews = reviewsLeft > 0 || reviewsDone > 0
   const tasks = [
-    {
+    hasReviews && {
       key: 'reviews',
       done: reviewsLeft === 0,
       title: reviewsLeft > 0 ? `${reviewsLeft} kelime tekrar bekliyor` : 'Tekrarlar',
-      detail:
-        reviewsLeft > 0
-          ? reviewsDone > 0 ? `Bugün ${reviewsDone} tekrar yaptın` : 'Unutmadan önce tekrar et'
-          : reviewsDone > 0 ? `Bugün ${reviewsDone} tekrar yaptın` : 'Bugün tekrar zamanı gelen kelime yok',
+      detail: reviewsDone > 0 ? `Bugün ${reviewsDone} tekrar yaptın` : 'Unutmadan önce tekrar et',
       progress: reviewsDone > 0 ? Math.round((reviewsDone / (reviewsDone + reviewsLeft)) * 100) : undefined
     },
     {
@@ -68,7 +68,7 @@ function DailyPlan({ nextStory }) {
       title: '1 hikaye oku',
       detail: storyDone ? 'Bugün bir hikaye okudun' : nextStory ? `Sıradaki: ${nextStory.title} · ${nextStory.level}` : null
     }
-  ]
+  ].filter(Boolean)
   const doneCount = tasks.filter((t) => t.done).length
 
   // Düğme ilk bitmemiş işe götürür

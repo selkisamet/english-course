@@ -1,0 +1,14 @@
+{
+  "appId": "com.englishcourse.dev",
+  "appName": "English Course",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "backgroundColor": "#1f7a5c"
+    }
+  }
+}

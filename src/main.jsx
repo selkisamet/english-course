@@ -17,10 +17,12 @@ import Subscription from './pages/Subscription'
 import Legal from './pages/Legal'
 import { AuthProvider } from './auth/AuthProvider'
 import RequireAuth from './auth/RequireAuth'
+import { setupNativeShell } from './utils/nativeShell'
 import { initializeProgress } from './utils/vocabularyStorage'
 import './styles/global.css'
 
 initializeProgress()
+setupNativeShell()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate, useLocation } from 'react-router-dom'
 import { ArrowLeft, Mail } from 'lucide-react'
+import { isNative, webOrigin } from '../../utils/platform'
 import { supabase } from '../../utils/supabase'
 import { useAuth } from '../../auth/AuthProvider'
 import { authErrorMessage, isValidEmail, MIN_PASSWORD } from '../../auth/errors'
@@ -75,7 +76,7 @@ function Login() {
     run(async () => {
       const { error: err } = await supabase.auth.signInWithOtp({
         email: email.trim(),
-        options: { shouldCreateUser: true, emailRedirectTo: window.location.origin }
+        options: { shouldCreateUser: true, emailRedirectTo: webOrigin }
       })
       if (err) throw err
       setCode('')
@@ -107,7 +108,7 @@ function Login() {
       const { data, error: err } = await supabase.auth.signUp({
         email: email.trim(),
         password,
-        options: { emailRedirectTo: window.location.origin }
+        options: { emailRedirectTo: webOrigin }
       })
       if (err) throw err
       // Kayıtlı e-posta: Supabase hata yerine kimliksiz bir kullanıcı döner ve e-posta göndermez
@@ -123,7 +124,7 @@ function Login() {
     if (!isValidEmail(email)) return setError('Önce e-posta adresini yaz.')
     run(async () => {
       const { error: err } = await supabase.auth.resetPasswordForEmail(email.trim(), {
-        redirectTo: `${window.location.origin}/sifre-yenile`
+        redirectTo: `${webOrigin}/sifre-yenile`
       })
       if (err) throw err
       setInfo('Şifre yenileme bağlantısını e-postana gönderdik.')
@@ -158,11 +159,16 @@ function Login() {
             <h1 className={styles.title}>Hoş geldin</h1>
             <p className={styles.lead}>Giriş yap ya da hesap oluştur. Yeni hesaplarda deneme süresi hemen başlar.</p>
 
-            <button type="button" className={`btn btn-lg btn-block ${styles.google}`} onClick={signInWithGoogle} disabled={busy}>
-              <GoogleIcon /> Google ile devam et
-            </button>
+            {/* Telefon uygulamasında Google girişi uygulama içi tarayıcıda çalışmaz; ayrı akışla eklenecek */}
+            {!isNative && (
+              <>
+                <button type="button" className={`btn btn-lg btn-block ${styles.google}`} onClick={signInWithGoogle} disabled={busy}>
+                  <GoogleIcon /> Google ile devam et
+                </button>
 
-            <div className={styles.divider}>ya da</div>
+                <div className={styles.divider}>ya da</div>
+              </>
+            )}
 
             <form onSubmit={sendCode} className={styles.form} noValidate>
               {emailField}

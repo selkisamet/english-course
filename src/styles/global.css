@@ -58,8 +58,10 @@
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+/* Karanlık tema: tarayıcının sistem ayarı ya da telefon uygulamasının bildirdiği tema
+   (html[data-theme], bkz. utils/nativeShell.js). İki kural aynı değerleri taşır. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     color-scheme: dark;
 
     --bg: #151613;
@@ -96,6 +98,44 @@
     --shadow-md: 0 4px 16px rgb(0 0 0 / 0.35);
     --shadow-lg: 0 16px 48px rgb(0 0 0 / 0.5);
   }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #151613;
+  --surface: #1e1f1c;
+  --surface-2: #272925;
+  --border: #34362f;
+  --text: #eceae4;
+  --text-muted: #a8a49a;
+  --text-subtle: #77746c;
+
+  --primary: #3fb68b;
+  --primary-hover: #56c79c;
+  --primary-soft: #1c3a2f;
+  --on-primary: #0f1a15;
+
+  --chart-1: #2fa07a;
+  --chart-track: #22362e;
+  --chart-grid: #2a2c27;
+  --chart-axis: #45473f;
+
+  --highlight: #e9c45a;
+  --highlight-soft: #3d3417;
+
+  --danger: #ea7a70;
+  --danger-soft: #3d2220;
+  --warning: #e2a94c;
+  --warning-soft: #3a2d17;
+  --info: #7da2f0;
+  --info-soft: #1f2a40;
+  --violet: #a993f0;
+  --violet-soft: #2c2540;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 16px rgb(0 0 0 / 0.35);
+  --shadow-lg: 0 16px 48px rgb(0 0 0 / 0.5);
 }
 
 /* ---------- Reset ---------- */

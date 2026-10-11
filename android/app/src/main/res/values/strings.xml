@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">English Course</string>
+    <string name="title_activity_main">English Course</string>
+    <string name="package_name">com.englishcourse.dev</string>
+    <string name="custom_url_scheme">com.englishcourse.dev</string>
+</resources>

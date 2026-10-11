@@ -1,9 +1,36 @@
-// Tarayıcının yerleşik İngilizce seslendirmesi (Web Speech API)
+// Cihazın yerleşik İngilizce seslendirmesi.
+// Tarayıcıda Web Speech API; telefon uygulamasında (Android'in uygulama içi tarayıcısında bu API yok)
+// işletim sisteminin seslendirme motoru kullanılır.
 
-export const canSpeak = typeof window !== 'undefined' && 'speechSynthesis' in window
+import { TextToSpeech } from '@capacitor-community/text-to-speech'
+import { isNative } from './platform'
+
+const hasWebSpeech = typeof window !== 'undefined' && 'speechSynthesis' in window
+
+export const canSpeak = isNative || hasWebSpeech
+
+// Telefonda son başlatılan okuma; yenisi başlayınca eskisinin onEnd'i çağrılmaz
+let nativeRun = 0
+
+function speakNative(text, { rate, onStart, onEnd }) {
+  const run = ++nativeRun
+  TextToSpeech.stop()
+    .catch(() => {})
+    .then(() => {
+      if (run !== nativeRun) return
+      onStart?.()
+      return TextToSpeech.speak({ text, lang: 'en-US', rate, pitch: 1, volume: 1 })
+    })
+    .catch(() => {})
+    .finally(() => {
+      if (run === nativeRun) onEnd?.()
+    })
+  return { native: true }
+}
 
 export function speak(text, { rate = 0.85, onStart, onEnd, onBoundary } = {}) {
   if (!canSpeak || !text) return null
+  if (isNative) return speakNative(text, { rate, onStart, onEnd })
 
   window.speechSynthesis.cancel()
 
@@ -23,5 +50,10 @@ export function speak(text, { rate = 0.85, onStart, onEnd, onBoundary } = {}) {
 }
 
 export function stopSpeaking() {
-  if (canSpeak) window.speechSynthesis.cancel()
+  if (isNative) {
+    nativeRun += 1
+    TextToSpeech.stop().catch(() => {})
+  } else if (hasWebSpeech) {
+    window.speechSynthesis.cancel()
+  }
 }

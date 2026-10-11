@@ -2,10 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     VitePWA({
+      // Telefon uygulamasında (Capacitor) service worker yok: dosyalar zaten uygulamanın içinde
+      disable: mode === 'android',
       // Yeni sürüm hazır olunca kullanıcıya sorulur; çalışma yarıda kesilmesin
       registerType: 'prompt',
       // public/manifest.webmanifest kullanılır
@@ -60,4 +62,4 @@ export default defineConfig({
       '/api': 'http://localhost:3001',
     },
   },
-})
+}))
