@@ -30,7 +30,13 @@ let messaging = null
 try {
   const account = loadServiceAccount()
   if (account) messaging = getMessaging(initializeApp({ credential: cert(account) }))
-  else console.warn('Firebase hizmet hesabı yok: telefon bildirimleri kapalı')
+  else {
+    // Kurulum hatasını kayıtlardan görebilmek için gizli dosya klasöründeki dosya adları (içerik değil)
+    const secrets = fs.existsSync('/etc/secrets') ? fs.readdirSync('/etc/secrets').join(', ') || 'boş' : 'yok'
+    console.warn(
+      `Firebase hizmet hesabı yok: telefon bildirimleri kapalı (FIREBASE_SERVICE_ACCOUNT tanımlı değil; /etc/secrets: ${secrets})`
+    )
+  }
 } catch (error) {
   console.error('Firebase başlatılamadı:', error.message)
 }

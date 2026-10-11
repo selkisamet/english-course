@@ -162,3 +162,17 @@
   background: var(--highlight-soft);
   color: var(--warning);
 }
+
+/* Bildirim başka cihazdan açılmış, bu telefonda izin verilmemiş */
+.callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: -6px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--primary-soft);
+  font-size: 0.9rem;
+}

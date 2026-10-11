@@ -28,7 +28,10 @@ function Switch({ checked, onChange, label, disabled }) {
   )
 }
 
-/** Hesabım › Günlük hatırlatma: telefon bildirimi ve e-posta ayrı ayrı, ortak saat */
+/**
+ * Hesabım › Günlük hatırlatma. Ayarlar hesaba aittir: telefon bildirimi web'den de açılabilir
+ * (bildirim, hesapla giriş yapılmış telefonlara gider), e-posta telefondan da açılabilir.
+ */
 function ReminderSettings({ email }) {
   const [prefs, setPrefs] = useState(null)
   const [failed, setFailed] = useState(false)
@@ -41,9 +44,9 @@ function ReminderSettings({ email }) {
     pushPermission().then(setPermission).catch(() => {})
   }, [])
 
-  const showPush = isNative && prefs?.pushAvailable
+  const showPush = prefs?.pushAvailable
   const showEmail = prefs?.emailAvailable
-  // Tarayıcıda ve e-posta gönderimi kurulmamışken bu bölüm gösterilmez
+  // Sunucuda iki gönderim yolu da kurulu değilse bu bölüm gösterilmez
   if (failed || (prefs && !showPush && !showEmail)) return null
   if (!prefs) return <div className={`skeleton ${styles.skeleton}`} />
 
@@ -59,15 +62,35 @@ function ReminderSettings({ email }) {
     }
   }
 
+  // Telefonda: izin iste ve bu telefonu kaydet. İzin verilmezse false.
+  const registerThisPhone = async () => {
+    const granted = await enablePushOnDevice()
+    setPermission(await pushPermission())
+    return granted
+  }
+
   const togglePush = async (on) => {
     if (!on) return update({ pushEnabled: false })
     setBusy(true)
+    setMessage('')
     try {
-      const granted = await enablePushOnDevice()
-      setPermission(await pushPermission())
-      if (granted) await update({ pushEnabled: true })
+      if (isNative && !(await registerThisPhone())) return
+      await update({ pushEnabled: true })
     } catch {
       setMessage('Bildirimler açılamadı, tekrar dene.')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  // Bildirim başka cihazdan açılmış, bu telefonda henüz izin verilmemiş
+  const allowOnThisPhone = async () => {
+    setBusy(true)
+    setMessage('')
+    try {
+      if (await registerThisPhone()) setPrefs(await fetchReminderPrefs())
+    } catch {
+      setMessage('Bu telefon kaydedilemedi, tekrar dene.')
     } finally {
       setBusy(false)
     }
@@ -77,12 +100,18 @@ function ReminderSettings({ email }) {
     setMessage('')
     try {
       const { sent } = await sendTestNotification()
-      setMessage(sent ? 'Deneme bildirimi gönderildi.' : 'Bu telefon henüz kayıtlı değil, bildirimi kapatıp yeniden aç.')
+      setMessage(sent ? 'Deneme bildirimi gönderildi.' : 'Bildirim gönderilemedi: kayıtlı telefon bulunamadı.')
     } catch {
       setMessage('Deneme bildirimi gönderilemedi.')
     }
   }
 
+  const devices = prefs.devices || 0
+  const pushDetail =
+    devices > 0
+      ? `${devices} telefon kayıtlı`
+      : 'Uygulamayı telefona kurup giriş yapınca bildirimler oraya gelir'
+  const needsThisPhone = isNative && prefs.pushEnabled && permission !== 'granted'
   const both = showPush && showEmail && prefs.pushEnabled && prefs.emailEnabled
 
   return (
@@ -96,9 +125,18 @@ function ReminderSettings({ email }) {
         <div className={styles.row}>
           <div className={styles.rowText}>
             <span className={styles.rowTitle}>Telefon bildirimi</span>
-            <span className={styles.rowDetail}>Bu telefonda</span>
+            <span className={styles.rowDetail}>{pushDetail}</span>
           </div>
           <Switch checked={prefs.pushEnabled} onChange={togglePush} label="Telefon bildirimi" disabled={busy} />
+        </div>
+      )}
+
+      {showPush && needsThisPhone && permission !== 'denied' && (
+        <div className={styles.callout}>
+          <span>Bu telefona da bildirim gelsin mi?</span>
+          <button type="button" className="btn btn-secondary" onClick={allowOnThisPhone} disabled={busy}>
+            Bu telefonda izin ver
+          </button>
         </div>
       )}
 
@@ -139,15 +177,15 @@ function ReminderSettings({ email }) {
         )}
       </div>
 
-      {showPush && prefs.pushEnabled && (
+      {showPush && prefs.pushEnabled && devices > 0 && (
         <button type="button" className="btn btn-secondary" onClick={test}>
           Deneme bildirimi gönder
         </button>
       )}
 
-      {showPush && permission === 'denied' && (
+      {showPush && isNative && permission === 'denied' && (
         <div className={styles.warning} role="status">
-          <strong>Bildirim izni kapalı</strong>
+          <strong>Bu telefonda bildirim izni kapalı</strong>
           <span>Telefonun Ayarlar › Uygulamalar › English Course › Bildirimler bölümünden açabilirsin.</span>
         </div>
       )}

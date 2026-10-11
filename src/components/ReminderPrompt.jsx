@@ -4,6 +4,7 @@ import {
   enablePushOnDevice,
   fetchReminderPrefs,
   markReminderOffered,
+  pushPermission,
   REMINDER_HOURS,
   saveReminderPrefs,
   shouldOfferReminder
@@ -21,10 +22,13 @@ function ReminderPrompt() {
 
   useEffect(() => {
     if (!shouldOfferReminder()) return
-    fetchReminderPrefs()
-      .then((prefs) => {
-        if (prefs.pushAvailable && !prefs.pushEnabled) setVisible(true)
-        else markReminderOffered()
+    // Bildirim kapalıysa ya da başka cihazdan açılmış ama bu telefonda izin yoksa sorulur
+    Promise.all([fetchReminderPrefs(), pushPermission()])
+      .then(([prefs, permission]) => {
+        if (prefs.pushAvailable && (!prefs.pushEnabled || permission === 'prompt')) {
+          setHour(prefs.hour)
+          setVisible(true)
+        } else markReminderOffered()
       })
       .catch(() => {})
   }, [])

@@ -41,10 +41,13 @@ export function setupPushNotifications() {
     importance: 4
   }).catch(() => {})
 
-  PushNotifications.addListener('registration', ({ value }) => {
+  // Kimlik sunucuya yazıldıktan sonra bekleyenlere haber verilir (ayarlardaki telefon sayısı hemen doğru olsun)
+  PushNotifications.addListener('registration', async ({ value }) => {
     localStorage.setItem(TOKEN_KEY, value)
-    send('/api/push-tokens', 'POST', { token: value, platform: 'android' }).catch(() => {})
-    tokenWaiters.forEach((w) => w.resolve(value))
+    const saved = await send('/api/push-tokens', 'POST', { token: value, platform: 'android' })
+      .then((r) => r.ok)
+      .catch(() => false)
+    tokenWaiters.forEach((w) => (saved ? w.resolve(value) : w.reject(new Error('Bildirim kimliği kaydedilemedi'))))
     tokenWaiters = []
   })
   PushNotifications.addListener('registrationError', ({ error }) => {
