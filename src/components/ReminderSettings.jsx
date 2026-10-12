@@ -150,7 +150,7 @@ function ReminderSettings({ email }) {
     <section className={styles.card} aria-labelledby="reminder-title">
       <div className={styles.head}>
         <h2 id="reminder-title" className={styles.title}>Günlük hatırlatma</h2>
-        <p className={styles.lead}>Yalnızca o gün henüz çalışmadıysan, günde en fazla bir kez.</p>
+        <p className={styles.lead}>Yalnızca o gün henüz çalışmadıysan gönderilir.</p>
       </div>
 
       {showPush && (
@@ -160,6 +160,32 @@ function ReminderSettings({ email }) {
             <span className={styles.rowDetail}>{pushDetail}</span>
           </div>
           <Switch checked={prefs.pushEnabled} onChange={togglePush} label="Telefon bildirimi" disabled={busy} />
+        </div>
+      )}
+
+      {showPush && (
+        <div className={styles.row}>
+          <div className={styles.rowText}>
+            <span className={styles.rowTitle}>Seri kurtarma</span>
+            <span className={styles.rowDetail}>
+              Serin 3 gün ve üstündeyse, o gün çalışmadıysan 21:30'da son bir bildirim
+            </span>
+          </div>
+          <Switch
+            checked={prefs.pushEnabled && prefs.streakSaver}
+            onChange={(on) => update({ streakSaver: on })}
+            label="Seri kurtarma bildirimi"
+            disabled={busy || !prefs.pushEnabled}
+          />
+        </div>
+      )}
+
+      {prefs.paused && (
+        <div className={styles.callout} role="status">
+          <span>
+            Bir haftadır çalışmadığın için hatırlatmalara ara verdik. Çalışmaya başladığında kendiliğinden yeniden
+            başlar.
+          </span>
         </div>
       )}
 

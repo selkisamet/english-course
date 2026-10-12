@@ -104,9 +104,11 @@ app.post('/api/reminders/test', requireUser, async (req, res) => {
 
 // Zamanlayıcı (GitHub Actions) 15 dakikada bir çağırır; CRON_SECRET ile korunur
 app.post('/api/cron/reminders', async (req, res) => {
-  const secret = process.env.CRON_SECRET
-  const given = Buffer.from(req.headers.authorization || '')
-  const expected = Buffer.from(`Bearer ${secret}`)
+  // "Bearer <anahtar>" ya da yalnızca anahtar kabul edilir; baştaki/sondaki boşluklar yok sayılır
+  // (zamanlayıcı servislerinin başlık alanına yapıştırırken oluşan küçük farklar engel olmasın)
+  const secret = (process.env.CRON_SECRET || '').trim()
+  const given = Buffer.from((req.headers.authorization || '').trim().replace(/^bearer\s+/i, ''))
+  const expected = Buffer.from(secret)
   if (!secret || given.length !== expected.length || !crypto.timingSafeEqual(given, expected)) {
     return res.status(401).json({ error: 'Yetkisiz' })
   }

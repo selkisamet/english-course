@@ -1,11 +1,12 @@
-# Günlük hatırlatmaları tetikler: sunucu, saati gelmiş ve o gün çalışmamış kullanıcılara
-# bildirim / e-posta gönderir (server/reminders.js). GitHub zamanlanmış işleri birkaç dakika
-# geciktirebilir; sunucu saat geçtikten sonraki 3 saat içinde gönderdiği için gün kaçmaz.
-name: Günlük hatırlatmalar
+# Günlük hatırlatmalar için YEDEK tetikleyici. Asıl zamanlayıcı cron-job.org (5 dakikada bir,
+# aynı uca aynı anahtarla POST). GitHub zamanlanmış işleri saatlerce geciktirebildiği için tek
+# başına yeterli değil; asıl zamanlayıcı bir süre çalışmazsa günün hatırlatması bununla gider.
+# Sunucu aynı kişiye aynı gün ikinci kez göndermez (server/reminders.js › claimDay).
+name: Günlük hatırlatmalar (yedek)
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:
 
 jobs:

@@ -26,7 +26,13 @@ function ReminderPrompt() {
     Promise.all([fetchReminderPrefs(), pushPermission()])
       .then(([prefs, permission]) => {
         if (prefs.pushAvailable && (!prefs.pushEnabled || permission === 'prompt')) {
-          setTime(formatReminderTime(prefs.hour, prefs.minute))
+          // İlk kez soruluyorsa öneri "yarın bu saatte": şimdiki saat, sonraki çeyrek saate yuvarlanır
+          if (prefs.configured) setTime(formatReminderTime(prefs.hour, prefs.minute))
+          else {
+            const now = new Date()
+            const minutes = Math.min(23 * 60 + 45, Math.ceil((now.getHours() * 60 + now.getMinutes()) / 15) * 15)
+            setTime(formatReminderTime(Math.floor(minutes / 60), minutes % 60))
+          }
           setVisible(true)
         } else markReminderOffered()
       })
@@ -78,7 +84,7 @@ function ReminderPrompt() {
         <div className={styles.head}>
           <h2 id="reminder-offer" className={styles.title}>Yarın hatırlatalım mı?</h2>
           <p className={styles.lead}>
-            O gün henüz çalışmadıysan tek bir bildirim gönderelim. Saatini sonra Hesabım bölümünden
+            O gün henüz çalışmadıysan seçtiğin saatte bir bildirim gönderelim. Saatini sonra Hesabım bölümünden
             değiştirebilirsin.
           </p>
         </div>
