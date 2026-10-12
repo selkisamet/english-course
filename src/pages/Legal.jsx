@@ -28,6 +28,7 @@ const PRIVACY = {
       'Öğrenme verileri: kaydettiğin ve çalıştığın kelimeler, tekrar geçmişin ve bir sonraki tekrar tarihleri, okuduğun hikayeler, günlük çalışma özetlerin (cevap ve doğru cevap sayısı, öğrenilen yeni kelime ve okunan hikaye sayısı) ve uygulama tercihlerin (seviye, günlük yeni kelime hedefi gibi).',
       'Hatırlatma ayarların: telefon bildirimi ve e-posta hatırlatmasının açık olup olmadığı, hatırlatma saatin, saat dilimin, seri kurtarma tercihin ve son hatırlatmanın gönderildiği gün.',
       'Bildirim kimliği: telefon bildirimini açarsan, bildirimlerin telefonuna ulaşması için telefonuna özgü bir kimlik saklanır. Telefon numaran, rehberin, konumun ya da cihazındaki başka veriler alınmaz.',
+      'Üyelik bilgileri: satın aldığın üyelik türü (aylık, yıllık ya da ömür boyu), üyeliğinin bitiş ve yenilenme durumu ve mağazanın bildirdiği ödeme sorunları. Kart bilgilerin bize ulaşmaz; ödemeyi Google Play alır.',
       'Teknik bilgiler: uygulama sunucularımıza bağlanırken IP adresin gibi bilgiler, barındırma sağlayıcılarımızın kayıtlarında kısa süre tutulabilir.'
     ]],
     ['Cihazında saklananlar', [
@@ -51,6 +52,8 @@ const PRIVACY = {
       'Render: uygulamanın ve sunucusunun barındırıldığı hizmet.',
       'Google: "Google ile devam et" seçeneğini kullanırsan kimlik doğrulama; telefon bildirimini açtıysan bildirim kimliği ve bildirim metni ile bildirimlerin iletilmesi (Firebase Cloud Messaging); uygulamanın yazı tiplerinin yüklenmesi (Google Fonts, bu sırada IP adresin Google’a ulaşır).',
       'Resend: e-posta adresine giriş kodu, doğrulama ve şifre yenileme e-postalarının, e-posta hatırlatmasını açtıysan hatırlatmaların gönderilmesi.',
+      'Google Play: uygulamadan üyelik satın alırsan ödemeyi Google alır ve kendi gizlilik politikasına göre işler.',
+      'RevenueCat: uygulamadan yapılan satın alımları doğrulamak ve üyeliğini hesabına işlemek için hesap kimliğin ve satın alma kayıtların (ürün, tarih, yenilenme durumu) işlenir.',
       'DeepL: işaretlemesi olmayan hikayelerde çeviri için yalnızca hikaye metni ve cümleleri gönderilir; kişisel veri gönderilmez.',
       'Cihazının seslendirme özelliği: seslendirmesi hazır olmayan kelime ve cümleler cihazının ya da tarayıcının kendi seslendirmesiyle okunur. Bazı tarayıcılar bu metni kendi sunucularında işleyebilir; gönderilen yalnızca İngilizce kelime ya da cümledir.',
       'Bu sağlayıcıların sunucuları Türkiye dışında bulunabilir. Verilerin yalnızca yukarıdaki amaçlar için ve gerektiği kadar aktarılır.'
@@ -58,7 +61,8 @@ const PRIVACY = {
     ['Saklama süresi', [
       'Verilerini hesabın açık olduğu sürece saklarız.',
       'Hesabını sildiğinde hesap bilgilerin, öğrenme verilerin, hatırlatma ayarların ve bildirim kimliklerin kalıcı olarak silinir.',
-      'Daha önce gönderilmiş e-postaların teslim kayıtları, e-posta sağlayıcısında kendi saklama süresi boyunca kalabilir.'
+      'Daha önce gönderilmiş e-postaların teslim kayıtları, e-posta sağlayıcısında kendi saklama süresi boyunca kalabilir.',
+      'Satın alma kayıtları Google Play ve RevenueCat’te tutulur; yasal yükümlülükler (ör. vergi mevzuatı) gerektirdiği süre boyunca, hesabın silinse de saklanabilir.'
     ]],
     ['Hakların', [
       '6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında verilerinin işlenip işlenmediğini öğrenme, bunlara erişme, düzeltilmesini ve silinmesini isteme haklarına sahipsin.',
@@ -73,14 +77,21 @@ const PRIVACY = {
 
 const TERMS = {
   title: 'Kullanım Koşulları',
+  updated: PRIVACY_UPDATED,
   sections: [
     ['Hesap', [
       'Uygulamayı kullanmak için bir hesap oluşturman gerekir. Hesap bilgilerinin güvenliğinden sen sorumlusun.',
       'Hesabını başkalarıyla paylaşmamalısın.'
     ]],
-    ['Deneme süresi ve abonelik', [
-      'Yeni hesaplar ücretsiz bir deneme süresiyle başlar. Deneme süresi bitince içeriklere erişim için abonelik gerekir.',
-      'Deneme ya da abonelik sona erdiğinde hesabın ve ilerlemen silinmez; aboneliğini başlattığında kaldığın yerden devam edersin.'
+    ['Deneme süresi ve üyelik', [
+      'Yeni hesaplar ücretsiz bir deneme süresiyle başlar; deneme için ödeme bilgisi istenmez. Deneme bitince içeriklere erişim için üyelik gerekir.',
+      'Üyelik seçenekleri: aylık ve yıllık abonelik ile tek seferlik ömür boyu üyelik. Güncel fiyatlar satın alma ekranında, vergiler dahil gösterilir.',
+      'Uygulamadan yapılan satın alımlarda ödemeyi Google Play alır ve ücret satın alma anında tahsil edilir.',
+      'Abonelikler, dönem bitmeden iptal edilmezse aynı süre için otomatik yenilenir. Aboneliğini Google Play’in abonelikler bölümünden istediğin an iptal edebilirsin; iptal ettiğinde ödenmiş dönemin sonuna kadar erişimin sürer.',
+      'Ömür boyu üyelik tek seferlik ödemedir; yenilenmez ve ek ücret alınmaz. Uygulama yayında kaldığı sürece hesabına bağlı olarak geçerlidir.',
+      'İade talepleri Google Play’in iade kurallarına göre Google Play üzerinden yapılır.',
+      'Üyelik hesabına bağlıdır; aynı hesapla giriş yaptığın her cihazda (telefon ve web) geçerlidir.',
+      'Deneme ya da üyelik sona erdiğinde hesabın ve ilerlemen silinmez; üyeliğini başlattığında kaldığın yerden devam edersin.'
     ]],
     ['İçerik', [
       'Hikayeler, kelime açıklamaları ve çeviriler eğitim amaçlıdır ve özenle hazırlanır. Bir hata fark edersen bize bildirmeni rica ederiz.',

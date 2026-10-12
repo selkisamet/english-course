@@ -16,18 +16,66 @@ const formatDate = (iso) =>
 const providerLabel = (provider, hasPassword) =>
   provider === 'google' ? 'Google' : provider === 'email' ? (hasPassword ? 'E-posta ve şifre' : 'E-posta kodu') : provider
 
+const PLAN_NAMES = { monthly: 'Aylık', yearly: 'Yıllık', lifetime: 'Ömür boyu' }
+
 function Membership() {
-  const { profile, hasAccess, daysLeft, isTrial } = useAuth()
-  let text
-  if (!hasAccess) text = isTrial ? 'Deneme süren bitti.' : 'Aboneliğin sona erdi.'
-  else if (isTrial) text = `Deneme süren devam ediyor: ${daysLeft} gün kaldı (${formatDate(profile.access_until)}).`
-  else text = `Aboneliğin ${formatDate(profile.access_until)} tarihine kadar geçerli.`
+  const { profile, hasAccess, daysLeft } = useAuth()
+  const paid = hasAccess && profile.subscription_status === 'active' && profile.plan
+  const until = formatDate(profile.access_until)
+  // Abonelikte yenilenme / bitiş tarihi deneme bitişinden bağımsızdır
+  const periodEnd = profile.period_ends_at ? formatDate(profile.period_ends_at) : until
+  // Ödeme yönetimi mağazada (iptal, ödeme yöntemi, yeniden başlatma)
+  const manage = profile.management_url && (
+    <a href={profile.management_url} target="_blank" rel="noreferrer" className={styles.link}>
+      Aboneliği Google Play’de yönet
+    </a>
+  )
+
+  let body
+  if (paid && profile.plan === 'lifetime') {
+    body = <p>Ömür boyu üyesin. Yenileme yok, ek ödeme yok.</p>
+  } else if (paid) {
+    const name = PLAN_NAMES[profile.plan].toLocaleLowerCase('tr')
+    body = (
+      <>
+        {profile.billing_issue && (
+          <p className={styles.warning}>Son ödeme alınamadı. Üyeliğin kesilmemesi için Google Play’de ödeme yöntemini güncelle.</p>
+        )}
+        <p>
+          {profile.renews
+            ? `${PLAN_NAMES[profile.plan]} aboneliğin ${periodEnd} tarihinde yenilenecek.`
+            : `${PLAN_NAMES[profile.plan]} aboneliğin iptal edildi; ${until} tarihine kadar kullanabilirsin.`}
+        </p>
+        {manage}
+        {!profile.renews && !profile.management_url && (
+          <Link to="/abonelik" className={styles.link}>Yeni {name} üyelik başlat</Link>
+        )}
+      </>
+    )
+  } else if (hasAccess) {
+    body = (
+      <>
+        <p>Deneme süren devam ediyor: {daysLeft} gün kaldı ({until}).</p>
+        <Link to="/abonelik" className="btn btn-primary">Üyelik seçeneklerini gör</Link>
+      </>
+    )
+  } else {
+    const hadPaid = new Date(profile.access_until) > new Date(profile.trial_ends_at)
+    body = (
+      <>
+        <p>{hadPaid ? 'Üyeliğin sona erdi.' : 'Deneme süren bitti.'}</p>
+        <Link to="/abonelik" className="btn btn-primary">Üyelik başlat</Link>
+      </>
+    )
+  }
 
   return (
     <section className={styles.card}>
-      <h2 className={styles.cardTitle}>Üyelik</h2>
-      <p>{text}</p>
-      {!hasAccess && <Link to="/abonelik" className="btn btn-primary">Aboneliği başlat</Link>}
+      <div className={styles.cardHead}>
+        <h2 className={styles.cardTitle}>Üyelik</h2>
+        {paid && <span className={styles.planBadge} data-plan={profile.plan}>{PLAN_NAMES[profile.plan]}</span>}
+      </div>
+      {body}
     </section>
   )
 }
@@ -103,7 +151,9 @@ function PasswordCard() {
 }
 
 function DangerZone() {
-  const { signOut } = useAuth()
+  const { signOut, profile } = useAuth()
+  // Abonelik mağazada sürer: hesap silinince ücret alınmaya devam etmesin diye önce iptal edilmeli
+  const renewing = profile?.subscription_status === 'active' && profile?.renews
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
 
@@ -128,6 +178,12 @@ function DangerZone() {
     <section className={`${styles.card} ${styles.danger}`}>
       <h2 className={styles.cardTitle}>Hesabı sil</h2>
       <p className="muted">Hesabın, kelime ilerlemen ve okuma geçmişin kalıcı olarak silinir.</p>
+      {renewing && (
+        <p className={styles.warning}>
+          Aboneliğin Google Play’de sürüyor. Hesabını silmek aboneliği iptal etmez; ücret alınmaması için önce
+          aboneliği Google Play’den iptal et.
+        </p>
+      )}
       <button type="button" className="btn btn-danger" onClick={deleteAccount} disabled={busy}>
         <Trash2 size={16} /> Hesabımı sil
       </button>

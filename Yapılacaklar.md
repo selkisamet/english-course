@@ -9,6 +9,12 @@ Son güncelleme: 12 Ekim 2026
   - [ ] Şirket kurulunca **veri sorumlusu unvanı ve adresi** (`VITE_LEGAL_NAME`, `VITE_LEGAL_ADDRESS`).
   - [ ] Satıştan önce gizlilik politikası ve kullanım koşulları **bir hukukçuya inceletilecek** (KVKK aydınlatma metni, yurt dışına aktarım, gerekirse açık rıza).
   - [ ] Veri akışı değişirse (yeni bir hizmet ya da veri) `src/pages/Legal.jsx` güncellenecek; mağazalardaki veri güvenliği formları buna göre doldurulacak.
+- [ ] **Satışa geçmeden önce (RevenueCat / Google Play)**:
+  - Play Console'da ürünler: aylık **99,99 ₺**, yıllık **699,99 ₺**, ömür boyu **1.499,99 ₺** (TL fiyatlar). RevenueCat'te Google Play uygulaması eklenip bu ürünler `english_course_pro` yetkisine ve `default` teklifindeki paketlere bağlanacak.
+  - `VITE_REVENUECAT_ANDROID_KEY` deneme (Test Store, `test_…`) anahtarından **Google Play anahtarına** çevrilecek; Test Store anahtarıyla yayın derlemesi çöker.
+  - Render'daki `ALLOW_SANDBOX_PURCHASES` kapatılacak (deneme satın alımları erişim vermesin).
+  - Uygulama yayınlanınca `VITE_PLAY_STORE_URL` eklenecek (web'deki üyelik ekranında "Google Play'den indir" düğmesi).
+  - Test Store ürünleri dolar fiyatlı; yalnızca deneme içindir.
 - [ ] **Ödeme sistemi**: şu an abonelik sayfası yalnızca "bize yaz" diyor.
   - Önce kurgu netleşecek: fiyat, deneme süresi, aylık / yıllık seçenek.
   - Mağaza içi satın alma: Google Play Faturalandırma (ileride App Store), RevenueCat ile yönetim.

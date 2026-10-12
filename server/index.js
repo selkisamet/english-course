@@ -23,6 +23,7 @@ import { forgetAnnotationJob, getAnnotationStatus, queueAnnotation } from './sto
 import { analyzeStory, textHash } from './storyText.js'
 import { validateAnnotation } from './scripts/validateAnnotations.js'
 import { deleteAccount, requireAccess, requireUser } from './userAuth.js'
+import { billingAvailable, syncMembership, webhookUserIds } from './billing.js'
 import { getPrefs, removeToken, runReminders, savePrefs, saveToken, sendTestPush } from './reminders.js'
 import { getAllWords, getWordById, getWordPool, getStats, getAvailableLevels } from './vocabularyManager.js'
 
@@ -102,14 +103,49 @@ app.post('/api/reminders/test', requireUser, async (req, res) => {
   }
 })
 
-// Zamanlayıcı (GitHub Actions) 15 dakikada bir çağırır; CRON_SECRET ile korunur
-app.post('/api/cron/reminders', async (req, res) => {
-  // "Bearer <anahtar>" ya da yalnızca anahtar kabul edilir; baştaki/sondaki boşluklar yok sayılır
-  // (zamanlayıcı servislerinin başlık alanına yapıştırırken oluşan küçük farklar engel olmasın)
-  const secret = (process.env.CRON_SECRET || '').trim()
-  const given = Buffer.from((req.headers.authorization || '').trim().replace(/^bearer\s+/i, ''))
+/**
+ * Dış servislerin (zamanlayıcı, RevenueCat) Authorization başlığını gizli anahtarla karşılaştırır.
+ * "Bearer <anahtar>" ya da yalnızca anahtar kabul edilir; baştaki/sondaki boşluklar yok sayılır
+ * (servislerin başlık alanına yapıştırırken oluşan küçük farklar engel olmasın).
+ */
+function matchesSecret(header, rawSecret) {
+  const secret = (rawSecret || '').trim()
+  const given = Buffer.from((header || '').trim().replace(/^bearer\s+/i, ''))
   const expected = Buffer.from(secret)
-  if (!secret || given.length !== expected.length || !crypto.timingSafeEqual(given, expected)) {
+  return Boolean(secret) && given.length === expected.length && crypto.timingSafeEqual(given, expected)
+}
+
+// ---------- Üyelik ödemeleri (RevenueCat) ----------
+
+// Uygulama satın alımdan ya da "geri yükle"den hemen sonra çağırır: erişim beklemeden güncellenir
+app.post('/api/purchases/sync', requireUser, async (req, res) => {
+  if (!billingAvailable()) return res.status(503).json({ error: 'Ödeme sistemi yapılandırılmadı' })
+  try {
+    res.json(await syncMembership(req.userId))
+  } catch (error) {
+    console.error('Üyelik eşitlenemedi:', error.message)
+    res.status(502).json({ error: 'Üyelik bilgisi alınamadı, tekrar dene' })
+  }
+})
+
+// RevenueCat: yenileme, iptal, süre bitimi, ödeme sorunu… Her olayda müşteri kaydı yeniden okunur.
+app.post('/api/revenuecat/webhook', async (req, res) => {
+  if (!matchesSecret(req.headers.authorization, process.env.REVENUECAT_WEBHOOK_AUTH)) {
+    return res.status(401).json({ error: 'Yetkisiz' })
+  }
+  try {
+    for (const userId of webhookUserIds(req.body?.event)) await syncMembership(userId)
+    res.json({ ok: true })
+  } catch (error) {
+    // 200 dışı yanıtta RevenueCat olayı yeniden gönderir
+    console.error('RevenueCat webhook hatası:', error.message)
+    res.status(500).json({ error: 'İşlenemedi' })
+  }
+})
+
+// Zamanlayıcı (cron-job.org, yedek GitHub Actions) çağırır; CRON_SECRET ile korunur
+app.post('/api/cron/reminders', async (req, res) => {
+  if (!matchesSecret(req.headers.authorization, process.env.CRON_SECRET)) {
     return res.status(401).json({ error: 'Yetkisiz' })
   }
   try {

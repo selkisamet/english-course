@@ -3,6 +3,7 @@ import { supabase } from '../utils/supabase'
 import { endSync, startSync } from '../utils/sync'
 import { clearApiCaches } from '../utils/api'
 import { forgetPushDevice, refreshPushRegistration } from '../utils/reminders'
+import { startBilling, stopBilling } from '../utils/billing'
 
 const AuthContext = createContext(null)
 const PROFILE_KEY = 'profileCache' // çevrimdışıyken son bilinen erişim durumu
@@ -32,7 +33,7 @@ export function AuthProvider({ children }) {
   const loadProfile = useCallback(async (userId) => {
     const { data, error } = await supabase
       .from('profiles')
-      .select('id, display_name, subscription_status, trial_ends_at, access_until, created_at')
+      .select('id, display_name, subscription_status, trial_ends_at, access_until, created_at, plan, renews, management_url, billing_issue, period_ends_at')
       .eq('id', userId)
       .single()
     if (error) {
@@ -56,6 +57,7 @@ export function AuthProvider({ children }) {
       await Promise.all([loadProfile(userId), withTimeout(startSync(userId), SYNC_TIMEOUT)])
       setStatus('ready')
       refreshPushRegistration()
+      startBilling(userId).catch(() => {})
     },
     [loadProfile]
   )
@@ -93,6 +95,7 @@ export function AuthProvider({ children }) {
   const signOut = useCallback(async () => {
     // Oturum kapanmadan önce: bu telefon artık bu hesaba bildirim almasın
     await forgetPushDevice()
+    await stopBilling()
     await endSync()
     localStorage.removeItem(PROFILE_KEY)
     clearApiCaches()

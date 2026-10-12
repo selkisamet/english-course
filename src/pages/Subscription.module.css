@@ -1,0 +1,233 @@
+.screen {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: calc(16px + env(safe-area-inset-top)) var(--gutter) calc(20px + env(safe-area-inset-bottom));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 440px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lock {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.lead {
+  margin-top: -8px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  font-size: 0.92rem;
+}
+
+.benefits li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.benefits svg {
+  flex-shrink: 0;
+  color: var(--primary);
+}
+
+/* ---------- Mağaza seçenekleri ---------- */
+
+.plansSkeleton {
+  height: 250px;
+  border-radius: var(--radius-lg);
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.plan {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 72px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--text);
+  text-align: left;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.plan[aria-checked='true'] {
+  border: 2px solid var(--primary);
+  background: var(--primary-soft);
+}
+
+.badge {
+  position: absolute;
+  top: -11px;
+  left: 14px;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.planText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.planText strong {
+  font-size: 1rem;
+}
+
+.planText small {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.price {
+  font-size: 1.05rem;
+  font-weight: 800;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.price small {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.fine {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  font-size: 0.85rem;
+}
+
+.links a,
+.linkBtn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.error {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--danger-soft);
+  color: var(--text);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+/* ---------- Web ---------- */
+
+.priceList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  font-size: 0.9rem;
+}
+
+.priceList div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceList dd {
+  font-weight: 700;
+}
+
+.note {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ---------- Satın alma sonrası ---------- */
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 440px;
+  text-align: center;
+}
+
+.success .lead {
+  margin-top: 0;
+}
+
+.successIcon {
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--primary-soft);
+  color: var(--primary);
+}

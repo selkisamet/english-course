@@ -62,8 +62,8 @@ function AppLayout() {
       )}
 
       {trialEnding && !isFocus && (
-        <Link to="/hesap" className={styles.trialBanner}>
-          Deneme süren {daysLeft} gün içinde bitiyor · Hesabım
+        <Link to="/abonelik" className={styles.trialBanner}>
+          Deneme süren {daysLeft} gün içinde bitiyor · Üyelik seçenekleri
         </Link>
       )}
 
