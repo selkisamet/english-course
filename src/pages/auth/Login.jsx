@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, Navigate, useLocation } from 'react-router-dom'
 import { ArrowLeft, Mail } from 'lucide-react'
+import { NATIVE_AUTH_ERROR, signInWithGoogleNative } from '../../utils/nativeAuth'
 import { isNative, webOrigin } from '../../utils/platform'
 import { supabase } from '../../utils/supabase'
 import { useAuth } from '../../auth/AuthProvider'
@@ -34,6 +35,13 @@ function Login() {
   const [info, setInfo] = useState('')
   const [resendIn, setResendIn] = useState(0)
 
+  // Telefonda Google girişi tarayıcıda biter; tamamlanamazsa hata buraya gelir
+  useEffect(() => {
+    const onError = (e) => setError(e.detail)
+    window.addEventListener(NATIVE_AUTH_ERROR, onError)
+    return () => window.removeEventListener(NATIVE_AUTH_ERROR, onError)
+  }, [])
+
   useEffect(() => {
     if (resendIn <= 0) return
     const timer = setTimeout(() => setResendIn(resendIn - 1), 1000)
@@ -63,6 +71,7 @@ function Login() {
 
   const signInWithGoogle = () =>
     run(async () => {
+      if (isNative) return signInWithGoogleNative()
       const { error: err } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: { redirectTo: `${window.location.origin}${location.state?.from || '/'}` }
@@ -161,16 +170,11 @@ function Login() {
             <h1 className={styles.title}>Hoş geldin</h1>
             <p className={styles.lead}>Giriş yap ya da hesap oluştur. Yeni hesaplarda deneme süresi hemen başlar.</p>
 
-            {/* Telefon uygulamasında Google girişi uygulama içi tarayıcıda çalışmaz; ayrı akışla eklenecek */}
-            {!isNative && (
-              <>
-                <button type="button" className={`btn btn-lg btn-block ${styles.google}`} onClick={signInWithGoogle} disabled={busy}>
-                  <GoogleIcon /> Google ile devam et
-                </button>
+            <button type="button" className={`btn btn-lg btn-block ${styles.google}`} onClick={signInWithGoogle} disabled={busy}>
+              <GoogleIcon /> Google ile devam et
+            </button>
 
-                <div className={styles.divider}>ya da</div>
-              </>
-            )}
+            <div className={styles.divider}>ya da</div>
 
             <form onSubmit={sendCode} className={styles.form} noValidate>
               {emailField}

@@ -1,6 +1,7 @@
 // Günlük hatırlatmalar: sunucudaki tercihler ve telefon bildirimleri (Firebase Cloud Messaging).
 // Gönderimi sunucu yapar (server/reminders.js); burada izin, cihaz kaydı ve bildirime dokunma var.
 
+import { registerPlugin } from '@capacitor/core'
 import { PushNotifications } from '@capacitor/push-notifications'
 import { apiFetch } from './api'
 import { isNative } from './platform'
@@ -116,6 +117,10 @@ export async function forgetPushDevice() {
   await send('/api/push-tokens', 'DELETE', { token }).catch(() => {})
   localStorage.removeItem(TOKEN_KEY)
 }
+
+// Telefonun bu uygulamaya ait bildirim ayarları (android/.../AppSettingsPlugin.java)
+const AppSettings = registerPlugin('AppSettings')
+export const openNotificationSettings = () => AppSettings.openNotificationSettings()
 
 // ---------- İlk çalışmadan sonra bir kez sorulan kart ----------
 

@@ -17,6 +17,7 @@ import Subscription from './pages/Subscription'
 import Legal from './pages/Legal'
 import { AuthProvider } from './auth/AuthProvider'
 import RequireAuth from './auth/RequireAuth'
+import { setupNativeAuth } from './utils/nativeAuth'
 import { setupNativeShell } from './utils/nativeShell'
 import { setupPushNotifications } from './utils/reminders'
 import { initializeProgress } from './utils/vocabularyStorage'
@@ -24,6 +25,7 @@ import './styles/global.css'
 
 initializeProgress()
 setupNativeShell()
+setupNativeAuth()
 setupPushNotifications()
 
 ReactDOM.createRoot(document.getElementById('root')).render(

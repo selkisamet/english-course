@@ -179,3 +179,8 @@
   background: var(--primary-soft);
   font-size: 0.9rem;
 }
+
+.warning .btn {
+  align-self: flex-start;
+  margin-top: 4px;
+}

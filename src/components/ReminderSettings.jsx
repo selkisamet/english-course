@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
+import { App } from '@capacitor/app'
 import { isNative } from '../utils/platform'
 import {
   enablePushOnDevice,
   fetchReminderPrefs,
   formatReminderTime,
+  openNotificationSettings,
   parseReminderTime,
   pushPermission,
   saveReminderPrefs,
@@ -65,6 +67,23 @@ function ReminderSettings({ email }) {
       .catch(() => setFailed(true))
     pushPermission().then(setPermission).catch(() => {})
     return () => clearTimeout(saveTimer.current)
+  }, [])
+
+  // Telefon ayarlarından dönünce: izin açıldıysa bu telefonu kaydet ve ekranı güncelle
+  useEffect(() => {
+    if (!isNative) return
+    const handle = App.addListener('resume', async () => {
+      const next = await pushPermission().catch(() => null)
+      if (!next) return
+      setPermission(next)
+      if (next === 'granted') {
+        await enablePushOnDevice().catch(() => {})
+        fetchReminderPrefs().then(setPrefs).catch(() => {})
+      }
+    })
+    return () => {
+      handle.then((h) => h.remove())
+    }
   }, [])
 
   const showPush = prefs?.pushAvailable
@@ -142,7 +161,9 @@ function ReminderSettings({ email }) {
   const pushDetail =
     devices > 0
       ? `${devices} telefon kayıtlı`
-      : 'Uygulamayı telefona kurup giriş yapınca bildirimler oraya gelir'
+      : isNative
+        ? 'Açınca bildirimler bu telefona gelir'
+        : 'Uygulamayı telefona kurup giriş yapınca bildirimler oraya gelir'
   const needsThisPhone = isNative && prefs.pushEnabled && permission !== 'granted'
   const both = showPush && showEmail && prefs.pushEnabled && prefs.emailEnabled
 
@@ -235,7 +256,10 @@ function ReminderSettings({ email }) {
       {showPush && isNative && permission === 'denied' && (
         <div className={styles.warning} role="status">
           <strong>Bu telefonda bildirim izni kapalı</strong>
-          <span>Telefonun Ayarlar › Uygulamalar › English Course › Bildirimler bölümünden açabilirsin.</span>
+          <span>Bildirimleri telefonun ayarlarından açabilirsin; açınca buraya geri dön.</span>
+          <button type="button" className="btn btn-secondary" onClick={() => openNotificationSettings().catch(() => {})}>
+            Ayarları aç
+          </button>
         </div>
       )}
 
