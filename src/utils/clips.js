@@ -11,8 +11,44 @@ export function stopClip() {
   if (!current) return
   current.stopped = true
   cancelAnimationFrame(current.frame)
-  current.audio.pause()
+  current.audio?.pause()
+  try {
+    current.source?.stop()
+  } catch {
+    // Henüz başlamamış ya da zaten bitmiş
+  }
   current = null
+}
+
+// ---------- Web Audio: aralığı kesip çal ----------
+// HTML <audio> ile "çal, bitişte durdur" yönteminde ses çıkışı gecikmeli cihazlar (Android) durdurmadan
+// sonra da arabellekteki sesi çalar; sonraki kelimenin başı duyulur. Burada dosya çözülür ve yalnızca
+// istenen aralık çalınır, böylece aralığın dışındaki ses hiç çalınmaz.
+
+let audioContext = null
+const buffers = new Map() // adres → Promise<AudioBuffer>; son birkaç dosya bellekte tutulur
+const MAX_BUFFERS = 4
+
+function getContext() {
+  if (audioContext) return audioContext
+  const Context = window.AudioContext || window.webkitAudioContext
+  audioContext = Context ? new Context() : null
+  return audioContext
+}
+
+function loadBuffer(context, url) {
+  if (!buffers.has(url)) {
+    const promise = fetch(url)
+      .then((response) => {
+        if (!response.ok) throw new Error(`${response.status}`)
+        return response.arrayBuffer()
+      })
+      .then((data) => context.decodeAudioData(data))
+    promise.catch(() => buffers.delete(url))
+    buffers.set(url, promise)
+    if (buffers.size > MAX_BUFFERS) buffers.delete(buffers.keys().next().value)
+  }
+  return buffers.get(url)
 }
 
 /** Seçili sese göre parça: { female: {word, example}, male: {...} } içinden */
@@ -31,6 +67,38 @@ export function playClip(clip, fallbackText, { rate = 1 } = {}) {
   stopSpeaking()
   if (!clip) return void speak(fallbackText, { rate: 0.85 })
 
+  const context = getContext()
+  if (!context) return playWithElement(clip, fallbackText, rate)
+
+  const state = { stopped: false, source: null }
+  current = state
+  // Dokunma anında çağrılmalı (tarayıcılar sesi ancak kullanıcı etkileşimiyle başlatır)
+  context.resume().catch(() => {})
+  loadBuffer(context, clip.url)
+    .then((buffer) => {
+      if (state.stopped) return
+      const offset = clip.start / 1000
+      const duration = Math.min((clip.end - clip.start) / 1000, buffer.duration - offset)
+      if (duration <= 0) throw new Error('Geçersiz aralık')
+      const source = context.createBufferSource()
+      source.buffer = buffer
+      source.playbackRate.value = rate
+      source.connect(context.destination)
+      source.onended = () => {
+        if (current === state) current = null
+      }
+      state.source = source
+      source.start(0, offset, duration)
+    })
+    .catch(() => {
+      if (state.stopped) return
+      current = null
+      playWithElement(clip, fallbackText, rate)
+    })
+}
+
+/** Web Audio kullanılamazsa: <audio> ile çal, bitişte durdur */
+function playWithElement(clip, fallbackText, rate) {
   const audio = new Audio()
   const state = { audio, stopped: false, started: false, frame: null }
   current = state
@@ -91,6 +159,9 @@ export async function storySentenceClip(ref) {
   const voices = audio?.voices
   const v = voices?.[getStoryVoice()] || voices?.female || voices?.male
   if (!v || v.starts[ref.from] === undefined) return null
-  const end = v.starts[ref.to + 1] ?? v.durationMs
-  return { url: v.url, start: v.starts[ref.from], end: Math.max(v.starts[ref.from] + 300, end - 40) }
+  const next = (v.starts[ref.to + 1] ?? v.durationMs) - 40
+  // Son kelimenin ses dosyasından bulunan bitişi (biraz pay bırakılır); yoksa sonraki cümlenin başı
+  const spoken = v.sentenceEnds?.[ref.to]
+  const end = spoken ? Math.min(next, spoken + 120) : next
+  return { url: v.url, start: v.starts[ref.from], end: Math.max(v.starts[ref.from] + 300, end) }
 }

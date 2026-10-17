@@ -44,7 +44,13 @@ export function getStoryAudioForClient(story) {
   for (const key of VOICE_KEYS) {
     const v = audio.voices?.[key]
     if (v?.path && Array.isArray(v.starts)) {
-      voices[key] = { url: publicAudioUrl(supabaseUrl, v.path), durationMs: v.durationMs, starts: v.starts }
+      voices[key] = {
+        url: publicAudioUrl(supabaseUrl, v.path),
+        durationMs: v.durationMs,
+        starts: v.starts,
+        // Cümle sonundaki kelimenin bitişi (scripts/computeSentenceEnds.js); tek cümle çalarken kullanılır
+        ...(v.sentenceEnds && { sentenceEnds: v.sentenceEnds })
+      }
     }
   }
   return Object.keys(voices).length ? { storyId: story.id, voices } : null
