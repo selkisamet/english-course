@@ -1,6 +1,6 @@
 # Yapılacaklar
 
-Son güncelleme: 12 Ekim 2026
+Son güncelleme: 31 Ekim 2026
 
 ## Öncelikli
 
@@ -23,10 +23,9 @@ Son güncelleme: 12 Ekim 2026
 
 ## Ses
 
-- [ ] **Kelime ve örnek cümlelerin erkek sesi** (Brian): Azure ücretsiz (F0) aylık kotası yetmediği için üretilmedi; şu an erkek ses seçiliyken kadın sesi çalıyor. Kota yenilenince:
-  `node server/scripts/generateVocabAudio.js --voice male` → `server/data/vocab-audio/male.json` commit'lenecek.
-  Yaklaşık 161 bin karakter. Kota ayda 500 bin; hikaye sesleri tamam olduğu için yalnızca bu kalacak.
-  - Hikaye seslerinin 300'ünde de kadın ve erkek ses tam. Hikaye metni değişirse o hikayenin sesi yeniden üretilmeli.
+- [x] **Kelime ve örnek cümlelerin erkek sesi** (Brian) üretildi (31 Ekim 2026): 7.575 kelime ve örnek cümle, `server/data/vocab-audio/male.json`.
+  - Hikaye seslerinin 300'ünde de kadın ve erkek ses tam. Hikaye metni değişirse o hikayenin sesi yeniden üretilmeli (`generateStoryAudio.js`), ardından cümle bitişleri yeniden hesaplanmalı (`computeSentenceEnds.js`).
+  - Kelime listesi değişirse eksik sesler `node server/scripts/generateVocabAudio.js --voice female|male` ile yalnızca değişen parçalar için üretilir. Azure ücretsiz kotası ayda 500 bin karakter.
 
 ## Android uygulaması
 
