@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, AudioLines, Check, Gauge, Highlighter, Languages, Lightbulb, Play, Sparkles, Square, Target, X } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Check, Languages, Lightbulb, Pause, Play, RotateCcw, RotateCw, Sparkles, Target, X } from 'lucide-react'
+import Sheet, { SheetRow } from '../components/Sheet'
+import Switch from '../components/Switch'
 import WordPanel from '../components/WordPanel'
 import { fetchAnnotations, fetchStories, fetchStoryAudio, translateText } from '../utils/api'
 import { cleanWord, LEVEL_NAMES, readingMinutes, wordCount } from '../utils/format'
@@ -18,10 +20,13 @@ import {
   setShowStudied,
   skipPrep,
   getStoryVoice,
+  getTextSize,
   isStoryRead,
   setFlag,
   setLastStoryId,
   setStoryVoice,
+  setTextSize,
+  TEXT_SIZES,
   toggleStoryRead
 } from '../utils/storyProgress'
 import page from '../styles/page.module.css'
@@ -34,7 +39,8 @@ const SPEEDS = [
   { rate: 1, audioRate: 1, label: 'Hızlı' }
 ]
 
-const VOICE_LABELS = { female: 'Kadın sesi', male: 'Erkek sesi' }
+const VOICE_LABELS = { female: 'Kadın', male: 'Erkek' }
+const TEXT_SIZE_LABELS = { small: 'Küçük', medium: 'Normal', large: 'Büyük' }
 
 // Kelimeyi baştaki/sondaki noktalama işaretlerinden ayır
 const splitToken = (token) => token.match(/^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$/).slice(1)
@@ -58,13 +64,18 @@ function Reader({ id }) {
   const [speed, setSpeed] = useState(1)
   const [storyAudio, setStoryAudio] = useState(null)
   const [voice, setVoice] = useState(getStoryVoice)
+  const [position, setPosition] = useState(0) // durdurulunca kalınan kelime
 
   const [translation, setTranslation] = useState({ status: 'idle', text: '' })
   const [showTranslation, setShowTranslation] = useState(false)
   const [isRead, setIsRead] = useState(() => isStoryRead(id))
   const [showHint, setShowHint] = useState(() => !getFlag('wordHint'))
+  const [settingsOpen, setSettingsOpen] = useState(false)
+  const [textSize, setTextSizeState] = useState(getTextSize)
+  const [scrolled, setScrolled] = useState(0)
 
   const readerRef = useRef(null)
+  const translationRef = useRef(null)
   const wordRef = useRef(0) // o an okunan kelime (hız değişince buradan devam edilir)
   const restartRef = useRef(null)
 
@@ -80,6 +91,24 @@ function Reader({ id }) {
       stopSpeaking()
     }
   }, [id])
+
+  // Sayfanın ne kadarının okunduğu (üst çubuktaki ince çizgi)
+  useEffect(() => {
+    let frame = null
+    const update = () => {
+      frame = null
+      const max = document.documentElement.scrollHeight - window.innerHeight
+      setScrolled(max > 0 ? Math.min(1, window.scrollY / max) : 0)
+    }
+    const onScroll = () => {
+      if (frame === null) frame = requestAnimationFrame(update)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      if (frame !== null) cancelAnimationFrame(frame)
+    }
+  }, [])
 
   const story = stories?.find((s) => s.id === id)
   const storyText = useStoryText(story?.text)
@@ -214,6 +243,7 @@ function Reader({ id }) {
     readerRef.current = null
     setIsPlaying(false)
     setSpeakingIndex(null)
+    setPosition(wordRef.current)
   }
 
   const startPlayback = ({ speedIndex = speed, from = 0, voiceKey = activeVoice, deviceOnly = false } = {}) => {
@@ -228,6 +258,9 @@ function Reader({ id }) {
       readerRef.current = null
       setIsPlaying(false)
       setSpeakingIndex(null)
+      // Sona gelindi: bir sonraki "Dinle" baştan başlar
+      wordRef.current = 0
+      setPosition(0)
     }
 
     const recorded = !deviceOnly && audioVoices[voiceKey]
@@ -261,29 +294,47 @@ function Reader({ id }) {
     setSelected(null)
   }
 
-  // Hız okuma sırasında da değiştirilebilir: ses motoru hızı anlık değiştiremediği için
-  // okuma kesilip o an okunan kelimeden yeni hızla sürdürülür
-  const cycleSpeed = () => {
-    const next = (speed + 1) % SPEEDS.length
+  // Okumayı başka bir kelimeden sürdürür. Cihaz sesi için okuma kesilip kısa bir aradan sonra
+  // yeniden başlatılır: bazı mobil tarayıcılar iptalden hemen sonraki okumayı yutuyor.
+  const restartFrom = (from, options = {}) => {
+    const recorded = Boolean(readerRef.current?.setRate)
+    if (recorded || !readerRef.current) return startPlayback({ ...options, from })
+    readerRef.current.stop()
+    readerRef.current = null
+    clearTimeout(restartRef.current)
+    restartRef.current = setTimeout(() => startPlayback({ ...options, from }), 120)
+  }
+
+  // Hız okuma sırasında da değiştirilebilir: kayıtlı seslendirmede kesmeden, cihaz sesinde
+  // o an okunan kelimeden yeni hızla sürdürülerek
+  const changeSpeed = (next) => {
     setSpeed(next)
     if (!isPlaying) return
-    // Kayıtlı seslendirmenin hızı kesmeden değişir
     if (readerRef.current?.setRate) return readerRef.current.setRate(SPEEDS[next].audioRate)
-
-    const from = wordRef.current
-    readerRef.current?.stop()
-    readerRef.current = null
-    // Bazı mobil tarayıcılar iptalden hemen sonraki okumayı yutuyor; kısa bir ara ver
-    clearTimeout(restartRef.current)
-    restartRef.current = setTimeout(() => startPlayback({ speedIndex: next, from }), 120)
+    restartFrom(wordRef.current, { speedIndex: next })
   }
 
   // Okuma sürerken ses değişirse aynı kelimeden yeni sesle devam edilir
-  const cycleVoice = () => {
-    const next = voiceKeys[(voiceKeys.indexOf(activeVoice) + 1) % voiceKeys.length]
+  const changeVoice = (next) => {
     setVoice(next)
     setStoryVoice(next)
     if (isPlaying && readerRef.current?.setRate) startPlayback({ from: wordRef.current, voiceKey: next })
+  }
+
+  // Önceki / sonraki cümle. Geri: cümlenin ortasındaysa o cümlenin başına, başındaysa öncekine.
+  const skipSentence = (step) => {
+    if (!spans.length) return
+    const current = Math.max(0, spans.findIndex((sp) => sp.first <= wordRef.current && wordRef.current <= sp.last))
+    let target = current + step
+    if (step < 0 && wordRef.current > spans[current].first + 1) target = current
+    target = Math.min(spans.length - 1, Math.max(0, target))
+    if (isPlaying) restartFrom(spans[target].first)
+    else startPlayback({ from: spans[target].first })
+  }
+
+  const changeTextSize = (next) => {
+    setTextSizeState(next)
+    setTextSize(next)
   }
 
   // ---------- Çeviri ve tamamlama ----------
@@ -291,6 +342,9 @@ function Reader({ id }) {
   const handleTranslation = async () => {
     const next = !showTranslation
     setShowTranslation(next)
+    // Çeviri metnin altında açılır; düğme üst çubukta olduğu için oraya kaydırılır
+    if (next) setTimeout(() => translationRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60)
+
     if (!next || translation.status === 'done' || translation.status === 'loading') return
 
     // Doğrulanmış cümle çevirileri varsa onları kullan
@@ -313,6 +367,10 @@ function Reader({ id }) {
 
   // ---------- Görünüm ----------
 
+  // Oynatıcıdaki ilerleme: okunan kelime ya da durdurulunca kalınan yer
+  const listenedWords = isPlaying ? (speakingIndex ?? wordRef.current) + 1 : position
+  const listened = tokens.length ? Math.min(1, listenedWords / tokens.length) : 0
+
   if (error || (stories && !story)) {
     return (
       <div className={page.page}>
@@ -330,8 +388,35 @@ function Reader({ id }) {
         <button className="icon-btn" onClick={() => navigate('/')} aria-label="Hikayelere dön">
           <ArrowLeft size={22} />
         </button>
-        <span className={styles.topTitle}>{story?.title}</span>
-        {story && <span className={`badge badge-${story.level.toLowerCase()}`}>{story.level}</span>}
+        <span className={styles.topText}>
+          <span className={styles.topTitle}>{story?.title}</span>
+          {story && (
+            <span className={styles.topMeta}>
+              {story.level} · {LEVEL_NAMES[story.level]}
+            </span>
+          )}
+        </span>
+        <button
+          className={`icon-btn ${styles.topToggle}`}
+          onClick={handleTranslation}
+          aria-pressed={showTranslation}
+          aria-label={showTranslation ? 'Türkçe çeviriyi gizle' : 'Türkçe çeviriyi göster'}
+          title="Türkçe çeviri"
+          disabled={!story}
+        >
+          <Languages size={21} />
+        </button>
+        <button
+          className={`icon-btn ${styles.aa}`}
+          onClick={() => setSettingsOpen(true)}
+          aria-label="Görünüm ve ses ayarları"
+          title="Görünüm ve ses ayarları"
+        >
+          Aa
+        </button>
+        <span className={styles.scrollBar} aria-hidden="true">
+          <span style={{ transform: `scaleX(${scrolled})` }} />
+        </span>
       </header>
 
       <div className={styles.layout}>
@@ -350,50 +435,6 @@ function Reader({ id }) {
                 </p>
                 <h1 className={styles.title}>{story.title}</h1>
               </header>
-
-              <div className={styles.toolbar}>
-                {canListen && (
-                  <>
-                    <button
-                      className={`btn ${isPlaying ? 'btn-secondary' : 'btn-primary'}`}
-                      onClick={isPlaying ? stopPlayback : () => startPlayback()}
-                    >
-                      {isPlaying ? <Square size={16} fill="currentColor" /> : <Play size={16} fill="currentColor" />}
-                      {isPlaying ? 'Durdur' : 'Dinle'}
-                    </button>
-                    <button className="btn btn-ghost" onClick={cycleSpeed} aria-label="Okuma hızı">
-                      <Gauge size={18} />
-                      {SPEEDS[speed].label}
-                    </button>
-                    {voiceKeys.length > 1 && (
-                      <button className="btn btn-ghost" onClick={cycleVoice} aria-label="Okuyan ses">
-                        <AudioLines size={18} />
-                        {VOICE_LABELS[activeVoice]}
-                      </button>
-                    )}
-                  </>
-                )}
-                <button
-                  className={`btn btn-ghost ${styles.toggle}`}
-                  onClick={handleTranslation}
-                  aria-pressed={showTranslation}
-                  title={showTranslation ? 'Çeviriyi gizle' : 'Türkçe çeviriyi göster'}
-                >
-                  <Languages size={18} />
-                  Türkçe
-                </button>
-                {studied.size > 0 && (
-                  <button
-                    className={`btn btn-ghost ${styles.toggle}`}
-                    onClick={toggleStudied}
-                    aria-pressed={showStudied}
-                    title={showStudied ? 'Çalıştığın kelimelerin işaretini kaldır' : 'Çalıştığın kelimeleri işaretle'}
-                  >
-                    <Highlighter size={18} />
-                    Kelimelerim
-                  </button>
-                )}
-              </div>
 
               {showPrep && (
                 <section className={styles.prep} aria-label="Okumadan önce">
@@ -422,8 +463,8 @@ function Reader({ id }) {
 
               {showHint && (
                 <div className={styles.hint}>
-                  <Lightbulb size={18} />
-                  <p>Bilmediğin bir kelimeye dokun: anlamını ve cümledeki kullanımını gör.</p>
+                  <Lightbulb size={17} />
+                  <p>Bilmediğin bir kelimeye dokun: anlamı ve sesi açılır.</p>
                   <button
                     className={styles.hintClose}
                     onClick={() => {
@@ -437,7 +478,7 @@ function Reader({ id }) {
                 </div>
               )}
 
-              <p className={styles.text}>
+              <p className={styles.text} data-size={textSize}>
                 {tokens.map((token, index) => {
                   const [before, core, after] = splitToken(token)
                   const phrase = selected && annotation?.tokens[selected.index]?.phrase
@@ -472,7 +513,7 @@ function Reader({ id }) {
               </p>
 
               {showTranslation && (
-                <section className={styles.translation} aria-live="polite">
+                <section ref={translationRef} className={styles.translation} aria-live="polite">
                   <p className="eyebrow">Türkçe çeviri</p>
                   {translation.status === 'loading' && <div className="skeleton" style={{ height: 96 }} />}
                   {translation.status === 'error' && (
@@ -518,6 +559,49 @@ function Reader({ id }) {
                   </Link>
                 )}
               </footer>
+
+              {canListen && (
+                <section className={styles.player} aria-label="Sesli okuma">
+                  <span className={styles.playerBar} aria-hidden="true">
+                    <span style={{ transform: `scaleX(${listened})` }} />
+                  </span>
+                  <div className={styles.playerControls}>
+                    <button
+                      className={styles.playerChip}
+                      onClick={() => changeSpeed((speed + 1) % SPEEDS.length)}
+                      aria-label={`Okuma hızı: ${SPEEDS[speed].label}`}
+                    >
+                      {SPEEDS[speed].label}
+                    </button>
+                    <div className={styles.playerMain}>
+                      <button className={styles.playerSkip} onClick={() => skipSentence(-1)} aria-label="Önceki cümle">
+                        <RotateCcw size={22} />
+                      </button>
+                      <button
+                        className={styles.playerPlay}
+                        onClick={isPlaying ? stopPlayback : () => startPlayback({ from: position })}
+                        aria-label={isPlaying ? 'Duraklat' : position > 0 ? 'Devam et' : 'Dinle'}
+                      >
+                        {isPlaying ? <Pause size={24} fill="currentColor" strokeWidth={0} /> : <Play size={24} fill="currentColor" strokeWidth={0} />}
+                      </button>
+                      <button className={styles.playerSkip} onClick={() => skipSentence(1)} aria-label="Sonraki cümle">
+                        <RotateCw size={22} />
+                      </button>
+                    </div>
+                    {voiceKeys.length > 1 ? (
+                      <button
+                        className={styles.playerChip}
+                        onClick={() => changeVoice(voiceKeys[(voiceKeys.indexOf(activeVoice) + 1) % voiceKeys.length])}
+                        aria-label={`Okuyan ses: ${VOICE_LABELS[activeVoice]}`}
+                      >
+                        {VOICE_LABELS[activeVoice]}
+                      </button>
+                    ) : (
+                      <span />
+                    )}
+                  </div>
+                </section>
+              )}
             </>
           )}
         </article>
@@ -542,6 +626,45 @@ function Reader({ id }) {
           )}
         </aside>
       </div>
+
+      <Sheet open={settingsOpen} onClose={() => setSettingsOpen(false)} title="Görünüm ve ses">
+        <SheetRow label="Yazı boyutu" stacked>
+          <div className="segmented" role="group" aria-label="Yazı boyutu">
+            {TEXT_SIZES.map((size) => (
+              <button key={size} type="button" aria-pressed={textSize === size} onClick={() => changeTextSize(size)}>
+                {TEXT_SIZE_LABELS[size]}
+              </button>
+            ))}
+          </div>
+        </SheetRow>
+        {canListen && (
+          <SheetRow label="Okuma hızı" stacked>
+            <div className="segmented" role="group" aria-label="Okuma hızı">
+              {SPEEDS.map((s, i) => (
+                <button key={s.label} type="button" aria-pressed={speed === i} onClick={() => changeSpeed(i)}>
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          </SheetRow>
+        )}
+        {voiceKeys.length > 1 && (
+          <SheetRow label="Okuyan ses" stacked>
+            <div className="segmented" role="group" aria-label="Okuyan ses">
+              {voiceKeys.map((k) => (
+                <button key={k} type="button" aria-pressed={activeVoice === k} onClick={() => changeVoice(k)}>
+                  {VOICE_LABELS[k]}
+                </button>
+              ))}
+            </div>
+          </SheetRow>
+        )}
+        {studied.size > 0 && (
+          <SheetRow label="Çalıştığın kelimeleri işaretle" hint="Metinde noktalı çizgiyle gösterilir.">
+            <Switch checked={showStudied} onChange={toggleStudied} label="Çalıştığın kelimeleri işaretle" />
+          </SheetRow>
+        )}
+      </Sheet>
     </div>
   )
 }

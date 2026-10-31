@@ -1,0 +1,112 @@
+.sheet {
+  /* Telefon: ekranın altına yapışık */
+  position: fixed;
+  inset: auto 0 0 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 85dvh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 24px 24px 0 0;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-lg);
+  overflow-y: auto;
+}
+
+.sheet[open] {
+  animation: slideUp 0.28s var(--ease);
+}
+
+.sheet::backdrop {
+  background: rgb(0 0 0 / 0.36);
+  animation: fadeIn 0.2s ease;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px 20px calc(24px + env(safe-area-inset-bottom));
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-right: -10px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.row[data-stacked='true'] {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.rowText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.rowLabel {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.rowHint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .sheet {
+    inset: 0;
+    width: min(440px, calc(100% - 32px));
+    margin: auto;
+    height: fit-content;
+    border-radius: var(--radius-lg);
+  }
+
+  .sheet[open] {
+    animation: popIn 0.22s var(--ease);
+  }
+
+  .inner {
+    padding-bottom: 24px;
+  }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+}

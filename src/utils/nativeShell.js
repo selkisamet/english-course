@@ -21,6 +21,9 @@ export function setupNativeShell() {
 
   // Android geri tuşu: uygulama içinde bir önceki sayfa; ana sayfada uygulamadan çık
   App.addListener('backButton', ({ canGoBack }) => {
+    // Açık bir panel (Sheet) varsa önce o kapanır
+    const dialog = document.querySelector('dialog[open]')
+    if (dialog) return dialog.close()
     if (canGoBack && window.location.pathname !== '/') window.history.back()
     else App.exitApp()
   })

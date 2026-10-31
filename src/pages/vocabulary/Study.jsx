@@ -724,10 +724,14 @@ function Study() {
     )
   }
 
-  const progress = steps ? (index / steps.length) * 100 : 0
+  // Cevaplanan soru, "Devam"a basılmasını beklemeden tamamlanmış sayılır
+  const doneSteps = index + (result ? 1 : 0)
+  const progress = steps ? (doneSteps / steps.length) * 100 : 0
   // Sayaç adımları değil kelimeleri sayar (yeni kelimede tanıtım + soru iki adımdır)
   const wordIds = steps ? [...new Set(steps.map((s) => s.wordId))] : []
-  const finishedWords = wordIds.filter((id) => steps.findLastIndex((s) => s.wordId === id) < index).length
+  // Yanlış cevaplanıp yeniden sorulacak kelime henüz bitmiş sayılmaz
+  const countedSteps = result?.result === 'bad' && willRetry ? index : doneSteps
+  const finishedWords = wordIds.filter((id) => steps.findLastIndex((s) => s.wordId === id) < countedSteps).length
 
   return (
     <ClipsContext.Provider value={clips}>
@@ -736,7 +740,7 @@ function Study() {
         <button className="icon-btn" onClick={close} aria-label="Çalışmayı bitir">
           <X size={22} />
         </button>
-        <div className={styles.bar} role="progressbar" aria-label="İlerleme" aria-valuenow={index} aria-valuemax={steps?.length || 0}>
+        <div className={styles.bar} role="progressbar" aria-label="İlerleme" aria-valuenow={doneSteps} aria-valuemax={steps?.length || 0}>
           <div className={styles.barFill} style={{ width: `${progress}%` }} />
         </div>
         <span className={styles.count} title="Tamamlanan kelime">

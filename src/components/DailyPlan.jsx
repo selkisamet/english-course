@@ -1,19 +1,42 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check } from 'lucide-react'
-import { getStreak, getWeek } from '../utils/activity'
+import { getStreak } from '../utils/activity'
 import { getDailyNewWords } from '../utils/storyProgress'
 import { getTodayPlan } from '../utils/studySession'
 import { getTodayStudy } from '../utils/vocabularyStorage'
 import styles from './DailyPlan.module.css'
 
-const weekdayShort = (date) => date.toLocaleDateString('tr-TR', { weekday: 'short' })
+const RING_RADIUS = 23
+const RING_LENGTH = 2 * Math.PI * RING_RADIUS
+
+function Ring({ done, total }) {
+  const filled = total ? (done / total) * RING_LENGTH : 0
+  return (
+    <svg className={styles.ring} viewBox="0 0 56 56" aria-hidden="true">
+      <circle cx="28" cy="28" r={RING_RADIUS} className={styles.ringTrack} />
+      {done > 0 && (
+        <circle
+          cx="28"
+          cy="28"
+          r={RING_RADIUS}
+          className={styles.ringFill}
+          strokeDasharray={`${filled} ${RING_LENGTH}`}
+          transform="rotate(-90 28 28)"
+        />
+      )}
+      <text x="28" y="33" textAnchor="middle" className={styles.ringText}>
+        {done}/{total}
+      </text>
+    </svg>
+  )
+}
 
 function Task({ done, title, detail, progress }) {
   return (
     <li className={styles.task} data-done={done}>
       <span className={styles.check} aria-hidden="true">
-        {done && <Check size={16} strokeWidth={3} />}
+        {done && <Check size={14} strokeWidth={3} />}
       </span>
       <span className={styles.taskBody}>
         <span className={styles.taskTitle}>
@@ -31,12 +54,11 @@ function Task({ done, title, detail, progress }) {
   )
 }
 
-/** Ana sayfa: bugünün tekrarları, yeni kelime hedefi ve bir hikaye; altta bu hafta */
+/** Ana sayfa: bugünün tekrarları, yeni kelime hedefi ve bir hikaye; tek düğme sıradaki işe götürür */
 function DailyPlan({ nextStory }) {
   const plan = useMemo(getTodayPlan, [])
   const today = useMemo(getTodayStudy, [])
   const goal = useMemo(getDailyNewWords, [])
-  const week = useMemo(() => getWeek(), [])
   const { streak, todayActive } = useMemo(() => getStreak(), [])
 
   const reviewsDone = today.reviews || 0
@@ -51,25 +73,26 @@ function DailyPlan({ nextStory }) {
     hasReviews && {
       key: 'reviews',
       done: reviewsLeft === 0,
-      title: reviewsLeft > 0 ? `${reviewsLeft} kelime tekrar bekliyor` : 'Tekrarlar',
+      title: reviewsLeft > 0 ? `${reviewsLeft} kelimeyi tekrar et` : 'Tekrarlar',
       detail: reviewsDone > 0 ? `Bugün ${reviewsDone} tekrar yaptın` : 'Unutmadan önce tekrar et',
       progress: reviewsDone > 0 ? Math.round((reviewsDone / (reviewsDone + reviewsLeft)) * 100) : undefined
     },
     {
       key: 'new',
       done: learned >= goal,
-      title: 'Yeni kelimeler',
-      detail: `${learned} / ${goal}`,
-      progress: Math.round((learned / goal) * 100)
+      title: `${goal} yeni kelime öğren`,
+      detail: learned > 0 ? `${learned} / ${goal}` : null,
+      progress: learned > 0 ? Math.round((learned / goal) * 100) : undefined
     },
     {
       key: 'story',
       done: storyDone,
-      title: '1 hikaye oku',
-      detail: storyDone ? 'Bugün bir hikaye okudun' : nextStory ? `Sıradaki: ${nextStory.title} · ${nextStory.level}` : null
+      title: 'Bir hikaye oku',
+      detail: storyDone ? 'Bugün bir hikaye okudun' : null
     }
   ].filter(Boolean)
   const doneCount = tasks.filter((t) => t.done).length
+  const left = tasks.length - doneCount
 
   // Düğme ilk bitmemiş işe götürür
   const action =
@@ -81,19 +104,22 @@ function DailyPlan({ nextStory }) {
           ? { to: `/story/${nextStory.id}`, label: 'Hikayeyi oku' }
           : null
 
-  const streakHint = todayActive
-    ? 'Bugün çalıştın, serin devam ediyor.'
-    : streak > 0
-      ? `Bugün çalışırsan serin ${streak + 1} güne çıkar.`
-      : 'Bugün çalışarak yeni bir seri başlat.'
+  // Seriyi kaybetmemek için hatırlatma; bugün çalışıldıysa gerek yok
+  const streakHint = !todayActive && streak > 0 ? `Bugün çalışırsan serin ${streak + 1} güne çıkar.` : null
 
   return (
-    <section className={`card ${styles.plan}`} aria-labelledby="plan-title">
+    <section className={styles.plan} aria-labelledby="plan-title">
       <div className={styles.head}>
-        <h2 id="plan-title" className={styles.title}>Bugünkü plan</h2>
-        <span className={styles.count}>
-          {doneCount} / {tasks.length} tamam
-        </span>
+        <Ring done={doneCount} total={tasks.length} />
+        <div className={styles.headText}>
+          <h2 id="plan-title" className={styles.eyebrow}>
+            Bugünün planı
+          </h2>
+          <p className={styles.title}>
+            {left > 0 ? `${left} adım kaldı` : 'Bugünkü planı tamamladın'}
+          </p>
+          {streakHint && <p className={styles.hint}>{streakHint}</p>}
+        </div>
       </div>
 
       <ul className={styles.tasks}>
@@ -103,33 +129,12 @@ function DailyPlan({ nextStory }) {
       </ul>
 
       {action ? (
-        <Link to={action.to} className="btn btn-primary btn-lg btn-block">
-          {action.label} <ArrowRight size={18} />
+        <Link to={action.to} className={styles.cta}>
+          {action.label} <ArrowRight size={18} strokeWidth={2.4} />
         </Link>
       ) : (
-        <p className={styles.allDone}>Bugünkü planı tamamladın. Yarın görüşmek üzere!</p>
+        <p className={styles.allDone}>Yarın görüşmek üzere! İstersen bir hikaye daha okuyabilirsin.</p>
       )}
-
-      <div className={styles.week}>
-        <div className={styles.weekHead}>
-          <span className={styles.weekTitle}>Bu hafta</span>
-          <Link to="/progress" className={styles.weekLink}>
-            İlerleme
-          </Link>
-        </div>
-        <ol className={styles.days}>
-          {week.map((d) => (
-            <li key={d.day} data-active={d.active} data-today={d.isToday} data-future={d.isFuture}>
-              <span className={styles.dayName}>{weekdayShort(d.date)}</span>
-              <span className={styles.dot} aria-hidden="true">
-                {d.active && <Check size={14} strokeWidth={3} />}
-              </span>
-              <span className="sr-only">{d.active ? 'çalışıldı' : d.isFuture ? '' : 'çalışılmadı'}</span>
-            </li>
-          ))}
-        </ol>
-        <p className={styles.hint}>{streakHint}</p>
-      </div>
     </section>
   )
 }

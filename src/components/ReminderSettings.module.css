@@ -62,41 +62,6 @@
 }
 
 /* Aç / kapat anahtarı */
-.switch {
-  position: relative;
-  flex-shrink: 0;
-  width: 52px;
-  height: 32px;
-  border-radius: var(--radius-pill);
-  background: var(--border);
-  transition: background-color 0.2s ease;
-}
-
-.switch span {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: #ffffff;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.2s var(--ease);
-}
-
-.switch[aria-checked='true'] {
-  background: var(--primary);
-}
-
-.switch[aria-checked='true'] span {
-  transform: translateX(20px);
-}
-
-.switch:focus-visible {
-  outline: 2px solid var(--text);
-  outline-offset: 2px;
-}
-
 .hours {
   display: flex;
   flex-direction: column;

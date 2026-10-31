@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, BookOpen, Check, Clock, Flame, Sparkles } from 'lucide-react'
+import { Check, ChevronDown, Flame, Play, Sparkles } from 'lucide-react'
 import DailyPlan from '../components/DailyPlan'
 import { fetchStories } from '../utils/api'
 import { LEVELS, LEVEL_NAMES, readingMinutes } from '../utils/format'
@@ -14,13 +14,34 @@ import { getStreak } from '../utils/activity'
 import page from '../styles/page.module.css'
 import styles from './Home.module.css'
 
+// Kütüphane kapalıyken sıradaki (ilk okunmamış) hikayeden başlayarak gösterilen hikaye sayısı
+const UPCOMING_COUNT = 6
+
+function greeting(date = new Date()) {
+  const hour = date.getHours()
+  if (hour < 5) return 'İyi geceler'
+  if (hour < 12) return 'Günaydın'
+  if (hour < 18) return 'İyi günler'
+  if (hour < 22) return 'İyi akşamlar'
+  return 'İyi geceler'
+}
+
 function Home() {
   const [stories, setStories] = useState(null)
   const [error, setError] = useState(false)
   const [level, setLevel] = useState(getPreferredLevel() || 'A1')
+  const [expanded, setExpanded] = useState(false)
 
   const readIds = useMemo(() => new Set(getReadStories()), [])
   const { streak } = useMemo(() => getStreak(), [])
+  const todayLabel = useMemo(
+    () => {
+      const now = new Date()
+      const weekday = now.toLocaleDateString('tr-TR', { weekday: 'long' })
+      return `${weekday}, ${now.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long' })}`
+    },
+    []
+  )
 
   useEffect(() => {
     fetchStories().then(setStories).catch(() => setError(true))
@@ -29,6 +50,7 @@ function Home() {
   const handleLevel = (next) => {
     setLevel(next)
     setPreferredLevel(next)
+    setExpanded(false)
   }
 
   const levelStories = useMemo(
@@ -48,77 +70,97 @@ function Home() {
   const availableLevels = LEVELS.filter((l) => stories?.some((s) => s.level === l))
   const readInLevel = levelStories.filter((s) => readIds.has(s.id)).length
 
+  // Kapalıyken: ilk okunmamış hikayeden başlayan kısa liste (hepsi okunduysa baştan)
+  const firstUnread = levelStories.findIndex((s) => !readIds.has(s.id))
+  const start = expanded ? 0 : Math.max(0, firstUnread)
+  const visible = expanded ? levelStories : levelStories.slice(start, start + UPCOMING_COUNT)
+  const hidden = levelStories.length - visible.length
+
   return (
     <div className={page.page}>
-      <header className={`${page.header} ${styles.header}`}>
+      <header className={styles.header}>
         <div>
-          <h1 className={page.title}>Bugün ne öğreniyoruz?</h1>
-          <p className={page.subtitle}>Kısa bir hikaye oku, bilmediğin kelimeye dokun, tekrar et.</p>
+          <p className={styles.date}>{todayLabel}</p>
+          <h1 className={styles.greeting}>{greeting()}</h1>
         </div>
         {streak > 0 && (
-          <span className={styles.streak}>
-            <Flame size={16} aria-hidden="true" /> {streak} gün seri
-          </span>
+          <Link to="/progress" className={styles.streak} aria-label={`Seri: ${streak} gün`}>
+            <Flame size={16} strokeWidth={2.4} aria-hidden="true" /> {streak} gün
+          </Link>
         )}
       </header>
 
-      <section className={styles.today} aria-label="Bugün">
+      <div className={styles.today}>
         <DailyPlan nextStory={nextStory?.story} />
 
-        {stories === null && !error ? (
-          <div className={`skeleton ${styles.heroSkeleton}`} />
-        ) : nextStory ? (
-          <Link to={`/story/${nextStory.story.id}`} className={styles.hero}>
-            <span className={styles.heroEyebrow}>
-              <BookOpen size={16} />
-              {nextStory.resume ? 'Kaldığın yerden devam et' : 'Sıradaki hikaye'}
-            </span>
-            <h2 className={styles.heroTitle}>{nextStory.story.title}</h2>
-            <p className={styles.heroExcerpt}>{nextStory.story.text}</p>
-            <span className={styles.heroFooter}>
-              <span className={styles.heroMeta}>
-                {nextStory.story.level} · {LEVEL_NAMES[nextStory.story.level]} ·{' '}
-                {readingMinutes(nextStory.story.text)} dk
+        <section className={styles.next} aria-labelledby="next-title">
+          <h2 id="next-title" className={styles.sectionTitle}>
+            {nextStory?.resume ? 'Kaldığın yer' : 'Sıradaki hikaye'}
+          </h2>
+          {stories === null && !error ? (
+            <div className={`skeleton ${styles.nextSkeleton}`} />
+          ) : nextStory ? (
+            <Link to={`/story/${nextStory.story.id}`} className={styles.nextCard}>
+              <span className={styles.nextCover} aria-hidden="true">
+                {nextStory.story.title.charAt(0)}
               </span>
-              <span className={styles.heroCta}>
-                Oku <ArrowRight size={18} />
+              <span className={styles.nextBody}>
+                <span className={styles.nextMeta}>
+                  <span className={`badge badge-${nextStory.story.level.toLowerCase()}`}>
+                    {nextStory.story.level}
+                  </span>
+                  {readingMinutes(nextStory.story.text)} dk okuma
+                </span>
+                <span className={styles.nextTitle}>{nextStory.story.title}</span>
+                <span className={styles.nextExcerpt}>{nextStory.story.text}</span>
               </span>
-            </span>
-          </Link>
-        ) : (
-          <div className={styles.hero}>
-            <span className={styles.heroEyebrow}>
-              <Sparkles size={16} /> Tebrikler
-            </span>
-            <h2 className={styles.heroTitle}>Tüm hikayeleri okudun!</h2>
-          </div>
-        )}
+              <span className={styles.nextPlay} aria-hidden="true">
+                <Play size={18} fill="currentColor" strokeWidth={0} />
+              </span>
+            </Link>
+          ) : stories?.length ? (
+            <div className={styles.nextCard}>
+              <span className={styles.nextCover} aria-hidden="true">
+                <Sparkles size={22} />
+              </span>
+              <span className={styles.nextBody}>
+                <span className={styles.nextTitle}>Tüm hikayeleri okudun!</span>
+              </span>
+            </div>
+          ) : null}
+        </section>
+      </div>
 
-      </section>
+      <section className={page.section} aria-labelledby="library-title">
+        <h2 id="library-title" className={`${styles.sectionTitle} ${styles.libraryTitle}`}>
+          Kütüphane
+        </h2>
 
-      <section className={page.section}>
-        <div className={page.sectionHead}>
-          <h2 className={page.sectionTitle}>Hikaye kütüphanesi</h2>
-          {levelStories.length > 0 && (
-            <span className="muted" style={{ fontSize: '0.85rem' }}>
-              {readInLevel}/{levelStories.length} okundu
-            </span>
-          )}
-        </div>
-
-        <div className="chip-row" role="group" aria-label="Seviye seç">
+        <div className="segmented" role="group" aria-label="Seviye seç">
           {(availableLevels.length ? availableLevels : LEVELS).map((l) => (
             <button
               key={l}
-              className="chip"
+              type="button"
               aria-pressed={l === level}
+              title={LEVEL_NAMES[l]}
               onClick={() => handleLevel(l)}
             >
               {l}
-              <span className={styles.chipName}>{LEVEL_NAMES[l]}</span>
             </button>
           ))}
         </div>
+
+        {levelStories.length > 0 && (
+          <div className={styles.levelInfo}>
+            <span className={styles.levelName}>{LEVEL_NAMES[level]}</span>
+            <span className={styles.levelBar} aria-hidden="true">
+              <span style={{ width: `${(readInLevel / levelStories.length) * 100}%` }} />
+            </span>
+            <span className={styles.levelCount}>
+              {readInLevel} / {levelStories.length} okundu
+            </span>
+          </div>
+        )}
 
         {error ? (
           <div className={page.empty}>
@@ -126,38 +168,42 @@ function Home() {
             <p>İnternet bağlantını kontrol edip sayfayı yenile.</p>
           </div>
         ) : stories === null ? (
-          <div className={styles.grid}>
-            {[0, 1, 2, 3].map((i) => (
-              <div key={i} className={`skeleton ${styles.cardSkeleton}`} />
-            ))}
-          </div>
+          <div className={`skeleton ${styles.listSkeleton}`} />
         ) : levelStories.length === 0 ? (
           <div className={page.empty}>
             <p>Bu seviyede henüz hikaye yok.</p>
           </div>
         ) : (
-          <ol className={styles.grid}>
-            {levelStories.map((story, index) => {
-              const isRead = readIds.has(story.id)
-              return (
-                <li key={story.id}>
-                  <Link to={`/story/${story.id}`} className={styles.card} data-read={isRead}>
-                    <span className={styles.cardIndex}>
-                      {isRead ? <Check size={16} strokeWidth={3} /> : index + 1}
-                    </span>
-                    <span className={styles.cardBody}>
-                      <span className={styles.cardTitle}>{story.title}</span>
-                      <span className={styles.cardExcerpt}>{story.text}</span>
-                      <span className={styles.cardMeta}>
-                        <Clock size={13} /> {readingMinutes(story.text)} dk
-                        {isRead && <span className={styles.readTag}>Okundu</span>}
+          <>
+            <ol className={styles.list}>
+              {visible.map((story, i) => {
+                const isRead = readIds.has(story.id)
+                return (
+                  <li key={story.id}>
+                    <Link to={`/story/${story.id}`} className={styles.row} data-read={isRead}>
+                      <span className={styles.rowIndex}>
+                        {isRead ? (
+                          <>
+                            <Check size={16} strokeWidth={3} aria-hidden="true" />
+                            <span className="sr-only">Okundu:</span>
+                          </>
+                        ) : (
+                          start + i + 1
+                        )}
                       </span>
-                    </span>
-                  </Link>
-                </li>
-              )
-            })}
-          </ol>
+                      <span className={styles.rowTitle}>{story.title}</span>
+                      <span className={styles.rowMeta}>{readingMinutes(story.text)} dk</span>
+                    </Link>
+                  </li>
+                )
+              })}
+            </ol>
+            {hidden > 0 && (
+              <button type="button" className={`btn btn-secondary btn-block ${styles.more}`} onClick={() => setExpanded(true)}>
+                Tüm {level} hikayeleri ({levelStories.length}) <ChevronDown size={18} />
+              </button>
+            )}
+          </>
         )}
       </section>
     </div>

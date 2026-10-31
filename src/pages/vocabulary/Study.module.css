@@ -209,7 +209,7 @@
 }
 
 .option[data-state='dim'] {
-  opacity: 0.5;
+  color: var(--text-muted);
 }
 
 /* ---------- Boşluk doldurma ---------- */

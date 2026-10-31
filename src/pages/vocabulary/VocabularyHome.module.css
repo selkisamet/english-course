@@ -1,6 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.settingsBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: border-color 0.15s ease;
+}
+
+.settingsBtn:hover {
+  border-color: var(--text-subtle);
+}
+
 .grid {
   display: grid;
-  gap: 14px;
+  gap: 24px;
+  align-items: start;
 }
 
 /* ---------- Bugünkü çalışma ---------- */
@@ -9,10 +37,10 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 22px;
-  border-radius: var(--radius-lg);
-  background: var(--primary);
-  color: var(--on-primary);
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--hero-bg);
+  color: var(--hero-text);
   box-shadow: var(--shadow-md);
 }
 
@@ -20,20 +48,19 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0.85;
+  color: var(--hero-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 .today h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 800;
   line-height: 1.25;
 }
 
 .today p {
-  opacity: 0.9;
+  color: var(--hero-muted);
   font-size: 0.95rem;
 }
 
@@ -51,30 +78,31 @@
 }
 
 .goalText span {
-  opacity: 0.85;
+  color: var(--hero-muted);
 }
 
 .goalBar {
   height: 6px;
   border-radius: var(--radius-pill);
-  background: color-mix(in srgb, var(--on-primary) 25%, transparent);
+  background: var(--hero-track);
   overflow: hidden;
 }
 
 .goalBar div {
   height: 100%;
   border-radius: inherit;
-  background: var(--on-primary);
+  background: var(--hero-accent);
   transition: width 0.4s var(--ease);
 }
 
-.fromStory {
+.today .fromStory {
   display: flex;
   gap: 10px;
   align-items: flex-start;
   padding: 12px;
   border-radius: var(--radius);
-  background: color-mix(in srgb, var(--on-primary) 12%, transparent);
+  background: var(--hero-track);
+  color: var(--hero-text);
   font-size: 0.9rem;
   line-height: 1.45;
 }
@@ -85,150 +113,92 @@
 }
 
 .todayBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
   margin-top: 4px;
-  background: var(--on-primary);
-  color: var(--primary);
+  padding: 0 20px;
+  border-radius: 14px;
+  background: var(--hero-btn);
+  color: var(--hero-btn-text);
+  font-weight: 800;
+  transition: transform 0.1s ease, filter 0.15s ease;
 }
 
 .todayBtn:hover {
-  opacity: 0.92;
+  filter: brightness(0.96);
 }
 
-/* ---------- Yeni kelime ayarları ---------- */
+.todayBtn:active {
+  transform: scale(0.98);
+}
 
-.settings {
+/* ---------- Kelimelerin ---------- */
+
+.side {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  padding: 22px;
+  gap: 16px;
 }
 
-.settingTitle {
-  font-size: 1.15rem;
-}
-
-.settings > div > p {
-  margin-top: 2px;
-  font-size: 0.9rem;
-}
-
-.segLabel {
-  margin-bottom: 8px;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.seg {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 6px;
-  padding: 4px;
-  border-radius: 12px;
-  background: var(--surface-2);
-}
-
-.seg button {
-  min-height: 40px;
-  border-radius: 9px;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-  font-weight: 700;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.seg button[aria-pressed='true'] {
-  background: var(--surface);
-  color: var(--text);
-  box-shadow: var(--shadow-sm);
-}
-
-.segHint {
-  margin-top: 8px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.levels {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-
-.level {
+.sectionHead {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1px;
-  padding: 10px 6px;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  background: var(--surface);
-  transition: all 0.15s ease;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.level strong {
-  font-size: 1rem;
+.sectionTitle {
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
-.level small {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-}
-
-.level:hover {
-  border-color: var(--text-subtle);
-}
-
-.level[aria-pressed='true'] {
-  border-color: var(--primary);
-  background: var(--primary-soft);
+.sectionLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 32px;
   color: var(--primary);
-  box-shadow: inset 0 0 0 1px var(--primary);
+  font-size: 0.875rem;
+  font-weight: 700;
 }
-
-.level[aria-pressed='true'] small {
-  color: var(--primary);
-}
-
-/* ---------- İstatistik ---------- */
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
+  list-style: none;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding: 14px;
-  border-radius: var(--radius);
+  padding: 14px 12px;
+  border-radius: var(--radius-lg);
   background: var(--surface);
   border: 1px solid var(--border);
 }
 
 .stat strong {
-  margin-top: 6px;
-  font-size: 1.4rem;
-  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
 }
 
-.stat span {
+.statLabel {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.statHint {
   color: var(--text-muted);
-  font-size: 0.8rem;
-}
-
-.flame {
-  color: var(--warning);
-}
-
-.check {
-  color: var(--primary);
-}
-
-.layers {
-  color: var(--info);
+  font-size: 0.75rem;
+  line-height: 1.35;
 }
 
 /* ---------- Liste bağlantısı ---------- */
@@ -237,8 +207,7 @@
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-top: 14px;
-  padding: 16px 18px;
+  padding: 14px 16px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
   background: var(--surface);
@@ -270,16 +239,6 @@
   }
 
   .today {
-    justify-content: center;
-    padding: 28px;
-  }
-
-  .todayBtn {
-    align-self: flex-start;
-    width: auto;
-  }
-
-  .settings {
     padding: 28px;
   }
 }

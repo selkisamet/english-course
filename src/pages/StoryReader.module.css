@@ -26,14 +26,56 @@
   border-bottom: 1px solid var(--border);
 }
 
-.topTitle {
+.topText {
+  display: flex;
   flex: 1;
+  flex-direction: column;
   min-width: 0;
+  line-height: 1.25;
+}
+
+.topTitle {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: 700;
   font-size: 0.95rem;
+}
+
+.topMeta {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.topToggle[aria-pressed='true'] {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.aa {
+  color: var(--text);
+  font-family: var(--font-read);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Sayfanın okunan kısmı */
+.scrollBar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  overflow: hidden;
+}
+
+.scrollBar span {
+  display: block;
+  height: 100%;
+  background: var(--primary);
+  transform-origin: left;
+  transition: transform 0.1s linear;
 }
 
 /* ---------- Düzen ---------- */
@@ -62,39 +104,20 @@
   gap: 16px;
 }
 
-/* ---------- Araç çubuğu ---------- */
-
-.toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  padding-bottom: 20px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid var(--border);
-}
-
-.toggle[aria-pressed='true'] {
-  background: var(--primary-soft);
-  color: var(--primary);
-}
-
 /* ---------- İpucu ---------- */
 
 .hint {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 20px;
-  padding: 12px 12px 12px 14px;
-  border-radius: var(--radius);
-  background: var(--highlight-soft);
-  color: var(--text);
-  font-size: 0.9rem;
+  align-items: center;
+  gap: 8px;
+  margin: -6px 0 16px;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .hint > svg {
   flex-shrink: 0;
-  margin-top: 2px;
   color: var(--warning);
 }
 
@@ -123,6 +146,14 @@
   font-size: 1.25rem;
   line-height: 1.9;
   color: var(--text);
+}
+
+.text[data-size='small'] {
+  font-size: 1.1rem;
+}
+
+.text[data-size='large'] {
+  font-size: 1.45rem;
 }
 
 .word {
@@ -288,6 +319,7 @@
 /* ---------- Çeviri ---------- */
 
 .translation {
+  scroll-margin-top: calc(72px + env(safe-area-inset-top));
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -344,6 +376,168 @@
   font-size: 1.05rem;
 }
 
+/* ---------- Oynatıcı ---------- */
+
+/* Makalenin sonunda durur, okurken ekranın altına yapışık kalır */
+.player {
+  position: sticky;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 28px 0 0;
+  padding: 12px 12px;
+  border-radius: 22px;
+  /* Cam görünümü: arkadaki metin bulanık görünür; yazılar okunur kalsın diye yüzey çoğunlukla opak */
+  border: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  background: color-mix(in srgb, var(--surface) 35%, transparent);
+  -webkit-backdrop-filter: blur(5px) saturate(1.3);
+  backdrop-filter: blur(5px) saturate(1.3);
+  color: var(--text);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.08);
+}
+
+/* Bulanıklaştırma desteklenmiyorsa düz yüzey */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .player {
+    background: var(--surface);
+  }
+}
+
+.playerBar {
+  height: 4px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--text) 12%, transparent);
+  overflow: hidden;
+}
+
+.playerBar span {
+  display: block;
+  height: 100%;
+  background: var(--primary);
+  transform-origin: left;
+  transition: transform 0.25s linear;
+}
+
+/* Ortadaki düğmeler sabit; iki yandaki seçim düğmeleri kalan alanı paylaşır, dar ekranda kısalır */
+.playerControls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 6px;
+}
+
+.playerMain {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.playerChip {
+  justify-self: start;
+  /* İki seçim düğmesi içindeki değer ne olursa olsun aynı genişlikte */
+  width: min(78px, 100%);
+  min-height: 36px;
+  padding: 0 6px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--text) 18%, transparent);
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--surface) 50%, transparent);
+  color: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.playerControls > .playerChip:last-child {
+  justify-self: end;
+}
+
+/* Dokunmatik ekranda dokunduktan sonra vurgu takılı kalmasın */
+@media (hover: hover) {
+  .playerChip:hover {
+    background: color-mix(in srgb, var(--text) 8%, transparent);
+  }
+}
+
+.playerSkip {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-pill);
+  color: inherit;
+}
+
+/* Dokunmatik ekranda dokunduktan sonra vurgu takılı kalmasın */
+@media (hover: hover) {
+  .playerSkip:hover {
+    background: color-mix(in srgb, var(--text) 8%, transparent);
+  }
+}
+
+.playerPlay {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-pill);
+  background: var(--primary);
+  color: var(--on-primary);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--primary) 35%, transparent);
+  transition: transform 0.1s ease;
+}
+
+.playerPlay:active {
+  transform: scale(0.95);
+}
+
+.playerPlay svg {
+  margin-left: 1px;
+}
+
+.player :focus-visible {
+  outline-color: var(--primary);
+}
+
+@media (max-width: 360px) {
+  .player {
+    padding: 10px;
+  }
+
+  .playerControls {
+    gap: 4px;
+  }
+
+  .playerChip {
+    width: min(66px, 100%);
+    padding: 0 4px;
+    font-size: 0.76rem;
+  }
+
+  .playerMain {
+    gap: 0;
+  }
+
+  .playerSkip {
+    width: 40px;
+    height: 40px;
+  }
+
+  .playerPlay {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Telefonda kelime paneli alttan açıkken oynatıcı gizlenir */
+.reader[data-panel='true'] .player {
+  display: none;
+}
+
 /* ---------- Masaüstü yan panel ---------- */
 
 .asideEmpty {
@@ -385,6 +579,14 @@
     font-size: 1.35rem;
   }
 
+  .text[data-size='small'] {
+    font-size: 1.2rem;
+  }
+
+  .text[data-size='large'] {
+    font-size: 1.55rem;
+  }
+
   .finish {
     flex-direction: row;
     flex-wrap: wrap;
@@ -404,6 +606,10 @@
 @media (min-width: 1024px) {
   .reader[data-panel='true'] {
     padding-bottom: 0;
+  }
+
+  .reader[data-panel='true'] .player {
+    display: flex;
   }
 
   .layout {

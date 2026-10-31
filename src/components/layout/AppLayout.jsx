@@ -82,7 +82,9 @@ function AppLayout() {
               end={end}
               className={({ isActive }) => (isActive ? styles.tabActive : styles.tab)}
             >
-              <Icon size={22} strokeWidth={2} />
+              <span className={styles.tabIcon}>
+                <Icon size={22} strokeWidth={2} />
+              </span>
               <span>{label}</span>
             </NavLink>
           ))}

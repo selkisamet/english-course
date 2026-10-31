@@ -120,15 +120,29 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
-  font-size: 0.7rem;
+  gap: 2px;
+  font-size: 0.72rem;
   font-weight: 600;
-  color: var(--text-subtle);
+  color: var(--text-muted);
   transition: color 0.15s ease;
 }
 
 .tabActive {
   color: var(--primary);
+  font-weight: 700;
+}
+
+.tabIcon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 30px;
+  border-radius: var(--radius-pill);
+  transition: background-color 0.2s var(--ease);
+}
+
+.tabActive .tabIcon {
+  background: var(--primary-soft);
 }
 
 @media (min-width: 768px) {

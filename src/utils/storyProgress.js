@@ -81,6 +81,15 @@ const SHOW_STUDIED_KEY = 'showStudiedWords'
 export const getShowStudied = () => read(SHOW_STUDIED_KEY, true)
 export const setShowStudied = (value) => write(SHOW_STUDIED_KEY, value)
 
+// Okuyucudaki yazı boyutu (yalnızca bu cihazda)
+const TEXT_SIZE_KEY = 'readerTextSize'
+export const TEXT_SIZES = ['small', 'medium', 'large']
+export const getTextSize = () => {
+  const value = read(TEXT_SIZE_KEY, 'medium')
+  return TEXT_SIZES.includes(value) ? value : 'medium'
+}
+export const setTextSize = (value) => write(TEXT_SIZE_KEY, value)
+
 // Kelime çalışmasında günde kaç yeni kelime öğretileceği
 export const DAILY_NEW_OPTIONS = [5, 10, 15, 20]
 export const getDailyNewWords = () => {
@@ -125,5 +134,5 @@ export function applyRemote({ settings, readStoryIds }) {
 
 /** Çıkışta: bu cihazdaki okuma ilerlemesini ve tercihleri siler */
 export function clearLocalStoryProgress() {
-  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, DAILY_NEW_KEY, PREP_SKIPPED_KEY, SHOW_STUDIED_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
+  ;[READ_KEY, LAST_KEY, LEVEL_KEY, VOICE_KEY, DAILY_NEW_KEY, PREP_SKIPPED_KEY, SHOW_STUDIED_KEY, TEXT_SIZE_KEY, ...flagKeys()].forEach((k) => localStorage.removeItem(k))
 }

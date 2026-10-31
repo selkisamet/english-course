@@ -12,7 +12,7 @@
   --border: #e4e1d9;
   --text: #1d1c1a;
   --text-muted: #6e6a62;
-  --text-subtle: #9a968d;
+  --text-subtle: #716d65;
 
   --primary: #1f7a5c;
   --primary-hover: #17644b;
@@ -28,14 +28,23 @@
   --highlight: #ffd866;
   --highlight-soft: #fff1bf;
 
-  --danger: #c8453b;
+  --danger: #b73b31;
   --danger-soft: #fbe9e7;
-  --warning: #b8740f;
+  --warning: #94600c;
   --warning-soft: #fcf0dc;
   --info: #2f62c9;
   --info-soft: #e5edfb;
   --violet: #6b4fc8;
   --violet-soft: #eee9fb;
+
+  /* Ana sayfadaki "Bugünün planı" kartı */
+  --hero-bg: #1f7a5c;
+  --hero-text: #ffffff;
+  --hero-muted: rgb(255 255 255 / 0.85);
+  --hero-track: rgb(255 255 255 / 0.22);
+  --hero-accent: #ffd866;
+  --hero-btn: #ffffff;
+  --hero-btn-text: #17644b;
 
   --shadow-sm: 0 1px 2px rgb(29 28 26 / 0.06);
   --shadow-md: 0 4px 16px rgb(29 28 26 / 0.08);
@@ -70,7 +79,7 @@
     --border: #34362f;
     --text: #eceae4;
     --text-muted: #a8a49a;
-    --text-subtle: #77746c;
+    --text-subtle: #8f8b82;
 
     --primary: #3fb68b;
     --primary-hover: #56c79c;
@@ -94,6 +103,14 @@
     --violet: #a993f0;
     --violet-soft: #2c2540;
 
+    --hero-bg: #1d4636;
+    --hero-text: #eceae4;
+    --hero-muted: #b9d9cb;
+    --hero-track: rgb(255 255 255 / 0.14);
+    --hero-accent: #e9c45a;
+    --hero-btn: #3fb68b;
+    --hero-btn-text: #0f1a15;
+
     --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
     --shadow-md: 0 4px 16px rgb(0 0 0 / 0.35);
     --shadow-lg: 0 16px 48px rgb(0 0 0 / 0.5);
@@ -109,7 +126,7 @@
   --border: #34362f;
   --text: #eceae4;
   --text-muted: #a8a49a;
-  --text-subtle: #77746c;
+  --text-subtle: #8f8b82;
 
   --primary: #3fb68b;
   --primary-hover: #56c79c;
@@ -132,6 +149,14 @@
   --info-soft: #1f2a40;
   --violet: #a993f0;
   --violet-soft: #2c2540;
+
+  --hero-bg: #1d4636;
+  --hero-text: #eceae4;
+  --hero-muted: #b9d9cb;
+  --hero-track: rgb(255 255 255 / 0.14);
+  --hero-accent: #e9c45a;
+  --hero-btn: #3fb68b;
+  --hero-btn-text: #0f1a15;
 
   --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
   --shadow-md: 0 4px 16px rgb(0 0 0 / 0.35);
@@ -382,6 +407,75 @@ h4 {
 .badge-c2 {
   background: var(--violet-soft);
   color: var(--violet);
+}
+
+/* ---------- Seçim grubu ve anahtar ---------- */
+
+/* Birkaç seçenekten biri: <div class="segmented"><button aria-pressed>…</button>…</div> */
+.segmented {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.segmented > button {
+  min-height: 40px;
+  padding: 0 6px;
+  border-radius: 9px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.segmented > button:hover {
+  color: var(--text);
+}
+
+.segmented > button[aria-pressed='true'] {
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 800;
+  box-shadow: var(--shadow-sm);
+}
+
+.switch {
+  position: relative;
+  flex-shrink: 0;
+  width: 52px;
+  height: 32px;
+  border-radius: var(--radius-pill);
+  background: var(--chart-axis);
+  transition: background-color 0.2s ease;
+}
+
+.switch span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s var(--ease);
+}
+
+.switch[aria-checked='true'] {
+  background: var(--primary);
+}
+
+.switch[aria-checked='true'] span {
+  transform: translateX(20px);
+}
+
+.switch:disabled {
+  opacity: 0.5;
 }
 
 /* ---------- Kart ---------- */

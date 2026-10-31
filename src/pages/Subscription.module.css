@@ -73,6 +73,7 @@
   flex-direction: column;
   gap: 12px;
   margin-top: 6px;
+  list-style: none;
 }
 
 .plan {
@@ -91,9 +92,24 @@
   transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 
-.plan[aria-checked='true'] {
+.plan[aria-checked='true'],
+.plan[data-featured='true'] {
   border: 2px solid var(--primary);
-  background: var(--primary-soft);
+  box-shadow: var(--shadow-md);
+}
+
+/* Seçim göstergesi */
+.radio {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--text-subtle);
+  transition: border 0.15s ease;
+}
+
+.plan[aria-checked='true'] .radio {
+  border: 7px solid var(--primary);
 }
 
 .badge {
@@ -111,6 +127,7 @@
 
 .planText {
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 2px;
   min-width: 0;
@@ -181,25 +198,6 @@
 }
 
 /* ---------- Web ---------- */
-
-.priceList {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 14px;
-  border-radius: var(--radius);
-  background: var(--surface-2);
-  font-size: 0.9rem;
-}
-
-.priceList div {
-  display: flex;
-  justify-content: space-between;
-}
-
-.priceList dd {
-  font-weight: 700;
-}
 
 .note {
   font-size: 0.9rem;

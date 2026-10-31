@@ -21,6 +21,12 @@ Son güncelleme: 31 Ekim 2026
   - Web ödemesi (ör. iyzico).
   - Nereden alınırsa alınsın abonelik hesaba işlenmeli (Supabase `profiles.access_until`).
 
+## Arayüz
+
+- [x] **Yeni arayüz** (1 Kasım 2026): ana sayfa, hikaye okuyucu (alt oynatıcı, "Aa" paneli, yazı boyutu), kelimeler, çalışma sayacı, üyelik kartları; düşük karşıtlıklı renkler düzeltildi.
+- [ ] Aynı düzenin kalan ekranlara uygulanması: İlerleme, Hesabım, kelime listesi ve kelime detayı.
+- [ ] Alt menüde "Kelimeler" sekmesine bekleyen tekrar sayısı rozeti.
+
 ## Ses
 
 - [x] **Kelime ve örnek cümlelerin erkek sesi** (Brian) üretildi (31 Ekim 2026): 7.575 kelime ve örnek cümle, `server/data/vocab-audio/male.json`.

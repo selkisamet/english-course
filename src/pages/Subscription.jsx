@@ -11,8 +11,11 @@ const PLAY_STORE_URL = import.meta.env.VITE_PLAY_STORE_URL
 const PLAN_TITLES = { yearly: 'Yıllık', monthly: 'Aylık', lifetime: 'Ömür boyu' }
 const PERIODS = { yearly: ' / yıl', monthly: ' / ay', lifetime: '' }
 
+// TL tutarları mağazadaki gibi yazılır: "58,33 ₺" (Intl "₺58,33" yazıyor)
 const formatTry = (amount, currency) =>
-  new Intl.NumberFormat('tr-TR', { style: 'currency', currency, minimumFractionDigits: 2 }).format(amount)
+  currency === 'TRY'
+    ? `${new Intl.NumberFormat('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(amount)} ₺`
+    : new Intl.NumberFormat('tr-TR', { style: 'currency', currency, minimumFractionDigits: 2 }).format(amount)
 
 const BENEFITS = ["A1'den C2'ye 300 hikaye, sesli okuma", 'Kişisel tekrar planıyla kelime çalışması', "Telefon ve web'de aynı hesap"]
 
@@ -26,6 +29,32 @@ function planDetail(plan, plans) {
   const saving = Math.floor((1 - plan.price / (monthly.price * 12)) * 100)
   return saving > 0 ? `Ayda ${perMonth} · %${saving} tasarruf` : `Ayda ${perMonth}`
 }
+
+/** Planın adı, açıklaması ve fiyatı (mağaza seçeneğinde de web listesinde de aynı) */
+function PlanBody({ plan, plans }) {
+  return (
+    <>
+      {plan.kind === 'yearly' && <span className={styles.badge}>EN AVANTAJLI</span>}
+      <span className={styles.planText}>
+        <strong>{PLAN_TITLES[plan.kind]}</strong>
+        <small>{planDetail(plan, plans)}</small>
+      </span>
+      <span className={styles.price}>
+        {plan.priceString}
+        <small>{PERIODS[plan.kind]}</small>
+      </span>
+    </>
+  )
+}
+
+// Web'de gösterilen fiyatlar (mağazadaki TL fiyatlarla aynı)
+const parseTry = (text) => Number(text.replace(/[^\d,]/g, '').replace(',', '.'))
+const WEB_PLANS = ['yearly', 'monthly', 'lifetime'].map((kind) => ({
+  kind,
+  price: parseTry(LISTED_PRICES[kind]),
+  currency: 'TRY',
+  priceString: LISTED_PRICES[kind]
+}))
 
 function Heading({ profile, hasAccess, daysLeft }) {
   if (hasAccess) {
@@ -121,15 +150,8 @@ function StorePlans({ onPurchased }) {
             className={styles.plan}
             onClick={() => setSelected(p.kind)}
           >
-            {p.kind === 'yearly' && <span className={styles.badge}>EN AVANTAJLI</span>}
-            <span className={styles.planText}>
-              <strong>{PLAN_TITLES[p.kind]}</strong>
-              <small>{planDetail(p, plans)}</small>
-            </span>
-            <span className={styles.price}>
-              {p.priceString}
-              <small>{PERIODS[p.kind]}</small>
-            </span>
+            <span className={styles.radio} aria-hidden="true" />
+            <PlanBody plan={p} plans={plans} />
           </button>
         ))}
       </div>
@@ -160,11 +182,13 @@ function StorePlans({ onPurchased }) {
 function WebPlans() {
   return (
     <>
-      <dl className={styles.priceList}>
-        <div><dt>Yıllık</dt><dd>{LISTED_PRICES.yearly} / yıl</dd></div>
-        <div><dt>Aylık</dt><dd>{LISTED_PRICES.monthly} / ay</dd></div>
-        <div><dt>Ömür boyu</dt><dd>{LISTED_PRICES.lifetime}</dd></div>
-      </dl>
+      <ul className={styles.plans} aria-label="Üyelik seçenekleri">
+        {WEB_PLANS.map((p) => (
+          <li key={p.kind} className={styles.plan} data-featured={p.kind === 'yearly'}>
+            <PlanBody plan={p} plans={WEB_PLANS} />
+          </li>
+        ))}
+      </ul>
       {PLAY_STORE_URL ? (
         <>
           <p className={styles.note}>

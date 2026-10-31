@@ -11,6 +11,7 @@ import {
   saveReminderPrefs,
   sendTestNotification
 } from '../utils/reminders'
+import Switch from './Switch'
 import styles from './ReminderSettings.module.css'
 
 /** Saat seçimi (telefonda sistemin saat seçicisi açılır) */
@@ -25,22 +26,6 @@ export function TimeField({ value, onChange, disabled, id }) {
       disabled={disabled}
       required
     />
-  )
-}
-
-function Switch({ checked, onChange, label, disabled }) {
-  return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={checked}
-      aria-label={label}
-      className={styles.switch}
-      onClick={() => onChange(!checked)}
-      disabled={disabled}
-    >
-      <span />
-    </button>
   )
 }
 

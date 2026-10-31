@@ -1,26 +1,76 @@
 .plan {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 18px;
+  gap: 18px;
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--hero-bg);
+  color: var(--hero-text);
+  box-shadow: var(--shadow-md);
 }
 
 .head {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
+  align-items: center;
+  gap: 16px;
+}
+
+.headText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.eyebrow {
+  color: var(--hero-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .title {
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
-.count {
-  color: var(--text-muted);
+.hint {
+  margin-top: 2px;
+  color: var(--hero-muted);
   font-size: 0.85rem;
-  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Halka ---------- */
+
+.ring {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.ringTrack,
+.ringFill {
+  fill: none;
+  stroke-width: 6;
+}
+
+.ringTrack {
+  stroke: var(--hero-track);
+}
+
+.ringFill {
+  stroke: var(--hero-accent);
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.6s var(--ease);
+}
+
+.ringText {
+  fill: currentColor;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: var(--font-ui);
 }
 
 /* ---------- İşler ---------- */
@@ -28,7 +78,7 @@
 .tasks {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   list-style: none;
 }
 
@@ -41,16 +91,17 @@
 .check {
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: 2px solid var(--primary);
-  color: var(--on-primary);
+  border: 2px solid var(--hero-muted);
 }
 
 .task[data-done='true'] .check {
-  background: var(--primary);
+  border-color: var(--hero-accent);
+  background: var(--hero-accent);
+  color: var(--hero-bg);
 }
 
 .taskBody {
@@ -59,7 +110,7 @@
   flex-direction: column;
   gap: 2px;
   min-width: 0;
-  padding-top: 3px;
+  padding-top: 1px;
 }
 
 .taskTitle {
@@ -68,11 +119,12 @@
 }
 
 .task[data-done='true'] .taskTitle {
-  color: var(--text-muted);
+  color: var(--hero-muted);
+  text-decoration: line-through;
 }
 
 .taskDetail {
-  color: var(--text-muted);
+  color: var(--hero-muted);
   font-size: 0.85rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -80,10 +132,10 @@
 }
 
 .bar {
-  height: 6px;
+  height: 5px;
   margin-top: 6px;
   border-radius: var(--radius-pill);
-  background: var(--chart-track);
+  background: var(--hero-track);
   overflow: hidden;
 }
 
@@ -91,104 +143,42 @@
   display: block;
   height: 100%;
   border-radius: var(--radius-pill);
-  background: var(--primary);
+  background: var(--hero-accent);
+}
+
+/* ---------- Düğme ---------- */
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 0 20px;
+  border-radius: 14px;
+  background: var(--hero-btn);
+  color: var(--hero-btn-text);
+  font-size: 1rem;
+  font-weight: 800;
+  transition: transform 0.1s ease, filter 0.15s ease;
+}
+
+.cta:hover {
+  filter: brightness(0.96);
+}
+
+.cta:active {
+  transform: scale(0.98);
+}
+
+.cta:focus-visible {
+  outline-color: var(--hero-accent);
 }
 
 .allDone {
   padding: 12px 14px;
   border-radius: var(--radius);
-  background: var(--primary-soft);
+  background: var(--hero-track);
   font-size: 0.9rem;
   font-weight: 600;
-}
-
-/* ---------- Bu hafta ---------- */
-
-.week {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-top: 14px;
-  border-top: 1px solid var(--border);
-}
-
-.weekHead {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.weekTitle {
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.weekLink {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  color: var(--primary);
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.weekLink:hover {
-  text-decoration: underline;
-}
-
-.days {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 4px;
-  list-style: none;
-}
-
-.days li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-}
-
-.dayName {
-  color: var(--text-muted);
-  font-size: 0.75rem;
-}
-
-.days li[data-today='true'] .dayName {
-  color: var(--text);
-  font-weight: 700;
-}
-
-.days li[data-future='true'] .dayName {
-  color: var(--text-subtle);
-}
-
-.dot {
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--surface-2);
-  color: var(--on-primary);
-}
-
-.days li[data-active='true'] .dot {
-  background: var(--primary);
-}
-
-.days li[data-today='true'][data-active='false'] .dot {
-  background: var(--primary-soft);
-  box-shadow: inset 0 0 0 2px var(--primary);
-}
-
-.days li[data-future='true'] .dot {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px var(--border);
-}
-
-.hint {
-  color: var(--text-muted);
-  font-size: 0.85rem;
 }
