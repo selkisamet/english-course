@@ -91,11 +91,11 @@ function WordList() {
           )}
         </label>
 
-        <div className="chip-row" role="group" aria-label="Seviye filtresi">
+        <div className="segmented" role="group" aria-label="Seviye filtresi">
           {['all', ...VOCAB_LEVELS].map((l) => (
             <button
               key={l}
-              className="chip"
+              type="button"
               aria-pressed={level === l}
               onClick={() => update({ level: l, page: 1 })}
             >

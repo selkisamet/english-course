@@ -133,6 +133,7 @@
 }
 
 .tabIcon {
+  position: relative;
   display: grid;
   place-items: center;
   width: 56px;
@@ -143,6 +144,30 @@
 
 .tabActive .tabIcon {
   background: var(--primary-soft);
+}
+
+/* Bekleyen tekrar sayısı */
+.tabBadge,
+.navBadge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: var(--radius-pill);
+  background: var(--danger);
+  color: var(--bg);
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabBadge {
+  position: absolute;
+  top: -3px;
+  left: calc(50% + 6px);
+  box-shadow: 0 0 0 2px var(--surface);
 }
 
 @media (min-width: 768px) {

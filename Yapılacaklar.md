@@ -24,8 +24,8 @@ Son güncelleme: 31 Ekim 2026
 ## Arayüz
 
 - [x] **Yeni arayüz** (1 Kasım 2026): ana sayfa, hikaye okuyucu (alt oynatıcı, "Aa" paneli, yazı boyutu), kelimeler, çalışma sayacı, üyelik kartları; düşük karşıtlıklı renkler düzeltildi.
-- [ ] Aynı düzenin kalan ekranlara uygulanması: İlerleme, Hesabım, kelime listesi ve kelime detayı.
-- [ ] Alt menüde "Kelimeler" sekmesine bekleyen tekrar sayısı rozeti.
+- [x] Kalan ekranlar gözden geçirildi (2 Kasım 2026): kelime listesinde seviye filtresi tek satıra sığıyor, İlerleme'deki kartların etiketleri kısaltıldı. Hesabım ve kelime detayı yeni görünüme zaten uyuyor.
+- [x] Alt menüde "Kelimeler" sekmesinde bekleyen tekrar sayısı rozeti.
 
 ## Ses
 

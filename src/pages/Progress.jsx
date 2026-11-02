@@ -169,12 +169,14 @@ function Progress() {
             <div className={styles.kpi}>
               <Layers size={20} className={styles.layers} />
               <strong>{answers}</strong>
-              <span>cevap (7 gün)</span>
+              <span>cevap</span>
+              <small className={styles.kpiNote}>son 7 gün</small>
             </div>
             <div className={styles.kpi}>
               <CircleCheck size={20} className={styles.book} />
               <strong>{answers ? `%${Math.round((correct / answers) * 100)}` : '–'}</strong>
-              <span>doğruluk (7 gün)</span>
+              <span>doğruluk</span>
+              <small className={styles.kpiNote}>son 7 gün</small>
             </div>
           </div>
 

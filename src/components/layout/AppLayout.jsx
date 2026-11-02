@@ -1,9 +1,11 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { BookOpen, ChartNoAxesColumn, Download, Layers, UserRound } from 'lucide-react'
 import { useAuth } from '../../auth/AuthProvider'
 import PwaStatus from '../PwaStatus'
+import { onLocalChange } from '../../utils/changes'
 import { useInstallPrompt } from '../../utils/pwa'
+import { getTodayPlan } from '../../utils/studySession'
 import styles from './AppLayout.module.css'
 
 const NAV = [
@@ -16,12 +18,24 @@ const NAV = [
 // Okuma ve kart çalışması ekranları odak modunda açılır: menü gizlenir
 const FOCUS_ROUTES = [/^\/story\//, /^\/vocabulary\/study/]
 
+/** Tekrar zamanı gelmiş kelime sayısı; sayfa değişince ve ilerleme değişince yeniden hesaplanır */
+function useDueReviews(pathname) {
+  const [version, setVersion] = useState(0)
+  useEffect(() => onLocalChange((type) => type.startsWith('word') && setVersion((v) => v + 1)), [])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  return useMemo(() => getTodayPlan().reviewTotal, [pathname, version])
+}
+
+const badgeText = (count) => (count > 99 ? '99+' : String(count))
+
 function AppLayout() {
   const { pathname } = useLocation()
   const isFocus = FOCUS_ROUTES.some((re) => re.test(pathname))
   const { canInstall, install } = useInstallPrompt()
   const { hasAccess, isTrial, daysLeft } = useAuth()
   const trialEnding = hasAccess && isTrial && daysLeft <= 2
+  const dueReviews = useDueReviews(pathname)
+  const badgeFor = (to) => (to === '/vocabulary' && dueReviews > 0 ? dueReviews : 0)
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -47,6 +61,12 @@ function AppLayout() {
                 >
                   <Icon size={18} strokeWidth={2.2} />
                   {label}
+                  {badgeFor(to) > 0 && (
+                    <span className={styles.navBadge}>
+                      {badgeText(badgeFor(to))}
+                      <span className="sr-only"> tekrar bekliyor</span>
+                    </span>
+                  )}
                 </NavLink>
               ))}
             </nav>
@@ -84,6 +104,12 @@ function AppLayout() {
             >
               <span className={styles.tabIcon}>
                 <Icon size={22} strokeWidth={2} />
+                {badgeFor(to) > 0 && (
+                  <span className={styles.tabBadge}>
+                    {badgeText(badgeFor(to))}
+                    <span className="sr-only"> tekrar bekliyor</span>
+                  </span>
+                )}
               </span>
               <span>{label}</span>
             </NavLink>

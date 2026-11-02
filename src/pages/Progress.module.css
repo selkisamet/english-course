@@ -33,6 +33,11 @@
   font-size: 0.8rem;
 }
 
+.kpiNote {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
 .flame {
   color: var(--warning);
 }
