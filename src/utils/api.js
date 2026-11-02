@@ -109,7 +109,7 @@ export function fetchWordPool() {
   return poolPromise
 }
 
-// Oxford 3000 içinde metindeki kelimeyle eşleşen kaydı bul (yoksa null)
+// Kelime listesinde metindeki kelimeyle eşleşen kaydı bul (yoksa null)
 export async function findOxfordWord(word) {
   try {
     return await fetchWord(slugify(word))

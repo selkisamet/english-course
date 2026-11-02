@@ -525,12 +525,12 @@
    "i": 37,
    "lemma": "exhausted",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "exhausted",
+   "sense": 0,
    "context": "çok yorgun, bitkin",
    "note": "*exhausted* \"çok yorgun, bitkin\" demektir; *tired*'dan (yorgun) daha güçlüdür.",
    "form": null,
-   "base": "bitkin, çok yorgun",
+   "base": null,
    "phrase": null
   },
   {

@@ -661,12 +661,12 @@
    "i": 49,
    "lemma": "balcony",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "balcony",
+   "sense": 0,
    "context": "balkon",
    "note": null,
    "form": null,
-   "base": "balkon",
+   "base": null,
    "phrase": null
   },
   {
@@ -697,12 +697,12 @@
    "i": 52,
    "lemma": "balcony",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "balcony",
+   "sense": 0,
    "context": "balkon",
    "note": null,
    "form": null,
-   "base": "balkon",
+   "base": null,
    "phrase": null
   },
   {

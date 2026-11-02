@@ -103,12 +103,12 @@
    "i": 5,
    "lemma": "graphic",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "graphic",
+   "sense": 0,
    "context": "grafik",
    "note": null,
    "form": null,
-   "base": "grafik (ile ilgili)",
+   "base": null,
    "phrase": null
   },
   {
@@ -464,12 +464,12 @@
    "i": 33,
    "lemma": "confidently",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "confidently",
+   "sense": 0,
    "context": "kendinden emin bir şekilde",
    "note": "*confidently*, *confident* (kendinden emin) sıfatına *-ly* eklenerek yapılmış bir zarftır; eylemin nasıl yapıldığını anlatır.",
    "form": null,
-   "base": "kendinden emin bir şekilde, güvenle",
+   "base": null,
    "phrase": null
   },
   {
@@ -729,12 +729,12 @@
    "i": 53,
    "lemma": "relieved",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "relieved",
+   "sense": 0,
    "context": "rahatlamış",
    "note": "*relieved* bir endişe geçtikten sonra \"rahatlamış, içi rahat etmiş\" olmayı anlatır.",
    "form": null,
-   "base": "rahatlamış, içi rahatlamış",
+   "base": null,
    "phrase": null
   },
   {

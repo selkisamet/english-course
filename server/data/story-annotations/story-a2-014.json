@@ -640,12 +640,12 @@
    "i": 45,
    "lemma": "sausage",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sausage",
+   "sense": 0,
    "context": "sosisler",
    "note": null,
    "form": "sausage'ın çoğulu",
-   "base": "sosis, sucuk",
+   "base": null,
    "phrase": null
   },
   {
@@ -975,12 +975,12 @@
    "i": 70,
    "lemma": "sunny",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sunny",
+   "sense": 0,
    "context": "güneşli",
    "note": "*-y* eki isimden sıfat yapar: *sun* (güneş) → *sunny* (güneşli).",
    "form": null,
-   "base": "güneşli",
+   "base": null,
    "phrase": null
   },
   {

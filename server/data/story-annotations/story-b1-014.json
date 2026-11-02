@@ -278,12 +278,12 @@
    "i": 19,
    "lemma": "parcel",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "parcel",
+   "sense": 0,
    "context": "paket (koli)",
    "note": "*parcel* postayla gönderilen \"paket, koli\"dir; Amerikan İngilizcesinde *package* daha yaygındır.",
    "form": null,
-   "base": "paket, koli",
+   "base": null,
    "phrase": null
   },
   {

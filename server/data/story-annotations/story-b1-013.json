@@ -438,12 +438,12 @@
    "i": 29,
    "lemma": "cage",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "cage",
+   "sense": 0,
    "context": "kafesler",
    "note": null,
    "form": "cage'in çoğulu",
-   "base": "kafes",
+   "base": null,
    "phrase": null
   },
   {

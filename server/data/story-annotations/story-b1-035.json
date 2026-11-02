@@ -1171,12 +1171,12 @@
    "i": 82,
    "lemma": "pizza",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pizza",
+   "sense": 0,
    "context": "pizza",
    "note": null,
    "form": null,
-   "base": "pizza",
+   "base": null,
    "phrase": null
   },
   {

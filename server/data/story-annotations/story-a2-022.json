@@ -551,12 +551,12 @@
    "i": 38,
    "lemma": "exit",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "exit",
+   "sense": 0,
    "context": "çıkış",
    "note": "*exit* \"çıkış\"tır; giriş ise *entrance*'tır.",
    "form": null,
-   "base": "çıkış",
+   "base": null,
    "phrase": null
   },
   {
@@ -972,12 +972,12 @@
    "i": 71,
    "lemma": "hug",
    "pos": "verb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "hug",
+   "sense": 0,
    "context": "sarıldılar",
    "note": null,
    "form": "hug + -ed (geçmiş zaman, son harf g ikilenir)",
-   "base": "sarılmak, kucaklamak",
+   "base": null,
    "phrase": null
   },
   {

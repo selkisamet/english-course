@@ -188,12 +188,12 @@
    "i": 12,
    "lemma": "doubtful",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "doubtful",
+   "sense": 0,
    "context": "şüpheli (kuşkulu)",
    "note": "*-ful* eki isimden sıfat yapar: *doubt* (şüphe) → *doubtful* (şüpheli, emin olmayan).",
    "form": null,
-   "base": "şüpheli, kuşkulu",
+   "base": null,
    "phrase": null
   },
   {
@@ -801,12 +801,12 @@
    "i": 51,
    "lemma": "grandchild",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "grandchild",
+   "sense": 0,
    "context": "torunlar",
    "note": null,
    "form": "grandchild'ın çoğulu (grandchildren, düzensiz)",
-   "base": "torun",
+   "base": null,
    "phrase": null
   },
   {

@@ -760,12 +760,12 @@
    "i": 50,
    "lemma": "jumper",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "jumper",
+   "sense": 0,
    "context": "kazaklar",
    "note": "*jumper* İngiliz İngilizcesinde \"kazak\" demektir; Amerikan İngilizcesinde *sweater* denir.",
    "form": "jumper'ın çoğulu",
-   "base": "kazak",
+   "base": null,
    "phrase": null
   },
   {

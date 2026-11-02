@@ -109,12 +109,12 @@
    "i": 6,
    "lemma": "Spanish",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "spanish",
+   "sense": 1,
    "context": "İspanyolca",
    "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
    "form": null,
-   "base": "İspanyolca; İspanyol",
+   "base": null,
    "phrase": null
   },
   {
@@ -1101,12 +1101,12 @@
    "i": 77,
    "lemma": "Spanish",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "spanish",
+   "sense": 1,
    "context": "İspanyolca",
    "note": null,
    "form": null,
-   "base": "İspanyolca; İspanyol",
+   "base": null,
    "phrase": null
   }
  ]

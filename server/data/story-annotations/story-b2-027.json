@@ -622,12 +622,12 @@
    "i": 43,
    "lemma": "bedtime",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "bedtime",
+   "sense": 0,
    "context": "yatma saati",
    "note": "*bedtime* iki kelimenin birleşimidir: *bed* (yatak) + *time* (zaman).",
    "form": null,
-   "base": "yatma saati",
+   "base": null,
    "phrase": null
   },
   {
@@ -706,12 +706,12 @@
    "i": 50,
    "lemma": "surprisingly",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "surprisingly",
+   "sense": 0,
    "context": "şaşırtıcı derecede",
    "note": "*-ly* eki sıfattan zarf yapar: *surprising* (şaşırtıcı) → *surprisingly* (şaşırtıcı derecede).",
    "form": "surprising + -ly (sıfattan zarf)",
-   "base": "şaşırtıcı derecede",
+   "base": null,
    "phrase": null
   },
   {

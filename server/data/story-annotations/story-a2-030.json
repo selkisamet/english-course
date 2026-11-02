@@ -584,12 +584,12 @@
    "i": 41,
    "lemma": "popcorn",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "popcorn",
+   "sense": 0,
    "context": "patlamış mısır",
    "note": "*popcorn* sayılamayan bir isimdir; *some popcorn* → biraz patlamış mısır.",
    "form": null,
-   "base": "patlamış mısır",
+   "base": null,
    "phrase": null
   },
   {

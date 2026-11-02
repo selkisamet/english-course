@@ -108,12 +108,12 @@
    "i": 6,
    "lemma": "zoo",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "zoo",
+   "sense": 0,
    "context": "hayvanat bahçesi",
    "note": null,
    "form": null,
-   "base": "hayvanat bahçesi",
+   "base": null,
    "phrase": null
   },
   {
@@ -168,12 +168,12 @@
    "i": 11,
    "lemma": "zoo",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "zoo",
+   "sense": 0,
    "context": "hayvanat bahçesi",
    "note": null,
    "form": null,
-   "base": "hayvanat bahçesi",
+   "base": null,
    "phrase": null
   },
   {

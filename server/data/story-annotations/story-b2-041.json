@@ -624,12 +624,12 @@
    "i": 41,
    "lemma": "sender",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sender",
+   "sense": 0,
    "context": "gönderen",
    "note": "*-er* eki fiilden \"yapan kişi\" anlamında isim yapar: *send* (göndermek) → *sender* (gönderen).",
    "form": null,
-   "base": "gönderen, gönderici",
+   "base": null,
    "phrase": null
   },
   {
@@ -913,12 +913,12 @@
    "i": 63,
    "lemma": "scam",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "scam",
+   "sense": 0,
    "context": "dolandırıcılık",
    "note": "*scam* gündelik dilde \"dolandırıcılık, tuzak\" demektir.",
    "form": null,
-   "base": "dolandırıcılık",
+   "base": null,
    "phrase": null
   },
   {

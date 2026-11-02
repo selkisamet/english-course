@@ -226,12 +226,12 @@
    "i": 14,
    "lemma": "stressful",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "stressful",
+   "sense": 0,
    "context": "stresli",
    "note": "*-ful* eki isimden sıfat yapar: *stress* (stres) → *stressful* (stresli).",
    "form": null,
-   "base": "stresli, stres verici",
+   "base": null,
    "phrase": null
   },
   {

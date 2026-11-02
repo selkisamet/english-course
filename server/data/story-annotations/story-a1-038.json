@@ -237,12 +237,12 @@
    "i": 16,
    "lemma": "sunny",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sunny",
+   "sense": 0,
    "context": "güneşli",
    "note": "*-y* eki isimden sıfat yapar: *sun* (güneş) → *sunny* (güneşli).",
    "form": null,
-   "base": "güneşli",
+   "base": null,
    "phrase": null
   },
   {
@@ -283,12 +283,12 @@
    "i": 19,
    "lemma": "duck",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "duck",
+   "sense": 0,
    "context": "ördekler",
    "note": null,
    "form": "duck'ın çoğulu",
-   "base": "ördek",
+   "base": null,
    "phrase": null
   },
   {

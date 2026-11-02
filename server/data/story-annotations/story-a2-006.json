@@ -355,12 +355,12 @@
    "i": 25,
    "lemma": "hood",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "hood",
+   "sense": 0,
    "context": "kaput",
    "note": "Arabanın motor kapağına Amerikan İngilizcesinde *hood*, İngiliz İngilizcesinde *bonnet* denir.",
    "form": null,
-   "base": "kaput (ABD); kapüşon",
+   "base": null,
    "phrase": null
   },
   {
@@ -514,12 +514,12 @@
    "i": 37,
    "lemma": "mechanic",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "mechanic",
+   "sense": 0,
    "context": "tamirci",
    "note": null,
    "form": null,
-   "base": "tamirci, (oto) tamircisi",
+   "base": null,
    "phrase": null
   },
   {
@@ -538,12 +538,12 @@
    "i": 39,
    "lemma": "mechanic",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "mechanic",
+   "sense": 0,
    "context": "tamirci",
    "note": null,
    "form": null,
-   "base": "tamirci, (oto) tamircisi",
+   "base": null,
    "phrase": null
   },
   {

@@ -606,12 +606,12 @@
    "i": 42,
    "lemma": "pasta",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pasta",
+   "sense": 0,
    "context": "makarna",
    "note": "*pasta* İtalyan usulü her tür \"makarna\"dır; sayılamaz.",
    "form": null,
-   "base": "makarna",
+   "base": null,
    "phrase": null
   },
   {
@@ -751,12 +751,12 @@
    "i": 52,
    "lemma": "pasta",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pasta",
+   "sense": 0,
    "context": "makarna",
    "note": null,
    "form": null,
-   "base": "makarna",
+   "base": null,
    "phrase": null
   },
   {
@@ -775,12 +775,12 @@
    "i": 54,
    "lemma": "packet",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "packet",
+   "sense": 0,
    "context": "paketler",
    "note": "*packet* İngiliz İngilizcesinde küçük \"paket\"tir; Amerikan İngilizcesinde *package* daha yaygındır.",
    "form": "packet'ın çoğulu",
-   "base": "paket",
+   "base": null,
    "phrase": null
   },
   {
@@ -1152,12 +1152,12 @@
    "i": 80,
    "lemma": "pasta",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pasta",
+   "sense": 0,
    "context": "makarna",
    "note": null,
    "form": null,
-   "base": "makarna",
+   "base": null,
    "phrase": null
   },
   {

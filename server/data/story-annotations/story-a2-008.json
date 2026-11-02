@@ -197,12 +197,12 @@
    "i": 12,
    "lemma": "pasta",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pasta",
+   "sense": 0,
    "context": "makarna",
    "note": null,
    "form": null,
-   "base": "makarna",
+   "base": null,
    "phrase": null
   },
   {
@@ -531,12 +531,12 @@
    "i": 39,
    "lemma": "luckily",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "luckily",
+   "sense": 0,
    "context": "neyse ki",
    "note": "*luckily*, *lucky* (şanslı) sıfatından *-ly* ekiyle türeyen bir zarftır.",
    "form": null,
-   "base": "neyse ki, şans eseri",
+   "base": null,
    "phrase": null
   },
   {

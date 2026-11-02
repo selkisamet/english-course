@@ -913,12 +913,12 @@
    "i": 62,
    "lemma": "considerable",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "considerable",
+   "sense": 0,
    "context": "epey yüksek (kayda değer)",
    "note": "*considerable* \"hatırı sayılır, kayda değer, epey büyük\" demektir.",
    "form": null,
-   "base": "kayda değer, hatırı sayılır",
+   "base": null,
    "phrase": null
   },
   {

@@ -618,12 +618,12 @@
    "i": 48,
    "lemma": "PM",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pm",
+   "sense": 0,
    "context": "öğleden sonra",
    "note": "*PM* öğleden sonraki saatleri gösterir: *1:00 PM* = 13.00.",
    "form": null,
-   "base": "öğleden sonra (saat için)",
+   "base": null,
    "phrase": null
   },
   {

@@ -433,12 +433,12 @@
    "i": 30,
    "lemma": "sedan",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sedan",
+   "sense": 0,
    "context": "sedan",
    "note": "*sedan* Amerikan İngilizcesidir; İngiliz İngilizcesinde *saloon* denir.",
    "form": null,
-   "base": "sedan (dört kapılı araba)",
+   "base": null,
    "phrase": null
   },
   {
@@ -604,12 +604,12 @@
    "i": 43,
    "lemma": "inspect",
    "pos": "verb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "inspect",
+   "sense": 0,
    "context": "incelemek",
    "note": null,
    "form": null,
-   "base": "incelemek, denetlemek",
+   "base": null,
    "phrase": null
   },
   {

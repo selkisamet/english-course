@@ -1068,12 +1068,12 @@
    "i": 73,
    "lemma": "tiring",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "tiring",
+   "sense": 0,
    "context": "yorucu",
    "note": "*tiring* yoran şeyi anlatır (\"yorucu\"); *tired* ise yorulan kişiyi (\"yorgun\").",
    "form": null,
-   "base": "yorucu",
+   "base": null,
    "phrase": null
   },
   {

@@ -126,12 +126,12 @@
    "i": 7,
    "lemma": "English",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "english",
+   "sense": 0,
    "context": "İngilizce",
    "note": "Dil ve milliyet adları İngilizcede büyük harfle yazılır: *English, Turkish*.",
    "form": null,
-   "base": "İngilizce; İngiliz",
+   "base": null,
    "phrase": null
   },
   {

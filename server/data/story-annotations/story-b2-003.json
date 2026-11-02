@@ -393,12 +393,12 @@
    "i": 27,
    "lemma": "nearby",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "nearby",
+   "sense": 0,
    "context": "yakındaki",
    "note": "*nearby* isimden sonra geldiğinde \"yakındaki\" demektir: *the construction work nearby* → yakındaki inşaat çalışması.",
    "form": null,
-   "base": "yakında, yakındaki",
+   "base": null,
    "phrase": null
   },
   {
@@ -663,12 +663,12 @@
    "i": 47,
    "lemma": "suburb",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "suburb",
+   "sense": 0,
    "context": "banliyö",
    "note": "*the suburbs* şehir merkezinin dışındaki yerleşim bölgeleri, \"banliyö\" demektir.",
    "form": "suburb'ün çoğulu",
-   "base": "banliyö, şehir dışı yerleşim bölgesi",
+   "base": null,
    "phrase": null
   },
   {
@@ -735,12 +735,12 @@
    "i": 53,
    "lemma": "convenience",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "convenience",
+   "sense": 0,
    "context": "kolaylık",
    "note": null,
    "form": null,
-   "base": "kolaylık, rahatlık, elverişlilik",
+   "base": null,
    "phrase": null
   },
   {

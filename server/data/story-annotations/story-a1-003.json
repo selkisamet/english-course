@@ -193,12 +193,12 @@
    "i": 12,
    "lemma": "AM",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "am",
+   "sense": 0,
    "context": "sabah (öğleden önce)",
    "note": "*AM* gece yarısından öğlene kadarki saatleri, *PM* öğleden sonrasını gösterir.",
    "form": null,
-   "base": "öğleden önce (saat için)",
+   "base": null,
    "phrase": null
   },
   {
@@ -614,12 +614,12 @@
    "i": 45,
    "lemma": "AM",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "am",
+   "sense": 0,
    "context": "sabah",
    "note": null,
    "form": null,
-   "base": "öğleden önce (saat için)",
+   "base": null,
    "phrase": null
   },
   {
@@ -828,12 +828,12 @@
    "i": 62,
    "lemma": "AM",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "am",
+   "sense": 0,
    "context": "sabah",
    "note": null,
    "form": null,
-   "base": "öğleden önce (saat için)",
+   "base": null,
    "phrase": null
   },
   {

@@ -882,12 +882,12 @@
    "i": 61,
    "lemma": "sushi",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sushi",
+   "sense": 0,
    "context": "suşi",
    "note": "*sushi* Japoncadan gelen bir kelimedir; sayılamaz.",
    "form": null,
-   "base": "suşi (Japon yemeği)",
+   "base": null,
    "phrase": null
   },
   {

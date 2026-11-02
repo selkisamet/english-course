@@ -24,7 +24,7 @@ const getClient = () => {
   return client
 }
 
-// ---------- Oxford 3000 anlam adayları ----------
+// ---------- Kelime listesindeki anlam adayları ----------
 
 const describeWord = (id) => {
   const w = getWordById(id)
@@ -54,7 +54,7 @@ export function buildPrompt(story) {
     'Cümleler ve kelimeler (numara: metindeki biçim):',
     lines.join('\n'),
     '',
-    'Oxford 3000 listesindeki aday kelimeler ve anlamları (kimlik: sıra=tür: Türkçe):',
+    'Kelime listesindeki aday kelimeler ve anlamları (kimlik: sıra=tür: Türkçe):',
     [...dictionary].map(describeWord).join('\n') || '(yok)',
     '',
     `Bu hikayedeki ${tokens.length} kelimenin hepsini sırayla işaretle ve ${sentences.length} cümlenin her birinin Türkçe çevirisini yaz.`

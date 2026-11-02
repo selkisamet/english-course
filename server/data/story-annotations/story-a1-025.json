@@ -716,12 +716,12 @@
    "i": 54,
    "lemma": "pancake",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pancake",
+   "sense": 0,
    "context": "krep",
    "note": null,
    "form": "pancake'in çoğulu",
-   "base": "krep, pankek",
+   "base": null,
    "phrase": null
   },
   {

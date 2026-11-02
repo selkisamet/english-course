@@ -577,12 +577,12 @@
    "i": 41,
    "lemma": "toast",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "toast",
+   "sense": 0,
    "context": "kızarmış ekmek",
    "note": "*toast* sayılamayan bir isimdir: *a piece of toast* → bir dilim kızarmış ekmek.",
    "form": null,
-   "base": "kızarmış ekmek",
+   "base": null,
    "phrase": null
   },
   {
@@ -685,12 +685,12 @@
    "i": 50,
    "lemma": "tray",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "tray",
+   "sense": 0,
    "context": "tepsi",
    "note": null,
    "form": null,
-   "base": "tepsi",
+   "base": null,
    "phrase": null
   },
   {

@@ -275,12 +275,12 @@
    "i": 17,
    "lemma": "lunchtime",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "lunchtime",
+   "sense": 0,
    "context": "öğle yemeği saati",
    "note": "*lunchtime* iki kelimenin birleşimidir: *lunch* (öğle yemeği) + *time* (zaman).",
    "form": null,
-   "base": "öğle yemeği saati, öğle arası",
+   "base": null,
    "phrase": null
   },
   {

@@ -1,4 +1,4 @@
-// Metindeki bir kelimenin Oxford 3000 listesindeki olası karşılıkları.
+// Metindeki bir kelimenin kelime listesindeki (Oxford 3000 ve hikaye kelimeleri) olası karşılıkları.
 // Otomatik işaretleme (storyAnnotator), elle işaretleme araçları ve seviye raporu ortak kullanır.
 
 import winkNLP from 'wink-nlp'

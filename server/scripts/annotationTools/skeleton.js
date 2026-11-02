@@ -1,4 +1,4 @@
-// Elle işaretleme için iskelet: cümleler, kelime numaraları ve Oxford 3000 anlam adayları.
+// Elle işaretleme için iskelet: cümleler, kelime numaraları ve kelime listesindeki anlam adayları.
 // Kullanım: node server/scripts/annotationTools/skeleton.js <storyId> [storyId ...]
 // Çıktıdaki numaralarla build.js'in okuduğu kaynak dosya yazılır (biçim: build.js başındaki açıklama).
 

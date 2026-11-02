@@ -55,7 +55,10 @@ const WORD_FRAMES = {
   'row|noun': 'in the front row.',
   'close|adverb': 'come close.',
   'close|noun': 'at the close of the day.',
-  'live|adverb': 'it is shown live.'
+  'live|adverb': 'it is shown live.',
+  // Saatle birlikte okununca "a.m." / "p.m." diye okunur
+  'am|adverb': 'at seven AM.',
+  'pm|adverb': 'at seven PM.'
 }
 
 function frameFor(word, pos) {
@@ -67,25 +70,30 @@ function frameFor(word, pos) {
   return `${word}.`
 }
 
-/** Seslendirilecek bütün öğeler: { key, text, target } — target: metinde kesilecek kısım */
+/**
+ * Seslendirilecek bütün öğeler: { key, text, target } — target: metinde kesilecek kısım.
+ * Hikayelerden eklenen anlamlar en sona alınır: gruplar sırayla oluştuğu için böylece yeni
+ * kelimeler eklenince mevcut gruplar değişmez, yalnızca yeni gruplar üretilir.
+ */
 export function buildItems(words) {
   const wordItems = []
   const exampleItems = new Map()
-  for (const w of words) {
-    const posSeen = new Set()
-    w.senses.forEach((sense, i) => {
-      const special = SENSE_FRAMES[`${w.id}|${sense.pos}`]
-      if (special) {
-        const text = special[w.senses.filter((s, j) => j < i && s.pos === sense.pos).length]
-        if (text) wordItems.push({ key: wordAudioKey(w.id, sense.pos, i), text, target: w.word })
-      } else if (!posSeen.has(sense.pos)) {
-        posSeen.add(sense.pos)
-        wordItems.push({ key: wordAudioKey(w.id, sense.pos), text: frameFor(w.word, sense.pos), target: w.word })
-      }
-      if (sense.example && !exampleItems.has(sense.example)) {
-        exampleItems.set(sense.example, { key: exampleKey(sense.example), text: sense.example, target: null })
-      }
-    })
+  const senses = words.flatMap((w) => w.senses.map((sense, i) => ({ w, sense, i })))
+  const ordered = [...senses.filter((x) => x.sense.source !== 'story'), ...senses.filter((x) => x.sense.source === 'story')]
+  const posSeen = new Map()
+  for (const { w, sense, i } of ordered) {
+    if (!posSeen.has(w.id)) posSeen.set(w.id, new Set())
+    const special = SENSE_FRAMES[`${w.id}|${sense.pos}`]
+    if (special) {
+      const text = special[w.senses.filter((s, j) => j < i && s.pos === sense.pos).length]
+      if (text) wordItems.push({ key: wordAudioKey(w.id, sense.pos, i), text, target: w.word })
+    } else if (!posSeen.get(w.id).has(sense.pos)) {
+      posSeen.get(w.id).add(sense.pos)
+      wordItems.push({ key: wordAudioKey(w.id, sense.pos), text: frameFor(w.word, sense.pos), target: w.word })
+    }
+    if (sense.example && !exampleItems.has(sense.example)) {
+      exampleItems.set(sense.example, { key: exampleKey(sense.example), text: sense.example, target: null })
+    }
   }
   return { words: wordItems, examples: [...exampleItems.values()] }
 }

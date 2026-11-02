@@ -82,12 +82,12 @@
    "i": 4,
    "lemma": "yoga",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "yoga",
+   "sense": 0,
    "context": "yoga",
    "note": null,
    "form": null,
-   "base": "yoga",
+   "base": null,
    "phrase": null
   },
   {
@@ -656,12 +656,12 @@
    "i": 46,
    "lemma": "yoga",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "yoga",
+   "sense": 0,
    "context": "yoga",
    "note": null,
    "form": null,
-   "base": "yoga",
+   "base": null,
    "phrase": null
   },
   {
@@ -830,12 +830,12 @@
    "i": 58,
    "lemma": "flexibility",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "flexibility",
+   "sense": 0,
    "context": "esneklik",
    "note": "*flexibility*, *flexible* (esnek) sıfatından türeyen bir isimdir.",
    "form": null,
-   "base": "esneklik",
+   "base": null,
    "phrase": null
   }
  ]

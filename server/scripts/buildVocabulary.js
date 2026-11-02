@@ -1,9 +1,14 @@
-// Oxford 3000 kelime verisini kaynak dosyalardan üretir.
+// Kelime verisini kaynak dosyalardan üretir.
 //
+// Oxford 3000:
 //   Liste, tür ve seviyeler: server/data/vocabulary/oxford3000-list.json
 //     (Oxford University Press'in yayımladığı "The Oxford 3000 by CEFR level" PDF'inden)
 //   Türkçe karşılık, tanım ve örnekler: server/data/vocabulary/content.tsv
 //   Tanımların Türkçesi: server/data/vocabulary/definitions-tr.tsv
+// Hikaye kelimeleri (listede olmayıp hikayelerde geçenler):
+//   Liste ve seviyeler: server/data/vocabulary/story-words.json (extractStoryWords.js üretir;
+//     seviye, kelimenin geçtiği en düşük hikaye seviyesidir)
+//   İçerik: server/data/vocabulary/story-content.tsv
 //
 // Çıktı: server/data/oxford3000.json
 // Kullanım: node server/scripts/buildVocabulary.js
@@ -17,9 +22,11 @@ const DATA_DIR = path.join(__dirname, '..', 'data')
 const LIST_FILE = path.join(DATA_DIR, 'vocabulary', 'oxford3000-list.json')
 const CONTENT_FILE = path.join(DATA_DIR, 'vocabulary', 'content.tsv')
 const DEFINITIONS_TR_FILE = path.join(DATA_DIR, 'vocabulary', 'definitions-tr.tsv')
+const STORY_WORDS_FILE = path.join(DATA_DIR, 'vocabulary', 'story-words.json')
+const STORY_CONTENT_FILE = path.join(DATA_DIR, 'vocabulary', 'story-content.tsv')
 const OUTPUT_FILE = path.join(DATA_DIR, 'oxford3000.json')
 
-const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2']
+const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 export const slugify = (word) =>
   word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
@@ -86,6 +93,43 @@ for (const entry of list.entries) {
   })
 }
 
+// ---------- Hikaye kelimeleri ----------
+
+const storyWords = JSON.parse(fs.readFileSync(STORY_WORDS_FILE, 'utf8')).words
+const storyKey = (w) => `${w.word.toLowerCase()}|${w.pos}`
+const storyContent = new Map()
+const storyLines = fs.readFileSync(STORY_CONTENT_FILE, 'utf8').split(/\r?\n/).filter(Boolean)
+for (const [i, line] of storyLines.slice(1).entries()) {
+  const [key, tr, definition, definitionTranslation, example, exampleTr, ...rest] = line.split('\t')
+  if (rest.length || !exampleTr) throw new Error(`story-content.tsv satır ${i + 2}: 6 sütun olmalı`)
+  if (storyContent.has(key)) throw new Error(`story-content.tsv: tekrar eden anahtar ${key}`)
+  storyContent.set(key, { tr, definition, definitionTranslation, example, exampleTr })
+}
+const storyMissing = storyWords.filter((w) => !storyContent.has(storyKey(w)))
+if (storyMissing.length) {
+  throw new Error(`İçeriği eksik ${storyMissing.length} hikaye kelimesi var, ör. ${storyMissing.slice(0, 5).map(storyKey).join(', ')}`)
+}
+const storyKnown = new Set(storyWords.map(storyKey))
+const storyUnused = [...storyContent.keys()].filter((k) => !storyKnown.has(k))
+if (storyUnused.length) throw new Error(`story-content.tsv'de aday listesinde olmayan: ${storyUnused.slice(0, 5).join(', ')}`)
+
+for (const w of storyWords) {
+  const id = slugify(w.word)
+  const c = storyContent.get(storyKey(w))
+  const sense = {
+    pos: w.pos,
+    level: w.level,
+    source: 'story',
+    translation: c.tr,
+    definition: c.definition,
+    definitionTranslation: c.definitionTranslation,
+    example: c.example,
+    exampleTranslation: c.exampleTr
+  }
+  if (byWord.has(id)) byWord.get(id).senses.push(sense)
+  else byWord.set(id, { id, word: w.word, source: 'story', senses: [sense] })
+}
+
 const words = [...byWord.values()]
   .map((w) => {
     w.senses.sort((a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level))
@@ -98,13 +142,16 @@ const output = {
     version: '2.0',
     source: list.source,
     sourceUrl: list.sourceUrl,
+    storyWords: 'Oxford 3000 dışındaki kelimeler hikayelerden alındı; seviyeleri, geçtikleri en düşük hikaye seviyesidir.',
     translations: 'Türkçe karşılıklar, tanımlar ve örnekler elle hazırlanıp Wiktionary çevirileriyle karşılaştırıldı.',
     totalWords: words.length,
-    totalSenses: list.entries.length,
+    totalSenses: list.entries.length + storyWords.length,
     generatedAt: new Date().toISOString()
   },
   words
 }
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 1) + '\n', 'utf8')
-console.log(`✅ ${words.length} kelime, ${list.entries.length} anlam → ${path.relative(process.cwd(), OUTPUT_FILE)}`)
+console.log(
+  `✅ ${words.length} kelime, ${list.entries.length + storyWords.length} anlam (${storyWords.length} hikaye kelimesi) → ${path.relative(process.cwd(), OUTPUT_FILE)}`
+)

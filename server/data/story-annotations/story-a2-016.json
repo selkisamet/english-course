@@ -699,12 +699,12 @@
    "i": 52,
    "lemma": "beautifully",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "beautifully",
+   "sense": 0,
    "context": "çok güzel (güzel bir şekilde)",
    "note": "*-ly* eki sıfattan zarf yapar: *beautiful* (güzel) → *beautifully* (güzel bir şekilde).",
    "form": "beautiful + -ly (sıfattan zarf)",
-   "base": "güzel bir şekilde",
+   "base": null,
    "phrase": null
   },
   {
@@ -805,12 +805,12 @@
    "i": 60,
    "lemma": "clap",
    "pos": "verb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "clap",
+   "sense": 0,
    "context": "alkışladı",
    "note": null,
    "form": "clap + -ed (geçmiş zaman, son harf p ikilenir)",
-   "base": "alkışlamak",
+   "base": null,
    "phrase": null
   },
   {

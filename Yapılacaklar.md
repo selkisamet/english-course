@@ -56,6 +56,12 @@ Son güncelleme: 31 Ekim 2026
 
 ## Bilgi notları
 
+- **Kelime listesi** = Oxford 3000 (A1–B2) + hikayelerde geçip listede olmayan kelimeler (A1–C2; seviye, kelimenin geçtiği en düşük hikaye seviyesi). Yeni hikaye eklenince sırasıyla:
+  1. `node server/scripts/extractStoryWords.js` → yeni aday kelimeler `server/data/vocabulary/story-words.json`'a düşer.
+  2. Yeni kelimelerin içeriği `server/data/vocabulary/story-content.tsv`'ye yazılır (Türkçe karşılık, tanım, tanımın Türkçesi, örnek, örneğin Türkçesi). Eksik varsa bir sonraki adım hata verir.
+  3. `node server/scripts/buildVocabulary.js`, ardından `node server/scripts/linkStoryWords.js` (hikaye işaretlemelerini yeni kelimelere bağlar).
+  4. Sesler: `node server/scripts/generateVocabAudio.js --voice female` ve `--voice male` (yalnızca yeni gruplar üretilir).
+
 - Hatırlatma zamanlayıcısı: **cron-job.org**, 5 dakikada bir (asıl). GitHub Actions yalnızca saatte bir çalışan yedek.
 - Gizli anahtarlar repoda yok:
   - `.env.local`

@@ -525,12 +525,12 @@
    "i": 35,
    "lemma": "honey",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "honey",
+   "sense": 0,
    "context": "bal",
    "note": null,
    "form": null,
-   "base": "bal",
+   "base": null,
    "phrase": null
   },
   {

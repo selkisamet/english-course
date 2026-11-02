@@ -840,12 +840,12 @@
    "i": 61,
    "lemma": "grandma",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "grandma",
+   "sense": 0,
    "context": "büyükannem (nine)",
    "note": "*Grandma* \"büyükanne\"nin samimi söylenişidir; ad gibi kullanılınca büyük harfle yazılır.",
    "form": null,
-   "base": "büyükanne, nine",
+   "base": null,
    "phrase": null
   },
   {

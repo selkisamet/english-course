@@ -129,12 +129,12 @@
    "i": 7,
    "lemma": "hiking",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "hiking",
+   "sense": 0,
    "context": "doğa yürüyüşü",
    "note": "*hiking* dağ ve kırlarda yapılan uzun yürüyüştür.",
    "form": null,
-   "base": "doğa yürüyüşü",
+   "base": null,
    "phrase": {
     "from": 6,
     "to": 7,
@@ -1247,12 +1247,12 @@
    "i": 86,
    "lemma": "hike",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "hike",
+   "sense": 0,
    "context": "yürüyüş (doğa yürüyüşü)",
    "note": "*hike* isim olarak tek bir \"doğa yürüyüşü\", fiil olarak \"doğa yürüyüşü yapmak\" demektir.",
    "form": null,
-   "base": "doğa yürüyüşü",
+   "base": null,
    "phrase": null
   }
  ]

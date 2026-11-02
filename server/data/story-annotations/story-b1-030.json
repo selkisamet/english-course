@@ -156,12 +156,12 @@
    "i": 8,
    "lemma": "classmate",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "classmate",
+   "sense": 0,
    "context": "sınıf arkadaşları",
    "note": "*classmate* iki kelimenin birleşimidir: *class* (sınıf) + *mate* (arkadaş).",
    "form": "classmate'in çoğulu",
-   "base": "sınıf arkadaşı",
+   "base": null,
    "phrase": null
   },
   {
@@ -192,12 +192,12 @@
    "i": 11,
    "lemma": "reunion",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "reunion",
+   "sense": 0,
    "context": "buluşma (toplantı)",
    "note": "*re-* ön eki \"yeniden\" anlamı katar: *union* (birleşme) → *reunion* (yeniden bir araya gelme).",
    "form": null,
-   "base": "eski arkadaşların buluşması",
+   "base": null,
    "phrase": null
   },
   {

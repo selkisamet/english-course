@@ -16,7 +16,7 @@ const STATUS_ORDER = ['mastered', 'reviewing', 'learning', 'new']
 const dayName = (date, i) =>
   i === 0 ? 'Bugün' : i === 1 ? 'Yarın' : date.toLocaleDateString('tr-TR', { weekday: 'long' })
 
-/** Oxford listesinde seviye seviye bilinen kelimeler */
+/** Kelime listesinde seviye seviye bilinen kelimeler */
 function LevelProgress() {
   const [levels, setLevels] = useState(null)
   const [failed, setFailed] = useState(false)
@@ -31,13 +31,13 @@ function LevelProgress() {
   if (!levels) return <div className={`skeleton ${styles.levelsSkeleton}`} />
 
   const preferred = getPreferredLevel()
-  const focus = levels.find((l) => l.level === (VOCAB_LEVELS.includes(preferred) ? preferred : 'B2'))
+  const focus = levels.find((l) => l.level === (VOCAB_LEVELS.includes(preferred) ? preferred : 'A1'))
 
   return (
     <section className={`card ${styles.panel}`} aria-labelledby="levels-title">
       <div className={styles.panelHead}>
         <h2 id="levels-title" className={styles.panelTitle}>Seviye ilerlemesi</h2>
-        <p className={styles.panelCaption}>Oxford 3000 listesinde bildiğin kelimeler</p>
+        <p className={styles.panelCaption}>Kelime listesinde bildiğin kelimeler</p>
       </div>
       <ul className={styles.levels}>
         {levels.map((l) => (

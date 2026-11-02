@@ -256,12 +256,12 @@
    "i": 18,
    "lemma": "hairdresser",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "hairdresser",
+   "sense": 0,
    "context": "kuaför",
    "note": "*hairdresser* iki parçadan oluşur: *hair* (saç) + *dresser* (düzenleyen). Erkek berberi ise *barber*'dır.",
    "form": null,
-   "base": "kuaför",
+   "base": null,
    "phrase": null
   },
   {

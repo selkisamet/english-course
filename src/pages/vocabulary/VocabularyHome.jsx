@@ -44,10 +44,9 @@ function DailyGoal({ learned, goal }) {
 }
 
 function VocabularyHome() {
-  // Hikaye seviyesi C1/C2 olabilir; kelime listesi B2'de biter
   const [level, setLevel] = useState(() => {
     const preferred = getPreferredLevel() || 'A1'
-    return VOCAB_LEVELS.includes(preferred) ? preferred : 'B2'
+    return VOCAB_LEVELS.includes(preferred) ? preferred : 'A1'
   })
   const [dailyNew, setDailyNew] = useState(getDailyNewWords)
   const [settingsOpen, setSettingsOpen] = useState(false)

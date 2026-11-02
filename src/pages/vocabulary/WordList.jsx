@@ -184,7 +184,8 @@ function WordList() {
       )}
 
       <p className={styles.source}>
-        Kelime listesi, türler ve seviyeler: The Oxford 3000™ (Oxford University Press).
+        Oxford 3000™ kelimeleri, türleri ve seviyeleri: Oxford University Press. Listedeki diğer kelimeler
+        hikayelerden alındı; seviyeleri, geçtikleri en düşük hikaye seviyesidir.
       </p>
     </div>
   )

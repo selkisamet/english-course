@@ -322,12 +322,12 @@
    "i": 19,
    "lemma": "stall",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "stall",
+   "sense": 0,
    "context": "tezgâhlar",
    "note": "*stall* pazarda ürün satılan \"tezgâh, stant\"tır.",
    "form": "stall'ın çoğulu",
-   "base": "tezgâh, stant",
+   "base": null,
    "phrase": null
   },
   {
@@ -380,12 +380,12 @@
    "i": 23,
    "lemma": "handmade",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "handmade",
+   "sense": 0,
    "context": "el yapımı",
    "note": "*handmade* iki kelimenin birleşimidir: *hand* (el) + *made* (yapılmış).",
    "form": null,
-   "base": "el yapımı",
+   "base": null,
    "phrase": null
   },
   {

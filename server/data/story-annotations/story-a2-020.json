@@ -323,12 +323,12 @@
    "i": 21,
    "lemma": "pizza",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pizza",
+   "sense": 0,
    "context": "pizza",
    "note": null,
    "form": null,
-   "base": "pizza",
+   "base": null,
    "phrase": null
   },
   {
@@ -610,12 +610,12 @@
    "i": 42,
    "lemma": "politely",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "politely",
+   "sense": 0,
    "context": "kibarca",
    "note": "*-ly* eki sıfattan zarf yapar: *polite* (kibar) → *politely* (kibarca).",
    "form": "polite + -ly (sıfattan zarf)",
-   "base": "kibarca",
+   "base": null,
    "phrase": null
   },
   {
@@ -832,12 +832,12 @@
    "i": 58,
    "lemma": "pizza",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "pizza",
+   "sense": 0,
    "context": "pizza",
    "note": "Burada *pizza* isim olmasına rağmen *restaurant*'ı niteler: *pizza restaurant* → pizza restoranı.",
    "form": null,
-   "base": "pizza",
+   "base": null,
    "phrase": null
   },
   {

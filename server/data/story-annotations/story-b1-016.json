@@ -97,12 +97,12 @@
    "i": 5,
    "lemma": "attic",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "attic",
+   "sense": 0,
    "context": "tavan arası",
    "note": null,
    "form": null,
-   "base": "tavan arası",
+   "base": null,
    "phrase": null
   },
   {

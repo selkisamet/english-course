@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 // server/scripts/buildVocabulary.js tarafından üretilir, elle düzenlenmez
 const OXFORD_FILE = path.join(__dirname, 'data', 'oxford3000.json')
 
-const LEVELS = ['A1', 'A2', 'B1', 'B2']
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 let cache = null
 

@@ -92,5 +92,5 @@ export const STATUS_LABELS = {
 export const slugify = (word) =>
   word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
-// Kelime listesi (Oxford 3000) A1–B2 aralığını kapsar
-export const VOCAB_LEVELS = ['A1', 'A2', 'B1', 'B2']
+// Kelime listesi: Oxford 3000 (A1–B2) ve hikayelerden eklenen kelimeler (A1–C2)
+export const VOCAB_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']

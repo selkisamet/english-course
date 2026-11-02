@@ -473,12 +473,12 @@
    "i": 35,
    "lemma": "snowman",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "snowman",
+   "sense": 0,
    "context": "kardan adam",
    "note": "*snowman* iki kelimenin birleşimidir: *snow* (kar) + *man* (adam).",
    "form": null,
-   "base": "kardan adam",
+   "base": null,
    "phrase": null
   },
   {

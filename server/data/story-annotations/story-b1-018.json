@@ -114,12 +114,12 @@
    "i": 7,
    "lemma": "violin",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "violin",
+   "sense": 0,
    "context": "keman",
    "note": null,
    "form": null,
-   "base": "keman",
+   "base": null,
    "phrase": null
   },
   {

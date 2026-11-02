@@ -392,12 +392,12 @@
    "i": 26,
    "lemma": "candy",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "candy",
+   "sense": 0,
    "context": "şeker",
    "note": "*candy* Amerikan İngilizcesidir; İngiliz İngilizcesinde *sweets* denir.",
    "form": null,
-   "base": "şeker, şekerleme",
+   "base": null,
    "phrase": null
   },
   {
@@ -618,12 +618,12 @@
    "i": 44,
    "lemma": "AM",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "am",
+   "sense": 0,
    "context": "sabah",
    "note": "*a.m.* öğleden önceki saatleri, *p.m.* öğleden sonraki saatleri gösterir: *7 a.m.* → sabah 7.",
    "form": null,
-   "base": "öğleden önce (a.m.)",
+   "base": null,
    "phrase": null
   },
   {
@@ -748,12 +748,12 @@
    "i": 54,
    "lemma": "amused",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "amused",
+   "sense": 0,
    "context": "eğlenmiş",
    "note": "*amused by* \"… -den eğlenmiş, … -i komik bulmuş\" demektir.",
    "form": null,
-   "base": "eğlenmiş, keyiflenmiş",
+   "base": null,
    "phrase": null
   },
   {

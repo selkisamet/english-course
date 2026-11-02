@@ -364,12 +364,12 @@
    "i": 27,
    "lemma": "dinosaur",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "dinosaur",
+   "sense": 0,
    "context": "dinozor",
    "note": null,
    "form": null,
-   "base": "dinozor",
+   "base": null,
    "phrase": null
   },
   {
@@ -388,12 +388,12 @@
    "i": 29,
    "lemma": "dinosaur",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "dinosaur",
+   "sense": 0,
    "context": "dinozor",
    "note": null,
    "form": null,
-   "base": "dinozor",
+   "base": null,
    "phrase": null
   },
   {
@@ -766,12 +766,12 @@
    "i": 58,
    "lemma": "postcard",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "postcard",
+   "sense": 0,
    "context": "kartpostallar",
    "note": null,
    "form": "postcard'ın çoğulu",
-   "base": "kartpostal",
+   "base": null,
    "phrase": null
   },
   {

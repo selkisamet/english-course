@@ -991,12 +991,12 @@
    "i": 68,
    "lemma": "mechanic",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "mechanic",
+   "sense": 0,
    "context": "tamirci",
    "note": "*mechanic* \"makinist\" değil, araba ve makine \"tamircisi\"dir.",
    "form": null,
-   "base": "tamirci, araba tamircisi",
+   "base": null,
    "phrase": null
   },
   {
@@ -1246,12 +1246,12 @@
    "i": 88,
    "lemma": "kindness",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "kindness",
+   "sense": 0,
    "context": "iyilik",
    "note": "*-ness* eki sıfattan isim yapar: *kind* (iyi kalpli) → *kindness* (iyilik, nezaket).",
    "form": null,
-   "base": "iyilik, nezaket",
+   "base": null,
    "phrase": null
   }
  ]

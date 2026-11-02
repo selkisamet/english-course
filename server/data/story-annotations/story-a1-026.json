@@ -442,12 +442,12 @@
    "i": 32,
    "lemma": "librarian",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "librarian",
+   "sense": 0,
    "context": "kütüphaneci",
    "note": "*librarian*, *library* (kütüphane) kelimesinden türer: kütüphanede çalışan kişi.",
    "form": null,
-   "base": "kütüphaneci",
+   "base": null,
    "phrase": null
   },
   {

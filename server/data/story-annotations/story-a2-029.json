@@ -682,12 +682,12 @@
    "i": 46,
    "lemma": "Spanish",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "spanish",
+   "sense": 0,
    "context": "İspanyol",
    "note": "Milliyet sıfatları İngilizcede büyük harfle yazılır: *Spanish food* → İspanyol yemeği.",
    "form": null,
-   "base": "İspanyol; İspanyolca",
+   "base": null,
    "phrase": null
   },
   {

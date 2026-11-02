@@ -614,12 +614,12 @@
    "i": 42,
    "lemma": "colourful",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "colourful",
+   "sense": 0,
    "context": "renkli",
    "note": "*-ful* eki isimden sıfat yapar: *colour* (renk) → *colourful* (renkli). Amerikan İngilizcesinde *colorful* yazılır.",
    "form": null,
-   "base": "renkli, rengârenk",
+   "base": null,
    "phrase": null
   },
   {
@@ -934,12 +934,12 @@
    "i": 67,
    "lemma": "packaging",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "packaging",
+   "sense": 0,
    "context": "ambalaj",
    "note": "*packaging* bir ürünün sarıldığı \"ambalaj\"dır; *package* ise \"paket, koli\" demektir.",
    "form": null,
-   "base": "ambalaj",
+   "base": null,
    "phrase": null
   },
   {

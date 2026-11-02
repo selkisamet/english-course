@@ -299,12 +299,12 @@
    "i": 20,
    "lemma": "stranded",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "stranded",
+   "sense": 0,
    "context": "mahsur (kalmış)",
    "note": "*be stranded* bir yerden ayrılamayıp \"mahsur kalmak\" demektir.",
    "form": null,
-   "base": "mahsur kalmış",
+   "base": null,
    "phrase": null
   },
   {
@@ -431,12 +431,12 @@
    "i": 31,
    "lemma": "overwhelmed",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "overwhelmed",
+   "sense": 0,
    "context": "bunalmış",
    "note": "*overwhelmed* çok fazla iş ya da duygu karşısında \"bunalmış, altından kalkamayan\" demektir.",
    "form": null,
-   "base": "bunalmış, altında ezilmiş",
+   "base": null,
    "phrase": null
   },
   {
@@ -633,12 +633,12 @@
    "i": 47,
    "lemma": "frustrating",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "frustrating",
+   "sense": 0,
    "context": "sinir bozucu",
    "note": "*frustrating* bir şeyin sinir bozucu olduğunu anlatır; kişinin hissi ise *frustrated*'dir (hayal kırıklığına uğramış, bıkmış).",
    "form": null,
-   "base": "sinir bozucu, bıktırıcı",
+   "base": null,
    "phrase": null
   },
   {

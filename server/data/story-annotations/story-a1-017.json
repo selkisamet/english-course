@@ -66,12 +66,12 @@
    "i": 3,
    "lemma": "sunny",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sunny",
+   "sense": 0,
    "context": "güneşli",
    "note": "*-y* eki isimden sıfat yapar: *sun* (güneş) → *sunny* (güneşli).",
    "form": null,
-   "base": "güneşli",
+   "base": null,
    "phrase": null
   },
   {
@@ -463,12 +463,12 @@
    "i": 34,
    "lemma": "bench",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "bench",
+   "sense": 0,
    "context": "bank",
    "note": null,
    "form": null,
-   "base": "bank (oturmak için uzun sıra)",
+   "base": null,
    "phrase": null
   },
   {

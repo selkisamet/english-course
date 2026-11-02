@@ -64,7 +64,7 @@ export function shuffle(items, random = Math.random) {
   return a
 }
 
-const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2']
+const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 const levelGap = (a, b) => Math.abs(LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b))
 
 /**

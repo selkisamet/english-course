@@ -786,12 +786,12 @@
    "i": 57,
    "lemma": "candle",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "candle",
+   "sense": 0,
    "context": "mumlar",
    "note": null,
    "form": "candle'ın çoğulu",
-   "base": "mum",
+   "base": null,
    "phrase": null
   },
   {

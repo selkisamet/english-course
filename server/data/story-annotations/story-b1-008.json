@@ -156,12 +156,12 @@
    "i": 10,
    "lemma": "collar",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "collar",
+   "sense": 0,
    "context": "tasma",
    "note": "*collar*'ın temel anlamı \"yaka\"dır; hayvanlar için \"tasma\" demektir.",
    "form": null,
-   "base": "yaka; tasma",
+   "base": null,
    "phrase": null
   },
   {

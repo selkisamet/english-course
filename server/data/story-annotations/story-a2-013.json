@@ -385,12 +385,12 @@
    "i": 25,
    "lemma": "jumper",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "jumper",
+   "sense": 0,
    "context": "kazaklar",
    "note": "*jumper* İngiliz İngilizcesinde \"kazak\" demektir; Amerikan İngilizcesinde *sweater* denir.",
    "form": "jumper'ın çoğulu",
-   "base": "kazak",
+   "base": null,
    "phrase": null
   },
   {
@@ -527,12 +527,12 @@
    "i": 36,
    "lemma": "bookshop",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "bookshop",
+   "sense": 0,
    "context": "kitapçı",
    "note": "*bookshop* iki kelimenin birleşimidir: *book* (kitap) + *shop* (dükkân). Amerikan İngilizcesinde *bookstore* denir.",
    "form": null,
-   "base": "kitapçı (dükkân)",
+   "base": null,
    "phrase": null
   },
   {

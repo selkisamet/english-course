@@ -668,12 +668,12 @@
    "i": 48,
    "lemma": "snowman",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "snowman",
+   "sense": 0,
    "context": "kardan adam",
    "note": "*snowman* iki kelimenin birleşimidir: *snow* (kar) + *man* (adam).",
    "form": null,
-   "base": "kardan adam",
+   "base": null,
    "phrase": null
   },
   {
@@ -776,12 +776,12 @@
    "i": 57,
    "lemma": "scarf",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "scarf",
+   "sense": 0,
    "context": "atkı",
    "note": "*scarf* boyna sarılan \"atkı\" ya da başa örtülen \"eşarp\" olabilir.",
    "form": null,
-   "base": "atkı, eşarp",
+   "base": null,
    "phrase": null
   },
   {

@@ -1189,12 +1189,12 @@
    "i": 82,
    "lemma": "clap",
    "pos": "verb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "clap",
+   "sense": 0,
    "context": "alkışladı",
    "note": null,
    "form": "clap + -ed (geçmiş zaman, son harf p ikilenir)",
-   "base": "alkışlamak",
+   "base": null,
    "phrase": null
   }
  ]

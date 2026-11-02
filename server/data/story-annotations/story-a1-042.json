@@ -372,12 +372,12 @@
    "i": 26,
    "lemma": "English",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "english",
+   "sense": 1,
    "context": "İngilizce",
    "note": "Dil ve ders adları İngilizcede büyük harfle yazılır ve önüne *the* almaz: *English, Turkish*.",
    "form": null,
-   "base": "İngilizce (dil, ders)",
+   "base": null,
    "phrase": null
   },
   {
@@ -420,12 +420,12 @@
    "i": 30,
    "lemma": "English",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "english",
+   "sense": 1,
    "context": "İngilizce",
    "note": null,
    "form": null,
-   "base": "İngilizce (dil, ders)",
+   "base": null,
    "phrase": null
   },
   {
@@ -492,12 +492,12 @@
    "i": 36,
    "lemma": "lunchtime",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "lunchtime",
+   "sense": 0,
    "context": "öğle yemeği saati",
    "note": "*lunchtime* iki kelimenin birleşimidir: *lunch* (öğle yemeği) + *time* (zaman).",
    "form": null,
-   "base": "öğle yemeği saati, öğle arası",
+   "base": null,
    "phrase": null
   },
   {

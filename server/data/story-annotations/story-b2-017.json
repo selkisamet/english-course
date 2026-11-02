@@ -466,12 +466,12 @@
    "i": 31,
    "lemma": "translator",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "translator",
+   "sense": 0,
    "context": "çevirmen",
    "note": "*-or* eki fiilden \"yapan kişi\" anlamında isim yapar: *translate* (çevirmek) → *translator* (çevirmen).",
    "form": null,
-   "base": "çevirmen",
+   "base": null,
    "phrase": null
   },
   {

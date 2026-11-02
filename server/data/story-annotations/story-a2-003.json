@@ -100,12 +100,12 @@
    "i": 5,
    "lemma": "wallet",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "wallet",
+   "sense": 0,
    "context": "cüzdan",
    "note": null,
    "form": null,
-   "base": "cüzdan",
+   "base": null,
    "phrase": null
   },
   {
@@ -408,12 +408,12 @@
    "i": 29,
    "lemma": "wallet",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "wallet",
+   "sense": 0,
    "context": "cüzdan",
    "note": null,
    "form": null,
-   "base": "cüzdan",
+   "base": null,
    "phrase": null
   },
   {
@@ -732,12 +732,12 @@
    "i": 56,
    "lemma": "relieved",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "relieved",
+   "sense": 0,
    "context": "rahatlamış",
    "note": "*relieved* bir endişe geçtikten sonra \"rahatlamış, içi rahat etmiş\" olmayı anlatır.",
    "form": null,
-   "base": "rahatlamış, içi rahatlamış",
+   "base": null,
    "phrase": null
   },
   {

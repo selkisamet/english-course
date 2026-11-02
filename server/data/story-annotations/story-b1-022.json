@@ -462,12 +462,12 @@
    "i": 31,
    "lemma": "panic",
    "pos": "verb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "panic",
+   "sense": 0,
    "context": "paniğe kapılmak",
    "note": "*panic* hem isim (\"panik\") hem fiil (\"paniğe kapılmak\") olarak kullanılır.",
    "form": null,
-   "base": "panik; paniğe kapılmak",
+   "base": null,
    "phrase": null
   },
   {
@@ -498,12 +498,12 @@
    "i": 34,
    "lemma": "receptionist",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "receptionist",
+   "sense": 0,
    "context": "resepsiyon görevlisi",
    "note": "*-ist* eki \"o işi yapan kişi\" anlamı verir: *reception* (resepsiyon) → *receptionist*.",
    "form": null,
-   "base": "resepsiyon görevlisi",
+   "base": null,
    "phrase": null
   },
   {
@@ -662,12 +662,12 @@
    "i": 46,
    "lemma": "embassy",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "embassy",
+   "sense": 0,
    "context": "büyükelçilik",
    "note": null,
    "form": null,
-   "base": "büyükelçilik",
+   "base": null,
    "phrase": null
   },
   {
@@ -722,12 +722,12 @@
    "i": 51,
    "lemma": "embassy",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "embassy",
+   "sense": 0,
    "context": "büyükelçilik",
    "note": null,
    "form": null,
-   "base": "büyükelçilik",
+   "base": null,
    "phrase": null
   },
   {

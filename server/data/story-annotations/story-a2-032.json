@@ -756,12 +756,12 @@
    "i": 57,
    "lemma": "notebook",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "notebook",
+   "sense": 0,
    "context": "defter",
    "note": "*notebook* iki kelimenin birleşimidir: *note* (not) + *book* (kitap).",
    "form": null,
-   "base": "defter",
+   "base": null,
    "phrase": null
   },
   {

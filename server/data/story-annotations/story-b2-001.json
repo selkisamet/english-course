@@ -142,12 +142,12 @@
    "i": 9,
    "lemma": "dusty",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "dusty",
+   "sense": 0,
    "context": "tozlu",
    "note": "*-y* eki isimden sıfat yapar: *dust* (toz) → *dusty* (tozlu).",
    "form": null,
-   "base": "tozlu",
+   "base": null,
    "phrase": null
   },
   {
@@ -482,12 +482,12 @@
    "i": 34,
    "lemma": "treasure",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "treasure",
+   "sense": 0,
    "context": "hazine",
    "note": null,
    "form": null,
-   "base": "hazine",
+   "base": null,
    "phrase": null
   },
   {
@@ -754,12 +754,12 @@
    "i": 55,
    "lemma": "treasure",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "treasure",
+   "sense": 0,
    "context": "hazine",
    "note": null,
    "form": null,
-   "base": "hazine",
+   "base": null,
    "phrase": null
   },
   {

@@ -732,12 +732,12 @@
    "i": 51,
    "lemma": "porridge",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "porridge",
+   "sense": 0,
    "context": "yulaf lapası",
    "note": "*porridge* yulafın süt ya da suyla pişirilmesiyle yapılan bir kahvaltılıktır.",
    "form": null,
-   "base": "yulaf lapası",
+   "base": null,
    "phrase": null
   },
   {
@@ -1026,12 +1026,12 @@
    "i": 73,
    "lemma": "snack",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "snack",
+   "sense": 0,
    "context": "atıştırmalıklar",
    "note": "*snack* ana öğünler arasında yenen küçük yiyecektir.",
    "form": "snack'in çoğulu",
-   "base": "atıştırmalık",
+   "base": null,
    "phrase": null
   },
   {

@@ -303,12 +303,12 @@
    "i": 21,
    "lemma": "sofa",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sofa",
+   "sense": 0,
    "context": "kanepe",
    "note": null,
    "form": null,
-   "base": "kanepe, koltuk",
+   "base": null,
    "phrase": null
   },
   {
@@ -938,12 +938,12 @@
    "i": 71,
    "lemma": "cute",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "cute",
+   "sense": 0,
    "context": "sevimli",
    "note": null,
    "form": null,
-   "base": "sevimli, şirin",
+   "base": null,
    "phrase": null
   }
  ]

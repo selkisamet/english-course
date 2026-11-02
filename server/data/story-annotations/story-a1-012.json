@@ -397,12 +397,12 @@
    "i": 28,
    "lemma": "sofa",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "sofa",
+   "sense": 0,
    "context": "kanepe",
    "note": null,
    "form": null,
-   "base": "kanepe, koltuk",
+   "base": null,
    "phrase": null
   },
   {
@@ -793,12 +793,12 @@
    "i": 61,
    "lemma": "rainy",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "rainy",
+   "sense": 0,
    "context": "yağmurlu",
    "note": "*-y* eki isimden sıfat yapar: *rain* (yağmur) → *rainy* (yağmurlu).",
    "form": null,
-   "base": "yağmurlu",
+   "base": null,
    "phrase": null
   },
   {

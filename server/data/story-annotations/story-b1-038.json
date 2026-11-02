@@ -447,12 +447,12 @@
    "i": 30,
    "lemma": "nightclub",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "nightclub",
+   "sense": 0,
    "context": "gece kulübü",
    "note": "*nightclub* iki kelimenin birleşimidir: *night* (gece) + *club* (kulüp).",
    "form": null,
-   "base": "gece kulübü",
+   "base": null,
    "phrase": null
   },
   {

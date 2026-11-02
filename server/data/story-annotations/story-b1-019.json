@@ -655,12 +655,12 @@
    "i": 44,
    "lemma": "nearby",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "nearby",
+   "sense": 0,
    "context": "yakınlarda",
    "note": "*nearby* iki kelimenin birleşimidir: *near* (yakın) + *by* (yanında).",
    "form": null,
-   "base": "yakında, yakınlarda",
+   "base": null,
    "phrase": null
   },
   {

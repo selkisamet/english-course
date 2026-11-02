@@ -707,12 +707,12 @@
    "i": 51,
    "lemma": "brake",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "brake",
+   "sense": 0,
    "context": "frenler",
    "note": null,
    "form": "brake'in çoğulu",
-   "base": "fren",
+   "base": null,
    "phrase": null
   },
   {

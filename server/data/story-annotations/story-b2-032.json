@@ -649,12 +649,12 @@
    "i": 40,
    "lemma": "politely",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "politely",
+   "sense": 0,
    "context": "kibarca",
    "note": "*-ly* eki sıfattan zarf yapar: *polite* (kibar) → *politely* (kibarca).",
    "form": "polite + -ly (sıfattan zarf)",
-   "base": "kibarca",
+   "base": null,
    "phrase": null
   },
   {

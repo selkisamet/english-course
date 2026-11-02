@@ -810,12 +810,12 @@
    "i": 53,
    "lemma": "vegetarian",
    "pos": "adjective",
-   "wordId": null,
-   "sense": null,
+   "wordId": "vegetarian",
+   "sense": 0,
    "context": "vejetaryen",
    "note": null,
    "form": null,
-   "base": "vejetaryen",
+   "base": null,
    "phrase": null
   },
   {

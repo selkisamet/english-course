@@ -721,12 +721,12 @@
    "i": 54,
    "lemma": "grandma",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "grandma",
+   "sense": 0,
    "context": "büyükannem (nine)",
    "note": "*grandma*, *grandmother*'ın samimi söylenişidir; burada ad gibi kullanıldığı için büyük harfle yazılmış.",
    "form": null,
-   "base": "nine, büyükanne (samimi söyleyiş)",
+   "base": null,
    "phrase": null
   },
   {

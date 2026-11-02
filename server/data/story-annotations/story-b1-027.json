@@ -669,12 +669,12 @@
    "i": 46,
    "lemma": "terribly",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "terribly",
+   "sense": 0,
    "context": "çok (korkunç derecede)",
    "note": "*terribly* \"korkunç bir şekilde\" demektir; duygularla \"çok, aşırı\" anlamında kullanılır: *miss someone terribly* → birini çok özlemek.",
    "form": "terrible + -ly (le → ly)",
-   "base": "çok; korkunç bir şekilde",
+   "base": null,
    "phrase": null
   },
   {
@@ -871,12 +871,12 @@
    "i": 62,
    "lemma": "English",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "english",
+   "sense": 1,
    "context": "İngilizce",
    "note": "Dil ve milliyet adları İngilizcede her zaman büyük harfle yazılır.",
    "form": null,
-   "base": "İngilizce; İngiliz",
+   "base": null,
    "phrase": null
   },
   {

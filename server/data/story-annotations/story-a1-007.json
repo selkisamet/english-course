@@ -505,12 +505,12 @@
    "i": 38,
    "lemma": "bakery",
    "pos": "noun",
-   "wordId": null,
-   "sense": null,
+   "wordId": "bakery",
+   "sense": 0,
    "context": "fırın",
    "note": null,
    "form": null,
-   "base": "fırın (ekmek ve pasta satılan yer)",
+   "base": null,
    "phrase": null
   },
   {

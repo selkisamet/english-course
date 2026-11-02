@@ -776,12 +776,12 @@
    "i": 51,
    "lemma": "automatically",
    "pos": "adverb",
-   "wordId": null,
-   "sense": null,
+   "wordId": "automatically",
+   "sense": 0,
    "context": "kendiliğinden (otomatik olarak)",
    "note": "*-ally* eki *-ic* ile biten sıfatlardan zarf yapar: *automatic* → *automatically*.",
    "form": "automatic + -ally (sıfattan zarf)",
-   "base": "otomatik olarak, kendiliğinden",
+   "base": null,
    "phrase": null
   },
   {
