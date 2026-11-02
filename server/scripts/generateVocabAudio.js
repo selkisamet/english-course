@@ -4,8 +4,13 @@
 // (Supabase Storage), her öğenin o dosyadaki başlangıç ve bitiş zamanı
 // server/data/vocab-audio/<ses>.json dosyasına yazılır. Uygulama yalnızca ilgili aralığı çalar.
 //
-// Kelimeler türüne uygun kısa bir bağlamda okutulur ("to record", "the record") ve yalnızca
+// Kelimeler türüne uygun kısa bir bağlamda okutulur ("you must record", "my record") ve yalnızca
 // kelimenin kendisi kesilir; böylece isim/fiil vurgusu doğru olur.
+//
+// Bağlam sözcüğü belirgin okunan bir sözcük olmalı: "the" ve "to" gibi zayıf okunan sözcükler
+// kelimeyle kaynaşıyor ve Azure'un kelime zamanları uzun gruplarda kaydığı için kesime karışıyordu
+// (ölçüm: 150 kelimelik grupta "the" 95, "to" 88 kelimede; "my" 0 kelimede. Fiillerde erkek seste
+// 80 kelimelik grupta "we" 36, "they" 1, "you must" 0 kelimede).
 //
 // Kullanım:
 //   node server/scripts/generateVocabAudio.js --voice female            eksik grupları üret
@@ -20,6 +25,7 @@ import { fileURLToPath } from 'url'
 import dotenv from 'dotenv'
 import { createClient } from '@supabase/supabase-js'
 import { AUDIO_BUCKET } from '../storyAudio.js'
+import { MPEGDecoder } from 'mpg123-decoder'
 import { exampleKey, wordAudioKey } from '../vocabAudio.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -34,7 +40,8 @@ const VOICES = {
 // Kelimeler biraz yavaş, cümleler doğal hızda
 const RATES = { words: '-10%', examples: '0%' }
 const MAX_CHARS = 2400 // ücretsiz katmanda istek başına sınır 3000 karakter
-const MAX_ITEMS = 150
+// Kelime zamanları grup uzadıkça kaydığı için kelime grupları kısa tutulur
+const MAX_ITEMS = { words: 80, examples: 150 }
 const MIN_INTERVAL_MS = 3500
 const TICKS_PER_MS = 10000
 
@@ -44,18 +51,20 @@ const escapeXml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 
 // Anlamına göre farklı okunan, aynı türde iki anlamı olan kelimeler: her anlam kendi bağlamında
 const SENSE_FRAMES = {
-  'tear|noun': ['a tear in the paper.', 'a tear on her face.'],
-  'used|adjective': ['I am used to it.', 'a used car.']
+  'tear|noun': ['this tear in the paper.', 'this tear on her face.'],
+  'used|adjective': ['I am used to it.', 'two used cars.']
 }
 
 // Türüne göre bağlamın yetmediği, yazılışı aynı ama okunuşu farklı kelimeler
 // (ör. "lead" isim: öncülük /liːd/ – metal /led/; "close" zarf /kləʊs/ – fiil /kləʊz/)
 const WORD_FRAMES = {
-  'lead|noun': 'in the lead.',
+  'lead|noun': 'we followed her lead.',
   'row|noun': 'in the front row.',
   'close|adverb': 'come close.',
-  'close|noun': 'at the close of the day.',
+  'close|noun': 'at its close.',
   'live|adverb': 'it is shown live.',
+  // Erkek seste "my square" kesime karışıyordu
+  'square|noun': 'a big square.',
   // Saatle birlikte okununca "a.m." / "p.m." diye okunur
   'am|adverb': 'at seven AM.',
   'pm|adverb': 'at seven PM.'
@@ -64,8 +73,8 @@ const WORD_FRAMES = {
 function frameFor(word, pos) {
   const special = WORD_FRAMES[`${word.toLowerCase()}|${pos}`]
   if (special) return special
-  if (pos === 'verb') return `to ${word}.`
-  if (pos === 'noun') return `the ${word}.`
+  if (pos === 'verb') return `you must ${word}.`
+  if (pos === 'noun') return `my ${word}.`
   if (pos === 'adjective') return `it is ${word}.`
   return `${word}.`
 }
@@ -98,13 +107,13 @@ export function buildItems(words) {
   return { words: wordItems, examples: [...exampleItems.values()] }
 }
 
-function toBatches(items) {
+function toBatches(items, maxItems) {
   const batches = []
   let current = []
   let chars = 0
   for (const item of items) {
     const len = escapeXml(item.text).length + 1
-    if (current.length && (current.length >= MAX_ITEMS || chars + len > MAX_CHARS)) {
+    if (current.length && (current.length >= maxItems || chars + len > MAX_CHARS)) {
       batches.push(current)
       current = []
       chars = 0
@@ -172,6 +181,36 @@ export function cutItems(ranges, boundaries, durationMs) {
   })
 }
 
+/**
+ * Bağlam içinde okunan kelimelerde bağlam sözcüğü kesimin dışında mı kaldı: kesimden önceki
+ * 300 ms içinde konuşma yoksa bağlam sözcüğü kesime karışmış demektir. Karışan öğeleri döndürür.
+ */
+async function framesLeaking(audio, batch, cuts) {
+  const framed = batch.map((it, i) => ({ it, cut: cuts[i] })).filter(({ it }) => it.target && it.text !== `${it.target}.`)
+  if (!framed.length) return []
+  const decoder = new MPEGDecoder()
+  await decoder.ready
+  try {
+    const { channelData, sampleRate } = decoder.decode(new Uint8Array(audio))
+    const samples = channelData[0]
+    const at = (ms) => Math.round((ms * sampleRate) / 1000)
+    const loud = (ms) => {
+      let sum = 0
+      for (let i = at(ms); i < at(ms + 10); i++) sum += samples[i] * samples[i]
+      return 10 * Math.log10(sum / at(10) + 1e-12) > -45
+    }
+    return framed
+      .filter(({ cut }) => {
+        let speech = 0
+        for (let ms = cut[0] - 300; ms < cut[0]; ms += 10) if (ms >= 0 && loud(ms)) speech += 10
+        return speech < 30
+      })
+      .map(({ it }) => it.key)
+  } finally {
+    decoder.free()
+  }
+}
+
 function readManifest(key) {
   try {
     return JSON.parse(fs.readFileSync(path.join(OUT_DIR, `${key}.json`), 'utf8'))
@@ -200,7 +239,7 @@ async function main() {
 
   const plan = []
   for (const kind of kinds) {
-    toBatches(items[kind]).forEach((batch, i) => {
+    toBatches(items[kind], MAX_ITEMS[kind]).forEach((batch, i) => {
       const { ssml, ranges } = buildSsml(batch, voiceName, RATES[kind])
       const id = `${kind}-${String(i + 1).padStart(3, '0')}`
       const hash = sha(ssml)
@@ -225,6 +264,7 @@ async function main() {
 
   let lastRequest = 0
   let failed = 0
+  const leaked = []
   for (const p of todo) {
     for (let attempt = 1; attempt <= 3; attempt++) {
       const wait = lastRequest + MIN_INTERVAL_MS - Date.now()
@@ -235,6 +275,11 @@ async function main() {
         const cuts = cutItems(p.ranges, boundaries, durationMs)
         const missing = p.batch.filter((_, i) => !cuts[i]).map((it) => it.key)
         if (missing.length) throw new Error(`zamanı bulunamayan öğeler: ${missing.slice(0, 5).join(', ')}`)
+        const leaking = await framesLeaking(audio, p.batch, cuts)
+        if (leaking.length) {
+          leaked.push(...leaking)
+          console.warn(`  ${p.id}: bağlam sözcüğü kesime karışmış olabilir: ${leaking.join(', ')}`)
+        }
 
         const filePath = `vocab/${voiceKey}/${p.id}-${p.hash}.mp3`
         const { error } = await supabase.storage
@@ -262,7 +307,7 @@ async function main() {
   const keys = new Set([...items.words, ...items.examples].map((it) => it.key))
   for (const key of Object.keys(manifest.items)) if (!keys.has(key)) delete manifest.items[key]
   writeManifest(voiceKey, manifest)
-  console.log(`\nBitti. Başarısız grup: ${failed}`)
+  console.log(`\nBitti. Başarısız grup: ${failed}, bağlamı karışmış olabilecek kelime: ${leaked.length}`)
   if (failed) process.exitCode = 1
 }
 
